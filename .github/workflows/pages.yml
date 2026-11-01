@@ -1,0 +1,79 @@
+name: Refresh data and deploy Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Every 15 minutes on weekdays from 07:00 through 21:59 UTC.
+    # That window covers the Xetra open (07:00 UTC in summer, 08:00 UTC in
+    # winter) through the NYSE close (20:00 UTC in summer, 21:00 UTC in winter).
+    - cron: "*/15 7-21 * * 1-5"
+    # One more pass after the winter US close so the closing print lands.
+    - cron: "10 22 * * 1-5"
+    # Weekend passes keep headlines current while markets are shut.
+    - cron: "0 8,13,18 * * 0,6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Check market-hours logic
+        run: node scripts/test-market-hours.mjs
+
+      - name: Fetch quotes and headlines
+        run: python3 scripts/fetch_market_data.py
+
+      - name: Commit refreshed data
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/market.json
+          if git diff --cached --quiet; then
+            echo "market.json unchanged"
+          else
+            git commit -m "Update market data"
+            git push origin HEAD:main
+          fi
+
+      - name: Assemble site
+        run: |
+          rm -rf _site
+          mkdir -p _site/data _site/assets _site/js
+          cp index.html styles.css _site/
+          cp assets/bayer-cross.svg _site/assets/
+          cp js/*.js _site/js/
+          cp data/market.json _site/data/
+          touch _site/.nojekyll
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
