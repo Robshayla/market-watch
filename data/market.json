@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T16:26:55Z",
+  "updatedAt": "2026-11-01T17:23:40Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -306,14 +306,14 @@
   "headlines": {
     "bayer": [
       {
-        "title": "Bayer Shares Rise After Win in First Roundup Trial Since Supreme Court Ruling",
-        "source": "WSJ",
-        "publishedAt": "2026-11-01T15:59:29Z"
-      },
-      {
         "title": "Bayer wins Roundup trial in St. Louis County after U.S. Supreme Court narrows legal claims",
         "source": "The Business Journals",
         "publishedAt": "2026-10-30T14:07:00Z"
+      },
+      {
+        "title": "Bayer Shares Rise After Win in First Roundup Trial Since Supreme Court Ruling",
+        "source": "WSJ",
+        "publishedAt": "2026-10-30T10:50:00Z"
       },
       {
         "title": "Bayer Wins St. Louis Roundup Trial, Bolstering Settlement Push",
@@ -338,36 +338,36 @@
         "publishedAt": "2026-11-01T10:47:00Z"
       },
       {
-        "title": "Walmart to expand health benefits for employees, including $0 prescriptions, rare disease care",
-        "source": "Fierce Healthcare",
-        "publishedAt": "2026-10-14T07:00:00Z"
+        "title": "Walmart Canada launches AI shopping assistant Sparky",
+        "source": "BNN Bloomberg",
+        "publishedAt": "2026-10-30T16:04:38Z"
       },
       {
-        "title": "Walmart to cover some GLP-1s, inhalers and insulin for employees at no cost as it expands benefits",
-        "source": "CNBC",
-        "publishedAt": "2026-10-13T07:00:00Z"
+        "title": "Walmart sees sales slowing in 2022; shares drop",
+        "source": "Reuters",
+        "publishedAt": "2026-10-30T07:00:00Z"
       }
     ],
     "top": [
       {
         "title": "The biggest fight over the future of the Democratic Party is playing out in L.A.",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-01T16:02:15Z"
+        "publishedAt": "2026-11-01T16:56:13Z"
       },
       {
-        "title": "Republicans mount \u2018most aggressive play\u2019 for Black voters in Michigan Senate race",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-01T16:02:11Z"
+        "title": "Trump White House maps path to govern without Congress if Democrats win",
+        "source": "Reuters",
+        "publishedAt": "2026-11-01T16:37:22Z"
+      },
+      {
+        "title": "Michigan Democrats\u2019 unity push falters as Stevens is asked to skip event with El-Sayed",
+        "source": "AP News",
+        "publishedAt": "2026-11-01T16:10:09Z"
       },
       {
         "title": "Did the Peltola Campaign Seal the Fate of Alaska\u2019s Ranked Choice Vote?",
         "source": "The New York Times",
         "publishedAt": "2026-11-01T15:21:05Z"
-      },
-      {
-        "title": "Trump administration promises US farmers $15 billion in weeks before the midterms",
-        "source": "AP News",
-        "publishedAt": "2026-11-01T13:13:00Z"
       }
     ]
   }
