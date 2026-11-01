@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T17:23:40Z",
+  "updatedAt": "2026-11-01T17:45:43Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -333,41 +333,41 @@
         "publishedAt": "2026-11-01T14:13:59Z"
       },
       {
-        "title": "The latest update on the grocery wars is here, with Walmart and Costco gaining ground",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-01T10:47:00Z"
+        "title": "Walmart to expand health benefits for employees, including $0 prescriptions, rare disease care",
+        "source": "Fierce Healthcare",
+        "publishedAt": "2026-10-14T07:00:00Z"
       },
       {
-        "title": "Walmart Canada launches AI shopping assistant Sparky",
-        "source": "BNN Bloomberg",
-        "publishedAt": "2026-10-30T16:04:38Z"
+        "title": "Walmart to cover some GLP-1s, inhalers and insulin for employees at no cost as it expands benefits",
+        "source": "CNBC",
+        "publishedAt": "2026-10-13T07:00:00Z"
       },
       {
-        "title": "Walmart sees sales slowing in 2022; shares drop",
+        "title": "Walmart to offer 250-plus free medications, including GLP-1s, to employees",
         "source": "Reuters",
-        "publishedAt": "2026-10-30T07:00:00Z"
+        "publishedAt": "2026-10-13T07:00:00Z"
       }
     ],
     "top": [
-      {
-        "title": "The biggest fight over the future of the Democratic Party is playing out in L.A.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-01T16:56:13Z"
-      },
       {
         "title": "Trump White House maps path to govern without Congress if Democrats win",
         "source": "Reuters",
         "publishedAt": "2026-11-01T16:37:22Z"
       },
       {
-        "title": "Michigan Democrats\u2019 unity push falters as Stevens is asked to skip event with El-Sayed",
-        "source": "AP News",
-        "publishedAt": "2026-11-01T16:10:09Z"
+        "title": "Alamo no longer appears on Ken Paxton\u2019s tour",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-01T16:32:19Z"
       },
       {
         "title": "Did the Peltola Campaign Seal the Fate of Alaska\u2019s Ranked Choice Vote?",
         "source": "The New York Times",
         "publishedAt": "2026-11-01T15:21:05Z"
+      },
+      {
+        "title": "Michigan Democrats\u2019 unity push falters as Stevens is asked to skip event with El-Sayed",
+        "source": "AP News",
+        "publishedAt": "2026-11-01T15:07:00Z"
       }
     ]
   },
