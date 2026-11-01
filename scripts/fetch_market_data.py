@@ -9,6 +9,7 @@ failure the previous good value for that symbol is kept.
 
 from __future__ import annotations
 
+import html as html_lib
 import json
 import re
 import sys
@@ -17,7 +18,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -443,6 +444,138 @@ def headlines_for(bucket: str, urls: list[str]) -> list[dict]:
     return chosen
 
 
+FIGURE_LABELS = (
+    ("ebitda before special items", "EBITDA before special items"),
+    ("core earnings per share", "Core earnings per share"),
+    ("group sales", "Group sales"),
+)
+
+
+def parse_release_figures(html: str, year: str) -> list[dict] | None:
+    """Return labeled figures only when the event year sits beside the amount.
+
+    One match is not enough. A page that only restates an older year is ignored.
+    """
+    if not html or not year:
+        return None
+    text = re.sub(r"<[^>]+>", " ", html)
+    text = html_lib.unescape(text)
+    text = re.sub(r"\s+", " ", text)
+    found: list[tuple[int, dict]] = []
+    seen: set[str] = set()
+    for needle, label in FIGURE_LABELS:
+        for match in re.finditer(re.escape(needle), text, re.I):
+            window = text[match.end() : match.end() + 160]
+            context = text[max(0, match.start() - 24) : match.end() + 160]
+            if year not in context:
+                continue
+            amount = re.search(
+                r"([€$])\s*([0-9]+(?:[.,][0-9]+)?)\s*(billion|million)?",
+                window,
+                re.I,
+            )
+            if not amount or label in seen:
+                continue
+            unit = f" {amount.group(3).lower()}" if amount.group(3) else ""
+            seen.add(label)
+            found.append(
+                (
+                    match.start(),
+                    {"label": label, "value": f"{amount.group(1)}{amount.group(2)}{unit}"},
+                )
+            )
+            break
+    if len(found) < 2:
+        return None
+    found.sort(key=lambda row: row[0])
+    return [row[1] for row in found]
+
+
+def load_events() -> list[dict]:
+    path = ROOT / "data" / "events.json"
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"events.json skipped: {exc}", file=sys.stderr)
+        return []
+    events = payload.get("events") if isinstance(payload, dict) else None
+    return events if isinstance(events, list) else []
+
+
+def _event_instant(value: str) -> datetime:
+    return datetime.fromisoformat(value.replace("Z", "+00:00"))
+
+
+def collect_release_headlines(event: dict, previous: list[dict]) -> list[dict]:
+    spec = event.get("headlines") or {}
+    feeds = spec.get("feeds") or []
+    require = [word.lower() for word in spec.get("require") or []]
+    any_of = [word.lower() for word in spec.get("any") or []]
+    try:
+        start = _event_instant(event["releaseAt"]) - timedelta(hours=2)
+        finish = _event_instant(event["hideAfter"])
+    except (KeyError, ValueError) as exc:
+        print(f"release window skipped: {exc}", file=sys.stderr)
+        return []
+    collected: list[dict] = []
+    fetched = False
+    for url in feeds:
+        try:
+            collected.extend(parse_feed(url))
+            fetched = True
+        except Exception as exc:  # noqa: BLE001
+            print(f"release feed failed {url}: {exc}", file=sys.stderr)
+    if not fetched:
+        return [row for row in previous if row.get("eventId") == event.get("id")]
+    chosen: list[dict] = []
+    seen: set[str] = set()
+    for item in sorted(collected, key=lambda row: row["_when"], reverse=True):
+        when = item["_when"]
+        if when < start or when > finish:
+            continue
+        blob = f"{item['title']} {item['source']}".lower()
+        if any(word not in blob for word in require):
+            continue
+        if any_of and not any(word in blob for word in any_of):
+            continue
+        if SPORTS.search(item["title"]) or GRAPHIC.search(item["title"]):
+            continue
+        key = re.sub(r"[^a-z0-9]+", " ", item["title"].lower()).strip()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        chosen.append(
+            {
+                "eventId": event["id"],
+                "title": item["title"],
+                "source": item["source"] or "Bayer",
+                "publishedAt": item["publishedAt"],
+                "release": True,
+            }
+        )
+        if len(chosen) == 4:
+            break
+    return chosen
+
+
+def collect_release_figures(event: dict, previous: dict | None) -> dict | None:
+    url = event.get("figuresPage") or ""
+    year = str(event.get("figuresYear") or "")
+    if "bayer.com" not in url or not year:
+        return None
+    try:
+        html = fetch_bytes(url, "text/html").decode("utf-8", "replace")
+    except Exception as exc:  # noqa: BLE001
+        print(f"figures page skipped: {exc}", file=sys.stderr)
+        return previous
+    parsed = parse_release_figures(html, year)
+    if not parsed:
+        print(f"no parseable figures for {event.get('id')}")
+        return None
+    print(f"figures {event.get('id')}: " + ", ".join(row["label"] for row in parsed))
+    return {"source": url, "items": parsed}
+
+
 def load_previous() -> dict | None:
     try:
         return json.loads(OUT.read_text(encoding="utf-8"))
@@ -524,6 +657,18 @@ def main() -> int:
             headlines[bucket] = []
         print(f"headlines {bucket}={len(headlines[bucket])}")
 
+    releases: list[dict] = []
+    release_figures: dict = {}
+    previous_releases = previous.get("releases") or []
+    previous_figures = previous.get("releaseFigures") or {}
+    for event in load_events():
+        event_id = event.get("id")
+        releases.extend(collect_release_headlines(event, previous_releases))
+        figures = collect_release_figures(event, previous_figures.get(event_id))
+        if figures:
+            release_figures[event_id] = figures
+        print(f"release {event_id} headlines={sum(1 for row in releases if row.get('eventId') == event_id)}")
+
     payload = {
         "updatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "delayNote": "Quotes delayed 15 min",
@@ -532,6 +677,8 @@ def main() -> int:
         "quotes": quotes,
         "ticker": ticker,
         "headlines": headlines,
+        "releases": releases,
+        "releaseFigures": release_figures,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")

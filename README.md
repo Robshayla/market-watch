@@ -23,6 +23,8 @@ A GitHub Actions workflow fetches everything with no API keys and deploys the si
 
 The workflow runs every 15 minutes on weekdays from 07:00 to 21:59 UTC, once more after the US close, and three times a day on weekends. You can also run it by hand from the Actions tab (`Refresh data and deploy Pages`).
 
+Office events live in `data/events.json`. The Q3 2026 entry counts down to the Nov 3, 7:30 a.m. CET release, then switches to a results-out banner through the end of Nov 4 CET. Add `?preview=before` or `?preview=after` to the page URL to photograph either state. A numbers strip appears only when the refresh job can read at least two labeled figures from the Bayer page for that year. Otherwise the board stays on headlines.
+
 GitHub Pages may cache `data/market.json` for several minutes. Together with the quote delay, the board can lag the tape by roughly 15–30 minutes. That is expected.
 
 ## Fire TV Stick
