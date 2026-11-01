@@ -31,10 +31,10 @@ GitHub Pages may cache `data/market.json` for several minutes. Together with the
 2. Set the start URL to `https://robshayla.github.io/market-watch/`.
 3. Turn on kiosk mode and launch on boot. Turn off the Fully Kiosk screensaver and the Fire TV screensaver (Settings → Display & Sounds → Screensaver, or Device & Software).
 4. Leave Fully’s own page reload off. The page already polls every minute and reloads overnight.
-5. On the television, set the picture size to **Just Scan**, **Screen Fit**, or **Full Pixel** so the clocks are not cropped.
+5. On the television, set the picture size to **Just Scan**, **Screen Fit**, or **Full Pixel**. The page also keeps a 3% margin on every edge so a set with overscan does not crop the clocks or the ticker.
 6. The layout is drawn at 1920×1080 and scaled to fit, so a 720p stick shows the same composition.
 
-The Bayer Cross is the official mark from [Wikimedia Commons, File:Logo Bayer.svg](https://commons.wikimedia.org/wiki/File:Logo_Bayer.svg) (SHA1 `4f762bd22dbc670970bc3b5f7747145698c3d740`). It is a Bayer trademark. This display uses the white one-color treatment on a dark background for an internal office screen. Do not reuse the logo for anything else without Bayer’s trademark approval.
+The Bayer Cross is the official mark from [Wikimedia Commons, File:Logo Bayer.svg](https://commons.wikimedia.org/wiki/File:Logo_Bayer.svg) (SHA1 `4f762bd22dbc670970bc3b5f7747145698c3d740`). It is a Bayer trademark. This display uses the white one-color treatment on a dark background for an internal office screen. The Walmart tile uses the 2025 Spark from [Wikimedia Commons, File:Walmart spark (2025).svg](https://commons.wikimedia.org/wiki/File:Walmart_spark_(2025).svg) (SHA1 `aa71537bd10acd4b430dca7d77a429cdbe90c079`), in Spark Yellow. Both marks are trademarks. Do not reuse them for anything else without the owner’s approval.
 
 ## One-time setup for the repo owner
 
