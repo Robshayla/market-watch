@@ -22,7 +22,11 @@
     wmt: document.querySelector('[data-quote="wmt"]'),
   };
 
+  var eventEl = document.getElementById("event");
   var data = null;
+  var eventsConfig = { events: [] };
+  var eventModel = null;
+  var eventSignature = "";
   var tab = initialTab();
   var rotateTimer = 0;
   var fadeToken = 0;
@@ -287,6 +291,225 @@
     return MONTHS[local.month - 1] + " " + local.day + ", " + clock;
   }
 
+  function readPreview() {
+    try {
+      var value = new URLSearchParams(location.search).get("preview");
+      if (value === "before" || value === "after") return value;
+    } catch (err) {
+      return "";
+    }
+    return "";
+  }
+
+  function currentEvent(realNow) {
+    var preview = readPreview();
+    var list = eventsConfig.events || [];
+    for (var i = 0; i < list.length; i++) {
+      var item = list[i];
+      var now = Events.previewNow(item, preview, realNow);
+      var state = Events.phase(item, now);
+      if (state === "hidden") continue;
+      return {
+        event: item,
+        now: now,
+        phase: state,
+        highlight: Events.highlightOn(item, now),
+      };
+    }
+    return null;
+  }
+
+  function figuresFor(id) {
+    var block = data && data.releaseFigures && data.releaseFigures[id];
+    if (!block || !block.items || block.items.length < 2) return null;
+    var clean = [];
+    for (var i = 0; i < block.items.length && clean.length < 3; i++) {
+      var item = block.items[i];
+      if (!item || !item.label || !/^[€$][0-9]/.test(String(item.value || ""))) continue;
+      clean.push({ label: String(item.label), value: String(item.value) });
+    }
+    return clean.length >= 2 ? { items: clean } : null;
+  }
+
+  function countUnit(id, unitId, caption) {
+    var cell = document.createElement("div");
+    cell.className = "count-unit";
+    cell.id = unitId;
+    var value = document.createElement("b");
+    value.id = id;
+    value.textContent = "00";
+    var label = document.createElement("span");
+    label.textContent = caption;
+    cell.appendChild(value);
+    cell.appendChild(label);
+    return cell;
+  }
+
+  function buildEvent(model) {
+    var item = model.event;
+    eventEl.classList.add("is-on");
+    eventEl.classList.toggle("is-after", model.phase === "after");
+    eventEl.replaceChildren();
+
+    var mark = document.createElement("img");
+    mark.className = "event-mark";
+    mark.src = "assets/bayer-cross.svg";
+    mark.alt = "";
+
+    var copy = document.createElement("div");
+    copy.className = "event-copy";
+    var heading = document.createElement("div");
+    heading.className = "event-title";
+    heading.textContent = model.phase === "after" ? item.outTitle : item.title;
+    var sub = document.createElement("div");
+    sub.className = "event-sub";
+    sub.textContent = Events.dateLabel(item.releaseAt, item.timezone || "Europe/Berlin") + "  ·  " + (item.sourceLabel || "");
+    var lines = document.createElement("div");
+    lines.className = "event-lines";
+    var moments = item.moments || [];
+    for (var i = 0; i < moments.length; i++) {
+      var row = document.createElement("div");
+      row.className = "event-line";
+      var kicker = document.createElement("span");
+      kicker.className = "event-kicker";
+      kicker.textContent = moments[i].label;
+      var when = document.createElement("span");
+      when.textContent = Events.formatZoneLine(Events.zoneTimes(moments[i].at, item.clocks));
+      row.appendChild(kicker);
+      row.appendChild(when);
+      if (moments[i].detail) {
+        var detail = document.createElement("span");
+        detail.className = "event-detail";
+        detail.textContent = "·  " + moments[i].detail;
+        row.appendChild(detail);
+      }
+      lines.appendChild(row);
+    }
+    var figures = figuresFor(item.id);
+    if (figures) {
+      var figRow = document.createElement("div");
+      figRow.className = "event-figures";
+      for (var f = 0; f < figures.items.length; f++) {
+        var cell = document.createElement("span");
+        var figLabel = document.createElement("span");
+        figLabel.className = "fig-label";
+        figLabel.textContent = figures.items[f].label;
+        var figValue = document.createElement("span");
+        figValue.className = "fig-value";
+        figValue.textContent = figures.items[f].value;
+        cell.appendChild(figLabel);
+        cell.appendChild(figValue);
+        figRow.appendChild(cell);
+      }
+      lines.appendChild(figRow);
+    }
+    copy.appendChild(heading);
+    copy.appendChild(sub);
+    copy.appendChild(lines);
+
+    var count = document.createElement("div");
+    count.className = "event-count";
+    count.id = "event-count";
+    var countLabel = document.createElement("div");
+    countLabel.className = "count-label";
+    countLabel.id = "cd-label";
+    var units = document.createElement("div");
+    units.className = "count-units";
+    units.id = "count-units";
+    units.appendChild(countUnit("cd-d", "cd-days", "days"));
+    units.appendChild(countUnit("cd-h", "cd-hours", "hrs"));
+    units.appendChild(countUnit("cd-m", "cd-mins", "min"));
+    units.appendChild(countUnit("cd-s", "cd-secs", "sec"));
+    count.appendChild(countLabel);
+    count.appendChild(units);
+
+    eventEl.appendChild(mark);
+    eventEl.appendChild(copy);
+    eventEl.appendChild(count);
+  }
+
+  function updateCountdown(model) {
+    var labelEl = document.getElementById("cd-label");
+    var units = document.getElementById("count-units");
+    if (!labelEl || !units) return;
+    var target = null;
+    var label = "Release in";
+    if (model.phase === "before") {
+      target = Date.parse(model.event.releaseAt);
+    } else {
+      var next = Events.nextMoment(model.event, model.now);
+      if (next) {
+        target = next.at;
+        label = next.moment.label + " in";
+      }
+    }
+    if (!target || !isFinite(target)) {
+      labelEl.textContent = "Published";
+      units.hidden = true;
+      return;
+    }
+    units.hidden = false;
+    var left = Events.countdown(target, model.now.getTime());
+    labelEl.textContent = label;
+    document.getElementById("cd-d").textContent = String(left.days);
+    document.getElementById("cd-h").textContent = Events.pad(left.hours);
+    document.getElementById("cd-m").textContent = Events.pad(left.mins);
+    document.getElementById("cd-s").textContent = Events.pad(left.secs);
+    document.getElementById("cd-days").hidden = left.days === 0;
+  }
+
+  function paintEvent(realNow) {
+    var model = null;
+    try {
+      model = currentEvent(realNow || new Date());
+    } catch (err) {
+      model = null;
+    }
+    eventModel = model;
+    stage.classList.toggle("has-event", !!model);
+    var symbols = model && model.highlight && model.event.highlightSymbols ? model.event.highlightSymbols : [];
+    Object.keys(cards).forEach(function (id) {
+      cards[id].classList.toggle("event-focus", symbols.indexOf(id) >= 0);
+    });
+    if (!model) {
+      eventEl.classList.remove("is-on");
+      eventSignature = "";
+      return;
+    }
+    var signature = model.phase + "|" + model.event.id + "|" + (model.highlight ? "1" : "0");
+    var moments = model.event.moments || [];
+    for (var i = 0; i < moments.length; i++) {
+      signature += "|" + Events.formatZoneLine(Events.zoneTimes(moments[i].at, model.event.clocks));
+    }
+    var figures = figuresFor(model.event.id);
+    signature += figures ? "|" + figures.items.length : "|0";
+    if (signature !== eventSignature) {
+      eventSignature = signature;
+      buildEvent(model);
+    }
+    updateCountdown(model);
+  }
+
+  function bayerItems(items) {
+    if (!eventModel || eventModel.phase !== "after" || tab !== "bayer") return items;
+    var releases = (data && data.releases) || [];
+    var pinned = [];
+    for (var i = 0; i < releases.length; i++) {
+      if (releases[i].eventId === eventModel.event.id) pinned.push(releases[i]);
+    }
+    if (!pinned.length) return items;
+    var seen = {};
+    var merged = [];
+    var all = pinned.concat(items);
+    for (var n = 0; n < all.length; n++) {
+      var key = String(all[n].title || "").toLowerCase();
+      if (!key || seen[key]) continue;
+      seen[key] = true;
+      merged.push(all[n]);
+    }
+    return merged;
+  }
+
   function paintHeadlines(now) {
     title.textContent = "HEADLINES · " + (TAB_NAME[tab] || "BAYER");
     for (var b = 0; b < tabButtons.length; b++) {
@@ -294,7 +517,8 @@
       tabButtons[b].classList.toggle("active", active);
       tabButtons[b].setAttribute("aria-selected", active ? "true" : "false");
     }
-    var items = data && data.headlines && data.headlines[tab] ? data.headlines[tab] : [];
+    var items = data && data.headlines && data.headlines[tab] ? data.headlines[tab].slice() : [];
+    items = bayerItems(items);
     list.replaceChildren();
     if (!items.length) {
       var empty = document.createElement("li");
@@ -314,11 +538,24 @@
       text.textContent = item.title || "";
       var meta = document.createElement("span");
       meta.className = "hl-meta";
+      if (item.release) li.classList.add("is-release");
       var bits = [];
+      if (item.release) bits.push("RELEASE");
       if (item.source) bits.push(String(item.source).toUpperCase());
       var when = item.publishedAt ? headlineWhen(item.publishedAt, now) : "";
       if (when) bits.push(when);
-      meta.textContent = bits.join(" · ");
+      meta.replaceChildren();
+      for (var m = 0; m < bits.length; m++) {
+        if (m) meta.appendChild(document.createTextNode(" · "));
+        if (item.release && bits[m] === "RELEASE") {
+          var tag = document.createElement("span");
+          tag.className = "release-tag";
+          tag.textContent = "RELEASE";
+          meta.appendChild(tag);
+        } else {
+          meta.appendChild(document.createTextNode(bits[m]));
+        }
+      }
       li.appendChild(bullet);
       li.appendChild(text);
       li.appendChild(meta);
@@ -346,6 +583,7 @@
     paintQuote("bayry", data && data.quotes && data.quotes.bayry);
     paintQuote("wmt", data && data.quotes && data.quotes.wmt);
     paintTicker();
+    paintEvent(now);
     paintHeadlines(now);
     paintStatus(stale);
   }
@@ -390,6 +628,21 @@
     }
   }
 
+  function loadEvents() {
+    return fetch("data/events.json?ts=" + Math.floor(Date.now() / 60000), { cache: "no-store" })
+      .then(function (res) {
+        if (!res.ok) throw new Error(String(res.status));
+        return res.json();
+      })
+      .then(function (cfg) {
+        eventsConfig = cfg && cfg.events ? cfg : { events: [] };
+        paintEvent(new Date());
+      })
+      .catch(function () {
+        paintEvent(new Date());
+      });
+  }
+
   function refresh() {
     var url = "data/market.json?ts=" + Math.floor(Date.now() / 60000);
     return fetch(url, { cache: "no-store" })
@@ -401,6 +654,7 @@
         if (!payload || !payload.quotes || !payload.quotes.bayn) throw new Error("shape");
         writeStore(payload);
         applyPayload(payload, false);
+        return loadEvents();
       })
       .catch(function () {
         var cached = data || readStore();
@@ -412,6 +666,7 @@
     var now = new Date();
     try {
       paintClocks(now);
+      paintEvent(now);
       if (MarketHours.shouldNightlyReload(now, localStorage.getItem(RELOAD_KEY) || "")) {
         localStorage.setItem(RELOAD_KEY, MarketHours.parts(now, "America/New_York").key);
         location.reload();
@@ -435,6 +690,7 @@
   fit();
   stage.classList.add("ready");
   applyPayload(readStore(), false);
+  loadEvents();
   refresh();
   armRotation();
   tick();

@@ -1,0 +1,45 @@
+{
+  "events": [
+    {
+      "id": "bayer-q3-2026",
+      "title": "Bayer Q3 2026 Results",
+      "outTitle": "Bayer Q3 Results Out",
+      "releaseAt": "2026-11-03T06:30:00Z",
+      "hideAfter": "2026-11-04T23:00:00Z",
+      "timezone": "Europe/Berlin",
+      "highlightSymbols": ["bayn", "bayry"],
+      "sourceUrl": "https://www.bayer.com/en/about-us/events/2026-11-03-media-update",
+      "sourceLabel": "bayer.com",
+      "clocks": [
+        { "timeZone": "America/New_York", "label": "ET" },
+        { "timeZone": "America/Chicago", "label": "CT" },
+        { "timeZone": "Europe/Berlin", "label": "CET" },
+        { "timeZone": "Europe/Zurich", "label": "Zurich" }
+      ],
+      "moments": [
+        {
+          "id": "release",
+          "label": "Release",
+          "detail": "News release and quarterly statement",
+          "at": "2026-11-03T06:30:00Z"
+        },
+        {
+          "id": "media",
+          "label": "Media update",
+          "detail": "Bill Anderson and Dr. Judith Hartmann",
+          "at": "2026-11-03T09:00:00Z"
+        }
+      ],
+      "headlines": {
+        "feeds": [
+          "https://www.bayer.com/media/tagfeed/de/tags/investor-news",
+          "https://news.google.com/rss/search?q=Bayer+%22Q3+2026%22+OR+%22Quarterly+Statement%22+OR+%22third-quarter+2026%22&hl=en-US&gl=US&ceid=US:en"
+        ],
+        "require": ["bayer"],
+        "any": ["q3 2026", "quarterly statement", "third-quarter 2026", "third quarter 2026"]
+      },
+      "figuresPage": "https://www.bayer.com/en/about-us/events/2026-11-03-media-update",
+      "figuresYear": "2026"
+    }
+  ]
+}
