@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T17:45:43Z",
+  "updatedAt": "2026-11-01T18:37:18Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -279,8 +279,8 @@
       "symbol": "^DJI",
       "name": "DOW",
       "price": 51770.31,
-      "change": -572.25,
-      "changePct": -1.0933,
+      "change": -572.29,
+      "changePct": -1.0934,
       "digits": 2,
       "asOf": "2026-10-30T20:47:53Z"
     },
@@ -288,8 +288,8 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "price": 25818.21,
-      "change": -221.47,
-      "changePct": -0.8505,
+      "change": -221.49,
+      "changePct": -0.8506,
       "digits": 2,
       "asOf": "2026-10-30T17:00:00Z"
     },
@@ -333,6 +333,11 @@
         "publishedAt": "2026-11-01T14:13:59Z"
       },
       {
+        "title": "The latest update on the grocery wars is here, with Walmart and Costco gaining ground",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-01T10:47:00Z"
+      },
+      {
         "title": "Walmart to expand health benefits for employees, including $0 prescriptions, rare disease care",
         "source": "Fierce Healthcare",
         "publishedAt": "2026-10-14T07:00:00Z"
@@ -341,33 +346,28 @@
         "title": "Walmart to cover some GLP-1s, inhalers and insulin for employees at no cost as it expands benefits",
         "source": "CNBC",
         "publishedAt": "2026-10-13T07:00:00Z"
-      },
-      {
-        "title": "Walmart to offer 250-plus free medications, including GLP-1s, to employees",
-        "source": "Reuters",
-        "publishedAt": "2026-10-13T07:00:00Z"
       }
     ],
     "top": [
       {
         "title": "Trump White House maps path to govern without Congress if Democrats win",
         "source": "Reuters",
-        "publishedAt": "2026-11-01T16:37:22Z"
+        "publishedAt": "2026-11-01T18:01:24Z"
       },
       {
-        "title": "Alamo no longer appears on Ken Paxton\u2019s tour",
+        "title": "We talked to voters in six battleground states about the rising cost of living",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-01T16:32:19Z"
+        "publishedAt": "2026-11-01T17:00:00Z"
+      },
+      {
+        "title": "The biggest fight over the future of the Democratic Party is playing out in L.A.",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-01T16:02:15Z"
       },
       {
         "title": "Did the Peltola Campaign Seal the Fate of Alaska\u2019s Ranked Choice Vote?",
         "source": "The New York Times",
         "publishedAt": "2026-11-01T15:21:05Z"
-      },
-      {
-        "title": "Michigan Democrats\u2019 unity push falters as Stevens is asked to skip event with El-Sayed",
-        "source": "AP News",
-        "publishedAt": "2026-11-01T15:07:00Z"
       }
     ]
   },
