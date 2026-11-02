@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-02T17:50:00Z",
+  "updatedAt": "2026-11-02T18:45:55Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 126.81 matched",
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1208",
+    "Nasdaq last sale 127.11 matched",
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1198",
     "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
@@ -117,7 +117,7 @@
       "previousClose": 13.99,
       "change": -0.05,
       "changePct": -0.3574,
-      "asOf": "2026-11-02T17:23:58Z",
+      "asOf": "2026-11-02T18:05:07Z",
       "digits": 2,
       "sparkline": [
         13.96,
@@ -146,6 +146,11 @@
         13.95,
         13.94,
         13.95,
+        13.94,
+        13.94,
+        13.93,
+        13.92,
+        13.94,
         13.94
       ],
       "sessionDate": "2026-11-02"
@@ -157,11 +162,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.8,
+      "price": 127.11,
       "previousClose": 123.51,
-      "change": 3.29,
-      "changePct": 2.6638,
-      "asOf": "2026-11-02T17:49:40Z",
+      "change": 3.6,
+      "changePct": 2.9147,
+      "asOf": "2026-11-02T18:45:37Z",
       "digits": 2,
       "sparkline": [
         125.06,
@@ -203,8 +208,19 @@
         126.7651,
         126.6,
         126.775,
-        126.835,
-        126.8
+        126.815,
+        126.8377,
+        126.83,
+        126.89,
+        126.935,
+        127.005,
+        126.9,
+        126.895,
+        126.98,
+        127.035,
+        127.09,
+        127.13,
+        127.11
       ],
       "sessionDate": "2026-11-02"
     }
@@ -213,20 +229,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7599.28,
-      "change": 19.21,
-      "changePct": 0.2534,
+      "price": 7599.24,
+      "change": 19.17,
+      "changePct": 0.2529,
       "digits": 2,
-      "asOf": "2026-11-02T17:49:47Z"
+      "asOf": "2026-11-02T18:45:34Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52218.07,
-      "change": 447.76,
-      "changePct": 0.8649,
+      "price": 52256.63,
+      "change": 486.32,
+      "changePct": 0.9394,
       "digits": 2,
-      "asOf": "2026-11-02T17:49:46Z"
+      "asOf": "2026-11-02T18:45:42Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -240,11 +256,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1208,
-      "change": 0.0042,
-      "changePct": 0.3761,
+      "price": 1.1198,
+      "change": 0.0032,
+      "changePct": 0.2866,
       "digits": 4,
-      "asOf": "2026-11-02T17:49:28Z"
+      "asOf": "2026-11-02T18:45:29Z"
     }
   },
   "headlines": {
@@ -296,22 +312,22 @@
       {
         "title": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve",
         "source": "The New York Times",
-        "publishedAt": "2026-11-02T17:34:07Z"
+        "publishedAt": "2026-11-02T18:40:30Z"
       },
       {
-        "title": "In an Alaska fishing community, the Dan Sullivan episode takes an ominous turn as FBI comes knocking",
+        "title": "El-Sayed campaign reports $2.4 million fundraising day as Stevens endorses GOP rival",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-02T18:32:17Z"
+      },
+      {
+        "title": "Prosecutors indicate plan to retry Lindsay Clancy for deaths of her three children",
+        "source": "BBC",
+        "publishedAt": "2026-11-02T17:55:19Z"
+      },
+      {
+        "title": "Judge cites 'weaponization' in tossing charges for ex-FBI agents accused of lying about Hunter Biden",
         "source": "AP News",
-        "publishedAt": "2026-11-02T17:15:00Z"
-      },
-      {
-        "title": "DOJ asks Supreme Court to block California counting disputed mail-in ballots",
-        "source": "CNBC",
-        "publishedAt": "2026-11-02T16:34:43Z"
-      },
-      {
-        "title": "Inside the Abdul El-Sayed-Haley Stevens Meltdown in Michigan",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-02T15:02:00Z"
+        "publishedAt": "2026-11-02T17:55:00Z"
       }
     ]
   },
