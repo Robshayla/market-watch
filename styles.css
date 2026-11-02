@@ -848,3 +848,85 @@ footer {
 .up { color: var(--green); }
 .down { color: var(--red); }
 .flat { color: var(--flat); }
+
+/* Full-screen control. Out of flow, parked in the empty top-right corner
+   beside the clocks. The glyph is small; the hit target is the whole control. */
+.fs-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 40;
+  /* Right-hand strip in the empty margin beside Basel, plus a top arm
+     that stays above the city names. Neither covers clock text. */
+  width: 104px;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
+  color: #f4f8fb;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  opacity: 0.38;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.fs-toggle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 156px;
+  height: 52px;
+}
+
+.fs-toggle svg {
+  position: absolute;
+  top: 36px;
+  right: 60px;
+  width: 32px;
+  height: 32px;
+  display: block;
+  pointer-events: none;
+}
+
+.fs-toggle .fs-exit { display: none; }
+
+.fs-toggle[aria-pressed="true"] .fs-enter { display: none; }
+.fs-toggle[aria-pressed="true"] .fs-exit { display: block; }
+
+.fs-toggle:hover,
+.fs-toggle:focus,
+.fs-toggle:focus-visible {
+  opacity: 1;
+  outline: none;
+}
+
+.fs-toggle:focus-visible svg,
+.fs-toggle:focus svg {
+  outline: 2px solid rgba(244, 248, 251, 0.9);
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
+html.is-fullscreen .fs-toggle,
+html:fullscreen .fs-toggle,
+html:-webkit-full-screen .fs-toggle {
+  opacity: 0.05;
+}
+
+html.is-fullscreen .fs-toggle:hover,
+html.is-fullscreen .fs-toggle:focus,
+html.is-fullscreen .fs-toggle:focus-visible,
+html:fullscreen .fs-toggle:hover,
+html:fullscreen .fs-toggle:focus,
+html:fullscreen .fs-toggle:focus-visible,
+html:-webkit-full-screen .fs-toggle:hover,
+html:-webkit-full-screen .fs-toggle:focus,
+html:-webkit-full-screen .fs-toggle:focus-visible {
+  opacity: 0.95;
+}
