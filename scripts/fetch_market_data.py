@@ -219,7 +219,7 @@ def session_sparkline(result: dict, open_min: int, close_min: int, price: float)
         minute = local.hour * 60 + local.minute
         by_day.setdefault(local.date().isoformat(), []).append((minute, float(close)))
     if not by_day:
-        return []
+        return [], ""
     day = sorted(by_day)[-1]
     regular = [value for minute, value in by_day[day] if open_min <= minute < close_min]
     series = regular if len(regular) >= 8 else [value for _, value in by_day[day]]
@@ -227,13 +227,13 @@ def session_sparkline(result: dict, open_min: int, close_min: int, price: float)
         step = len(series) / 80
         series = [series[int(i * step)] for i in range(80)]
     if not series:
-        return []
+        return [], day
     midpoint = series[len(series) // 2]
     if price and abs(midpoint - price) / price > 0.15:
         raise ValueError("sparkline disagrees with the last price")
     if price and abs(series[-1] - price) > 0.02:
         series.append(price)
-    return [round(value, 4) for value in series]
+    return [round(value, 4) for value in series], day
 
 
 def build_quote(spec: dict) -> dict:
@@ -283,10 +283,51 @@ def build_quote(spec: dict) -> dict:
         "digits": spec["digits"],
     }
     if "open_min" in spec:
-        payload["sparkline"] = session_sparkline(result, spec["open_min"], spec["close_min"], price)
-        if len(payload["sparkline"]) < 8:
+        series, session_day = session_sparkline(result, spec["open_min"], spec["close_min"], price)
+        if len(series) < 8:
             raise ValueError("sparkline too short")
+        payload["sparkline"] = series
+        payload["sessionDate"] = session_day
     return payload
+
+
+def fetch_daily_closes(symbol: str) -> list[dict]:
+    quoted = urllib.parse.quote(symbol)
+    last = None
+    data = None
+    for host in HOSTS:
+        url = (
+            f"https://{host}/v8/finance/chart/{quoted}"
+            "?range=15d&interval=1d&includePrePost=false"
+        )
+        try:
+            data = fetch_json(url)
+            break
+        except Exception as exc:  # noqa: BLE001
+            last = exc
+            data = None
+    if not data:
+        raise RuntimeError(last)
+    result = (data.get("chart") or {}).get("result") or []
+    if not result:
+        raise RuntimeError("empty daily chart")
+    meta = result[0]["meta"]
+    zone = ZoneInfo(meta.get("exchangeTimezoneName") or "UTC")
+    stamps = result[0].get("timestamp") or []
+    closes = (result[0].get("indicators") or {}).get("quote", [{}])[0].get("close") or []
+    rows = []
+    seen = set()
+    for stamp, close in zip(stamps, closes):
+        if close is None:
+            continue
+        day = datetime.fromtimestamp(stamp, zone).date().isoformat()
+        if day in seen:
+            continue
+        seen.add(day)
+        rows.append({"date": day, "close": round(float(close), 4)})
+    if not rows:
+        raise RuntimeError("no daily closes")
+    return rows
 
 
 def nasdaq_last(symbol: str) -> float:
@@ -669,6 +710,14 @@ def main() -> int:
             release_figures[event_id] = figures
         print(f"release {event_id} headlines={sum(1 for row in releases if row.get('eventId') == event_id)}")
 
+    daily_closes = dict(previous.get("dailyCloses") or {})
+    for key, symbol in (("bayn", "BAYN.DE"), ("bayry", "BAYRY"), ("dax", "^GDAXI")):
+        try:
+            daily_closes[key] = fetch_daily_closes(symbol)
+            print(f"daily {symbol} " + ", ".join(f"{row['date']}={row['close']}" for row in daily_closes[key][-4:]))
+        except Exception as exc:  # noqa: BLE001
+            print(f"daily closes skipped {symbol}: {exc}", file=sys.stderr)
+
     payload = {
         "updatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "delayNote": "Quotes delayed 15 min",
@@ -679,6 +728,7 @@ def main() -> int:
         "headlines": headlines,
         "releases": releases,
         "releaseFigures": release_figures,
+        "dailyCloses": daily_closes,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")

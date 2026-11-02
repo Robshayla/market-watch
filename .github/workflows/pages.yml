@@ -59,7 +59,7 @@ jobs:
           cp index.html styles.css _site/
           cp assets/*.svg _site/assets/
           cp js/*.js _site/js/
-          cp data/market.json data/events.json _site/data/
+          cp data/market.json data/events.json data/earnings_q3_2026.json _site/data/
           touch _site/.nojekyll
 
       - name: Setup Pages

@@ -25,6 +25,8 @@ The workflow runs every 15 minutes on weekdays from 07:00 to 21:59 UTC, once mor
 
 Office events live in `data/events.json`. The Q3 2026 entry counts down to the Nov 3, 7:30 a.m. CET release, then switches to a results-out banner through the end of Nov 4 CET. Add `?preview=before` or `?preview=after` to the page URL to photograph either state. A numbers strip appears only when the refresh job can read at least two labeled figures from the Bayer page for that year. Otherwise the board stays on headlines.
 
+Two extra screens stay off until you turn them on. In the Q3 event set `showResults` and `showReaction` to `true`. Results copy is typed into `data/earnings_q3_2026.json`: set `ready` to `true` and fill `group` (sales, salesCpa, ebitda, ebitdaChange, margin, coreEps, coreEpsChange, guidance) plus each division's sales, salesCpa, ebitda, ebitdaChange, and bullets. The stock-reaction screen uses the fetched Nov 2 Xetra close (`referenceDate`) and leaves a dash where that close is missing. `?preview=results`, `?preview=reaction`, and `?preview=rotation` show the screens without flipping the switches.
+
 GitHub Pages may cache `data/market.json` for several minutes. Together with the quote delay, the board can lag the tape by roughly 15–30 minutes. That is expected.
 
 ## Fire TV Stick
