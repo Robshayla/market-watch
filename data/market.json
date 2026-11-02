@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-02T10:37:12Z",
+  "updatedAt": "2026-11-02T11:32:14Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1172 on 2026-10-30 vs Yahoo spot 1.1211",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "ECB reference 1.1172 on 2026-10-30 vs Yahoo spot 1.1215",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 49.74,
+      "price": 49.91,
       "previousClose": 50.58,
-      "change": -0.84,
-      "changePct": -1.6607,
-      "asOf": "2026-11-02T10:20:04Z",
+      "change": -0.67,
+      "changePct": -1.3246,
+      "asOf": "2026-11-02T11:16:33Z",
       "digits": 2,
       "sparkline": [
         49.79,
@@ -49,7 +49,19 @@
         49.67,
         49.72,
         49.73,
-        49.74
+        49.76,
+        49.81,
+        49.87,
+        49.9,
+        49.91,
+        49.89,
+        49.82,
+        49.85,
+        49.83,
+        49.84,
+        49.9,
+        49.91,
+        49.91
       ],
       "sessionDate": "2026-11-02"
     },
@@ -237,20 +249,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25909.69,
-      "change": 91.48,
-      "changePct": 0.3543,
+      "price": 25890.02,
+      "change": 71.81,
+      "changePct": 0.2781,
       "digits": 2,
-      "asOf": "2026-11-02T10:22:01Z"
+      "asOf": "2026-11-02T11:17:01Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1211,
-      "change": 0.0045,
-      "changePct": 0.403,
+      "price": 1.1215,
+      "change": 0.0049,
+      "changePct": 0.4388,
       "digits": 4,
-      "asOf": "2026-11-02T10:36:29Z"
+      "asOf": "2026-11-02T11:31:25Z"
     }
   },
   "headlines": {
@@ -271,9 +283,9 @@
         "publishedAt": "2026-10-30T09:13:31Z"
       },
       {
-        "title": "Bayer wins Roundup weedkiller cancer trial while awaiting settlement ruling",
-        "source": "Reuters",
-        "publishedAt": "2026-10-30T01:16:15Z"
+        "title": "Market One Minute Feature on BNN Bloomberg: MustGrow Biologics and Bayer AG Discusses Validation of Its TerraMG Biocontrol Technology",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-10-29T16:54:00Z"
       }
     ],
     "walmart": [
@@ -293,9 +305,9 @@
         "publishedAt": "2026-11-01T10:47:00Z"
       },
       {
-        "title": "Walmart Canada launches AI shopping assistant Sparky",
-        "source": "BNN Bloomberg",
-        "publishedAt": "2026-10-30T16:04:38Z"
+        "title": "Fmr. Walmart U.S. CEO: The consumers are 'incredibly resilient'",
+        "source": "CNBC",
+        "publishedAt": "2026-10-15T07:00:00Z"
       }
     ],
     "top": [
@@ -310,14 +322,14 @@
         "publishedAt": "2026-11-02T07:49:00Z"
       },
       {
+        "title": "Billionaire Sergey Brin is building political infrastructure that will last beyond his $102 million fight against Prop 40",
+        "source": "Fortune",
+        "publishedAt": "2026-11-02T07:00:00Z"
+      },
+      {
         "title": "Inside the Abdul El-Sayed-Haley Stevens Meltdown in Michigan",
         "source": "The New York Times",
         "publishedAt": "2026-11-02T06:31:00Z"
-      },
-      {
-        "title": "Flash flooding triggers evacuations in Southwest and dire warning for Colorado spa town",
-        "source": "AP News",
-        "publishedAt": "2026-11-02T06:02:00Z"
       }
     ]
   },
@@ -383,7 +395,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 49.74
+        "close": 49.91
       }
     ],
     "bayry": [
@@ -507,7 +519,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 25912.1699
+        "close": 25891.4297
       }
     ]
   }
