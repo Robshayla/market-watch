@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-02T22:07:42Z",
+  "updatedAt": "2026-11-02T22:42:11Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1193",
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1191",
     "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
@@ -299,11 +299,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1193,
-      "change": 0.0027,
-      "changePct": 0.2418,
+      "price": 1.1191,
+      "change": 0.0025,
+      "changePct": 0.2239,
       "digits": 4,
-      "asOf": "2026-11-02T22:07:28Z"
+      "asOf": "2026-11-02T22:41:29Z"
     }
   },
   "headlines": {
@@ -341,36 +341,36 @@
         "publishedAt": "2026-11-02T17:33:00Z"
       },
       {
+        "title": "Walmart, Symbotic Inc. agree to $6 billion supply chain technology expansion",
+        "source": "The Arkansas Democrat-Gazette",
+        "publishedAt": "2026-11-02T16:15:00Z"
+      },
+      {
         "title": "Walmart Inc. (WMT) Is a Trending Stock: Facts to Know Before Betting on It",
         "source": "Yahoo Finance Singapore",
         "publishedAt": "2026-11-02T13:00:07Z"
-      },
-      {
-        "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 17 September By Investing.com",
-        "source": "Investing.com India",
-        "publishedAt": "2026-11-02T07:14:04Z"
       }
     ],
     "top": [
       {
-        "title": "Midterm Elections Live Updates: Early Voting Turnout Surges, Offering Promising Signs for Democrats",
+        "title": "2026 Elections Live Updates: Trump Makes Final Midterms Push for Republicans as Democrats Appear Hopeful",
         "source": "The New York Times",
-        "publishedAt": "2026-11-02T21:53:37Z"
+        "publishedAt": "2026-11-02T22:24:49Z"
       },
       {
-        "title": "Trump administration appeals to Supreme Court to sideline 20,000 disputed California mail ballots",
-        "source": "AP News",
-        "publishedAt": "2026-11-02T21:29:00Z"
+        "title": "Judge dismisses case against former FBI agents in Hunter Biden laptop investigation",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-02T22:12:23Z"
+      },
+      {
+        "title": "Trump administration asks Supreme Court to set aside 20,000 California ballots for now",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-02T21:48:32Z"
       },
       {
         "title": "El-Sayed, Michigan Democrats push to galvanize voters after stunning Senate race defection",
         "source": "AP News",
         "publishedAt": "2026-11-02T21:01:00Z"
-      },
-      {
-        "title": "Accused of Voter Fraud, They Ended Up in Shackles",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-02T20:23:17Z"
       }
     ]
   },
