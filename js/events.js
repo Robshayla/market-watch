@@ -113,6 +113,44 @@
     return (n < 10 ? "0" : "") + n;
   }
 
+  function text(value) {
+    return String(value == null ? "" : value).trim();
+  }
+
+  function earningsFilled(doc) {
+    if (!doc || doc.ready !== true || !doc.group) return false;
+    var groupKeys = ["sales", "salesCpa", "ebitda", "ebitdaChange", "margin", "coreEps", "coreEpsChange", "guidance"];
+    var g = doc.group;
+    for (var i = 0; i < groupKeys.length; i++) {
+      if (!text(g[groupKeys[i]])) return false;
+    }
+    if (!doc.divisions || doc.divisions.length < 3) return false;
+    for (var d = 0; d < 3; d++) {
+      var div = doc.divisions[d];
+      if (!div || !text(div.name) || !text(div.sales) || !text(div.salesCpa) || !text(div.ebitda) || !text(div.ebitdaChange)) {
+        return false;
+      }
+      var bullets = div.bullets || [];
+      var any = false;
+      for (var b = 0; b < bullets.length; b++) {
+        if (text(bullets[b])) any = true;
+      }
+      if (!any) return false;
+    }
+    return true;
+  }
+
+  function rotationScreens(event, filled, preview, inWindow) {
+    if (preview === "results") return ["results"];
+    if (preview === "reaction") return ["reaction"];
+    if (preview === "rotation") return ["board", "results", "reaction"];
+    if (!inWindow || !event) return ["board"];
+    var screens = ["board"];
+    if (event.showResults === true && filled) screens.push("results");
+    if (event.showReaction === true) screens.push("reaction");
+    return screens;
+  }
+
   root.Events = {
     previewNow: previewNow,
     phase: phase,
@@ -123,5 +161,7 @@
     countdown: countdown,
     nextMoment: nextMoment,
     pad: pad,
+    earningsFilled: earningsFilled,
+    rotationScreens: rotationScreens,
   };
 })(typeof globalThis !== "undefined" ? globalThis : this);

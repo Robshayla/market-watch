@@ -23,6 +23,11 @@
   };
 
   var eventEl = document.getElementById("event");
+  var resultsEl = document.getElementById("results-screen");
+  var reactionEl = document.getElementById("reaction-screen");
+  var earningsDoc = null;
+  var screenTimer = 0;
+  var screenIndex = 0;
   var data = null;
   var eventsConfig = { events: [] };
   var eventModel = null;
@@ -294,7 +299,9 @@
   function readPreview() {
     try {
       var value = new URLSearchParams(location.search).get("preview");
-      if (value === "before" || value === "after") return value;
+      if (value === "before" || value === "after" || value === "results" || value === "reaction" || value === "rotation") {
+        return value;
+      }
     } catch (err) {
       return "";
     }
@@ -628,6 +635,159 @@
     }
   }
 
+  function closeOn(rows, date) {
+    if (!rows || !date) return null;
+    for (var i = 0; i < rows.length; i++) {
+      if (rows[i].date === date && isFinite(Number(rows[i].close))) return Number(rows[i].close);
+    }
+    return null;
+  }
+
+  function moveFrom(price, reference) {
+    var px = Number(price);
+    var ref = Number(reference);
+    if (!isFinite(px) || !isFinite(ref) || ref === 0) return null;
+    var abs = px - ref;
+    return { pct: abs / ref * 100, abs: abs };
+  }
+
+  function pctText(move) {
+    if (!move) return "—";
+    var body = Math.abs(move.pct).toFixed(1) + "%";
+    if (move.pct > 0) return "+" + body;
+    if (move.pct < 0) return "−" + body;
+    return body;
+  }
+
+  function reactionView(event) {
+    var refDate = event && event.referenceDate;
+    var closes = (data && data.dailyCloses) || {};
+    var bayn = data && data.quotes && data.quotes.bayn;
+    var bayry = data && data.quotes && data.quotes.bayry;
+    var dax = data && data.ticker && data.ticker.dax;
+    var baynMove = bayn ? moveFrom(bayn.price, closeOn(closes.bayn, refDate)) : null;
+    var daxMove = dax ? moveFrom(dax.price, closeOn(closes.dax, refDate)) : null;
+    var adrMove = bayry ? moveFrom(bayry.price, closeOn(closes.bayry, refDate)) : null;
+    var versus = "";
+    if (baynMove && daxMove) {
+      var gap = baynMove.pct - daxMove.pct;
+      versus = gap > 0.05 ? "Bayer outperforming" : gap < -0.05 ? "Bayer underperforming" : "Bayer in line with DAX";
+    }
+    var sessionToday = false;
+    if (bayn && bayn.sessionDate) {
+      try {
+        sessionToday = MarketHours.parts(new Date(), "Europe/Berlin").key === bayn.sessionDate;
+      } catch (err) {
+        sessionToday = false;
+      }
+    }
+    var mediaTime = "—";
+    if (event && event.moments) {
+      for (var i = 0; i < event.moments.length; i++) {
+        if (event.moments[i].id === "media") {
+          var times = Events.zoneTimes(event.moments[i].at, [{ timeZone: "America/Chicago", label: "CT" }]);
+          if (times[0]) mediaTime = times[0].text + " CT";
+        }
+      }
+    }
+    var refLabel = "release";
+    if (refDate && /^\d{4}-\d{2}-\d{2}$/.test(refDate)) {
+      var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      refLabel = months[Number(refDate.slice(5, 7)) - 1] + " " + Number(refDate.slice(8)) + " close";
+    }
+    var status = baynMove ? "" : "Nov 2 Xetra close is not in the feed yet";
+    return {
+      baynSince: pctText(baynMove),
+      daxSince: pctText(daxMove),
+      adrSince: pctText(adrMove),
+      euroChange: baynMove ? (baynMove.abs >= 0 ? "+" : "−") + "€" + Math.abs(baynMove.abs).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "",
+      price: bayn ? (bayn.currency === "EUR" ? "€" : "") + Number(bayn.price).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "—",
+      versus: versus,
+      sparkline: bayn && bayn.sparkline ? bayn.sparkline : [],
+      chartCaption: sessionToday ? "Intraday since open" : "Last Xetra session",
+      chartNote: bayn && bayn.sessionDate ? (sessionToday ? "Release 7:30 CET" : "Session " + bayn.sessionDate) : "",
+      mediaTime: mediaTime,
+      refLabel: refLabel,
+      status: status,
+    };
+  }
+
+  function primaryEvent() {
+    var list = (eventsConfig && eventsConfig.events) || [];
+    return list.length ? list[0] : null;
+  }
+
+  function screenList() {
+    var preview = readPreview();
+    var model = null;
+    try {
+      model = currentEvent(new Date());
+    } catch (err) {
+      model = null;
+    }
+    var event = model ? model.event : primaryEvent();
+    var inWindow = !!(model && model.phase !== "hidden");
+    return Events.rotationScreens(event, Events.earningsFilled(earningsDoc), preview, inWindow);
+  }
+
+  function showScreen(name) {
+    var screens = screenList();
+    if (screens.indexOf(name) < 0) name = screens[0] || "board";
+    stage.classList.toggle("show-results", name === "results");
+    stage.classList.toggle("show-reaction", name === "reaction");
+    var event = primaryEvent();
+    var reaction = reactionView(event);
+    if (name === "results") {
+      var preview = readPreview();
+      var doc = preview === "results" || preview === "rotation" ? MarketScreens.sampleQ2 : earningsDoc;
+      if (!Events.earningsFilled(doc) && preview !== "results" && preview !== "rotation") {
+        stage.classList.remove("show-results");
+        return;
+      }
+      MarketScreens.renderResults(resultsEl, doc, reaction);
+    }
+    if (name === "reaction") {
+      reaction.preview = readPreview() === "reaction" || readPreview() === "rotation";
+      MarketScreens.renderReaction(reactionEl, reaction);
+    }
+  }
+
+  function armScreens() {
+    clearInterval(screenTimer);
+    var screens = screenList();
+    if (screenIndex >= screens.length) screenIndex = 0;
+    showScreen(screens[screenIndex] || "board");
+    if (screens.length < 2) return;
+    var ms = primaryEvent() && primaryEvent().rotateMs ? Number(primaryEvent().rotateMs) : 20000;
+    if (!isFinite(ms) || ms < 5000) ms = 20000;
+    screenTimer = setInterval(function () {
+      var list = screenList();
+      if (list.length < 2) {
+        showScreen("board");
+        clearInterval(screenTimer);
+        return;
+      }
+      screenIndex = (screenIndex + 1) % list.length;
+      showScreen(list[screenIndex]);
+    }, ms);
+  }
+
+  function loadEarnings() {
+    var event = primaryEvent();
+    var file = event && event.resultsFile ? event.resultsFile : "data/earnings_q3_2026.json";
+    return fetch(file + "?ts=" + Math.floor(Date.now() / 60000), { cache: "no-store" })
+      .then(function (res) {
+        if (!res.ok) throw new Error(String(res.status));
+        return res.json();
+      })
+      .then(function (doc) {
+        earningsDoc = doc;
+      })
+      .catch(function () {
+        earningsDoc = earningsDoc || null;
+      });
+  }
+
   function loadEvents() {
     return fetch("data/events.json?ts=" + Math.floor(Date.now() / 60000), { cache: "no-store" })
       .then(function (res) {
@@ -637,9 +797,14 @@
       .then(function (cfg) {
         eventsConfig = cfg && cfg.events ? cfg : { events: [] };
         paintEvent(new Date());
+        return loadEarnings();
+      })
+      .then(function () {
+        armScreens();
       })
       .catch(function () {
         paintEvent(new Date());
+        armScreens();
       });
   }
 

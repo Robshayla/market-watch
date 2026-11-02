@@ -1,0 +1,43 @@
+{
+  "ready": false,
+  "title": "Bayer Q3 2026 Results",
+  "source": "Source: Bayer Q3 2026 statement, Nov 3, 2026",
+  "footnote": "cpa = currency & portfolio adj.",
+  "group": {
+    "name": "Total Bayer",
+    "sales": "",
+    "salesCpa": "",
+    "ebitda": "",
+    "ebitdaChange": "",
+    "margin": "",
+    "coreEps": "",
+    "coreEpsChange": "",
+    "guidance": ""
+  },
+  "divisions": [
+    {
+      "name": "Crop Science",
+      "sales": "",
+      "salesCpa": "",
+      "ebitda": "",
+      "ebitdaChange": "",
+      "bullets": ["", ""]
+    },
+    {
+      "name": "Pharma",
+      "sales": "",
+      "salesCpa": "",
+      "ebitda": "",
+      "ebitdaChange": "",
+      "bullets": ["", ""]
+    },
+    {
+      "name": "Consumer Health",
+      "sales": "",
+      "salesCpa": "",
+      "ebitda": "",
+      "ebitdaChange": "",
+      "bullets": ["", ""]
+    }
+  ]
+}
