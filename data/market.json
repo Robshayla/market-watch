@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-02T19:45:27Z",
+  "updatedAt": "2026-11-02T19:49:18Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.46 matched",
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1197",
+    "Nasdaq last sale 127.41 matched",
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1196",
     "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
@@ -169,11 +169,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.46,
+      "price": 127.41,
       "previousClose": 123.51,
-      "change": 3.95,
-      "changePct": 3.1981,
-      "asOf": "2026-11-02T19:45:13Z",
+      "change": 3.9,
+      "changePct": 3.1576,
+      "asOf": "2026-11-02T19:49:02Z",
       "digits": 2,
       "sparkline": [
         125.06,
@@ -239,7 +239,8 @@
         127.36,
         127.4504,
         127.39,
-        127.46
+        127.41,
+        127.405
       ],
       "sessionDate": "2026-11-02"
     }
@@ -248,20 +249,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7566.73,
-      "change": -13.34,
-      "changePct": -0.176,
+      "price": 7555.79,
+      "change": -24.28,
+      "changePct": -0.3203,
       "digits": 2,
-      "asOf": "2026-11-02T19:45:14Z"
+      "asOf": "2026-11-02T19:49:04Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52102.05,
-      "change": 331.74,
-      "changePct": 0.6408,
+      "price": 52052.63,
+      "change": 282.32,
+      "changePct": 0.5453,
       "digits": 2,
-      "asOf": "2026-11-02T19:45:14Z"
+      "asOf": "2026-11-02T19:49:04Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -275,11 +276,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1197,
-      "change": 0.0031,
-      "changePct": 0.2776,
+      "price": 1.1196,
+      "change": 0.003,
+      "changePct": 0.2687,
       "digits": 4,
-      "asOf": "2026-11-02T19:44:25Z"
+      "asOf": "2026-11-02T19:47:25Z"
     }
   },
   "headlines": {
@@ -331,7 +332,7 @@
       {
         "title": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve",
         "source": "The New York Times",
-        "publishedAt": "2026-11-02T19:38:16Z"
+        "publishedAt": "2026-11-02T19:45:21Z"
       },
       {
         "title": "El-Sayed campaign reports $2.4 million fundraising day as Stevens endorses GOP rival",
