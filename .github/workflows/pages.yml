@@ -57,7 +57,7 @@ jobs:
           rm -rf _site
           mkdir -p _site/data _site/assets _site/js
           cp index.html styles.css _site/
-          cp assets/*.svg _site/assets/
+          cp assets/*.svg assets/awake.mp4 _site/assets/
           cp js/*.js _site/js/
           cp data/market.json data/events.json data/earnings_q3_2026.json _site/data/
           touch _site/.nojekyll
