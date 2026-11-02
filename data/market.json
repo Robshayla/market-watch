@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-02T20:37:46Z",
+  "updatedAt": "2026-11-02T21:24:13Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 127.63 matched",
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1198",
-    "Bayer ADR ratio check 4.02 ordinary shares"
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1194",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +112,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 13.94,
+      "price": 13.95,
       "previousClose": 13.99,
-      "change": -0.05,
-      "changePct": -0.3574,
-      "asOf": "2026-11-02T20:13:14Z",
+      "change": -0.04,
+      "changePct": -0.2859,
+      "asOf": "2026-11-02T20:59:59Z",
       "digits": 2,
       "sparkline": [
         13.96,
@@ -163,6 +162,14 @@
         13.95,
         13.95,
         13.95,
+        13.95,
+        13.94,
+        13.95,
+        13.94,
+        13.94,
+        13.91,
+        13.93,
+        13.94,
         13.95,
         13.94
       ],
@@ -265,20 +272,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7553.26,
-      "change": -26.81,
-      "changePct": -0.3537,
+      "price": 7541.4,
+      "change": -38.67,
+      "changePct": -0.5102,
       "digits": 2,
-      "asOf": "2026-11-02T20:37:32Z"
+      "asOf": "2026-11-02T21:20:01Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52085.25,
-      "change": 314.94,
-      "changePct": 0.6083,
+      "price": 51983.98,
+      "change": 213.67,
+      "changePct": 0.4127,
       "digits": 2,
-      "asOf": "2026-11-02T20:37:33Z"
+      "asOf": "2026-11-02T21:20:01Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -292,11 +299,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1198,
-      "change": 0.0032,
-      "changePct": 0.2866,
+      "price": 1.1194,
+      "change": 0.0028,
+      "changePct": 0.2508,
       "digits": 4,
-      "asOf": "2026-11-02T20:37:26Z"
+      "asOf": "2026-11-02T21:23:27Z"
     }
   },
   "headlines": {
@@ -317,9 +324,9 @@
         "publishedAt": "2026-10-30T09:13:31Z"
       },
       {
-        "title": "Market One Minute Feature on BNN Bloomberg: MustGrow Biologics and Bayer AG Discusses Validation of Its TerraMG Biocontrol Technology",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-10-29T16:54:00Z"
+        "title": "Bayer wins Roundup weedkiller cancer trial while awaiting settlement ruling",
+        "source": "Reuters",
+        "publishedAt": "2026-10-30T01:16:15Z"
       }
     ],
     "walmart": [
@@ -346,24 +353,24 @@
     ],
     "top": [
       {
-        "title": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve",
+        "title": "2026 Elections Live Updates: Trump Makes Final Midterms Push for Republicans as Democrats Appear Hopeful",
         "source": "The New York Times",
-        "publishedAt": "2026-11-02T20:23:58Z"
+        "publishedAt": "2026-11-02T21:17:05Z"
       },
       {
-        "title": "Trump Is Playing Up Voter Fraud Prosecutions. Meet Some of the Accused.",
+        "title": "Netanyahu is pressing Trump to attack Iran after the midterms, officials tell AP",
+        "source": "AP News",
+        "publishedAt": "2026-11-02T20:37:00Z"
+      },
+      {
+        "title": "Judge dismisses charges against FBI agents in Hunter Biden laptop investigation",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-02T20:36:02Z"
+      },
+      {
+        "title": "Accused of Voter Fraud, They Ended Up in Shackles",
         "source": "The New York Times",
         "publishedAt": "2026-11-02T20:23:17Z"
-      },
-      {
-        "title": "Clancy Hearing Focuses on Holdout Juror",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-02T19:38:40Z"
-      },
-      {
-        "title": "El-Sayed campaign reports $2.4 million fundraising day as Stevens endorses GOP rival",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-02T19:30:22Z"
       }
     ]
   },
@@ -491,7 +498,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 13.94
+        "close": 13.95
       }
     ],
     "dax": [
