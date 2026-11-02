@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-02T09:33:16Z",
+  "updatedAt": "2026-11-02T10:37:12Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1172 on 2026-10-30 vs Yahoo spot 1.1228",
-    "Bayer ADR ratio check 3.98 ordinary shares"
+    "ECB reference 1.1172 on 2026-10-30 vs Yahoo spot 1.1211",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 49.64,
+      "price": 49.74,
       "previousClose": 50.58,
-      "change": -0.94,
-      "changePct": -1.8584,
-      "asOf": "2026-11-02T09:17:35Z",
+      "change": -0.84,
+      "changePct": -1.6607,
+      "asOf": "2026-11-02T10:20:04Z",
       "digits": 2,
       "sparkline": [
         49.79,
@@ -36,8 +36,20 @@
         49.82,
         49.66,
         49.55,
+        49.62,
+        49.68,
+        49.59,
+        49.58,
+        49.53,
+        49.63,
         49.64,
-        49.64
+        49.6,
+        49.7,
+        49.7,
+        49.67,
+        49.72,
+        49.73,
+        49.74
       ],
       "sessionDate": "2026-11-02"
     },
@@ -225,20 +237,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25871.71,
-      "change": 53.5,
-      "changePct": 0.2072,
+      "price": 25909.69,
+      "change": 91.48,
+      "changePct": 0.3543,
       "digits": 2,
-      "asOf": "2026-11-02T09:18:03Z"
+      "asOf": "2026-11-02T10:22:01Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1228,
-      "change": 0.0062,
-      "changePct": 0.5553,
+      "price": 1.1211,
+      "change": 0.0045,
+      "changePct": 0.403,
       "digits": 4,
-      "asOf": "2026-11-02T09:32:27Z"
+      "asOf": "2026-11-02T10:36:29Z"
     }
   },
   "headlines": {
@@ -281,12 +293,17 @@
         "publishedAt": "2026-11-01T10:47:00Z"
       },
       {
-        "title": "Fmr. Walmart U.S. CEO: The consumers are 'incredibly resilient'",
-        "source": "CNBC",
-        "publishedAt": "2026-10-15T07:00:00Z"
+        "title": "Walmart Canada launches AI shopping assistant Sparky",
+        "source": "BNN Bloomberg",
+        "publishedAt": "2026-10-30T16:04:38Z"
       }
     ],
     "top": [
+      {
+        "title": "Inside the Final Days of Darline Graham\u2019s Reluctant Senate Run",
+        "source": "WSJ",
+        "publishedAt": "2026-11-02T10:24:46Z"
+      },
       {
         "title": "Democrats Show Strength in Final Days of Race for the Senate, New Polls Find",
         "source": "The New York Times",
@@ -298,14 +315,9 @@
         "publishedAt": "2026-11-02T06:31:00Z"
       },
       {
-        "title": "Marshall\u2019s closing message in Kansas is a defense of his lawsuits against patients",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-02T05:47:15Z"
-      },
-      {
-        "title": "Trump rallies in Iowa and Kansas as Republicans fight to keep Senate and House control",
+        "title": "Flash flooding triggers evacuations in Southwest and dire warning for Colorado spa town",
         "source": "AP News",
-        "publishedAt": "2026-11-02T04:25:00Z"
+        "publishedAt": "2026-11-02T06:02:00Z"
       }
     ]
   },
@@ -371,7 +383,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 49.6
+        "close": 49.74
       }
     ],
     "bayry": [
@@ -495,7 +507,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 25871.0801
+        "close": 25912.1699
       }
     ]
   }
