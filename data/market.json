@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-02T19:37:41Z",
+  "updatedAt": "2026-11-02T19:45:27Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.41 matched",
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1201",
+    "Nasdaq last sale 127.46 matched",
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1197",
     "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 13.94,
+      "price": 13.93,
       "previousClose": 13.99,
-      "change": -0.05,
-      "changePct": -0.3574,
-      "asOf": "2026-11-02T19:15:33Z",
+      "change": -0.06,
+      "changePct": -0.4289,
+      "asOf": "2026-11-02T19:28:08Z",
       "digits": 2,
       "sparkline": [
         13.96,
@@ -156,7 +156,9 @@
         13.94,
         13.93,
         13.97,
-        13.94
+        13.94,
+        13.93,
+        13.93
       ],
       "sessionDate": "2026-11-02"
     },
@@ -167,11 +169,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.41,
+      "price": 127.46,
       "previousClose": 123.51,
-      "change": 3.9,
-      "changePct": 3.1576,
-      "asOf": "2026-11-02T19:37:20Z",
+      "change": 3.95,
+      "changePct": 3.1981,
+      "asOf": "2026-11-02T19:45:13Z",
       "digits": 2,
       "sparkline": [
         125.06,
@@ -235,8 +237,9 @@
         127.305,
         127.29,
         127.36,
-        127.38,
-        127.41
+        127.4504,
+        127.39,
+        127.46
       ],
       "sessionDate": "2026-11-02"
     }
@@ -245,20 +248,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7563.77,
-      "change": -16.3,
-      "changePct": -0.215,
+      "price": 7566.73,
+      "change": -13.34,
+      "changePct": -0.176,
       "digits": 2,
-      "asOf": "2026-11-02T19:37:27Z"
+      "asOf": "2026-11-02T19:45:14Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52077.35,
-      "change": 307.04,
-      "changePct": 0.5931,
+      "price": 52102.05,
+      "change": 331.74,
+      "changePct": 0.6408,
       "digits": 2,
-      "asOf": "2026-11-02T19:37:27Z"
+      "asOf": "2026-11-02T19:45:14Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -272,11 +275,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1201,
-      "change": 0.0035,
-      "changePct": 0.3135,
+      "price": 1.1197,
+      "change": 0.0031,
+      "changePct": 0.2776,
       "digits": 4,
-      "asOf": "2026-11-02T19:37:25Z"
+      "asOf": "2026-11-02T19:44:25Z"
     }
   },
   "headlines": {
@@ -328,22 +331,22 @@
       {
         "title": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve",
         "source": "The New York Times",
-        "publishedAt": "2026-11-02T19:24:40Z"
+        "publishedAt": "2026-11-02T19:38:16Z"
+      },
+      {
+        "title": "El-Sayed campaign reports $2.4 million fundraising day as Stevens endorses GOP rival",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-02T19:30:22Z"
+      },
+      {
+        "title": "Accused of Voter Fraud, They Ended Up in Shackles",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-02T19:21:29Z"
       },
       {
         "title": "NTSB give update on deadly Florida jet crash as reports name 20-year-old as copilot",
         "source": "BBC",
         "publishedAt": "2026-11-02T19:07:34Z"
-      },
-      {
-        "title": "America\u2019s Gulf Allies Prepare for New Round of Strikes on Iran\u2014and the Blowback",
-        "source": "WSJ",
-        "publishedAt": "2026-11-02T18:44:00Z"
-      },
-      {
-        "title": "Clancy Hearing Focuses on Holdout Juror",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-02T18:43:25Z"
       }
     ]
   },
@@ -471,7 +474,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 13.94
+        "close": 13.93
       }
     ],
     "dax": [
