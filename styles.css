@@ -930,3 +930,29 @@ html:-webkit-full-screen .fs-toggle:focus,
 html:-webkit-full-screen .fs-toggle:focus-visible {
   opacity: 0.95;
 }
+
+/* Keep-awake. The dot sits in the outer margin, off the clocks and the ticker. */
+.awake-dot {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 30;
+}
+
+.awake-dot.is-on { opacity: 0.4; }
+
+.awake-video {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
