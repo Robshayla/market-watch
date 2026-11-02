@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-02T16:54:08Z",
+  "updatedAt": "2026-11-02T17:50:00Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 126.26 matched",
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1206",
+    "Nasdaq last sale 126.81 matched",
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1208",
     "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 13.93,
+      "price": 13.94,
       "previousClose": 13.99,
-      "change": -0.06,
-      "changePct": -0.4289,
-      "asOf": "2026-11-02T16:34:28Z",
+      "change": -0.05,
+      "changePct": -0.3574,
+      "asOf": "2026-11-02T17:23:58Z",
       "digits": 2,
       "sparkline": [
         13.96,
@@ -140,8 +140,13 @@
         13.9,
         13.91,
         13.92,
-        13.91,
-        13.93
+        13.93,
+        13.95,
+        13.95,
+        13.95,
+        13.94,
+        13.95,
+        13.94
       ],
       "sessionDate": "2026-11-02"
     },
@@ -152,11 +157,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.26,
+      "price": 126.8,
       "previousClose": 123.51,
-      "change": 2.75,
-      "changePct": 2.2265,
-      "asOf": "2026-11-02T16:53:52Z",
+      "change": 3.29,
+      "changePct": 2.6638,
+      "asOf": "2026-11-02T17:49:40Z",
       "digits": 2,
       "sparkline": [
         125.06,
@@ -187,8 +192,19 @@
         126.15,
         126.17,
         126.23,
-        126.255,
-        126.26
+        126.29,
+        126.305,
+        126.305,
+        126.435,
+        126.32,
+        126.465,
+        126.56,
+        126.63,
+        126.7651,
+        126.6,
+        126.775,
+        126.835,
+        126.8
       ],
       "sessionDate": "2026-11-02"
     }
@@ -197,20 +213,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7628.27,
-      "change": 48.2,
-      "changePct": 0.6359,
+      "price": 7599.28,
+      "change": 19.21,
+      "changePct": 0.2534,
       "digits": 2,
-      "asOf": "2026-11-02T16:53:54Z"
+      "asOf": "2026-11-02T17:49:47Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52363.44,
-      "change": 593.13,
-      "changePct": 1.1457,
+      "price": 52218.07,
+      "change": 447.76,
+      "changePct": 0.8649,
       "digits": 2,
-      "asOf": "2026-11-02T16:53:55Z"
+      "asOf": "2026-11-02T17:49:46Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -219,29 +235,29 @@
       "change": 162.88,
       "changePct": 0.6309,
       "digits": 2,
-      "asOf": "2026-11-02T16:30:14Z"
+      "asOf": "2026-11-02T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1206,
-      "change": 0.004,
-      "changePct": 0.3582,
+      "price": 1.1208,
+      "change": 0.0042,
+      "changePct": 0.3761,
       "digits": 4,
-      "asOf": "2026-11-02T16:53:27Z"
+      "asOf": "2026-11-02T17:49:28Z"
     }
   },
   "headlines": {
     "bayer": [
       {
-        "title": "Bayer Shares Rise After Win in First Roundup Trial Since Supreme Court Ruling",
-        "source": "WSJ",
-        "publishedAt": "2026-11-02T15:59:32Z"
-      },
-      {
         "title": "Bayer wins Roundup trial in St. Louis County after U.S. Supreme Court narrows legal claims",
         "source": "The Business Journals",
         "publishedAt": "2026-10-30T14:07:00Z"
+      },
+      {
+        "title": "Bayer Shares Rise After Win in First Roundup Trial Since Supreme Court Ruling",
+        "source": "WSJ",
+        "publishedAt": "2026-10-30T10:50:00Z"
       },
       {
         "title": "Bayer Wins St. Louis Roundup Trial, Bolstering Settlement Push",
@@ -256,11 +272,6 @@
     ],
     "walmart": [
       {
-        "title": "Walmart, Symbotic Inc. agree to $6 billion supply chain technology expansion",
-        "source": "The Arkansas Democrat-Gazette",
-        "publishedAt": "2026-11-02T16:15:00Z"
-      },
-      {
         "title": "Walmart Inc. (WMT) Is a Trending Stock: Facts to Know Before Betting on It",
         "source": "Yahoo Finance Singapore",
         "publishedAt": "2026-11-02T13:00:07Z"
@@ -274,23 +285,28 @@
         "title": "Walmart Just Closed 3 Stores. The Real Story Isn\u2019t a Retail Retreat",
         "source": "Inc",
         "publishedAt": "2026-11-01T14:13:59Z"
+      },
+      {
+        "title": "The latest update on the grocery wars is here, with Walmart and Costco gaining ground",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-01T10:47:00Z"
       }
     ],
     "top": [
       {
-        "title": "Prosecutors plan to retry Lindsay Clancy for deaths of her three children",
-        "source": "BBC",
-        "publishedAt": "2026-11-02T16:46:30Z"
-      },
-      {
         "title": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve",
         "source": "The New York Times",
-        "publishedAt": "2026-11-02T16:43:53Z"
+        "publishedAt": "2026-11-02T17:34:07Z"
       },
       {
-        "title": "US judge tosses case against ex-FBI officials accused of lying about Hunter Biden probes",
-        "source": "Reuters",
-        "publishedAt": "2026-11-02T16:03:34Z"
+        "title": "In an Alaska fishing community, the Dan Sullivan episode takes an ominous turn as FBI comes knocking",
+        "source": "AP News",
+        "publishedAt": "2026-11-02T17:15:00Z"
+      },
+      {
+        "title": "DOJ asks Supreme Court to block California counting disputed mail-in ballots",
+        "source": "CNBC",
+        "publishedAt": "2026-11-02T16:34:43Z"
       },
       {
         "title": "Inside the Abdul El-Sayed-Haley Stevens Meltdown in Michigan",
@@ -423,7 +439,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 13.93
+        "close": 13.94
       }
     ],
     "dax": [
