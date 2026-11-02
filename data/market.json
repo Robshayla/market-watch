@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-02T21:24:13Z",
+  "updatedAt": "2026-11-02T22:07:42Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1194",
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1193",
     "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
@@ -171,7 +171,7 @@
         13.93,
         13.94,
         13.95,
-        13.94
+        13.95
       ],
       "sessionDate": "2026-11-02"
     },
@@ -276,7 +276,7 @@
       "change": -38.67,
       "changePct": -0.5102,
       "digits": 2,
-      "asOf": "2026-11-02T21:20:01Z"
+      "asOf": "2026-11-02T21:50:59Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -285,7 +285,7 @@
       "change": 213.67,
       "changePct": 0.4127,
       "digits": 2,
-      "asOf": "2026-11-02T21:20:01Z"
+      "asOf": "2026-11-02T21:50:57Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -299,11 +299,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1194,
-      "change": 0.0028,
-      "changePct": 0.2508,
+      "price": 1.1193,
+      "change": 0.0027,
+      "changePct": 0.2418,
       "digits": 4,
-      "asOf": "2026-11-02T21:23:27Z"
+      "asOf": "2026-11-02T22:07:28Z"
     }
   },
   "headlines": {
@@ -353,19 +353,19 @@
     ],
     "top": [
       {
-        "title": "2026 Elections Live Updates: Trump Makes Final Midterms Push for Republicans as Democrats Appear Hopeful",
+        "title": "Midterm Elections Live Updates: Early Voting Turnout Surges, Offering Promising Signs for Democrats",
         "source": "The New York Times",
-        "publishedAt": "2026-11-02T21:17:05Z"
+        "publishedAt": "2026-11-02T21:53:37Z"
       },
       {
-        "title": "Netanyahu is pressing Trump to attack Iran after the midterms, officials tell AP",
+        "title": "Trump administration appeals to Supreme Court to sideline 20,000 disputed California mail ballots",
         "source": "AP News",
-        "publishedAt": "2026-11-02T20:37:00Z"
+        "publishedAt": "2026-11-02T21:29:00Z"
       },
       {
-        "title": "Judge dismisses charges against FBI agents in Hunter Biden laptop investigation",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-02T20:36:02Z"
+        "title": "El-Sayed, Michigan Democrats push to galvanize voters after stunning Senate race defection",
+        "source": "AP News",
+        "publishedAt": "2026-11-02T21:01:00Z"
       },
       {
         "title": "Accused of Voter Fraud, They Ended Up in Shackles",
