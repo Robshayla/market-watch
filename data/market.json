@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-02T08:19:42Z",
+  "updatedAt": "2026-11-02T09:33:16Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "Nasdaq last sale 123.51 matched",
-    "ECB reference 1.1172 on 2026-10-30 vs Yahoo spot 1.1202",
-    "Bayer ADR ratio check 4.05 ordinary shares"
+    "ECB reference 1.1172 on 2026-10-30 vs Yahoo spot 1.1228",
+    "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,96 +14,32 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 50.58,
-      "previousClose": 47.96,
-      "change": 2.62,
-      "changePct": 5.4629,
-      "asOf": "2026-10-30T16:38:35Z",
+      "price": 49.64,
+      "previousClose": 50.58,
+      "change": -0.94,
+      "changePct": -1.8584,
+      "asOf": "2026-11-02T09:17:35Z",
       "digits": 2,
       "sparkline": [
-        49.85,
-        49.82,
-        50.04,
-        49.94,
-        49.81,
-        49.76,
-        49.67,
-        49.73,
-        49.53,
-        49.74,
-        49.9,
-        49.97,
-        49.97,
-        49.95,
-        50.0,
-        49.93,
-        49.95,
-        49.85,
-        49.8,
-        49.77,
-        49.85,
-        49.86,
-        49.8,
-        49.77,
-        49.81,
-        49.76,
-        49.76,
-        49.81,
-        49.74,
-        49.82,
-        49.81,
-        49.8,
-        49.8,
-        49.82,
-        49.78,
-        49.71,
+        49.79,
         49.7,
-        49.67,
-        49.67,
-        49.65,
-        49.61,
-        49.69,
         49.68,
-        49.77,
-        49.78,
-        49.84,
-        49.84,
-        49.94,
-        49.88,
-        49.91,
-        49.84,
+        49.67,
+        49.54,
+        49.67,
+        49.79,
+        49.65,
         49.92,
-        49.9,
-        50.0,
-        50.02,
-        49.95,
-        50.0,
-        49.74,
-        49.8,
-        49.71,
-        49.83,
-        49.83,
-        49.86,
-        50.1,
-        50.3,
-        50.2,
-        50.44,
-        50.48,
-        50.46,
-        50.5,
-        50.66,
-        50.38,
-        50.18,
-        50.02,
-        50.04,
-        50.16,
-        50.14,
-        50.16,
-        50.16,
-        50.2,
-        50.58
+        49.98,
+        49.94,
+        49.85,
+        49.82,
+        49.66,
+        49.55,
+        49.64,
+        49.64
       ],
-      "sessionDate": "2026-10-30"
+      "sessionDate": "2026-11-02"
     },
     "bayry": {
       "symbol": "BAYRY",
@@ -290,20 +225,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25794.85,
-      "change": -23.36,
-      "changePct": -0.0905,
+      "price": 25871.71,
+      "change": 53.5,
+      "changePct": 0.2072,
       "digits": 2,
-      "asOf": "2026-11-02T08:04:30Z"
+      "asOf": "2026-11-02T09:18:03Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1202,
-      "change": 0.0036,
-      "changePct": 0.3224,
+      "price": 1.1228,
+      "change": 0.0062,
+      "changePct": 0.5553,
       "digits": 4,
-      "asOf": "2026-11-02T08:19:26Z"
+      "asOf": "2026-11-02T09:32:27Z"
     }
   },
   "headlines": {
@@ -346,9 +281,9 @@
         "publishedAt": "2026-11-01T10:47:00Z"
       },
       {
-        "title": "Walmart Canada launches AI shopping assistant Sparky",
-        "source": "BNN Bloomberg",
-        "publishedAt": "2026-10-30T16:04:38Z"
+        "title": "Fmr. Walmart U.S. CEO: The consumers are 'incredibly resilient'",
+        "source": "CNBC",
+        "publishedAt": "2026-10-15T07:00:00Z"
       }
     ],
     "top": [
@@ -363,14 +298,14 @@
         "publishedAt": "2026-11-02T06:31:00Z"
       },
       {
-        "title": "Flash flooding triggers evacuations in Southwest and dire warning for Colorado spa town",
-        "source": "AP News",
-        "publishedAt": "2026-11-02T06:02:00Z"
-      },
-      {
         "title": "Marshall\u2019s closing message in Kansas is a defense of his lawsuits against patients",
         "source": "The Washington Post",
         "publishedAt": "2026-11-02T05:47:15Z"
+      },
+      {
+        "title": "Trump rallies in Iowa and Kansas as Republicans fight to keep Senate and House control",
+        "source": "AP News",
+        "publishedAt": "2026-11-02T04:25:00Z"
       }
     ]
   },
@@ -436,7 +371,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 49.71
+        "close": 49.6
       }
     ],
     "bayry": [
@@ -560,7 +495,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 25801.4609
+        "close": 25871.0801
       }
     ]
   }
