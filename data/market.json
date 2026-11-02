@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-02T18:45:55Z",
+  "updatedAt": "2026-11-02T19:37:41Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.11 matched",
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1198",
+    "Nasdaq last sale 127.41 matched",
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1201",
     "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
@@ -117,7 +117,7 @@
       "previousClose": 13.99,
       "change": -0.05,
       "changePct": -0.3574,
-      "asOf": "2026-11-02T18:05:07Z",
+      "asOf": "2026-11-02T19:15:33Z",
       "digits": 2,
       "sparkline": [
         13.96,
@@ -151,6 +151,11 @@
         13.93,
         13.92,
         13.94,
+        13.95,
+        13.95,
+        13.94,
+        13.93,
+        13.97,
         13.94
       ],
       "sessionDate": "2026-11-02"
@@ -162,11 +167,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.11,
+      "price": 127.41,
       "previousClose": 123.51,
-      "change": 3.6,
-      "changePct": 2.9147,
-      "asOf": "2026-11-02T18:45:37Z",
+      "change": 3.9,
+      "changePct": 3.1576,
+      "asOf": "2026-11-02T19:37:20Z",
       "digits": 2,
       "sparkline": [
         125.06,
@@ -220,7 +225,18 @@
         127.035,
         127.09,
         127.13,
-        127.11
+        127.14,
+        127.2201,
+        127.26,
+        127.2,
+        127.18,
+        127.14,
+        127.2871,
+        127.305,
+        127.29,
+        127.36,
+        127.38,
+        127.41
       ],
       "sessionDate": "2026-11-02"
     }
@@ -229,20 +245,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7599.24,
-      "change": 19.17,
-      "changePct": 0.2529,
+      "price": 7563.77,
+      "change": -16.3,
+      "changePct": -0.215,
       "digits": 2,
-      "asOf": "2026-11-02T18:45:34Z"
+      "asOf": "2026-11-02T19:37:27Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52256.63,
-      "change": 486.32,
-      "changePct": 0.9394,
+      "price": 52077.35,
+      "change": 307.04,
+      "changePct": 0.5931,
       "digits": 2,
-      "asOf": "2026-11-02T18:45:42Z"
+      "asOf": "2026-11-02T19:37:27Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -256,11 +272,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1198,
-      "change": 0.0032,
-      "changePct": 0.2866,
+      "price": 1.1201,
+      "change": 0.0035,
+      "changePct": 0.3135,
       "digits": 4,
-      "asOf": "2026-11-02T18:45:29Z"
+      "asOf": "2026-11-02T19:37:25Z"
     }
   },
   "headlines": {
@@ -288,6 +304,16 @@
     ],
     "walmart": [
       {
+        "title": "Walmart Inc Stock (WMT) Moved Up by 3.00% on Nov 2: Facts Behind the Movement",
+        "source": "TradingKey",
+        "publishedAt": "2026-11-02T19:15:40Z"
+      },
+      {
+        "title": "How Walmart heiress Alice Walton, the world's richest woman, spends her $135 billion fortune",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-02T17:33:00Z"
+      },
+      {
         "title": "Walmart Inc. (WMT) Is a Trending Stock: Facts to Know Before Betting on It",
         "source": "Yahoo Finance Singapore",
         "publishedAt": "2026-11-02T13:00:07Z"
@@ -296,38 +322,28 @@
         "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 17 September By Investing.com",
         "source": "Investing.com India",
         "publishedAt": "2026-11-02T07:14:04Z"
-      },
-      {
-        "title": "Walmart Just Closed 3 Stores. The Real Story Isn\u2019t a Retail Retreat",
-        "source": "Inc",
-        "publishedAt": "2026-11-01T14:13:59Z"
-      },
-      {
-        "title": "The latest update on the grocery wars is here, with Walmart and Costco gaining ground",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-01T10:47:00Z"
       }
     ],
     "top": [
       {
         "title": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve",
         "source": "The New York Times",
-        "publishedAt": "2026-11-02T18:40:30Z"
+        "publishedAt": "2026-11-02T19:24:40Z"
       },
       {
-        "title": "El-Sayed campaign reports $2.4 million fundraising day as Stevens endorses GOP rival",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-02T18:32:17Z"
-      },
-      {
-        "title": "Prosecutors indicate plan to retry Lindsay Clancy for deaths of her three children",
+        "title": "NTSB give update on deadly Florida jet crash as reports name 20-year-old as copilot",
         "source": "BBC",
-        "publishedAt": "2026-11-02T17:55:19Z"
+        "publishedAt": "2026-11-02T19:07:34Z"
       },
       {
-        "title": "Judge cites 'weaponization' in tossing charges for ex-FBI agents accused of lying about Hunter Biden",
-        "source": "AP News",
-        "publishedAt": "2026-11-02T17:55:00Z"
+        "title": "America\u2019s Gulf Allies Prepare for New Round of Strikes on Iran\u2014and the Blowback",
+        "source": "WSJ",
+        "publishedAt": "2026-11-02T18:44:00Z"
+      },
+      {
+        "title": "Clancy Hearing Focuses on Holdout Juror",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-02T18:43:25Z"
       }
     ]
   },
