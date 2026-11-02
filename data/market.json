@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-01T18:37:18Z",
+  "updatedAt": "2026-11-02T01:17:54Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 123.51 matched",
-    "ECB reference 1.1172 on 2026-10-30 vs Yahoo spot 1.1166",
+    "ECB reference 1.1172 on 2026-10-30 vs Yahoo spot 1.1174",
     "Bayer ADR ratio check 4.04 ordinary shares"
   ],
   "quotes": {
@@ -299,11 +299,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1166,
-      "change": -0.0015,
-      "changePct": -0.1342,
+      "price": 1.1174,
+      "change": 0.0008,
+      "changePct": 0.0716,
       "digits": 4,
-      "asOf": "2026-10-30T21:29:29Z"
+      "asOf": "2026-11-02T01:17:27Z"
     }
   },
   "headlines": {
@@ -353,24 +353,24 @@
     ],
     "top": [
       {
-        "title": "Trump White House maps path to govern without Congress if Democrats win",
-        "source": "Reuters",
-        "publishedAt": "2026-11-01T18:01:24Z"
-      },
-      {
-        "title": "We talked to voters in six battleground states about the rising cost of living",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-01T17:00:00Z"
-      },
-      {
-        "title": "The biggest fight over the future of the Democratic Party is playing out in L.A.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-01T16:02:15Z"
-      },
-      {
-        "title": "Did the Peltola Campaign Seal the Fate of Alaska\u2019s Ranked Choice Vote?",
+        "title": "Democrats Show Strength in Final Days of Race for the Senate, New Polls Find",
         "source": "The New York Times",
-        "publishedAt": "2026-11-01T15:21:05Z"
+        "publishedAt": "2026-11-02T00:53:08Z"
+      },
+      {
+        "title": "Live updates: In an Iowa rally, Trump says he\u2019d love for Haley Stevens to switch parties",
+        "source": "AP News",
+        "publishedAt": "2026-11-01T23:51:46Z"
+      },
+      {
+        "title": "Judge tosses DOJ\u2019s attempt to delay Alaska\u2019s Senate results if Republican loses",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-01T23:01:45Z"
+      },
+      {
+        "title": "Canada and US to Outline Trade Plan in Coming Weeks, Carney Says",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-01T22:26:53Z"
       }
     ]
   },
