@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-02T15:50:14Z",
+  "updatedAt": "2026-11-02T16:54:08Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.46 matched",
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1204",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "Nasdaq last sale 126.26 matched",
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1206",
+    "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,93 +15,94 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 49.99,
+      "price": 50.02,
       "previousClose": 50.58,
-      "change": -0.59,
-      "changePct": -1.1665,
-      "asOf": "2026-11-02T15:34:41Z",
+      "change": -0.56,
+      "changePct": -1.1072,
+      "asOf": "2026-11-02T16:35:14Z",
       "digits": 2,
       "sparkline": [
         49.79,
         49.7,
         49.68,
         49.67,
-        49.54,
         49.67,
         49.79,
+        49.65,
         49.92,
-        49.98,
         49.94,
         49.85,
         49.82,
-        49.66,
         49.55,
+        49.62,
         49.68,
         49.59,
-        49.58,
         49.53,
         49.63,
         49.64,
-        49.7,
+        49.6,
         49.7,
         49.67,
         49.72,
-        49.73,
         49.76,
         49.81,
+        49.87,
         49.9,
-        49.91,
         49.89,
         49.82,
         49.85,
         49.83,
-        49.84,
+        49.9,
         49.89,
         49.87,
-        49.81,
         49.79,
         49.84,
         49.81,
-        49.75,
+        49.72,
         49.77,
         49.76,
         49.76,
-        49.75,
         49.72,
         49.7,
+        49.75,
         49.73,
-        49.72,
         49.72,
         49.71,
         49.74,
         49.7,
-        49.68,
+        49.79,
         49.78,
         49.81,
-        49.69,
         49.68,
         49.71,
         49.77,
-        49.76,
+        49.81,
         49.71,
         49.65,
         49.83,
         49.9,
-        49.8,
+        49.89,
         49.89,
         49.87,
-        49.92,
         49.87,
         49.93,
         49.88,
         49.83,
-        50.06,
+        50.0,
         50.14,
         50.18,
         50.1,
         50.08,
-        50.08,
-        50.0
+        49.99,
+        50.06,
+        49.85,
+        49.85,
+        49.87,
+        49.79,
+        49.81,
+        49.84,
+        49.86,
+        50.02
       ],
       "sessionDate": "2026-11-02"
     },
@@ -112,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 13.98,
+      "price": 13.93,
       "previousClose": 13.99,
-      "change": -0.01,
-      "changePct": -0.0715,
-      "asOf": "2026-11-02T15:28:06Z",
+      "change": -0.06,
+      "changePct": -0.4289,
+      "asOf": "2026-11-02T16:34:28Z",
       "digits": 2,
       "sparkline": [
         13.96,
@@ -129,7 +130,18 @@
         14.03,
         13.99,
         13.98,
-        13.98
+        13.98,
+        13.95,
+        13.94,
+        13.91,
+        13.92,
+        13.9,
+        13.89,
+        13.9,
+        13.91,
+        13.92,
+        13.91,
+        13.93
       ],
       "sessionDate": "2026-11-02"
     },
@@ -140,11 +152,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.5,
+      "price": 126.26,
       "previousClose": 123.51,
-      "change": 1.99,
-      "changePct": 1.6112,
-      "asOf": "2026-11-02T15:50:00Z",
+      "change": 2.75,
+      "changePct": 2.2265,
+      "asOf": "2026-11-02T16:53:52Z",
       "digits": 2,
       "sparkline": [
         125.06,
@@ -163,7 +175,20 @@
         125.35,
         125.3846,
         125.46,
-        125.5
+        125.62,
+        125.67,
+        125.67,
+        125.86,
+        125.805,
+        125.82,
+        125.95,
+        125.97,
+        125.935,
+        126.15,
+        126.17,
+        126.23,
+        126.255,
+        126.26
       ],
       "sessionDate": "2026-11-02"
     }
@@ -172,38 +197,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7647.05,
-      "change": 66.98,
-      "changePct": 0.8836,
+      "price": 7628.27,
+      "change": 48.2,
+      "changePct": 0.6359,
       "digits": 2,
-      "asOf": "2026-11-02T15:50:01Z"
+      "asOf": "2026-11-02T16:53:54Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52381.58,
-      "change": 611.27,
-      "changePct": 1.1807,
+      "price": 52363.44,
+      "change": 593.13,
+      "changePct": 1.1457,
       "digits": 2,
-      "asOf": "2026-11-02T15:50:02Z"
+      "asOf": "2026-11-02T16:53:55Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26018.0,
-      "change": 199.79,
-      "changePct": 0.7738,
+      "price": 25981.09,
+      "change": 162.88,
+      "changePct": 0.6309,
       "digits": 2,
-      "asOf": "2026-11-02T15:35:02Z"
+      "asOf": "2026-11-02T16:30:14Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1204,
-      "change": 0.0038,
-      "changePct": 0.3403,
+      "price": 1.1206,
+      "change": 0.004,
+      "changePct": 0.3582,
       "digits": 4,
-      "asOf": "2026-11-02T15:49:25Z"
+      "asOf": "2026-11-02T16:53:27Z"
     }
   },
   "headlines": {
@@ -211,7 +236,7 @@
       {
         "title": "Bayer Shares Rise After Win in First Roundup Trial Since Supreme Court Ruling",
         "source": "WSJ",
-        "publishedAt": "2026-11-02T14:29:32Z"
+        "publishedAt": "2026-11-02T15:59:32Z"
       },
       {
         "title": "Bayer wins Roundup trial in St. Louis County after U.S. Supreme Court narrows legal claims",
@@ -231,6 +256,11 @@
     ],
     "walmart": [
       {
+        "title": "Walmart, Symbotic Inc. agree to $6 billion supply chain technology expansion",
+        "source": "The Arkansas Democrat-Gazette",
+        "publishedAt": "2026-11-02T16:15:00Z"
+      },
+      {
         "title": "Walmart Inc. (WMT) Is a Trending Stock: Facts to Know Before Betting on It",
         "source": "Yahoo Finance Singapore",
         "publishedAt": "2026-11-02T13:00:07Z"
@@ -244,33 +274,28 @@
         "title": "Walmart Just Closed 3 Stores. The Real Story Isn\u2019t a Retail Retreat",
         "source": "Inc",
         "publishedAt": "2026-11-01T14:13:59Z"
-      },
-      {
-        "title": "The latest update on the grocery wars is here, with Walmart and Costco gaining ground",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-01T10:47:00Z"
       }
     ],
     "top": [
       {
+        "title": "Prosecutors plan to retry Lindsay Clancy for deaths of her three children",
+        "source": "BBC",
+        "publishedAt": "2026-11-02T16:46:30Z"
+      },
+      {
+        "title": "2026 Elections Live Updates: Early Voting Surge Offers Promising Sign for Democrats on Midterm Eve",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-02T16:43:53Z"
+      },
+      {
+        "title": "US judge tosses case against ex-FBI officials accused of lying about Hunter Biden probes",
+        "source": "Reuters",
+        "publishedAt": "2026-11-02T16:03:34Z"
+      },
+      {
         "title": "Inside the Abdul El-Sayed-Haley Stevens Meltdown in Michigan",
         "source": "The New York Times",
         "publishedAt": "2026-11-02T15:02:00Z"
-      },
-      {
-        "title": "Trump Justice Dept breaks with tradition to intervene in midterms",
-        "source": "Reuters",
-        "publishedAt": "2026-11-02T13:50:35Z"
-      },
-      {
-        "title": "Voters fear the America they\u2019ve known is slipping away. On that, the left and right agree",
-        "source": "AP News",
-        "publishedAt": "2026-11-02T12:05:00Z"
-      },
-      {
-        "title": "Benjamin Netanyahu presses Donald Trump for renewed strikes against Iran",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-02T11:52:50Z"
       }
     ]
   },
@@ -336,7 +361,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 49.99
+        "close": 50.02
       }
     ],
     "bayry": [
@@ -398,7 +423,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 13.98
+        "close": 13.93
       }
     ],
     "dax": [
@@ -460,7 +485,7 @@
       },
       {
         "date": "2026-11-02",
-        "close": 26018.5801
+        "close": 25981.0898
       }
     ]
   }
