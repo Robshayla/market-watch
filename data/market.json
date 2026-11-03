@@ -1,9 +1,8 @@
 {
-  "updatedAt": "2026-11-03T21:14:08Z",
+  "updatedAt": "2026-11-03T21:59:37Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 124.86 matched",
     "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1194",
     "Bayer ADR ratio check 4.03 ordinary shares"
   ],
@@ -117,7 +116,7 @@
       "previousClose": 13.95,
       "change": 0.46,
       "changePct": 3.2975,
-      "asOf": "2026-11-03T20:58:43Z",
+      "asOf": "2026-11-03T20:59:42Z",
       "digits": 2,
       "sparkline": [
         15.0,
@@ -175,7 +174,8 @@
         14.42,
         14.41,
         14.41,
-        14.39
+        14.39,
+        14.41
       ],
       "sessionDate": "2026-11-03"
     },
@@ -284,7 +284,7 @@
       "change": 27.52,
       "changePct": 0.3649,
       "digits": 2,
-      "asOf": "2026-11-03T21:13:56Z"
+      "asOf": "2026-11-03T21:30:13Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -293,7 +293,7 @@
       "change": -197.26,
       "changePct": -0.3795,
       "digits": 2,
-      "asOf": "2026-11-03T21:13:56Z"
+      "asOf": "2026-11-03T21:34:56Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -311,16 +311,11 @@
       "change": 0.0003,
       "changePct": 0.0268,
       "digits": 4,
-      "asOf": "2026-11-03T21:13:27Z"
+      "asOf": "2026-11-03T21:58:28Z"
     }
   },
   "headlines": {
     "bayer": [
-      {
-        "title": "Bayer Shares Rise After Win in First Roundup Trial Since Supreme Court Ruling",
-        "source": "WSJ",
-        "publishedAt": "2026-11-03T20:29:38Z"
-      },
       {
         "title": "Roundup settlement expected before Christmas, Bayer CEO says",
         "source": "Reuters",
@@ -335,6 +330,11 @@
         "title": "India's Bayer CropScience posts nearly 9% rise in Q2 profit",
         "source": "Reuters",
         "publishedAt": "2026-11-03T15:55:44Z"
+      },
+      {
+        "title": "Bayer Raises Profit Outlook on Strong Demand for Drugs",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-03T11:09:10Z"
       }
     ],
     "walmart": [
@@ -361,33 +361,33 @@
     ],
     "top": [
       {
-        "title": "2026 Midterm Elections Live Updates: Divided Nation Votes on Election Day to Decide Control of Congress",
+        "title": "Midterm Elections 2026 Live Updates: Control of Congress at Stake as Voters Cast Ballots",
         "source": "The New York Times",
-        "publishedAt": "2026-11-03T21:03:13Z"
+        "publishedAt": "2026-11-03T21:51:04Z"
+      },
+      {
+        "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
+        "source": "Reuters",
+        "publishedAt": "2026-11-03T21:24:37Z"
+      },
+      {
+        "title": "Election Day Live: Rep. Lawler Says Westchester County Machine Issues Likely To Delay Results",
+        "source": "Forbes",
+        "publishedAt": "2026-11-03T21:07:00Z"
       },
       {
         "title": "Parts of Florida see half a year\u2019s worth of rain in 36 hours",
         "source": "The Washington Post",
         "publishedAt": "2026-11-03T20:58:57Z"
-      },
-      {
-        "title": "How to Follow The New York Times\u2019s 2026 Midterm Election Results and Coverage",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-03T20:25:59Z"
-      },
-      {
-        "title": "Sen. Chris Murphy still hospitalized after suffering a stroke over the weekend",
-        "source": "CNBC",
-        "publishedAt": "2026-11-03T19:36:16Z"
       }
     ]
   },
   "releases": [
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T16:41:09Z",
+      "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-03T21:05:37Z",
       "release": true
     },
     {
@@ -399,16 +399,16 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 Earnings Call Is Live",
-      "source": "TradingView",
-      "publishedAt": "2026-11-03T12:57:04Z",
+      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:10:05Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T10:54:24Z",
+      "title": "Bayer Q3 2026 Earnings Call Is Live",
+      "source": "TradingView",
+      "publishedAt": "2026-11-03T12:57:04Z",
       "release": true
     }
   ],
