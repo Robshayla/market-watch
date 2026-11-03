@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-03T08:03:56Z",
+  "updatedAt": "2026-11-03T08:59:38Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 127.69 matched",
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1204",
-    "Bayer ADR ratio check 4.02 ordinary shares"
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1196",
+    "Bayer ADR ratio check 4.22 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,96 +15,25 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 50.02,
-      "previousClose": 50.58,
-      "change": -0.56,
-      "changePct": -1.1072,
-      "asOf": "2026-11-02T16:35:14Z",
+      "price": 52.54,
+      "previousClose": 50.02,
+      "change": 2.52,
+      "changePct": 5.038,
+      "asOf": "2026-11-03T08:44:20Z",
       "digits": 2,
       "sparkline": [
-        49.79,
-        49.7,
-        49.68,
-        49.67,
-        49.67,
-        49.79,
-        49.65,
-        49.92,
-        49.94,
-        49.85,
-        49.82,
-        49.55,
-        49.62,
-        49.68,
-        49.59,
-        49.53,
-        49.63,
-        49.64,
-        49.6,
-        49.7,
-        49.67,
-        49.72,
-        49.76,
-        49.81,
-        49.87,
-        49.9,
-        49.89,
-        49.82,
-        49.85,
-        49.83,
-        49.9,
-        49.89,
-        49.87,
-        49.79,
-        49.84,
-        49.81,
-        49.72,
-        49.77,
-        49.76,
-        49.76,
-        49.72,
-        49.7,
-        49.75,
-        49.73,
-        49.72,
-        49.71,
-        49.74,
-        49.7,
-        49.79,
-        49.78,
-        49.81,
-        49.68,
-        49.71,
-        49.77,
-        49.81,
-        49.71,
-        49.65,
-        49.83,
-        49.9,
-        49.89,
-        49.89,
-        49.87,
-        49.87,
-        49.93,
-        49.88,
-        49.83,
-        50.0,
-        50.14,
-        50.18,
-        50.1,
-        50.08,
-        49.99,
-        50.06,
-        49.85,
-        49.85,
-        49.87,
-        49.79,
-        49.81,
-        49.84,
-        49.86,
-        50.02
+        51.78,
+        53.02,
+        52.96,
+        52.96,
+        52.84,
+        52.92,
+        52.76,
+        52.58,
+        52.56,
+        52.54
       ],
-      "sessionDate": "2026-11-02"
+      "sessionDate": "2026-11-03"
     },
     "bayry": {
       "symbol": "BAYRY",
@@ -294,43 +223,43 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25981.09,
-      "change": 162.88,
-      "changePct": 0.6309,
+      "price": 25704.69,
+      "change": -276.4,
+      "changePct": -1.0639,
       "digits": 2,
-      "asOf": "2026-11-02T17:00:00Z"
+      "asOf": "2026-11-03T08:44:25Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1204,
-      "change": 0.0013,
-      "changePct": 0.1162,
+      "price": 1.1196,
+      "change": 0.0005,
+      "changePct": 0.0447,
       "digits": 4,
-      "asOf": "2026-11-03T08:03:25Z"
+      "asOf": "2026-11-03T08:58:27Z"
     }
   },
   "headlines": {
     "bayer": [
       {
-        "title": "Bayer raises 2026 profit outlook",
-        "source": "Reuters",
-        "publishedAt": "2026-11-03T06:43:00Z"
-      },
-      {
-        "title": "Bayer wins Roundup trial in St. Louis County after U.S. Supreme Court narrows legal claims",
-        "source": "The Business Journals",
-        "publishedAt": "2026-10-30T14:07:00Z"
-      },
-      {
         "title": "Bayer Shares Rise After Win in First Roundup Trial Since Supreme Court Ruling",
         "source": "WSJ",
-        "publishedAt": "2026-10-30T10:50:00Z"
+        "publishedAt": "2026-11-03T08:29:34Z"
       },
       {
-        "title": "Bayer Wins St. Louis Roundup Trial, Bolstering Settlement Push",
+        "title": "Bayer Raises Profit Outlook on Strong Demand for Drugs",
         "source": "Bloomberg",
-        "publishedAt": "2026-10-30T09:13:31Z"
+        "publishedAt": "2026-11-03T07:25:00Z"
+      },
+      {
+        "title": "Bayer Raises Earnings Outlook on Pharma Recovery",
+        "source": "WSJ",
+        "publishedAt": "2026-11-03T07:11:10Z"
+      },
+      {
+        "title": "Bayer hikes 2026 profit outlook as pharma unit beats expectations",
+        "source": "Reuters",
+        "publishedAt": "2026-11-03T06:43:00Z"
       }
     ],
     "walmart": [
@@ -367,14 +296,14 @@
         "publishedAt": "2026-11-03T05:47:00Z"
       },
       {
-        "title": "Trump administration lays out plan to overhaul D.C. golf course",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-03T05:08:02Z"
-      },
-      {
         "title": "Rain clears but flood risk remains high after destructive storms swamp normally arid US Southwest",
         "source": "AP News",
         "publishedAt": "2026-11-03T04:38:00Z"
+      },
+      {
+        "title": "Reflecting Pool vs. the state of the economy: Trump and Dems clash in closing messages",
+        "source": "AP News",
+        "publishedAt": "2026-11-03T03:27:00Z"
       }
     ]
   },
@@ -433,6 +362,14 @@
       {
         "date": "2026-10-30",
         "close": 50.58
+      },
+      {
+        "date": "2026-11-02",
+        "close": 50.02
+      },
+      {
+        "date": "2026-11-03",
+        "close": 52.54
       }
     ],
     "bayry": [
@@ -553,6 +490,10 @@
       {
         "date": "2026-11-02",
         "close": 25981.0898
+      },
+      {
+        "date": "2026-11-03",
+        "close": 25705.75
       }
     ]
   }
