@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-03T21:59:37Z",
+  "updatedAt": "2026-11-03T22:43:22Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1194",
+    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1192",
     "Bayer ADR ratio check 4.03 ordinary shares"
   ],
   "quotes": {
@@ -307,11 +307,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1194,
-      "change": 0.0003,
-      "changePct": 0.0268,
+      "price": 1.1192,
+      "change": 0.0001,
+      "changePct": 0.0089,
       "digits": 4,
-      "asOf": "2026-11-03T21:58:28Z"
+      "asOf": "2026-11-03T22:42:29Z"
     }
   },
   "headlines": {
@@ -361,24 +361,24 @@
     ],
     "top": [
       {
-        "title": "Midterm Elections 2026 Live Updates: Control of Congress at Stake as Voters Cast Ballots",
+        "title": "Midterm elections 2026 live updates: Trump\u2019s agenda and control of Congress at stake",
+        "source": "CNBC",
+        "publishedAt": "2026-11-03T22:37:00Z"
+      },
+      {
+        "title": "U.S. House Midterm Election 2026: Live Results",
         "source": "The New York Times",
-        "publishedAt": "2026-11-03T21:51:04Z"
-      },
-      {
-        "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
-        "source": "Reuters",
-        "publishedAt": "2026-11-03T21:24:37Z"
-      },
-      {
-        "title": "Election Day Live: Rep. Lawler Says Westchester County Machine Issues Likely To Delay Results",
-        "source": "Forbes",
-        "publishedAt": "2026-11-03T21:07:00Z"
+        "publishedAt": "2026-11-03T22:27:42Z"
       },
       {
         "title": "Parts of Florida see half a year\u2019s worth of rain in 36 hours",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-03T20:58:57Z"
+        "publishedAt": "2026-11-03T22:05:49Z"
+      },
+      {
+        "title": "US midterm elections 2026: Final hours of voting as Americans cast verdict on Trump and Congress",
+        "source": "Reuters",
+        "publishedAt": "2026-11-03T21:16:05Z"
       }
     ]
   },
