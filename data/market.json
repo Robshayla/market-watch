@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T07:41:30Z",
+  "updatedAt": "2026-11-03T08:03:56Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -307,7 +307,7 @@
       "change": 0.0013,
       "changePct": 0.1162,
       "digits": 4,
-      "asOf": "2026-11-03T07:40:25Z"
+      "asOf": "2026-11-03T08:03:25Z"
     }
   },
   "headlines": {
@@ -357,6 +357,11 @@
     ],
     "top": [
       {
+        "title": "U.S. forces launch new \u2018defensive\u2019 strikes in Iran on eve of election",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-03T07:34:00Z"
+      },
+      {
         "title": "Candidates Sprint to Finish in Campaign\u2019s Final Hours",
         "source": "The New York Times",
         "publishedAt": "2026-11-03T05:47:00Z"
@@ -370,11 +375,6 @@
         "title": "Rain clears but flood risk remains high after destructive storms swamp normally arid US Southwest",
         "source": "AP News",
         "publishedAt": "2026-11-03T04:38:00Z"
-      },
-      {
-        "title": "Judge dismisses case against former FBI agents in Hunter Biden laptop investigation",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-03T04:05:32Z"
       }
     ]
   },
@@ -382,10 +382,6 @@
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-10-13",
-        "close": 44.15
-      },
       {
         "date": "2026-10-14",
         "close": 45.07
@@ -502,10 +498,6 @@
       }
     ],
     "dax": [
-      {
-        "date": "2026-10-13",
-        "close": 25259.9004
-      },
       {
         "date": "2026-10-14",
         "close": 25298.6094
