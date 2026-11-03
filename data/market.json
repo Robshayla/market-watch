@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-03T08:59:38Z",
+  "updatedAt": "2026-11-03T09:54:13Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 127.69 matched",
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1196",
-    "Bayer ADR ratio check 4.22 ordinary shares"
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1194",
+    "Bayer ADR ratio check 4.17 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.54,
+      "price": 51.98,
       "previousClose": 50.02,
-      "change": 2.52,
-      "changePct": 5.038,
-      "asOf": "2026-11-03T08:44:20Z",
+      "change": 1.96,
+      "changePct": 3.9184,
+      "asOf": "2026-11-03T09:38:31Z",
       "digits": 2,
       "sparkline": [
         51.78,
@@ -30,8 +29,19 @@
         52.92,
         52.76,
         52.58,
-        52.56,
-        52.54
+        52.54,
+        52.34,
+        52.4,
+        52.34,
+        52.64,
+        52.8,
+        52.9,
+        52.8,
+        52.78,
+        52.78,
+        52.18,
+        52.06,
+        51.98
       ],
       "sessionDate": "2026-11-03"
     },
@@ -223,20 +233,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25704.69,
-      "change": -276.4,
-      "changePct": -1.0639,
+      "price": 25772.75,
+      "change": -208.34,
+      "changePct": -0.8019,
       "digits": 2,
-      "asOf": "2026-11-03T08:44:25Z"
+      "asOf": "2026-11-03T09:39:03Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1196,
-      "change": 0.0005,
-      "changePct": 0.0447,
+      "price": 1.1194,
+      "change": 0.0003,
+      "changePct": 0.0268,
       "digits": 4,
-      "asOf": "2026-11-03T08:58:27Z"
+      "asOf": "2026-11-03T09:53:28Z"
     }
   },
   "headlines": {
@@ -296,14 +306,14 @@
         "publishedAt": "2026-11-03T05:47:00Z"
       },
       {
+        "title": "Trump administration lays out plan to overhaul D.C. golf course",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-03T05:08:02Z"
+      },
+      {
         "title": "Rain clears but flood risk remains high after destructive storms swamp normally arid US Southwest",
         "source": "AP News",
         "publishedAt": "2026-11-03T04:38:00Z"
-      },
-      {
-        "title": "Reflecting Pool vs. the state of the economy: Trump and Dems clash in closing messages",
-        "source": "AP News",
-        "publishedAt": "2026-11-03T03:27:00Z"
       }
     ]
   },
@@ -369,7 +379,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 52.54
+        "close": 51.98
       }
     ],
     "bayry": [
@@ -493,7 +503,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 25705.75
+        "close": 25773.7695
       }
     ]
   }
