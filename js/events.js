@@ -119,7 +119,7 @@
 
   function earningsFilled(doc) {
     if (!doc || doc.ready !== true || !doc.group) return false;
-    var groupKeys = ["sales", "salesCpa", "ebitda", "ebitdaChange", "margin", "coreEps", "coreEpsChange", "guidance"];
+    var groupKeys = ["sales", "salesCpa", "ebitda", "ebitdaChange", "margin"];
     var g = doc.group;
     for (var i = 0; i < groupKeys.length; i++) {
       if (!text(g[groupKeys[i]])) return false;
@@ -130,12 +130,6 @@
       if (!div || !text(div.name) || !text(div.sales) || !text(div.salesCpa) || !text(div.ebitda) || !text(div.ebitdaChange)) {
         return false;
       }
-      var bullets = div.bullets || [];
-      var any = false;
-      for (var b = 0; b < bullets.length; b++) {
-        if (text(bullets[b])) any = true;
-      }
-      if (!any) return false;
     }
     return true;
   }
@@ -145,8 +139,9 @@
     if (preview === "reaction") return ["reaction"];
     if (preview === "rotation") return ["board", "results", "reaction"];
     if (!inWindow || !event) return ["board"];
-    var screens = ["board"];
+    var screens = [];
     if (event.showResults === true && filled) screens.push("results");
+    screens.push("board");
     if (event.showReaction === true) screens.push("reaction");
     return screens;
   }

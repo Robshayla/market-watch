@@ -60,8 +60,9 @@ check(Events.highlightOn(event, forcedAfter) === true, "preview after highlights
 const forcedBefore = Events.previewNow(event, "before", new Date("2026-11-05T12:00:00Z"));
 check(Events.phase(event, forcedBefore) === "before", "preview before after the event");
 
-const empty = JSON.parse(fs.readFileSync(path.join(here, "../data/earnings_q3_2026.json"), "utf8"));
-check(Events.earningsFilled(empty) === false, "blank earnings file is not ready");
+const q3 = JSON.parse(fs.readFileSync(path.join(here, "../data/earnings_q3_2026.json"), "utf8"));
+check(Events.earningsFilled(q3) === true, "q3 statement is ready to show");
+check(Events.earningsFilled({ ready: true, group: { sales: "" } }) === false, "empty group is not ready");
 check(Events.earningsFilled({
   ready: true,
   group: { sales: "€1", salesCpa: "+1%", ebitda: "€1", ebitdaChange: "+1%", margin: "10%", coreEps: "€1", coreEpsChange: "+1%", guidance: "held" },
@@ -71,7 +72,7 @@ check(Events.earningsFilled({
 const off = { showResults: false, showReaction: false };
 check(JSON.stringify(Events.rotationScreens(off, true, "", true)) === JSON.stringify(["board"]), "switches off stay on the board");
 check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, false, "", true)) === JSON.stringify(["board", "reaction"]), "empty results stay hidden");
-check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, true, "", true)) === JSON.stringify(["board", "results", "reaction"]), "both screens rotate");
+check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, true, "", true)) === JSON.stringify(["results", "board", "reaction"]), "results lead when switched on");
 check(JSON.stringify(Events.rotationScreens(off, false, "", false)) === JSON.stringify(["board"]), "outside the window");
 check(JSON.stringify(Events.rotationScreens(off, false, "results", false)) === JSON.stringify(["results"]), "preview results");
 check(JSON.stringify(Events.rotationScreens(off, false, "reaction", false)) === JSON.stringify(["reaction"]), "preview reaction");

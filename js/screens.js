@@ -83,15 +83,92 @@
     return list;
   }
 
+  function verdictTone(verdict) {
+    var raw = String(verdict || "").toLowerCase();
+    if (raw.indexOf("miss") >= 0) return "miss";
+    if (raw.indexOf("line") >= 0) return "line";
+    return "beat";
+  }
+
+  function verdictLabel(verdict) {
+    var tone = verdictTone(verdict);
+    if (tone === "miss") return "Miss";
+    if (tone === "line") return "In line";
+    return "Beat";
+  }
+
+  function highlightList(items) {
+    var list = el("ul", "div-highlights");
+    var count = 0;
+    for (var i = 0; i < (items || []).length && count < 2; i++) {
+      var line = String(items[i] || "").trim();
+      if (!line) continue;
+      list.appendChild(el("li", "", line));
+      count += 1;
+    }
+    return count ? list : null;
+  }
+
+  function regionBlock(region) {
+    if (!region || !region.lines) return null;
+    var box = el("div", "div-region");
+    box.appendChild(el("h4", "", region.title || "U.S. / North America"));
+    var shown = 0;
+    for (var i = 0; i < region.lines.length && shown < 2; i++) {
+      var line = String(region.lines[i] || "").trim();
+      if (!line) continue;
+      box.appendChild(el("p", "", line));
+      shown += 1;
+    }
+    return shown ? box : null;
+  }
+
+  function renderGlance(glance) {
+    var box = el("section", "glance");
+    var head = el("div", "glance-head");
+    head.appendChild(el("div", "glance-title", glance.title || "Quarter at a glance"));
+    if (glance.source) head.appendChild(el("div", "glance-source", glance.source));
+    box.appendChild(head);
+    var row = el("div", "glance-row");
+    var badges = glance.badges || [];
+    for (var i = 0; i < badges.length && i < 4; i++) {
+      var item = badges[i];
+      var badge = el("div", "glance-badge is-" + verdictTone(item.tone === "miss" ? "miss" : item.tone === "line" ? "line" : "beat"));
+      badge.appendChild(el("b", "", item.kicker || ""));
+      if (item.value) badge.appendChild(el("strong", "", item.value));
+      if (item.text) badge.appendChild(el("span", "", item.text));
+      row.appendChild(badge);
+    }
+    box.appendChild(row);
+    var news = glance.goodNews || [];
+    if (news.length) {
+      var line = el("div", "good-news");
+      line.appendChild(el("b", "", "Good news"));
+      for (var n = 0; n < news.length && n < 2; n++) {
+        if (n) line.appendChild(el("span", "good-news-dot", "·"));
+        line.appendChild(el("span", "", news[n]));
+      }
+      box.appendChild(line);
+    }
+    return box;
+  }
+
   function divisionCard(div, tone, featured) {
     var card = el("article", "div-card tone-" + tone + (featured ? " is-total" : ""));
     card.appendChild(el("div", "div-accent"));
-    card.appendChild(el("h3", "", String(div.name || "").toUpperCase()));
+    var nameRow = el("div", "div-name");
+    nameRow.appendChild(el("h3", "", String(div.name || "").toUpperCase()));
+    if (div.verdict) nameRow.appendChild(el("div", "div-verdict is-" + verdictTone(div.verdict), verdictLabel(div.verdict)));
+    card.appendChild(nameRow);
     var sales = el("div", "div-sales");
     sales.appendChild(el("b", "", div.sales));
     sales.appendChild(document.createTextNode(" sales"));
     card.appendChild(sales);
-    card.appendChild(el("div", "div-cpa " + toneOf(div.salesCpa), div.salesCpa + " cpa"));
+    var cpa = el("div", "div-cpa " + toneOf(div.salesCpa));
+    cpa.appendChild(el("b", "", div.salesCpa));
+    cpa.appendChild(document.createTextNode(" cpa"));
+    if (div.salesRep) cpa.appendChild(el("span", "div-rep", div.salesRep));
+    card.appendChild(cpa);
     var ebitda = el("div", "div-line");
     ebitda.appendChild(el("i"));
     var ebitdaText = "EBITDA bsi " + div.ebitda + ", " + div.ebitdaChange;
@@ -114,7 +191,12 @@
       guide.appendChild(el("span", "", div.guidance));
       card.appendChild(guide);
     }
+    var highlights = highlightList(div.highlights);
+    if (highlights) card.appendChild(highlights);
     if (div.bullets) card.appendChild(bulletList(div.bullets));
+    var region = regionBlock(div.region);
+    if (region) card.appendChild(region);
+    if (div.note) card.appendChild(el("p", "div-note", div.note));
     return card;
   }
 
@@ -203,6 +285,8 @@
     header.appendChild(brand);
     if (doc.badge) header.appendChild(el("div", "slide-badge", doc.badge));
     host.appendChild(header);
+    host.classList.toggle("has-glance", !!(doc.glance && doc.glance.badges && doc.glance.badges.length));
+    if (doc.glance && doc.glance.badges && doc.glance.badges.length) host.appendChild(renderGlance(doc.glance));
 
     var grid = el("div", "div-grid");
     var group = Object.assign({ tone: "total" }, doc.group);

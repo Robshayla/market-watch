@@ -8,13 +8,18 @@
       "hideAfter": "2026-11-04T23:00:00Z",
       "timezone": "Europe/Berlin",
       "highlightSymbols": ["bayn", "bayry"],
-      "showResults": false,
+      "showResults": true,
       "showReaction": false,
       "resultsFile": "data/earnings_q3_2026.json",
       "referenceDate": "2026-11-02",
       "rotateMs": 20000,
       "sourceUrl": "https://www.bayer.com/en/about-us/events/2026-11-03-media-update",
       "sourceLabel": "bayer.com",
+      "released": {
+        "label": "Released Nov 3",
+        "url": "https://www.bayer.com/en/investors/financial-reports/quarterly-reports",
+        "note": "2026 outlook raised: EBITDA bef. SI €9.8–10.3bn"
+      },
       "clocks": [
         { "timeZone": "America/New_York", "label": "ET" },
         { "timeZone": "America/Chicago", "label": "CT" },
