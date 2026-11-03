@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-03T17:32:49Z",
+  "updatedAt": "2026-11-03T18:27:11Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 124.93 matched",
+    "Nasdaq last sale 125.06 matched",
     "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1199",
     "Bayer ADR ratio check 4.01 ordinary shares"
   ],
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.46,
+      "price": 14.49,
       "previousClose": 13.95,
-      "change": 0.51,
-      "changePct": 3.6559,
-      "asOf": "2026-11-03T17:17:11Z",
+      "change": 0.54,
+      "changePct": 3.871,
+      "asOf": "2026-11-03T18:06:32Z",
       "digits": 2,
       "sparkline": [
         15.0,
@@ -152,7 +152,14 @@
         14.47,
         14.46,
         14.45,
-        14.46
+        14.46,
+        14.45,
+        14.49,
+        14.46,
+        14.47,
+        14.46,
+        14.46,
+        14.49
       ],
       "sessionDate": "2026-11-03"
     },
@@ -163,11 +170,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 124.93,
+      "price": 125.06,
       "previousClose": 127.69,
-      "change": -2.76,
-      "changePct": -2.1615,
-      "asOf": "2026-11-03T17:32:27Z",
+      "change": -2.63,
+      "changePct": -2.0597,
+      "asOf": "2026-11-03T18:26:50Z",
       "digits": 2,
       "sparkline": [
         125.875,
@@ -206,8 +213,19 @@
         124.96,
         124.985,
         124.89,
-        124.94,
-        124.93
+        124.85,
+        124.7,
+        124.7,
+        124.91,
+        124.89,
+        124.86,
+        124.84,
+        124.9,
+        124.795,
+        124.98,
+        125.0,
+        125.03,
+        125.055
       ],
       "sessionDate": "2026-11-03"
     }
@@ -216,20 +234,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7578.72,
-      "change": 37.32,
-      "changePct": 0.4949,
+      "price": 7586.11,
+      "change": 44.71,
+      "changePct": 0.5929,
       "digits": 2,
-      "asOf": "2026-11-03T17:32:36Z"
+      "asOf": "2026-11-03T18:26:57Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51745.2,
-      "change": -238.78,
-      "changePct": -0.4593,
+      "price": 51873.29,
+      "change": -110.69,
+      "changePct": -0.2129,
       "digits": 2,
-      "asOf": "2026-11-03T17:32:36Z"
+      "asOf": "2026-11-03T18:26:58Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -247,20 +265,20 @@
       "change": 0.0008,
       "changePct": 0.0715,
       "digits": 4,
-      "asOf": "2026-11-03T17:32:28Z"
+      "asOf": "2026-11-03T18:26:29Z"
     }
   },
   "headlines": {
     "bayer": [
       {
+        "title": "Roundup settlement expected before Christmas, Bayer CEO says",
+        "source": "Reuters",
+        "publishedAt": "2026-11-03T17:28:47Z"
+      },
+      {
         "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
         "source": "Fierce Pharma",
         "publishedAt": "2026-11-03T16:27:31Z"
-      },
-      {
-        "title": "Roundup settlement expected before Christmas, Bayer CEO says",
-        "source": "Reuters",
-        "publishedAt": "2026-11-03T16:11:51Z"
       },
       {
         "title": "India's Bayer CropScience posts nearly 9% rise in Q2 profit",
@@ -299,38 +317,38 @@
       {
         "title": "2026 Midterm Elections Live Updates: Voters Head to the Polls to Decide Control of Congress",
         "source": "The New York Times",
-        "publishedAt": "2026-11-03T17:23:01Z"
+        "publishedAt": "2026-11-03T18:19:33Z"
       },
       {
-        "title": "Voting begins on last day to cast ballots in US midterms with observers keeping close watch at polls",
-        "source": "AP News",
-        "publishedAt": "2026-11-03T17:06:00Z"
+        "title": "Parts of Florida see half a year\u2019s worth of rain in 36 hours",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-03T17:57:32Z"
       },
       {
         "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
         "source": "Reuters",
-        "publishedAt": "2026-11-03T16:55:20Z"
+        "publishedAt": "2026-11-03T17:47:41Z"
       },
       {
         "title": "Angry voters in red America will swing the election",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-03T16:49:53Z"
+        "publishedAt": "2026-11-03T17:32:07Z"
       }
     ]
   },
   "releases": [
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7% By Investing.com",
-      "source": "Investing.com South Africa",
-      "publishedAt": "2026-11-03T16:09:02Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com Canada",
-      "publishedAt": "2026-11-03T15:25:56Z",
+      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7% By Investing.com",
+      "source": "Investing.com India",
+      "publishedAt": "2026-11-03T15:12:43Z",
       "release": true
     },
     {
@@ -471,7 +489,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 14.46
+        "close": 14.49
       }
     ],
     "dax": [
