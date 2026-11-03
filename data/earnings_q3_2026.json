@@ -1,43 +1,51 @@
 {
-  "ready": false,
+  "ready": true,
   "title": "Bayer Q3 2026 Results",
-  "source": "Source: Bayer Q3 2026 statement, Nov 3, 2026",
-  "footnote": "cpa = currency & portfolio adj.",
+  "badge": "Q3 2026",
+  "source": "Source: Bayer quarterly statement Q3 2026",
+  "footnote": "cpa = currency & portfolio adj. Preview only.",
   "group": {
     "name": "Total Bayer",
-    "sales": "",
-    "salesCpa": "",
-    "ebitda": "",
-    "ebitdaChange": "",
-    "margin": "",
+    "sales": "€10.053bn",
+    "salesCpa": "+1.9%",
+    "ebitda": "€1.615bn",
+    "ebitdaChange": "+6.9%",
+    "margin": "16.1%",
     "coreEps": "",
     "coreEpsChange": "",
-    "guidance": ""
+    "guidance": "2026 outlook raised: EBITDA bef. SI €9.8–10.3bn",
+    "bullets": ["Reported +4.1%"]
   },
   "divisions": [
     {
       "name": "Crop Science",
-      "sales": "",
-      "salesCpa": "",
-      "ebitda": "",
-      "ebitdaChange": "",
-      "bullets": ["", ""]
+      "tone": "crop",
+      "sales": "€3.884bn",
+      "salesCpa": "−2.4%",
+      "ebitda": "€101m",
+      "ebitdaChange": "−41.3%",
+      "margin": "2.6%",
+      "bullets": ["Reported +0.7%"]
     },
     {
-      "name": "Pharma",
-      "sales": "",
-      "salesCpa": "",
-      "ebitda": "",
-      "ebitdaChange": "",
-      "bullets": ["", ""]
+      "name": "Pharmaceuticals",
+      "tone": "pharma",
+      "sales": "€4.680bn",
+      "salesCpa": "+6.4%",
+      "ebitda": "€1.292bn",
+      "ebitdaChange": "+23.6%",
+      "margin": "27.6%",
+      "bullets": ["Reported +8.0%"]
     },
     {
       "name": "Consumer Health",
-      "sales": "",
-      "salesCpa": "",
-      "ebitda": "",
-      "ebitdaChange": "",
-      "bullets": ["", ""]
+      "tone": "consumer",
+      "sales": "€1.445bn",
+      "salesCpa": "+0.1%",
+      "ebitda": "€347m",
+      "ebitdaChange": "−4.4%",
+      "margin": "24.0%",
+      "bullets": ["Reported +2.1%"]
     }
   ]
 }

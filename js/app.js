@@ -367,7 +367,8 @@
     copy.className = "event-copy";
     var heading = document.createElement("div");
     heading.className = "event-title";
-    heading.textContent = model.phase === "after" ? item.outTitle : item.title;
+    var released = model.phase === "after" && item.released && item.released.label;
+    heading.textContent = released ? item.title : model.phase === "after" ? item.outTitle : item.title;
     var sub = document.createElement("div");
     sub.className = "event-sub";
     sub.textContent = Events.dateLabel(item.releaseAt, item.timezone || "Europe/Berlin") + "  ·  " + (item.sourceLabel || "");
@@ -410,6 +411,19 @@
       }
       lines.appendChild(figRow);
     }
+    if (released && item.released.note) {
+      lines.appendChild(document.createElement("div")).className = "event-note";
+      lines.lastChild.textContent = item.released.note;
+    }
+    if (released && item.released.url) {
+      var link = document.createElement("a");
+      link.className = "event-link";
+      link.href = item.released.url;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = "Quarterly reports";
+      lines.appendChild(link);
+    }
     copy.appendChild(heading);
     copy.appendChild(sub);
     copy.appendChild(lines);
@@ -439,6 +453,11 @@
     var labelEl = document.getElementById("cd-label");
     var units = document.getElementById("count-units");
     if (!labelEl || !units) return;
+    if (model.phase === "after" && model.event.released && model.event.released.label) {
+      labelEl.textContent = model.event.released.label;
+      units.hidden = true;
+      return;
+    }
     var target = null;
     var label = "Release in";
     if (model.phase === "before") {
@@ -739,7 +758,10 @@
     var reaction = reactionView(event);
     if (name === "results") {
       var preview = readPreview();
-      var doc = preview === "results" || preview === "rotation" ? MarketScreens.sampleQ2 : earningsDoc;
+      var q3Sales = earningsDoc && earningsDoc.group && String(earningsDoc.group.sales || "").trim();
+      var doc = preview === "results" || preview === "rotation"
+        ? (q3Sales && earningsDoc.badge ? earningsDoc : MarketScreens.sampleQ2)
+        : earningsDoc;
       if (!Events.earningsFilled(doc) && preview !== "results" && preview !== "rotation") {
         stage.classList.remove("show-results");
         return;

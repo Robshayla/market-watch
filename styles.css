@@ -212,6 +212,26 @@ h1 {
   text-overflow: ellipsis;
 }
 
+.event-note {
+  margin-top: 4px;
+  color: #d5e0ea;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.event-link {
+  display: inline-block;
+  margin-top: 4px;
+  color: #9fd0ff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .event-figures {
   display: flex;
   gap: 18px;
@@ -258,6 +278,8 @@ h1 {
   justify-content: flex-end;
   gap: 8px;
 }
+
+.count-units[hidden] { display: none; }
 
 .count-unit {
   width: 58px;
