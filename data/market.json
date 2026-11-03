@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-03T19:24:56Z",
+  "updatedAt": "2026-11-03T20:18:21Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.22 matched",
-    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1197",
+    "Nasdaq last sale 124.86 matched",
+    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1193",
     "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.49,
+      "price": 14.46,
       "previousClose": 13.95,
-      "change": 0.54,
-      "changePct": 3.871,
-      "asOf": "2026-11-03T19:04:38Z",
+      "change": 0.51,
+      "changePct": 3.6559,
+      "asOf": "2026-11-03T20:01:55Z",
       "digits": 2,
       "sparkline": [
         15.0,
@@ -162,7 +162,15 @@
         14.49,
         14.48,
         14.49,
-        14.49
+        14.49,
+        14.49,
+        14.48,
+        14.47,
+        14.45,
+        14.47,
+        14.45,
+        14.44,
+        14.46
       ],
       "sessionDate": "2026-11-03"
     },
@@ -173,11 +181,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.22,
+      "price": 124.86,
       "previousClose": 127.69,
-      "change": -2.47,
-      "changePct": -1.9344,
-      "asOf": "2026-11-03T19:24:41Z",
+      "change": -2.83,
+      "changePct": -2.2163,
+      "asOf": "2026-11-03T20:18:04Z",
       "digits": 2,
       "sparkline": [
         125.875,
@@ -238,8 +246,19 @@
         125.2,
         125.26,
         125.32,
-        125.255,
-        125.22
+        125.23,
+        125.13,
+        125.1,
+        125.01,
+        124.98,
+        124.9466,
+        124.895,
+        124.84,
+        124.79,
+        124.76,
+        124.82,
+        124.855,
+        124.855
       ],
       "sessionDate": "2026-11-03"
     }
@@ -248,20 +267,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7577.98,
-      "change": 36.58,
-      "changePct": 0.4851,
+      "price": 7564.34,
+      "change": 22.94,
+      "changePct": 0.3042,
       "digits": 2,
-      "asOf": "2026-11-03T19:24:42Z"
+      "asOf": "2026-11-03T20:18:09Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51838.0,
-      "change": -145.98,
-      "changePct": -0.2808,
+      "price": 51752.61,
+      "change": -231.37,
+      "changePct": -0.4451,
       "digits": 2,
-      "asOf": "2026-11-03T19:24:42Z"
+      "asOf": "2026-11-03T20:18:08Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -275,11 +294,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1197,
-      "change": 0.0006,
-      "changePct": 0.0536,
+      "price": 1.1193,
+      "change": 0.0002,
+      "changePct": 0.0179,
       "digits": 4,
-      "asOf": "2026-11-03T19:24:25Z"
+      "asOf": "2026-11-03T20:17:26Z"
     }
   },
   "headlines": {
@@ -329,40 +348,40 @@
     ],
     "top": [
       {
-        "title": "US strikes in the Strait of Hormuz create more questions about what\u2019s ahead",
+        "title": "2026 Midterm Elections Live Updates: Divided Nation Votes on Election Day to Decide Control of Congress",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-03T20:09:16Z"
+      },
+      {
+        "title": "U.S. Senate Midterm Election 2026: Live Results",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-03T20:05:00Z"
+      },
+      {
+        "title": "Election Day unfolds with relatively few problems. Some voters disrupted by weather, machine issues",
         "source": "AP News",
-        "publishedAt": "2026-11-03T19:11:00Z"
+        "publishedAt": "2026-11-03T19:49:00Z"
       },
       {
-        "title": "The unlikely player in contentious Michigan Senate race: Stevens\u2019s fianc\u00e9",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-03T19:02:07Z"
-      },
-      {
-        "title": "Man charged with mailing hundreds of letters containing powder to officials ahead of the election",
-        "source": "AP News",
-        "publishedAt": "2026-11-03T18:37:00Z"
-      },
-      {
-        "title": "Trump Attacks Rep. Ted Lieu Over Reflecting Pool Joke As Voting Gets Underway",
-        "source": "Forbes",
-        "publishedAt": "2026-11-03T18:35:00Z"
+        "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
+        "source": "Reuters",
+        "publishedAt": "2026-11-03T19:31:20Z"
       }
     ]
   },
   "releases": [
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7% By Investing.com",
-      "source": "Investing.com South Africa",
-      "publishedAt": "2026-11-03T16:09:02Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
+      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7% By Investing.com",
+      "source": "Investing.com India",
+      "publishedAt": "2026-11-03T15:12:43Z",
       "release": true
     },
     {
@@ -503,7 +522,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 14.49
+        "close": 14.46
       }
     ],
     "dax": [
