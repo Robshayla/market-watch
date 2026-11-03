@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-03T16:32:04Z",
+  "updatedAt": "2026-11-03T17:32:49Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.67 matched",
-    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1197",
+    "Nasdaq last sale 124.93 matched",
+    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1199",
     "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.88,
+      "price": 51.84,
       "previousClose": 50.02,
-      "change": 2.86,
-      "changePct": 5.7177,
-      "asOf": "2026-11-03T16:16:47Z",
+      "change": 1.82,
+      "changePct": 3.6385,
+      "asOf": "2026-11-03T16:39:59Z",
       "digits": 2,
       "sparkline": [
         51.78,
@@ -33,44 +33,43 @@
         52.4,
         52.34,
         52.64,
-        52.8,
+        52.9,
         52.8,
         52.78,
         52.78,
-        52.18,
+        52.06,
         52.0,
         51.86,
         51.88,
-        51.92,
+        51.94,
         52.18,
         52.0,
-        52.28,
         52.58,
+        52.7,
         52.8,
         52.64,
-        52.54,
         52.58,
+        52.24,
         52.16,
         52.1,
-        52.12,
         52.08,
+        51.8,
         51.98,
-        51.9,
         52.14,
         52.24,
+        52.32,
         52.74,
-        52.62,
         52.68,
         52.56,
-        52.62,
+        52.58,
         52.52,
         52.64,
         52.54,
-        52.64,
+        52.66,
         52.6,
         52.82,
         52.84,
-        52.86,
+        52.9,
         52.92,
         52.84,
         52.98,
@@ -85,7 +84,7 @@
         53.6,
         53.72,
         53.7,
-        53.82,
+        53.72,
         53.54,
         53.68,
         53.86,
@@ -93,16 +92,17 @@
         53.9,
         53.82,
         53.52,
-        53.82,
+        53.56,
         53.56,
         53.64,
-        53.5,
         53.52,
+        53.58,
         53.5,
         53.18,
-        53.16,
         52.9,
-        52.88
+        52.88,
+        52.68,
+        51.84
       ],
       "sessionDate": "2026-11-03"
     },
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.76,
+      "price": 14.46,
       "previousClose": 13.95,
-      "change": 0.81,
-      "changePct": 5.8065,
-      "asOf": "2026-11-03T16:16:40Z",
+      "change": 0.51,
+      "changePct": 3.6559,
+      "asOf": "2026-11-03T17:17:11Z",
       "digits": 2,
       "sparkline": [
         15.0,
@@ -140,7 +140,19 @@
         14.84,
         14.84,
         14.78,
-        14.76
+        14.76,
+        14.71,
+        14.61,
+        14.56,
+        14.55,
+        14.46,
+        14.45,
+        14.45,
+        14.47,
+        14.47,
+        14.46,
+        14.45,
+        14.46
       ],
       "sessionDate": "2026-11-03"
     },
@@ -151,11 +163,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.68,
+      "price": 124.93,
       "previousClose": 127.69,
-      "change": -2.01,
-      "changePct": -1.5741,
-      "asOf": "2026-11-03T16:31:46Z",
+      "change": -2.76,
+      "changePct": -2.1615,
+      "asOf": "2026-11-03T17:32:27Z",
       "digits": 2,
       "sparkline": [
         125.875,
@@ -182,8 +194,20 @@
         125.57,
         125.5722,
         125.57,
-        125.65,
-        125.68
+        125.64,
+        125.525,
+        125.45,
+        125.31,
+        125.47,
+        125.32,
+        125.2,
+        124.86,
+        124.97,
+        124.96,
+        124.985,
+        124.89,
+        124.94,
+        124.93
       ],
       "sessionDate": "2026-11-03"
     }
@@ -192,42 +216,52 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7575.28,
-      "change": 33.88,
-      "changePct": 0.4493,
+      "price": 7578.72,
+      "change": 37.32,
+      "changePct": 0.4949,
       "digits": 2,
-      "asOf": "2026-11-03T16:31:50Z"
+      "asOf": "2026-11-03T17:32:36Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51850.83,
-      "change": -133.15,
-      "changePct": -0.2561,
+      "price": 51745.2,
+      "change": -238.78,
+      "changePct": -0.4593,
       "digits": 2,
-      "asOf": "2026-11-03T16:31:51Z"
+      "asOf": "2026-11-03T17:32:36Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25910.94,
-      "change": -70.15,
-      "changePct": -0.27,
+      "price": 25864.62,
+      "change": -116.47,
+      "changePct": -0.4483,
       "digits": 2,
-      "asOf": "2026-11-03T16:16:51Z"
+      "asOf": "2026-11-03T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1197,
-      "change": 0.0006,
-      "changePct": 0.0536,
+      "price": 1.1199,
+      "change": 0.0008,
+      "changePct": 0.0715,
       "digits": 4,
-      "asOf": "2026-11-03T16:31:26Z"
+      "asOf": "2026-11-03T17:32:28Z"
     }
   },
   "headlines": {
     "bayer": [
+      {
+        "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
+        "source": "Fierce Pharma",
+        "publishedAt": "2026-11-03T16:27:31Z"
+      },
+      {
+        "title": "Roundup settlement expected before Christmas, Bayer CEO says",
+        "source": "Reuters",
+        "publishedAt": "2026-11-03T16:11:51Z"
+      },
       {
         "title": "India's Bayer CropScience posts nearly 9% rise in Q2 profit",
         "source": "Reuters",
@@ -237,16 +271,6 @@
         "title": "Bayer Raises Profit Outlook on Strong Demand for Drugs",
         "source": "Bloomberg",
         "publishedAt": "2026-11-03T11:09:10Z"
-      },
-      {
-        "title": "Bayer Shares Jump After Pharma Recovery Prompts Outlook Raise",
-        "source": "WSJ",
-        "publishedAt": "2026-11-03T09:15:00Z"
-      },
-      {
-        "title": "Bayer raises 2026 profit outlook as pharma business beats expectations",
-        "source": "Reuters",
-        "publishedAt": "2026-11-03T06:43:00Z"
       }
     ],
     "walmart": [
@@ -275,38 +299,38 @@
       {
         "title": "2026 Midterm Elections Live Updates: Voters Head to the Polls to Decide Control of Congress",
         "source": "The New York Times",
-        "publishedAt": "2026-11-03T16:24:47Z"
+        "publishedAt": "2026-11-03T17:23:01Z"
       },
       {
-        "title": "Americans Vote in 2026 Midterm Elections: Live Updates As Control of Congress on the Line",
-        "source": "WSJ",
-        "publishedAt": "2026-11-03T16:07:00Z"
+        "title": "Voting begins on last day to cast ballots in US midterms with observers keeping close watch at polls",
+        "source": "AP News",
+        "publishedAt": "2026-11-03T17:06:00Z"
       },
       {
-        "title": "Parts of Florida see half a year\u2019s worth of rain in 36 hours",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-03T16:05:49Z"
+        "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
+        "source": "Reuters",
+        "publishedAt": "2026-11-03T16:55:20Z"
       },
       {
         "title": "Angry voters in red America will swing the election",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-03T16:02:07Z"
+        "publishedAt": "2026-11-03T16:49:53Z"
       }
     ]
   },
   "releases": [
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
+      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7% By Investing.com",
+      "source": "Investing.com South Africa",
+      "publishedAt": "2026-11-03T16:09:02Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7% By Investing.com",
-      "source": "Investing.com India",
-      "publishedAt": "2026-11-03T15:12:43Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com Canada",
+      "publishedAt": "2026-11-03T15:25:56Z",
       "release": true
     },
     {
@@ -319,8 +343,8 @@
     {
       "eventId": "bayer-q3-2026",
       "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing.com UK",
-      "publishedAt": "2026-11-03T10:50:00Z",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -385,7 +409,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 52.92
+        "close": 51.84
       }
     ],
     "bayry": [
@@ -447,7 +471,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 14.76
+        "close": 14.46
       }
     ],
     "dax": [
@@ -509,7 +533,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 25911.0195
+        "close": 25864.6191
       }
     ]
   }
