@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-02T22:42:11Z",
+  "updatedAt": "2026-11-03T07:41:30Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1191",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "Nasdaq last sale 127.69 matched",
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1204",
+    "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -182,11 +183,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.61,
+      "price": 127.69,
       "previousClose": 123.51,
-      "change": 4.1,
-      "changePct": 3.3196,
-      "asOf": "2026-11-02T20:37:30Z",
+      "change": 4.18,
+      "changePct": 3.3843,
+      "asOf": "2026-11-02T21:00:00Z",
       "digits": 2,
       "sparkline": [
         125.06,
@@ -262,8 +263,11 @@
         127.285,
         127.34,
         127.55,
-        127.58,
-        127.605
+        127.7099,
+        127.6815,
+        127.845,
+        127.87,
+        127.7
       ],
       "sessionDate": "2026-11-02"
     }
@@ -299,15 +303,20 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1191,
-      "change": 0.0025,
-      "changePct": 0.2239,
+      "price": 1.1204,
+      "change": 0.0013,
+      "changePct": 0.1162,
       "digits": 4,
-      "asOf": "2026-11-02T22:41:29Z"
+      "asOf": "2026-11-03T07:40:25Z"
     }
   },
   "headlines": {
     "bayer": [
+      {
+        "title": "Bayer raises 2026 profit outlook",
+        "source": "Reuters",
+        "publishedAt": "2026-11-03T06:43:00Z"
+      },
       {
         "title": "Bayer wins Roundup trial in St. Louis County after U.S. Supreme Court narrows legal claims",
         "source": "The Business Journals",
@@ -322,11 +331,6 @@
         "title": "Bayer Wins St. Louis Roundup Trial, Bolstering Settlement Push",
         "source": "Bloomberg",
         "publishedAt": "2026-10-30T09:13:31Z"
-      },
-      {
-        "title": "Bayer wins Roundup weedkiller cancer trial while awaiting settlement ruling",
-        "source": "Reuters",
-        "publishedAt": "2026-10-30T01:16:15Z"
       }
     ],
     "walmart": [
@@ -336,7 +340,7 @@
         "publishedAt": "2026-11-02T19:15:40Z"
       },
       {
-        "title": "How Walmart heiress Alice Walton, the world's richest woman, spends her $135 billion fortune",
+        "title": "How Walmart heiress and world's richest woman Alice Walton spends her $133 billion fortune",
         "source": "Business Insider",
         "publishedAt": "2026-11-02T17:33:00Z"
       },
@@ -353,24 +357,24 @@
     ],
     "top": [
       {
-        "title": "2026 Elections Live Updates: Trump Makes Final Midterms Push for Republicans as Democrats Appear Hopeful",
+        "title": "Candidates Sprint to Finish in Campaign\u2019s Final Hours",
         "source": "The New York Times",
-        "publishedAt": "2026-11-02T22:24:49Z"
+        "publishedAt": "2026-11-03T05:47:00Z"
+      },
+      {
+        "title": "Trump administration lays out plan to overhaul D.C. golf course",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-03T05:08:02Z"
+      },
+      {
+        "title": "Rain clears but flood risk remains high after destructive storms swamp normally arid US Southwest",
+        "source": "AP News",
+        "publishedAt": "2026-11-03T04:38:00Z"
       },
       {
         "title": "Judge dismisses case against former FBI agents in Hunter Biden laptop investigation",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-02T22:12:23Z"
-      },
-      {
-        "title": "Trump administration asks Supreme Court to set aside 20,000 California ballots for now",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-02T21:48:32Z"
-      },
-      {
-        "title": "El-Sayed, Michigan Democrats push to galvanize voters after stunning Senate race defection",
-        "source": "AP News",
-        "publishedAt": "2026-11-02T21:01:00Z"
+        "publishedAt": "2026-11-03T04:05:32Z"
       }
     ]
   },
@@ -433,10 +437,6 @@
       {
         "date": "2026-10-30",
         "close": 50.58
-      },
-      {
-        "date": "2026-11-02",
-        "close": 50.02
       }
     ],
     "bayry": [
