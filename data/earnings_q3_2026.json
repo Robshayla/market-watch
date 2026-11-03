@@ -2,19 +2,33 @@
   "ready": true,
   "title": "Bayer Q3 2026 Results",
   "badge": "Q3 2026",
-  "source": "Source: Bayer quarterly statement Q3 2026",
-  "footnote": "cpa = currency & portfolio adj. Preview only.",
+  "source": "Source: Bayer Q3 2026 Quarterly Statement (Nov 3, 2026); consensus: dpa-AFX",
+  "footnote": "",
+  "glance": {
+    "title": "Quarter at a glance",
+    "source": "Consensus: dpa-AFX analyst poll",
+    "badges": [
+      { "tone": "beat", "kicker": "EBITDA beat consensus", "value": "€1.615bn", "text": "vs ~€1.43bn" },
+      { "tone": "beat", "kicker": "FY2026 outlook raised", "value": "€9.8–10.3bn", "text": "was €9.6–10.1bn, currency-adjusted" },
+      { "tone": "beat", "kicker": "Pharma margin target", "value": "25–27%", "text": "was 23–25%" },
+      { "tone": "miss", "kicker": "Core EPS", "value": "€0.31", "text": "below ~€0.36 consensus" }
+    ]
+  },
   "group": {
     "name": "Total Bayer",
     "sales": "€10.053bn",
     "salesCpa": "+1.9%",
+    "salesRep": "reported +4.1%",
     "ebitda": "€1.615bn",
     "ebitdaChange": "+6.9%",
     "margin": "16.1%",
     "coreEps": "",
     "coreEpsChange": "",
-    "guidance": "2026 outlook raised: EBITDA bef. SI €9.8–10.3bn",
-    "bullets": ["Reported +4.1%"]
+    "guidance": "",
+    "verdict": "Beat",
+    "highlights": [
+      "Margin 16.1% vs 15.6%."
+    ]
   },
   "divisions": [
     {
@@ -22,30 +36,52 @@
       "tone": "crop",
       "sales": "€3.884bn",
       "salesCpa": "−2.4%",
+      "salesRep": "reported +0.7%",
       "ebitda": "€101m",
       "ebitdaChange": "−41.3%",
       "margin": "2.6%",
-      "bullets": ["Reported +0.7%"]
+      "verdict": "Miss",
+      "highlights": [
+        "EBITDA €101m vs ~€164m. Margin 2.6% vs 4.5%.",
+        "Higher costs. EMEA and APAC weather and rules. Strong LatAm seeds."
+      ]
     },
     {
       "name": "Pharmaceuticals",
       "tone": "pharma",
       "sales": "€4.680bn",
       "salesCpa": "+6.4%",
+      "salesRep": "reported +8.0%",
       "ebitda": "€1.292bn",
       "ebitdaChange": "+23.6%",
       "margin": "27.6%",
-      "bullets": ["Reported +8.0%"]
+      "verdict": "Beat",
+      "highlights": [
+        "EBITDA €1.292bn vs ~€1.04bn. Margin 27.6% vs 24.1%.",
+        "Nubeqa +58% and Kerendia +65% offset Xarelto and Eylea."
+      ]
     },
     {
       "name": "Consumer Health",
       "tone": "consumer",
       "sales": "€1.445bn",
       "salesCpa": "+0.1%",
+      "salesRep": "reported +2.1%",
       "ebitda": "€347m",
       "ebitdaChange": "−4.4%",
       "margin": "24.0%",
-      "bullets": ["Reported +2.1%"]
+      "verdict": "In line",
+      "highlights": [
+        "EBITDA €347m vs ~€347m. Sales flat cpa.",
+        "Margin 24.0% vs 25.7%."
+      ],
+      "region": {
+        "title": "U.S. / North America",
+        "lines": [
+          "€451m, flat vs last year · −1.1% Fx&p adj. · 9M €1,402m, −2.9%.",
+          "MiraLAX up on MiraFAST. Weaker U.S. demand, cough & cold, Nutritionals, Pain & Cardio. Market view 2.5–3%."
+        ]
+      }
     }
   ]
 }
