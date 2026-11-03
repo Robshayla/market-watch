@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-03T13:51:30Z",
+  "updatedAt": "2026-11-03T14:46:35Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1192",
-    "Bayer ADR ratio check 4.27 ordinary shares"
+    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1189",
+    "Bayer ADR ratio check 4.31 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 53.22,
+      "price": 53.76,
       "previousClose": 50.02,
-      "change": 3.2,
-      "changePct": 6.3974,
-      "asOf": "2026-11-03T13:36:14Z",
+      "change": 3.74,
+      "changePct": 7.477,
+      "asOf": "2026-11-03T14:31:17Z",
       "digits": 2,
       "sparkline": [
         51.78,
@@ -88,8 +88,19 @@
         52.96,
         53.1,
         53.26,
-        53.22,
-        53.22
+        53.26,
+        53.48,
+        53.3,
+        53.34,
+        53.36,
+        53.36,
+        53.36,
+        53.52,
+        53.6,
+        53.72,
+        53.7,
+        53.66,
+        53.76
       ],
       "sessionDate": "2026-11-03"
     },
@@ -263,38 +274,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7541.4,
-      "change": -38.67,
-      "changePct": -0.5102,
+      "price": 7565.27,
+      "change": 23.87,
+      "changePct": 0.3165,
       "digits": 2,
-      "asOf": "2026-11-02T21:50:59Z"
+      "asOf": "2026-11-03T14:46:22Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51983.98,
-      "change": 213.67,
-      "changePct": 0.4127,
+      "price": 51650.72,
+      "change": -333.26,
+      "changePct": -0.6411,
       "digits": 2,
-      "asOf": "2026-11-02T21:50:57Z"
+      "asOf": "2026-11-03T14:46:23Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25972.28,
-      "change": -8.81,
-      "changePct": -0.0339,
+      "price": 25946.06,
+      "change": -35.03,
+      "changePct": -0.1348,
       "digits": 2,
-      "asOf": "2026-11-03T13:36:19Z"
+      "asOf": "2026-11-03T14:31:22Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1192,
-      "change": 0.0001,
-      "changePct": 0.0089,
+      "price": 1.1189,
+      "change": -0.0002,
+      "changePct": -0.0179,
       "digits": 4,
-      "asOf": "2026-11-03T13:50:28Z"
+      "asOf": "2026-11-03T14:45:29Z"
     }
   },
   "headlines": {
@@ -307,7 +318,7 @@
       {
         "title": "Bayer Shares Jump After Pharma Recovery Prompts Outlook Raise",
         "source": "WSJ",
-        "publishedAt": "2026-11-03T09:15:00Z"
+        "publishedAt": "2026-11-03T10:09:36Z"
       },
       {
         "title": "Bayer raises 2026 profit outlook as pharma business beats expectations",
@@ -344,24 +355,24 @@
     ],
     "top": [
       {
-        "title": "Midterm elections live updates: Voters will decide control of Congress in major test of Trump's second term",
-        "source": "AP News",
-        "publishedAt": "2026-11-03T13:44:00Z"
-      },
-      {
         "title": "Parts of Florida see half a year\u2019s worth of rain in 36 hours",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-03T13:05:47Z"
+        "publishedAt": "2026-11-03T14:35:47Z"
       },
       {
-        "title": "Florida plane crash victims: Learjet Captain Jeff Gregory has ties to East Coast Jets, Inc. in Allentown, Pennsylvania",
-        "source": "6abc Philadelphia",
-        "publishedAt": "2026-11-03T12:22:30Z"
+        "title": "2026 Midterm Elections Live Updates: Voters Head to the Polls to Decide Control of Congress",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-03T14:33:26Z"
       },
       {
-        "title": "Election Day arrives after a surge in early voting, with observers keeping close watch at the polls",
-        "source": "AP News",
-        "publishedAt": "2026-11-03T12:14:00Z"
+        "title": "Angry voters head to the polls as the election is fought in red America",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-03T14:32:05Z"
+      },
+      {
+        "title": "Trump says US will stop $4 billion funding to Israel at end of 2026",
+        "source": "Reuters",
+        "publishedAt": "2026-11-03T14:07:11Z"
       }
     ]
   },
@@ -442,14 +453,10 @@
       },
       {
         "date": "2026-11-03",
-        "close": 53.22
+        "close": 53.76
       }
     ],
     "bayry": [
-      {
-        "date": "2026-10-13",
-        "close": 12.33
-      },
       {
         "date": "2026-10-14",
         "close": 12.54
@@ -508,7 +515,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 13.95
+        "close": 14.99
       }
     ],
     "dax": [
@@ -570,7 +577,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 25969.6504
+        "close": 25940.6992
       }
     ]
   }
