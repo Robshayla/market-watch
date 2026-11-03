@@ -10,7 +10,7 @@
     "badges": [
       { "tone": "beat", "kicker": "EBITDA beat consensus", "value": "€1.615bn", "text": "vs ~€1.43bn" },
       { "tone": "beat", "kicker": "FY2026 outlook raised", "value": "€9.8–10.3bn", "text": "was €9.6–10.1bn, currency-adjusted" },
-      { "tone": "beat", "kicker": "Pharma margin target", "value": "25–27%", "text": "was 23–25%" },
+      { "tone": "beat", "kicker": "Group EBITDA margin", "value": "16.1%", "text": "Q3 2025: 15.6%" },
       { "tone": "miss", "kicker": "Core EPS", "value": "€0.31", "text": "below ~€0.36 consensus" }
     ]
   },
@@ -27,7 +27,8 @@
     "guidance": "",
     "verdict": "Beat",
     "highlights": [
-      "Margin 16.1% vs 15.6%."
+      "Margin 16.1% vs 15.6%.",
+      "Net debt €31.1bn, down €2.5bn, mainly the €3.0bn Apollo payment."
     ]
   },
   "divisions": [
@@ -81,7 +82,8 @@
           "€451m, flat vs last year · −1.1% Fx&p adj. · 9M €1,402m, −2.9%.",
           "MiraLAX up on MiraFAST. Weaker U.S. demand, cough & cold, Nutritionals, Pain & Cardio. Market view 2.5–3%."
         ]
-      }
+      },
+      "note": "Claritin write-down: €215m impairment (special item)."
     }
   ]
 }

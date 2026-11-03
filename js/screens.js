@@ -186,6 +186,7 @@
     if (div.bullets) card.appendChild(bulletList(div.bullets));
     var region = regionBlock(div.region);
     if (region) card.appendChild(region);
+    if (div.note) card.appendChild(el("p", "div-note", div.note));
     return card;
   }
 
