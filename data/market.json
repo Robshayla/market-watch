@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-03T11:42:12Z",
+  "updatedAt": "2026-11-03T12:36:39Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
     "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1182",
-    "Bayer ADR ratio check 4.17 ordinary shares"
+    "Bayer ADR ratio check 4.22 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.0,
+      "price": 52.62,
       "previousClose": 50.02,
-      "change": 1.98,
-      "changePct": 3.9584,
-      "asOf": "2026-11-03T11:26:53Z",
+      "change": 2.6,
+      "changePct": 5.1979,
+      "asOf": "2026-11-03T12:21:22Z",
       "digits": 2,
       "sparkline": [
         51.78,
@@ -62,8 +62,19 @@
         52.08,
         51.8,
         51.98,
-        51.96,
-        52.0
+        51.9,
+        52.14,
+        52.24,
+        52.32,
+        52.74,
+        52.62,
+        52.68,
+        52.56,
+        52.58,
+        52.62,
+        52.52,
+        52.64,
+        52.62
       ],
       "sessionDate": "2026-11-03"
     },
@@ -255,11 +266,11 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25829.06,
-      "change": -152.03,
-      "changePct": -0.5852,
+      "price": 25811.19,
+      "change": -169.9,
+      "changePct": -0.6539,
       "digits": 2,
-      "asOf": "2026-11-03T11:27:00Z"
+      "asOf": "2026-11-03T12:21:25Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
@@ -268,7 +279,7 @@
       "change": -0.0009,
       "changePct": -0.0804,
       "digits": 4,
-      "asOf": "2026-11-03T11:41:25Z"
+      "asOf": "2026-11-03T12:35:26Z"
     }
   },
   "headlines": {
@@ -320,22 +331,22 @@
       {
         "title": "Election Day arrives after a surge in early voting, with observers keeping close watch at the polls",
         "source": "AP News",
-        "publishedAt": "2026-11-03T08:35:00Z"
+        "publishedAt": "2026-11-03T11:37:00Z"
+      },
+      {
+        "title": "Three scenarios for how the US midterm results could unfold",
+        "source": "BBC",
+        "publishedAt": "2026-11-03T10:32:56Z"
+      },
+      {
+        "title": "Trump\u2019s Immigration Dragnet Sweeps Up Ukrainian Truckers Who Fled War",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-03T10:00:17Z"
       },
       {
         "title": "Rain clears but flood risk remains high after destructive storms swamp normally arid US Southwest",
         "source": "AP News",
         "publishedAt": "2026-11-03T08:03:00Z"
-      },
-      {
-        "title": "Trump administration lays out plan to overhaul D.C. golf course",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-03T05:08:02Z"
-      },
-      {
-        "title": "Check the Poll Closing Times in Every County",
-        "source": "WSJ",
-        "publishedAt": "2026-11-03T03:00:00Z"
       }
     ]
   },
@@ -416,7 +427,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 51.92
+        "close": 52.6
       }
     ],
     "bayry": [
@@ -540,7 +551,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 25828.0605
+        "close": 25813.0508
       }
     ]
   }
