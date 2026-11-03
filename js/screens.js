@@ -140,6 +140,16 @@
       row.appendChild(badge);
     }
     box.appendChild(row);
+    var news = glance.goodNews || [];
+    if (news.length) {
+      var line = el("div", "good-news");
+      line.appendChild(el("b", "", "Good news"));
+      for (var n = 0; n < news.length && n < 2; n++) {
+        if (n) line.appendChild(el("span", "good-news-dot", "·"));
+        line.appendChild(el("span", "", news[n]));
+      }
+      box.appendChild(line);
+    }
     return box;
   }
 

@@ -741,6 +741,29 @@ footer {
 .glance-badge.is-line b,
 .glance-badge.is-line strong { color: #f0d48a; }
 
+.good-news {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 8px;
+  padding: 8px 14px;
+  border-radius: 12px;
+  background: rgba(18, 138, 62, 0.16);
+  color: #e7eef5;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.good-news b {
+  flex: none;
+  color: #9be06a;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.good-news-dot { color: #7ed04a; flex: none; }
+
 .div-card {
   position: relative;
   background: #0e2438;

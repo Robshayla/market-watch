@@ -12,6 +12,10 @@
       { "tone": "beat", "kicker": "FY2026 outlook raised", "value": "€9.8–10.3bn", "text": "was €9.6–10.1bn, currency-adjusted" },
       { "tone": "beat", "kicker": "Group EBITDA margin", "value": "16.1%", "text": "Q3 2025: 15.6%" },
       { "tone": "miss", "kicker": "Core EPS", "value": "€0.31", "text": "below ~€0.36 consensus" }
+    ],
+    "goodNews": [
+      "Sunharbo approved in China — first Factor XIa inhibitor",
+      "FDA: Kerendia for type 1 diabetes CKD; Hyrnuo first-line HER2 lung cancer"
     ]
   },
   "group": {
@@ -27,8 +31,8 @@
     "guidance": "",
     "verdict": "Beat",
     "highlights": [
-      "Margin 16.1% vs 15.6%.",
-      "Net debt €31.1bn, down €2.5bn, mainly the €3.0bn Apollo payment."
+      "Net debt €31.1bn, down €2.5bn on the Apollo payment.",
+      "FCF guide −€1.5 to −€0.5bn. Year-end debt €28–29bn (was €29–30bn)."
     ]
   },
   "divisions": [
