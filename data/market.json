@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-03T14:46:35Z",
+  "updatedAt": "2026-11-03T15:39:43Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.1216 on 2026-11-02 vs Yahoo spot 1.1189",
-    "Bayer ADR ratio check 4.31 ordinary shares"
+    "Nasdaq last sale 125.20 matched",
+    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1184",
+    "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -18,7 +19,7 @@
       "previousClose": 50.02,
       "change": 3.74,
       "changePct": 7.477,
-      "asOf": "2026-11-03T14:31:17Z",
+      "asOf": "2026-11-03T15:24:13Z",
       "digits": 2,
       "sparkline": [
         51.78,
@@ -29,7 +30,6 @@
         52.92,
         52.76,
         52.58,
-        52.54,
         52.34,
         52.4,
         52.34,
@@ -37,7 +37,6 @@
         52.8,
         52.9,
         52.8,
-        52.78,
         52.78,
         52.18,
         52.06,
@@ -47,7 +46,6 @@
         51.92,
         51.94,
         52.18,
-        52.0,
         52.28,
         52.58,
         52.7,
@@ -56,7 +54,6 @@
         52.54,
         52.58,
         52.24,
-        52.16,
         52.1,
         52.12,
         52.08,
@@ -65,7 +62,6 @@
         51.9,
         52.14,
         52.24,
-        52.32,
         52.74,
         52.62,
         52.68,
@@ -74,7 +70,6 @@
         52.62,
         52.52,
         52.64,
-        52.54,
         52.66,
         52.64,
         52.6,
@@ -83,7 +78,6 @@
         52.9,
         52.86,
         52.92,
-        52.84,
         52.98,
         52.96,
         53.1,
@@ -94,13 +88,20 @@
         53.34,
         53.36,
         53.36,
-        53.36,
         53.52,
         53.6,
         53.72,
         53.7,
-        53.66,
-        53.76
+        53.82,
+        53.72,
+        53.68,
+        53.86,
+        53.96,
+        53.96,
+        53.9,
+        53.82,
+        53.52,
+        53.74
       ],
       "sessionDate": "2026-11-03"
     },
@@ -111,68 +112,27 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 13.95,
-      "previousClose": 13.99,
-      "change": -0.04,
-      "changePct": -0.2859,
-      "asOf": "2026-11-03T13:26:12Z",
+      "price": 14.95,
+      "previousClose": 13.95,
+      "change": 1.0,
+      "changePct": 7.1685,
+      "asOf": "2026-11-03T15:23:22Z",
       "digits": 2,
       "sparkline": [
-        13.96,
-        13.94,
-        13.97,
-        13.94,
-        13.95,
-        13.99,
-        14.01,
-        14.03,
-        13.99,
-        13.98,
-        13.98,
-        13.95,
-        13.94,
-        13.91,
-        13.92,
-        13.9,
-        13.89,
-        13.9,
-        13.91,
-        13.92,
-        13.93,
-        13.95,
-        13.95,
-        13.95,
-        13.94,
-        13.95,
-        13.94,
-        13.94,
-        13.93,
-        13.92,
-        13.94,
-        13.95,
-        13.95,
-        13.94,
-        13.93,
-        13.97,
-        13.94,
-        13.93,
-        13.93,
-        13.95,
-        13.95,
-        13.95,
-        13.95,
-        13.95,
-        13.94,
-        13.95,
-        13.94,
-        13.94,
-        13.91,
-        13.93,
-        13.94,
-        13.95,
-        13.95
+        15.0,
+        15.0,
+        14.94,
+        14.95,
+        15.04,
+        15.07,
+        15.05,
+        15.05,
+        15.04,
+        14.93,
+        14.9,
+        14.95
       ],
-      "sessionDate": "2026-11-02"
+      "sessionDate": "2026-11-03"
     },
     "wmt": {
       "symbol": "WMT",
@@ -181,131 +141,68 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.69,
-      "previousClose": 123.51,
-      "change": 4.18,
-      "changePct": 3.3843,
-      "asOf": "2026-11-02T21:00:00Z",
+      "price": 125.2,
+      "previousClose": 127.69,
+      "change": -2.49,
+      "changePct": -1.95,
+      "asOf": "2026-11-03T15:39:29Z",
       "digits": 2,
       "sparkline": [
-        125.06,
-        125.425,
-        125.185,
-        125.535,
-        125.905,
-        125.73,
-        125.58,
-        124.88,
-        125.15,
-        125.28,
-        125.445,
+        125.875,
+        125.765,
+        125.6,
+        125.4,
         125.36,
-        125.35,
-        125.35,
-        125.3846,
-        125.46,
-        125.62,
-        125.67,
-        125.67,
-        125.86,
-        125.805,
-        125.82,
-        125.95,
-        125.97,
-        125.935,
-        126.15,
-        126.17,
-        126.23,
-        126.29,
-        126.305,
-        126.305,
-        126.435,
-        126.32,
-        126.465,
-        126.56,
-        126.63,
-        126.7651,
-        126.6,
-        126.775,
-        126.815,
-        126.8377,
-        126.83,
-        126.89,
-        126.935,
-        127.005,
-        126.9,
-        126.895,
-        126.98,
-        127.035,
-        127.09,
-        127.13,
-        127.14,
-        127.2201,
-        127.26,
-        127.2,
-        127.18,
-        127.14,
-        127.2871,
-        127.305,
-        127.29,
-        127.36,
-        127.4504,
-        127.39,
-        127.405,
-        127.24,
-        127.3,
-        127.41,
-        127.33,
-        127.4,
-        127.34,
-        127.285,
-        127.34,
-        127.55,
-        127.7099,
-        127.6815,
-        127.845,
-        127.87,
-        127.7
+        125.395,
+        125.44,
+        125.2983,
+        125.43,
+        125.19,
+        125.26,
+        125.23,
+        125.06,
+        125.2,
+        125.205
       ],
-      "sessionDate": "2026-11-02"
+      "sessionDate": "2026-11-03"
     }
   },
   "ticker": {
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7565.27,
-      "change": 23.87,
-      "changePct": 0.3165,
+      "price": 7565.59,
+      "change": 24.19,
+      "changePct": 0.3208,
       "digits": 2,
-      "asOf": "2026-11-03T14:46:22Z"
+      "asOf": "2026-11-03T15:39:29Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51650.72,
-      "change": -333.26,
-      "changePct": -0.6411,
+      "price": 51746.81,
+      "change": -237.17,
+      "changePct": -0.4562,
       "digits": 2,
-      "asOf": "2026-11-03T14:46:23Z"
+      "asOf": "2026-11-03T15:39:30Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25946.06,
-      "change": -35.03,
-      "changePct": -0.1348,
+      "price": 25905.85,
+      "change": -75.24,
+      "changePct": -0.2896,
       "digits": 2,
-      "asOf": "2026-11-03T14:31:22Z"
+      "asOf": "2026-11-03T15:24:30Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1189,
-      "change": -0.0002,
-      "changePct": -0.0179,
+      "price": 1.1184,
+      "change": -0.0007,
+      "changePct": -0.0626,
       "digits": 4,
-      "asOf": "2026-11-03T14:45:29Z"
+      "asOf": "2026-11-03T15:39:25Z"
     }
   },
   "headlines": {
@@ -355,28 +252,42 @@
     ],
     "top": [
       {
-        "title": "Parts of Florida see half a year\u2019s worth of rain in 36 hours",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-03T14:35:47Z"
-      },
-      {
         "title": "2026 Midterm Elections Live Updates: Voters Head to the Polls to Decide Control of Congress",
         "source": "The New York Times",
-        "publishedAt": "2026-11-03T14:33:26Z"
+        "publishedAt": "2026-11-03T15:28:47Z"
       },
       {
-        "title": "Angry voters head to the polls as the election is fought in red America",
+        "title": "Parts of Florida see half a year\u2019s worth of rain in 36 hours",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-03T14:32:05Z"
+        "publishedAt": "2026-11-03T15:18:02Z"
       },
       {
-        "title": "Trump says US will stop $4 billion funding to Israel at end of 2026",
+        "title": "Voting begins on last day to cast ballots in US midterms with observers keeping close watch at polls",
+        "source": "AP News",
+        "publishedAt": "2026-11-03T15:06:00Z"
+      },
+      {
+        "title": "Trump says US will stop $4 billion in funding to Israel at end of 2026",
         "source": "Reuters",
-        "publishedAt": "2026-11-03T14:07:11Z"
+        "publishedAt": "2026-11-03T14:56:31Z"
       }
     ]
   },
   "releases": [
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:20:05Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7% By Investing.com",
+      "source": "Investing.com India",
+      "publishedAt": "2026-11-03T15:12:43Z",
+      "release": true
+    },
     {
       "eventId": "bayer-q3-2026",
       "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
@@ -453,7 +364,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 53.76
+        "close": 53.8
       }
     ],
     "bayry": [
@@ -515,7 +426,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 14.99
+        "close": 14.98
       }
     ],
     "dax": [
@@ -577,7 +488,7 @@
       },
       {
         "date": "2026-11-03",
-        "close": 25940.6992
+        "close": 25909.5293
       }
     ]
   }
