@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-04T12:12:14Z",
+  "updatedAt": "2026-11-04T13:21:50Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1259",
-    "Bayer ADR ratio check 4.16 ordinary shares"
+    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1270",
+    "Bayer ADR ratio check 4.19 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 53.3,
+      "price": 53.52,
       "previousClose": 51.84,
-      "change": 1.46,
-      "changePct": 2.8164,
-      "asOf": "2026-11-04T11:56:44Z",
+      "change": 1.68,
+      "changePct": 3.2407,
+      "asOf": "2026-11-04T13:04:34Z",
       "digits": 2,
       "sparkline": [
         52.4,
@@ -68,8 +68,21 @@
         53.24,
         53.22,
         53.3,
-        53.26,
-        53.3
+        53.3,
+        53.58,
+        53.46,
+        53.5,
+        53.52,
+        53.4,
+        53.48,
+        53.58,
+        53.72,
+        53.72,
+        53.7,
+        53.68,
+        53.6,
+        53.52,
+        53.52
       ],
       "sessionDate": "2026-11-04"
     },
@@ -84,7 +97,7 @@
       "previousClose": 13.95,
       "change": 0.46,
       "changePct": 3.2975,
-      "asOf": "2026-11-03T21:00:00Z",
+      "asOf": "2026-11-04T13:01:56Z",
       "digits": 2,
       "sparkline": [
         15.0,
@@ -266,120 +279,91 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26259.32,
-      "change": 394.7,
-      "changePct": 1.526,
+      "price": 26243.32,
+      "change": 378.7,
+      "changePct": 1.4642,
       "digits": 2,
-      "asOf": "2026-11-04T11:57:02Z"
+      "asOf": "2026-11-04T13:04:37Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1259,
-      "change": 0.0067,
-      "changePct": 0.5986,
+      "price": 1.127,
+      "change": 0.0078,
+      "changePct": 0.6969,
       "digits": 4,
-      "asOf": "2026-11-04T12:11:26Z"
+      "asOf": "2026-11-04T13:19:28Z"
     }
   },
   "headlines": {
     "bayer": [
       {
-        "title": "Bayer seeks bigger role in fast-growing Latin American biologicals market",
-        "source": "Reuters",
-        "publishedAt": "2026-11-04T11:05:44Z"
+        "title": "Bayer and America\u2019s Grow-a-Row Continue Partnership to Fight Food Insecurity",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-04T13:00:00Z"
       },
       {
-        "title": "Roundup settlement expected before Christmas, Bayer CEO says",
-        "source": "Reuters",
-        "publishedAt": "2026-11-03T17:28:47Z"
+        "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-03T21:05:37Z"
       },
       {
-        "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-11-03T16:27:31Z"
+        "title": "Bayer to Present New Cardiovascular, Kidney and Stroke Data at the 2026 American Heart Association (AHA) Scientific Sessions",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-03T19:30:00Z"
       },
       {
-        "title": "India's Bayer CropScience posts nearly 9% rise in Q2 profit",
-        "source": "Reuters",
-        "publishedAt": "2026-11-03T15:55:44Z"
+        "title": "Bayer\u2019s Comeback Is Starting to Look Like More Than a Lawsuit Story",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-03T17:10:28Z"
       }
     ],
     "walmart": [
       {
-        "title": "Visa and Mastercard shares sink as Walmart and Amazon eye stablecoins",
-        "source": "Startup Fortune",
-        "publishedAt": "2026-11-04T05:37:25Z"
+        "title": "State Street Consumer Staples SPDR (XLP) Sells $17.0 Million of Walmart on Nov. 2",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-04T11:04:55Z"
       },
       {
-        "title": "Walmart Inc Stock (WMT) Moved Up by 3.00% on Nov 2: Facts Behind the Movement",
-        "source": "TradingKey",
-        "publishedAt": "2026-11-02T19:15:40Z"
+        "title": "Walmart (WMT) Sees $152.6 Million in Net ETF Buying on Monday",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-04T11:01:45Z"
       },
       {
-        "title": "How Walmart heiress and world's richest woman Alice Walton spends her $133 billion fortune",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-02T17:33:00Z"
+        "title": "Should You Buy Walmart Stock Before Nov. 19? History Has a Clear Answer.",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-04T09:15:00Z"
       },
       {
-        "title": "Walmart, Symbotic Inc. agree to $6 billion supply chain technology expansion",
-        "source": "The Arkansas Democrat-Gazette",
-        "publishedAt": "2026-11-02T16:15:00Z"
+        "title": "Walmart in $6B Symbiotic deal to automate warehouses",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-03T21:42:59Z"
       }
     ],
     "top": [
       {
-        "title": "Democrat Abdul El-Sayed defeats Mike Rogers in Michigan to become first Muslim U.S. senator",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-04T11:51:42Z"
+        "title": "World reacts to Democrats' midterm elections victory",
+        "source": "NPR",
+        "publishedAt": "2026-11-04T12:34:35Z"
       },
       {
-        "title": "Elon Musk\u2019s record election bet backfired. The backlash may reach beyond one billionaire",
-        "source": "CNBC",
-        "publishedAt": "2026-11-04T10:27:52Z"
+        "title": "Democrats seize full control of Congress. And, which candidates made history last night",
+        "source": "NPR",
+        "publishedAt": "2026-11-04T12:18:39Z"
       },
       {
-        "title": "Trump blames Fox News for election losses as Democrats win big",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-04T09:10:32Z"
+        "title": "6 takeaways from Democrats' big wave on election night",
+        "source": "NPR",
+        "publishedAt": "2026-11-04T12:02:38Z"
       },
       {
-        "title": "Recreational cannabis to stay legal; public records law to expand in Mass., AP calls",
-        "source": "WGBH",
-        "publishedAt": "2026-11-04T07:23:14Z"
+        "title": "Review: The Legend of Zelda: Ocarina of Time remake is superb, streamlined and safe",
+        "source": "NPR",
+        "publishedAt": "2026-11-04T11:00:00Z"
       }
     ]
   },
-  "releases": [
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
-      "source": "Yahoo Finance UK",
-      "publishedAt": "2026-11-03T21:05:37Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T16:41:09Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 Earnings Call Is Live",
-      "source": "TradingView",
-      "publishedAt": "2026-11-03T12:57:04Z",
-      "release": true
-    }
-  ],
+  "releases": [],
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
@@ -441,7 +425,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 53.28
+        "close": 53.5
       }
     ],
     "bayry": [
@@ -504,6 +488,10 @@
       {
         "date": "2026-11-03",
         "close": 14.41
+      },
+      {
+        "date": "2026-11-04",
+        "close": 14.41
       }
     ],
     "dax": [
@@ -565,7 +553,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 26259.4395
+        "close": 26250.8008
       }
     ]
   }
