@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-04T22:20:06Z",
+  "updatedAt": "2026-11-04T22:48:06Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1231",
+    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1237",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -310,11 +310,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1231,
-      "change": 0.0039,
-      "changePct": 0.3485,
+      "price": 1.1237,
+      "change": 0.0045,
+      "changePct": 0.4021,
       "digits": 4,
-      "asOf": "2026-11-04T22:19:30Z"
+      "asOf": "2026-11-04T22:47:25Z"
     }
   },
   "headlines": {
@@ -364,9 +364,14 @@
     ],
     "top": [
       {
-        "title": "Democrat Hakeem Jeffries poised to make history as the first Black speaker of the House",
-        "source": "AP News",
-        "publishedAt": "2026-11-04T21:41:00Z"
+        "title": "Trump concedes Iran war angered voters, triggered Democratic landslide",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-04T22:16:59Z"
+      },
+      {
+        "title": "Appeals Court Allows Mamdani to Move Forward with Pied-\u00e0-Terre Tax",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-04T21:30:52Z"
       },
       {
         "title": "Democrat leads by dozens of votes in surprisingly tight Mississippi Senate race",
@@ -374,14 +379,9 @@
         "publishedAt": "2026-11-04T21:19:05Z"
       },
       {
-        "title": "Appeals Court Hands Win to Mamdani in Fight Over Second-Home Tax",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-04T21:14:26Z"
-      },
-      {
-        "title": "\u2018Rupert does not want to be with a loser\u2019: Murdoch\u2019s media empire cools on Trump",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-04T20:58:24Z"
+        "title": "Democratic sweep of Congress ushers in a new era as Trump acknowledges impact of the Iran war",
+        "source": "AP News",
+        "publishedAt": "2026-11-04T20:49:00Z"
       }
     ]
   },
