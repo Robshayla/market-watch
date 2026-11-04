@@ -602,10 +602,12 @@ footer {
 }
 
 #stage.show-results #board,
-#stage.show-reaction #board { display: none; }
+#stage.show-reaction #board,
+#stage.show-consumer #board { display: none; }
 
 #stage.show-results #results-screen,
-#stage.show-reaction #reaction-screen { display: flex; }
+#stage.show-reaction #reaction-screen,
+#stage.show-consumer #consumer-screen { display: flex; }
 
 .slide-head {
   display: flex;
@@ -1049,6 +1051,165 @@ footer {
 .up { color: var(--green); }
 .down { color: var(--red); }
 .flat { color: var(--flat); }
+
+.ch-body {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 32px;
+  align-items: stretch;
+}
+
+.ch-visual {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ch-photo {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 22px 54px rgba(0, 0, 0, 0.42);
+}
+
+.ch-main {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.ch-lead { flex: none; }
+
+.ch-pct {
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 0.88;
+}
+
+.ch-sales {
+  margin-top: 8px;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.ch-margin {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 10px;
+  color: #ffc14d;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.ch-margin-note {
+  color: #d7b56a;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.ch-quotes {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ch-quote {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: #0e2438;
+  border: 1px solid rgba(150, 190, 230, 0.16);
+  border-radius: 18px;
+  padding: 18px 24px 16px;
+  overflow: hidden;
+}
+
+.ch-quote::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  top: 0;
+  height: 5px;
+  border-radius: 0 0 4px 4px;
+  background: #f0a202;
+}
+
+.ch-who h3 {
+  margin: 8px 0 0;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.ch-who p {
+  margin: 2px 0 0;
+  color: #ffc14d;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.ch-quote blockquote {
+  margin: 12px 0 0;
+  color: #e7eef5;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.32;
+  letter-spacing: -0.01em;
+}
+
+.ch-link {
+  margin-top: auto;
+  padding-top: 10px;
+  color: #9fd0ff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ch-visual,
+.ch-lead,
+.ch-quote {
+  animation: ch-in 0.7s ease both;
+}
+
+.ch-lead { animation-delay: 0.08s; }
+.ch-quote:nth-child(1) { animation-delay: 0.16s; }
+.ch-quote:nth-child(2) { animation-delay: 0.26s; }
+
+@keyframes ch-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ch-visual,
+  .ch-lead,
+  .ch-quote { animation: none; }
+}
 
 /* Full-screen control. Out of flow, parked in the empty top-right corner
    beside the clocks. The glyph is small; the hit target is the whole control. */

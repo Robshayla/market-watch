@@ -137,12 +137,17 @@
   function rotationScreens(event, filled, preview, inWindow) {
     if (preview === "results") return ["results"];
     if (preview === "reaction") return ["reaction"];
-    if (preview === "rotation") return ["board", "results", "reaction"];
-    if (!inWindow || !event) return ["board"];
+    if (preview === "consumer") return ["consumer"];
+    if (preview === "rotation") return ["board", "results", "consumer", "reaction"];
     var screens = [];
-    if (event.showResults === true && filled) screens.push("results");
-    screens.push("board");
-    if (event.showReaction === true) screens.push("reaction");
+    if (inWindow && event) {
+      if (event.showResults === true && filled) screens.push("results");
+      screens.push("board");
+      if (event.showReaction === true) screens.push("reaction");
+    } else {
+      screens.push("board");
+    }
+    screens.push("consumer");
     return screens;
   }
 
