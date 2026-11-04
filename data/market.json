@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-04T18:34:08Z",
+  "updatedAt": "2026-11-04T19:41:28Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 130.12 matched",
-    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1227",
+    "Nasdaq last sale 130.45 matched",
+    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1222",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -93,7 +93,7 @@
         53.5,
         53.58,
         53.46,
-        53.64,
+        53.68,
         53.8,
         53.62,
         53.58,
@@ -117,7 +117,7 @@
       "previousClose": 14.41,
       "change": 0.81,
       "changePct": 5.6211,
-      "asOf": "2026-11-04T18:18:48Z",
+      "asOf": "2026-11-04T19:21:33Z",
       "digits": 2,
       "sparkline": [
         15.1,
@@ -160,7 +160,16 @@
         15.22,
         15.23,
         15.23,
-        15.22,
+        15.21,
+        15.21,
+        15.2,
+        15.19,
+        15.2,
+        15.2,
+        15.2,
+        15.21,
+        15.21,
+        15.2,
         15.22
       ],
       "sessionDate": "2026-11-04"
@@ -172,11 +181,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 130.12,
+      "price": 130.46,
       "previousClose": 124.86,
-      "change": 5.26,
-      "changePct": 4.2127,
-      "asOf": "2026-11-04T18:33:49Z",
+      "change": 5.6,
+      "changePct": 4.485,
+      "asOf": "2026-11-04T19:41:10Z",
       "digits": 2,
       "sparkline": [
         127.36,
@@ -227,8 +236,22 @@
         129.965,
         129.925,
         130.23,
-        130.15,
-        130.12
+        130.17,
+        130.165,
+        130.26,
+        130.35,
+        130.475,
+        130.43,
+        130.5,
+        130.66,
+        130.535,
+        130.4601,
+        130.58,
+        130.48,
+        130.485,
+        130.515,
+        130.43,
+        130.455
       ],
       "sessionDate": "2026-11-04"
     }
@@ -237,20 +260,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7705.85,
-      "change": 136.93,
-      "changePct": 1.8091,
+      "price": 7702.66,
+      "change": 133.74,
+      "changePct": 1.767,
       "digits": 2,
-      "asOf": "2026-11-04T18:33:53Z"
+      "asOf": "2026-11-04T19:41:14Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 53291.29,
-      "change": 1504.57,
-      "changePct": 2.9053,
+      "price": 53352.31,
+      "change": 1565.59,
+      "changePct": 3.0231,
       "digits": 2,
-      "asOf": "2026-11-04T18:33:53Z"
+      "asOf": "2026-11-04T19:41:15Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -264,15 +287,25 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1227,
-      "change": 0.0035,
-      "changePct": 0.3127,
+      "price": 1.1222,
+      "change": 0.003,
+      "changePct": 0.268,
       "digits": 4,
-      "asOf": "2026-11-04T18:33:25Z"
+      "asOf": "2026-11-04T19:40:27Z"
     }
   },
   "headlines": {
     "bayer": [
+      {
+        "title": "Bayer seeks bigger role in fast-growing Latin American biologicals market",
+        "source": "Reuters",
+        "publishedAt": "2026-11-04T11:05:44Z"
+      },
+      {
+        "title": "Roundup settlement expected before Christmas, Bayer CEO says",
+        "source": "Reuters",
+        "publishedAt": "2026-11-03T17:28:47Z"
+      },
       {
         "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
         "source": "Fierce Pharma",
@@ -282,16 +315,6 @@
         "title": "India's Bayer CropScience posts nearly 9% rise in Q2 profit",
         "source": "Reuters",
         "publishedAt": "2026-11-03T15:55:44Z"
-      },
-      {
-        "title": "Bayer Raises Profit Outlook on Strong Demand for Drugs",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-03T11:09:10Z"
-      },
-      {
-        "title": "Bayer Shares Jump After Pharma Recovery Prompts Outlook Raise",
-        "source": "WSJ",
-        "publishedAt": "2026-11-03T09:15:00Z"
       }
     ],
     "walmart": [
@@ -318,24 +341,24 @@
     ],
     "top": [
       {
-        "title": "2026 Midterm Election Live Updates: Democrats Win Control of Congress as Voters Rebuke Trump",
+        "title": "2026 Election Live Updates: Democrats Win Control of House and Senate as Voters Rebuke Trump in Midterms",
         "source": "The New York Times",
-        "publishedAt": "2026-11-04T18:24:05Z"
+        "publishedAt": "2026-11-04T19:22:51Z"
       },
       {
-        "title": "Democratic sweep of Congress ushers in a new era as Trump acknowledges impact of the Iran war",
-        "source": "AP News",
-        "publishedAt": "2026-11-04T18:22:00Z"
+        "title": "Democrat leads by dozens of votes in surprisingly tight Mississippi Senate race",
+        "source": "BBC",
+        "publishedAt": "2026-11-04T18:24:50Z"
       },
       {
-        "title": "Midterm elections 2026 live updates: Vance blames Iran war for Republican losses",
-        "source": "CNBC",
-        "publishedAt": "2026-11-04T17:36:00Z"
+        "title": "Record number of Black governors elected in Tuesday\u2019s midterms",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-04T17:34:51Z"
       },
       {
-        "title": "Trump and Republicans Begin Pointing Fingers After Sweeping Midterms Losses",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-04T16:48:31Z"
+        "title": "The last time a Kansas Democrat was in the Senate, the Wizard of Oz was in cinemas",
+        "source": "BBC",
+        "publishedAt": "2026-11-04T17:21:32Z"
       }
     ]
   },
