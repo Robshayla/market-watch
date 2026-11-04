@@ -386,7 +386,6 @@
     quotes: [
       {
         name: "Julio Triana",
-        title: "Igniting passion for consumers and patients as Member of the Board of Management of Bayer AG & President of the Consumer Health Division",
         photo: "assets/julio-triana.jpg",
         text: "Through the first nine months of the year, we've delivered 2.4% growth, with continued momentum in Dermatology and Digestive Health, led by brands like Bepanthen and MiraLAX.",
         href: "https://www.linkedin.com/feed/update/urn:li:activity:7523287427504029697/",
@@ -394,7 +393,6 @@
       },
       {
         name: "Trevor Thrun",
-        title: "Member, Board of Directors - Consumer Healthcare Products Association at CHPA",
         photo: "assets/trevor-thrun.jpg",
         text: "As we move into the final quarter, we remain focused on disciplined execution, earning the trust of the consumers who rely on our brands, and serving our customers well.",
         href: "https://www.linkedin.com/feed/update/urn:li:activity:7523428840027811840/",
@@ -469,7 +467,6 @@
       who.appendChild(avatarFor(item));
       var id = el("div", "ch-id");
       id.appendChild(el("h3", "", item.name || ""));
-      id.appendChild(el("p", "", item.title || ""));
       who.appendChild(id);
       card.appendChild(who);
       var quote = el("blockquote");
