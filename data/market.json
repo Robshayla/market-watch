@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-04T09:09:39Z",
+  "updatedAt": "2026-11-04T11:25:31Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 124.86 matched",
-    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1251",
-    "Bayer ADR ratio check 4.09 ordinary shares"
+    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1250",
+    "Bayer ADR ratio check 4.14 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.44,
+      "price": 53.04,
       "previousClose": 51.84,
-      "change": 0.6,
-      "changePct": 1.1574,
-      "asOf": "2026-11-04T08:53:47Z",
+      "change": 1.2,
+      "changePct": 2.3148,
+      "asOf": "2026-11-04T11:10:00Z",
       "digits": 2,
       "sparkline": [
         52.4,
@@ -32,8 +32,35 @@
         52.42,
         52.48,
         52.42,
-        52.44,
-        52.44
+        52.48,
+        52.46,
+        52.54,
+        53.0,
+        53.22,
+        53.08,
+        53.32,
+        53.24,
+        53.36,
+        53.4,
+        53.22,
+        53.34,
+        53.34,
+        53.24,
+        53.2,
+        53.28,
+        53.3,
+        53.18,
+        53.18,
+        53.2,
+        53.2,
+        53.18,
+        53.14,
+        53.1,
+        53.26,
+        53.26,
+        53.24,
+        53.02,
+        53.04
       ],
       "sessionDate": "2026-11-04"
     },
@@ -230,24 +257,29 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26028.14,
-      "change": 163.52,
-      "changePct": 0.6322,
+      "price": 26247.06,
+      "change": 382.44,
+      "changePct": 1.4786,
       "digits": 2,
-      "asOf": "2026-11-04T08:54:27Z"
+      "asOf": "2026-11-04T11:10:19Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1251,
-      "change": 0.0059,
-      "changePct": 0.5272,
+      "price": 1.125,
+      "change": 0.0058,
+      "changePct": 0.5182,
       "digits": 4,
-      "asOf": "2026-11-04T09:08:28Z"
+      "asOf": "2026-11-04T11:24:25Z"
     }
   },
   "headlines": {
     "bayer": [
+      {
+        "title": "Bayer seeks bigger role in fast-growing Latin American biologicals market",
+        "source": "Reuters",
+        "publishedAt": "2026-11-04T11:05:44Z"
+      },
       {
         "title": "Roundup settlement expected before Christmas, Bayer CEO says",
         "source": "Reuters",
@@ -262,11 +294,6 @@
         "title": "India's Bayer CropScience posts nearly 9% rise in Q2 profit",
         "source": "Reuters",
         "publishedAt": "2026-11-03T15:55:44Z"
-      },
-      {
-        "title": "Bayer Raises Profit Outlook on Strong Demand for Drugs",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-03T11:09:10Z"
       }
     ],
     "walmart": [
@@ -293,24 +320,24 @@
     ],
     "top": [
       {
-        "title": "Recreational cannabis to stay legal; public records law to expand in Mass., AP calls",
-        "source": "WGBH",
-        "publishedAt": "2026-11-04T07:23:14Z"
+        "title": "Democrat Abdul El-Sayed defeats Mike Rogers in Michigan to become first Muslim U.S. senator",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-04T10:27:05Z"
       },
       {
-        "title": "Keisha Lance Bottoms Wins in Georgia to Become First Black Woman Elected U.S. Governor",
+        "title": "\u2018A deep sense of deceit\u2019: Young Republicans reckon with US midterms rout",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-04T10:00:09Z"
+      },
+      {
+        "title": "Trump blames Fox News for election losses as Democrats win big",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-04T09:24:10Z"
+      },
+      {
+        "title": "Countries Weigh, and Worry About, What Trump Will Do After Midterm Defeat",
         "source": "The New York Times",
-        "publishedAt": "2026-11-04T05:14:00Z"
-      },
-      {
-        "title": "Jon Ossoff Wins Georgia Senate Race Against Mike Collins",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-04T05:01:00Z"
-      },
-      {
-        "title": "Justice Department has sent target letters in Alaska Senate criminal probe. Here's what that means",
-        "source": "AP News",
-        "publishedAt": "2026-11-04T03:24:00Z"
+        "publishedAt": "2026-11-04T09:02:38Z"
       }
     ]
   },
@@ -405,7 +432,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 52.48
+        "close": 53.04
       }
     ],
     "bayry": [
@@ -529,7 +556,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 26024.9902
+        "close": 26248.5391
       }
     ]
   }
