@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-04T14:31:26Z",
+  "updatedAt": "2026-11-04T14:51:17Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1263",
+    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1254",
     "Bayer ADR ratio check 4.21 ordinary shares"
   ],
   "quotes": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 53.92,
+      "price": 53.9,
       "previousClose": 51.84,
-      "change": 2.08,
-      "changePct": 4.0123,
-      "asOf": "2026-11-04T14:16:09Z",
+      "change": 2.06,
+      "changePct": 3.9738,
+      "asOf": "2026-11-04T14:35:44Z",
       "digits": 2,
       "sparkline": [
         52.4,
@@ -96,8 +96,11 @@
         54.06,
         54.1,
         53.98,
-        53.94,
-        53.92
+        53.92,
+        53.84,
+        53.84,
+        53.9,
+        53.9
       ],
       "sessionDate": "2026-11-04"
     },
@@ -276,38 +279,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7657.72,
-      "change": 88.8,
-      "changePct": 1.1732,
+      "price": 7691.02,
+      "change": 122.1,
+      "changePct": 1.6132,
       "digits": 2,
-      "asOf": "2026-11-04T14:31:09Z"
+      "asOf": "2026-11-04T14:50:58Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52778.5,
-      "change": 991.78,
-      "changePct": 1.9151,
+      "price": 52930.67,
+      "change": 1143.95,
+      "changePct": 2.209,
       "digits": 2,
-      "asOf": "2026-11-04T14:31:11Z"
+      "asOf": "2026-11-04T14:50:58Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26368.33,
-      "change": 503.71,
-      "changePct": 1.9475,
+      "price": 26413.35,
+      "change": 548.73,
+      "changePct": 2.1215,
       "digits": 2,
-      "asOf": "2026-11-04T14:16:11Z"
+      "asOf": "2026-11-04T14:35:45Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1263,
-      "change": 0.0071,
-      "changePct": 0.6344,
+      "price": 1.1254,
+      "change": 0.0062,
+      "changePct": 0.554,
       "digits": 4,
-      "asOf": "2026-11-04T14:30:30Z"
+      "asOf": "2026-11-04T14:50:25Z"
     }
   },
   "headlines": {
@@ -335,11 +338,6 @@
     ],
     "walmart": [
       {
-        "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
-        "source": "Reuters",
-        "publishedAt": "2026-11-04T13:05:34Z"
-      },
-      {
         "title": "Visa and Mastercard shares sink as Walmart and Amazon eye stablecoins",
         "source": "Startup Fortune",
         "publishedAt": "2026-11-04T05:37:25Z"
@@ -353,28 +351,33 @@
         "title": "How Walmart heiress and world's richest woman Alice Walton spends her $133 billion fortune",
         "source": "Business Insider",
         "publishedAt": "2026-11-02T17:33:00Z"
+      },
+      {
+        "title": "Walmart, Symbotic Inc. agree to $6 billion supply chain technology expansion",
+        "source": "The Arkansas Democrat-Gazette",
+        "publishedAt": "2026-11-02T16:15:00Z"
       }
     ],
     "top": [
       {
-        "title": "Live updates: 2026 US midterm elections and results",
-        "source": "BBC",
-        "publishedAt": "2026-11-04T14:22:40Z"
+        "title": "Voters punish Trump with historic swing to Democrats",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-04T13:20:57Z"
+      },
+      {
+        "title": "Voters reject data centers across the country as the AI backlash grows",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-04T13:11:52Z"
+      },
+      {
+        "title": "Trump blames Fox News for election losses as Democrats win big",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-04T12:24:20Z"
       },
       {
         "title": "Iran's chief negotiator says Americans voted 'no to war'",
         "source": "BBC",
         "publishedAt": "2026-11-04T12:21:21Z"
-      },
-      {
-        "title": "Trump blames Fox News for election losses as Democrats win big",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-04T10:40:32Z"
-      },
-      {
-        "title": "Elon Musk\u2019s record election bet backfired. The backlash may reach beyond one billionaire",
-        "source": "CNBC",
-        "publishedAt": "2026-11-04T10:27:52Z"
       }
     ]
   },
@@ -402,9 +405,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 Earnings Call Is Live",
-      "source": "TradingView",
-      "publishedAt": "2026-11-03T12:57:04Z",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -469,7 +472,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 53.92
+        "close": 53.94
       }
     ],
     "bayry": [
@@ -528,6 +531,10 @@
       {
         "date": "2026-11-03",
         "close": 14.41
+      },
+      {
+        "date": "2026-11-04",
+        "close": 15.14
       }
     ],
     "dax": [
@@ -589,7 +596,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 26369.9902
+        "close": 26414.8594
       }
     ]
   }
