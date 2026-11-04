@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-04T08:12:51Z",
+  "updatedAt": "2026-11-04T09:09:39Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 124.86 matched",
-    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1246",
-    "Bayer ADR ratio check 4.05 ordinary shares"
+    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1251",
+    "Bayer ADR ratio check 4.09 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,96 +15,27 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 51.84,
+      "price": 52.44,
       "previousClose": 51.84,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-03T16:39:59Z",
+      "change": 0.6,
+      "changePct": 1.1574,
+      "asOf": "2026-11-04T08:53:47Z",
       "digits": 2,
       "sparkline": [
-        51.78,
-        53.02,
-        52.96,
-        52.96,
-        52.92,
-        52.76,
-        52.58,
-        52.54,
         52.4,
-        52.34,
-        52.64,
-        52.9,
-        52.8,
-        52.78,
-        52.78,
-        52.06,
-        52.0,
-        51.86,
-        51.88,
-        51.94,
-        52.18,
-        52.0,
-        52.58,
-        52.7,
-        52.8,
-        52.64,
-        52.58,
-        52.24,
-        52.16,
-        52.1,
-        52.08,
-        51.8,
-        51.98,
-        52.14,
-        52.24,
+        52.94,
+        52.76,
+        52.44,
         52.32,
-        52.74,
-        52.68,
-        52.56,
-        52.58,
         52.52,
-        52.64,
-        52.54,
-        52.66,
-        52.6,
-        52.82,
-        52.84,
-        52.9,
-        52.92,
-        52.84,
-        52.98,
-        53.1,
-        53.26,
-        53.26,
-        53.48,
-        53.34,
-        53.36,
-        53.36,
-        53.36,
-        53.6,
-        53.72,
-        53.7,
-        53.72,
-        53.54,
-        53.68,
-        53.86,
-        53.96,
-        53.9,
-        53.82,
-        53.52,
-        53.56,
-        53.56,
-        53.64,
-        53.52,
-        53.58,
-        53.5,
-        53.18,
-        52.9,
-        52.88,
-        52.68,
-        51.84
+        52.42,
+        52.42,
+        52.48,
+        52.42,
+        52.44,
+        52.44
       ],
-      "sessionDate": "2026-11-03"
+      "sessionDate": "2026-11-04"
     },
     "bayry": {
       "symbol": "BAYRY",
@@ -285,34 +216,34 @@
       "change": 27.52,
       "changePct": 0.3649,
       "digits": 2,
-      "asOf": "2026-11-03T21:00:00Z"
+      "asOf": "2026-11-03T21:30:13Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51786.7,
-      "change": -197.3,
+      "price": 51786.72,
+      "change": -197.28,
       "changePct": -0.3795,
       "digits": 2,
-      "asOf": "2026-11-03T21:00:00Z"
+      "asOf": "2026-11-03T21:34:56Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25864.6,
-      "change": -116.5,
-      "changePct": -0.4484,
+      "price": 26028.14,
+      "change": 163.52,
+      "changePct": 0.6322,
       "digits": 2,
-      "asOf": "2026-11-03T16:30:00Z"
+      "asOf": "2026-11-04T08:54:27Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1246,
-      "change": 0.0054,
-      "changePct": 0.4825,
+      "price": 1.1251,
+      "change": 0.0059,
+      "changePct": 0.5272,
       "digits": 4,
-      "asOf": "2026-11-04T08:12:26Z"
+      "asOf": "2026-11-04T09:08:28Z"
     }
   },
   "headlines": {
@@ -362,24 +293,24 @@
     ],
     "top": [
       {
+        "title": "Recreational cannabis to stay legal; public records law to expand in Mass., AP calls",
+        "source": "WGBH",
+        "publishedAt": "2026-11-04T07:23:14Z"
+      },
+      {
         "title": "Keisha Lance Bottoms Wins in Georgia to Become First Black Woman Elected U.S. Governor",
         "source": "The New York Times",
         "publishedAt": "2026-11-04T05:14:00Z"
       },
       {
-        "title": "Trump\u2019s American slapdown for the ages",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-04T05:13:06Z"
-      },
-      {
-        "title": "Trump turns against Fox News as Democrats see big wins",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-04T04:40:32Z"
-      },
-      {
-        "title": "Rebecca Bennett Unseats Tom Kean Jr. in New Jersey House Race",
+        "title": "Jon Ossoff Wins Georgia Senate Race Against Mike Collins",
         "source": "The New York Times",
-        "publishedAt": "2026-11-04T04:13:27Z"
+        "publishedAt": "2026-11-04T05:01:00Z"
+      },
+      {
+        "title": "Justice Department has sent target letters in Alaska Senate criminal probe. Here's what that means",
+        "source": "AP News",
+        "publishedAt": "2026-11-04T03:24:00Z"
       }
     ]
   },
@@ -467,6 +398,14 @@
       {
         "date": "2026-11-02",
         "close": 50.02
+      },
+      {
+        "date": "2026-11-03",
+        "close": 51.84
+      },
+      {
+        "date": "2026-11-04",
+        "close": 52.48
       }
     ],
     "bayry": [
@@ -587,6 +526,10 @@
       {
         "date": "2026-11-03",
         "close": 25864.6191
+      },
+      {
+        "date": "2026-11-04",
+        "close": 26024.9902
       }
     ]
   }
