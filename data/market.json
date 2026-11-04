@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-04T11:25:31Z",
+  "updatedAt": "2026-11-04T12:12:14Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 124.86 matched",
-    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1250",
-    "Bayer ADR ratio check 4.14 ordinary shares"
+    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1259",
+    "Bayer ADR ratio check 4.16 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 53.04,
+      "price": 53.3,
       "previousClose": 51.84,
-      "change": 1.2,
-      "changePct": 2.3148,
-      "asOf": "2026-11-04T11:10:00Z",
+      "change": 1.46,
+      "changePct": 2.8164,
+      "asOf": "2026-11-04T11:56:44Z",
       "digits": 2,
       "sparkline": [
         52.4,
@@ -60,7 +59,17 @@
         53.26,
         53.24,
         53.02,
-        53.04
+        53.04,
+        53.18,
+        53.2,
+        53.14,
+        53.3,
+        53.38,
+        53.24,
+        53.22,
+        53.3,
+        53.26,
+        53.3
       ],
       "sessionDate": "2026-11-04"
     },
@@ -257,20 +266,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26247.06,
-      "change": 382.44,
-      "changePct": 1.4786,
+      "price": 26259.32,
+      "change": 394.7,
+      "changePct": 1.526,
       "digits": 2,
-      "asOf": "2026-11-04T11:10:19Z"
+      "asOf": "2026-11-04T11:57:02Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.125,
-      "change": 0.0058,
-      "changePct": 0.5182,
+      "price": 1.1259,
+      "change": 0.0067,
+      "changePct": 0.5986,
       "digits": 4,
-      "asOf": "2026-11-04T11:24:25Z"
+      "asOf": "2026-11-04T12:11:26Z"
     }
   },
   "headlines": {
@@ -322,22 +331,22 @@
       {
         "title": "Democrat Abdul El-Sayed defeats Mike Rogers in Michigan to become first Muslim U.S. senator",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-04T10:27:05Z"
+        "publishedAt": "2026-11-04T11:51:42Z"
       },
       {
-        "title": "\u2018A deep sense of deceit\u2019: Young Republicans reckon with US midterms rout",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-04T10:00:09Z"
+        "title": "Elon Musk\u2019s record election bet backfired. The backlash may reach beyond one billionaire",
+        "source": "CNBC",
+        "publishedAt": "2026-11-04T10:27:52Z"
       },
       {
         "title": "Trump blames Fox News for election losses as Democrats win big",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-04T09:24:10Z"
+        "publishedAt": "2026-11-04T09:10:32Z"
       },
       {
-        "title": "Countries Weigh, and Worry About, What Trump Will Do After Midterm Defeat",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-04T09:02:38Z"
+        "title": "Recreational cannabis to stay legal; public records law to expand in Mass., AP calls",
+        "source": "WGBH",
+        "publishedAt": "2026-11-04T07:23:14Z"
       }
     ]
   },
@@ -432,7 +441,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 53.04
+        "close": 53.28
       }
     ],
     "bayry": [
@@ -556,7 +565,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 26248.5391
+        "close": 26259.4395
       }
     ]
   }
