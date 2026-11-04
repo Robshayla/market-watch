@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-04T21:30:06Z",
+  "updatedAt": "2026-11-04T22:20:06Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1232",
+    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1231",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -287,7 +287,7 @@
       "change": 119.7,
       "changePct": 1.5815,
       "digits": 2,
-      "asOf": "2026-11-04T21:20:01Z"
+      "asOf": "2026-11-04T21:51:11Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -296,7 +296,7 @@
       "change": 1569.4,
       "changePct": 3.0305,
       "digits": 2,
-      "asOf": "2026-11-04T21:20:01Z"
+      "asOf": "2026-11-04T21:51:20Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -310,11 +310,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1232,
-      "change": 0.004,
-      "changePct": 0.3574,
+      "price": 1.1231,
+      "change": 0.0039,
+      "changePct": 0.3485,
       "digits": 4,
-      "asOf": "2026-11-04T21:29:29Z"
+      "asOf": "2026-11-04T22:19:30Z"
     }
   },
   "headlines": {
@@ -364,24 +364,24 @@
     ],
     "top": [
       {
-        "title": "Appeals Court Allows Mamdani to Move Forward with Pied-\u00e0-Terre Tax",
+        "title": "Democrat Hakeem Jeffries poised to make history as the first Black speaker of the House",
+        "source": "AP News",
+        "publishedAt": "2026-11-04T21:41:00Z"
+      },
+      {
+        "title": "Democrat leads by dozens of votes in surprisingly tight Mississippi Senate race",
+        "source": "BBC",
+        "publishedAt": "2026-11-04T21:19:05Z"
+      },
+      {
+        "title": "Appeals Court Hands Win to Mamdani in Fight Over Second-Home Tax",
         "source": "The New York Times",
         "publishedAt": "2026-11-04T21:14:26Z"
       },
       {
-        "title": "Vance, in Break With Trump, Blames Iran War for Republicans\u2019 2026 Midterm Losses",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-04T19:54:10Z"
-      },
-      {
-        "title": "Democrats win control of Texas state House as part of sweeping gains in state governments",
-        "source": "AP News",
-        "publishedAt": "2026-11-04T19:44:00Z"
-      },
-      {
-        "title": "Which Senate, governors races are still uncalled by The Associated Press",
-        "source": "AP News",
-        "publishedAt": "2026-11-04T19:25:00Z"
+        "title": "\u2018Rupert does not want to be with a loser\u2019: Murdoch\u2019s media empire cools on Trump",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-04T20:58:24Z"
       }
     ]
   },
@@ -402,16 +402,16 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T15:59:45Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
       "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
