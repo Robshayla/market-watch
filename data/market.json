@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-04T20:31:33Z",
+  "updatedAt": "2026-11-04T21:30:06Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 130.13 matched",
     "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1232",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -93,7 +92,7 @@
         53.5,
         53.58,
         53.46,
-        53.68,
+        53.64,
         53.8,
         53.62,
         53.58,
@@ -113,11 +112,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.2,
+      "price": 15.22,
       "previousClose": 14.41,
-      "change": 0.79,
-      "changePct": 5.4823,
-      "asOf": "2026-11-04T20:15:35Z",
+      "change": 0.81,
+      "changePct": 5.6211,
+      "asOf": "2026-11-04T20:59:55Z",
       "digits": 2,
       "sparkline": [
         15.1,
@@ -176,7 +175,15 @@
         15.19,
         15.21,
         15.22,
-        15.2
+        15.2,
+        15.21,
+        15.22,
+        15.24,
+        15.24,
+        15.23,
+        15.23,
+        15.23,
+        15.22
       ],
       "sessionDate": "2026-11-04"
     },
@@ -276,20 +283,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7707.65,
-      "change": 138.73,
-      "changePct": 1.8329,
+      "price": 7688.62,
+      "change": 119.7,
+      "changePct": 1.5815,
       "digits": 2,
-      "asOf": "2026-11-04T20:31:20Z"
+      "asOf": "2026-11-04T21:20:01Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 53452.0,
-      "change": 1665.28,
-      "changePct": 3.2157,
+      "price": 53356.12,
+      "change": 1569.4,
+      "changePct": 3.0305,
       "digits": 2,
-      "asOf": "2026-11-04T20:31:20Z"
+      "asOf": "2026-11-04T21:20:01Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -307,7 +314,7 @@
       "change": 0.004,
       "changePct": 0.3574,
       "digits": 4,
-      "asOf": "2026-11-04T20:30:28Z"
+      "asOf": "2026-11-04T21:29:29Z"
     }
   },
   "headlines": {
@@ -357,24 +364,24 @@
     ],
     "top": [
       {
-        "title": "Democratic sweep of Congress ushers in a new era as Trump acknowledges impact of the Iran war",
+        "title": "Appeals Court Allows Mamdani to Move Forward with Pied-\u00e0-Terre Tax",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-04T21:14:26Z"
+      },
+      {
+        "title": "Vance, in Break With Trump, Blames Iran War for Republicans\u2019 2026 Midterm Losses",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-04T19:54:10Z"
+      },
+      {
+        "title": "Democrats win control of Texas state House as part of sweeping gains in state governments",
         "source": "AP News",
-        "publishedAt": "2026-11-04T20:05:00Z"
+        "publishedAt": "2026-11-04T19:44:00Z"
       },
       {
-        "title": "Democrat leads by dozens of votes in surprisingly tight Mississippi Senate race",
-        "source": "BBC",
-        "publishedAt": "2026-11-04T18:24:50Z"
-      },
-      {
-        "title": "Midterm elections 2026 live updates: Vance blames Iran war for Republican losses",
-        "source": "CNBC",
-        "publishedAt": "2026-11-04T17:36:00Z"
-      },
-      {
-        "title": "Elon Musk's business empire braces for Democratic wave as Texas flips blue",
-        "source": "Reuters",
-        "publishedAt": "2026-11-04T16:37:03Z"
+        "title": "Which Senate, governors races are still uncalled by The Associated Press",
+        "source": "AP News",
+        "publishedAt": "2026-11-04T19:25:00Z"
       }
     ]
   },
@@ -531,7 +538,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 15.2
+        "close": 15.22
       }
     ],
     "dax": [
