@@ -386,20 +386,46 @@
     quotes: [
       {
         name: "Julio Triana",
-        title: "Bayer Consumer Health",
+        title: "Igniting passion for consumers and patients as Member of the Board of Management of Bayer AG & President of the Consumer Health Division",
+        photo: "assets/julio-triana.jpg",
         text: "Through the first nine months of the year, we've delivered 2.4% growth, with continued momentum in Dermatology and Digestive Health, led by brands like Bepanthen and MiraLAX.",
         href: "https://www.linkedin.com/feed/update/urn:li:activity:7523287427504029697/",
         caption: "LinkedIn",
       },
       {
         name: "Trevor Thrun",
-        title: "Bayer Consumer Health U.S.",
+        title: "Member, Board of Directors - Consumer Healthcare Products Association at CHPA",
+        photo: "assets/trevor-thrun.jpg",
         text: "As we move into the final quarter, we remain focused on disciplined execution, earning the trust of the consumers who rely on our brands, and serving our customers well.",
         href: "https://www.linkedin.com/feed/update/urn:li:activity:7523428840027811840/",
         caption: "LinkedIn",
       },
     ],
   };
+
+  function initialsNode(name) {
+    var parts = String(name || "").trim().split(/\s+/);
+    var letters = "";
+    if (parts[0]) letters += parts[0].charAt(0);
+    if (parts.length > 1) letters += parts[parts.length - 1].charAt(0);
+    return el("div", "ch-initials", letters.toUpperCase());
+  }
+
+  function avatarFor(item) {
+    var wrap = el("div", "ch-avatar-wrap");
+    if (!item.photo) {
+      wrap.appendChild(initialsNode(item.name));
+      return wrap;
+    }
+    var img = el("img", "ch-avatar");
+    img.src = item.photo;
+    img.alt = "";
+    img.addEventListener("error", function () {
+      wrap.replaceChildren(initialsNode(item.name));
+    });
+    wrap.appendChild(img);
+    return wrap;
+  }
 
   function renderConsumer(host, doc) {
     var model = doc || CONSUMER_SPOTLIGHT;
@@ -440,8 +466,11 @@
       var item = items[i];
       var card = el("article", "ch-quote");
       var who = el("div", "ch-who");
-      who.appendChild(el("h3", "", item.name || ""));
-      who.appendChild(el("p", "", item.title || ""));
+      who.appendChild(avatarFor(item));
+      var id = el("div", "ch-id");
+      id.appendChild(el("h3", "", item.name || ""));
+      id.appendChild(el("p", "", item.title || ""));
+      who.appendChild(id);
       card.appendChild(who);
       var quote = el("blockquote");
       quote.textContent = item.text || "";

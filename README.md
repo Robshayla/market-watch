@@ -27,7 +27,7 @@ Office events live in `data/events.json`. The Q3 2026 entry counts down to the N
 
 Two extra screens stay off until you turn them on. In the Q3 event set `showResults` and `showReaction` to `true`. Results copy is typed into `data/earnings_q3_2026.json`: set `ready` to `true` and fill `group` (sales, salesCpa, ebitda, ebitdaChange, margin, coreEps, coreEpsChange, guidance) plus each division's sales, salesCpa, ebitda, ebitdaChange, and bullets. The stock-reaction screen uses the fetched Nov 2 Xetra close (`referenceDate`) and leaves a dash where that close is missing. `?preview=results`, `?preview=reaction`, `?preview=consumer`, and `?preview=rotation` show the screens without flipping the switches.
 
-The Consumer Health spotlight stays in the rotation with the quote board. It shows the Road to Billions card, +2.4% sales for the first nine months of 2026, the 22.9% year-to-date EBITDA margin, and two public LinkedIn quotes. `?preview=consumer` opens that screen on its own.
+The Consumer Health spotlight stays in the rotation with the quote board. It shows the Road to Billions card, +2.4% sales for the first nine months of 2026, the 22.9% year-to-date EBITDA margin, and two public LinkedIn quotes, with each person's public headline and profile photo. `?preview=consumer` opens that screen on its own.
 
 GitHub Pages may cache `data/market.json` for several minutes. Together with the quote delay, the board can lag the tape by roughly 15–30 minutes. That is expected.
 
