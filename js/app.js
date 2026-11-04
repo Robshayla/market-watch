@@ -25,6 +25,7 @@
   var eventEl = document.getElementById("event");
   var resultsEl = document.getElementById("results-screen");
   var reactionEl = document.getElementById("reaction-screen");
+  var consumerEl = document.getElementById("consumer-screen");
   var earningsDoc = null;
   var screenTimer = 0;
   var screenIndex = 0;
@@ -299,7 +300,7 @@
   function readPreview() {
     try {
       var value = new URLSearchParams(location.search).get("preview");
-      if (value === "before" || value === "after" || value === "results" || value === "reaction" || value === "rotation") {
+      if (value === "before" || value === "after" || value === "results" || value === "reaction" || value === "consumer" || value === "rotation") {
         return value;
       }
     } catch (err) {
@@ -754,6 +755,7 @@
     if (screens.indexOf(name) < 0) name = screens[0] || "board";
     stage.classList.toggle("show-results", name === "results");
     stage.classList.toggle("show-reaction", name === "reaction");
+    stage.classList.toggle("show-consumer", name === "consumer");
     var event = primaryEvent();
     var reaction = reactionView(event);
     if (name === "results") {
@@ -771,6 +773,9 @@
     if (name === "reaction") {
       reaction.preview = readPreview() === "reaction" || readPreview() === "rotation";
       MarketScreens.renderReaction(reactionEl, reaction);
+    }
+    if (name === "consumer") {
+      MarketScreens.renderConsumer(consumerEl);
     }
   }
 

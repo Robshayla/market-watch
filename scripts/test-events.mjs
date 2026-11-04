@@ -70,13 +70,14 @@ check(Events.earningsFilled({
 }) === true, "complete earnings file is ready");
 
 const off = { showResults: false, showReaction: false };
-check(JSON.stringify(Events.rotationScreens(off, true, "", true)) === JSON.stringify(["board"]), "switches off stay on the board");
-check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, false, "", true)) === JSON.stringify(["board", "reaction"]), "empty results stay hidden");
-check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, true, "", true)) === JSON.stringify(["results", "board", "reaction"]), "results lead when switched on");
-check(JSON.stringify(Events.rotationScreens(off, false, "", false)) === JSON.stringify(["board"]), "outside the window");
+check(JSON.stringify(Events.rotationScreens(off, true, "", true)) === JSON.stringify(["board", "consumer"]), "results and reaction stay off");
+check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, false, "", true)) === JSON.stringify(["board", "reaction", "consumer"]), "empty results stay hidden");
+check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, true, "", true)) === JSON.stringify(["results", "board", "reaction", "consumer"]), "results lead when switched on");
+check(JSON.stringify(Events.rotationScreens(off, false, "", false)) === JSON.stringify(["board", "consumer"]), "spotlight stays in the rotation outside the window");
 check(JSON.stringify(Events.rotationScreens(off, false, "results", false)) === JSON.stringify(["results"]), "preview results");
 check(JSON.stringify(Events.rotationScreens(off, false, "reaction", false)) === JSON.stringify(["reaction"]), "preview reaction");
-check(JSON.stringify(Events.rotationScreens(off, false, "rotation", false)) === JSON.stringify(["board", "results", "reaction"]), "preview rotation");
+check(JSON.stringify(Events.rotationScreens(off, false, "consumer", false)) === JSON.stringify(["consumer"]), "preview consumer");
+check(JSON.stringify(Events.rotationScreens(off, false, "rotation", false)) === JSON.stringify(["board", "results", "consumer", "reaction"]), "preview rotation");
 
 if (failed) {
   console.error(failed + " failed");

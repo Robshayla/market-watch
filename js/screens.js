@@ -372,9 +372,127 @@
     return card;
   }
 
+  var CONSUMER_SPOTLIGHT = {
+    title: "Consumer Health",
+    badge: "9 MONTHS 2026",
+    sales: "+2.4%",
+    salesLabel: "sales, first 9 months 2026",
+    margin: "22.9%",
+    marginLabel: "EBITDA margin",
+    marginNote: "YTD",
+    image: "assets/triana.jpg",
+    imageAlt: "Consumer Health year-to-date and third-quarter results, Road to Billions",
+    source: "Sales growth is currency and portfolio adjusted. EBITDA margin before special items. Quotes from public LinkedIn posts.",
+    quotes: [
+      {
+        name: "Julio Triana",
+        photo: "assets/julio-triana.jpg",
+        text: "Through the first nine months of the year, we've delivered 2.4% growth, with continued momentum in Dermatology and Digestive Health, led by brands like Bepanthen and MiraLAX.",
+        href: "https://www.linkedin.com/feed/update/urn:li:activity:7523287427504029697/",
+        caption: "LinkedIn",
+      },
+      {
+        name: "Trevor Thrun",
+        photo: "assets/trevor-thrun.jpg",
+        text: "As we move into the final quarter, we remain focused on disciplined execution, earning the trust of the consumers who rely on our brands, and serving our customers well.",
+        href: "https://www.linkedin.com/feed/update/urn:li:activity:7523428840027811840/",
+        caption: "LinkedIn",
+      },
+    ],
+  };
+
+  function initialsNode(name) {
+    var parts = String(name || "").trim().split(/\s+/);
+    var letters = "";
+    if (parts[0]) letters += parts[0].charAt(0);
+    if (parts.length > 1) letters += parts[parts.length - 1].charAt(0);
+    return el("div", "ch-initials", letters.toUpperCase());
+  }
+
+  function avatarFor(item) {
+    var wrap = el("div", "ch-avatar-wrap");
+    if (!item.photo) {
+      wrap.appendChild(initialsNode(item.name));
+      return wrap;
+    }
+    var img = el("img", "ch-avatar");
+    img.src = item.photo;
+    img.alt = "";
+    img.addEventListener("error", function () {
+      wrap.replaceChildren(initialsNode(item.name));
+    });
+    wrap.appendChild(img);
+    return wrap;
+  }
+
+  function renderConsumer(host, doc) {
+    var model = doc || CONSUMER_SPOTLIGHT;
+    host.replaceChildren();
+    var header = el("div", "slide-head");
+    var brand = el("div", "slide-brand");
+    var mark = el("img", "slide-mark");
+    mark.src = "assets/bayer-cross.svg";
+    mark.alt = "";
+    brand.appendChild(mark);
+    brand.appendChild(el("h2", "", model.title || "Consumer Health"));
+    header.appendChild(brand);
+    if (model.badge) header.appendChild(el("div", "slide-badge", model.badge));
+    host.appendChild(header);
+
+    var body = el("div", "ch-body");
+    var visual = el("div", "ch-visual");
+    var photo = el("img", "ch-photo");
+    photo.src = model.image || "assets/triana.jpg";
+    photo.alt = model.imageAlt || "";
+    visual.appendChild(photo);
+    body.appendChild(visual);
+
+    var main = el("div", "ch-main");
+    var lead = el("div", "ch-lead");
+    lead.appendChild(el("div", "ch-pct up", model.sales || ""));
+    lead.appendChild(el("div", "ch-sales", model.salesLabel || ""));
+    var margin = el("div", "ch-margin");
+    margin.appendChild(el("span", "", model.marginLabel || "EBITDA margin"));
+    margin.appendChild(el("b", "", model.margin || ""));
+    if (model.marginNote) margin.appendChild(el("span", "ch-margin-note", model.marginNote));
+    lead.appendChild(margin);
+    main.appendChild(lead);
+
+    var quotes = el("div", "ch-quotes");
+    var items = model.quotes || [];
+    for (var i = 0; i < items.length && i < 2; i++) {
+      var item = items[i];
+      var card = el("article", "ch-quote");
+      var who = el("div", "ch-who");
+      who.appendChild(avatarFor(item));
+      var id = el("div", "ch-id");
+      id.appendChild(el("h3", "", item.name || ""));
+      who.appendChild(id);
+      card.appendChild(who);
+      var quote = el("blockquote");
+      quote.textContent = item.text || "";
+      card.appendChild(quote);
+      if (item.href) {
+        var link = el("a", "ch-link", item.caption || "LinkedIn");
+        link.href = item.href;
+        link.target = "_blank";
+        link.rel = "noopener";
+        card.appendChild(link);
+      }
+      quotes.appendChild(card);
+    }
+    main.appendChild(quotes);
+    body.appendChild(main);
+    host.appendChild(body);
+
+    host.appendChild(el("p", "slide-source", model.source || ""));
+  }
+
   root.MarketScreens = {
     sampleQ2: SAMPLE_Q2,
+    consumerSpotlight: CONSUMER_SPOTLIGHT,
     renderResults: renderResults,
     renderReaction: renderReaction,
+    renderConsumer: renderConsumer,
   };
 })(typeof globalThis !== "undefined" ? globalThis : this);
