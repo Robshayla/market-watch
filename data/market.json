@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-04T16:34:48Z",
+  "updatedAt": "2026-11-04T17:34:16Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 130.09 matched",
-    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1225",
-    "Bayer ADR ratio check 4.02 ordinary shares"
+    "Nasdaq last sale 130.39 matched",
+    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1240",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 53.89,
+      "price": 54.24,
       "previousClose": 51.84,
-      "change": 2.05,
-      "changePct": 3.9545,
-      "asOf": "2026-11-04T16:19:26Z",
+      "change": 2.4,
+      "changePct": 4.6296,
+      "asOf": "2026-11-04T16:38:38Z",
       "digits": 2,
       "sparkline": [
         52.4,
@@ -33,44 +33,43 @@
         52.48,
         52.46,
         52.54,
-        53.0,
+        53.22,
         53.08,
         53.32,
         53.24,
-        53.36,
+        53.4,
         53.22,
         53.34,
         53.34,
-        53.24,
+        53.2,
         53.28,
         53.3,
         53.18,
-        53.18,
+        53.2,
         53.2,
         53.18,
-        53.14,
         53.1,
         53.26,
+        53.26,
         53.24,
-        53.02,
         53.04,
+        53.18,
         53.2,
-        53.14,
         53.3,
         53.38,
+        53.24,
         53.22,
         53.3,
-        53.3,
         53.58,
-        53.5,
+        53.46,
         53.52,
         53.4,
         53.48,
-        53.72,
+        53.58,
         53.72,
         53.7,
         53.68,
-        53.5,
+        53.6,
         53.4,
         53.36,
         53.42,
@@ -85,24 +84,25 @@
         53.92,
         53.84,
         53.84,
-        53.9,
+        53.82,
         53.98,
         53.92,
         53.78,
-        53.7,
+        53.56,
         53.74,
         53.5,
         53.58,
-        53.68,
-        53.68,
-        53.8,
+        53.46,
         53.64,
+        53.8,
         53.62,
+        53.58,
         53.68,
         53.74,
-        53.78,
         53.84,
-        53.89
+        53.88,
+        53.94,
+        54.24
       ],
       "sessionDate": "2026-11-04"
     },
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.05,
+      "price": 15.19,
       "previousClose": 14.41,
-      "change": 0.64,
-      "changePct": 4.4414,
-      "asOf": "2026-11-04T16:15:08Z",
+      "change": 0.78,
+      "changePct": 5.4129,
+      "asOf": "2026-11-04T17:09:28Z",
       "digits": 2,
       "sparkline": [
         15.1,
@@ -141,7 +141,17 @@
         15.03,
         15.03,
         15.05,
-        15.05
+        15.05,
+        15.08,
+        15.09,
+        15.14,
+        15.19,
+        15.18,
+        15.18,
+        15.17,
+        15.19,
+        15.18,
+        15.19
       ],
       "sessionDate": "2026-11-04"
     },
@@ -152,11 +162,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 130.09,
+      "price": 130.4,
       "previousClose": 124.86,
-      "change": 5.23,
-      "changePct": 4.1887,
-      "asOf": "2026-11-04T16:34:31Z",
+      "change": 5.54,
+      "changePct": 4.437,
+      "asOf": "2026-11-04T17:34:01Z",
       "digits": 2,
       "sparkline": [
         127.36,
@@ -183,8 +193,20 @@
         129.925,
         129.975,
         130.06,
-        130.0843,
-        130.09
+        130.095,
+        130.34,
+        130.32,
+        130.84,
+        130.5,
+        130.52,
+        130.395,
+        130.495,
+        130.5101,
+        130.72,
+        130.61,
+        130.64,
+        130.4,
+        130.395
       ],
       "sessionDate": "2026-11-04"
     }
@@ -193,38 +215,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7677.87,
-      "change": 108.95,
-      "changePct": 1.4394,
+      "price": 7705.54,
+      "change": 136.62,
+      "changePct": 1.805,
       "digits": 2,
-      "asOf": "2026-11-04T16:34:35Z"
+      "asOf": "2026-11-04T17:34:05Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 53065.39,
-      "change": 1278.67,
-      "changePct": 2.4691,
+      "price": 53260.73,
+      "change": 1474.01,
+      "changePct": 2.8463,
       "digits": 2,
-      "asOf": "2026-11-04T16:34:36Z"
+      "asOf": "2026-11-04T17:34:05Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26507.67,
-      "change": 643.05,
-      "changePct": 2.4862,
+      "price": 26437.67,
+      "change": 573.05,
+      "changePct": 2.2156,
       "digits": 2,
-      "asOf": "2026-11-04T16:19:36Z"
+      "asOf": "2026-11-04T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1225,
-      "change": 0.0033,
-      "changePct": 0.2949,
+      "price": 1.124,
+      "change": 0.0048,
+      "changePct": 0.4289,
       "digits": 4,
-      "asOf": "2026-11-04T16:34:28Z"
+      "asOf": "2026-11-04T17:33:29Z"
     }
   },
   "headlines": {
@@ -274,14 +296,14 @@
     ],
     "top": [
       {
-        "title": "Alaska U.S. Senate 2026: Live Midterm Election Results, Sullivan vs. Peltola",
+        "title": "On TV, the Midterms Offered Drama and a Casting Change",
         "source": "The New York Times",
-        "publishedAt": "2026-11-04T16:25:00Z"
+        "publishedAt": "2026-11-04T16:29:56Z"
       },
       {
-        "title": "Midterm elections 2026 live updates: What's next after Democrats flip Congress in blue wave",
-        "source": "CNBC",
-        "publishedAt": "2026-11-04T14:33:00Z"
+        "title": "Record number of Black governors elected in Tuesday\u2019s midterms",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-04T14:35:40Z"
       },
       {
         "title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
@@ -289,9 +311,9 @@
         "publishedAt": "2026-11-04T14:17:58Z"
       },
       {
-        "title": "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
-        "source": "BBC",
-        "publishedAt": "2026-11-04T13:43:16Z"
+        "title": "Trump blames Fox News for election losses as Democrats win big",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-04T13:40:32Z"
       }
     ]
   },
@@ -386,7 +408,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 53.92
+        "close": 54.24
       }
     ],
     "bayry": [
@@ -448,7 +470,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 15.05
+        "close": 15.19
       }
     ],
     "dax": [
@@ -510,7 +532,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 26504.5195
+        "close": 26437.6699
       }
     ]
   }
