@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-04T19:41:28Z",
+  "updatedAt": "2026-11-04T20:31:33Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 130.45 matched",
-    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1222",
-    "Bayer ADR ratio check 4.00 ordinary shares"
+    "Nasdaq last sale 130.13 matched",
+    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1232",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.22,
+      "price": 15.2,
       "previousClose": 14.41,
-      "change": 0.81,
-      "changePct": 5.6211,
-      "asOf": "2026-11-04T19:21:33Z",
+      "change": 0.79,
+      "changePct": 5.4823,
+      "asOf": "2026-11-04T20:15:35Z",
       "digits": 2,
       "sparkline": [
         15.1,
@@ -170,7 +170,13 @@
         15.21,
         15.21,
         15.2,
-        15.22
+        15.22,
+        15.2,
+        15.19,
+        15.19,
+        15.21,
+        15.22,
+        15.2
       ],
       "sessionDate": "2026-11-04"
     },
@@ -181,11 +187,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 130.46,
+      "price": 130.13,
       "previousClose": 124.86,
-      "change": 5.6,
-      "changePct": 4.485,
-      "asOf": "2026-11-04T19:41:10Z",
+      "change": 5.27,
+      "changePct": 4.2207,
+      "asOf": "2026-11-04T20:31:16Z",
       "digits": 2,
       "sparkline": [
         127.36,
@@ -251,7 +257,17 @@
         130.485,
         130.515,
         130.43,
-        130.455
+        130.53,
+        130.395,
+        130.47,
+        130.42,
+        130.48,
+        130.485,
+        130.26,
+        130.11,
+        130.1186,
+        130.115,
+        130.13
       ],
       "sessionDate": "2026-11-04"
     }
@@ -260,20 +276,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7702.66,
-      "change": 133.74,
-      "changePct": 1.767,
+      "price": 7707.65,
+      "change": 138.73,
+      "changePct": 1.8329,
       "digits": 2,
-      "asOf": "2026-11-04T19:41:14Z"
+      "asOf": "2026-11-04T20:31:20Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 53352.31,
-      "change": 1565.59,
-      "changePct": 3.0231,
+      "price": 53452.0,
+      "change": 1665.28,
+      "changePct": 3.2157,
       "digits": 2,
-      "asOf": "2026-11-04T19:41:15Z"
+      "asOf": "2026-11-04T20:31:20Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -287,11 +303,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1222,
-      "change": 0.003,
-      "changePct": 0.268,
+      "price": 1.1232,
+      "change": 0.004,
+      "changePct": 0.3574,
       "digits": 4,
-      "asOf": "2026-11-04T19:40:27Z"
+      "asOf": "2026-11-04T20:30:28Z"
     }
   },
   "headlines": {
@@ -341,9 +357,9 @@
     ],
     "top": [
       {
-        "title": "2026 Election Live Updates: Democrats Win Control of House and Senate as Voters Rebuke Trump in Midterms",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-04T19:22:51Z"
+        "title": "Democratic sweep of Congress ushers in a new era as Trump acknowledges impact of the Iran war",
+        "source": "AP News",
+        "publishedAt": "2026-11-04T20:05:00Z"
       },
       {
         "title": "Democrat leads by dozens of votes in surprisingly tight Mississippi Senate race",
@@ -351,14 +367,14 @@
         "publishedAt": "2026-11-04T18:24:50Z"
       },
       {
-        "title": "Record number of Black governors elected in Tuesday\u2019s midterms",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-04T17:34:51Z"
+        "title": "Midterm elections 2026 live updates: Vance blames Iran war for Republican losses",
+        "source": "CNBC",
+        "publishedAt": "2026-11-04T17:36:00Z"
       },
       {
-        "title": "The last time a Kansas Democrat was in the Senate, the Wizard of Oz was in cinemas",
-        "source": "BBC",
-        "publishedAt": "2026-11-04T17:21:32Z"
+        "title": "Elon Musk's business empire braces for Democratic wave as Texas flips blue",
+        "source": "Reuters",
+        "publishedAt": "2026-11-04T16:37:03Z"
       }
     ]
   },
@@ -379,16 +395,16 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing.com Nigeria",
+      "publishedAt": "2026-11-03T15:59:45Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
       "source": "Investing",
-      "publishedAt": "2026-11-03T10:54:24Z",
+      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     }
   ],
@@ -515,7 +531,7 @@
       },
       {
         "date": "2026-11-04",
-        "close": 15.22
+        "close": 15.2
       }
     ],
     "dax": [
