@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-03T22:43:22Z",
+  "updatedAt": "2026-11-04T08:12:51Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1192",
-    "Bayer ADR ratio check 4.03 ordinary shares"
+    "Nasdaq last sale 124.86 matched",
+    "ECB reference 1.1179 on 2026-11-03 vs Yahoo spot 1.1246",
+    "Bayer ADR ratio check 4.05 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,9 +16,9 @@
       "currency": "EUR",
       "session": "xetra",
       "price": 51.84,
-      "previousClose": 50.02,
-      "change": 1.82,
-      "changePct": 3.6385,
+      "previousClose": 51.84,
+      "change": 0.0,
+      "changePct": 0.0,
       "asOf": "2026-11-03T16:39:59Z",
       "digits": 2,
       "sparkline": [
@@ -116,7 +117,7 @@
       "previousClose": 13.95,
       "change": 0.46,
       "changePct": 3.2975,
-      "asOf": "2026-11-03T20:59:42Z",
+      "asOf": "2026-11-03T21:00:00Z",
       "digits": 2,
       "sparkline": [
         15.0,
@@ -284,34 +285,34 @@
       "change": 27.52,
       "changePct": 0.3649,
       "digits": 2,
-      "asOf": "2026-11-03T21:30:13Z"
+      "asOf": "2026-11-03T21:00:00Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51786.72,
-      "change": -197.26,
+      "price": 51786.7,
+      "change": -197.3,
       "changePct": -0.3795,
       "digits": 2,
-      "asOf": "2026-11-03T21:34:56Z"
+      "asOf": "2026-11-03T21:00:00Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25864.62,
-      "change": -116.47,
-      "changePct": -0.4483,
+      "price": 25864.6,
+      "change": -116.5,
+      "changePct": -0.4484,
       "digits": 2,
-      "asOf": "2026-11-03T17:00:00Z"
+      "asOf": "2026-11-03T16:30:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1192,
-      "change": 0.0001,
-      "changePct": 0.0089,
+      "price": 1.1246,
+      "change": 0.0054,
+      "changePct": 0.4825,
       "digits": 4,
-      "asOf": "2026-11-03T22:42:29Z"
+      "asOf": "2026-11-04T08:12:26Z"
     }
   },
   "headlines": {
@@ -339,6 +340,11 @@
     ],
     "walmart": [
       {
+        "title": "Visa and Mastercard shares sink as Walmart and Amazon eye stablecoins",
+        "source": "Startup Fortune",
+        "publishedAt": "2026-11-04T05:37:25Z"
+      },
+      {
         "title": "Walmart Inc Stock (WMT) Moved Up by 3.00% on Nov 2: Facts Behind the Movement",
         "source": "TradingKey",
         "publishedAt": "2026-11-02T19:15:40Z"
@@ -352,33 +358,28 @@
         "title": "Walmart, Symbotic Inc. agree to $6 billion supply chain technology expansion",
         "source": "The Arkansas Democrat-Gazette",
         "publishedAt": "2026-11-02T16:15:00Z"
-      },
-      {
-        "title": "Walmart Inc. (WMT) Is a Trending Stock: Facts to Know Before Betting on It",
-        "source": "Yahoo Finance Singapore",
-        "publishedAt": "2026-11-02T13:00:07Z"
       }
     ],
     "top": [
       {
-        "title": "Midterm elections 2026 live updates: Trump\u2019s agenda and control of Congress at stake",
-        "source": "CNBC",
-        "publishedAt": "2026-11-03T22:37:00Z"
-      },
-      {
-        "title": "U.S. House Midterm Election 2026: Live Results",
+        "title": "Keisha Lance Bottoms Wins in Georgia to Become First Black Woman Elected U.S. Governor",
         "source": "The New York Times",
-        "publishedAt": "2026-11-03T22:27:42Z"
+        "publishedAt": "2026-11-04T05:14:00Z"
       },
       {
-        "title": "Parts of Florida see half a year\u2019s worth of rain in 36 hours",
+        "title": "Trump\u2019s American slapdown for the ages",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-04T05:13:06Z"
+      },
+      {
+        "title": "Trump turns against Fox News as Democrats see big wins",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-03T22:05:49Z"
+        "publishedAt": "2026-11-04T04:40:32Z"
       },
       {
-        "title": "US midterm elections 2026: Final hours of voting as Americans cast verdict on Trump and Congress",
-        "source": "Reuters",
-        "publishedAt": "2026-11-03T21:16:05Z"
+        "title": "Rebecca Bennett Unseats Tom Kean Jr. in New Jersey House Race",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-04T04:13:27Z"
       }
     ]
   },
@@ -386,8 +387,15 @@
     {
       "eventId": "bayer-q3-2026",
       "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
-      "source": "Yahoo Finance",
+      "source": "Yahoo Finance UK",
       "publishedAt": "2026-11-03T21:05:37Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
+      "source": "Investing.com Nigeria",
+      "publishedAt": "2026-11-03T16:41:09Z",
       "release": true
     },
     {
@@ -395,13 +403,6 @@
       "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:20:05Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:10:05Z",
       "release": true
     },
     {
@@ -415,10 +416,6 @@
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-10-14",
-        "close": 45.07
-      },
       {
         "date": "2026-10-15",
         "close": 44.41
@@ -470,10 +467,6 @@
       {
         "date": "2026-11-02",
         "close": 50.02
-      },
-      {
-        "date": "2026-11-03",
-        "close": 51.84
       }
     ],
     "bayry": [
@@ -539,10 +532,6 @@
       }
     ],
     "dax": [
-      {
-        "date": "2026-10-14",
-        "close": 25298.6094
-      },
       {
         "date": "2026-10-15",
         "close": 25382.6191
