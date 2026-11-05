@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-05T10:28:39Z",
+  "updatedAt": "2026-11-05T11:26:40Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1238",
-    "Bayer ADR ratio check 4.10 ordinary shares"
+    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1230",
+    "Bayer ADR ratio check 4.11 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.46,
+      "price": 55.66,
       "previousClose": 54.24,
-      "change": 1.22,
-      "changePct": 2.2493,
-      "asOf": "2026-11-05T10:13:11Z",
+      "change": 1.42,
+      "changePct": 2.618,
+      "asOf": "2026-11-05T11:10:41Z",
       "digits": 2,
       "sparkline": [
         55.22,
@@ -47,8 +47,19 @@
         55.68,
         55.66,
         55.62,
-        55.52,
-        55.46
+        55.44,
+        55.3,
+        55.32,
+        55.42,
+        55.48,
+        55.62,
+        55.58,
+        55.6,
+        55.68,
+        55.66,
+        55.64,
+        55.68,
+        55.66
       ],
       "sessionDate": "2026-11-05"
     },
@@ -253,20 +264,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26540.93,
-      "change": 103.26,
-      "changePct": 0.3906,
+      "price": 26648.84,
+      "change": 211.17,
+      "changePct": 0.7987,
       "digits": 2,
-      "asOf": "2026-11-05T10:13:26Z"
+      "asOf": "2026-11-05T11:11:29Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1238,
-      "change": 0.0003,
-      "changePct": 0.0267,
+      "price": 1.123,
+      "change": -0.0005,
+      "changePct": -0.0445,
       "digits": 4,
-      "asOf": "2026-11-05T10:27:30Z"
+      "asOf": "2026-11-05T11:26:26Z"
     }
   },
   "headlines": {
@@ -347,13 +358,6 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T15:59:45Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
       "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:20:05Z",
@@ -364,6 +368,13 @@
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:10:05Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -428,7 +439,7 @@
       },
       {
         "date": "2026-11-05",
-        "close": 55.46
+        "close": 55.66
       }
     ],
     "bayry": [
@@ -552,7 +563,7 @@
       },
       {
         "date": "2026-11-05",
-        "close": 26542.0801
+        "close": 26649.6699
       }
     ]
   }
