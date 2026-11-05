@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-05T16:44:37Z",
+  "updatedAt": "2026-11-05T17:41:24Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 129.09 matched",
-    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1231",
-    "Bayer ADR ratio check 4.02 ordinary shares"
+    "Nasdaq last sale 128.68 matched",
+    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1237",
+    "Bayer ADR ratio check 4.05 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.26,
+      "price": 56.22,
       "previousClose": 54.24,
-      "change": 2.02,
-      "changePct": 3.7242,
-      "asOf": "2026-11-05T16:29:22Z",
+      "change": 1.98,
+      "changePct": 3.6504,
+      "asOf": "2026-11-05T16:38:41Z",
       "digits": 2,
       "sparkline": [
         55.22,
@@ -101,7 +101,8 @@
         56.4,
         56.28,
         56.22,
-        56.24
+        56.24,
+        56.22
       ],
       "sessionDate": "2026-11-05"
     },
@@ -112,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.7,
+      "price": 15.61,
       "previousClose": 15.22,
-      "change": 0.48,
-      "changePct": 3.1537,
-      "asOf": "2026-11-05T16:21:35Z",
+      "change": 0.39,
+      "changePct": 2.5624,
+      "asOf": "2026-11-05T17:21:59Z",
       "digits": 2,
       "sparkline": [
         15.71,
@@ -138,7 +139,15 @@
         15.82,
         15.82,
         15.74,
-        15.7
+        15.7,
+        15.75,
+        15.74,
+        15.73,
+        15.72,
+        15.65,
+        15.67,
+        15.63,
+        15.61
       ],
       "sessionDate": "2026-11-05"
     },
@@ -149,11 +158,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 129.09,
+      "price": 128.68,
       "previousClose": 129.17,
-      "change": -0.08,
-      "changePct": -0.0619,
-      "asOf": "2026-11-05T16:44:21Z",
+      "change": -0.49,
+      "changePct": -0.3793,
+      "asOf": "2026-11-05T17:41:09Z",
       "digits": 2,
       "sparkline": [
         130.9545,
@@ -182,8 +191,20 @@
         129.585,
         129.53,
         129.305,
-        129.13,
-        129.09
+        129.09,
+        128.99,
+        128.71,
+        128.735,
+        128.8676,
+        129.0,
+        128.87,
+        128.7,
+        128.9075,
+        128.68,
+        128.615,
+        128.71,
+        128.645,
+        128.68
       ],
       "sessionDate": "2026-11-05"
     }
@@ -192,38 +213,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7451.72,
-      "change": -236.9,
-      "changePct": -3.0812,
+      "price": 7402.96,
+      "change": -285.66,
+      "changePct": -3.7154,
       "digits": 2,
-      "asOf": "2026-11-05T16:44:24Z"
+      "asOf": "2026-11-05T17:41:11Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52115.17,
-      "change": -1240.95,
-      "changePct": -2.3258,
+      "price": 51818.32,
+      "change": -1537.8,
+      "changePct": -2.8821,
       "digits": 2,
-      "asOf": "2026-11-05T16:44:23Z"
+      "asOf": "2026-11-05T17:41:12Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26322.88,
-      "change": -114.79,
-      "changePct": -0.4342,
+      "price": 26325.01,
+      "change": -112.66,
+      "changePct": -0.4261,
       "digits": 2,
-      "asOf": "2026-11-05T16:29:25Z"
+      "asOf": "2026-11-05T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1231,
-      "change": -0.0004,
-      "changePct": -0.0356,
+      "price": 1.1237,
+      "change": 0.0002,
+      "changePct": 0.0178,
       "digits": 4,
-      "asOf": "2026-11-05T16:43:28Z"
+      "asOf": "2026-11-05T17:40:29Z"
     }
   },
   "headlines": {
@@ -273,35 +294,28 @@
     ],
     "top": [
       {
-        "title": "2026 Election Results Live Updates: Mississippi and Alaska Midterm Senate Races Remain Too Close to Call",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-05T16:27:00Z"
-      },
-      {
         "title": "Her home was flooding. Teens saw her social media post and came to the rescue.",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-05T16:12:26Z"
+        "publishedAt": "2026-11-05T17:25:55Z"
       },
       {
-        "title": "\u2018I Have Seen the Enemy, and It Is Us\u2019: Inside Team Trump\u2019s Historic Collapse",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-05T15:20:00Z"
+        "title": "Live updates: Alaskans wait for more votes in US Senate and governor\u2019s races",
+        "source": "AP News",
+        "publishedAt": "2026-11-05T17:01:59Z"
       },
       {
-        "title": "\u2018Florida Is the Last Main Anchor Standing\u2019 for Republicans",
+        "title": "Latino Voters Reshape Electoral Map Once Again",
         "source": "The New York Times",
-        "publishedAt": "2026-11-05T13:35:58Z"
+        "publishedAt": "2026-11-05T16:34:46Z"
+      },
+      {
+        "title": "To Sweep Texas, Democrats Built \u2018a Machine\u2019 With Every Piece in Place",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-05T16:18:16Z"
       }
     ]
   },
   "releases": [
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full",
-      "source": "GuruFocus",
-      "publishedAt": "2026-11-03T21:26:24Z",
-      "release": true
-    },
     {
       "eventId": "bayer-q3-2026",
       "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
@@ -311,16 +325,23 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T16:41:09Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
+      "publishedAt": "2026-11-03T15:10:05Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -385,7 +406,7 @@
       },
       {
         "date": "2026-11-05",
-        "close": 56.24
+        "close": 56.22
       }
     ],
     "bayry": [
@@ -447,7 +468,7 @@
       },
       {
         "date": "2026-11-05",
-        "close": 15.7
+        "close": 15.61
       }
     ],
     "dax": [
@@ -509,7 +530,7 @@
       },
       {
         "date": "2026-11-05",
-        "close": 26317.7695
+        "close": 26325.0098
       }
     ]
   }
