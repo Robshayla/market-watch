@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-05T08:14:25Z",
+  "updatedAt": "2026-11-05T09:18:03Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 129.17 matched",
-    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1250",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1245",
+    "Bayer ADR ratio check 4.11 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,96 +14,29 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 54.24,
+      "price": 55.6,
       "previousClose": 54.24,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-04T16:38:38Z",
+      "change": 1.36,
+      "changePct": 2.5074,
+      "asOf": "2026-11-05T09:02:44Z",
       "digits": 2,
       "sparkline": [
-        52.4,
-        52.94,
-        52.76,
-        52.44,
-        52.52,
-        52.42,
-        52.42,
-        52.48,
-        52.48,
-        52.46,
-        52.54,
-        53.22,
-        53.08,
-        53.32,
-        53.24,
-        53.4,
-        53.22,
-        53.34,
-        53.34,
-        53.2,
-        53.28,
-        53.3,
-        53.18,
-        53.2,
-        53.2,
-        53.18,
-        53.1,
-        53.26,
-        53.26,
-        53.24,
-        53.04,
-        53.18,
-        53.2,
-        53.3,
-        53.38,
-        53.24,
-        53.22,
-        53.3,
-        53.58,
-        53.46,
-        53.52,
-        53.4,
-        53.48,
-        53.58,
-        53.72,
-        53.7,
-        53.68,
-        53.6,
-        53.4,
-        53.36,
-        53.42,
-        53.4,
-        53.58,
-        53.6,
-        53.76,
-        53.92,
-        54.0,
-        54.06,
-        54.1,
-        53.92,
-        53.84,
-        53.84,
-        53.82,
-        53.98,
-        53.92,
-        53.78,
-        53.56,
-        53.74,
-        53.5,
-        53.58,
-        53.46,
-        53.64,
-        53.8,
-        53.62,
-        53.58,
-        53.68,
-        53.74,
-        53.84,
-        53.88,
-        53.94,
-        54.24
+        55.22,
+        55.54,
+        55.5,
+        55.52,
+        55.68,
+        55.78,
+        55.7,
+        55.68,
+        55.78,
+        55.72,
+        55.58,
+        55.56,
+        55.6,
+        55.6
       ],
-      "sessionDate": "2026-11-04"
+      "sessionDate": "2026-11-05"
     },
     "bayry": {
       "symbol": "BAYRY",
@@ -293,7 +225,7 @@
       "change": 119.7,
       "changePct": 1.5815,
       "digits": 2,
-      "asOf": "2026-11-04T21:00:00Z"
+      "asOf": "2026-11-04T21:51:11Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -307,20 +239,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26437.67,
-      "change": 0.0,
-      "changePct": 0.0,
+      "price": 26614.53,
+      "change": 176.86,
+      "changePct": 0.669,
       "digits": 2,
-      "asOf": "2026-11-04T17:00:00Z"
+      "asOf": "2026-11-05T09:02:50Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.125,
-      "change": 0.0015,
-      "changePct": 0.1335,
+      "price": 1.1245,
+      "change": 0.001,
+      "changePct": 0.089,
       "digits": 4,
-      "asOf": "2026-11-05T08:13:27Z"
+      "asOf": "2026-11-05T09:17:28Z"
     }
   },
   "headlines": {
@@ -375,19 +307,19 @@
         "publishedAt": "2026-11-05T03:01:00Z"
       },
       {
+        "title": "Exclusive | The Billions of Dollars in Orders Complicating an End to U.S. Aid to Israel",
+        "source": "WSJ",
+        "publishedAt": "2026-11-05T01:00:00Z"
+      },
+      {
         "title": "Democrat leads by dozens of votes in surprisingly tight Mississippi Senate race",
         "source": "BBC",
         "publishedAt": "2026-11-05T00:51:45Z"
       },
       {
-        "title": "Trump-backed Republican redistricting sought a midterm edge. It didn\u2019t work",
-        "source": "AP News",
-        "publishedAt": "2026-11-05T00:09:00Z"
-      },
-      {
-        "title": "Alaska and Mississippi Senate Races: What We Know About Vote Counts and Result Timing",
+        "title": "Justice Alito Will Not Retire From Supreme Court Immediately, Despite Election Outcome",
         "source": "The New York Times",
-        "publishedAt": "2026-11-04T23:04:37Z"
+        "publishedAt": "2026-11-04T23:37:22Z"
       }
     ]
   },
@@ -475,6 +407,14 @@
       {
         "date": "2026-11-03",
         "close": 51.84
+      },
+      {
+        "date": "2026-11-04",
+        "close": 54.24
+      },
+      {
+        "date": "2026-11-05",
+        "close": 55.6
       }
     ],
     "bayry": [
@@ -595,6 +535,10 @@
       {
         "date": "2026-11-04",
         "close": 26437.6699
+      },
+      {
+        "date": "2026-11-05",
+        "close": 26610.9492
       }
     ]
   }
