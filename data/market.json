@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-05T12:23:14Z",
+  "updatedAt": "2026-11-05T13:44:14Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1227",
-    "Bayer ADR ratio check 4.10 ordinary shares"
+    "ECB reference 1.1267 on 2026-11-04 vs Yahoo spot 1.1217",
+    "Bayer ADR ratio check 4.12 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.62,
+      "price": 55.9,
       "previousClose": 54.24,
-      "change": 1.38,
-      "changePct": 2.5442,
-      "asOf": "2026-11-05T12:06:22Z",
+      "change": 1.66,
+      "changePct": 3.0605,
+      "asOf": "2026-11-05T13:28:50Z",
       "digits": 2,
       "sparkline": [
         55.22,
@@ -70,8 +70,24 @@
         55.52,
         55.54,
         55.64,
-        55.62,
-        55.62
+        55.64,
+        55.64,
+        55.64,
+        55.64,
+        55.6,
+        55.66,
+        55.64,
+        55.68,
+        55.76,
+        55.86,
+        55.88,
+        55.86,
+        55.8,
+        55.82,
+        55.9,
+        55.86,
+        55.96,
+        55.9
       ],
       "sessionDate": "2026-11-05"
     },
@@ -276,20 +292,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26620.52,
-      "change": 182.85,
-      "changePct": 0.6916,
+      "price": 26617.24,
+      "change": 179.57,
+      "changePct": 0.6792,
       "digits": 2,
-      "asOf": "2026-11-05T12:08:01Z"
+      "asOf": "2026-11-05T13:29:01Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1227,
-      "change": -0.0008,
-      "changePct": -0.0712,
+      "price": 1.1217,
+      "change": -0.0018,
+      "changePct": -0.1602,
       "digits": 4,
-      "asOf": "2026-11-05T12:22:27Z"
+      "asOf": "2026-11-05T13:43:29Z"
     }
   },
   "headlines": {
@@ -339,24 +355,24 @@
     ],
     "top": [
       {
+        "title": "How Texas Democrats Turned Decades of Defeat Into a Statewide Sweep",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-05T12:32:41Z"
+      },
+      {
         "title": "\u2018Florida Is the Last Main Anchor Standing\u2019 for Republicans",
         "source": "The New York Times",
         "publishedAt": "2026-11-05T10:04:38Z"
       },
       {
-        "title": "\u2018Knives out\u2019 at Pentagon after unpopular Iran war dooms GOP in midterms",
+        "title": "Mississippi Democrat Scott Colom defies odds, pulls further ahead in vote tally",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-05T03:23:00Z"
+        "publishedAt": "2026-11-05T06:12:00Z"
       },
       {
-        "title": "Moderate Democrats Increase Their Numbers, and Their Clout",
+        "title": "Immigration Tactics Motivated Voters, Near and Far From Southern Border",
         "source": "The New York Times",
-        "publishedAt": "2026-11-05T01:32:45Z"
-      },
-      {
-        "title": "Exclusive | The Billions of Dollars in Orders Complicating an End to U.S. Aid to Israel",
-        "source": "WSJ",
-        "publishedAt": "2026-11-05T01:00:00Z"
+        "publishedAt": "2026-11-05T01:28:00Z"
       }
     ]
   },
@@ -451,7 +467,7 @@
       },
       {
         "date": "2026-11-05",
-        "close": 55.62
+        "close": 55.9
       }
     ],
     "bayry": [
@@ -575,7 +591,7 @@
       },
       {
         "date": "2026-11-05",
-        "close": 26616.6406
+        "close": 26617.8906
       }
     ]
   }
