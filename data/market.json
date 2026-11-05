@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-05T19:25:09Z",
+  "updatedAt": "2026-11-05T20:15:21Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 128.88 matched",
-    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1226",
+    "Nasdaq last sale 128.48 matched",
+    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1227",
     "Bayer ADR ratio check 4.05 ordinary shares"
   ],
   "quotes": {
@@ -117,7 +117,7 @@
       "previousClose": 15.22,
       "change": 0.37,
       "changePct": 2.431,
-      "asOf": "2026-11-05T19:04:48Z",
+      "asOf": "2026-11-05T19:43:42Z",
       "digits": 2,
       "sparkline": [
         15.71,
@@ -163,7 +163,12 @@
         15.59,
         15.59,
         15.59,
-        15.6,
+        15.59,
+        15.58,
+        15.58,
+        15.57,
+        15.57,
+        15.59,
         15.59
       ],
       "sessionDate": "2026-11-05"
@@ -175,11 +180,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 128.88,
+      "price": 128.49,
       "previousClose": 129.17,
-      "change": -0.29,
-      "changePct": -0.2245,
-      "asOf": "2026-11-05T19:24:52Z",
+      "change": -0.68,
+      "changePct": -0.5264,
+      "asOf": "2026-11-05T20:15:03Z",
       "digits": 2,
       "sparkline": [
         130.9545,
@@ -240,8 +245,18 @@
         128.82,
         129.01,
         129.05,
-        128.88,
-        128.88
+        128.85,
+        128.91,
+        128.98,
+        129.005,
+        128.98,
+        129.16,
+        129.06,
+        129.0,
+        128.89,
+        128.48,
+        128.475,
+        128.49
       ],
       "sessionDate": "2026-11-05"
     }
@@ -250,20 +265,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7378.09,
-      "change": -310.53,
-      "changePct": -4.0388,
+      "price": 7381.68,
+      "change": -306.94,
+      "changePct": -3.9921,
       "digits": 2,
-      "asOf": "2026-11-05T19:24:55Z"
+      "asOf": "2026-11-05T20:15:06Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51662.97,
-      "change": -1693.15,
-      "changePct": -3.1733,
+      "price": 51660.96,
+      "change": -1695.16,
+      "changePct": -3.1771,
       "digits": 2,
-      "asOf": "2026-11-05T19:24:56Z"
+      "asOf": "2026-11-05T20:15:08Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -277,11 +292,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1226,
-      "change": -0.0009,
-      "changePct": -0.0801,
+      "price": 1.1227,
+      "change": -0.0008,
+      "changePct": -0.0712,
       "digits": 4,
-      "asOf": "2026-11-05T19:24:26Z"
+      "asOf": "2026-11-05T20:14:27Z"
     }
   },
   "headlines": {
@@ -331,9 +346,14 @@
     ],
     "top": [
       {
-        "title": "Boebert, billionaires' tax and other midterms races still to watch",
-        "source": "BBC",
-        "publishedAt": "2026-11-05T18:03:29Z"
+        "title": "Newsom Commutes the Sentences of California\u2019s 548 Death Row Inmates",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-05T19:21:32Z"
+      },
+      {
+        "title": "Why a Merciless Supreme Court Rebuke on Election Eve Matters",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-05T19:15:41Z"
       },
       {
         "title": "Her home was flooding. Teens saw her social media post and came to the rescue.",
@@ -341,14 +361,9 @@
         "publishedAt": "2026-11-05T18:00:00Z"
       },
       {
-        "title": "\u2018Florida Is the Last Main Anchor Standing\u2019 for Republicans",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-05T17:49:05Z"
-      },
-      {
-        "title": "GOP\u2019s losses will raise pressure on conservative Supreme Court justices to retire",
+        "title": "Trump wants his arch approved Thursday \u2014 and to immediately start work",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-05T17:33:45Z"
+        "publishedAt": "2026-11-05T16:56:47Z"
       }
     ]
   },
@@ -362,9 +377,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T15:59:45Z",
+      "publishedAt": "2026-11-03T16:41:09Z",
       "release": true
     },
     {
@@ -376,9 +391,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
       "source": "Investing",
-      "publishedAt": "2026-11-03T15:10:05Z",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
