@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-05T18:26:03Z",
+  "updatedAt": "2026-11-05T19:25:09Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 129.12 matched",
-    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1237",
+    "Nasdaq last sale 128.88 matched",
+    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1226",
     "Bayer ADR ratio check 4.05 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.61,
+      "price": 15.59,
       "previousClose": 15.22,
-      "change": 0.39,
-      "changePct": 2.5624,
-      "asOf": "2026-11-05T18:09:51Z",
+      "change": 0.37,
+      "changePct": 2.431,
+      "asOf": "2026-11-05T19:04:48Z",
       "digits": 2,
       "sparkline": [
         15.71,
@@ -155,7 +155,16 @@
         15.62,
         15.61,
         15.61,
-        15.61
+        15.61,
+        15.61,
+        15.61,
+        15.6,
+        15.6,
+        15.59,
+        15.59,
+        15.59,
+        15.6,
+        15.59
       ],
       "sessionDate": "2026-11-05"
     },
@@ -166,11 +175,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 129.12,
+      "price": 128.88,
       "previousClose": 129.17,
-      "change": -0.05,
-      "changePct": -0.0387,
-      "asOf": "2026-11-05T18:25:47Z",
+      "change": -0.29,
+      "changePct": -0.2245,
+      "asOf": "2026-11-05T19:24:52Z",
       "digits": 2,
       "sparkline": [
         130.9545,
@@ -220,7 +229,19 @@
         129.155,
         129.17,
         129.09,
-        129.125
+        129.18,
+        129.105,
+        129.03,
+        129.09,
+        129.01,
+        128.76,
+        128.55,
+        128.475,
+        128.82,
+        129.01,
+        129.05,
+        128.88,
+        128.88
       ],
       "sessionDate": "2026-11-05"
     }
@@ -229,20 +250,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7382.77,
-      "change": -305.85,
-      "changePct": -3.978,
+      "price": 7378.09,
+      "change": -310.53,
+      "changePct": -4.0388,
       "digits": 2,
-      "asOf": "2026-11-05T18:25:52Z"
+      "asOf": "2026-11-05T19:24:55Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51728.14,
-      "change": -1627.98,
-      "changePct": -3.0512,
+      "price": 51662.97,
+      "change": -1693.15,
+      "changePct": -3.1733,
       "digits": 2,
-      "asOf": "2026-11-05T18:25:51Z"
+      "asOf": "2026-11-05T19:24:56Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -256,11 +277,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1237,
-      "change": 0.0002,
-      "changePct": 0.0178,
+      "price": 1.1226,
+      "change": -0.0009,
+      "changePct": -0.0801,
       "digits": 4,
-      "asOf": "2026-11-05T18:25:25Z"
+      "asOf": "2026-11-05T19:24:26Z"
     }
   },
   "headlines": {
@@ -310,24 +331,24 @@
     ],
     "top": [
       {
+        "title": "Boebert, billionaires' tax and other midterms races still to watch",
+        "source": "BBC",
+        "publishedAt": "2026-11-05T18:03:29Z"
+      },
+      {
         "title": "Her home was flooding. Teens saw her social media post and came to the rescue.",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-05T17:42:26Z"
+        "publishedAt": "2026-11-05T18:00:00Z"
       },
       {
-        "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
-        "source": "BBC",
-        "publishedAt": "2026-11-05T16:44:38Z"
-      },
-      {
-        "title": "Latino Voters Reshape Electoral Map Once Again",
+        "title": "\u2018Florida Is the Last Main Anchor Standing\u2019 for Republicans",
         "source": "The New York Times",
-        "publishedAt": "2026-11-05T16:34:46Z"
+        "publishedAt": "2026-11-05T17:49:05Z"
       },
       {
-        "title": "2026 Election Results Live Updates: Democrats Expand House Majority as Lead in Mississippi Senate Midterm Grows",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-05T16:27:00Z"
+        "title": "GOP\u2019s losses will raise pressure on conservative Supreme Court justices to retire",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-05T17:33:45Z"
       }
     ]
   },
@@ -341,9 +362,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
       "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T16:41:09Z",
+      "publishedAt": "2026-11-03T15:59:45Z",
       "release": true
     },
     {
@@ -355,9 +376,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
-      "publishedAt": "2026-11-03T10:54:24Z",
+      "publishedAt": "2026-11-03T15:10:05Z",
       "release": true
     }
   ],
@@ -484,7 +505,7 @@
       },
       {
         "date": "2026-11-05",
-        "close": 15.61
+        "close": 15.59
       }
     ],
     "dax": [
