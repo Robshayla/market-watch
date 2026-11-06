@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-05T22:49:41Z",
+  "updatedAt": "2026-11-06T08:09:23Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1222",
-    "Bayer ADR ratio check 4.07 ordinary shares"
+    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1186",
+    "Bayer ADR ratio check 4.05 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,9 +15,9 @@
       "currency": "EUR",
       "session": "xetra",
       "price": 56.22,
-      "previousClose": 54.24,
-      "change": 1.98,
-      "changePct": 3.6504,
+      "previousClose": 56.22,
+      "change": 0.0,
+      "changePct": 0.0,
       "asOf": "2026-11-05T16:38:41Z",
       "digits": 2,
       "sparkline": [
@@ -112,11 +112,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.49,
+      "price": 15.52,
       "previousClose": 15.22,
-      "change": 0.27,
-      "changePct": 1.774,
-      "asOf": "2026-11-05T20:56:46Z",
+      "change": 0.3,
+      "changePct": 1.9711,
+      "asOf": "2026-11-05T21:00:00Z",
       "digits": 2,
       "sparkline": [
         15.71,
@@ -175,7 +175,8 @@
         15.52,
         15.52,
         15.52,
-        15.49
+        15.49,
+        15.52
       ],
       "sessionDate": "2026-11-05"
     },
@@ -281,7 +282,7 @@
       "symbol": "^DJI",
       "name": "DOW",
       "price": 51523.06,
-      "change": -1833.06,
+      "change": -1833.04,
       "changePct": -3.4355,
       "digits": 2,
       "asOf": "2026-11-05T21:35:51Z"
@@ -290,23 +291,28 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "price": 26325.01,
-      "change": -112.66,
-      "changePct": -0.4261,
+      "change": -112.69,
+      "changePct": -0.4262,
       "digits": 2,
       "asOf": "2026-11-05T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1222,
-      "change": -0.0013,
-      "changePct": -0.1157,
+      "price": 1.1186,
+      "change": -0.0032,
+      "changePct": -0.2853,
       "digits": 4,
-      "asOf": "2026-11-05T22:49:26Z"
+      "asOf": "2026-11-06T08:08:27Z"
     }
   },
   "headlines": {
     "bayer": [
+      {
+        "title": "We aim to use AI to cut down drug innovation time by 30%: Bayer Pharmaceuticals",
+        "source": "CNBC",
+        "publishedAt": "2026-11-06T02:41:02Z"
+      },
       {
         "title": "Why Bayer chose Ohio for its $2.2B U.S. pharmaceutical manufacturing investment",
         "source": "The Business Journals",
@@ -321,11 +327,6 @@
         "title": "Bayer raises 2026 profit outlook as pharma business beats expectations",
         "source": "Reuters",
         "publishedAt": "2026-11-03T17:29:41Z"
-      },
-      {
-        "title": "Roundup settlement expected before Christmas, Bayer CEO says",
-        "source": "Reuters",
-        "publishedAt": "2026-11-03T17:28:47Z"
       }
     ],
     "walmart": [
@@ -352,24 +353,24 @@
     ],
     "top": [
       {
-        "title": "In Alaska, Ranked-Choice Ballots Are Unlikely to Be Enough for Dan Sullivan",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-05T21:31:33Z"
+        "title": "Harmeet Dhillon resigns as head of Justice Dept.\u2019s civil rights division",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-06T05:33:04Z"
       },
       {
-        "title": "Trump Tried to Undermine the Nation\u2019s Elections. It Didn\u2019t Work.",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-05T21:29:57Z"
+        "title": "Trump signs order to prevent future presidents from changing Oval Office",
+        "source": "BBC",
+        "publishedAt": "2026-11-06T04:29:25Z"
       },
       {
-        "title": "Harmeet Dhillon, Leader of Justice Department\u2019s Civil Rights Unit, Resigns",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-05T21:05:11Z"
+        "title": "Texas\u2019s new Democratic governor Hinojosa vows to undo policies she calls divisive",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-06T03:52:11Z"
       },
       {
-        "title": "Rubio Considering Resigning, Report Says",
-        "source": "Forbes",
-        "publishedAt": "2026-11-05T19:57:54Z"
+        "title": "How the Texas blue wave came crashing down on Republicans",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-06T03:43:48Z"
       }
     ]
   },
@@ -379,13 +380,6 @@
       "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
       "source": "Yahoo Finance UK",
       "publishedAt": "2026-11-03T21:05:37Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T15:59:45Z",
       "release": true
     },
     {
@@ -401,15 +395,18 @@
       "source": "Investing",
       "publishedAt": "2026-11-03T15:10:05Z",
       "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T10:54:24Z",
+      "release": true
     }
   ],
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-10-16",
-        "close": 44.46
-      },
       {
         "date": "2026-10-19",
         "close": 43.4
@@ -461,10 +458,6 @@
       {
         "date": "2026-11-04",
         "close": 54.24
-      },
-      {
-        "date": "2026-11-05",
-        "close": 56.22
       }
     ],
     "bayry": [
@@ -526,14 +519,10 @@
       },
       {
         "date": "2026-11-05",
-        "close": 15.49
+        "close": 15.52
       }
     ],
     "dax": [
-      {
-        "date": "2026-10-16",
-        "close": 25622.6094
-      },
       {
         "date": "2026-10-19",
         "close": 25319.7695
