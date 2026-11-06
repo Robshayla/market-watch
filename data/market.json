@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-06T16:42:26Z",
+  "updatedAt": "2026-11-06T17:31:58Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.96 matched",
-    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1152",
+    "Nasdaq last sale 126.08 matched",
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1153",
     "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.18,
+      "price": 55.58,
       "previousClose": 56.22,
-      "change": -1.04,
-      "changePct": -1.8499,
-      "asOf": "2026-11-06T16:26:57Z",
+      "change": -0.64,
+      "changePct": -1.1384,
+      "asOf": "2026-11-06T16:38:40Z",
       "digits": 2,
       "sparkline": [
         54.7,
@@ -102,7 +102,7 @@
         55.34,
         55.32,
         55.2,
-        55.18
+        55.58
       ],
       "sessionDate": "2026-11-06"
     },
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.34,
+      "price": 15.45,
       "previousClose": 15.49,
-      "change": -0.15,
-      "changePct": -0.9684,
-      "asOf": "2026-11-06T16:26:56Z",
+      "change": -0.04,
+      "changePct": -0.2582,
+      "asOf": "2026-11-06T17:00:07Z",
       "digits": 2,
       "sparkline": [
         15.06,
@@ -136,7 +136,12 @@
         15.54,
         15.4,
         15.35,
-        15.34
+        15.36,
+        15.51,
+        15.43,
+        15.46,
+        15.45,
+        15.45
       ],
       "sessionDate": "2026-11-06"
     },
@@ -147,11 +152,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.96,
+      "price": 126.08,
       "previousClose": 127.72,
-      "change": -1.76,
-      "changePct": -1.378,
-      "asOf": "2026-11-06T16:42:07Z",
+      "change": -1.64,
+      "changePct": -1.2841,
+      "asOf": "2026-11-06T17:31:38Z",
       "digits": 2,
       "sparkline": [
         123.99,
@@ -180,8 +185,18 @@
         126.1199,
         126.08,
         126.075,
-        125.935,
-        125.96
+        126.02,
+        125.93,
+        125.985,
+        125.88,
+        125.885,
+        125.815,
+        125.86,
+        125.88,
+        126.11,
+        126.08,
+        126.08,
+        126.075
       ],
       "sessionDate": "2026-11-06"
     }
@@ -190,38 +205,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7425.73,
-      "change": 72.0,
-      "changePct": 0.9791,
+      "price": 7415.65,
+      "change": 61.92,
+      "changePct": 0.842,
       "digits": 2,
-      "asOf": "2026-11-06T16:42:12Z"
+      "asOf": "2026-11-06T17:31:40Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51555.17,
-      "change": 32.11,
-      "changePct": 0.0623,
+      "price": 51540.79,
+      "change": 17.73,
+      "changePct": 0.0344,
       "digits": 2,
-      "asOf": "2026-11-06T16:42:13Z"
+      "asOf": "2026-11-06T17:31:45Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25786.18,
-      "change": -538.83,
-      "changePct": -2.0468,
+      "price": 25820.36,
+      "change": -504.65,
+      "changePct": -1.917,
       "digits": 2,
-      "asOf": "2026-11-06T16:27:13Z"
+      "asOf": "2026-11-06T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1152,
-      "change": -0.0066,
-      "changePct": -0.5883,
+      "price": 1.1153,
+      "change": -0.0065,
+      "changePct": -0.5794,
       "digits": 4,
-      "asOf": "2026-11-06T16:41:26Z"
+      "asOf": "2026-11-06T17:31:27Z"
     }
   },
   "headlines": {
@@ -271,24 +286,24 @@
     ],
     "top": [
       {
+        "title": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89",
+        "source": "Reuters",
+        "publishedAt": "2026-11-06T16:52:50Z"
+      },
+      {
+        "title": "Democrats planning flood of AI bills when they take control of Congress",
+        "source": "Reuters",
+        "publishedAt": "2026-11-06T16:52:32Z"
+      },
+      {
+        "title": "Four midterms takeaways for 2028 White House race",
+        "source": "BBC",
+        "publishedAt": "2026-11-06T16:12:22Z"
+      },
+      {
         "title": "Corporate America courted Trump. Now a blitz of investigations is coming.",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-06T15:03:18Z"
-      },
-      {
-        "title": "Jay Rockefeller, Senate voice on health care and security, dies at 89",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-06T15:00:18Z"
-      },
-      {
-        "title": "Fed Up With Politics and Struggle, Young Voters Rose Up",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-06T12:26:55Z"
-      },
-      {
-        "title": "The Education Department Is In Trouble As Student Loans, College Funding Likely To Draw Democratic Scrutiny",
-        "source": "Forbes",
-        "publishedAt": "2026-11-06T11:15:00Z"
+        "publishedAt": "2026-11-06T13:49:27Z"
       }
     ]
   },
@@ -298,13 +313,6 @@
       "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
       "source": "Yahoo Finance UK",
       "publishedAt": "2026-11-03T21:05:37Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T15:59:45Z",
       "release": true
     },
     {
@@ -319,6 +327,13 @@
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:10:05Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -383,7 +398,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 55.18
+        "close": 55.58
       }
     ],
     "bayry": [
@@ -445,7 +460,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 15.34
+        "close": 15.45
       }
     ],
     "dax": [
@@ -507,7 +522,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 25783.0898
+        "close": 25820.3594
       }
     ]
   }
