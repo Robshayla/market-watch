@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-06T14:58:39Z",
+  "updatedAt": "2026-11-06T15:45:54Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1153",
-    "Bayer ADR ratio check 3.91 ordinary shares"
+    "Nasdaq last sale 126.02 matched",
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1153",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 54.36,
+      "price": 54.92,
       "previousClose": 56.22,
-      "change": -1.86,
-      "changePct": -3.3084,
-      "asOf": "2026-11-06T14:43:24Z",
+      "change": -1.3,
+      "changePct": -2.3123,
+      "asOf": "2026-11-06T15:30:24Z",
       "digits": 2,
       "sparkline": [
         54.68,
@@ -29,7 +30,6 @@
         54.6,
         54.36,
         54.2,
-        54.28,
         54.26,
         54.26,
         53.98,
@@ -37,7 +37,6 @@
         54.58,
         54.66,
         54.74,
-        54.62,
         54.8,
         54.78,
         54.92,
@@ -45,7 +44,6 @@
         54.52,
         54.44,
         54.58,
-        54.54,
         54.36,
         54.3,
         54.24,
@@ -54,14 +52,13 @@
         54.11,
         54.12,
         54.06,
-        54.06,
         54.0,
         54.02,
         53.98,
         53.98,
         53.98,
         53.96,
-        53.96,
+        53.98,
         53.88,
         53.88,
         53.96,
@@ -69,7 +66,6 @@
         54.08,
         54.1,
         54.02,
-        54.04,
         53.98,
         53.96,
         54.04,
@@ -77,7 +73,6 @@
         54.12,
         54.14,
         54.1,
-        54.06,
         54.16,
         54.12,
         54.18,
@@ -86,7 +81,6 @@
         54.42,
         54.46,
         54.4,
-        54.46,
         54.48,
         54.4,
         54.52,
@@ -94,14 +88,20 @@
         54.48,
         54.48,
         54.42,
-        54.32,
         54.34,
         54.32,
         54.32,
         54.38,
         54.32,
         54.44,
-        54.36
+        54.36,
+        54.5,
+        54.5,
+        54.66,
+        54.88,
+        54.96,
+        54.96,
+        54.94
       ],
       "sessionDate": "2026-11-06"
     },
@@ -112,73 +112,25 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.52,
-      "previousClose": 15.22,
-      "change": 0.3,
-      "changePct": 1.9711,
-      "asOf": "2026-11-06T13:03:42Z",
+      "price": 15.28,
+      "previousClose": 15.49,
+      "change": -0.21,
+      "changePct": -1.3557,
+      "asOf": "2026-11-06T15:30:15Z",
       "digits": 2,
       "sparkline": [
-        15.71,
-        15.72,
-        15.73,
-        15.7,
-        15.75,
-        15.76,
-        15.75,
-        15.72,
-        15.74,
-        15.73,
-        15.75,
-        15.78,
-        15.81,
-        15.78,
-        15.81,
-        15.82,
-        15.82,
-        15.82,
-        15.74,
-        15.7,
-        15.75,
-        15.74,
-        15.73,
-        15.72,
-        15.65,
-        15.67,
-        15.63,
-        15.61,
-        15.63,
-        15.62,
-        15.62,
-        15.63,
-        15.62,
-        15.61,
-        15.61,
-        15.61,
-        15.61,
-        15.61,
-        15.6,
-        15.6,
-        15.59,
-        15.59,
-        15.59,
-        15.59,
-        15.58,
-        15.58,
-        15.57,
-        15.57,
-        15.59,
-        15.57,
-        15.55,
-        15.54,
-        15.56,
-        15.52,
-        15.52,
-        15.52,
-        15.49,
-        15.52
+        15.06,
+        15.09,
+        15.09,
+        15.12,
+        15.14,
+        15.14,
+        15.15,
+        15.26,
+        15.28,
+        15.28
       ],
-      "sessionDate": "2026-11-05"
+      "sessionDate": "2026-11-06"
     },
     "wmt": {
       "symbol": "WMT",
@@ -187,114 +139,60 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 128.49,
-      "previousClose": 129.17,
-      "change": -0.68,
-      "changePct": -0.5264,
-      "asOf": "2026-11-05T20:15:03Z",
+      "price": 126.02,
+      "previousClose": 127.72,
+      "change": -1.7,
+      "changePct": -1.331,
+      "asOf": "2026-11-06T15:45:36Z",
       "digits": 2,
       "sparkline": [
-        130.9545,
-        130.8,
-        130.73,
-        130.5,
-        131.06,
-        131.33,
-        130.945,
-        131.1979,
-        131.465,
-        131.09,
-        131.65,
-        131.43,
-        131.1,
-        131.28,
-        131.19,
-        131.2499,
-        131.36,
-        131.6,
-        131.38,
-        131.45,
-        130.78,
-        129.8,
-        129.7701,
-        129.585,
-        129.53,
-        129.305,
-        129.09,
-        128.99,
-        128.71,
-        128.735,
-        128.8676,
-        129.0,
-        128.87,
-        128.7,
-        128.9075,
-        128.68,
-        128.615,
-        128.71,
-        128.5,
-        128.92,
-        128.99,
-        128.975,
-        128.69,
-        129.0,
-        129.155,
-        129.17,
-        129.09,
-        129.18,
-        129.105,
-        129.03,
-        129.09,
-        129.01,
-        128.76,
-        128.55,
-        128.475,
-        128.82,
-        129.01,
-        129.05,
-        128.85,
-        128.91,
-        128.98,
-        129.005,
-        128.98,
-        129.16,
-        129.06,
-        129.0,
-        128.89,
-        128.48,
-        128.475,
-        128.49
+        123.99,
+        123.13,
+        123.7933,
+        124.41,
+        125.36,
+        125.01,
+        125.07,
+        125.2,
+        125.41,
+        125.62,
+        125.98,
+        125.905,
+        126.31,
+        126.23,
+        125.995,
+        126.015
       ],
-      "sessionDate": "2026-11-05"
+      "sessionDate": "2026-11-06"
     }
   },
   "ticker": {
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7426.57,
-      "change": 72.84,
-      "changePct": 0.9905,
+      "price": 7409.28,
+      "change": 55.55,
+      "changePct": 0.7554,
       "digits": 2,
-      "asOf": "2026-11-06T14:58:27Z"
+      "asOf": "2026-11-06T15:45:41Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51393.99,
-      "change": -129.07,
-      "changePct": -0.2505,
+      "price": 51478.78,
+      "change": -44.28,
+      "changePct": -0.0859,
       "digits": 2,
-      "asOf": "2026-11-06T14:58:27Z"
+      "asOf": "2026-11-06T15:45:41Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25688.04,
-      "change": -636.97,
-      "changePct": -2.4196,
+      "price": 25758.82,
+      "change": -566.19,
+      "changePct": -2.1508,
       "digits": 2,
-      "asOf": "2026-11-06T14:43:28Z"
+      "asOf": "2026-11-06T15:30:42Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
@@ -303,7 +201,7 @@
       "change": -0.0065,
       "changePct": -0.5794,
       "digits": 4,
-      "asOf": "2026-11-06T14:57:29Z"
+      "asOf": "2026-11-06T15:45:25Z"
     }
   },
   "headlines": {
@@ -311,7 +209,7 @@
       {
         "title": "We aim to use AI to cut down drug innovation time by 30%: Bayer Pharmaceuticals",
         "source": "CNBC",
-        "publishedAt": "2026-11-06T02:41:02Z"
+        "publishedAt": "2026-11-06T02:40:00Z"
       },
       {
         "title": "Why Bayer chose Ohio for its $2.2B U.S. pharmaceutical manufacturing investment",
@@ -353,24 +251,24 @@
     ],
     "top": [
       {
-        "title": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89",
-        "source": "Reuters",
-        "publishedAt": "2026-11-06T13:13:22Z"
-      },
-      {
-        "title": "The Democratic Governor Taking Over a Conservative Education System",
+        "title": "John D. Rockefeller IV, West Virginia Governor and Senator, Dies at 89",
         "source": "The New York Times",
-        "publishedAt": "2026-11-06T13:06:20Z"
+        "publishedAt": "2026-11-06T14:10:45Z"
       },
       {
         "title": "Corporate America courted Trump. Now a blitz of investigations is coming.",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-06T13:02:38Z"
+        "publishedAt": "2026-11-06T13:49:27Z"
       },
       {
         "title": "Fed Up With Politics and Struggle, Young Voters Rose Up",
         "source": "The New York Times",
         "publishedAt": "2026-11-06T12:26:55Z"
+      },
+      {
+        "title": "These Newly Elected Lawmakers Know Something Trump Doesn\u2019t: Science",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-06T10:03:57Z"
       }
     ]
   },
@@ -465,7 +363,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 54.38
+        "close": 54.96
       }
     ],
     "bayry": [
@@ -527,7 +425,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 15.11
+        "close": 15.27
       }
     ],
     "dax": [
@@ -589,7 +487,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 25696.3594
+        "close": 25758.5996
       }
     ]
   }
