@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-06T10:11:11Z",
+  "updatedAt": "2026-11-06T11:12:31Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1177",
-    "Bayer ADR ratio check 3.93 ordinary shares"
+    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1178",
+    "Bayer ADR ratio check 3.90 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 54.56,
+      "price": 54.08,
       "previousClose": 56.22,
-      "change": -1.66,
-      "changePct": -2.9527,
-      "asOf": "2026-11-06T09:55:30Z",
+      "change": -2.14,
+      "changePct": -3.8065,
+      "asOf": "2026-11-06T10:57:14Z",
       "digits": 2,
       "sparkline": [
         54.7,
@@ -44,7 +44,20 @@
         54.68,
         54.52,
         54.44,
-        54.56
+        54.58,
+        54.54,
+        54.36,
+        54.3,
+        54.24,
+        54.12,
+        54.1,
+        54.1,
+        54.12,
+        54.06,
+        54.06,
+        54.0,
+        54.08,
+        54.08
       ],
       "sessionDate": "2026-11-06"
     },
@@ -233,20 +246,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25967.85,
-      "change": -357.16,
-      "changePct": -1.3567,
+      "price": 25751.65,
+      "change": -573.36,
+      "changePct": -2.178,
       "digits": 2,
-      "asOf": "2026-11-06T09:56:00Z"
+      "asOf": "2026-11-06T10:57:20Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1177,
-      "change": -0.0041,
-      "changePct": -0.3655,
+      "price": 1.1178,
+      "change": -0.004,
+      "changePct": -0.3566,
       "digits": 4,
-      "asOf": "2026-11-06T10:10:25Z"
+      "asOf": "2026-11-06T11:11:29Z"
     }
   },
   "headlines": {
@@ -296,24 +309,24 @@
     ],
     "top": [
       {
-        "title": "Trump\u2019s Triumphal Arch Wins Commission Approval Despite Court Challenges",
+        "title": "Midterm Elections Live Updates: Democrats Clear 250 House Seats in Decisive Power Shift",
         "source": "The New York Times",
-        "publishedAt": "2026-11-06T07:00:56Z"
+        "publishedAt": "2026-11-06T08:30:00Z"
+      },
+      {
+        "title": "Nithya Raman Wins Los Angeles Mayoral Race, Defeating Karen Bass",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-06T08:30:00Z"
+      },
+      {
+        "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+        "source": "BBC",
+        "publishedAt": "2026-11-06T07:56:19Z"
       },
       {
         "title": "Texas\u2019s new Democratic governor Hinojosa vows to undo policies she calls divisive",
         "source": "The Washington Post",
         "publishedAt": "2026-11-06T05:22:00Z"
-      },
-      {
-        "title": "Republicans rammed through Supreme Court nominees. Now Democrats will have the votes to stop them",
-        "source": "AP News",
-        "publishedAt": "2026-11-06T05:06:00Z"
-      },
-      {
-        "title": "Trump signs order to prevent future presidents from changing Oval Office",
-        "source": "BBC",
-        "publishedAt": "2026-11-06T04:29:25Z"
       }
     ]
   },
@@ -323,6 +336,13 @@
       "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
       "source": "Yahoo Finance UK",
       "publishedAt": "2026-11-03T21:05:37Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing.com Nigeria",
+      "publishedAt": "2026-11-03T15:59:45Z",
       "release": true
     },
     {
@@ -337,13 +357,6 @@
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:10:05Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -408,7 +421,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 54.58
+        "close": 54.08
       }
     ],
     "bayry": [
@@ -532,7 +545,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 25971.0508
+        "close": 25755.0801
       }
     ]
   }
