@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T21:50:02Z",
+  "updatedAt": "2026-11-06T22:41:31Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1142",
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1143",
     "Bayer ADR ratio check 4.04 ordinary shares"
   ],
   "quotes": {
@@ -306,11 +306,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1142,
-      "change": -0.0076,
-      "changePct": -0.6775,
+      "price": 1.1143,
+      "change": -0.0075,
+      "changePct": -0.6686,
       "digits": 4,
-      "asOf": "2026-11-06T21:49:28Z"
+      "asOf": "2026-11-06T22:29:28Z"
     }
   },
   "headlines": {
@@ -348,14 +348,14 @@
         "publishedAt": "2026-11-06T14:47:45Z"
       },
       {
+        "title": "Can a DoorDash-Instacart fusion stand up to Amazon and Walmart?",
+        "source": "The Economist",
+        "publishedAt": "2026-11-05T13:58:17Z"
+      },
+      {
         "title": "Walmart Inc Stock (WMT) Moved Up by 4.00% on Nov 4: Drivers Behind the Movement",
         "source": "TradingKey",
         "publishedAt": "2026-11-04T16:16:32Z"
-      },
-      {
-        "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
-        "source": "Reuters",
-        "publishedAt": "2026-11-04T15:37:45Z"
       }
     ],
     "top": [
@@ -365,14 +365,14 @@
         "publishedAt": "2026-11-06T21:36:10Z"
       },
       {
-        "title": "Two more DOJ officials resign, including head of national security division",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-06T20:39:17Z"
+        "title": "Meghan's father Thomas Markle appears in court over child sex abuse material",
+        "source": "BBC",
+        "publishedAt": "2026-11-06T21:26:56Z"
       },
       {
-        "title": "Meghan's estranged father arrested and charged with possessing child sexual abuse materials",
-        "source": "AP News",
-        "publishedAt": "2026-11-06T19:53:00Z"
+        "title": "Democratic Gains Could Advance an Alternative to the Electoral College",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-06T21:11:00Z"
       },
       {
         "title": "These Newly Elected Lawmakers Know Something Trump Doesn\u2019t: Science",
@@ -391,6 +391,13 @@
     },
     {
       "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing.com Nigeria",
+      "publishedAt": "2026-11-03T15:59:45Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
       "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:20:05Z",
@@ -401,13 +408,6 @@
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:10:05Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
