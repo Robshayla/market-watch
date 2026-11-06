@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T14:10:49Z",
+  "updatedAt": "2026-11-06T14:58:39Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1143",
+    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1153",
     "Bayer ADR ratio check 3.91 ordinary shares"
   ],
   "quotes": {
@@ -14,14 +14,14 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 54.46,
+      "price": 54.36,
       "previousClose": 56.22,
-      "change": -1.76,
-      "changePct": -3.1306,
-      "asOf": "2026-11-06T13:55:34Z",
+      "change": -1.86,
+      "changePct": -3.3084,
+      "asOf": "2026-11-06T14:43:24Z",
       "digits": 2,
       "sparkline": [
-        54.7,
+        54.68,
         54.8,
         54.8,
         54.78,
@@ -51,7 +51,7 @@
         54.24,
         54.12,
         54.1,
-        54.1,
+        54.11,
         54.12,
         54.06,
         54.06,
@@ -61,7 +61,6 @@
         53.98,
         53.98,
         53.96,
-        53.98,
         53.96,
         53.88,
         53.88,
@@ -92,7 +91,17 @@
         54.4,
         54.52,
         54.52,
-        54.46
+        54.48,
+        54.48,
+        54.42,
+        54.32,
+        54.34,
+        54.32,
+        54.32,
+        54.38,
+        54.32,
+        54.44,
+        54.36
       ],
       "sessionDate": "2026-11-06"
     },
@@ -263,38 +272,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7353.73,
-      "change": -334.89,
-      "changePct": -4.3557,
+      "price": 7426.57,
+      "change": 72.84,
+      "changePct": 0.9905,
       "digits": 2,
-      "asOf": "2026-11-05T21:34:08Z"
+      "asOf": "2026-11-06T14:58:27Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51523.06,
-      "change": -1833.04,
-      "changePct": -3.4355,
+      "price": 51393.99,
+      "change": -129.07,
+      "changePct": -0.2505,
       "digits": 2,
-      "asOf": "2026-11-05T21:35:51Z"
+      "asOf": "2026-11-06T14:58:27Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25698.66,
-      "change": -626.35,
-      "changePct": -2.3793,
+      "price": 25688.04,
+      "change": -636.97,
+      "changePct": -2.4196,
       "digits": 2,
-      "asOf": "2026-11-06T13:55:38Z"
+      "asOf": "2026-11-06T14:43:28Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1143,
-      "change": -0.0075,
-      "changePct": -0.6686,
+      "price": 1.1153,
+      "change": -0.0065,
+      "changePct": -0.5794,
       "digits": 4,
-      "asOf": "2026-11-06T14:10:28Z"
+      "asOf": "2026-11-06T14:57:29Z"
     }
   },
   "headlines": {
@@ -322,6 +331,11 @@
     ],
     "walmart": [
       {
+        "title": "Walmart Inc Stock (WMT) Opened Down by 3.02% on Nov 6: Facts Behind the Movement",
+        "source": "TradingKey",
+        "publishedAt": "2026-11-06T14:47:45Z"
+      },
+      {
         "title": "Walmart Inc Stock (WMT) Moved Up by 4.00% on Nov 4: Drivers Behind the Movement",
         "source": "TradingKey",
         "publishedAt": "2026-11-04T16:16:32Z"
@@ -335,33 +349,28 @@
         "title": "Walmart Inc Stock (WMT) Moved Up by 3.00% on Nov 2: Facts Behind the Movement",
         "source": "TradingKey",
         "publishedAt": "2026-11-02T19:15:40Z"
-      },
-      {
-        "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
-        "source": "CNBC",
-        "publishedAt": "2026-08-20T07:00:00Z"
       }
     ],
     "top": [
       {
-        "title": "Midterm Elections Live Updates: Democrats Clear 250 House Seats in Decisive Power Shift",
+        "title": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89",
+        "source": "Reuters",
+        "publishedAt": "2026-11-06T13:13:22Z"
+      },
+      {
+        "title": "The Democratic Governor Taking Over a Conservative Education System",
         "source": "The New York Times",
-        "publishedAt": "2026-11-06T13:00:00Z"
+        "publishedAt": "2026-11-06T13:06:20Z"
       },
       {
-        "title": "Trump signs order to preserve Oval Office as national monument",
-        "source": "BBC",
-        "publishedAt": "2026-11-06T09:19:57Z"
+        "title": "Corporate America courted Trump. Now a blitz of investigations is coming.",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-06T13:02:38Z"
       },
       {
-        "title": "Nithya Raman Wins Los Angeles Mayoral Race, Defeating Karen Bass",
+        "title": "Fed Up With Politics and Struggle, Young Voters Rose Up",
         "source": "The New York Times",
-        "publishedAt": "2026-11-06T08:30:00Z"
-      },
-      {
-        "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-        "source": "BBC",
-        "publishedAt": "2026-11-06T07:56:19Z"
+        "publishedAt": "2026-11-06T12:26:55Z"
       }
     ]
   },
@@ -456,14 +465,10 @@
       },
       {
         "date": "2026-11-06",
-        "close": 54.46
+        "close": 54.38
       }
     ],
     "bayry": [
-      {
-        "date": "2026-10-16",
-        "close": 12.47
-      },
       {
         "date": "2026-10-19",
         "close": 12.12
@@ -522,7 +527,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 15.52
+        "close": 15.11
       }
     ],
     "dax": [
@@ -584,7 +589,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 25690.9707
+        "close": 25696.3594
       }
     ]
   }
