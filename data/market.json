@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-06T17:31:58Z",
+  "updatedAt": "2026-11-06T18:29:53Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 126.08 matched",
-    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1153",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "Nasdaq last sale 126.19 matched",
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1147",
+    "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.45,
+      "price": 15.42,
       "previousClose": 15.49,
-      "change": -0.04,
-      "changePct": -0.2582,
-      "asOf": "2026-11-06T17:00:07Z",
+      "change": -0.07,
+      "changePct": -0.4519,
+      "asOf": "2026-11-06T18:14:16Z",
       "digits": 2,
       "sparkline": [
         15.06,
@@ -141,7 +141,16 @@
         15.43,
         15.46,
         15.45,
-        15.45
+        15.45,
+        15.45,
+        15.44,
+        15.43,
+        15.43,
+        15.42,
+        15.42,
+        15.42,
+        15.42,
+        15.42
       ],
       "sessionDate": "2026-11-06"
     },
@@ -152,11 +161,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.08,
+      "price": 126.19,
       "previousClose": 127.72,
-      "change": -1.64,
-      "changePct": -1.2841,
-      "asOf": "2026-11-06T17:31:38Z",
+      "change": -1.53,
+      "changePct": -1.1979,
+      "asOf": "2026-11-06T18:29:38Z",
       "digits": 2,
       "sparkline": [
         123.99,
@@ -195,8 +204,19 @@
         125.88,
         126.11,
         126.08,
-        126.08,
-        126.075
+        126.095,
+        126.16,
+        126.27,
+        126.24,
+        126.38,
+        126.3,
+        126.2,
+        126.2,
+        126.11,
+        126.25,
+        126.14,
+        126.13,
+        126.185
       ],
       "sessionDate": "2026-11-06"
     }
@@ -205,20 +225,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7415.65,
-      "change": 61.92,
-      "changePct": 0.842,
+      "price": 7396.4,
+      "change": 42.67,
+      "changePct": 0.5802,
       "digits": 2,
-      "asOf": "2026-11-06T17:31:40Z"
+      "asOf": "2026-11-06T18:29:41Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51540.79,
-      "change": 17.73,
-      "changePct": 0.0344,
+      "price": 51474.3,
+      "change": -48.76,
+      "changePct": -0.0946,
       "digits": 2,
-      "asOf": "2026-11-06T17:31:45Z"
+      "asOf": "2026-11-06T18:29:41Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -232,11 +252,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1153,
-      "change": -0.0065,
-      "changePct": -0.5794,
+      "price": 1.1147,
+      "change": -0.0071,
+      "changePct": -0.6329,
       "digits": 4,
-      "asOf": "2026-11-06T17:31:27Z"
+      "asOf": "2026-11-06T18:29:28Z"
     }
   },
   "headlines": {
@@ -286,24 +306,24 @@
     ],
     "top": [
       {
-        "title": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89",
-        "source": "Reuters",
-        "publishedAt": "2026-11-06T16:52:50Z"
+        "title": "Meghan's father Thomas Markle arrested - follow live",
+        "source": "BBC",
+        "publishedAt": "2026-11-06T18:17:46Z"
       },
       {
         "title": "Democrats planning flood of AI bills when they take control of Congress",
         "source": "Reuters",
-        "publishedAt": "2026-11-06T16:52:32Z"
+        "publishedAt": "2026-11-06T17:23:07Z"
       },
       {
-        "title": "Four midterms takeaways for 2028 White House race",
-        "source": "BBC",
-        "publishedAt": "2026-11-06T16:12:22Z"
+        "title": "U.S. Attorney Who Oversaw Centerpiece of Trump\u2019s Revenge Campaign Resigns",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-06T17:21:54Z"
       },
       {
-        "title": "Corporate America courted Trump. Now a blitz of investigations is coming.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-06T13:49:27Z"
+        "title": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89",
+        "source": "Reuters",
+        "publishedAt": "2026-11-06T16:52:50Z"
       }
     ]
   },
@@ -313,6 +333,13 @@
       "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
       "source": "Yahoo Finance UK",
       "publishedAt": "2026-11-03T21:05:37Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing.com Nigeria",
+      "publishedAt": "2026-11-03T15:59:45Z",
       "release": true
     },
     {
@@ -327,13 +354,6 @@
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:10:05Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -460,7 +480,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 15.45
+        "close": 15.42
       }
     ],
     "dax": [
