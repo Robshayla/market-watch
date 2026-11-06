@@ -1,10 +1,9 @@
 {
-  "updatedAt": "2026-11-06T21:10:31Z",
+  "updatedAt": "2026-11-06T21:50:02Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 125.52 matched",
-    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1145",
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1142",
     "Bayer ADR ratio check 4.04 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +112,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.35,
+      "price": 15.33,
       "previousClose": 15.49,
-      "change": -0.14,
-      "changePct": -0.9038,
-      "asOf": "2026-11-06T20:54:54Z",
+      "change": -0.16,
+      "changePct": -1.0329,
+      "asOf": "2026-11-06T20:59:44Z",
       "digits": 2,
       "sparkline": [
         15.06,
@@ -174,8 +173,8 @@
         15.33,
         15.35,
         15.35,
-        15.33,
-        15.35
+        15.35,
+        15.33
       ],
       "sessionDate": "2026-11-06"
     },
@@ -284,7 +283,7 @@
       "change": 23.13,
       "changePct": 0.3145,
       "digits": 2,
-      "asOf": "2026-11-06T21:10:18Z"
+      "asOf": "2026-11-06T21:37:09Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -293,7 +292,7 @@
       "change": -237.33,
       "changePct": -0.4606,
       "digits": 2,
-      "asOf": "2026-11-06T21:10:19Z"
+      "asOf": "2026-11-06T21:37:13Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -307,11 +306,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1145,
-      "change": -0.0073,
-      "changePct": -0.6507,
+      "price": 1.1142,
+      "change": -0.0076,
+      "changePct": -0.6775,
       "digits": 4,
-      "asOf": "2026-11-06T21:09:27Z"
+      "asOf": "2026-11-06T21:49:28Z"
     }
   },
   "headlines": {
@@ -361,24 +360,24 @@
     ],
     "top": [
       {
+        "title": "Democrats planning flood of AI bills when they take control of Congress",
+        "source": "Reuters",
+        "publishedAt": "2026-11-06T21:36:10Z"
+      },
+      {
+        "title": "Two more DOJ officials resign, including head of national security division",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-06T20:39:17Z"
+      },
+      {
+        "title": "Meghan's estranged father arrested and charged with possessing child sexual abuse materials",
+        "source": "AP News",
+        "publishedAt": "2026-11-06T19:53:00Z"
+      },
+      {
         "title": "These Newly Elected Lawmakers Know Something Trump Doesn\u2019t: Science",
         "source": "The New York Times",
         "publishedAt": "2026-11-06T19:50:43Z"
-      },
-      {
-        "title": "Democrats planning flood of AI bills when they take control of Congress",
-        "source": "Reuters",
-        "publishedAt": "2026-11-06T19:20:55Z"
-      },
-      {
-        "title": "Jay Rockefeller, Senate voice on health care and security, dies at 89",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-06T19:04:38Z"
-      },
-      {
-        "title": "Democrats win the Arizona House, Senate and governor\u2019s office for the first time since 1966",
-        "source": "AP News",
-        "publishedAt": "2026-11-06T18:44:00Z"
       }
     ]
   },
@@ -535,7 +534,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 15.35
+        "close": 15.33
       }
     ],
     "dax": [
