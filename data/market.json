@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-06T12:59:01Z",
+  "updatedAt": "2026-11-06T14:10:49Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1171",
-    "Bayer ADR ratio check 3.90 ordinary shares"
+    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1143",
+    "Bayer ADR ratio check 3.91 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 54.14,
+      "price": 54.46,
       "previousClose": 56.22,
-      "change": -2.08,
-      "changePct": -3.6998,
-      "asOf": "2026-11-06T12:42:51Z",
+      "change": -1.76,
+      "changePct": -3.1306,
+      "asOf": "2026-11-06T13:55:34Z",
       "digits": 2,
       "sparkline": [
         54.7,
@@ -77,8 +77,22 @@
         54.2,
         54.12,
         54.14,
+        54.1,
+        54.06,
+        54.16,
+        54.12,
         54.18,
-        54.14
+        54.18,
+        54.44,
+        54.42,
+        54.46,
+        54.4,
+        54.46,
+        54.48,
+        54.4,
+        54.52,
+        54.52,
+        54.46
       ],
       "sessionDate": "2026-11-06"
     },
@@ -93,7 +107,7 @@
       "previousClose": 15.22,
       "change": 0.3,
       "changePct": 1.9711,
-      "asOf": "2026-11-05T21:00:00Z",
+      "asOf": "2026-11-06T13:03:42Z",
       "digits": 2,
       "sparkline": [
         15.71,
@@ -267,20 +281,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25722.3,
-      "change": -602.71,
-      "changePct": -2.2895,
+      "price": 25698.66,
+      "change": -626.35,
+      "changePct": -2.3793,
       "digits": 2,
-      "asOf": "2026-11-06T12:43:50Z"
+      "asOf": "2026-11-06T13:55:38Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1171,
-      "change": -0.0047,
-      "changePct": -0.419,
+      "price": 1.1143,
+      "change": -0.0075,
+      "changePct": -0.6686,
       "digits": 4,
-      "asOf": "2026-11-06T12:58:26Z"
+      "asOf": "2026-11-06T14:10:28Z"
     }
   },
   "headlines": {
@@ -330,19 +344,19 @@
     ],
     "top": [
       {
-        "title": "Inside the investigative blitz coming for Trump\u2019s corporate allies",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-06T11:32:38Z"
-      },
-      {
         "title": "Midterm Elections Live Updates: Democrats Clear 250 House Seats in Decisive Power Shift",
         "source": "The New York Times",
-        "publishedAt": "2026-11-06T10:24:00Z"
+        "publishedAt": "2026-11-06T13:00:00Z"
       },
       {
-        "title": "Texas Led the Conservative Overhaul of Education. What Now?",
+        "title": "Trump signs order to preserve Oval Office as national monument",
+        "source": "BBC",
+        "publishedAt": "2026-11-06T09:19:57Z"
+      },
+      {
+        "title": "Nithya Raman Wins Los Angeles Mayoral Race, Defeating Karen Bass",
         "source": "The New York Times",
-        "publishedAt": "2026-11-06T10:02:37Z"
+        "publishedAt": "2026-11-06T08:30:00Z"
       },
       {
         "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
@@ -361,13 +375,6 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T15:59:45Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
       "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:20:05Z",
@@ -378,6 +385,13 @@
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:10:05Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -442,7 +456,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 54.08
+        "close": 54.46
       }
     ],
     "bayry": [
@@ -505,6 +519,10 @@
       {
         "date": "2026-11-05",
         "close": 15.52
+      },
+      {
+        "date": "2026-11-06",
+        "close": 15.52
       }
     ],
     "dax": [
@@ -566,7 +584,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 25720.8496
+        "close": 25690.9707
       }
     ]
   }
