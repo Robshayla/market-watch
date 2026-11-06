@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-06T08:09:23Z",
+  "updatedAt": "2026-11-06T09:05:08Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1186",
-    "Bayer ADR ratio check 4.05 ordinary shares"
+    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1182",
+    "Bayer ADR ratio check 3.91 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,96 +14,26 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.22,
+      "price": 54.26,
       "previousClose": 56.22,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-05T16:38:41Z",
+      "change": -1.96,
+      "changePct": -3.4863,
+      "asOf": "2026-11-06T08:49:13Z",
       "digits": 2,
       "sparkline": [
-        55.22,
-        55.54,
-        55.5,
-        55.52,
-        55.78,
-        55.7,
-        55.68,
-        55.78,
-        55.58,
-        55.56,
-        55.72,
-        55.74,
-        55.82,
-        55.74,
-        55.76,
-        55.58,
-        55.66,
-        55.76,
-        55.72,
-        55.66,
-        55.62,
-        55.44,
-        55.32,
-        55.42,
-        55.48,
-        55.62,
-        55.6,
-        55.68,
-        55.66,
-        55.64,
-        55.66,
-        55.5,
-        55.4,
-        55.4,
-        55.42,
-        55.46,
-        55.56,
-        55.54,
-        55.64,
-        55.64,
-        55.64,
-        55.64,
-        55.6,
-        55.66,
-        55.68,
-        55.76,
-        55.86,
-        55.88,
-        55.8,
-        55.82,
-        55.9,
-        55.86,
-        55.92,
-        56.02,
-        56.08,
-        56.28,
-        56.24,
-        56.26,
-        56.28,
-        56.24,
-        56.18,
-        56.08,
-        56.26,
-        56.32,
-        56.26,
-        56.26,
-        56.34,
-        56.26,
-        56.28,
-        56.28,
-        56.42,
-        56.5,
-        56.44,
-        56.45,
-        56.52,
-        56.54,
-        56.4,
-        56.28,
-        56.22,
-        56.24,
-        56.22
+        54.7,
+        54.8,
+        54.8,
+        54.78,
+        54.84,
+        54.6,
+        54.36,
+        54.2,
+        54.28,
+        54.3,
+        54.26
       ],
-      "sessionDate": "2026-11-05"
+      "sessionDate": "2026-11-06"
     },
     "bayry": {
       "symbol": "BAYRY",
@@ -276,7 +206,7 @@
       "change": -334.89,
       "changePct": -4.3557,
       "digits": 2,
-      "asOf": "2026-11-05T21:34:08Z"
+      "asOf": "2026-11-05T21:00:00Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -290,20 +220,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26325.01,
-      "change": -112.69,
-      "changePct": -0.4262,
+      "price": 25964.71,
+      "change": -360.3,
+      "changePct": -1.3687,
       "digits": 2,
-      "asOf": "2026-11-05T17:00:00Z"
+      "asOf": "2026-11-06T08:49:57Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1186,
-      "change": -0.0032,
-      "changePct": -0.2853,
+      "price": 1.1182,
+      "change": -0.0036,
+      "changePct": -0.3209,
       "digits": 4,
-      "asOf": "2026-11-06T08:08:27Z"
+      "asOf": "2026-11-06T09:04:28Z"
     }
   },
   "headlines": {
@@ -358,19 +288,19 @@
         "publishedAt": "2026-11-06T05:33:04Z"
       },
       {
+        "title": "Texas\u2019s new Democratic governor Hinojosa vows to undo policies she calls divisive",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-06T05:22:00Z"
+      },
+      {
+        "title": "Republicans rammed through Supreme Court nominees. Now Democrats will have the votes to stop them",
+        "source": "AP News",
+        "publishedAt": "2026-11-06T05:06:00Z"
+      },
+      {
         "title": "Trump signs order to prevent future presidents from changing Oval Office",
         "source": "BBC",
         "publishedAt": "2026-11-06T04:29:25Z"
-      },
-      {
-        "title": "Texas\u2019s new Democratic governor Hinojosa vows to undo policies she calls divisive",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-06T03:52:11Z"
-      },
-      {
-        "title": "How the Texas blue wave came crashing down on Republicans",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-06T03:43:48Z"
       }
     ]
   },
@@ -458,6 +388,14 @@
       {
         "date": "2026-11-04",
         "close": 54.24
+      },
+      {
+        "date": "2026-11-05",
+        "close": 56.22
+      },
+      {
+        "date": "2026-11-06",
+        "close": 54.32
       }
     ],
     "bayry": [
@@ -578,6 +516,10 @@
       {
         "date": "2026-11-05",
         "close": 26325.0098
+      },
+      {
+        "date": "2026-11-06",
+        "close": 25965.8594
       }
     ]
   }
