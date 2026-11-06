@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-06T18:29:53Z",
+  "updatedAt": "2026-11-06T19:28:24Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 126.19 matched",
-    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1147",
+    "Nasdaq last sale 125.72 matched",
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1146",
     "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.42,
+      "price": 15.41,
       "previousClose": 15.49,
-      "change": -0.07,
-      "changePct": -0.4519,
-      "asOf": "2026-11-06T18:14:16Z",
+      "change": -0.08,
+      "changePct": -0.5165,
+      "asOf": "2026-11-06T19:08:48Z",
       "digits": 2,
       "sparkline": [
         15.06,
@@ -150,7 +150,17 @@
         15.42,
         15.42,
         15.42,
-        15.42
+        15.42,
+        15.42,
+        15.42,
+        15.43,
+        15.42,
+        15.42,
+        15.42,
+        15.41,
+        15.4,
+        15.41,
+        15.41
       ],
       "sessionDate": "2026-11-06"
     },
@@ -161,11 +171,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.19,
+      "price": 125.72,
       "previousClose": 127.72,
-      "change": -1.53,
-      "changePct": -1.1979,
-      "asOf": "2026-11-06T18:29:38Z",
+      "change": -2.0,
+      "changePct": -1.5659,
+      "asOf": "2026-11-06T19:27:59Z",
       "digits": 2,
       "sparkline": [
         123.99,
@@ -215,8 +225,20 @@
         126.11,
         126.25,
         126.14,
-        126.13,
-        126.185
+        126.24,
+        126.1128,
+        126.17,
+        126.08,
+        126.1601,
+        126.11,
+        125.9499,
+        125.91,
+        125.79,
+        125.63,
+        125.76,
+        125.79,
+        125.78,
+        125.72
       ],
       "sessionDate": "2026-11-06"
     }
@@ -225,20 +247,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7396.4,
-      "change": 42.67,
-      "changePct": 0.5802,
+      "price": 7402.94,
+      "change": 49.21,
+      "changePct": 0.6692,
       "digits": 2,
-      "asOf": "2026-11-06T18:29:41Z"
+      "asOf": "2026-11-06T19:28:10Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51474.3,
-      "change": -48.76,
-      "changePct": -0.0946,
+      "price": 51445.09,
+      "change": -77.97,
+      "changePct": -0.1513,
       "digits": 2,
-      "asOf": "2026-11-06T18:29:41Z"
+      "asOf": "2026-11-06T19:28:11Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -252,11 +274,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1147,
-      "change": -0.0071,
-      "changePct": -0.6329,
+      "price": 1.1146,
+      "change": -0.0072,
+      "changePct": -0.6418,
       "digits": 4,
-      "asOf": "2026-11-06T18:29:28Z"
+      "asOf": "2026-11-06T19:27:30Z"
     }
   },
   "headlines": {
@@ -284,6 +306,11 @@
     ],
     "walmart": [
       {
+        "title": "Change. Lead it. Dean Bharat Anand in Conversation with John Furner, President & CEO of Walmart, Inc.",
+        "source": "NYU Stern",
+        "publishedAt": "2026-11-06T18:14:26Z"
+      },
+      {
         "title": "Walmart Inc Stock (WMT) Opened Down by 3.02% on Nov 6: Facts Behind the Movement",
         "source": "TradingKey",
         "publishedAt": "2026-11-06T14:47:45Z"
@@ -297,33 +324,28 @@
         "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
         "source": "Reuters",
         "publishedAt": "2026-11-04T15:37:45Z"
-      },
-      {
-        "title": "Walmart Inc Stock (WMT) Moved Up by 3.00% on Nov 2: Facts Behind the Movement",
-        "source": "TradingKey",
-        "publishedAt": "2026-11-02T19:15:40Z"
       }
     ],
     "top": [
       {
-        "title": "Meghan's father Thomas Markle arrested - follow live",
-        "source": "BBC",
-        "publishedAt": "2026-11-06T18:17:46Z"
-      },
-      {
         "title": "Democrats planning flood of AI bills when they take control of Congress",
         "source": "Reuters",
-        "publishedAt": "2026-11-06T17:23:07Z"
+        "publishedAt": "2026-11-06T18:27:11Z"
       },
       {
-        "title": "U.S. Attorney Who Oversaw Centerpiece of Trump\u2019s Revenge Campaign Resigns",
+        "title": "Jay Rockefeller, Senate voice on health care and security, dies at 89",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-06T18:02:49Z"
+      },
+      {
+        "title": "Texas\u2019s new Democratic governor Hinojosa vows to undo policies she calls divisive",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-06T17:22:11Z"
+      },
+      {
+        "title": "After Governor Abbott\u2019s Defeat, Houston\u2019s Mayor Changes Course on ICE",
         "source": "The New York Times",
-        "publishedAt": "2026-11-06T17:21:54Z"
-      },
-      {
-        "title": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in US Senate, dies at 89",
-        "source": "Reuters",
-        "publishedAt": "2026-11-06T16:52:50Z"
+        "publishedAt": "2026-11-06T16:45:05Z"
       }
     ]
   },
@@ -480,7 +502,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 15.42
+        "close": 15.41
       }
     ],
     "dax": [
