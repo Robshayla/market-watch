@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-06T20:16:45Z",
+  "updatedAt": "2026-11-06T21:10:31Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.58 matched",
-    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1142",
-    "Bayer ADR ratio check 4.03 ordinary shares"
+    "Nasdaq last sale 125.52 matched",
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1145",
+    "Bayer ADR ratio check 4.04 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.36,
+      "price": 15.35,
       "previousClose": 15.49,
-      "change": -0.13,
-      "changePct": -0.8393,
-      "asOf": "2026-11-06T20:00:00Z",
+      "change": -0.14,
+      "changePct": -0.9038,
+      "asOf": "2026-11-06T20:54:54Z",
       "digits": 2,
       "sparkline": [
         15.06,
@@ -165,7 +165,17 @@
         15.37,
         15.36,
         15.35,
-        15.36
+        15.35,
+        15.35,
+        15.35,
+        15.34,
+        15.35,
+        15.34,
+        15.33,
+        15.35,
+        15.35,
+        15.33,
+        15.35
       ],
       "sessionDate": "2026-11-06"
     },
@@ -176,11 +186,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.58,
+      "price": 125.52,
       "previousClose": 127.72,
-      "change": -2.14,
-      "changePct": -1.6755,
-      "asOf": "2026-11-06T20:16:25Z",
+      "change": -2.2,
+      "changePct": -1.7225,
+      "asOf": "2026-11-06T21:00:00Z",
       "digits": 2,
       "sparkline": [
         123.99,
@@ -252,8 +262,16 @@
         125.4945,
         125.605,
         125.5311,
-        125.55,
-        125.585
+        125.535,
+        125.41,
+        125.4,
+        125.425,
+        125.42,
+        125.66,
+        125.4933,
+        125.345,
+        125.475,
+        125.52
       ],
       "sessionDate": "2026-11-06"
     }
@@ -262,20 +280,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7402.48,
-      "change": 48.75,
-      "changePct": 0.6629,
+      "price": 7376.86,
+      "change": 23.13,
+      "changePct": 0.3145,
       "digits": 2,
-      "asOf": "2026-11-06T20:16:33Z"
+      "asOf": "2026-11-06T21:10:18Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51412.75,
-      "change": -110.31,
-      "changePct": -0.2141,
+      "price": 51285.73,
+      "change": -237.33,
+      "changePct": -0.4606,
       "digits": 2,
-      "asOf": "2026-11-06T20:16:32Z"
+      "asOf": "2026-11-06T21:10:19Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -289,11 +307,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1142,
-      "change": -0.0076,
-      "changePct": -0.6775,
+      "price": 1.1145,
+      "change": -0.0073,
+      "changePct": -0.6507,
       "digits": 4,
-      "asOf": "2026-11-06T20:16:26Z"
+      "asOf": "2026-11-06T21:09:27Z"
     }
   },
   "headlines": {
@@ -343,24 +361,24 @@
     ],
     "top": [
       {
-        "title": "U.S. Attorney Who Oversaw Centerpiece of Trump\u2019s Revenge Campaign Resigns",
+        "title": "These Newly Elected Lawmakers Know Something Trump Doesn\u2019t: Science",
         "source": "The New York Times",
-        "publishedAt": "2026-11-06T18:38:11Z"
-      },
-      {
-        "title": "After Governor Abbott\u2019s Defeat, Houston\u2019s Mayor Changes Course on ICE",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-06T18:34:20Z"
+        "publishedAt": "2026-11-06T19:50:43Z"
       },
       {
         "title": "Democrats planning flood of AI bills when they take control of Congress",
         "source": "Reuters",
-        "publishedAt": "2026-11-06T18:27:11Z"
+        "publishedAt": "2026-11-06T19:20:55Z"
       },
       {
-        "title": "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
-        "source": "CNBC",
-        "publishedAt": "2026-11-06T18:03:13Z"
+        "title": "Jay Rockefeller, Senate voice on health care and security, dies at 89",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-06T19:04:38Z"
+      },
+      {
+        "title": "Democrats win the Arizona House, Senate and governor\u2019s office for the first time since 1966",
+        "source": "AP News",
+        "publishedAt": "2026-11-06T18:44:00Z"
       }
     ]
   },
@@ -370,13 +388,6 @@
       "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
       "source": "Yahoo Finance UK",
       "publishedAt": "2026-11-03T21:05:37Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T15:59:45Z",
       "release": true
     },
     {
@@ -391,6 +402,13 @@
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:10:05Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -517,7 +535,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 15.36
+        "close": 15.35
       }
     ],
     "dax": [
