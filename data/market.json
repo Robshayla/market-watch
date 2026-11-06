@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-06T12:00:17Z",
+  "updatedAt": "2026-11-06T12:59:01Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1176",
-    "Bayer ADR ratio check 3.89 ordinary shares"
+    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1171",
+    "Bayer ADR ratio check 3.90 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 53.96,
+      "price": 54.14,
       "previousClose": 56.22,
-      "change": -2.26,
-      "changePct": -4.0199,
-      "asOf": "2026-11-06T11:44:57Z",
+      "change": -2.08,
+      "changePct": -3.6998,
+      "asOf": "2026-11-06T12:42:51Z",
       "digits": 2,
       "sparkline": [
         54.7,
@@ -65,8 +65,20 @@
         53.96,
         53.88,
         53.88,
-        53.88,
-        53.96
+        53.96,
+        54.06,
+        54.08,
+        54.1,
+        54.02,
+        54.04,
+        53.98,
+        53.96,
+        54.04,
+        54.2,
+        54.12,
+        54.14,
+        54.18,
+        54.14
       ],
       "sessionDate": "2026-11-06"
     },
@@ -255,20 +267,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25716.44,
-      "change": -608.57,
-      "changePct": -2.3118,
+      "price": 25722.3,
+      "change": -602.71,
+      "changePct": -2.2895,
       "digits": 2,
-      "asOf": "2026-11-06T11:45:05Z"
+      "asOf": "2026-11-06T12:43:50Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1176,
-      "change": -0.0042,
-      "changePct": -0.3744,
+      "price": 1.1171,
+      "change": -0.0047,
+      "changePct": -0.419,
       "digits": 4,
-      "asOf": "2026-11-06T11:59:25Z"
+      "asOf": "2026-11-06T12:58:26Z"
     }
   },
   "headlines": {
@@ -318,24 +330,24 @@
     ],
     "top": [
       {
+        "title": "Inside the investigative blitz coming for Trump\u2019s corporate allies",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-06T11:32:38Z"
+      },
+      {
         "title": "Midterm Elections Live Updates: Democrats Clear 250 House Seats in Decisive Power Shift",
         "source": "The New York Times",
         "publishedAt": "2026-11-06T10:24:00Z"
       },
       {
+        "title": "Texas Led the Conservative Overhaul of Education. What Now?",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-06T10:02:37Z"
+      },
+      {
         "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
         "source": "BBC",
         "publishedAt": "2026-11-06T07:56:19Z"
-      },
-      {
-        "title": "A \u2018STEM wave\u2019: Democratic doctors, scientists win record number of seats in midterms",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-06T06:22:31Z"
-      },
-      {
-        "title": "Texas\u2019s new Democratic governor Hinojosa vows to undo policies she calls divisive",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-06T05:22:00Z"
       }
     ]
   },
@@ -430,7 +442,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 53.96
+        "close": 54.08
       }
     ],
     "bayry": [
@@ -554,7 +566,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 25713.3203
+        "close": 25720.8496
       }
     ]
   }
