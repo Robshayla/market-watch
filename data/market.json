@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-06T09:05:08Z",
+  "updatedAt": "2026-11-06T10:11:11Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1182",
-    "Bayer ADR ratio check 3.91 ordinary shares"
+    "ECB reference 1.1224 on 2026-11-05 vs Yahoo spot 1.1177",
+    "Bayer ADR ratio check 3.93 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 54.26,
+      "price": 54.56,
       "previousClose": 56.22,
-      "change": -1.96,
-      "changePct": -3.4863,
-      "asOf": "2026-11-06T08:49:13Z",
+      "change": -1.66,
+      "changePct": -2.9527,
+      "asOf": "2026-11-06T09:55:30Z",
       "digits": 2,
       "sparkline": [
         54.7,
@@ -30,8 +30,21 @@
         54.36,
         54.2,
         54.28,
-        54.3,
-        54.26
+        54.26,
+        54.26,
+        53.98,
+        54.08,
+        54.58,
+        54.66,
+        54.74,
+        54.62,
+        54.8,
+        54.78,
+        54.92,
+        54.68,
+        54.52,
+        54.44,
+        54.56
       ],
       "sessionDate": "2026-11-06"
     },
@@ -206,7 +219,7 @@
       "change": -334.89,
       "changePct": -4.3557,
       "digits": 2,
-      "asOf": "2026-11-05T21:00:00Z"
+      "asOf": "2026-11-05T21:34:08Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -220,20 +233,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25964.71,
-      "change": -360.3,
-      "changePct": -1.3687,
+      "price": 25967.85,
+      "change": -357.16,
+      "changePct": -1.3567,
       "digits": 2,
-      "asOf": "2026-11-06T08:49:57Z"
+      "asOf": "2026-11-06T09:56:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1182,
-      "change": -0.0036,
-      "changePct": -0.3209,
+      "price": 1.1177,
+      "change": -0.0041,
+      "changePct": -0.3655,
       "digits": 4,
-      "asOf": "2026-11-06T09:04:28Z"
+      "asOf": "2026-11-06T10:10:25Z"
     }
   },
   "headlines": {
@@ -283,9 +296,9 @@
     ],
     "top": [
       {
-        "title": "Harmeet Dhillon resigns as head of Justice Dept.\u2019s civil rights division",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-06T05:33:04Z"
+        "title": "Trump\u2019s Triumphal Arch Wins Commission Approval Despite Court Challenges",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-06T07:00:56Z"
       },
       {
         "title": "Texas\u2019s new Democratic governor Hinojosa vows to undo policies she calls divisive",
@@ -395,7 +408,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 54.32
+        "close": 54.58
       }
     ],
     "bayry": [
@@ -519,7 +532,7 @@
       },
       {
         "date": "2026-11-06",
-        "close": 25965.8594
+        "close": 25971.0508
       }
     ]
   }
