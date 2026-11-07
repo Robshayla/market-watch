@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T13:46:19Z",
+  "updatedAt": "2026-11-07T18:37:27Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -22,7 +22,7 @@
       "asOf": "2026-11-06T16:38:40Z",
       "digits": 2,
       "sparkline": [
-        54.7,
+        54.68,
         54.8,
         54.8,
         54.78,
@@ -46,7 +46,7 @@
         54.3,
         54.12,
         54.1,
-        54.1,
+        54.11,
         54.12,
         54.06,
         54.0,
@@ -190,7 +190,7 @@
       "previousClose": 127.72,
       "change": -2.2,
       "changePct": -1.7225,
-      "asOf": "2026-11-06T21:00:00Z",
+      "asOf": "2026-11-06T21:00:01Z",
       "digits": 2,
       "sparkline": [
         123.99,
@@ -290,10 +290,10 @@
       "symbol": "^DJI",
       "name": "DOW",
       "price": 51285.73,
-      "change": -237.37,
-      "changePct": -0.4607,
+      "change": -237.33,
+      "changePct": -0.4606,
       "digits": 2,
-      "asOf": "2026-11-06T21:37:13Z"
+      "asOf": "2026-11-06T21:37:12Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -311,7 +311,7 @@
       "change": -0.0075,
       "changePct": -0.6686,
       "digits": 4,
-      "asOf": "2026-11-06T22:29:28Z"
+      "asOf": "2026-11-06T22:29:32Z"
     }
   },
   "headlines": {
@@ -322,11 +322,6 @@
         "publishedAt": "2026-11-06T02:40:00Z"
       },
       {
-        "title": "Why Bayer chose Ohio for its $2.2B U.S. pharmaceutical manufacturing investment",
-        "source": "The Business Journals",
-        "publishedAt": "2026-11-04T19:51:00Z"
-      },
-      {
         "title": "Bayer raises 2026 profit outlook as pharma business beats expectations",
         "source": "Reuters",
         "publishedAt": "2026-11-03T17:29:41Z"
@@ -335,9 +330,19 @@
         "title": "Roundup settlement expected before Christmas, Bayer CEO says",
         "source": "Reuters",
         "publishedAt": "2026-11-03T17:28:47Z"
+      },
+      {
+        "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
+        "source": "Fierce Pharma",
+        "publishedAt": "2026-11-03T16:27:31Z"
       }
     ],
     "walmart": [
+      {
+        "title": "Change. Lead it. Dean Bharat Anand in Conversation with John Furner, President & CEO of Walmart, Inc.",
+        "source": "NYU Stern",
+        "publishedAt": "2026-11-06T18:14:26Z"
+      },
       {
         "title": "Walmart Inc Stock (WMT) Opened Down by 3.02% on Nov 6: Facts Behind the Movement",
         "source": "TradingKey",
@@ -352,33 +357,28 @@
         "title": "Walmart Inc Stock (WMT) Moved Up by 4.00% on Nov 4: Drivers Behind the Movement",
         "source": "TradingKey",
         "publishedAt": "2026-11-04T16:16:32Z"
-      },
-      {
-        "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
-        "source": "Reuters",
-        "publishedAt": "2026-11-04T15:37:45Z"
       }
     ],
     "top": [
       {
-        "title": "Mysterious Request Scrambles Major Supreme Court Gun Case Against Cook County",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-07T10:02:14Z"
-      },
-      {
-        "title": "Democrats, Newly Ascendant, Begin a Fight to Shape the Party\u2019s Future",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-07T10:02:07Z"
-      },
-      {
-        "title": "The US election showed growing frustration with Israel on both sides of the aisle",
-        "source": "AP News",
-        "publishedAt": "2026-11-07T07:55:00Z"
-      },
-      {
-        "title": "Hegseth draws fire after using government resources for partisan video",
+        "title": "Two House Republicans battle to lead the party\u2019s diminished ranks",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-07T07:50:13Z"
+        "publishedAt": "2026-11-07T17:32:34Z"
+      },
+      {
+        "title": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce",
+        "source": "Reuters",
+        "publishedAt": "2026-11-07T16:57:15Z"
+      },
+      {
+        "title": "Schumer Lifts His Senate Standing With an Election Blowout",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-07T16:10:25Z"
+      },
+      {
+        "title": "Texas remade education in the GOP\u2019s image. Hinojosa plans to undo it.",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-07T15:31:43Z"
       }
     ]
   },
