@@ -1,8 +1,9 @@
 {
-  "updatedAt": "2026-11-06T22:41:31Z",
+  "updatedAt": "2026-11-07T08:47:21Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
+    "Nasdaq last sale 125.52 matched",
     "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1143",
     "Bayer ADR ratio check 4.04 ordinary shares"
   ],
@@ -21,7 +22,7 @@
       "asOf": "2026-11-06T16:38:40Z",
       "digits": 2,
       "sparkline": [
-        54.68,
+        54.7,
         54.8,
         54.8,
         54.78,
@@ -45,7 +46,7 @@
         54.3,
         54.12,
         54.1,
-        54.11,
+        54.1,
         54.12,
         54.06,
         54.0,
@@ -113,10 +114,10 @@
       "currency": "USD",
       "session": "us",
       "price": 15.33,
-      "previousClose": 15.49,
-      "change": -0.16,
-      "changePct": -1.0329,
-      "asOf": "2026-11-06T20:59:44Z",
+      "previousClose": 15.52,
+      "change": -0.19,
+      "changePct": -1.2242,
+      "asOf": "2026-11-06T21:00:00Z",
       "digits": 2,
       "sparkline": [
         15.06,
@@ -283,14 +284,14 @@
       "change": 23.13,
       "changePct": 0.3145,
       "digits": 2,
-      "asOf": "2026-11-06T21:37:09Z"
+      "asOf": "2026-11-06T21:00:00Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
       "price": 51285.73,
-      "change": -237.33,
-      "changePct": -0.4606,
+      "change": -237.37,
+      "changePct": -0.4607,
       "digits": 2,
       "asOf": "2026-11-06T21:37:13Z"
     },
@@ -360,24 +361,24 @@
     ],
     "top": [
       {
-        "title": "Democrats planning flood of AI bills when they take control of Congress",
-        "source": "Reuters",
-        "publishedAt": "2026-11-06T21:36:10Z"
+        "title": "The US election showed growing frustration with Israel on both sides of the aisle",
+        "source": "AP News",
+        "publishedAt": "2026-11-07T07:55:00Z"
       },
       {
-        "title": "Meghan's father Thomas Markle appears in court over child sex abuse material",
-        "source": "BBC",
-        "publishedAt": "2026-11-06T21:26:56Z"
+        "title": "Hegseth draws fire after using government resources for partisan video",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-07T07:22:20Z"
       },
       {
-        "title": "Democratic Gains Could Advance an Alternative to the Electoral College",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-06T21:11:00Z"
+        "title": "Stephen Miller\u2019s promotion angers industries reeling from immigration enforcement",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-07T03:28:00Z"
       },
       {
-        "title": "These Newly Elected Lawmakers Know Something Trump Doesn\u2019t: Science",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-06T19:50:43Z"
+        "title": "Anti-trans measures on youth sports, treatment pass despite blue wave",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-07T02:39:51Z"
       }
     ]
   },
@@ -387,13 +388,6 @@
       "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
       "source": "Yahoo Finance UK",
       "publishedAt": "2026-11-03T21:05:37Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T15:59:45Z",
       "release": true
     },
     {
@@ -408,6 +402,13 @@
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:10:05Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
