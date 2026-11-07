@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T08:47:21Z",
+  "updatedAt": "2026-11-07T13:46:19Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -284,7 +284,7 @@
       "change": 23.13,
       "changePct": 0.3145,
       "digits": 2,
-      "asOf": "2026-11-06T21:00:00Z"
+      "asOf": "2026-11-06T21:37:09Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -339,11 +339,6 @@
     ],
     "walmart": [
       {
-        "title": "Change. Lead it. Dean Bharat Anand in Conversation with John Furner, President & CEO of Walmart, Inc.",
-        "source": "NYU Stern",
-        "publishedAt": "2026-11-06T18:14:26Z"
-      },
-      {
         "title": "Walmart Inc Stock (WMT) Opened Down by 3.02% on Nov 6: Facts Behind the Movement",
         "source": "TradingKey",
         "publishedAt": "2026-11-06T14:47:45Z"
@@ -357,9 +352,24 @@
         "title": "Walmart Inc Stock (WMT) Moved Up by 4.00% on Nov 4: Drivers Behind the Movement",
         "source": "TradingKey",
         "publishedAt": "2026-11-04T16:16:32Z"
+      },
+      {
+        "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
+        "source": "Reuters",
+        "publishedAt": "2026-11-04T15:37:45Z"
       }
     ],
     "top": [
+      {
+        "title": "Mysterious Request Scrambles Major Supreme Court Gun Case Against Cook County",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-07T10:02:14Z"
+      },
+      {
+        "title": "Democrats, Newly Ascendant, Begin a Fight to Shape the Party\u2019s Future",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-07T10:02:07Z"
+      },
       {
         "title": "The US election showed growing frustration with Israel on both sides of the aisle",
         "source": "AP News",
@@ -368,17 +378,7 @@
       {
         "title": "Hegseth draws fire after using government resources for partisan video",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-07T07:22:20Z"
-      },
-      {
-        "title": "Stephen Miller\u2019s promotion angers industries reeling from immigration enforcement",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-07T03:28:00Z"
-      },
-      {
-        "title": "Anti-trans measures on youth sports, treatment pass despite blue wave",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-07T02:39:51Z"
+        "publishedAt": "2026-11-07T07:50:13Z"
       }
     ]
   },
