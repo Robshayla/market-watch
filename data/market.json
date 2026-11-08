@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T13:45:41Z",
+  "updatedAt": "2026-11-08T18:37:08Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -22,7 +22,7 @@
       "asOf": "2026-11-06T16:38:40Z",
       "digits": 2,
       "sparkline": [
-        54.7,
+        54.68,
         54.8,
         54.8,
         54.78,
@@ -46,7 +46,7 @@
         54.3,
         54.12,
         54.1,
-        54.1,
+        54.11,
         54.12,
         54.06,
         54.0,
@@ -290,8 +290,8 @@
       "symbol": "^DJI",
       "name": "DOW",
       "price": 51285.73,
-      "change": -237.33,
-      "changePct": -0.4606,
+      "change": -237.37,
+      "changePct": -0.4607,
       "digits": 2,
       "asOf": "2026-11-06T21:37:12Z"
     },
@@ -299,7 +299,7 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "price": 25820.36,
-      "change": -504.65,
+      "change": -504.64,
       "changePct": -1.917,
       "digits": 2,
       "asOf": "2026-11-06T17:00:00Z"
@@ -317,6 +317,11 @@
   "headlines": {
     "bayer": [
       {
+        "title": "We aim to use AI to cut down drug innovation time by 30%: Bayer Pharmaceuticals",
+        "source": "CNBC",
+        "publishedAt": "2026-11-06T02:40:00Z"
+      },
+      {
         "title": "Bayer raises 2026 profit outlook as pharma business beats expectations",
         "source": "Reuters",
         "publishedAt": "2026-11-03T17:29:41Z"
@@ -330,11 +335,6 @@
         "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
         "source": "Fierce Pharma",
         "publishedAt": "2026-11-03T16:27:31Z"
-      },
-      {
-        "title": "India's Bayer CropScience posts nearly 9% rise in Q2 profit",
-        "source": "Reuters",
-        "publishedAt": "2026-11-03T15:55:44Z"
       }
     ],
     "walmart": [
@@ -361,24 +361,24 @@
     ],
     "top": [
       {
-        "title": "SS United States will be sunk, becoming the world\u2019s largest artificial reef",
+        "title": "How a Mississippi election came down to the clerk\u2019s office",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-08T13:02:27Z"
+        "publishedAt": "2026-11-08T17:32:24Z"
       },
       {
         "title": "Potential Vance challengers smell blood in the water after brutal GOP losses",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-08T13:02:20Z"
+        "publishedAt": "2026-11-08T17:32:20Z"
       },
       {
-        "title": "Republican infighting mounts over corruption claims after midterms wipeout",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-08T12:51:25Z"
+        "title": "Trump Amplifies Midterm Election Claims Questioning Democratic Victories",
+        "source": "Forbes",
+        "publishedAt": "2026-11-08T16:36:56Z"
       },
       {
-        "title": "Justice Department braces for congressional scrutiny after Democrats sweep elections",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-08T12:34:24Z"
+        "title": "After Big Win, Hochul Focuses on N.Y. Legacy, Not Higher Office",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-08T16:33:33Z"
       }
     ]
   },
@@ -406,9 +406,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T10:54:24Z",
+      "title": "Bayer Q3 2026 Earnings Call Is Live",
+      "source": "TradingView",
+      "publishedAt": "2026-11-03T12:57:04Z",
       "release": true
     }
   ],
