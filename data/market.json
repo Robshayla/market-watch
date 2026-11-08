@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T18:37:27Z",
+  "updatedAt": "2026-11-08T08:47:06Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -22,7 +22,7 @@
       "asOf": "2026-11-06T16:38:40Z",
       "digits": 2,
       "sparkline": [
-        54.68,
+        54.7,
         54.8,
         54.8,
         54.78,
@@ -46,7 +46,7 @@
         54.3,
         54.12,
         54.1,
-        54.11,
+        54.1,
         54.12,
         54.06,
         54.0,
@@ -317,11 +317,6 @@
   "headlines": {
     "bayer": [
       {
-        "title": "We aim to use AI to cut down drug innovation time by 30%: Bayer Pharmaceuticals",
-        "source": "CNBC",
-        "publishedAt": "2026-11-06T02:40:00Z"
-      },
-      {
         "title": "Bayer raises 2026 profit outlook as pharma business beats expectations",
         "source": "Reuters",
         "publishedAt": "2026-11-03T17:29:41Z"
@@ -335,6 +330,11 @@
         "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
         "source": "Fierce Pharma",
         "publishedAt": "2026-11-03T16:27:31Z"
+      },
+      {
+        "title": "India's Bayer CropScience posts nearly 9% rise in Q2 profit",
+        "source": "Reuters",
+        "publishedAt": "2026-11-03T15:55:44Z"
       }
     ],
     "walmart": [
@@ -354,31 +354,31 @@
         "publishedAt": "2026-11-05T13:58:17Z"
       },
       {
-        "title": "Walmart Inc Stock (WMT) Moved Up by 4.00% on Nov 4: Drivers Behind the Movement",
-        "source": "TradingKey",
-        "publishedAt": "2026-11-04T16:16:32Z"
+        "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
+        "source": "Reuters",
+        "publishedAt": "2026-11-04T15:37:45Z"
       }
     ],
     "top": [
       {
+        "title": "Crypto industry braces for reckoning over Trump ties",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-08T05:00:19Z"
+      },
+      {
+        "title": "Trump says he offered White House press secretary role to UFC\u2019s Dana White",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-08T03:08:00Z"
+      },
+      {
+        "title": "Election Drubbing Complicates Vance\u2019s Calculation on Whether to Run in 2028",
+        "source": "WSJ",
+        "publishedAt": "2026-11-08T02:00:00Z"
+      },
+      {
         "title": "Two House Republicans battle to lead the party\u2019s diminished ranks",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-07T17:32:34Z"
-      },
-      {
-        "title": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce",
-        "source": "Reuters",
-        "publishedAt": "2026-11-07T16:57:15Z"
-      },
-      {
-        "title": "Schumer Lifts His Senate Standing With an Election Blowout",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-07T16:10:25Z"
-      },
-      {
-        "title": "Texas remade education in the GOP\u2019s image. Hinojosa plans to undo it.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-07T15:31:43Z"
+        "publishedAt": "2026-11-08T01:32:27Z"
       }
     ]
   },
@@ -388,6 +388,13 @@
       "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
       "source": "Yahoo Finance UK",
       "publishedAt": "2026-11-03T21:05:37Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing.com Nigeria",
+      "publishedAt": "2026-11-03T15:59:45Z",
       "release": true
     },
     {
@@ -402,13 +409,6 @@
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:10:05Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
