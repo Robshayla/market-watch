@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T21:32:19Z",
+  "updatedAt": "2026-11-09T22:27:24Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
@@ -280,7 +280,7 @@
       "change": 173.08,
       "changePct": 2.3463,
       "digits": 2,
-      "asOf": "2026-11-09T21:20:01Z"
+      "asOf": "2026-11-09T22:12:50Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -289,7 +289,7 @@
       "change": 1104.02,
       "changePct": 2.1527,
       "digits": 2,
-      "asOf": "2026-11-09T21:20:01Z"
+      "asOf": "2026-11-09T22:12:54Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -307,7 +307,7 @@
       "change": 0.0084,
       "changePct": 0.7538,
       "digits": 4,
-      "asOf": "2026-11-09T21:31:31Z"
+      "asOf": "2026-11-09T22:26:32Z"
     }
   },
   "headlines": {
@@ -357,24 +357,24 @@
     ],
     "top": [
       {
-        "title": "Congress Returns to a Reordered Washington With a Hazy Agenda",
+        "title": "Republican Thomas Massie will force impeachment vote on Defence Secretary Pete Hegseth",
+        "source": "BBC",
+        "publishedAt": "2026-11-09T21:37:02Z"
+      },
+      {
+        "title": "Supreme Court Allows Construction of Trump\u2019s Border Wall in Big Bend",
         "source": "The New York Times",
-        "publishedAt": "2026-11-09T19:29:55Z"
+        "publishedAt": "2026-11-09T21:36:00Z"
       },
       {
-        "title": "US Congress gets first post-'Blue Wave' crack at data centers with permitting bill",
-        "source": "Reuters",
-        "publishedAt": "2026-11-09T19:09:56Z"
+        "title": "Michael Bloomberg Marries Diana Taylor, a Merger 25 Years in the Making",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-09T20:43:37Z"
       },
       {
-        "title": "What the Democrats can (and cannot) do to reverse Trump\u2019s education upheaval",
+        "title": "Lost draft of Martin Luther King Jr.\u2019s \u2018I Have a Dream\u2019 speech rediscovered",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-09T19:00:01Z"
-      },
-      {
-        "title": "Mississippi Senate ballot deadline looms, as Democrat\u2019s lead remains steady",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-09T18:33:02Z"
+        "publishedAt": "2026-11-09T20:32:52Z"
       }
     ]
   },
