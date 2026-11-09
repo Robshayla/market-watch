@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-09T17:50:30Z",
+  "updatedAt": "2026-11-09T18:43:28Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.07 matched",
-    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1207",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "Nasdaq last sale 125.52 matched",
+    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1210",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.84,
+      "price": 15.86,
       "previousClose": 15.33,
-      "change": 0.51,
-      "changePct": 3.3268,
-      "asOf": "2026-11-09T17:26:23Z",
+      "change": 0.53,
+      "changePct": 3.4573,
+      "asOf": "2026-11-09T18:20:32Z",
       "digits": 2,
       "sparkline": [
         15.54,
@@ -148,7 +148,13 @@
         15.81,
         15.82,
         15.83,
-        15.84
+        15.84,
+        15.84,
+        15.84,
+        15.84,
+        15.84,
+        15.84,
+        15.86
       ],
       "sessionDate": "2026-11-09"
     },
@@ -159,11 +165,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.08,
+      "price": 125.52,
       "previousClose": 125.52,
-      "change": -0.44,
-      "changePct": -0.3505,
-      "asOf": "2026-11-09T17:50:18Z",
+      "change": 0.0,
+      "changePct": 0.0,
+      "asOf": "2026-11-09T18:43:12Z",
       "digits": 2,
       "sparkline": [
         124.395,
@@ -206,7 +212,18 @@
         124.755,
         125.04,
         125.04,
-        125.075
+        125.13,
+        125.19,
+        125.3,
+        125.3,
+        125.245,
+        125.295,
+        125.33,
+        125.36,
+        125.43,
+        125.43,
+        125.5093,
+        125.52
       ],
       "sessionDate": "2026-11-09"
     }
@@ -215,20 +232,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7549.11,
-      "change": 172.25,
-      "changePct": 2.335,
+      "price": 7548.45,
+      "change": 171.59,
+      "changePct": 2.3261,
       "digits": 2,
-      "asOf": "2026-11-09T17:50:18Z"
+      "asOf": "2026-11-09T18:43:15Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52375.02,
-      "change": 1089.29,
-      "changePct": 2.124,
+      "price": 52409.34,
+      "change": 1123.61,
+      "changePct": 2.1909,
       "digits": 2,
-      "asOf": "2026-11-09T17:50:18Z"
+      "asOf": "2026-11-09T18:43:17Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -242,11 +259,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1207,
-      "change": 0.0064,
-      "changePct": 0.5744,
+      "price": 1.121,
+      "change": 0.0067,
+      "changePct": 0.6013,
       "digits": 4,
-      "asOf": "2026-11-09T17:49:32Z"
+      "asOf": "2026-11-09T18:42:33Z"
     }
   },
   "headlines": {
@@ -284,36 +301,36 @@
         "publishedAt": "2026-11-06T23:25:00Z"
       },
       {
-        "title": "Walmart Inc Stock (WMT) Opened Down by 3.02% on Nov 6: Facts Behind the Movement",
-        "source": "TradingKey",
-        "publishedAt": "2026-11-06T14:47:45Z"
-      },
-      {
         "title": "Can a DoorDash-Instacart fusion stand up to Amazon and Walmart?",
         "source": "The Economist",
         "publishedAt": "2026-11-05T13:58:17Z"
+      },
+      {
+        "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
+        "source": "Reuters",
+        "publishedAt": "2026-11-04T15:37:45Z"
       }
     ],
     "top": [
       {
         "title": "What the Democrats can (and cannot) do to reverse Trump\u2019s education upheaval",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-09T17:03:08Z"
+        "publishedAt": "2026-11-09T17:50:33Z"
       },
       {
-        "title": "Head of US Justice Department's civil division resigns, says Blanche",
-        "source": "Reuters",
-        "publishedAt": "2026-11-09T16:10:47Z"
-      },
-      {
-        "title": "After losing Congress, Republicans have one last shot to pass their agenda",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-09T16:02:25Z"
-      },
-      {
-        "title": "Joe Biden, in White House memoir, says Trump should carry the weight of Jan. 6 riots 'to his grave'",
+        "title": "Hegseth announces rare press conference to discuss expected impeachment resolution in Congress",
         "source": "AP News",
-        "publishedAt": "2026-11-09T12:59:00Z"
+        "publishedAt": "2026-11-09T17:49:00Z"
+      },
+      {
+        "title": "Democrats flip Georgia state House, giving them new control of at least 12 legislative chambers",
+        "source": "AP News",
+        "publishedAt": "2026-11-09T17:45:00Z"
+      },
+      {
+        "title": "On \u2018S.N.L.,\u2019 James Talarico Gets to Interrupt Trump",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-09T17:37:00Z"
       }
     ]
   },
@@ -470,7 +487,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 15.84
+        "close": 15.86
       }
     ],
     "dax": [
