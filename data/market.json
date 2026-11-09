@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-09T18:43:28Z",
+  "updatedAt": "2026-11-09T19:42:05Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.52 matched",
-    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1210",
-    "Bayer ADR ratio check 4.00 ordinary shares"
+    "Nasdaq last sale 125.42 matched",
+    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1225",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -117,7 +117,7 @@
       "previousClose": 15.33,
       "change": 0.53,
       "changePct": 3.4573,
-      "asOf": "2026-11-09T18:20:32Z",
+      "asOf": "2026-11-09T19:26:03Z",
       "digits": 2,
       "sparkline": [
         15.54,
@@ -154,6 +154,13 @@
         15.84,
         15.84,
         15.84,
+        15.86,
+        15.87,
+        15.87,
+        15.86,
+        15.87,
+        15.87,
+        15.86,
         15.86
       ],
       "sessionDate": "2026-11-09"
@@ -165,11 +172,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.52,
+      "price": 125.44,
       "previousClose": 125.52,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-09T18:43:12Z",
+      "change": -0.08,
+      "changePct": -0.0637,
+      "asOf": "2026-11-09T19:41:48Z",
       "digits": 2,
       "sparkline": [
         124.395,
@@ -222,8 +229,20 @@
         125.36,
         125.43,
         125.43,
-        125.5093,
-        125.52
+        125.47,
+        125.49,
+        125.45,
+        125.44,
+        125.52,
+        125.64,
+        125.545,
+        125.49,
+        125.51,
+        125.5,
+        125.4,
+        125.4225,
+        125.39,
+        125.44
       ],
       "sessionDate": "2026-11-09"
     }
@@ -232,20 +251,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7548.45,
-      "change": 171.59,
-      "changePct": 2.3261,
+      "price": 7571.45,
+      "change": 194.59,
+      "changePct": 2.6378,
       "digits": 2,
-      "asOf": "2026-11-09T18:43:15Z"
+      "asOf": "2026-11-09T19:41:51Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52409.34,
-      "change": 1123.61,
-      "changePct": 2.1909,
+      "price": 52549.5,
+      "change": 1263.77,
+      "changePct": 2.4642,
       "digits": 2,
-      "asOf": "2026-11-09T18:43:17Z"
+      "asOf": "2026-11-09T19:41:50Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -259,11 +278,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.121,
-      "change": 0.0067,
-      "changePct": 0.6013,
+      "price": 1.1225,
+      "change": 0.0082,
+      "changePct": 0.7359,
       "digits": 4,
-      "asOf": "2026-11-09T18:42:33Z"
+      "asOf": "2026-11-09T19:41:34Z"
     }
   },
   "headlines": {
@@ -298,7 +317,7 @@
       {
         "title": "His Job Is to Turn Walmart\u2019s Customer Data Into Profit",
         "source": "WSJ",
-        "publishedAt": "2026-11-06T23:25:00Z"
+        "publishedAt": "2026-11-06T23:27:02Z"
       },
       {
         "title": "Can a DoorDash-Instacart fusion stand up to Amazon and Walmart?",
@@ -313,14 +332,14 @@
     ],
     "top": [
       {
-        "title": "What the Democrats can (and cannot) do to reverse Trump\u2019s education upheaval",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-09T17:50:33Z"
+        "title": "Trump Veers Back Into Claims of Rigged Election, Questioning Midterm Results",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-09T18:37:11Z"
       },
       {
-        "title": "Hegseth announces rare press conference to discuss expected impeachment resolution in Congress",
-        "source": "AP News",
-        "publishedAt": "2026-11-09T17:49:00Z"
+        "title": "What the Democrats can (and cannot) do to reverse Trump\u2019s education upheaval",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-09T18:33:08Z"
       },
       {
         "title": "Democrats flip Georgia state House, giving them new control of at least 12 legislative chambers",
@@ -328,9 +347,9 @@
         "publishedAt": "2026-11-09T17:45:00Z"
       },
       {
-        "title": "On \u2018S.N.L.,\u2019 James Talarico Gets to Interrupt Trump",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-09T17:37:00Z"
+        "title": "Head of US Justice Department's civil division resigns, says Blanche",
+        "source": "Reuters",
+        "publishedAt": "2026-11-09T16:10:47Z"
       }
     ]
   },
