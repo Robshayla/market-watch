@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-09T10:30:20Z",
+  "updatedAt": "2026-11-09T11:26:33Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1196",
-    "Bayer ADR ratio check 4.07 ordinary shares"
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1193",
+    "Bayer ADR ratio check 4.08 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.68,
+      "price": 55.84,
       "previousClose": 55.58,
-      "change": 0.1,
-      "changePct": 0.1799,
-      "asOf": "2026-11-09T10:15:02Z",
+      "change": 0.26,
+      "changePct": 0.4678,
+      "asOf": "2026-11-09T11:11:01Z",
       "digits": 2,
       "sparkline": [
         55.32,
@@ -48,7 +48,19 @@
         55.68,
         55.7,
         55.66,
-        55.68
+        55.64,
+        55.64,
+        55.72,
+        55.76,
+        55.66,
+        55.76,
+        55.72,
+        55.78,
+        55.8,
+        55.82,
+        55.84,
+        55.86,
+        55.84
       ],
       "sessionDate": "2026-11-09"
     },
@@ -244,20 +256,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25977.8,
-      "change": 157.44,
-      "changePct": 0.6098,
+      "price": 26052.1,
+      "change": 231.74,
+      "changePct": 0.8975,
       "digits": 2,
-      "asOf": "2026-11-09T10:15:07Z"
+      "asOf": "2026-11-09T11:11:22Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1196,
-      "change": 0.0053,
-      "changePct": 0.4756,
+      "price": 1.1193,
+      "change": 0.005,
+      "changePct": 0.4487,
       "digits": 4,
-      "asOf": "2026-11-09T10:29:33Z"
+      "asOf": "2026-11-09T11:25:34Z"
     }
   },
   "headlines": {
@@ -419,7 +431,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 55.68
+        "close": 55.82
       }
     ],
     "bayry": [
@@ -543,7 +555,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 25977.4004
+        "close": 26051.4902
       }
     ]
   }
