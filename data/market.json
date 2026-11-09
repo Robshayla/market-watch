@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-09T09:36:15Z",
+  "updatedAt": "2026-11-09T10:30:20Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1191",
-    "Bayer ADR ratio check 4.04 ordinary shares"
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1196",
+    "Bayer ADR ratio check 4.07 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.34,
+      "price": 55.68,
       "previousClose": 55.58,
-      "change": -0.24,
-      "changePct": -0.4318,
-      "asOf": "2026-11-09T09:20:28Z",
+      "change": 0.1,
+      "changePct": 0.1799,
+      "asOf": "2026-11-09T10:15:02Z",
       "digits": 2,
       "sparkline": [
         55.32,
@@ -37,7 +37,18 @@
         55.5,
         55.4,
         55.36,
-        55.34
+        55.4,
+        55.32,
+        55.38,
+        55.52,
+        55.5,
+        55.52,
+        55.54,
+        55.54,
+        55.68,
+        55.7,
+        55.66,
+        55.68
       ],
       "sessionDate": "2026-11-09"
     },
@@ -233,20 +244,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25952.73,
-      "change": 132.37,
-      "changePct": 0.5127,
+      "price": 25977.8,
+      "change": 157.44,
+      "changePct": 0.6098,
       "digits": 2,
-      "asOf": "2026-11-09T09:21:03Z"
+      "asOf": "2026-11-09T10:15:07Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1191,
-      "change": 0.0048,
-      "changePct": 0.4308,
+      "price": 1.1196,
+      "change": 0.0053,
+      "changePct": 0.4756,
       "digits": 4,
-      "asOf": "2026-11-09T09:35:32Z"
+      "asOf": "2026-11-09T10:29:33Z"
     }
   },
   "headlines": {
@@ -301,9 +312,9 @@
         "publishedAt": "2026-11-09T06:21:00Z"
       },
       {
-        "title": "In rare GOP rebuke, congressman says Trump must \u2018fire people\u2019 \u2014 including Miller",
+        "title": "White House staff gave Trump bad advice, treated him \u2018like a baby,\u2019 ex-aide says",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-09T03:45:00Z"
+        "publishedAt": "2026-11-09T06:04:58Z"
       },
       {
         "title": "Diners Support Jewish-Owned Eateries in Philadelphia After Boycott Call",
@@ -408,7 +419,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 55.34
+        "close": 55.68
       }
     ],
     "bayry": [
@@ -532,7 +543,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 25954.7598
+        "close": 25977.4004
       }
     ]
   }
