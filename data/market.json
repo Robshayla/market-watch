@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-09T15:38:20Z",
+  "updatedAt": "2026-11-09T16:45:38Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 124.33 matched",
-    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1198",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "Nasdaq last sale 124.69 matched",
+    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1206",
+    "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.18,
+      "price": 56.46,
       "previousClose": 55.58,
-      "change": 0.6,
-      "changePct": 1.0795,
-      "asOf": "2026-11-09T15:22:58Z",
+      "change": 0.88,
+      "changePct": 1.5833,
+      "asOf": "2026-11-09T16:29:50Z",
       "digits": 2,
       "sparkline": [
         55.32,
@@ -27,82 +27,82 @@
         55.72,
         55.74,
         55.56,
-        55.56,
         55.4,
         55.46,
-        55.48,
+        55.52,
         55.42,
-        55.5,
         55.5,
         55.5,
         55.4,
         55.36,
         55.4,
-        55.38,
+        55.32,
         55.52,
         55.5,
         55.52,
         55.54,
-        55.54,
         55.68,
         55.7,
-        55.64,
+        55.66,
         55.64,
         55.72,
         55.76,
         55.66,
-        55.76,
         55.72,
         55.78,
+        55.8,
         55.82,
-        55.84,
         55.78,
         55.68,
         55.56,
-        55.56,
         55.6,
         55.6,
+        55.6,
         55.56,
-        55.54,
         55.52,
         55.56,
         55.56,
-        55.54,
         55.58,
         55.5,
+        55.5,
         55.54,
-        55.48,
         55.58,
         55.62,
         55.54,
         55.54,
-        55.62,
         55.64,
-        55.8,
+        55.74,
         55.8,
         55.78,
         55.86,
         55.9,
         55.82,
-        55.72,
         55.9,
+        56.0,
         55.98,
         56.05,
-        56.04,
         56.06,
         56.1,
         56.14,
-        55.82,
         55.86,
+        55.9,
         55.96,
-        55.98,
         55.98,
         56.12,
         56.06,
         56.06,
         56.16,
-        56.14,
-        56.18
+        56.12,
+        56.16,
+        56.2,
+        56.2,
+        56.2,
+        56.18,
+        56.2,
+        56.12,
+        56.2,
+        56.42,
+        56.46
       ],
       "sessionDate": "2026-11-09"
     },
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.67,
+      "price": 15.75,
       "previousClose": 15.33,
-      "change": 0.34,
-      "changePct": 2.2179,
-      "asOf": "2026-11-09T15:19:49Z",
+      "change": 0.42,
+      "changePct": 2.7397,
+      "asOf": "2026-11-09T16:24:03Z",
       "digits": 2,
       "sparkline": [
         15.54,
@@ -130,7 +130,19 @@
         15.67,
         15.64,
         15.67,
-        15.67
+        15.67,
+        15.64,
+        15.67,
+        15.7,
+        15.68,
+        15.68,
+        15.67,
+        15.68,
+        15.68,
+        15.66,
+        15.67,
+        15.75,
+        15.75
       ],
       "sessionDate": "2026-11-09"
     },
@@ -141,11 +153,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 124.33,
+      "price": 124.68,
       "previousClose": 125.52,
-      "change": -1.19,
-      "changePct": -0.9481,
-      "asOf": "2026-11-09T15:37:56Z",
+      "change": -0.84,
+      "changePct": -0.6692,
+      "asOf": "2026-11-09T16:45:18Z",
       "digits": 2,
       "sparkline": [
         124.395,
@@ -161,8 +173,21 @@
         124.6,
         124.325,
         124.12,
-        124.35,
-        124.325
+        124.435,
+        124.285,
+        124.2,
+        124.235,
+        124.08,
+        124.17,
+        124.27,
+        124.08,
+        124.23,
+        124.17,
+        124.39,
+        124.59,
+        124.6,
+        124.64,
+        124.6799
       ],
       "sessionDate": "2026-11-09"
     }
@@ -171,42 +196,47 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7518.8,
-      "change": 141.94,
-      "changePct": 1.9241,
+      "price": 7528.22,
+      "change": 151.36,
+      "changePct": 2.0518,
       "digits": 2,
-      "asOf": "2026-11-09T15:38:04Z"
+      "asOf": "2026-11-09T16:45:24Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52137.49,
-      "change": 851.76,
-      "changePct": 1.6608,
+      "price": 52240.72,
+      "change": 954.99,
+      "changePct": 1.8621,
       "digits": 2,
-      "asOf": "2026-11-09T15:38:04Z"
+      "asOf": "2026-11-09T16:45:25Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26248.23,
-      "change": 427.87,
-      "changePct": 1.6571,
+      "price": 26265.56,
+      "change": 445.2,
+      "changePct": 1.7242,
       "digits": 2,
-      "asOf": "2026-11-09T15:23:04Z"
+      "asOf": "2026-11-09T16:30:14Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1198,
-      "change": 0.0055,
-      "changePct": 0.4936,
+      "price": 1.1206,
+      "change": 0.0063,
+      "changePct": 0.5654,
       "digits": 4,
-      "asOf": "2026-11-09T15:37:34Z"
+      "asOf": "2026-11-09T16:44:30Z"
     }
   },
   "headlines": {
     "bayer": [
+      {
+        "title": "We aim to use AI to cut down drug innovation time by 30%: Bayer Pharmaceuticals",
+        "source": "CNBC",
+        "publishedAt": "2026-11-06T02:40:00Z"
+      },
       {
         "title": "Bayer raises 2026 profit outlook as pharma business beats expectations",
         "source": "Reuters",
@@ -221,14 +251,14 @@
         "title": "India's Bayer CropScience posts nearly 9% rise in Q2 profit",
         "source": "Reuters",
         "publishedAt": "2026-11-03T15:55:44Z"
-      },
-      {
-        "title": "Bayer Raises Profit Outlook on Strong Demand for Drugs",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-03T11:09:10Z"
       }
     ],
     "walmart": [
+      {
+        "title": "Meet the 23-year-old college dropout already making six figures as Walmart\u2019s youngest U.S. store manager",
+        "source": "Fortune",
+        "publishedAt": "2026-11-09T16:40:00Z"
+      },
       {
         "title": "His Job Is to Turn Walmart\u2019s Customer Data Into Profit",
         "source": "WSJ",
@@ -243,33 +273,28 @@
         "title": "Can a DoorDash-Instacart fusion stand up to Amazon and Walmart?",
         "source": "The Economist",
         "publishedAt": "2026-11-05T13:58:17Z"
-      },
-      {
-        "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
-        "source": "Reuters",
-        "publishedAt": "2026-11-04T15:37:45Z"
       }
     ],
     "top": [
       {
         "title": "What the Democrats can (and cannot) do to reverse Trump\u2019s education upheaval",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-09T14:52:45Z"
+        "publishedAt": "2026-11-09T15:33:08Z"
       },
       {
-        "title": "Joe Biden, in White House memoir, says Trump should carry the weight of Jan. 6 riots 'to his grave'",
-        "source": "AP News",
-        "publishedAt": "2026-11-09T12:18:00Z"
+        "title": "Trump questions midterm election results, revives voting-machine conspiracy",
+        "source": "CNBC",
+        "publishedAt": "2026-11-09T15:15:37Z"
       },
       {
-        "title": "Cruise Ship Worker Rescued in Pacific Ocean Off California Coast After Going Overboard",
+        "title": "Boycott and Counterprotest Over Jewish Eateries Stir Tension in Philadelphia",
         "source": "The New York Times",
-        "publishedAt": "2026-11-09T10:25:00Z"
+        "publishedAt": "2026-11-09T14:28:00Z"
       },
       {
-        "title": "Why Colorado Is at the Epicenter of So Many Supreme Court Clashes",
+        "title": "Immigrants Are Being Systematically Returned Home Despite Court Orders",
         "source": "The New York Times",
-        "publishedAt": "2026-11-09T10:01:38Z"
+        "publishedAt": "2026-11-09T12:04:29Z"
       }
     ]
   },
@@ -364,7 +389,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 56.16
+        "close": 56.46
       }
     ],
     "bayry": [
@@ -426,7 +451,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 15.67
+        "close": 15.75
       }
     ],
     "dax": [
@@ -488,7 +513,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 26247.5703
+        "close": 26265.5605
       }
     ]
   }
