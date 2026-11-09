@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-09T11:26:33Z",
+  "updatedAt": "2026-11-09T12:25:51Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1193",
-    "Bayer ADR ratio check 4.08 ordinary shares"
+    "Nasdaq last sale 125.56 matched",
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1192",
+    "Bayer ADR ratio check 4.06 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.84,
+      "price": 55.56,
       "previousClose": 55.58,
-      "change": 0.26,
-      "changePct": 0.4678,
-      "asOf": "2026-11-09T11:11:01Z",
+      "change": -0.02,
+      "changePct": -0.036,
+      "asOf": "2026-11-09T12:06:44Z",
       "digits": 2,
       "sparkline": [
         55.32,
@@ -59,8 +60,19 @@
         55.8,
         55.82,
         55.84,
-        55.86,
-        55.84
+        55.78,
+        55.68,
+        55.56,
+        55.56,
+        55.6,
+        55.6,
+        55.6,
+        55.56,
+        55.54,
+        55.52,
+        55.56,
+        55.58,
+        55.56
       ],
       "sessionDate": "2026-11-09"
     },
@@ -256,20 +268,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26052.1,
-      "change": 231.74,
-      "changePct": 0.8975,
+      "price": 26086.66,
+      "change": 266.3,
+      "changePct": 1.0314,
       "digits": 2,
-      "asOf": "2026-11-09T11:11:22Z"
+      "asOf": "2026-11-09T12:10:38Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1193,
-      "change": 0.005,
-      "changePct": 0.4487,
+      "price": 1.1192,
+      "change": 0.0049,
+      "changePct": 0.4397,
       "digits": 4,
-      "asOf": "2026-11-09T11:25:34Z"
+      "asOf": "2026-11-09T12:25:30Z"
     }
   },
   "headlines": {
@@ -319,24 +331,24 @@
     ],
     "top": [
       {
+        "title": "Cruise Ship Worker Rescued in Pacific Ocean Off California Coast After Going Overboard",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-09T10:25:00Z"
+      },
+      {
+        "title": "What to Know About Stephen Miller, Trump\u2019s New Chief of Staff",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-09T10:03:00Z"
+      },
+      {
+        "title": "Bipartisan Support for Israel Erodes as Both Sides Push for New Limits",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-09T10:02:55Z"
+      },
+      {
         "title": "How an Intern and a Biologist Rescued an Orphaned Walrus in Alaska",
         "source": "The New York Times",
         "publishedAt": "2026-11-09T06:21:00Z"
-      },
-      {
-        "title": "White House staff gave Trump bad advice, treated him \u2018like a baby,\u2019 ex-aide says",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-09T06:04:58Z"
-      },
-      {
-        "title": "Diners Support Jewish-Owned Eateries in Philadelphia After Boycott Call",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-09T03:08:08Z"
-      },
-      {
-        "title": "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
-        "source": "BBC",
-        "publishedAt": "2026-11-09T02:50:13Z"
       }
     ]
   },
@@ -431,7 +443,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 55.82
+        "close": 55.56
       }
     ],
     "bayry": [
@@ -555,7 +567,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 26051.4902
+        "close": 26086.4199
       }
     ]
   }
