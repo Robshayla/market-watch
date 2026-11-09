@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-09T16:45:38Z",
+  "updatedAt": "2026-11-09T17:50:30Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 124.69 matched",
-    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1206",
-    "Bayer ADR ratio check 4.02 ordinary shares"
+    "Nasdaq last sale 125.07 matched",
+    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1207",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.46,
+      "price": 56.62,
       "previousClose": 55.58,
-      "change": 0.88,
-      "changePct": 1.5833,
-      "asOf": "2026-11-09T16:29:50Z",
+      "change": 1.04,
+      "changePct": 1.8712,
+      "asOf": "2026-11-09T16:38:43Z",
       "digits": 2,
       "sparkline": [
         55.32,
@@ -102,7 +102,7 @@
         56.12,
         56.2,
         56.42,
-        56.46
+        56.62
       ],
       "sessionDate": "2026-11-09"
     },
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.75,
+      "price": 15.84,
       "previousClose": 15.33,
-      "change": 0.42,
-      "changePct": 2.7397,
-      "asOf": "2026-11-09T16:24:03Z",
+      "change": 0.51,
+      "changePct": 3.3268,
+      "asOf": "2026-11-09T17:26:23Z",
       "digits": 2,
       "sparkline": [
         15.54,
@@ -142,7 +142,13 @@
         15.66,
         15.67,
         15.75,
-        15.75
+        15.77,
+        15.8,
+        15.81,
+        15.81,
+        15.82,
+        15.83,
+        15.84
       ],
       "sessionDate": "2026-11-09"
     },
@@ -153,11 +159,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 124.68,
+      "price": 125.08,
       "previousClose": 125.52,
-      "change": -0.84,
-      "changePct": -0.6692,
-      "asOf": "2026-11-09T16:45:18Z",
+      "change": -0.44,
+      "changePct": -0.3505,
+      "asOf": "2026-11-09T17:50:18Z",
       "digits": 2,
       "sparkline": [
         124.395,
@@ -187,7 +193,20 @@
         124.59,
         124.6,
         124.64,
-        124.6799
+        124.485,
+        124.36,
+        124.37,
+        124.42,
+        124.525,
+        124.47,
+        124.595,
+        124.79,
+        124.785,
+        124.81,
+        124.755,
+        125.04,
+        125.04,
+        125.075
       ],
       "sessionDate": "2026-11-09"
     }
@@ -196,38 +215,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7528.22,
-      "change": 151.36,
-      "changePct": 2.0518,
+      "price": 7549.11,
+      "change": 172.25,
+      "changePct": 2.335,
       "digits": 2,
-      "asOf": "2026-11-09T16:45:24Z"
+      "asOf": "2026-11-09T17:50:18Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52240.72,
-      "change": 954.99,
-      "changePct": 1.8621,
+      "price": 52375.02,
+      "change": 1089.29,
+      "changePct": 2.124,
       "digits": 2,
-      "asOf": "2026-11-09T16:45:25Z"
+      "asOf": "2026-11-09T17:50:18Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26265.56,
-      "change": 445.2,
-      "changePct": 1.7242,
+      "price": 26267.19,
+      "change": 446.83,
+      "changePct": 1.7305,
       "digits": 2,
-      "asOf": "2026-11-09T16:30:14Z"
+      "asOf": "2026-11-09T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1206,
-      "change": 0.0063,
-      "changePct": 0.5654,
+      "price": 1.1207,
+      "change": 0.0064,
+      "changePct": 0.5744,
       "digits": 4,
-      "asOf": "2026-11-09T16:44:30Z"
+      "asOf": "2026-11-09T17:49:32Z"
     }
   },
   "headlines": {
@@ -279,22 +298,22 @@
       {
         "title": "What the Democrats can (and cannot) do to reverse Trump\u2019s education upheaval",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-09T15:33:08Z"
+        "publishedAt": "2026-11-09T17:03:08Z"
       },
       {
-        "title": "Trump questions midterm election results, revives voting-machine conspiracy",
-        "source": "CNBC",
-        "publishedAt": "2026-11-09T15:15:37Z"
+        "title": "Head of US Justice Department's civil division resigns, says Blanche",
+        "source": "Reuters",
+        "publishedAt": "2026-11-09T16:10:47Z"
       },
       {
-        "title": "Boycott and Counterprotest Over Jewish Eateries Stir Tension in Philadelphia",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-09T14:28:00Z"
+        "title": "After losing Congress, Republicans have one last shot to pass their agenda",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-09T16:02:25Z"
       },
       {
-        "title": "Immigrants Are Being Systematically Returned Home Despite Court Orders",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-09T12:04:29Z"
+        "title": "Joe Biden, in White House memoir, says Trump should carry the weight of Jan. 6 riots 'to his grave'",
+        "source": "AP News",
+        "publishedAt": "2026-11-09T12:59:00Z"
       }
     ]
   },
@@ -389,7 +408,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 56.46
+        "close": 56.62
       }
     ],
     "bayry": [
@@ -451,7 +470,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 15.75
+        "close": 15.84
       }
     ],
     "dax": [
@@ -513,7 +532,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 26265.5605
+        "close": 26267.1895
       }
     ]
   }
