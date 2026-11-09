@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-09T13:44:43Z",
+  "updatedAt": "2026-11-09T14:40:19Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1194",
-    "Bayer ADR ratio check 4.07 ordinary shares"
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1199",
+    "Bayer ADR ratio check 4.10 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.78,
+      "price": 56.1,
       "previousClose": 55.58,
-      "change": 0.2,
-      "changePct": 0.3598,
-      "asOf": "2026-11-09T13:29:22Z",
+      "change": 0.52,
+      "changePct": 0.9356,
+      "asOf": "2026-11-09T14:24:21Z",
       "digits": 2,
       "sparkline": [
         55.32,
@@ -86,8 +86,19 @@
         55.74,
         55.8,
         55.8,
-        55.76,
-        55.78
+        55.78,
+        55.86,
+        55.9,
+        55.82,
+        55.72,
+        55.9,
+        56.0,
+        55.98,
+        56.05,
+        56.04,
+        56.06,
+        56.08,
+        56.1
       ],
       "sessionDate": "2026-11-09"
     },
@@ -265,38 +276,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7376.86,
-      "change": 23.13,
-      "changePct": 0.3145,
+      "price": 7471.75,
+      "change": 94.89,
+      "changePct": 1.2863,
       "digits": 2,
-      "asOf": "2026-11-06T21:37:09Z"
+      "asOf": "2026-11-09T14:40:06Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51285.73,
-      "change": -237.37,
-      "changePct": -0.4607,
+      "price": 51911.89,
+      "change": 626.16,
+      "changePct": 1.2209,
       "digits": 2,
-      "asOf": "2026-11-06T21:37:12Z"
+      "asOf": "2026-11-09T14:40:06Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26107.98,
-      "change": 287.62,
-      "changePct": 1.1139,
+      "price": 26173.43,
+      "change": 353.07,
+      "changePct": 1.3674,
       "digits": 2,
-      "asOf": "2026-11-09T13:29:32Z"
+      "asOf": "2026-11-09T14:25:06Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1194,
-      "change": 0.0051,
-      "changePct": 0.4577,
+      "price": 1.1199,
+      "change": 0.0056,
+      "changePct": 0.5026,
       "digits": 4,
-      "asOf": "2026-11-09T13:44:31Z"
+      "asOf": "2026-11-09T14:39:33Z"
     }
   },
   "headlines": {
@@ -346,24 +357,24 @@
     ],
     "top": [
       {
-        "title": "Trump talked with Fed chief, but there\u2019s no record of it on Warsh\u2019s calendar",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-09T13:34:37Z"
-      },
-      {
         "title": "What the Democrats can (and cannot) do to reverse Trump\u2019s education upheaval",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-09T12:33:08Z"
+        "publishedAt": "2026-11-09T14:03:08Z"
       },
       {
-        "title": "Cruise Ship Worker Rescued in Pacific Ocean Off California Coast After Going Overboard",
+        "title": "Immigrants Are Being Systematically Returned Home Despite Court Orders",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-09T12:04:29Z"
+      },
+      {
+        "title": "Cruise Ship Employee Is Rescued Off Southern California Coast",
         "source": "The New York Times",
         "publishedAt": "2026-11-09T10:25:00Z"
       },
       {
-        "title": "What to Know About Stephen Miller, Trump\u2019s New Chief of Staff",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-09T10:03:00Z"
+        "title": "White House staff gave Trump bad advice, treated him \u2018like a baby,\u2019 ex-aide says",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-09T06:04:58Z"
       }
     ]
   },
@@ -458,14 +469,10 @@
       },
       {
         "date": "2026-11-09",
-        "close": 55.78
+        "close": 56.1
       }
     ],
     "bayry": [
-      {
-        "date": "2026-10-19",
-        "close": 12.12
-      },
       {
         "date": "2026-10-20",
         "close": 12.21
@@ -582,7 +589,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 26108.1602
+        "close": 26172.75
       }
     ]
   }
