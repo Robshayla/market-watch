@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-09T12:25:51Z",
+  "updatedAt": "2026-11-09T13:44:43Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 125.56 matched",
-    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1192",
-    "Bayer ADR ratio check 4.06 ordinary shares"
+    "ECB reference 1.1165 on 2026-11-06 vs Yahoo spot 1.1194",
+    "Bayer ADR ratio check 4.07 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.56,
+      "price": 55.78,
       "previousClose": 55.58,
-      "change": -0.02,
-      "changePct": -0.036,
-      "asOf": "2026-11-09T12:06:44Z",
+      "change": 0.2,
+      "changePct": 0.3598,
+      "asOf": "2026-11-09T13:29:22Z",
       "digits": 2,
       "sparkline": [
         55.32,
@@ -71,8 +70,24 @@
         55.54,
         55.52,
         55.56,
+        55.56,
+        55.54,
         55.58,
-        55.56
+        55.5,
+        55.5,
+        55.54,
+        55.48,
+        55.58,
+        55.62,
+        55.54,
+        55.54,
+        55.62,
+        55.64,
+        55.74,
+        55.8,
+        55.8,
+        55.76,
+        55.78
       ],
       "sessionDate": "2026-11-09"
     },
@@ -268,29 +283,24 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26086.66,
-      "change": 266.3,
-      "changePct": 1.0314,
+      "price": 26107.98,
+      "change": 287.62,
+      "changePct": 1.1139,
       "digits": 2,
-      "asOf": "2026-11-09T12:10:38Z"
+      "asOf": "2026-11-09T13:29:32Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1192,
-      "change": 0.0049,
-      "changePct": 0.4397,
+      "price": 1.1194,
+      "change": 0.0051,
+      "changePct": 0.4577,
       "digits": 4,
-      "asOf": "2026-11-09T12:25:30Z"
+      "asOf": "2026-11-09T13:44:31Z"
     }
   },
   "headlines": {
     "bayer": [
-      {
-        "title": "We aim to use AI to cut down drug innovation time by 30%: Bayer Pharmaceuticals",
-        "source": "CNBC",
-        "publishedAt": "2026-11-06T02:40:00Z"
-      },
       {
         "title": "Bayer raises 2026 profit outlook as pharma business beats expectations",
         "source": "Reuters",
@@ -305,6 +315,11 @@
         "title": "India's Bayer CropScience posts nearly 9% rise in Q2 profit",
         "source": "Reuters",
         "publishedAt": "2026-11-03T15:55:44Z"
+      },
+      {
+        "title": "Bayer Raises Profit Outlook on Strong Demand for Drugs",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-03T11:09:10Z"
       }
     ],
     "walmart": [
@@ -324,12 +339,22 @@
         "publishedAt": "2026-11-05T13:58:17Z"
       },
       {
-        "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
-        "source": "Reuters",
-        "publishedAt": "2026-11-04T15:37:45Z"
+        "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
+        "source": "CNBC",
+        "publishedAt": "2026-08-20T07:00:00Z"
       }
     ],
     "top": [
+      {
+        "title": "Trump talked with Fed chief, but there\u2019s no record of it on Warsh\u2019s calendar",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-09T13:34:37Z"
+      },
+      {
+        "title": "What the Democrats can (and cannot) do to reverse Trump\u2019s education upheaval",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-09T12:33:08Z"
+      },
       {
         "title": "Cruise Ship Worker Rescued in Pacific Ocean Off California Coast After Going Overboard",
         "source": "The New York Times",
@@ -339,16 +364,6 @@
         "title": "What to Know About Stephen Miller, Trump\u2019s New Chief of Staff",
         "source": "The New York Times",
         "publishedAt": "2026-11-09T10:03:00Z"
-      },
-      {
-        "title": "Bipartisan Support for Israel Erodes as Both Sides Push for New Limits",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-09T10:02:55Z"
-      },
-      {
-        "title": "How an Intern and a Biologist Rescued an Orphaned Walrus in Alaska",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-09T06:21:00Z"
       }
     ]
   },
@@ -443,7 +458,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 55.56
+        "close": 55.78
       }
     ],
     "bayry": [
@@ -567,7 +582,7 @@
       },
       {
         "date": "2026-11-09",
-        "close": 26086.4199
+        "close": 26108.1602
       }
     ]
   }
