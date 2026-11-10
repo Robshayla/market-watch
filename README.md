@@ -1,13 +1,14 @@
 # Market Watch
 
-Always-on lobby display for a Bayer office television. It shows Bayer AG (Xetra), the Bayer ADR, Walmart, four office clocks, headlines, and a market ticker. The page is static and is meant to run full screen on a Fire TV Stick.
+Always-on lobby display for a Bayer office television. It shows Bayer AG (Xetra), the Bayer ADR, Walmart, five office clocks, headlines, and a market ticker. The page is static and is meant to run full screen on a Fire TV Stick.
 
 **Live URL (after Pages is enabled and this branch is merged):** https://robshayla.github.io/market-watch/
 
 ## What the screen does
 
-- Clocks for Whippany, Rogers, Leverkusen, and Basel, using IANA time zones so daylight saving time is applied automatically.
-- NYSE open/closed under the two US clocks, and Xetra open/closed under the two European clocks. Weekends, the published NYSE holiday and early-close calendar, and the Deutsche Börse Xetra holiday calendar are included.
+- Clocks for Whippany, NJ; Bentonville, AR; a combined Leverkusen / Basel clock on Central European time; London; and Beijing, using IANA time zones so daylight saving time is applied automatically.
+- Open/closed badges: NYSE under the two US clocks, Xetra under Leverkusen / Basel, LSE under London (08:00–16:30 London time, weekdays), and SSE under Beijing (09:30–11:30 and 13:00–15:00 Beijing time, weekdays; closed over lunch). A clock picks up a soft green glow while its market is open. The Bentonville clock also shows a small NYSE countdown (for example “Closes in 2h 14m”, or “Opens Mon” on a weekend).
+- Weekends, the published NYSE holiday and early-close calendar, and the Deutsche Börse Xetra holiday calendar are included. LSE and SSE use weekday session hours only and do not yet include holiday calendars.
 - Quote tiles keep the last good price if a refresh fails, and show **At close** when that market is shut. The footer turns amber and adds **Stale** instead of going blank.
 - Headlines rotate Bayer, Walmart, and US national top stories about every 12 seconds.
 - The page re-reads `data/market.json` about every 60 seconds and reloads itself once a night at 3:15 AM Eastern so a stick left on for months does not slowly run out of memory.

@@ -49,7 +49,7 @@ body {
 #stage.ready { visibility: visible; }
 
 header {
-  height: 124px;
+  height: 148px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,41 +81,55 @@ h1 {
 .clocks {
   display: flex;
   align-items: stretch;
-  height: 112px;
+  height: 140px;
 }
 
 .clock {
-  width: 232px;
+  width: 188px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-left: 1px solid var(--line);
+  border-radius: 10px;
+  background: transparent;
+  box-shadow: none;
+}
+
+.clock.open {
+  background: rgba(34, 211, 107, 0.07);
+  box-shadow: inset 0 0 0 1px rgba(34, 211, 107, 0.22), 0 0 18px rgba(34, 211, 107, 0.2);
+  border-left-color: rgba(34, 211, 107, 0.28);
 }
 
 .city {
-  font-size: 18px;
+  font-size: 16px;
   color: #d5e0ea;
   letter-spacing: 0.01em;
+  white-space: nowrap;
+  line-height: 1.15;
 }
 
 .time {
   margin-top: 2px;
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
   letter-spacing: -0.02em;
+  white-space: nowrap;
+  line-height: 1.1;
 }
 
 .badge {
-  margin-top: 8px;
-  min-width: 132px;
+  margin-top: 5px;
+  min-width: 124px;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.08em;
   border-radius: 999px;
-  padding: 5px 12px 4px;
+  padding: 4px 10px 3px;
+  white-space: nowrap;
 }
 
 .badge.open {
@@ -126,6 +140,17 @@ h1 {
 .badge.closed {
   background: var(--closed);
   color: #d7e0ea;
+}
+
+.nyse-eta {
+  margin-top: 5px;
+  min-height: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.15;
+  color: #d5e0ea;
+  white-space: nowrap;
 }
 
 .event {
@@ -1245,10 +1270,9 @@ footer {
   top: 0;
   right: 0;
   z-index: 40;
-  /* Right-hand strip in the empty margin beside Basel, plus a top arm
-     that stays above the city names. Neither covers clock text. */
-  width: 104px;
-  height: 150px;
+  /* Corner hit target in the margin, clear of the Beijing label. */
+  width: 64px;
+  height: 72px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -1269,16 +1293,16 @@ footer {
   position: absolute;
   top: 0;
   right: 100%;
-  width: 156px;
-  height: 52px;
+  width: 88px;
+  height: 28px;
 }
 
 .fs-toggle svg {
   position: absolute;
-  top: 36px;
-  right: 60px;
-  width: 32px;
-  height: 32px;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
   display: block;
   pointer-events: none;
 }
