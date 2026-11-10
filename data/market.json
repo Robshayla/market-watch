@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-10T22:10:00Z",
+  "updatedAt": "2026-11-10T22:43:23Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1164",
+    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1168",
     "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
@@ -298,11 +298,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1164,
-      "change": -0.0054,
-      "changePct": -0.4814,
+      "price": 1.1168,
+      "change": -0.005,
+      "changePct": -0.4457,
       "digits": 4,
-      "asOf": "2026-11-10T22:09:31Z"
+      "asOf": "2026-11-10T22:42:31Z"
     }
   },
   "headlines": {
@@ -345,21 +345,21 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "Walmart Unlikely to Deliver 'Significant' Upside Surprise; Target Set for Quarterly Beat, RBC Says",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-10T18:49:47Z"
+        "title": "Walmart Stock (WMT) Slips Despite Price Target Upgrades Ahead of Q3 Earnings Next Week",
+        "source": "TipRanks",
+        "publishedAt": "2026-11-10T22:02:18Z"
       }
     ],
     "top": [
       {
+        "title": "Hegseth defends his record, Iran war as impeachment vote looms",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-10T22:30:02Z"
+      },
+      {
         "title": "Appeals court says VOA director was fired illegally by former head Kari Lake",
         "source": "The Washington Post",
         "publishedAt": "2026-11-10T21:26:44Z"
-      },
-      {
-        "title": "Hegseth defends his record, Iran war as impeachment vote looms",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-10T21:00:02Z"
       },
       {
         "title": "US charges 3 men with plotting terror attacks, including planned assault on UK airbase",
