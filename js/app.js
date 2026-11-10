@@ -204,6 +204,10 @@
         badgeEl.textContent = state.text;
         badgeEl.classList.toggle("open", state.open);
         badgeEl.classList.toggle("closed", !state.open);
+        node.classList.toggle("open", state.open);
+        node.classList.toggle("closed", !state.open);
+        var etaEl = node.querySelector(".nyse-eta");
+        if (etaEl && node.dataset.countdown === "nyse") etaEl.textContent = MarketHours.nyseCountdown(now);
       } catch (err) {
         timeEl.textContent = "--:--";
       }

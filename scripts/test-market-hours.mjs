@@ -29,9 +29,18 @@ function offsetMinutes(date, timeZone) {
 }
 
 check(MH.formatClock(at("2026-11-01T16:00:00Z"), "America/New_York") === "11:00 AM", "Whippany EST");
-check(MH.formatClock(at("2026-11-01T16:00:00Z"), "America/Chicago") === "10:00 AM", "Rogers CST");
+check(MH.formatClock(at("2026-11-01T16:00:00Z"), "America/Chicago") === "10:00 AM", "Bentonville CST");
 check(MH.formatClock(at("2026-11-01T16:00:00Z"), "Europe/Berlin") === "5:00 PM", "Leverkusen CET");
 check(MH.formatClock(at("2026-11-01T16:00:00Z"), "Europe/Zurich") === "5:00 PM", "Basel CET");
+
+check(MH.formatClock(at("2026-11-01T16:00:00Z"), "Europe/London") === "4:00 PM", "London GMT");
+check(MH.formatClock(at("2026-11-01T16:00:00Z"), "Asia/Shanghai") === "12:00 AM", "Beijing CST midnight");
+check(offsetMinutes(at("2026-11-01T16:00:00Z"), "Europe/London") === 0, "London GMT offset");
+check(offsetMinutes(at("2026-11-01T16:00:00Z"), "Asia/Shanghai") === 480, "Beijing CST offset");
+check(offsetMinutes(at("2026-07-15T16:00:00Z"), "Europe/London") === 60, "London BST");
+check(offsetMinutes(at("2026-07-15T16:00:00Z"), "Asia/Shanghai") === 480, "Beijing no DST");
+check(MH.formatClock(at("2026-07-15T16:00:00Z"), "Europe/London") === "5:00 PM", "summer London clock");
+check(MH.formatClock(at("2026-07-15T16:00:00Z"), "Asia/Shanghai") === "12:00 AM", "summer Beijing clock");
 
 check(offsetMinutes(at("2026-11-01T16:00:00Z"), "America/New_York") === -300, "NY EST offset");
 check(offsetMinutes(at("2026-11-01T16:00:00Z"), "America/Chicago") === -360, "Chicago CST offset");
@@ -76,6 +85,44 @@ check(MH.isOpen("xetra", at("2026-10-30T16:29:00Z")) === true, "17:29 CET open")
 check(MH.isOpen("xetra", at("2026-10-30T16:30:00Z")) === false, "17:30 CET closed");
 check(MH.isOpen("us", at("2026-10-30T15:00:00Z")) === true, "us alias follows NYSE");
 check(MH.isOpen("otc", at("2026-10-30T15:00:00Z")) === true, "otc alias follows NYSE");
+
+/* LSE 08:00–16:30 London, weekdays. Nov 10 2026 is a Tuesday on GMT. */
+check(MH.isOpen("lse", at("2026-11-10T07:59:00Z")) === false, "7:59 London LSE closed");
+check(MH.isOpen("lse", at("2026-11-10T08:00:00Z")) === true, "8:00 London LSE open");
+check(MH.isOpen("london", at("2026-11-10T16:29:00Z")) === true, "16:29 London LSE open");
+check(MH.isOpen("lse", at("2026-11-10T16:30:00Z")) === false, "16:30 London LSE closed");
+check(MH.isOpen("lse", at("2026-07-15T06:59:00Z")) === false, "7:59 BST LSE closed");
+check(MH.isOpen("lse", at("2026-07-15T07:00:00Z")) === true, "8:00 BST LSE open");
+check(MH.isOpen("lse", at("2026-11-07T12:00:00Z")) === false, "Saturday LSE closed");
+check(MH.badge("lse", at("2026-11-10T12:00:00Z")).text === "LSE OPEN", "LSE badge open");
+check(MH.badge("lse", at("2026-11-10T17:00:00Z")).text === "LSE CLOSED", "LSE badge closed");
+
+/* SSE 09:30–11:30 and 13:00–15:00 Beijing, weekdays. China has no DST (UTC+8). */
+check(MH.isOpen("sse", at("2026-11-10T01:29:00Z")) === false, "9:29 Beijing SSE closed");
+check(MH.isOpen("sse", at("2026-11-10T01:30:00Z")) === true, "9:30 Beijing SSE open");
+check(MH.isOpen("sse", at("2026-11-10T03:29:00Z")) === true, "11:29 Beijing SSE open");
+check(MH.isOpen("sse", at("2026-11-10T03:30:00Z")) === false, "11:30 Beijing SSE lunch closed");
+check(MH.isOpen("shanghai", at("2026-11-10T04:59:00Z")) === false, "12:59 Beijing SSE lunch closed");
+check(MH.isOpen("sse", at("2026-11-10T05:00:00Z")) === true, "13:00 Beijing SSE open");
+check(MH.isOpen("sse", at("2026-11-10T06:59:00Z")) === true, "14:59 Beijing SSE open");
+check(MH.isOpen("sse", at("2026-11-10T07:00:00Z")) === false, "15:00 Beijing SSE closed");
+check(MH.isOpen("sse", at("2026-11-07T03:00:00Z")) === false, "Saturday SSE closed");
+check(MH.badge("sse", at("2026-11-10T02:00:00Z")).text === "SSE OPEN", "SSE badge morning open");
+check(MH.badge("sse", at("2026-11-10T04:00:00Z")).text === "SSE CLOSED", "SSE badge lunch closed");
+
+/* NYSE countdown under the Bentonville clock. */
+check(MH.nyseCountdown(at("2026-10-30T13:00:00Z")) === "Opens in 30m", "Friday 9:00 AM EDT opens soon");
+check(MH.nyseCountdown(at("2026-10-30T13:30:00Z")) === "Closes in 6h 30m", "Friday 9:30 AM EDT just opened");
+check(MH.nyseCountdown(at("2026-10-30T20:00:00Z")) === "Opens Mon", "Friday 4:00 PM EDT after close");
+check(MH.nyseCountdown(at("2026-10-31T16:00:00Z")) === "Opens Mon", "Saturday");
+check(MH.nyseCountdown(at("2026-11-01T16:00:00Z")) === "Opens Mon", "Sunday");
+check(MH.nyseCountdown(at("2026-11-02T13:00:00Z")) === "Opens in 1h 30m", "Monday 8:00 AM EST");
+check(MH.nyseCountdown(at("2026-11-02T15:00:00Z")) === "Closes in 6h 00m", "Monday 10:00 AM EST");
+check(MH.nyseCountdown(at("2026-11-05T21:00:00Z")) === "Opens in 17h 30m", "Thursday after close to Friday open");
+check(MH.nyseCountdown(at("2026-11-25T21:00:00Z")) === "Opens Fri", "Wednesday before Thanksgiving after close");
+check(MH.nyseCountdown(at("2026-11-27T17:00:00Z")) === "Closes in 1h 00m", "Friday after Thanksgiving still open at noon");
+check(MH.nyseCountdown(at("2026-11-27T19:00:00Z")) === "Opens Mon", "Friday after Thanksgiving early close");
+check(MH.nyseCountdown(at("2026-05-24T20:00:00Z")) === "Opens Tue", "Sunday before Memorial Day 2026");
 
 /* Holidays. */
 check(!MH.isOpen("nyse", at("2026-01-01T17:00:00Z")), "NYSE New Year 2026");

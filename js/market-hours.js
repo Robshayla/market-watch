@@ -4,6 +4,9 @@
    Xetra closures follow the Deutsche Börse FWB calendars: New Year's Day,
    Good Friday, Easter Monday, Labour Day, Christmas Eve, Christmas Day,
    Boxing Day, and New Year's Eve, with no weekend observance shift.
+   LSE uses 08:00–16:30 London time on weekdays. SSE uses 09:30–11:30 and
+   13:00–15:00 Beijing time on weekdays; the lunch break is closed. LSE and
+   SSE do not include holiday calendars.
    Session times are interpreted in the exchange's IANA zone, so DST is
    handled by the runtime timezone database. */
 (function (root) {
@@ -14,6 +17,12 @@
   var NYSE_EARLY_CLOSE = 13 * 60;
   var XETRA_OPEN = 9 * 60;
   var XETRA_CLOSE = 17 * 60 + 30;
+  var LSE_OPEN = 8 * 60;
+  var LSE_CLOSE = 16 * 60 + 30;
+  var SSE_AM_OPEN = 9 * 60 + 30;
+  var SSE_AM_CLOSE = 11 * 60 + 30;
+  var SSE_PM_OPEN = 13 * 60;
+  var SSE_PM_CLOSE = 15 * 60;
 
   var partsFmt = Object.create(null);
   var clockFmt = Object.create(null);
@@ -150,10 +159,14 @@
   function closuresFor(market, year) {
     var key = market + ":" + year;
     if (!closureCache[key]) {
-      closureCache[key] = {
-        closed: market === "xetra" ? xetraClosures(year) : nyseClosures(year),
-        early: market === "xetra" ? Object.create(null) : nyseEarlyCloses(year),
-      };
+      if (market === "xetra") {
+        closureCache[key] = { closed: xetraClosures(year), early: Object.create(null) };
+      } else if (market === "nyse") {
+        closureCache[key] = { closed: nyseClosures(year), early: nyseEarlyCloses(year) };
+      } else {
+        /* LSE and SSE use weekday session hours only; holiday calendars are not included. */
+        closureCache[key] = { closed: Object.create(null), early: Object.create(null) };
+      }
     }
     return closureCache[key];
   }
@@ -212,28 +225,120 @@
       return "nyse";
     }
     if (market === "xetra" || market === "frankfurt") return "xetra";
+    if (market === "lse" || market === "london") return "lse";
+    if (market === "sse" || market === "shanghai") return "sse";
     return null;
+  }
+
+  function zoneFor(canon) {
+    if (canon === "xetra") return "Europe/Berlin";
+    if (canon === "lse") return "Europe/London";
+    if (canon === "sse") return "Asia/Shanghai";
+    return "America/New_York";
   }
 
   function isOpen(market, date) {
     var canon = normalizeMarket(market);
     if (!canon) return false;
-    var zone = canon === "xetra" ? "Europe/Berlin" : "America/New_York";
-    var p = parts(date, zone);
+    var p = parts(date, zoneFor(canon));
     if (p.weekday === "Sat" || p.weekday === "Sun") return false;
     var book = closuresFor(canon, p.year);
     if (book.closed[p.key]) return false;
     var minute = p.hour * 60 + p.minute;
-    var open = canon === "xetra" ? XETRA_OPEN : NYSE_OPEN;
-    var close = canon === "xetra" ? XETRA_CLOSE : book.early[p.key] ? NYSE_EARLY_CLOSE : NYSE_CLOSE;
-    return minute >= open && minute < close;
+    var open;
+    if (canon === "xetra") open = minute >= XETRA_OPEN && minute < XETRA_CLOSE;
+    else if (canon === "lse") open = minute >= LSE_OPEN && minute < LSE_CLOSE;
+    else if (canon === "sse") {
+      open = (minute >= SSE_AM_OPEN && minute < SSE_AM_CLOSE) ||
+        (minute >= SSE_PM_OPEN && minute < SSE_PM_CLOSE);
+    } else {
+      var close = book.early[p.key] ? NYSE_EARLY_CLOSE : NYSE_CLOSE;
+      open = minute >= NYSE_OPEN && minute < close;
+    }
+    return open;
+  }
+
+  function badgeName(canon) {
+    if (canon === "xetra") return "XETRA";
+    if (canon === "lse") return "LSE";
+    if (canon === "sse") return "SSE";
+    return "NYSE";
   }
 
   function badge(market, date) {
     var canon = normalizeMarket(market);
     var open = isOpen(canon, date);
-    var name = canon === "xetra" ? "XETRA" : "NYSE";
+    var name = badgeName(canon);
     return { open: open, text: name + (open ? " OPEN" : " CLOSED") };
+  }
+
+  function zonedDate(year, month, day, hour, minute, timeZone) {
+    var wanted = Date.UTC(year, month - 1, day, hour, minute, 0);
+    var date = new Date(wanted);
+    for (var i = 0; i < 2; i++) {
+      var p = parts(date, timeZone);
+      var got = Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute, p.second);
+      date = new Date(date.getTime() + (wanted - got));
+    }
+    return date;
+  }
+
+  function isNyseTradingDay(year, month, day) {
+    var wd = weekdayUTC(year, month, day);
+    if (wd === 0 || wd === 6) return false;
+    var book = closuresFor("nyse", year);
+    return !book.closed[ymd(year, month, day)];
+  }
+
+  function nyseOpenAt(year, month, day) {
+    return zonedDate(year, month, day, 9, 30, "America/New_York");
+  }
+
+  function nyseCloseAt(year, month, day) {
+    var book = closuresFor("nyse", year);
+    var close = book.early[ymd(year, month, day)] ? NYSE_EARLY_CLOSE : NYSE_CLOSE;
+    return zonedDate(year, month, day, Math.floor(close / 60), close % 60, "America/New_York");
+  }
+
+  function nextNyseTradingDay(year, month, day, startOffset) {
+    for (var i = startOffset; i <= startOffset + 10; i++) {
+      var d = addDays(year, month, day, i);
+      if (isNyseTradingDay(d.year, d.month, d.day)) return d;
+    }
+    return null;
+  }
+
+  function formatEta(ms) {
+    var totalMins = Math.max(0, Math.floor(ms / 60000));
+    var hours = Math.floor(totalMins / 60);
+    var mins = totalMins % 60;
+    if (hours <= 0) return mins + "m";
+    return hours + "h " + pad(mins) + "m";
+  }
+
+  function nyseCountdown(date) {
+    var p = parts(date, "America/New_York");
+    if (isNyseTradingDay(p.year, p.month, p.day)) {
+      var openAt = nyseOpenAt(p.year, p.month, p.day);
+      var closeAt = nyseCloseAt(p.year, p.month, p.day);
+      if (date.getTime() >= openAt.getTime() && date.getTime() < closeAt.getTime()) {
+        return "Closes in " + formatEta(closeAt.getTime() - date.getTime());
+      }
+      if (date.getTime() < openAt.getTime()) {
+        return "Opens in " + formatEta(openAt.getTime() - date.getTime());
+      }
+    }
+    var next = nextNyseTradingDay(p.year, p.month, p.day, 1);
+    if (!next) return "";
+    var nextOpen = nyseOpenAt(next.year, next.month, next.day);
+    var nextParts = parts(nextOpen, "America/New_York");
+    if (p.weekday === "Sat" || p.weekday === "Sun") {
+      return "Opens " + nextParts.weekday;
+    }
+    var tomorrow = addDays(p.year, p.month, p.day, 1);
+    var isTomorrow = tomorrow.year === next.year && tomorrow.month === next.month && tomorrow.day === next.day;
+    if (!isTomorrow) return "Opens " + nextParts.weekday;
+    return "Opens in " + formatEta(nextOpen.getTime() - date.getTime());
   }
 
   function shouldNightlyReload(now, lastKey) {
@@ -258,6 +363,7 @@
     formatClock: formatClock,
     isOpen: isOpen,
     badge: badge,
+    nyseCountdown: nyseCountdown,
     shouldNightlyReload: shouldNightlyReload,
     isDataStale: isDataStale,
     normalizeMarket: normalizeMarket,
