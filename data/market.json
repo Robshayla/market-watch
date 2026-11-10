@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-10T08:04:11Z",
+  "updatedAt": "2026-11-10T08:59:55Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 125.66 matched",
-    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1245",
-    "Bayer ADR ratio check 4.00 ordinary shares"
+    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1254",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,96 +15,25 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.62,
+      "price": 56.66,
       "previousClose": 56.62,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-09T16:38:43Z",
+      "change": 0.04,
+      "changePct": 0.0706,
+      "asOf": "2026-11-10T08:44:22Z",
       "digits": 2,
       "sparkline": [
-        55.32,
-        55.45,
-        55.72,
-        55.74,
-        55.56,
-        55.4,
-        55.46,
-        55.52,
-        55.42,
-        55.5,
-        55.5,
-        55.4,
-        55.36,
-        55.4,
-        55.32,
-        55.52,
-        55.5,
-        55.52,
-        55.54,
-        55.68,
-        55.7,
-        55.66,
-        55.64,
-        55.72,
-        55.76,
-        55.66,
-        55.72,
-        55.78,
-        55.8,
-        55.82,
-        55.78,
-        55.68,
-        55.56,
-        55.6,
-        55.6,
-        55.6,
-        55.56,
-        55.52,
-        55.56,
-        55.56,
-        55.58,
-        55.5,
-        55.5,
-        55.54,
-        55.58,
-        55.62,
-        55.54,
-        55.54,
-        55.64,
-        55.74,
-        55.8,
-        55.78,
-        55.86,
-        55.9,
-        55.82,
-        55.9,
-        56.0,
-        55.98,
-        56.05,
-        56.06,
-        56.1,
-        56.14,
-        55.86,
-        55.9,
-        55.96,
-        55.98,
-        56.12,
-        56.06,
-        56.06,
-        56.16,
-        56.12,
-        56.16,
-        56.2,
-        56.2,
-        56.2,
-        56.18,
-        56.2,
-        56.12,
-        56.2,
-        56.42,
-        56.62
+        57.58,
+        57.02,
+        56.76,
+        56.76,
+        56.6,
+        56.44,
+        56.54,
+        56.64,
+        56.66,
+        56.66
       ],
-      "sessionDate": "2026-11-09"
+      "sessionDate": "2026-11-10"
     },
     "bayry": {
       "symbol": "BAYRY",
@@ -300,20 +229,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26267.19,
-      "change": 446.79,
-      "changePct": 1.7304,
+      "price": 26535.19,
+      "change": 268.0,
+      "changePct": 1.0203,
       "digits": 2,
-      "asOf": "2026-11-09T17:00:00Z"
+      "asOf": "2026-11-10T08:44:42Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1245,
-      "change": 0.0027,
-      "changePct": 0.2407,
+      "price": 1.1254,
+      "change": 0.0036,
+      "changePct": 0.3209,
       "digits": 4,
-      "asOf": "2026-11-10T08:03:33Z"
+      "asOf": "2026-11-10T08:59:29Z"
     }
   },
   "headlines": {
@@ -363,9 +292,9 @@
     ],
     "top": [
       {
-        "title": "Hegseth impeachment effort begins in House, focused on Iran war",
+        "title": "Trump says he\u2019s keeping \u2018status quo\u2019 with Iran, with no need for new strikes",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-10T07:43:47Z"
+        "publishedAt": "2026-11-10T07:40:22Z"
       },
       {
         "title": "California Voters Reject Prop. 40 Billionaire Tax Measure",
@@ -373,14 +302,14 @@
         "publishedAt": "2026-11-10T05:47:00Z"
       },
       {
-        "title": "US-Iran war: Trump says more US attacks on Iran 'highly unlikely'",
-        "source": "BBC",
-        "publishedAt": "2026-11-10T05:33:25Z"
-      },
-      {
         "title": "Democrats have gained control in more states. That could change the way the US elects its president",
         "source": "AP News",
         "publishedAt": "2026-11-10T05:03:00Z"
+      },
+      {
+        "title": "Senate advances sweeping energy legislation in first major action since midterm elections",
+        "source": "AP News",
+        "publishedAt": "2026-11-10T03:00:00Z"
       }
     ]
   },
@@ -468,6 +397,14 @@
       {
         "date": "2026-11-06",
         "close": 55.58
+      },
+      {
+        "date": "2026-11-09",
+        "close": 56.62
+      },
+      {
+        "date": "2026-11-10",
+        "close": 56.6
       }
     ],
     "bayry": [
@@ -588,6 +525,10 @@
       {
         "date": "2026-11-09",
         "close": 26267.1895
+      },
+      {
+        "date": "2026-11-10",
+        "close": 26533.0508
       }
     ]
   }
