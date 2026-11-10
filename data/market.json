@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-10T15:29:44Z",
+  "updatedAt": "2026-11-10T16:25:30Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.10 matched",
-    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1181",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "Nasdaq last sale 125.49 matched",
+    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1153",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.78,
+      "price": 56.98,
       "previousClose": 56.62,
-      "change": 0.16,
-      "changePct": 0.2826,
-      "asOf": "2026-11-10T15:14:17Z",
+      "change": 0.36,
+      "changePct": 0.6358,
+      "asOf": "2026-11-10T16:10:13Z",
       "digits": 2,
       "sparkline": [
         57.58,
@@ -27,7 +27,6 @@
         56.76,
         56.76,
         56.6,
-        56.44,
         56.54,
         56.64,
         56.6,
@@ -37,71 +36,72 @@
         56.82,
         56.88,
         56.88,
-        56.88,
         56.82,
         56.78,
         56.7,
-        56.74,
+        56.72,
         56.74,
         56.72,
         56.76,
         56.86,
-        56.78,
         56.86,
         56.84,
         56.78,
         56.8,
-        56.8,
+        56.84,
         56.92,
         56.96,
-        56.9,
         56.9,
         56.9,
         56.96,
         56.94,
         56.92,
         56.76,
-        56.76,
+        56.74,
         56.88,
         56.78,
         56.7,
-        56.7,
         56.72,
         56.8,
         56.86,
         56.84,
-        56.86,
         56.94,
-        57.06,
         57.08,
+        57.06,
         57.08,
         57.04,
         57.04,
         57.08,
         57.22,
-        57.32,
         57.28,
         57.32,
-        57.12,
+        57.14,
         57.12,
         57.06,
         56.98,
         56.96,
         56.72,
-        56.74,
         56.64,
         56.66,
         56.64,
+        56.76,
         56.74,
-        56.78,
         56.8,
         56.9,
         56.92,
         56.72,
-        56.84,
         56.72,
         56.78,
-        56.8
+        56.8,
+        56.96,
+        57.06,
+        57.08,
+        57.02,
+        57.02,
+        57.12,
+        57.08,
+        57.02,
+        56.98
       ],
       "sessionDate": "2026-11-10"
     },
@@ -112,73 +112,26 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.91,
-      "previousClose": 15.33,
-      "change": 0.58,
-      "changePct": 3.7834,
-      "asOf": "2026-11-09T21:00:00Z",
+      "price": 15.86,
+      "previousClose": 15.91,
+      "change": -0.05,
+      "changePct": -0.3143,
+      "asOf": "2026-11-10T15:45:02Z",
       "digits": 2,
       "sparkline": [
-        15.54,
-        15.6,
-        15.6,
-        15.6,
-        15.62,
-        15.64,
-        15.65,
-        15.67,
-        15.64,
-        15.67,
-        15.67,
-        15.64,
-        15.67,
-        15.7,
-        15.68,
-        15.68,
-        15.67,
-        15.68,
-        15.68,
-        15.66,
-        15.67,
-        15.75,
-        15.77,
-        15.8,
-        15.81,
-        15.81,
-        15.82,
+        15.87,
+        15.84,
+        15.84,
+        15.84,
         15.83,
-        15.84,
-        15.84,
-        15.84,
-        15.84,
-        15.84,
-        15.84,
-        15.86,
-        15.87,
-        15.87,
-        15.86,
-        15.87,
-        15.87,
-        15.86,
-        15.87,
         15.9,
-        15.95,
-        15.96,
-        15.95,
-        15.96,
-        15.95,
-        15.93,
-        15.94,
-        15.93,
-        15.92,
-        15.92,
-        15.91,
-        15.92,
-        15.92,
         15.9,
-        15.91
+        15.87,
+        15.89,
+        15.86,
+        15.86
       ],
-      "sessionDate": "2026-11-09"
+      "sessionDate": "2026-11-10"
     },
     "wmt": {
       "symbol": "WMT",
@@ -187,11 +140,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.1,
+      "price": 125.48,
       "previousClose": 125.66,
-      "change": -0.56,
-      "changePct": -0.4456,
-      "asOf": "2026-11-10T15:29:29Z",
+      "change": -0.18,
+      "changePct": -0.1432,
+      "asOf": "2026-11-10T16:25:13Z",
       "digits": 2,
       "sparkline": [
         125.935,
@@ -205,8 +158,19 @@
         125.055,
         125.09,
         125.075,
-        125.08,
-        125.1
+        125.075,
+        125.225,
+        125.5,
+        125.38,
+        125.5601,
+        125.65,
+        125.61,
+        125.34,
+        125.43,
+        125.475,
+        125.58,
+        125.515,
+        125.485
       ],
       "sessionDate": "2026-11-10"
     }
@@ -215,38 +179,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7514.68,
-      "change": -35.26,
-      "changePct": -0.467,
+      "price": 7499.52,
+      "change": -50.42,
+      "changePct": -0.6678,
       "digits": 2,
-      "asOf": "2026-11-10T15:29:30Z"
+      "asOf": "2026-11-10T16:25:16Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52126.36,
-      "change": -263.39,
-      "changePct": -0.5028,
+      "price": 52060.86,
+      "change": -328.89,
+      "changePct": -0.6278,
       "digits": 2,
-      "asOf": "2026-11-10T15:29:30Z"
+      "asOf": "2026-11-10T16:25:16Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26472.13,
-      "change": 204.94,
-      "changePct": 0.7802,
+      "price": 26425.4,
+      "change": 158.21,
+      "changePct": 0.6023,
       "digits": 2,
-      "asOf": "2026-11-10T15:14:30Z"
+      "asOf": "2026-11-10T16:10:17Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1181,
-      "change": -0.0037,
-      "changePct": -0.3298,
+      "price": 1.1153,
+      "change": -0.0065,
+      "changePct": -0.5794,
       "digits": 4,
-      "asOf": "2026-11-10T15:28:33Z"
+      "asOf": "2026-11-10T16:24:34Z"
     }
   },
   "headlines": {
@@ -279,11 +243,6 @@
         "publishedAt": "2026-11-09T16:40:00Z"
       },
       {
-        "title": "His Job Is to Turn Walmart\u2019s Customer Data Into Profit",
-        "source": "WSJ",
-        "publishedAt": "2026-11-06T23:25:00Z"
-      },
-      {
         "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC",
         "publishedAt": "2026-08-20T07:00:00Z"
@@ -292,28 +251,33 @@
         "title": "Inside Bernstein\u2019s Latest Call on Walmart Inc (WMT) Stock",
         "source": "Yahoo Finance",
         "publishedAt": "2026-06-19T07:00:00Z"
+      },
+      {
+        "title": "Walmart and Target Head Into Earnings With a 45-vs-17 Valuation Gap",
+        "source": "finance.biggo",
+        "publishedAt": "2026-11-10T16:05:00Z"
       }
     ],
     "top": [
       {
+        "title": "John Thune seeks another term as Senate Republican leader as the party reckons with election losses",
+        "source": "AP News",
+        "publishedAt": "2026-11-10T14:26:00Z"
+      },
+      {
+        "title": "Trump Administration Moves to Further Limit SNAP Eligibility, Affecting Millions",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-10T13:51:51Z"
+      },
+      {
+        "title": "Pete Hegseth decries impeachment push, defends Iran war handling",
+        "source": "CNBC",
+        "publishedAt": "2026-11-10T13:14:18Z"
+      },
+      {
         "title": "The Blue Wave Washed Across Much of America. But Not Here.",
         "source": "The New York Times",
         "publishedAt": "2026-11-10T10:03:03Z"
-      },
-      {
-        "title": "Democrats have gained control in more states. That could change the way the US elects its president",
-        "source": "AP News",
-        "publishedAt": "2026-11-10T05:03:00Z"
-      },
-      {
-        "title": "Post-midterm DOJ leadership shake-up continues",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-10T04:00:00Z"
-      },
-      {
-        "title": "Recount begins in Florida congressional race amid conflict-of-interest claim",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-10T03:20:00Z"
       }
     ]
   },
@@ -408,7 +372,7 @@
       },
       {
         "date": "2026-11-10",
-        "close": 56.78
+        "close": 56.98
       }
     ],
     "bayry": [
@@ -470,7 +434,7 @@
       },
       {
         "date": "2026-11-10",
-        "close": 15.83
+        "close": 15.86
       }
     ],
     "dax": [
@@ -532,7 +496,7 @@
       },
       {
         "date": "2026-11-10",
-        "close": 26466.8008
+        "close": 26420.7793
       }
     ]
   }
