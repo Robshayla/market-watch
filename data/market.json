@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-10T10:47:01Z",
+  "updatedAt": "2026-11-10T11:43:47Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1226",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1222",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.86,
+      "price": 56.76,
       "previousClose": 56.62,
-      "change": 0.24,
-      "changePct": 0.4239,
-      "asOf": "2026-11-10T10:31:42Z",
+      "change": 0.14,
+      "changePct": 0.2473,
+      "asOf": "2026-11-10T11:28:06Z",
       "digits": 2,
       "sparkline": [
         57.58,
@@ -51,8 +51,19 @@
         56.86,
         56.84,
         56.78,
-        56.79,
-        56.86
+        56.8,
+        56.8,
+        56.84,
+        56.92,
+        56.96,
+        56.9,
+        56.9,
+        56.9,
+        56.96,
+        56.94,
+        56.92,
+        56.8,
+        56.76
       ],
       "sessionDate": "2026-11-10"
     },
@@ -250,20 +261,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26568.58,
-      "change": 301.39,
-      "changePct": 1.1474,
+      "price": 26599.89,
+      "change": 332.7,
+      "changePct": 1.2666,
       "digits": 2,
-      "asOf": "2026-11-10T10:31:49Z"
+      "asOf": "2026-11-10T11:28:37Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1226,
-      "change": 0.0008,
-      "changePct": 0.0713,
+      "price": 1.1222,
+      "change": 0.0004,
+      "changePct": 0.0357,
       "digits": 4,
-      "asOf": "2026-11-10T10:46:31Z"
+      "asOf": "2026-11-10T11:43:32Z"
     }
   },
   "headlines": {
@@ -313,24 +324,24 @@
     ],
     "top": [
       {
-        "title": "Trump says he\u2019s keeping \u2018status quo\u2019 with Iran, with no need for new strikes",
+        "title": "Prince Harry's wife Meghan makes first public appearance since father charged",
+        "source": "Reuters",
+        "publishedAt": "2026-11-10T07:59:00Z"
+      },
+      {
+        "title": "Hegseth impeachment effort begins in House, focused on Iran war",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-10T07:40:22Z"
+        "publishedAt": "2026-11-10T07:43:47Z"
       },
       {
-        "title": "Here are some of the House seats that Democrats didn\u2019t expect to win this year",
-        "source": "AP News",
-        "publishedAt": "2026-11-10T05:06:00Z"
+        "title": "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
+        "source": "CNBC",
+        "publishedAt": "2026-11-10T06:58:32Z"
       },
       {
-        "title": "Democrats have gained control in more states. That could change the way the US elects its president",
-        "source": "AP News",
-        "publishedAt": "2026-11-10T05:03:00Z"
-      },
-      {
-        "title": "Senate advances sweeping energy legislation in first major action since midterm elections",
-        "source": "AP News",
-        "publishedAt": "2026-11-10T03:00:00Z"
+        "title": "California Voters Reject Prop. 40 Billionaire Tax Measure",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-10T05:47:00Z"
       }
     ]
   },
@@ -425,7 +436,7 @@
       },
       {
         "date": "2026-11-10",
-        "close": 56.86
+        "close": 56.78
       }
     ],
     "bayry": [
@@ -549,7 +560,7 @@
       },
       {
         "date": "2026-11-10",
-        "close": 26573.6309
+        "close": 26600.5996
       }
     ]
   }
