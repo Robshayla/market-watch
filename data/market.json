@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-10T13:51:02Z",
+  "updatedAt": "2026-11-10T14:45:18Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1193",
-    "Bayer ADR ratio check 4.02 ordinary shares"
+    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1186",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 57.1,
+      "price": 56.74,
       "previousClose": 56.62,
-      "change": 0.48,
-      "changePct": 0.8478,
-      "asOf": "2026-11-10T13:35:43Z",
+      "change": 0.12,
+      "changePct": 0.2119,
+      "asOf": "2026-11-10T14:30:00Z",
       "digits": 2,
       "sparkline": [
         57.58,
@@ -88,7 +88,18 @@
         57.32,
         57.14,
         57.12,
-        57.1
+        57.12,
+        57.06,
+        56.98,
+        56.96,
+        56.72,
+        56.74,
+        56.64,
+        56.66,
+        56.64,
+        56.76,
+        56.74,
+        56.74
       ],
       "sessionDate": "2026-11-10"
     },
@@ -268,38 +279,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7549.94,
-      "change": 173.08,
-      "changePct": 2.3463,
+      "price": 7512.18,
+      "change": -37.76,
+      "changePct": -0.5001,
       "digits": 2,
-      "asOf": "2026-11-09T22:12:50Z"
+      "asOf": "2026-11-10T14:45:05Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52389.75,
-      "change": 1104.05,
-      "changePct": 2.1527,
+      "price": 52195.99,
+      "change": -193.76,
+      "changePct": -0.3698,
       "digits": 2,
-      "asOf": "2026-11-09T22:12:54Z"
+      "asOf": "2026-11-10T14:45:04Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26573.18,
-      "change": 305.99,
-      "changePct": 1.1649,
+      "price": 26493.87,
+      "change": 226.68,
+      "changePct": 0.863,
       "digits": 2,
-      "asOf": "2026-11-10T13:35:51Z"
+      "asOf": "2026-11-10T14:30:06Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1193,
-      "change": -0.0025,
-      "changePct": -0.2229,
+      "price": 1.1186,
+      "change": -0.0032,
+      "changePct": -0.2853,
       "digits": 4,
-      "asOf": "2026-11-10T13:50:30Z"
+      "asOf": "2026-11-10T14:44:32Z"
     }
   },
   "headlines": {
@@ -349,9 +360,9 @@
     ],
     "top": [
       {
-        "title": "Hegseth to Hold Rare News Conference as Impeachment Vote Looms",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-10T11:49:37Z"
+        "title": "UN body agrees to postpone review of US rights record after Trump administration snub",
+        "source": "AP News",
+        "publishedAt": "2026-11-10T14:21:00Z"
       },
       {
         "title": "Trump's 2028 successors are already fighting over who to blame for GOP midterm wipeout",
@@ -461,14 +472,10 @@
       },
       {
         "date": "2026-11-10",
-        "close": 57.14
+        "close": 56.7
       }
     ],
     "bayry": [
-      {
-        "date": "2026-10-20",
-        "close": 12.21
-      },
       {
         "date": "2026-10-21",
         "close": 12.49
@@ -585,7 +592,7 @@
       },
       {
         "date": "2026-11-10",
-        "close": 26579.1699
+        "close": 26490.2598
       }
     ]
   }
