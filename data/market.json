@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-10T20:43:46Z",
+  "updatedAt": "2026-11-10T21:24:48Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.47 matched",
-    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1167",
-    "Bayer ADR ratio check 4.00 ordinary shares"
+    "Nasdaq last sale 125.50 matched",
+    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1168",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.95,
+      "price": 15.98,
       "previousClose": 15.91,
-      "change": 0.04,
-      "changePct": 0.2514,
-      "asOf": "2026-11-10T20:25:21Z",
+      "change": 0.07,
+      "changePct": 0.44,
+      "asOf": "2026-11-10T20:59:59Z",
       "digits": 2,
       "sparkline": [
         15.87,
@@ -163,7 +163,10 @@
         15.97,
         15.96,
         15.95,
-        15.95
+        15.95,
+        15.95,
+        15.95,
+        15.96
       ],
       "sessionDate": "2026-11-10"
     },
@@ -174,11 +177,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.47,
+      "price": 125.55,
       "previousClose": 125.66,
-      "change": -0.19,
-      "changePct": -0.1512,
-      "asOf": "2026-11-10T20:43:31Z",
+      "change": -0.11,
+      "changePct": -0.0875,
+      "asOf": "2026-11-10T21:00:00Z",
       "digits": 2,
       "sparkline": [
         125.935,
@@ -255,8 +258,11 @@
         125.56,
         125.605,
         125.56,
-        125.44,
-        125.47
+        125.43,
+        125.51,
+        125.57,
+        125.485,
+        125.55
       ],
       "sessionDate": "2026-11-10"
     }
@@ -265,20 +271,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7517.12,
-      "change": -32.82,
-      "changePct": -0.4347,
+      "price": 7520.93,
+      "change": -29.01,
+      "changePct": -0.3842,
       "digits": 2,
-      "asOf": "2026-11-10T20:43:35Z"
+      "asOf": "2026-11-10T21:20:01Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52220.09,
-      "change": -169.66,
-      "changePct": -0.3238,
+      "price": 52231.89,
+      "change": -157.86,
+      "changePct": -0.3013,
       "digits": 2,
-      "asOf": "2026-11-10T20:43:35Z"
+      "asOf": "2026-11-10T21:20:01Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -292,11 +298,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1167,
-      "change": -0.0051,
-      "changePct": -0.4546,
+      "price": 1.1168,
+      "change": -0.005,
+      "changePct": -0.4457,
       "digits": 4,
-      "asOf": "2026-11-10T20:43:29Z"
+      "asOf": "2026-11-10T21:24:30Z"
     }
   },
   "headlines": {
@@ -520,7 +526,7 @@
       },
       {
         "date": "2026-11-10",
-        "close": 15.95
+        "close": 15.98
       }
     ],
     "dax": [
