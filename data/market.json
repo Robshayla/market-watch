@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-10T18:10:11Z",
+  "updatedAt": "2026-11-10T19:02:39Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.97 matched",
-    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1159",
+    "Nasdaq last sale 125.91 matched",
+    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1167",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -117,7 +117,7 @@
       "previousClose": 15.91,
       "change": 0.03,
       "changePct": 0.1886,
-      "asOf": "2026-11-10T17:50:45Z",
+      "asOf": "2026-11-10T18:46:56Z",
       "digits": 2,
       "sparkline": [
         15.87,
@@ -142,6 +142,15 @@
         15.94,
         15.91,
         15.94,
+        15.94,
+        15.96,
+        15.93,
+        15.92,
+        15.93,
+        15.94,
+        15.94,
+        15.94,
+        15.94,
         15.94
       ],
       "sessionDate": "2026-11-10"
@@ -153,11 +162,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.97,
+      "price": 125.91,
       "previousClose": 125.66,
-      "change": 0.31,
-      "changePct": 0.2467,
-      "asOf": "2026-11-10T18:09:56Z",
+      "change": 0.25,
+      "changePct": 0.1989,
+      "asOf": "2026-11-10T19:02:22Z",
       "digits": 2,
       "sparkline": [
         125.935,
@@ -203,8 +212,19 @@
         126.1,
         126.045,
         126.07,
-        126.005,
-        125.97
+        125.97,
+        125.89,
+        125.83,
+        125.93,
+        126.055,
+        125.95,
+        125.9,
+        125.94,
+        125.93,
+        125.92,
+        125.9029,
+        125.9,
+        125.91
       ],
       "sessionDate": "2026-11-10"
     }
@@ -213,20 +233,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7484.43,
-      "change": -65.51,
-      "changePct": -0.8677,
+      "price": 7501.74,
+      "change": -48.2,
+      "changePct": -0.6384,
       "digits": 2,
-      "asOf": "2026-11-10T18:10:00Z"
+      "asOf": "2026-11-10T19:02:26Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52074.79,
-      "change": -314.96,
-      "changePct": -0.6012,
+      "price": 52160.36,
+      "change": -229.39,
+      "changePct": -0.4379,
       "digits": 2,
-      "asOf": "2026-11-10T18:10:00Z"
+      "asOf": "2026-11-10T19:02:26Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -240,11 +260,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1159,
-      "change": -0.0059,
-      "changePct": -0.5259,
+      "price": 1.1167,
+      "change": -0.0051,
+      "changePct": -0.4546,
       "digits": 4,
-      "asOf": "2026-11-10T18:09:31Z"
+      "asOf": "2026-11-10T19:01:32Z"
     }
   },
   "headlines": {
@@ -287,31 +307,31 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "Walmart class action lawsuit claims Equate sleep aids are habit-forming",
-        "source": "Top Class Actions",
-        "publishedAt": "2026-11-10T17:02:25Z"
+        "title": "Walmart Unlikely to Deliver 'Significant' Upside Surprise; Target Set for Quarterly Beat, RBC Says",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-10T18:49:47Z"
       }
     ],
     "top": [
+      {
+        "title": "Defiant Hegseth blasts impeachment effort ahead of House vote",
+        "source": "Reuters",
+        "publishedAt": "2026-11-10T17:47:50Z"
+      },
+      {
+        "title": "Ole Miss Investigates White Students Who Made Racist Gestures in Video",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-10T17:32:57Z"
+      },
       {
         "title": "Democrats have gained control in more states. That could change the way the US elects its president",
         "source": "AP News",
         "publishedAt": "2026-11-10T17:22:00Z"
       },
       {
-        "title": "\u2018I Know How Much You Love the American People,\u2019 Trump Told Biden in 2021 Letter",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-10T17:00:05Z"
-      },
-      {
-        "title": "Judge orders UC Berkeley student released from ICE custody",
-        "source": "AP News",
-        "publishedAt": "2026-11-10T16:23:57Z"
-      },
-      {
-        "title": "Michael Bloomberg Marries Diana Taylor, a Merger 25 Years in the Making",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-10T14:02:00Z"
+        "title": "A week after huge election losses, Republicans to choose their leaders in Congress",
+        "source": "Reuters",
+        "publishedAt": "2026-11-10T17:13:12Z"
       }
     ]
   },
