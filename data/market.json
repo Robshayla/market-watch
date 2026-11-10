@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-10T08:59:55Z",
+  "updatedAt": "2026-11-10T09:54:23Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 125.66 matched",
-    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1254",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1228",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.66,
+      "price": 56.7,
       "previousClose": 56.62,
-      "change": 0.04,
-      "changePct": 0.0706,
-      "asOf": "2026-11-10T08:44:22Z",
+      "change": 0.08,
+      "changePct": 0.1413,
+      "asOf": "2026-11-10T09:38:11Z",
       "digits": 2,
       "sparkline": [
         57.58,
@@ -30,8 +29,19 @@
         56.44,
         56.54,
         56.64,
-        56.66,
-        56.66
+        56.6,
+        56.62,
+        56.82,
+        56.84,
+        56.88,
+        56.82,
+        56.88,
+        56.88,
+        56.88,
+        56.82,
+        56.78,
+        56.7,
+        56.7
       ],
       "sessionDate": "2026-11-10"
     },
@@ -229,20 +239,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26535.19,
-      "change": 268.0,
-      "changePct": 1.0203,
+      "price": 26548.76,
+      "change": 281.57,
+      "changePct": 1.0719,
       "digits": 2,
-      "asOf": "2026-11-10T08:44:42Z"
+      "asOf": "2026-11-10T09:39:11Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1254,
-      "change": 0.0036,
-      "changePct": 0.3209,
+      "price": 1.1228,
+      "change": 0.001,
+      "changePct": 0.0891,
       "digits": 4,
-      "asOf": "2026-11-10T08:59:29Z"
+      "asOf": "2026-11-10T09:53:30Z"
     }
   },
   "headlines": {
@@ -250,7 +260,7 @@
       {
         "title": "Bayer Wins US Approval for Potential Blockbuster Stroke Drug",
         "source": "Bloomberg",
-        "publishedAt": "2026-11-09T22:38:41Z"
+        "publishedAt": "2026-11-10T08:11:03Z"
       },
       {
         "title": "US FDA approves Bayer's blood thinner to prevent repeat strokes",
@@ -285,9 +295,9 @@
         "publishedAt": "2026-11-05T13:58:17Z"
       },
       {
-        "title": "AI shopping agents could threaten Amazon and Walmart's ad business",
-        "source": "Reuters",
-        "publishedAt": "2026-11-04T15:37:45Z"
+        "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
+        "source": "CNBC",
+        "publishedAt": "2026-08-20T07:00:00Z"
       }
     ],
     "top": [
@@ -404,7 +414,7 @@
       },
       {
         "date": "2026-11-10",
-        "close": 56.6
+        "close": 56.7
       }
     ],
     "bayry": [
@@ -528,7 +538,7 @@
       },
       {
         "date": "2026-11-10",
-        "close": 26533.0508
+        "close": 26549.9805
       }
     ]
   }
