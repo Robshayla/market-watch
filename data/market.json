@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-10T09:54:23Z",
+  "updatedAt": "2026-11-10T10:47:01Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1228",
-    "Bayer ADR ratio check 4.00 ordinary shares"
+    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1226",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.7,
+      "price": 56.86,
       "previousClose": 56.62,
-      "change": 0.08,
-      "changePct": 0.1413,
-      "asOf": "2026-11-10T09:38:11Z",
+      "change": 0.24,
+      "changePct": 0.4239,
+      "asOf": "2026-11-10T10:31:42Z",
       "digits": 2,
       "sparkline": [
         57.58,
@@ -41,7 +41,18 @@
         56.82,
         56.78,
         56.7,
-        56.7
+        56.74,
+        56.72,
+        56.74,
+        56.72,
+        56.76,
+        56.86,
+        56.78,
+        56.86,
+        56.84,
+        56.78,
+        56.79,
+        56.86
       ],
       "sessionDate": "2026-11-10"
     },
@@ -239,20 +250,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26548.76,
-      "change": 281.57,
-      "changePct": 1.0719,
+      "price": 26568.58,
+      "change": 301.39,
+      "changePct": 1.1474,
       "digits": 2,
-      "asOf": "2026-11-10T09:39:11Z"
+      "asOf": "2026-11-10T10:31:49Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1228,
-      "change": 0.001,
-      "changePct": 0.0891,
+      "price": 1.1226,
+      "change": 0.0008,
+      "changePct": 0.0713,
       "digits": 4,
-      "asOf": "2026-11-10T09:53:30Z"
+      "asOf": "2026-11-10T10:46:31Z"
     }
   },
   "headlines": {
@@ -307,9 +318,9 @@
         "publishedAt": "2026-11-10T07:40:22Z"
       },
       {
-        "title": "California Voters Reject Prop. 40 Billionaire Tax Measure",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-10T05:47:00Z"
+        "title": "Here are some of the House seats that Democrats didn\u2019t expect to win this year",
+        "source": "AP News",
+        "publishedAt": "2026-11-10T05:06:00Z"
       },
       {
         "title": "Democrats have gained control in more states. That could change the way the US elects its president",
@@ -414,7 +425,7 @@
       },
       {
         "date": "2026-11-10",
-        "close": 56.7
+        "close": 56.86
       }
     ],
     "bayry": [
@@ -538,7 +549,7 @@
       },
       {
         "date": "2026-11-10",
-        "close": 26549.9805
+        "close": 26573.6309
       }
     ]
   }
