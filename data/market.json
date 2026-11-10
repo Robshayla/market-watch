@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-09T22:45:48Z",
+  "updatedAt": "2026-11-10T08:04:11Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1221",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "Nasdaq last sale 125.66 matched",
+    "ECB reference 1.1193 on 2026-11-09 vs Yahoo spot 1.1245",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,9 +16,9 @@
       "currency": "EUR",
       "session": "xetra",
       "price": 56.62,
-      "previousClose": 55.58,
-      "change": 1.04,
-      "changePct": 1.8712,
+      "previousClose": 56.62,
+      "change": 0.0,
+      "changePct": 0.0,
       "asOf": "2026-11-09T16:38:43Z",
       "digits": 2,
       "sparkline": [
@@ -116,7 +117,7 @@
       "previousClose": 15.33,
       "change": 0.58,
       "changePct": 3.7834,
-      "asOf": "2026-11-09T20:59:59Z",
+      "asOf": "2026-11-09T21:00:00Z",
       "digits": 2,
       "sparkline": [
         15.54,
@@ -187,11 +188,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.54,
+      "price": 125.66,
       "previousClose": 125.52,
-      "change": 0.02,
-      "changePct": 0.0159,
-      "asOf": "2026-11-09T20:33:56Z",
+      "change": 0.14,
+      "changePct": 0.1115,
+      "asOf": "2026-11-09T21:00:00Z",
       "digits": 2,
       "sparkline": [
         124.395,
@@ -266,8 +267,13 @@
         125.67,
         125.69,
         125.75,
-        125.585,
-        125.54
+        125.65,
+        125.72,
+        125.7195,
+        125.77,
+        125.735,
+        125.61,
+        125.66
       ],
       "sessionDate": "2026-11-09"
     }
@@ -286,7 +292,7 @@
       "symbol": "^DJI",
       "name": "DOW",
       "price": 52389.75,
-      "change": 1104.02,
+      "change": 1104.05,
       "changePct": 2.1527,
       "digits": 2,
       "asOf": "2026-11-09T22:12:54Z"
@@ -303,15 +309,20 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1221,
-      "change": 0.0078,
-      "changePct": 0.7,
+      "price": 1.1245,
+      "change": 0.0027,
+      "changePct": 0.2407,
       "digits": 4,
-      "asOf": "2026-11-09T22:45:32Z"
+      "asOf": "2026-11-10T08:03:33Z"
     }
   },
   "headlines": {
     "bayer": [
+      {
+        "title": "Bayer Wins US Approval for Potential Blockbuster Stroke Drug",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-09T22:38:41Z"
+      },
       {
         "title": "US FDA approves Bayer's blood thinner to prevent repeat strokes",
         "source": "Reuters",
@@ -326,11 +337,6 @@
         "title": "Bayer raises 2026 profit outlook as pharma business beats expectations",
         "source": "Reuters",
         "publishedAt": "2026-11-03T17:29:41Z"
-      },
-      {
-        "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-11-03T16:27:31Z"
       }
     ],
     "walmart": [
@@ -357,24 +363,24 @@
     ],
     "top": [
       {
-        "title": "Michael Bloomberg Marries Diana Taylor, a Merger 25 Years in the Making",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-09T22:19:03Z"
-      },
-      {
-        "title": "Republican Thomas Massie will force impeachment vote on Defence Secretary Pete Hegseth",
-        "source": "BBC",
-        "publishedAt": "2026-11-09T21:37:02Z"
-      },
-      {
-        "title": "Supreme Court Allows Construction of Trump\u2019s Border Wall in Big Bend",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-09T21:36:00Z"
-      },
-      {
-        "title": "Lost draft of Martin Luther King Jr.\u2019s \u2018I Have a Dream\u2019 speech rediscovered",
+        "title": "Hegseth impeachment effort begins in House, focused on Iran war",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-09T20:32:52Z"
+        "publishedAt": "2026-11-10T07:43:47Z"
+      },
+      {
+        "title": "California Voters Reject Prop. 40 Billionaire Tax Measure",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-10T05:47:00Z"
+      },
+      {
+        "title": "US-Iran war: Trump says more US attacks on Iran 'highly unlikely'",
+        "source": "BBC",
+        "publishedAt": "2026-11-10T05:33:25Z"
+      },
+      {
+        "title": "Democrats have gained control in more states. That could change the way the US elects its president",
+        "source": "AP News",
+        "publishedAt": "2026-11-10T05:03:00Z"
       }
     ]
   },
@@ -402,19 +408,15 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T10:54:24Z",
+      "title": "Bayer Q3 2026 Earnings Call Is Live",
+      "source": "TradingView",
+      "publishedAt": "2026-11-03T12:57:04Z",
       "release": true
     }
   ],
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-10-20",
-        "close": 43.48
-      },
       {
         "date": "2026-10-21",
         "close": 44.63
@@ -466,10 +468,6 @@
       {
         "date": "2026-11-06",
         "close": 55.58
-      },
-      {
-        "date": "2026-11-09",
-        "close": 56.62
       }
     ],
     "bayry": [
@@ -535,10 +533,6 @@
       }
     ],
     "dax": [
-      {
-        "date": "2026-10-20",
-        "close": 25304.4199
-      },
       {
         "date": "2026-10-21",
         "close": 25645.0391
