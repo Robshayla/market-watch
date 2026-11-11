@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-11T10:07:51Z",
+  "updatedAt": "2026-11-11T11:08:30Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
     "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1142",
-    "Bayer ADR ratio check 3.96 ordinary shares"
+    "Bayer ADR ratio check 3.97 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.8,
+      "price": 56.9,
       "previousClose": 57.08,
-      "change": -0.28,
-      "changePct": -0.4905,
-      "asOf": "2026-11-11T09:52:36Z",
+      "change": -0.18,
+      "changePct": -0.3153,
+      "asOf": "2026-11-11T10:53:14Z",
       "digits": 2,
       "sparkline": [
         57.22,
@@ -43,8 +43,20 @@
         56.84,
         56.86,
         56.84,
-        56.78,
-        56.8
+        56.84,
+        56.84,
+        56.94,
+        56.86,
+        56.9,
+        56.9,
+        56.88,
+        56.88,
+        56.88,
+        56.82,
+        56.9,
+        56.86,
+        56.92,
+        56.9
       ],
       "sessionDate": "2026-11-11"
     },
@@ -232,11 +244,11 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26516.67,
-      "change": 169.22,
-      "changePct": 0.6423,
+      "price": 26544.43,
+      "change": 196.98,
+      "changePct": 0.7476,
       "digits": 2,
-      "asOf": "2026-11-11T09:52:41Z"
+      "asOf": "2026-11-11T10:53:20Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
@@ -245,7 +257,7 @@
       "change": -0.0025,
       "changePct": -0.2239,
       "digits": 4,
-      "asOf": "2026-11-11T10:07:30Z"
+      "asOf": "2026-11-11T11:07:31Z"
     }
   },
   "headlines": {
@@ -295,24 +307,24 @@
     ],
     "top": [
       {
+        "title": "Police investigate whether burned Ohio State University students were victims of hazing",
+        "source": "AP News",
+        "publishedAt": "2026-11-11T09:43:02Z"
+      },
+      {
         "title": "Hegseth Impeachment Effort Is Derailed by House Republicans",
         "source": "The New York Times",
         "publishedAt": "2026-11-11T07:32:00Z"
       },
       {
-        "title": "U.S. Army officer arrested in U.K. on suspicion of trying to steal secrets for Russia",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-11T05:17:33Z"
+        "title": "Trump Trots Out His Chaotic Greatest Hits to a Weary Public",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-11T06:20:00Z"
       },
       {
         "title": "Kennedy family sues to stop Trump\u2019s arch, citing shadow on JFK\u2019s grave",
         "source": "The Washington Post",
         "publishedAt": "2026-11-11T05:12:00Z"
-      },
-      {
-        "title": "Immigration arrests go on unabated despite Trump's misgivings after the GOP's midterm wipeout",
-        "source": "AP News",
-        "publishedAt": "2026-11-11T05:03:00Z"
       }
     ]
   },
@@ -407,7 +419,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 56.8
+        "close": 56.9
       }
     ],
     "bayry": [
@@ -531,7 +543,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 26517.3008
+        "close": 26543.9902
       }
     ]
   }
