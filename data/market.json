@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-11T14:29:26Z",
+  "updatedAt": "2026-11-11T15:19:34Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1093",
-    "Bayer ADR ratio check 3.93 ordinary shares"
+    "Nasdaq last sale 124.21 matched",
+    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1098",
+    "Bayer ADR ratio check 3.94 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.56,
+      "price": 56.74,
       "previousClose": 57.08,
-      "change": -0.52,
-      "changePct": -0.911,
-      "asOf": "2026-11-11T14:12:07Z",
+      "change": -0.34,
+      "changePct": -0.5957,
+      "asOf": "2026-11-11T15:04:16Z",
       "digits": 2,
       "sparkline": [
         57.22,
@@ -35,7 +36,6 @@
         56.96,
         56.86,
         56.88,
-        56.92,
         56.86,
         56.84,
         56.86,
@@ -51,7 +51,6 @@
         56.9,
         56.88,
         56.88,
-        56.88,
         56.82,
         56.9,
         56.86,
@@ -63,7 +62,6 @@
         56.66,
         56.64,
         56.54,
-        56.32,
         56.36,
         56.32,
         56.44,
@@ -78,7 +76,6 @@
         56.54,
         56.46,
         56.32,
-        56.26,
         56.32,
         56.28,
         56.3,
@@ -93,10 +90,18 @@
         56.44,
         56.46,
         56.56,
-        56.56,
         56.6,
+        56.56,
+        56.52,
         56.58,
-        56.56
+        56.6,
+        56.66,
+        56.7,
+        56.72,
+        56.76,
+        56.68,
+        56.78,
+        56.72
       ],
       "sessionDate": "2026-11-11"
     },
@@ -172,132 +177,64 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.55,
-      "previousClose": 125.66,
-      "change": -0.11,
-      "changePct": -0.0875,
-      "asOf": "2026-11-10T21:00:00Z",
+      "price": 124.21,
+      "previousClose": 125.55,
+      "change": -1.34,
+      "changePct": -1.0673,
+      "asOf": "2026-11-11T15:19:19Z",
       "digits": 2,
       "sparkline": [
-        125.935,
-        125.4,
-        125.3,
-        125.285,
-        124.67,
-        124.72,
-        125.115,
-        124.9,
-        125.055,
-        125.09,
-        125.075,
-        125.075,
-        125.225,
-        125.5,
-        125.38,
-        125.5601,
+        125.28,
+        125.791,
+        125.975,
         125.65,
-        125.61,
-        125.34,
-        125.43,
-        125.475,
-        125.58,
-        125.515,
-        125.55,
-        125.595,
-        125.895,
-        125.93,
-        126.01,
-        125.9197,
-        125.975,
-        126.03,
-        126.16,
-        125.995,
-        125.97,
-        126.07,
-        126.115,
-        126.17,
-        126.21,
-        126.1733,
-        126.17,
-        126.1,
-        126.045,
-        126.07,
-        125.97,
-        125.89,
-        125.83,
-        125.93,
-        126.055,
-        125.95,
-        125.9,
-        125.94,
-        125.93,
-        125.92,
-        125.9029,
-        125.91,
-        125.83,
-        125.795,
-        125.88,
-        125.975,
-        126.01,
-        126.01,
-        126.045,
-        126.06,
-        126.0174,
-        125.965,
-        125.975,
-        125.98,
-        125.94,
-        125.82,
-        125.83,
-        125.645,
-        125.56,
-        125.605,
-        125.56,
-        125.43,
-        125.51,
-        125.57,
-        125.48,
-        125.55
+        125.24,
+        124.695,
+        124.48,
+        124.06,
+        124.405,
+        124.295,
+        124.21
       ],
-      "sessionDate": "2026-11-10"
+      "sessionDate": "2026-11-11"
     }
   },
   "ticker": {
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7520.93,
-      "change": -29.01,
-      "changePct": -0.3842,
+      "price": 7581.68,
+      "change": 60.75,
+      "changePct": 0.8077,
       "digits": 2,
-      "asOf": "2026-11-10T22:00:31Z"
+      "asOf": "2026-11-11T15:19:21Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52231.89,
-      "change": -157.91,
-      "changePct": -0.3014,
+      "price": 52106.68,
+      "change": -125.21,
+      "changePct": -0.2397,
       "digits": 2,
-      "asOf": "2026-11-10T22:00:40Z"
+      "asOf": "2026-11-11T15:19:21Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26578.03,
-      "change": 230.58,
-      "changePct": 0.8752,
+      "price": 26592.48,
+      "change": 245.03,
+      "changePct": 0.93,
       "digits": 2,
-      "asOf": "2026-11-11T14:14:14Z"
+      "asOf": "2026-11-11T15:04:21Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1093,
-      "change": -0.0074,
-      "changePct": -0.6627,
+      "price": 1.1098,
+      "change": -0.0069,
+      "changePct": -0.6179,
       "digits": 4,
-      "asOf": "2026-11-11T14:28:30Z"
+      "asOf": "2026-11-11T15:18:31Z"
     }
   },
   "headlines": {
@@ -340,31 +277,31 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "Kiley Pulley Walmart career: How a college dropout went from cashier to store manager, bought a house and",
-        "source": "The Economic Times",
-        "publishedAt": "2026-11-11T13:38:19Z"
+        "title": "Employees, customers evacuate from Oldsmar Walmart after gas leak",
+        "source": "WFLA",
+        "publishedAt": "2026-11-11T14:19:37Z"
       }
     ],
     "top": [
       {
-        "title": "U.S. Army officer arrested in U.K. on suspicion of trying to steal secrets for Russia",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-11T12:19:33Z"
+        "title": "More than a dozen key races remain too early to call one week after Election Day",
+        "source": "AP News",
+        "publishedAt": "2026-11-11T13:59:00Z"
       },
       {
-        "title": "Federal judge denies motion to dismiss Trump's defamation case against the BBC",
-        "source": "CBS News",
-        "publishedAt": "2026-11-11T11:07:24Z"
+        "title": "U.S. Army officer arrested in U.K. on suspicion of trying to steal secrets for Russia",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-11T13:49:33Z"
+      },
+      {
+        "title": "Russian-Diesel Plan Founders as U.S.-Bound Tankers Change Course",
+        "source": "WSJ",
+        "publishedAt": "2026-11-11T11:55:00Z"
       },
       {
         "title": "This ocean liner was the world\u2019s fastest. It\u2019s being sunk to make the largest artificial reef",
         "source": "AP News",
         "publishedAt": "2026-11-11T11:07:00Z"
-      },
-      {
-        "title": "Trump to Visit Arlington Cemetery as His Proposed Arch Faces Growing Opposition",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-11T10:03:55Z"
       }
     ]
   },
@@ -378,9 +315,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com Nigeria",
+      "publishedAt": "2026-11-03T18:50:36Z",
       "release": true
     },
     {
@@ -459,14 +396,10 @@
       },
       {
         "date": "2026-11-11",
-        "close": 56.56
+        "close": 56.74
       }
     ],
     "bayry": [
-      {
-        "date": "2026-10-21",
-        "close": 12.49
-      },
       {
         "date": "2026-10-22",
         "close": 12.4
@@ -522,6 +455,10 @@
       {
         "date": "2026-11-10",
         "close": 15.98
+      },
+      {
+        "date": "2026-11-11",
+        "close": 15.67
       }
     ],
     "dax": [
@@ -583,7 +520,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 26574.7695
+        "close": 26589.1191
       }
     ]
   }
