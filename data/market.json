@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-11T11:08:30Z",
+  "updatedAt": "2026-11-11T12:02:50Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1142",
-    "Bayer ADR ratio check 3.97 ordinary shares"
+    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1138",
+    "Bayer ADR ratio check 3.93 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.9,
+      "price": 56.36,
       "previousClose": 57.08,
-      "change": -0.18,
-      "changePct": -0.3153,
-      "asOf": "2026-11-11T10:53:14Z",
+      "change": -0.72,
+      "changePct": -1.2614,
+      "asOf": "2026-11-11T11:47:00Z",
       "digits": 2,
       "sparkline": [
         57.22,
@@ -55,8 +55,19 @@
         56.82,
         56.9,
         56.86,
-        56.92,
-        56.9
+        56.88,
+        56.82,
+        56.78,
+        56.54,
+        56.66,
+        56.66,
+        56.64,
+        56.54,
+        56.32,
+        56.36,
+        56.32,
+        56.34,
+        56.36
       ],
       "sessionDate": "2026-11-11"
     },
@@ -244,20 +255,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26544.43,
-      "change": 196.98,
-      "changePct": 0.7476,
+      "price": 26535.35,
+      "change": 187.9,
+      "changePct": 0.7132,
       "digits": 2,
-      "asOf": "2026-11-11T10:53:20Z"
+      "asOf": "2026-11-11T11:47:37Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1142,
-      "change": -0.0025,
-      "changePct": -0.2239,
+      "price": 1.1138,
+      "change": -0.0029,
+      "changePct": -0.2597,
       "digits": 4,
-      "asOf": "2026-11-11T11:07:31Z"
+      "asOf": "2026-11-11T12:02:32Z"
     }
   },
   "headlines": {
@@ -300,31 +311,31 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "Walmart Stock (WMT) Slips Despite Price Target Upgrades Ahead of Q3 Earnings Next Week",
-        "source": "TipRanks",
-        "publishedAt": "2026-11-10T22:02:18Z"
+        "title": "BofA raises Walmart stock price target on share gains outlook",
+        "source": "Investing",
+        "publishedAt": "2026-11-11T11:32:21Z"
       }
     ],
     "top": [
+      {
+        "title": "Honor and Anguish: A Veterans Day When the Losses Are New",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-11T10:03:43Z"
+      },
       {
         "title": "Police investigate whether burned Ohio State University students were victims of hazing",
         "source": "AP News",
         "publishedAt": "2026-11-11T09:43:02Z"
       },
       {
-        "title": "Hegseth Impeachment Effort Is Derailed by House Republicans",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-11T07:32:00Z"
-      },
-      {
-        "title": "Trump Trots Out His Chaotic Greatest Hits to a Weary Public",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-11T06:20:00Z"
-      },
-      {
-        "title": "Kennedy family sues to stop Trump\u2019s arch, citing shadow on JFK\u2019s grave",
+        "title": "U.S. Army officer arrested in U.K. on suspicion of trying to steal secrets for Russia",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-11T05:12:00Z"
+        "publishedAt": "2026-11-11T05:17:33Z"
+      },
+      {
+        "title": "Immigration arrests go on unabated despite Trump's misgivings after the GOP's midterm wipeout",
+        "source": "AP News",
+        "publishedAt": "2026-11-11T05:03:00Z"
       }
     ]
   },
@@ -419,7 +430,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 56.9
+        "close": 56.42
       }
     ],
     "bayry": [
@@ -543,7 +554,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 26543.9902
+        "close": 26537.8008
       }
     ]
   }
