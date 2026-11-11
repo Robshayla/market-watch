@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-11T17:27:08Z",
+  "updatedAt": "2026-11-11T18:18:57Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 124.55 matched",
-    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1095",
-    "Bayer ADR ratio check 4.02 ordinary shares"
+    "Nasdaq last sale 124.51 matched",
+    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1098",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.65,
+      "price": 15.69,
       "previousClose": 15.98,
-      "change": -0.33,
-      "changePct": -2.0651,
-      "asOf": "2026-11-11T16:29:26Z",
+      "change": -0.29,
+      "changePct": -1.8148,
+      "asOf": "2026-11-11T17:52:39Z",
       "digits": 2,
       "sparkline": [
         15.66,
@@ -133,7 +133,10 @@
         15.63,
         15.63,
         15.65,
-        15.65
+        15.69,
+        15.68,
+        15.7,
+        15.69
       ],
       "sessionDate": "2026-11-11"
     },
@@ -144,11 +147,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 124.55,
+      "price": 124.52,
       "previousClose": 125.55,
-      "change": -1.0,
-      "changePct": -0.7965,
-      "asOf": "2026-11-11T17:26:50Z",
+      "change": -1.03,
+      "changePct": -0.8204,
+      "asOf": "2026-11-11T18:18:41Z",
       "digits": 2,
       "sparkline": [
         125.28,
@@ -186,8 +189,18 @@
         124.525,
         124.48,
         124.585,
-        124.58,
-        124.545
+        124.63,
+        124.36,
+        124.27,
+        124.42,
+        124.4,
+        124.47,
+        124.53,
+        124.48,
+        124.555,
+        124.45,
+        124.5,
+        124.515
       ],
       "sessionDate": "2026-11-11"
     }
@@ -196,20 +209,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7630.81,
-      "change": 109.88,
-      "changePct": 1.461,
+      "price": 7638.0,
+      "change": 117.07,
+      "changePct": 1.5566,
       "digits": 2,
-      "asOf": "2026-11-11T17:26:54Z"
+      "asOf": "2026-11-11T18:18:46Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52350.65,
-      "change": 118.76,
-      "changePct": 0.2274,
+      "price": 52441.6,
+      "change": 209.71,
+      "changePct": 0.4015,
       "digits": 2,
-      "asOf": "2026-11-11T17:26:54Z"
+      "asOf": "2026-11-11T18:18:46Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -223,11 +236,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1095,
-      "change": -0.0072,
-      "changePct": -0.6448,
+      "price": 1.1098,
+      "change": -0.0069,
+      "changePct": -0.6179,
       "digits": 4,
-      "asOf": "2026-11-11T17:26:34Z"
+      "asOf": "2026-11-11T18:18:30Z"
     }
   },
   "headlines": {
@@ -267,34 +280,34 @@
       {
         "title": "When do Black Friday sales actually start? Official sale times for Amazon, Walmart, Best Buy, Target",
         "source": "Mashable",
-        "publishedAt": "2026-11-11T15:59:43Z"
+        "publishedAt": "2026-11-11T17:34:50Z"
       },
       {
-        "title": "Walmart Poised for Continued Growth Amid Market Share Gains, BofA Says",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-11T15:46:05Z"
+        "title": "Walmart\u2019s viral twinkle Christas trees are back in stock - Starting at just $43",
+        "source": "PennLive",
+        "publishedAt": "2026-11-11T17:01:00Z"
       }
     ],
     "top": [
       {
-        "title": "White House Threatens Congress, Saying Aggressive Investigations Could Be Crime",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-11T16:15:13Z"
-      },
-      {
-        "title": "Trump Visits Arlington Cemetery as His Proposed Arch Faces Growing Opposition",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-11T16:12:52Z"
-      },
-      {
-        "title": "U.S. Army officer arrested in U.K. on suspicion of trying to steal secrets for Russia",
+        "title": "Flying by pricey military jet, Rubio rarely misses a Florida football game",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-11T15:32:47Z"
+        "publishedAt": "2026-11-11T17:32:44Z"
       },
       {
-        "title": "Chuck Schumer and Hakeem Jeffries are not meeting the moment",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-11T15:30:27Z"
+        "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+        "source": "BBC",
+        "publishedAt": "2026-11-11T16:24:06Z"
+      },
+      {
+        "title": "For Families of Those Who Died in the Iran War, a Veterans Day of Profound Loss",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-11T16:09:40Z"
+      },
+      {
+        "title": "The Moderates Who Chose Democrats. For Now.",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-11T16:04:44Z"
       }
     ]
   },
@@ -308,9 +321,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com Nigeria",
+      "publishedAt": "2026-11-03T18:50:36Z",
       "release": true
     },
     {
@@ -451,7 +464,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 15.65
+        "close": 15.69
       }
     ],
     "dax": [
