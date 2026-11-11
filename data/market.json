@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-11T15:19:34Z",
+  "updatedAt": "2026-11-11T16:22:35Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "Nasdaq last sale 124.21 matched",
-    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1098",
-    "Bayer ADR ratio check 3.94 ordinary shares"
+    "Nasdaq last sale 124.37 matched",
+    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1099",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.74,
+      "price": 56.5,
       "previousClose": 57.08,
-      "change": -0.34,
-      "changePct": -0.5957,
-      "asOf": "2026-11-11T15:04:16Z",
+      "change": -0.58,
+      "changePct": -1.0161,
+      "asOf": "2026-11-11T16:07:16Z",
       "digits": 2,
       "sparkline": [
         57.22,
@@ -27,51 +27,44 @@
         57.18,
         57.24,
         57.22,
-        57.1,
         57.06,
         57.14,
         57.08,
         56.96,
-        57.0,
         56.96,
         56.86,
         56.88,
-        56.86,
+        56.92,
         56.84,
         56.86,
         56.82,
         56.84,
-        56.86,
         56.84,
         56.84,
         56.84,
         56.94,
         56.86,
         56.9,
-        56.9,
         56.88,
         56.88,
-        56.82,
+        56.88,
         56.9,
         56.86,
         56.88,
         56.82,
-        56.78,
         56.54,
         56.66,
         56.66,
         56.64,
-        56.54,
+        56.32,
         56.36,
         56.32,
         56.44,
-        56.46,
         56.44,
         56.42,
         56.46,
         56.52,
         56.48,
-        56.52,
         56.54,
         56.54,
         56.46,
@@ -81,11 +74,9 @@
         56.3,
         56.36,
         56.4,
-        56.4,
         56.36,
         56.42,
         56.42,
-        56.46,
         56.38,
         56.44,
         56.46,
@@ -95,13 +86,22 @@
         56.52,
         56.58,
         56.6,
-        56.66,
         56.7,
         56.72,
         56.76,
         56.68,
+        56.74,
+        56.62,
+        56.76,
+        56.74,
         56.78,
-        56.72
+        56.76,
+        56.66,
+        56.72,
+        56.68,
+        56.68,
+        56.52,
+        56.5
       ],
       "sessionDate": "2026-11-11"
     },
@@ -112,63 +112,24 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.98,
-      "previousClose": 15.91,
-      "change": 0.07,
-      "changePct": 0.44,
-      "asOf": "2026-11-10T21:00:00Z",
+      "price": 15.64,
+      "previousClose": 15.98,
+      "change": -0.34,
+      "changePct": -2.1277,
+      "asOf": "2026-11-11T16:02:48Z",
       "digits": 2,
       "sparkline": [
-        15.87,
-        15.84,
-        15.84,
-        15.84,
-        15.83,
-        15.9,
-        15.9,
-        15.87,
-        15.89,
-        15.86,
-        15.89,
-        15.85,
-        15.86,
-        15.89,
-        15.89,
-        15.9,
-        15.91,
-        15.93,
-        15.94,
-        15.94,
-        15.91,
-        15.94,
-        15.94,
-        15.96,
-        15.93,
-        15.92,
-        15.93,
-        15.94,
-        15.94,
-        15.94,
-        15.94,
-        15.94,
-        15.95,
-        15.95,
-        15.98,
-        15.97,
-        15.98,
-        15.98,
-        15.98,
-        15.98,
-        15.97,
-        15.96,
-        15.95,
-        15.95,
-        15.95,
-        15.95,
-        15.96,
-        15.98
+        15.66,
+        15.69,
+        15.67,
+        15.67,
+        15.66,
+        15.68,
+        15.66,
+        15.67,
+        15.64
       ],
-      "sessionDate": "2026-11-10"
+      "sessionDate": "2026-11-11"
     },
     "wmt": {
       "symbol": "WMT",
@@ -177,11 +138,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 124.21,
+      "price": 124.37,
       "previousClose": 125.55,
-      "change": -1.34,
-      "changePct": -1.0673,
-      "asOf": "2026-11-11T15:19:19Z",
+      "change": -1.18,
+      "changePct": -0.9399,
+      "asOf": "2026-11-11T16:22:17Z",
       "digits": 2,
       "sparkline": [
         125.28,
@@ -193,8 +154,21 @@
         124.48,
         124.06,
         124.405,
-        124.295,
-        124.21
+        124.21,
+        124.13,
+        124.095,
+        124.04,
+        123.945,
+        124.11,
+        124.105,
+        124.095,
+        124.06,
+        124.22,
+        124.41,
+        124.41,
+        124.45,
+        124.4,
+        124.37
       ],
       "sessionDate": "2026-11-11"
     }
@@ -203,47 +177,42 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7581.68,
-      "change": 60.75,
-      "changePct": 0.8077,
+      "price": 7610.61,
+      "change": 89.68,
+      "changePct": 1.1924,
       "digits": 2,
-      "asOf": "2026-11-11T15:19:21Z"
+      "asOf": "2026-11-11T16:22:20Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52106.68,
-      "change": -125.21,
-      "changePct": -0.2397,
+      "price": 52251.53,
+      "change": 19.64,
+      "changePct": 0.0376,
       "digits": 2,
-      "asOf": "2026-11-11T15:19:21Z"
+      "asOf": "2026-11-11T16:22:21Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26592.48,
-      "change": 245.03,
-      "changePct": 0.93,
+      "price": 26628.59,
+      "change": 281.14,
+      "changePct": 1.067,
       "digits": 2,
-      "asOf": "2026-11-11T15:04:21Z"
+      "asOf": "2026-11-11T16:07:21Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1098,
-      "change": -0.0069,
-      "changePct": -0.6179,
+      "price": 1.1099,
+      "change": -0.0068,
+      "changePct": -0.6089,
       "digits": 4,
-      "asOf": "2026-11-11T15:18:31Z"
+      "asOf": "2026-11-11T16:21:32Z"
     }
   },
   "headlines": {
     "bayer": [
-      {
-        "title": "Bayer Wins US Approval for Potential Blockbuster Stroke Drug",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-10T08:11:03Z"
-      },
       {
         "title": "Bayer brings factor XIa to US stroke prevention with FDA nod for 1st-in-class asundexian",
         "source": "Fierce Pharma",
@@ -258,6 +227,11 @@
         "title": "We aim to use AI to cut down drug innovation time by 30%: Bayer Pharmaceuticals",
         "source": "CNBC",
         "publishedAt": "2026-11-06T02:40:00Z"
+      },
+      {
+        "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
+        "source": "Fierce Pharma",
+        "publishedAt": "2026-11-03T16:27:31Z"
       }
     ],
     "walmart": [
@@ -277,31 +251,31 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "Employees, customers evacuate from Oldsmar Walmart after gas leak",
-        "source": "WFLA",
-        "publishedAt": "2026-11-11T14:19:37Z"
+        "title": "Walmart Poised for Continued Growth Amid Market Share Gains, BofA Says",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-11T15:46:05Z"
       }
     ],
     "top": [
       {
-        "title": "More than a dozen key races remain too early to call one week after Election Day",
-        "source": "AP News",
-        "publishedAt": "2026-11-11T13:59:00Z"
+        "title": "For Families of Those Who Died in the Iran War, a Veterans Day of Profound Loss",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-11T16:09:40Z"
       },
       {
-        "title": "U.S. Army officer arrested in U.K. on suspicion of trying to steal secrets for Russia",
+        "title": "Flying by pricey military jet, Rubio rarely misses a Florida football game",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-11T13:49:33Z"
+        "publishedAt": "2026-11-11T16:02:44Z"
       },
       {
-        "title": "Russian-Diesel Plan Founders as U.S.-Bound Tankers Change Course",
-        "source": "WSJ",
-        "publishedAt": "2026-11-11T11:55:00Z"
+        "title": "Trump Trots Out His Chaotic Greatest Hits to a Weary Public",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-11T15:16:00Z"
       },
       {
-        "title": "This ocean liner was the world\u2019s fastest. It\u2019s being sunk to make the largest artificial reef",
-        "source": "AP News",
-        "publishedAt": "2026-11-11T11:07:00Z"
+        "title": "The Moderates Who Chose Democrats. For Now.",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-11T14:27:40Z"
       }
     ]
   },
@@ -315,9 +289,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T18:50:36Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     },
     {
@@ -396,7 +370,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 56.74
+        "close": 56.5
       }
     ],
     "bayry": [
@@ -458,7 +432,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 15.67
+        "close": 15.64
       }
     ],
     "dax": [
@@ -520,7 +494,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 26589.1191
+        "close": 26629.6992
       }
     ]
   }
