@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-11T12:02:50Z",
+  "updatedAt": "2026-11-11T13:19:40Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1138",
-    "Bayer ADR ratio check 3.93 ordinary shares"
+    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1126",
+    "Bayer ADR ratio check 3.92 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.36,
+      "price": 56.3,
       "previousClose": 57.08,
-      "change": -0.72,
-      "changePct": -1.2614,
-      "asOf": "2026-11-11T11:47:00Z",
+      "change": -0.78,
+      "changePct": -1.3665,
+      "asOf": "2026-11-11T13:03:47Z",
       "digits": 2,
       "sparkline": [
         57.22,
@@ -66,8 +66,23 @@
         56.32,
         56.36,
         56.32,
-        56.34,
-        56.36
+        56.44,
+        56.46,
+        56.44,
+        56.42,
+        56.46,
+        56.52,
+        56.48,
+        56.52,
+        56.54,
+        56.54,
+        56.46,
+        56.32,
+        56.26,
+        56.32,
+        56.28,
+        56.28,
+        56.3
       ],
       "sessionDate": "2026-11-11"
     },
@@ -255,20 +270,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26535.35,
-      "change": 187.9,
-      "changePct": 0.7132,
+      "price": 26524.96,
+      "change": 177.51,
+      "changePct": 0.6737,
       "digits": 2,
-      "asOf": "2026-11-11T11:47:37Z"
+      "asOf": "2026-11-11T13:04:28Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1138,
-      "change": -0.0029,
-      "changePct": -0.2597,
+      "price": 1.1126,
+      "change": -0.0041,
+      "changePct": -0.3672,
       "digits": 4,
-      "asOf": "2026-11-11T12:02:32Z"
+      "asOf": "2026-11-11T13:18:34Z"
     }
   },
   "headlines": {
@@ -311,31 +326,31 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "BofA raises Walmart stock price target on share gains outlook",
-        "source": "Investing",
-        "publishedAt": "2026-11-11T11:32:21Z"
+        "title": "Walmart Stock Slips Even as BofA Lifts Target to $139",
+        "source": "GuruFocus",
+        "publishedAt": "2026-11-11T12:29:54Z"
       }
     ],
     "top": [
       {
-        "title": "Honor and Anguish: A Veterans Day When the Losses Are New",
+        "title": "Northeast Storm To Bring Cold Temperatures, But Heavy Snow Is Unlikely",
         "source": "The New York Times",
-        "publishedAt": "2026-11-11T10:03:43Z"
+        "publishedAt": "2026-11-11T11:56:00Z"
       },
       {
-        "title": "Police investigate whether burned Ohio State University students were victims of hazing",
-        "source": "AP News",
-        "publishedAt": "2026-11-11T09:43:02Z"
+        "title": "Federal judge denies motion to dismiss Trump's defamation case against the BBC",
+        "source": "CBS News",
+        "publishedAt": "2026-11-11T11:07:24Z"
       },
       {
         "title": "U.S. Army officer arrested in U.K. on suspicion of trying to steal secrets for Russia",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-11T05:17:33Z"
+        "publishedAt": "2026-11-11T10:49:33Z"
       },
       {
-        "title": "Immigration arrests go on unabated despite Trump's misgivings after the GOP's midterm wipeout",
-        "source": "AP News",
-        "publishedAt": "2026-11-11T05:03:00Z"
+        "title": "Honor and Anguish: A Veterans Day When the Losses Are New",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-11T10:03:43Z"
       }
     ]
   },
@@ -349,9 +364,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com Nigeria",
+      "publishedAt": "2026-11-03T18:50:36Z",
       "release": true
     },
     {
@@ -430,7 +445,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 56.42
+        "close": 56.3
       }
     ],
     "bayry": [
@@ -554,7 +569,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 26537.8008
+        "close": 26525.9004
       }
     ]
   }
