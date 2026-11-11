@@ -1,10 +1,9 @@
 {
-  "updatedAt": "2026-11-11T08:12:19Z",
+  "updatedAt": "2026-11-11T09:08:19Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 125.55 matched",
-    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1156",
+    "ECB reference 1.1214 on 2026-11-10 vs Yahoo spot 1.1147",
     "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
@@ -19,92 +18,23 @@
       "previousClose": 57.08,
       "change": 0.0,
       "changePct": 0.0,
-      "asOf": "2026-11-10T16:38:51Z",
+      "asOf": "2026-11-11T08:53:02Z",
       "digits": 2,
       "sparkline": [
-        57.58,
-        57.02,
-        56.76,
-        56.76,
-        56.44,
-        56.54,
-        56.64,
-        56.6,
-        56.82,
-        56.84,
-        56.88,
-        56.88,
-        56.88,
-        56.88,
-        56.82,
-        56.7,
-        56.74,
-        56.72,
-        56.74,
-        56.76,
-        56.86,
-        56.78,
-        56.84,
-        56.78,
-        56.8,
-        56.8,
-        56.92,
-        56.96,
-        56.9,
-        56.9,
-        56.96,
-        56.94,
-        56.92,
-        56.76,
-        56.74,
-        56.88,
-        56.78,
-        56.7,
-        56.72,
-        56.8,
-        56.84,
-        56.86,
-        56.94,
-        57.08,
-        57.08,
-        57.08,
-        57.04,
-        57.04,
         57.22,
-        57.32,
-        57.28,
         57.14,
-        57.12,
-        57.12,
+        57.18,
+        57.24,
+        57.22,
+        57.1,
         57.06,
-        56.96,
-        56.72,
-        56.74,
-        56.64,
-        56.64,
-        56.76,
-        56.74,
-        56.8,
-        56.9,
-        56.92,
-        56.72,
-        56.72,
-        56.78,
-        56.8,
-        56.96,
-        57.06,
+        57.14,
         57.08,
-        57.02,
-        57.16,
-        57.12,
-        57.08,
-        57.02,
+        56.96,
         57.04,
-        57.02,
-        57.0,
         57.08
       ],
-      "sessionDate": "2026-11-10"
+      "sessionDate": "2026-11-11"
     },
     "bayry": {
       "symbol": "BAYRY",
@@ -276,34 +206,34 @@
       "change": -29.01,
       "changePct": -0.3842,
       "digits": 2,
-      "asOf": "2026-11-10T21:00:00Z"
+      "asOf": "2026-11-10T22:00:31Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52231.9,
-      "change": -157.9,
+      "price": 52231.89,
+      "change": -157.91,
       "changePct": -0.3014,
       "digits": 2,
-      "asOf": "2026-11-10T21:00:00Z"
+      "asOf": "2026-11-10T22:00:40Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26347.4,
-      "change": 80.2,
-      "changePct": 0.3053,
+      "price": 26613.86,
+      "change": 266.41,
+      "changePct": 1.0111,
       "digits": 2,
-      "asOf": "2026-11-10T16:30:00Z"
+      "asOf": "2026-11-11T08:53:08Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1156,
-      "change": -0.0011,
-      "changePct": -0.0985,
+      "price": 1.1147,
+      "change": -0.002,
+      "changePct": -0.1791,
       "digits": 4,
-      "asOf": "2026-11-11T08:11:33Z"
+      "asOf": "2026-11-11T09:07:34Z"
     }
   },
   "headlines": {
@@ -336,19 +266,19 @@
         "publishedAt": "2026-11-09T16:40:00Z"
       },
       {
+        "title": "His Job Is to Turn Walmart\u2019s Customer Data Into Profit",
+        "source": "WSJ",
+        "publishedAt": "2026-11-06T23:25:00Z"
+      },
+      {
+        "title": "Walmart Inc Stock (WMT) Opened Down by 3.02% on Nov 6: Facts Behind the Movement",
+        "source": "TradingKey",
+        "publishedAt": "2026-11-06T14:47:45Z"
+      },
+      {
         "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC",
         "publishedAt": "2026-08-20T07:00:00Z"
-      },
-      {
-        "title": "Inside Bernstein\u2019s Latest Call on Walmart Inc (WMT) Stock",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-06-19T07:00:00Z"
-      },
-      {
-        "title": "Walmart Stock (WMT) Slips Despite Price Target Upgrades Ahead of Q3 Earnings Next Week",
-        "source": "TipRanks",
-        "publishedAt": "2026-11-10T22:02:18Z"
       }
     ],
     "top": [
@@ -358,19 +288,19 @@
         "publishedAt": "2026-11-11T05:12:00Z"
       },
       {
+        "title": "Immigration arrests go on unabated despite Trump's misgivings after the GOP's midterm wipeout",
+        "source": "AP News",
+        "publishedAt": "2026-11-11T05:03:00Z"
+      },
+      {
         "title": "In Mississippi, voters await cliffhanger Senate result with hope and frustration",
         "source": "BBC",
         "publishedAt": "2026-11-11T02:53:57Z"
       },
       {
-        "title": "More than a dozen key races remain too early to call one week after Election Day",
-        "source": "AP News",
-        "publishedAt": "2026-11-11T02:11:55Z"
-      },
-      {
-        "title": "Bernie Sanders Opposes Schumer as Majority Leader",
+        "title": "\u2018I Know How Much You Love the American People,\u2019 Trump Told Biden in 2021 Letter",
         "source": "The New York Times",
-        "publishedAt": "2026-11-11T01:37:01Z"
+        "publishedAt": "2026-11-11T02:40:43Z"
       }
     ]
   },
@@ -384,9 +314,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com Nigeria",
+      "publishedAt": "2026-11-03T18:50:36Z",
       "release": true
     },
     {
@@ -458,6 +388,14 @@
       {
         "date": "2026-11-09",
         "close": 56.62
+      },
+      {
+        "date": "2026-11-10",
+        "close": 57.08
+      },
+      {
+        "date": "2026-11-11",
+        "close": 57.06
       }
     ],
     "bayry": [
@@ -578,6 +516,10 @@
       {
         "date": "2026-11-10",
         "close": 26347.4492
+      },
+      {
+        "date": "2026-11-11",
+        "close": 26615.8203
       }
     ]
   }
