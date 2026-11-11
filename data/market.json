@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-11T16:22:35Z",
+  "updatedAt": "2026-11-11T17:27:08Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 124.37 matched",
-    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1099",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "Nasdaq last sale 124.55 matched",
+    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1095",
+    "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,31 +15,30 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.5,
+      "price": 56.76,
       "previousClose": 57.08,
-      "change": -0.58,
-      "changePct": -1.0161,
-      "asOf": "2026-11-11T16:07:16Z",
+      "change": -0.32,
+      "changePct": -0.5606,
+      "asOf": "2026-11-11T16:35:24Z",
       "digits": 2,
       "sparkline": [
         57.22,
         57.14,
         57.18,
         57.24,
-        57.22,
+        57.1,
         57.06,
         57.14,
         57.08,
-        56.96,
+        57.0,
         56.96,
         56.86,
-        56.88,
         56.92,
+        56.86,
         56.84,
         56.86,
-        56.82,
         56.84,
-        56.84,
+        56.86,
         56.84,
         56.84,
         56.94,
@@ -48,11 +47,11 @@
         56.88,
         56.88,
         56.88,
-        56.9,
+        56.82,
         56.86,
         56.88,
         56.82,
-        56.54,
+        56.78,
         56.66,
         56.66,
         56.64,
@@ -63,26 +62,25 @@
         56.44,
         56.42,
         56.46,
-        56.52,
         56.48,
+        56.52,
         56.54,
         56.54,
-        56.46,
         56.32,
+        56.26,
         56.32,
         56.28,
-        56.3,
         56.36,
         56.4,
-        56.36,
+        56.4,
         56.42,
         56.42,
+        56.46,
         56.38,
-        56.44,
         56.46,
         56.56,
-        56.6,
         56.56,
+        56.6,
         56.52,
         56.58,
         56.6,
@@ -97,11 +95,14 @@
         56.78,
         56.76,
         56.66,
-        56.72,
+        56.7,
         56.68,
         56.68,
         56.52,
-        56.5
+        56.52,
+        56.5,
+        56.52,
+        56.76
       ],
       "sessionDate": "2026-11-11"
     },
@@ -112,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.64,
+      "price": 15.65,
       "previousClose": 15.98,
-      "change": -0.34,
-      "changePct": -2.1277,
-      "asOf": "2026-11-11T16:02:48Z",
+      "change": -0.33,
+      "changePct": -2.0651,
+      "asOf": "2026-11-11T16:29:26Z",
       "digits": 2,
       "sparkline": [
         15.66,
@@ -127,7 +128,12 @@
         15.68,
         15.66,
         15.67,
-        15.64
+        15.64,
+        15.63,
+        15.63,
+        15.63,
+        15.65,
+        15.65
       ],
       "sessionDate": "2026-11-11"
     },
@@ -138,11 +144,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 124.37,
+      "price": 124.55,
       "previousClose": 125.55,
-      "change": -1.18,
-      "changePct": -0.9399,
-      "asOf": "2026-11-11T16:22:17Z",
+      "change": -1.0,
+      "changePct": -0.7965,
+      "asOf": "2026-11-11T17:26:50Z",
       "digits": 2,
       "sparkline": [
         125.28,
@@ -167,8 +173,21 @@
         124.41,
         124.41,
         124.45,
-        124.4,
-        124.37
+        124.43,
+        124.475,
+        124.56,
+        124.41,
+        124.525,
+        124.435,
+        124.29,
+        124.31,
+        124.555,
+        124.56,
+        124.525,
+        124.48,
+        124.585,
+        124.58,
+        124.545
       ],
       "sessionDate": "2026-11-11"
     }
@@ -177,38 +196,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7610.61,
-      "change": 89.68,
-      "changePct": 1.1924,
+      "price": 7630.81,
+      "change": 109.88,
+      "changePct": 1.461,
       "digits": 2,
-      "asOf": "2026-11-11T16:22:20Z"
+      "asOf": "2026-11-11T17:26:54Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52251.53,
-      "change": 19.64,
-      "changePct": 0.0376,
+      "price": 52350.65,
+      "change": 118.76,
+      "changePct": 0.2274,
       "digits": 2,
-      "asOf": "2026-11-11T16:22:21Z"
+      "asOf": "2026-11-11T17:26:54Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26628.59,
-      "change": 281.14,
-      "changePct": 1.067,
+      "price": 26662.77,
+      "change": 315.32,
+      "changePct": 1.1968,
       "digits": 2,
-      "asOf": "2026-11-11T16:07:21Z"
+      "asOf": "2026-11-11T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1099,
-      "change": -0.0068,
-      "changePct": -0.6089,
+      "price": 1.1095,
+      "change": -0.0072,
+      "changePct": -0.6448,
       "digits": 4,
-      "asOf": "2026-11-11T16:21:32Z"
+      "asOf": "2026-11-11T17:26:34Z"
     }
   },
   "headlines": {
@@ -236,11 +255,6 @@
     ],
     "walmart": [
       {
-        "title": "Meet the 23-year-old college dropout already making six figures as Walmart\u2019s youngest U.S. store manager",
-        "source": "Fortune",
-        "publishedAt": "2026-11-09T16:40:00Z"
-      },
-      {
         "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC",
         "publishedAt": "2026-08-20T07:00:00Z"
@@ -251,6 +265,11 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
+        "title": "When do Black Friday sales actually start? Official sale times for Amazon, Walmart, Best Buy, Target",
+        "source": "Mashable",
+        "publishedAt": "2026-11-11T15:59:43Z"
+      },
+      {
         "title": "Walmart Poised for Continued Growth Amid Market Share Gains, BofA Says",
         "source": "Yahoo Finance",
         "publishedAt": "2026-11-11T15:46:05Z"
@@ -258,24 +277,24 @@
     ],
     "top": [
       {
-        "title": "For Families of Those Who Died in the Iran War, a Veterans Day of Profound Loss",
+        "title": "White House Threatens Congress, Saying Aggressive Investigations Could Be Crime",
         "source": "The New York Times",
-        "publishedAt": "2026-11-11T16:09:40Z"
+        "publishedAt": "2026-11-11T16:15:13Z"
       },
       {
-        "title": "Flying by pricey military jet, Rubio rarely misses a Florida football game",
+        "title": "Trump Visits Arlington Cemetery as His Proposed Arch Faces Growing Opposition",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-11T16:12:52Z"
+      },
+      {
+        "title": "U.S. Army officer arrested in U.K. on suspicion of trying to steal secrets for Russia",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-11T16:02:44Z"
+        "publishedAt": "2026-11-11T15:32:47Z"
       },
       {
-        "title": "Trump Trots Out His Chaotic Greatest Hits to a Weary Public",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-11T15:16:00Z"
-      },
-      {
-        "title": "The Moderates Who Chose Democrats. For Now.",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-11T14:27:40Z"
+        "title": "Chuck Schumer and Hakeem Jeffries are not meeting the moment",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-11T15:30:27Z"
       }
     ]
   },
@@ -370,7 +389,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 56.5
+        "close": 56.76
       }
     ],
     "bayry": [
@@ -432,7 +451,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 15.64
+        "close": 15.65
       }
     ],
     "dax": [
@@ -494,7 +513,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 26629.6992
+        "close": 26662.7695
       }
     ]
   }
