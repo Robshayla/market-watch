@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-11T18:18:57Z",
+  "updatedAt": "2026-11-11T19:28:57Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 124.51 matched",
-    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1098",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "Nasdaq last sale 124.96 matched",
+    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1095",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.69,
+      "price": 15.75,
       "previousClose": 15.98,
-      "change": -0.29,
-      "changePct": -1.8148,
-      "asOf": "2026-11-11T17:52:39Z",
+      "change": -0.23,
+      "changePct": -1.4393,
+      "asOf": "2026-11-11T19:13:27Z",
       "digits": 2,
       "sparkline": [
         15.66,
@@ -135,8 +135,22 @@
         15.65,
         15.69,
         15.68,
+        15.69,
+        15.69,
+        15.72,
         15.7,
-        15.69
+        15.7,
+        15.72,
+        15.71,
+        15.72,
+        15.73,
+        15.74,
+        15.73,
+        15.75,
+        15.76,
+        15.76,
+        15.75,
+        15.75
       ],
       "sessionDate": "2026-11-11"
     },
@@ -147,11 +161,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 124.52,
+      "price": 124.96,
       "previousClose": 125.55,
-      "change": -1.03,
-      "changePct": -0.8204,
-      "asOf": "2026-11-11T18:18:41Z",
+      "change": -0.59,
+      "changePct": -0.4699,
+      "asOf": "2026-11-11T19:28:30Z",
       "digits": 2,
       "sparkline": [
         125.28,
@@ -199,8 +213,22 @@
         124.48,
         124.555,
         124.45,
-        124.5,
-        124.515
+        124.51,
+        124.64,
+        124.68,
+        124.67,
+        124.54,
+        124.49,
+        124.525,
+        124.69,
+        124.7,
+        124.65,
+        124.6871,
+        124.74,
+        124.88,
+        125.01,
+        124.945,
+        124.9608
       ],
       "sessionDate": "2026-11-11"
     }
@@ -209,20 +237,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7638.0,
-      "change": 117.07,
-      "changePct": 1.5566,
+      "price": 7624.13,
+      "change": 103.2,
+      "changePct": 1.3722,
       "digits": 2,
-      "asOf": "2026-11-11T18:18:46Z"
+      "asOf": "2026-11-11T19:28:44Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52441.6,
-      "change": 209.71,
-      "changePct": 0.4015,
+      "price": 52433.71,
+      "change": 201.82,
+      "changePct": 0.3864,
       "digits": 2,
-      "asOf": "2026-11-11T18:18:46Z"
+      "asOf": "2026-11-11T19:28:44Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -236,11 +264,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1098,
-      "change": -0.0069,
-      "changePct": -0.6179,
+      "price": 1.1095,
+      "change": -0.0072,
+      "changePct": -0.6448,
       "digits": 4,
-      "asOf": "2026-11-11T18:18:30Z"
+      "asOf": "2026-11-11T19:28:31Z"
     }
   },
   "headlines": {
@@ -278,36 +306,36 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "When do Black Friday sales actually start? Official sale times for Amazon, Walmart, Best Buy, Target",
-        "source": "Mashable",
-        "publishedAt": "2026-11-11T17:34:50Z"
+        "title": "Walmart Shares Edge Lower as BofA, Barclays and Baird Lift Targets Before Nov. 19 Earnings",
+        "source": "BigGo Finance",
+        "publishedAt": "2026-11-11T19:05:00Z"
       },
       {
-        "title": "Walmart\u2019s viral twinkle Christas trees are back in stock - Starting at just $43",
-        "source": "PennLive",
-        "publishedAt": "2026-11-11T17:01:00Z"
+        "title": "Walmart Stock (WMT) Slips Despite Another Bullish Broker Upgrade Ahead of Q3 Earnings Next Week",
+        "source": "TipRanks",
+        "publishedAt": "2026-11-11T18:25:32Z"
       }
     ],
     "top": [
       {
-        "title": "Flying by pricey military jet, Rubio rarely misses a Florida football game",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-11T17:32:44Z"
+        "title": "Missing 11-month-old baby found buried alive in a crate in South Carolina",
+        "source": "BBC",
+        "publishedAt": "2026-11-11T18:10:57Z"
+      },
+      {
+        "title": "Raman and the D.S.A.: Wariness, Skepticism and Hope",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-11T18:04:46Z"
+      },
+      {
+        "title": "White House Threatens Congress, Saying Aggressive Investigations Could Be Crime",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-11T16:55:46Z"
       },
       {
         "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
         "source": "BBC",
         "publishedAt": "2026-11-11T16:24:06Z"
-      },
-      {
-        "title": "For Families of Those Who Died in the Iran War, a Veterans Day of Profound Loss",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-11T16:09:40Z"
-      },
-      {
-        "title": "The Moderates Who Chose Democrats. For Now.",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-11T16:04:44Z"
       }
     ]
   },
@@ -321,9 +349,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T18:50:36Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     },
     {
@@ -464,7 +492,7 @@
       },
       {
         "date": "2026-11-11",
-        "close": 15.69
+        "close": 15.75
       }
     ],
     "dax": [
