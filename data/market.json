@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-12T13:45:03Z",
+  "updatedAt": "2026-11-12T14:38:54Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1090",
-    "Bayer ADR ratio check 3.96 ordinary shares"
+    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1091",
+    "Bayer ADR ratio check 3.95 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.96,
+      "price": 56.82,
       "previousClose": 56.76,
-      "change": 0.2,
-      "changePct": 0.3524,
-      "asOf": "2026-11-12T13:28:37Z",
+      "change": 0.06,
+      "changePct": 0.1057,
+      "asOf": "2026-11-12T14:23:18Z",
       "digits": 2,
       "sparkline": [
         57.78,
@@ -26,7 +26,7 @@
         57.62,
         57.6,
         57.72,
-        57.64,
+        57.66,
         57.48,
         57.66,
         57.64,
@@ -86,8 +86,19 @@
         57.18,
         57.08,
         57.04,
-        57.0,
-        56.96
+        56.96,
+        56.94,
+        56.7,
+        56.74,
+        56.76,
+        56.76,
+        56.82,
+        56.76,
+        56.82,
+        56.86,
+        56.84,
+        56.78,
+        56.82
       ],
       "sessionDate": "2026-11-12"
     },
@@ -257,38 +268,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7619.38,
-      "change": 98.45,
-      "changePct": 1.309,
+      "price": 7587.4,
+      "change": -31.98,
+      "changePct": -0.4197,
       "digits": 2,
-      "asOf": "2026-11-11T21:42:03Z"
+      "asOf": "2026-11-12T14:38:42Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52486.49,
-      "change": 254.59,
-      "changePct": 0.4874,
+      "price": 52486.69,
+      "change": 0.2,
+      "changePct": 0.0004,
       "digits": 2,
-      "asOf": "2026-11-11T21:43:58Z"
+      "asOf": "2026-11-12T14:38:41Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26717.83,
-      "change": 55.06,
-      "changePct": 0.2065,
+      "price": 26770.71,
+      "change": 107.94,
+      "changePct": 0.4048,
       "digits": 2,
-      "asOf": "2026-11-12T13:29:51Z"
+      "asOf": "2026-11-12T14:23:41Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.109,
-      "change": 0.0,
-      "changePct": 0.0,
+      "price": 1.1091,
+      "change": 0.0001,
+      "changePct": 0.009,
       "digits": 4,
-      "asOf": "2026-11-12T13:44:33Z"
+      "asOf": "2026-11-12T14:38:29Z"
     }
   },
   "headlines": {
@@ -309,12 +320,17 @@
         "publishedAt": "2026-11-09T22:27:43Z"
       },
       {
-        "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-11-03T16:27:31Z"
+        "title": "Bayer to invest $2.2 billion in new US pharma site",
+        "source": "Reuters",
+        "publishedAt": "2026-10-02T07:00:00Z"
       }
     ],
     "walmart": [
+      {
+        "title": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million",
+        "source": "Reuters",
+        "publishedAt": "2026-08-28T07:00:00Z"
+      },
       {
         "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC",
@@ -326,36 +342,31 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "When do Black Friday sales actually start? Official sale times for Amazon, Walmart, Best Buy, Target",
-        "source": "Mashable",
-        "publishedAt": "2026-11-12T13:30:00Z"
-      },
-      {
-        "title": "Walmart To Host Third Quarter Earnings Conference Call November 19, 2026",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-12T13:00:00Z"
+        "title": "Walmart & 3 Retail Stocks With High Probability of an Earnings Beat",
+        "source": "The Globe and Mail",
+        "publishedAt": "2026-11-12T13:39:04Z"
       }
     ],
     "top": [
       {
+        "title": "House Freedom Caucus argues Republicans were not aggressive enough",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-12T14:32:46Z"
+      },
+      {
+        "title": "Trump says \u2018we don\u2019t need a deal with Iran\u2019",
+        "source": "CNBC",
+        "publishedAt": "2026-11-12T13:15:38Z"
+      },
+      {
+        "title": "Pentagon backs war memorial guard who reprimanded Hegseth's group",
+        "source": "BBC",
+        "publishedAt": "2026-11-12T11:24:47Z"
+      },
+      {
         "title": "Desi Lydic Chides Democrats Who Missed Hegseth\u2019s Impeachment Vote",
         "source": "The New York Times",
         "publishedAt": "2026-11-12T08:14:03Z"
-      },
-      {
-        "title": "She gave a valedictorian speech in the spring. Now, she could be deported.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-12T06:51:00Z"
-      },
-      {
-        "title": "Hegseth and his entourage scolded by military sentinel at Tomb of the Unknowns",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-12T06:22:17Z"
-      },
-      {
-        "title": "Many liberals hate this bill to overhaul permitting. Democrats may help pass it anyway.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-12T04:59:27Z"
       }
     ]
   },
@@ -369,9 +380,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com Canada",
-      "publishedAt": "2026-11-03T15:24:18Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     },
     {
@@ -450,14 +461,10 @@
       },
       {
         "date": "2026-11-12",
-        "close": 56.96
+        "close": 56.82
       }
     ],
     "bayry": [
-      {
-        "date": "2026-10-22",
-        "close": 12.4
-      },
       {
         "date": "2026-10-23",
         "close": 12.3
@@ -574,7 +581,7 @@
       },
       {
         "date": "2026-11-12",
-        "close": 26715.5
+        "close": 26772.25
       }
     ]
   }
