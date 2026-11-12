@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-12T11:27:28Z",
+  "updatedAt": "2026-11-12T12:25:03Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1093",
-    "Bayer ADR ratio check 3.98 ordinary shares"
+    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1090",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 57.22,
+      "price": 57.32,
       "previousClose": 56.76,
-      "change": 0.46,
-      "changePct": 0.8104,
-      "asOf": "2026-11-12T11:11:13Z",
+      "change": 0.56,
+      "changePct": 0.9866,
+      "asOf": "2026-11-12T12:09:41Z",
       "digits": 2,
       "sparkline": [
         57.78,
@@ -26,7 +26,7 @@
         57.62,
         57.6,
         57.72,
-        57.64,
+        57.66,
         57.48,
         57.66,
         57.64,
@@ -59,7 +59,19 @@
         57.34,
         57.3,
         57.28,
-        57.22
+        57.24,
+        57.34,
+        57.3,
+        57.32,
+        57.36,
+        57.38,
+        57.34,
+        57.34,
+        57.3,
+        57.2,
+        57.3,
+        57.28,
+        57.32
       ],
       "sessionDate": "2026-11-12"
     },
@@ -247,20 +259,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26877.96,
-      "change": 215.19,
-      "changePct": 0.8071,
+      "price": 26856.51,
+      "change": 193.74,
+      "changePct": 0.7266,
       "digits": 2,
-      "asOf": "2026-11-12T11:12:16Z"
+      "asOf": "2026-11-12T12:09:49Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1093,
-      "change": 0.0003,
-      "changePct": 0.0271,
+      "price": 1.109,
+      "change": 0.0,
+      "changePct": 0.0,
       "digits": 4,
-      "asOf": "2026-11-12T11:26:30Z"
+      "asOf": "2026-11-12T12:24:31Z"
     }
   },
   "headlines": {
@@ -298,21 +310,21 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
+        "title": "Black Friday Deals 2026: Walmart, Amazon and Best Buy Start Sales Early!",
+        "source": "The United Indian",
+        "publishedAt": "2026-11-12T11:47:55Z"
+      },
+      {
         "title": "Walmart Worker Refuses To Sell Mississippi Man AirPods. Then She Reveals The Baffling Reason Why",
         "source": "BroBible",
         "publishedAt": "2026-11-12T10:00:04Z"
-      },
-      {
-        "title": "Walmart's first Black Friday deals drop is live: save on Apple, Ninja, Reebok, more",
-        "source": "Tom's Guide",
-        "publishedAt": "2026-11-12T09:51:09Z"
       }
     ],
     "top": [
       {
-        "title": "Ukraine warns of fresh Starshield disruptions as U.S. envoys arrive in Moscow for talks with Putin",
-        "source": "CNBC",
-        "publishedAt": "2026-11-12T10:15:02Z"
+        "title": "Ukraine says Starlink restrictions are back as US envoys land in Moscow",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-12T10:59:51Z"
       },
       {
         "title": "Scott Colom, a Democrat, Wins Mississippi Senate Election",
@@ -320,14 +332,14 @@
         "publishedAt": "2026-11-12T09:11:00Z"
       },
       {
+        "title": "Desi Lydic Chides Democrats Who Missed Hegseth\u2019s Impeachment Vote",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-12T08:14:03Z"
+      },
+      {
         "title": "She gave a valedictorian speech in the spring. Now, she could be deported.",
         "source": "The Washington Post",
         "publishedAt": "2026-11-12T06:51:00Z"
-      },
-      {
-        "title": "Democratic lawmakers apologize after absences on Hegseth vote",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-12T06:37:02Z"
       }
     ]
   },
@@ -341,9 +353,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com Nigeria",
+      "publishedAt": "2026-11-03T18:50:36Z",
       "release": true
     },
     {
@@ -422,7 +434,7 @@
       },
       {
         "date": "2026-11-12",
-        "close": 57.22
+        "close": 57.32
       }
     ],
     "bayry": [
@@ -546,7 +558,7 @@
       },
       {
         "date": "2026-11-12",
-        "close": 26876.8008
+        "close": 26858.0996
       }
     ]
   }
