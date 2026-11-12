@@ -1,9 +1,8 @@
 {
-  "updatedAt": "2026-11-12T20:29:51Z",
+  "updatedAt": "2026-11-12T21:21:43Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 126.02 matched",
     "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1058",
     "Bayer ADR ratio check 3.99 ordinary shares"
   ],
@@ -26,7 +25,7 @@
         57.64,
         57.62,
         57.6,
-        57.66,
+        57.64,
         57.48,
         57.66,
         57.64,
@@ -117,7 +116,7 @@
       "previousClose": 15.92,
       "change": -0.25,
       "changePct": -1.5704,
-      "asOf": "2026-11-12T20:11:04Z",
+      "asOf": "2026-11-12T20:59:46Z",
       "digits": 2,
       "sparkline": [
         15.68,
@@ -165,6 +164,11 @@
         15.64,
         15.66,
         15.67,
+        15.67,
+        15.69,
+        15.7,
+        15.69,
+        15.68,
         15.67
       ],
       "sessionDate": "2026-11-12"
@@ -266,11 +270,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 164.06,
+      "price": 166.19,
       "previousClose": 173.73,
-      "change": -9.67,
-      "changePct": -5.5661,
-      "asOf": "2026-11-12T20:29:36Z",
+      "change": -7.54,
+      "changePct": -4.3401,
+      "asOf": "2026-11-12T21:00:01Z",
       "digits": 2,
       "sparkline": [
         156.258,
@@ -282,9 +286,9 @@
         161.0827,
         160.24,
         161.965,
-        163.6793,
+        163.68,
         164.9001,
-        165.0699,
+        165.07,
         163.23,
         164.62,
         164.78,
@@ -303,7 +307,7 @@
         164.76,
         165.08,
         165.21,
-        164.95,
+        164.945,
         164.3847,
         164.925,
         164.762,
@@ -344,8 +348,14 @@
         163.6779,
         164.6401,
         164.675,
-        164.1801,
-        164.06
+        164.02,
+        163.2,
+        164.11,
+        164.355,
+        164.8501,
+        165.45,
+        166.04,
+        166.19
       ],
       "sessionDate": "2026-11-12"
     }
@@ -354,20 +364,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7595.12,
-      "change": -24.26,
-      "changePct": -0.3184,
+      "price": 7592.4,
+      "change": -26.98,
+      "changePct": -0.3541,
       "digits": 2,
-      "asOf": "2026-11-12T20:29:38Z"
+      "asOf": "2026-11-12T21:20:01Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52389.84,
-      "change": -96.65,
-      "changePct": -0.1841,
+      "price": 52297.09,
+      "change": -189.4,
+      "changePct": -0.3609,
       "digits": 2,
-      "asOf": "2026-11-12T20:29:38Z"
+      "asOf": "2026-11-12T21:20:01Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -385,7 +395,7 @@
       "change": -0.0032,
       "changePct": -0.2885,
       "digits": 4,
-      "asOf": "2026-11-12T20:29:32Z"
+      "asOf": "2026-11-12T21:20:33Z"
     }
   },
   "headlines": {
@@ -428,53 +438,53 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "Walmart Stock (WMT) Set for Near 7% Move After Q3 Earnings Next Week, Say Options Traders",
-        "source": "TipRanks",
-        "publishedAt": "2026-11-12T18:38:46Z"
+        "title": "All the deals actually worth shopping during the Walmart early Black Friday sale",
+        "source": "NBC News",
+        "publishedAt": "2026-11-12T20:58:01Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Nvidia CEO Jensen Huang resigns in blow to AI boom he helped foster",
-        "source": "Reuters",
-        "publishedAt": "2026-11-12T20:22:50Z"
+        "title": "Nvidia stock tumbles after CEO Jensen Huang resigns amid scandal",
+        "source": "The Business Journal",
+        "publishedAt": "2026-11-12T21:08:06Z"
       },
       {
-        "title": "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
-        "source": "CNBC",
-        "publishedAt": "2026-11-12T20:10:49Z"
+        "title": "Wall Street shakes with swings for Nvidia and oil prices but recovers most of its early losses",
+        "source": "AP News",
+        "publishedAt": "2026-11-12T21:02:00Z"
+      },
+      {
+        "title": "US Democratic senator wants assessment of whether Nvidia is 'too big to fail'",
+        "source": "Reuters",
+        "publishedAt": "2026-11-12T20:56:07Z"
       },
       {
         "title": "EXCLUSIVE: Former Nvidia CEO Huang had a relationship with a second employee, sources say",
         "source": "Reuters",
-        "publishedAt": "2026-11-12T20:09:29Z"
-      },
-      {
-        "title": "Equities little changed, Nvidia drop offsets lift in energy shares",
-        "source": "Reuters",
-        "publishedAt": "2026-11-12T19:55:07Z"
+        "publishedAt": "2026-11-12T20:49:17Z"
       }
     ],
     "top": [
       {
         "title": "Trump says no deal needed with Iran, closes down Vance negotiations",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-12T19:04:30Z"
+        "publishedAt": "2026-11-12T21:05:27Z"
       },
       {
-        "title": "Democrats Put Targets on Notice as Trump Oversight Takes Shape",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-12T18:07:23Z"
-      },
-      {
-        "title": "Zelenskiy says Starshield speed limited again, hampering Ukraine's defences",
-        "source": "Reuters",
-        "publishedAt": "2026-11-12T16:56:28Z"
+        "title": "Trump reverts to an old theme, warns of immigrant caravans",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-12T21:01:39Z"
       },
       {
         "title": "Cities Have a New Tactic to Block ICE Jails: Run Out the Clock",
         "source": "The New York Times",
         "publishedAt": "2026-11-12T16:10:06Z"
+      },
+      {
+        "title": "Democrats Plan Investigation Into Climate and Science Cuts Under Trump",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-12T15:56:32Z"
       }
     ]
   },
