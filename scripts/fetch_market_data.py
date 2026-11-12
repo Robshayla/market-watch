@@ -80,6 +80,21 @@ QUOTES = (
         "close_min": 16 * 60,
         "digits": 2,
     },
+    {
+        "id": "nvda",
+        "symbol": "NVDA",
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "venue": "NASDAQ",
+        "currency": "USD",
+        "session": "us",
+        "kind": "EQUITY",
+        "name_contains": "nvidia",
+        "exchange_contains": "nasdaq",
+        "open_min": 9 * 60 + 30,
+        "close_min": 16 * 60,
+        "digits": 2,
+    },
 )
 
 TICKERS = (
@@ -160,6 +175,10 @@ HEADLINE_FEEDS = {
         "https://news.google.com/rss/search?q=Walmart+(earnings+OR+shares+OR+stock+OR+sales+OR+revenue+OR+CEO+OR+employees+OR+lawsuit+OR+acquisition+OR+guidance)&hl=en-US&gl=US&ceid=US:en",
         "https://feeds.finance.yahoo.com/rss/2.0/headline?s=WMT&region=US&lang=en-US",
     ],
+    "nvidia": [
+        "https://news.google.com/rss/search?q=NVIDIA+(NVDA+OR+shares+OR+stock+OR+earnings+OR+guidance+OR+chip+OR+AI)&hl=en-US&gl=US&ceid=US:en",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=NVDA&region=US&lang=en-US",
+    ],
     "top": [
         "https://news.google.com/rss/headlines/section/topic/NATION?hl=en-US&gl=US&ceid=US:en",
         "https://feeds.npr.org/1001/rss.xml",
@@ -220,9 +239,17 @@ def session_sparkline(result: dict, open_min: int, close_min: int, price: float)
         by_day.setdefault(local.date().isoformat(), []).append((minute, float(close)))
     if not by_day:
         return [], ""
-    day = sorted(by_day)[-1]
-    regular = [value for minute, value in by_day[day] if open_min <= minute < close_min]
-    series = regular if len(regular) >= 8 else [value for _, value in by_day[day]]
+    days = sorted(by_day)
+    day = days[-1]
+    series = []
+    for candidate in reversed(days):
+        regular = [value for minute, value in by_day[candidate] if open_min <= minute < close_min]
+        if len(regular) >= 8:
+            day = candidate
+            series = regular
+            break
+    if len(series) < 8:
+        series = [value for _, value in by_day[day]]
     if len(series) > 80:
         step = len(series) / 80
         series = [series[int(i * step)] for i in range(80)]
@@ -426,7 +453,9 @@ def accept_headline(bucket: str, item: dict) -> bool:
             return False
     if bucket == "walmart" and "walmart" not in title.lower():
         return False
-    if bucket in ("bayer", "walmart") and (SHOPPING.search(title) or BOILER.search(title)):
+    if bucket == "nvidia" and "nvidia" not in title.lower():
+        return False
+    if bucket in ("bayer", "walmart", "nvidia") and (SHOPPING.search(title) or BOILER.search(title)):
         return False
     if re.search(r"\bstock forecasts?\b", title, re.I):
         return False
