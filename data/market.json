@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-12T17:36:06Z",
+  "updatedAt": "2026-11-12T18:31:20Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 126.40 matched",
-    "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1058",
+    "Nasdaq last sale 125.97 matched",
+    "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1056",
     "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.69,
+      "price": 15.67,
       "previousClose": 15.92,
-      "change": -0.23,
-      "changePct": -1.4447,
-      "asOf": "2026-11-12T17:19:16Z",
+      "change": -0.25,
+      "changePct": -1.5704,
+      "asOf": "2026-11-12T18:16:04Z",
       "digits": 2,
       "sparkline": [
         15.68,
@@ -146,7 +146,15 @@
         15.64,
         15.67,
         15.7,
-        15.69
+        15.69,
+        15.7,
+        15.7,
+        15.7,
+        15.69,
+        15.69,
+        15.67,
+        15.67,
+        15.67
       ],
       "sessionDate": "2026-11-12"
     },
@@ -157,11 +165,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.4,
+      "price": 125.97,
       "previousClose": 125.67,
-      "change": 0.73,
-      "changePct": 0.5809,
-      "asOf": "2026-11-12T17:35:43Z",
+      "change": 0.3,
+      "changePct": 0.2387,
+      "asOf": "2026-11-12T18:31:05Z",
       "digits": 2,
       "sparkline": [
         126.765,
@@ -201,7 +209,19 @@
         126.33,
         126.395,
         126.37,
-        126.4
+        126.27,
+        125.97,
+        126.01,
+        126.02,
+        126.07,
+        125.834,
+        125.86,
+        125.845,
+        126.0,
+        125.97,
+        125.94,
+        125.965,
+        125.965
       ],
       "sessionDate": "2026-11-12"
     },
@@ -212,11 +232,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 164.54,
+      "price": 165.96,
       "previousClose": 173.73,
-      "change": -9.19,
-      "changePct": -5.2898,
-      "asOf": "2026-11-12T17:35:52Z",
+      "change": -7.77,
+      "changePct": -4.4725,
+      "asOf": "2026-11-12T18:31:09Z",
       "digits": 2,
       "sparkline": [
         156.258,
@@ -256,7 +276,19 @@
         163.7786,
         163.967,
         164.62,
-        164.54
+        165.06,
+        165.57,
+        165.46,
+        165.12,
+        164.9075,
+        165.32,
+        165.4001,
+        165.495,
+        165.59,
+        165.66,
+        165.88,
+        165.955,
+        165.96
       ],
       "sessionDate": "2026-11-12"
     }
@@ -265,20 +297,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7634.24,
-      "change": 14.86,
-      "changePct": 0.195,
+      "price": 7626.48,
+      "change": 7.1,
+      "changePct": 0.0932,
       "digits": 2,
-      "asOf": "2026-11-12T17:35:52Z"
+      "asOf": "2026-11-12T18:31:09Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52711.99,
-      "change": 225.5,
-      "changePct": 0.4296,
+      "price": 52587.5,
+      "change": 101.01,
+      "changePct": 0.1924,
       "digits": 2,
-      "asOf": "2026-11-12T17:35:51Z"
+      "asOf": "2026-11-12T18:31:09Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -292,11 +324,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1058,
-      "change": -0.0032,
-      "changePct": -0.2885,
+      "price": 1.1056,
+      "change": -0.0034,
+      "changePct": -0.3066,
       "digits": 4,
-      "asOf": "2026-11-12T17:35:33Z"
+      "asOf": "2026-11-12T18:30:29Z"
     }
   },
   "headlines": {
@@ -346,31 +378,31 @@
     ],
     "nvidia": [
       {
-        "title": "Nvidia stood behind Jensen Huang. Now comes the reckoning.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-12T17:20:40Z"
-      },
-      {
-        "title": "Nvidia CEO Jensen Huang resigns in big blow to AI boom",
+        "title": "Nvidia CEO Jensen Huang resigns, in blow to AI boom he helped foster",
         "source": "Reuters",
-        "publishedAt": "2026-11-12T17:17:22Z"
+        "publishedAt": "2026-11-12T18:14:59Z"
       },
       {
-        "title": "Jensen Huang\u2019s downfall cut the P/E of Nvidia stock by a third. But don\u2019t call it a bargain yet",
-        "source": "Fortune",
-        "publishedAt": "2026-11-12T17:13:00Z"
+        "title": "Jensen Huang\u2019s Affairs That Upended Nvidia: Timeline of Events",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-12T18:04:04Z"
       },
       {
-        "title": "Jensen Huang's Nvidia exit casts shadow over Wall Street\u2019s $500 billion AI financing bet",
-        "source": "CNBC",
-        "publishedAt": "2026-11-12T16:55:01Z"
+        "title": "Jensen Huang Built Nvidia. Its Chips Made the AI Boom Possible.",
+        "source": "WSJ",
+        "publishedAt": "2026-11-12T17:57:00Z"
+      },
+      {
+        "title": "Huang, Face of the AI Boom, Ousted by Nvidia Board as CEO",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-12T17:55:23Z"
       }
     ],
     "top": [
       {
-        "title": "Democratic sweep opens the door for major policy changes at state level",
+        "title": "Trump says no deal needed with Iran, closes down Vance negotiations",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-12T17:32:48Z"
+        "publishedAt": "2026-11-12T18:05:38Z"
       },
       {
         "title": "Democrats Put Targets on Notice as Trump Oversight Takes Shape",
@@ -378,14 +410,14 @@
         "publishedAt": "2026-11-12T17:09:56Z"
       },
       {
-        "title": "Trump reverts to an old theme, warns of immigrant caravans",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-12T15:56:00Z"
+        "title": "Zelenskiy says Starshield speed limited again, hampering Ukraine's defences",
+        "source": "Reuters",
+        "publishedAt": "2026-11-12T16:56:28Z"
       },
       {
-        "title": "Trump Says He\u2019s Pulling Vance Off Iran Talks to Focus on Fraud Campaign",
+        "title": "Cities Have a New Tactic to Block ICE Jails: Run Out the Clock",
         "source": "The New York Times",
-        "publishedAt": "2026-11-12T15:23:06Z"
+        "publishedAt": "2026-11-12T16:10:06Z"
       }
     ]
   },
@@ -399,9 +431,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com South Africa",
-      "publishedAt": "2026-11-03T17:37:06Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     },
     {
@@ -542,7 +574,7 @@
       },
       {
         "date": "2026-11-12",
-        "close": 15.69
+        "close": 15.67
       }
     ],
     "dax": [
