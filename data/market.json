@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-12T15:39:03Z",
+  "updatedAt": "2026-11-12T16:42:35Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 126.50 matched",
+    "Nasdaq last sale 125.73 matched",
     "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1059",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
@@ -15,93 +15,94 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.44,
+      "price": 56.5,
       "previousClose": 56.76,
-      "change": -0.32,
-      "changePct": -0.5638,
-      "asOf": "2026-11-12T15:23:13Z",
+      "change": -0.26,
+      "changePct": -0.4581,
+      "asOf": "2026-11-12T16:26:53Z",
       "digits": 2,
       "sparkline": [
         57.78,
         57.64,
         57.62,
         57.6,
-        57.72,
         57.66,
         57.48,
         57.66,
-        57.56,
+        57.64,
         57.58,
         57.48,
         57.44,
-        57.52,
         57.58,
         57.54,
         57.46,
-        57.58,
+        57.46,
         57.62,
         57.6,
         57.6,
-        57.58,
         57.58,
         57.56,
         57.66,
-        57.62,
+        57.6,
         57.56,
         57.54,
         57.5,
         57.42,
-        57.42,
         57.22,
         57.3,
+        57.34,
         57.3,
-        57.28,
         57.24,
         57.34,
         57.3,
-        57.32,
         57.36,
         57.38,
         57.34,
-        57.3,
+        57.34,
         57.2,
         57.3,
         57.32,
-        57.4,
         57.44,
         57.42,
+        57.36,
         57.4,
-        57.42,
         57.42,
         57.46,
         57.44,
         57.42,
-        57.44,
         57.16,
+        57.18,
         57.08,
-        57.04,
         56.96,
         56.94,
         56.7,
         56.74,
         56.76,
-        56.76,
+        56.82,
         56.76,
         56.82,
-        56.86,
         56.84,
         56.84,
         56.82,
-        56.56,
         56.66,
+        56.74,
         56.8,
         56.7,
-        56.58,
         56.42,
         56.44,
         56.42,
         56.42,
-        56.44
+        56.56,
+        56.4,
+        56.48,
+        56.48,
+        56.46,
+        56.32,
+        56.32,
+        56.38,
+        56.42,
+        56.48,
+        56.5
       ],
       "sessionDate": "2026-11-12"
     },
@@ -112,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.59,
+      "price": 15.62,
       "previousClose": 15.92,
-      "change": -0.33,
-      "changePct": -2.0729,
-      "asOf": "2026-11-12T15:22:34Z",
+      "change": -0.3,
+      "changePct": -1.8844,
+      "asOf": "2026-11-12T16:23:07Z",
       "digits": 2,
       "sparkline": [
         15.68,
@@ -128,7 +129,19 @@
         15.6,
         15.59,
         15.59,
-        15.59
+        15.63,
+        15.62,
+        15.61,
+        15.61,
+        15.61,
+        15.61,
+        15.6,
+        15.59,
+        15.59,
+        15.61,
+        15.62,
+        15.62,
+        15.62
       ],
       "sessionDate": "2026-11-12"
     },
@@ -139,11 +152,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.5,
+      "price": 125.73,
       "previousClose": 125.67,
-      "change": 0.83,
-      "changePct": 0.6605,
-      "asOf": "2026-11-12T15:38:44Z",
+      "change": 0.06,
+      "changePct": 0.0477,
+      "asOf": "2026-11-12T16:42:17Z",
       "digits": 2,
       "sparkline": [
         126.765,
@@ -159,8 +172,21 @@
         126.08,
         126.295,
         126.47,
-        126.49,
-        126.495
+        126.54,
+        126.39,
+        126.375,
+        126.17,
+        125.975,
+        126.01,
+        125.785,
+        125.825,
+        125.8201,
+        125.89,
+        125.71,
+        125.74,
+        125.7816,
+        125.76,
+        125.732
       ],
       "sessionDate": "2026-11-12"
     },
@@ -171,11 +197,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 164.51,
+      "price": 164.61,
       "previousClose": 173.73,
-      "change": -9.22,
-      "changePct": -5.3071,
-      "asOf": "2026-11-12T15:38:47Z",
+      "change": -9.12,
+      "changePct": -5.2495,
+      "asOf": "2026-11-12T16:42:21Z",
       "digits": 2,
       "sparkline": [
         156.258,
@@ -191,8 +217,21 @@
         164.9001,
         165.0699,
         163.23,
-        164.475,
-        164.515
+        164.62,
+        164.78,
+        163.88,
+        165.03,
+        165.735,
+        164.985,
+        166.85,
+        166.05,
+        166.095,
+        165.66,
+        165.4949,
+        165.71,
+        164.94,
+        164.4485,
+        164.61
       ],
       "sessionDate": "2026-11-12"
     }
@@ -201,29 +240,29 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7600.48,
-      "change": -18.9,
-      "changePct": -0.2481,
+      "price": 7622.16,
+      "change": 2.78,
+      "changePct": 0.0365,
       "digits": 2,
-      "asOf": "2026-11-12T15:38:47Z"
+      "asOf": "2026-11-12T16:42:21Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52498.67,
-      "change": 12.18,
-      "changePct": 0.0232,
+      "price": 52563.35,
+      "change": 76.86,
+      "changePct": 0.1464,
       "digits": 2,
-      "asOf": "2026-11-12T15:38:48Z"
+      "asOf": "2026-11-12T16:42:21Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26691.78,
-      "change": 29.01,
-      "changePct": 0.1088,
+      "price": 26805.27,
+      "change": 142.5,
+      "changePct": 0.5345,
       "digits": 2,
-      "asOf": "2026-11-12T15:23:49Z"
+      "asOf": "2026-11-12T16:27:22Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
@@ -232,7 +271,7 @@
       "change": -0.0031,
       "changePct": -0.2795,
       "digits": 4,
-      "asOf": "2026-11-12T15:38:31Z"
+      "asOf": "2026-11-12T16:41:32Z"
     }
   },
   "headlines": {
@@ -275,53 +314,53 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "Walmart stock may move 5.8% on Nov. 19 earnings release By Investing.com",
-        "source": "Investing.com Nigeria",
-        "publishedAt": "2026-11-12T15:28:13Z"
+        "title": "Walmart stock may move 5.8% on Nov. 19 earnings release",
+        "source": "Investing",
+        "publishedAt": "2026-11-12T15:28:48Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Nvidia CEO Jensen Huang resigns in big blow to AI boom",
-        "source": "Reuters",
-        "publishedAt": "2026-11-12T15:28:55Z"
-      },
-      {
-        "title": "'Big Short' Michael Burry says to 'get out' of Nvidia stock on CEO Jensen Huang's exit",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-12T15:20:00Z"
-      },
-      {
-        "title": "Jensen Huang Out At Nvidia After Affair Scandals",
-        "source": "Forbes",
-        "publishedAt": "2026-11-12T15:10:45Z"
-      },
-      {
         "title": "Jensen Huang Has Been Ousted as Nvidia CEO",
         "source": "WSJ",
-        "publishedAt": "2026-11-12T15:04:00Z"
+        "publishedAt": "2026-11-12T16:09:00Z"
+      },
+      {
+        "title": "Jensen Huang\u2019s Affairs That Upended Nvidia: Timeline of Events",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-12T15:51:40Z"
+      },
+      {
+        "title": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
+        "source": "CNBC",
+        "publishedAt": "2026-11-12T15:45:33Z"
+      },
+      {
+        "title": "What to Know About the Nvidia Turmoil as Jensen Huang Resigns",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-12T15:43:38Z"
       }
     ],
     "top": [
       {
+        "title": "Democratic sweep opens the door for major policy changes at state level",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-12T16:02:48Z"
+      },
+      {
+        "title": "Trump reverts to an old theme, warns of immigrant caravans",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-12T15:56:00Z"
+      },
+      {
+        "title": "Before Scott Colom, these two men were the last black US senators in Mississippi",
+        "source": "BBC",
+        "publishedAt": "2026-11-12T14:12:55Z"
+      },
+      {
         "title": "Judge Richard A. Posner Has Died. His Influence in Law Was Beyond Compare.",
         "source": "The New York Times",
         "publishedAt": "2026-11-12T13:40:00Z"
-      },
-      {
-        "title": "Trump says \u2018we don\u2019t need a deal with Iran\u2019",
-        "source": "CNBC",
-        "publishedAt": "2026-11-12T13:15:38Z"
-      },
-      {
-        "title": "The S.S. United States, a Historic Supership, Sinks to the Ocean Floor",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-12T12:03:00Z"
-      },
-      {
-        "title": "Pentagon backs war memorial guard who reprimanded Hegseth's group",
-        "source": "BBC",
-        "publishedAt": "2026-11-12T11:24:47Z"
       }
     ]
   },
@@ -416,7 +455,7 @@
       },
       {
         "date": "2026-11-12",
-        "close": 56.42
+        "close": 56.5
       }
     ],
     "bayry": [
@@ -478,7 +517,7 @@
       },
       {
         "date": "2026-11-12",
-        "close": 15.59
+        "close": 15.62
       }
     ],
     "dax": [
@@ -540,7 +579,7 @@
       },
       {
         "date": "2026-11-12",
-        "close": 26691.3398
+        "close": 26808.2207
       }
     ]
   }
