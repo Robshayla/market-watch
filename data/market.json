@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-12T19:38:13Z",
+  "updatedAt": "2026-11-12T20:29:51Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.77 matched",
+    "Nasdaq last sale 126.02 matched",
     "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1058",
     "Bayer ADR ratio check 3.99 ordinary shares"
   ],
@@ -26,7 +26,7 @@
         57.64,
         57.62,
         57.6,
-        57.64,
+        57.66,
         57.48,
         57.66,
         57.64,
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.66,
+      "price": 15.67,
       "previousClose": 15.92,
-      "change": -0.26,
-      "changePct": -1.6332,
-      "asOf": "2026-11-12T19:18:32Z",
+      "change": -0.25,
+      "changePct": -1.5704,
+      "asOf": "2026-11-12T20:11:04Z",
       "digits": 2,
       "sparkline": [
         15.68,
@@ -160,8 +160,12 @@
         15.66,
         15.64,
         15.64,
-        15.65,
-        15.66
+        15.66,
+        15.64,
+        15.64,
+        15.66,
+        15.67,
+        15.67
       ],
       "sessionDate": "2026-11-12"
     },
@@ -172,18 +176,18 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 125.77,
+      "price": 126.02,
       "previousClose": 125.67,
-      "change": 0.1,
-      "changePct": 0.0796,
-      "asOf": "2026-11-12T19:37:51Z",
+      "change": 0.35,
+      "changePct": 0.2785,
+      "asOf": "2026-11-12T20:29:26Z",
       "digits": 2,
       "sparkline": [
         126.765,
         125.835,
         125.86,
         126.21,
-        126.04,
+        126.05,
         125.725,
         126.2,
         126.375,
@@ -240,8 +244,18 @@
         125.905,
         125.82,
         125.76,
-        125.765,
-        125.77
+        125.82,
+        125.78,
+        125.725,
+        125.66,
+        125.6661,
+        125.72,
+        125.73,
+        125.81,
+        125.89,
+        125.985,
+        126.005,
+        126.02
       ],
       "sessionDate": "2026-11-12"
     },
@@ -252,11 +266,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 163.72,
+      "price": 164.06,
       "previousClose": 173.73,
-      "change": -10.01,
-      "changePct": -5.7618,
-      "asOf": "2026-11-12T19:37:59Z",
+      "change": -9.67,
+      "changePct": -5.5661,
+      "asOf": "2026-11-12T20:29:36Z",
       "digits": 2,
       "sparkline": [
         156.258,
@@ -268,9 +282,9 @@
         161.0827,
         160.24,
         161.965,
-        163.68,
+        163.6793,
         164.9001,
-        165.07,
+        165.0699,
         163.23,
         164.62,
         164.78,
@@ -289,7 +303,7 @@
         164.76,
         165.08,
         165.21,
-        164.945,
+        164.95,
         164.3847,
         164.925,
         164.762,
@@ -320,8 +334,18 @@
         164.505,
         164.575,
         163.8813,
-        163.59,
-        163.72
+        163.295,
+        164.0145,
+        163.66,
+        164.2626,
+        164.268,
+        164.17,
+        164.08,
+        163.6779,
+        164.6401,
+        164.675,
+        164.1801,
+        164.06
       ],
       "sessionDate": "2026-11-12"
     }
@@ -330,20 +354,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7600.7,
-      "change": -18.68,
-      "changePct": -0.2452,
+      "price": 7595.12,
+      "change": -24.26,
+      "changePct": -0.3184,
       "digits": 2,
-      "asOf": "2026-11-12T19:37:59Z"
+      "asOf": "2026-11-12T20:29:38Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52420.89,
-      "change": -65.6,
-      "changePct": -0.125,
+      "price": 52389.84,
+      "change": -96.65,
+      "changePct": -0.1841,
       "digits": 2,
-      "asOf": "2026-11-12T19:37:59Z"
+      "asOf": "2026-11-12T20:29:38Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -361,7 +385,7 @@
       "change": -0.0032,
       "changePct": -0.2885,
       "digits": 4,
-      "asOf": "2026-11-12T19:37:31Z"
+      "asOf": "2026-11-12T20:29:32Z"
     }
   },
   "headlines": {
@@ -413,22 +437,22 @@
       {
         "title": "Nvidia CEO Jensen Huang resigns in blow to AI boom he helped foster",
         "source": "Reuters",
-        "publishedAt": "2026-11-12T19:14:14Z"
+        "publishedAt": "2026-11-12T20:22:50Z"
       },
       {
-        "title": "Jensen Huang built Nvidia into a $4 trillion AI giant but his 4% stake wasn't enough to save his job",
-        "source": "Fortune",
-        "publishedAt": "2026-11-12T18:28:00Z"
+        "title": "Alice Huang tied to Nvidia\u2019s biggest Chinese competitor",
+        "source": "CNBC",
+        "publishedAt": "2026-11-12T20:10:49Z"
       },
       {
-        "title": "Nvidia stood behind Jensen Huang. Now comes the reckoning.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-12T18:27:31Z"
-      },
-      {
-        "title": "Breakingviews - COMMENTARY: Nvidia stock discounts China, but not other risks",
+        "title": "EXCLUSIVE: Former Nvidia CEO Huang had a relationship with a second employee, sources say",
         "source": "Reuters",
-        "publishedAt": "2026-11-12T18:23:14Z"
+        "publishedAt": "2026-11-12T20:09:29Z"
+      },
+      {
+        "title": "Equities little changed, Nvidia drop offsets lift in energy shares",
+        "source": "Reuters",
+        "publishedAt": "2026-11-12T19:55:07Z"
       }
     ],
     "top": [
@@ -607,7 +631,7 @@
       },
       {
         "date": "2026-11-12",
-        "close": 15.66
+        "close": 15.67
       }
     ],
     "dax": [
