@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-11T22:51:33Z",
+  "updatedAt": "2026-11-12T08:13:32Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 125.71 matched",
-    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1094",
-    "Bayer ADR ratio check 3.96 ordinary shares"
+    "Nasdaq last sale 125.67 matched",
+    "ECB reference 1.1127 on 2026-11-11 vs Yahoo spot 1.1091",
+    "Bayer ADR ratio check 3.95 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -16,9 +16,9 @@
       "currency": "EUR",
       "session": "xetra",
       "price": 56.76,
-      "previousClose": 57.08,
-      "change": -0.32,
-      "changePct": -0.5606,
+      "previousClose": 56.76,
+      "change": 0.0,
+      "changePct": 0.0,
       "asOf": "2026-11-11T16:35:24Z",
       "digits": 2,
       "sparkline": [
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.92,
+      "price": 15.94,
       "previousClose": 15.98,
-      "change": -0.06,
-      "changePct": -0.3755,
-      "asOf": "2026-11-11T20:59:55Z",
+      "change": -0.04,
+      "changePct": -0.2503,
+      "asOf": "2026-11-11T21:00:00Z",
       "digits": 2,
       "sparkline": [
         15.66,
@@ -276,34 +276,34 @@
       "change": 98.45,
       "changePct": 1.309,
       "digits": 2,
-      "asOf": "2026-11-11T21:42:03Z"
+      "asOf": "2026-11-11T21:00:00Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52486.49,
+      "price": 52486.5,
       "change": 254.6,
       "changePct": 0.4874,
       "digits": 2,
-      "asOf": "2026-11-11T21:43:58Z"
+      "asOf": "2026-11-11T21:00:00Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26662.77,
-      "change": 315.32,
-      "changePct": 1.1968,
+      "price": 26662.8,
+      "change": 315.4,
+      "changePct": 1.1971,
       "digits": 2,
-      "asOf": "2026-11-11T17:00:00Z"
+      "asOf": "2026-11-11T16:30:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1094,
-      "change": -0.0073,
-      "changePct": -0.6537,
+      "price": 1.1091,
+      "change": 0.0001,
+      "changePct": 0.009,
       "digits": 4,
-      "asOf": "2026-11-11T22:50:30Z"
+      "asOf": "2026-11-12T08:12:31Z"
     }
   },
   "headlines": {
@@ -341,36 +341,36 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "Ukrainian Confectionery Giant Roshen Expands US Sales Through Amazon and Walmart - Oj",
-        "source": "Odessa Journal",
-        "publishedAt": "2026-11-11T20:55:29Z"
+        "title": "Walmart Q3 earnings due Nov 19 amid hopes for r...",
+        "source": "Pluang",
+        "publishedAt": "2026-11-12T06:33:42Z"
       },
       {
-        "title": "Top Analyst Reports for NVIDIA, Walmart & AbbVie",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-11T20:08:00Z"
+        "title": "Walmart: Q3 Preview, Expecting Bounce Back Following Weak Q2",
+        "source": "Seeking Alpha",
+        "publishedAt": "2026-11-12T06:18:17Z"
       }
     ],
     "top": [
       {
-        "title": "An 8-Year-Old Was Separated From Family and Taken by ICE at a Check-In",
+        "title": "She gave a valedictorian speech in the spring. Now, she could be deported.",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-12T06:32:55Z"
+      },
+      {
+        "title": "Scott Colom, a Democrat, Wins Mississippi Senate Election",
         "source": "The New York Times",
-        "publishedAt": "2026-11-11T22:00:55Z"
+        "publishedAt": "2026-11-12T05:24:00Z"
       },
       {
-        "title": "Trump administration wants to sell public lands and shrink the federal estate",
-        "source": "AP News",
-        "publishedAt": "2026-11-11T21:54:00Z"
+        "title": "Richard Posner, influential and iconoclastic federal judge, dies at 87",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-12T04:31:00Z"
       },
       {
-        "title": "White House faces unusual obstacle on confirming Trump judges: other Republicans",
-        "source": "AP News",
-        "publishedAt": "2026-11-11T20:11:00Z"
-      },
-      {
-        "title": "Immigration arrests go on unabated despite Trump's misgivings after the GOP's midterm wipeout",
-        "source": "AP News",
-        "publishedAt": "2026-11-11T18:53:00Z"
+        "title": "How Trump maneuvered to the brink of building his 250-foot triumphal arch",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-12T02:47:41Z"
       }
     ]
   },
@@ -384,9 +384,9 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T18:50:36Z",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     },
     {
@@ -407,10 +407,6 @@
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-10-22",
-        "close": 44.21
-      },
       {
         "date": "2026-10-23",
         "close": 43.98
@@ -462,10 +458,6 @@
       {
         "date": "2026-11-10",
         "close": 57.08
-      },
-      {
-        "date": "2026-11-11",
-        "close": 56.76
       }
     ],
     "bayry": [
@@ -527,14 +519,10 @@
       },
       {
         "date": "2026-11-11",
-        "close": 15.92
+        "close": 15.94
       }
     ],
     "dax": [
-      {
-        "date": "2026-10-22",
-        "close": 25371.75
-      },
       {
         "date": "2026-10-23",
         "close": 25181.6504
