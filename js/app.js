@@ -5,8 +5,8 @@
   var ROTATE_MS = 12000;
   var STORE_KEY = "mw-last-good-v1";
   var RELOAD_KEY = "mw-nightly-reload";
-  var TABS = ["bayer", "walmart", "top"];
-  var TAB_NAME = { bayer: "BAYER", walmart: "WALMART", top: "TOP STORIES" };
+  var TABS = ["bayer", "walmart", "nvidia", "top"];
+  var TAB_NAME = { bayer: "BAYER", walmart: "WALMART", nvidia: "NVIDIA", top: "TOP STORIES" };
   var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
   var stage = document.getElementById("stage");
@@ -20,6 +20,7 @@
     bayn: document.querySelector('[data-quote="bayn"]'),
     bayry: document.querySelector('[data-quote="bayry"]'),
     wmt: document.querySelector('[data-quote="wmt"]'),
+    nvda: document.querySelector('[data-quote="nvda"]'),
   };
 
   var eventEl = document.getElementById("event");
@@ -212,7 +213,7 @@
         timeEl.textContent = "--:--";
       }
     }
-    var keys = ["bayn", "bayry", "wmt"];
+    var keys = ["bayn", "bayry", "wmt", "nvda"];
     for (var c = 0; c < keys.length; c++) {
       var card = cards[keys[c]];
       var quote = data && data.quotes ? data.quotes[keys[c]] : null;
@@ -613,6 +614,7 @@
     paintQuote("bayn", data && data.quotes && data.quotes.bayn);
     paintQuote("bayry", data && data.quotes && data.quotes.bayry);
     paintQuote("wmt", data && data.quotes && data.quotes.wmt);
+    paintQuote("nvda", data && data.quotes && data.quotes.nvda);
     paintTicker();
     paintEvent(now);
     paintHeadlines(now);

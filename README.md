@@ -1,6 +1,6 @@
 # Market Watch
 
-Always-on lobby display for a Bayer office television. It shows Bayer AG (Xetra), the Bayer ADR, Walmart, five office clocks, headlines, and a market ticker. The page is static and is meant to run full screen on a Fire TV Stick.
+Always-on lobby display for a Bayer office television. It shows Bayer AG (Xetra), the Bayer ADR, Walmart, a compact NVIDIA quote, five office clocks, headlines, and a market ticker. The page is static and is meant to run full screen on a Fire TV Stick.
 
 **Live URL (after Pages is enabled and this branch is merged):** https://robshayla.github.io/market-watch/
 
