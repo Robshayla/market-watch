@@ -138,15 +138,14 @@
     if (preview === "results") return ["results"];
     if (preview === "reaction") return ["reaction"];
     if (preview === "consumer") return ["consumer"];
-    if (preview === "rotation") return ["board", "results", "consumer", "reaction"];
+    if (preview === "mirafiber") return ["mirafiber"];
+    if (preview === "rotation") return ["board", "results", "mirafiber", "consumer", "reaction"];
     var screens = [];
-    if (inWindow && event) {
-      if (event.showResults === true && filled) screens.push("results");
-      screens.push("board");
-      if (event.showReaction === true) screens.push("reaction");
-    } else {
-      screens.push("board");
-    }
+    var earningsOn = inWindow && event && event.earnings !== false && event.showResults === true && filled;
+    if (earningsOn) screens.push("results");
+    else screens.push("mirafiber");
+    screens.push("board");
+    if (inWindow && event && event.showReaction === true) screens.push("reaction");
     screens.push("consumer");
     return screens;
   }

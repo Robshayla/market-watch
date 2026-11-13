@@ -9,6 +9,7 @@
       "timezone": "Europe/Berlin",
       "highlightSymbols": ["bayn", "bayry"],
       "showResults": true,
+      "earnings": false,
       "showReaction": false,
       "resultsFile": "data/earnings_q3_2026.json",
       "referenceDate": "2026-11-02",

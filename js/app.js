@@ -305,7 +305,7 @@
   function readPreview() {
     try {
       var value = new URLSearchParams(location.search).get("preview");
-      if (value === "before" || value === "after" || value === "results" || value === "reaction" || value === "consumer" || value === "rotation") {
+      if (value === "before" || value === "after" || value === "results" || value === "reaction" || value === "consumer" || value === "mirafiber" || value === "rotation") {
         return value;
       }
     } catch (err) {
@@ -762,6 +762,7 @@
     stage.classList.toggle("show-results", name === "results");
     stage.classList.toggle("show-reaction", name === "reaction");
     stage.classList.toggle("show-consumer", name === "consumer");
+    stage.classList.toggle("show-mirafiber", name === "mirafiber");
     var event = primaryEvent();
     var reaction = reactionView(event);
     if (name === "results") {
@@ -782,6 +783,9 @@
     }
     if (name === "consumer") {
       MarketScreens.renderConsumer(consumerEl);
+    }
+    if (name === "mirafiber") {
+      MarketScreens.renderMirafiber(document.getElementById("mirafiber-screen"), window.MiraFiberOffer || null);
     }
   }
 
@@ -821,6 +825,20 @@
       });
   }
 
+  function loadMirafiber() {
+    return fetch("data/mirafiber.json?ts=" + Math.floor(Date.now() / 60000), { cache: "no-store" })
+      .then(function (res) {
+        if (!res.ok) throw new Error(String(res.status));
+        return res.json();
+      })
+      .then(function (doc) {
+        window.MiraFiberOffer = doc;
+      })
+      .catch(function () {
+        window.MiraFiberOffer = window.MiraFiberOffer || null;
+      });
+  }
+
   function loadEvents() {
     return fetch("data/events.json?ts=" + Math.floor(Date.now() / 60000), { cache: "no-store" })
       .then(function (res) {
@@ -830,7 +848,7 @@
       .then(function (cfg) {
         eventsConfig = cfg && cfg.events ? cfg : { events: [] };
         paintEvent(new Date());
-        return loadEarnings();
+        return loadEarnings().then(loadMirafiber);
       })
       .then(function () {
         armScreens();
