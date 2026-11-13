@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-13T08:13:01Z",
+  "updatedAt": "2026-11-13T09:12:57Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 126.19 matched",
-    "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1066",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1067",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,96 +14,28 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.56,
+      "price": 56.7,
       "previousClose": 56.56,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-12T16:38:38Z",
+      "change": 0.14,
+      "changePct": 0.2475,
+      "asOf": "2026-11-13T08:57:30Z",
       "digits": 2,
       "sparkline": [
-        57.78,
-        57.64,
-        57.62,
-        57.6,
-        57.64,
-        57.48,
-        57.66,
-        57.64,
-        57.58,
-        57.48,
-        57.44,
-        57.58,
-        57.54,
-        57.46,
-        57.46,
-        57.62,
-        57.6,
-        57.6,
-        57.58,
-        57.56,
-        57.66,
-        57.6,
-        57.56,
-        57.54,
-        57.5,
-        57.42,
-        57.22,
-        57.3,
-        57.34,
-        57.3,
-        57.24,
-        57.34,
-        57.3,
-        57.36,
-        57.38,
-        57.34,
-        57.34,
-        57.2,
-        57.3,
-        57.32,
-        57.44,
-        57.42,
-        57.36,
-        57.4,
-        57.42,
-        57.46,
-        57.44,
-        57.42,
-        57.16,
-        57.18,
-        57.08,
-        56.96,
-        56.94,
-        56.7,
-        56.74,
-        56.76,
-        56.82,
-        56.76,
-        56.82,
-        56.84,
-        56.84,
-        56.82,
-        56.66,
-        56.74,
-        56.8,
-        56.7,
-        56.42,
-        56.44,
-        56.42,
-        56.42,
         56.56,
-        56.4,
-        56.48,
-        56.48,
-        56.46,
-        56.32,
-        56.32,
-        56.38,
-        56.42,
-        56.48,
-        56.56
+        56.62,
+        56.76,
+        56.64,
+        56.56,
+        56.62,
+        56.62,
+        56.64,
+        56.7,
+        56.7,
+        56.72,
+        56.72,
+        56.7
       ],
-      "sessionDate": "2026-11-12"
+      "sessionDate": "2026-11-13"
     },
     "bayry": {
       "symbol": "BAYRY",
@@ -293,9 +224,9 @@
         161.0827,
         160.24,
         161.965,
-        163.68,
+        163.6793,
         164.9001,
-        165.07,
+        165.0699,
         163.23,
         164.62,
         164.78,
@@ -314,7 +245,7 @@
         164.76,
         165.08,
         165.21,
-        164.945,
+        164.95,
         164.3847,
         164.925,
         164.762,
@@ -359,7 +290,7 @@
         163.2,
         164.11,
         164.355,
-        164.8501,
+        164.87,
         165.45,
         166.04,
         166.19
@@ -375,34 +306,34 @@
       "change": -26.98,
       "changePct": -0.3541,
       "digits": 2,
-      "asOf": "2026-11-12T21:00:00Z"
+      "asOf": "2026-11-12T21:58:23Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52297.1,
-      "change": -189.4,
+      "price": 52297.09,
+      "change": -189.41,
       "changePct": -0.3609,
       "digits": 2,
-      "asOf": "2026-11-12T21:00:00Z"
+      "asOf": "2026-11-12T21:58:18Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26771.9,
-      "change": 109.1,
-      "changePct": 0.4092,
+      "price": 26705.38,
+      "change": -66.5,
+      "changePct": -0.2484,
       "digits": 2,
-      "asOf": "2026-11-12T16:30:00Z"
+      "asOf": "2026-11-13T08:57:42Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1066,
-      "change": 0.0007,
-      "changePct": 0.0633,
+      "price": 1.1067,
+      "change": 0.0008,
+      "changePct": 0.0723,
       "digits": 4,
-      "asOf": "2026-11-13T08:12:30Z"
+      "asOf": "2026-11-13T09:12:31Z"
     }
   },
   "headlines": {
@@ -440,36 +371,36 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "Inside Bernstein\u2019s Latest Call on Walmart Inc (WMT) Stock",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-06-19T07:00:00Z"
-      },
-      {
         "title": "Lawyers in Walmart lawsuit admit AI 'hallucinated' case citations",
         "source": "Reuters",
         "publishedAt": "2025-02-10T08:00:00Z"
+      },
+      {
+        "title": "At 21x earnings, Amazon is cheaper than Walmart and surging",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-13T07:30:33Z"
       }
     ],
     "nvidia": [
       {
+        "title": "EXCLUSIVE: Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia",
+        "source": "Reuters",
+        "publishedAt": "2026-11-13T08:42:14Z"
+      },
+      {
+        "title": "Billionaire KoGuan Vows Not to Buy Nvidia Stock as Huang Quits",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-13T08:03:45Z"
+      },
+      {
+        "title": "Chinese AI sell-off deepens over fears of tougher Nvidia chip restrictions",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-13T07:39:08Z"
+      },
+      {
         "title": "Nvidia without Jensen Huang. What lies ahead for Asian chipmakers?",
         "source": "CNBC",
         "publishedAt": "2026-11-13T07:29:15Z"
-      },
-      {
-        "title": "Nvidia\u2019s Huang Ousted by Board After Reports of Three Affairs",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-13T07:26:00Z"
-      },
-      {
-        "title": "Asia\u2019s Stock Rebound Fades as Nvidia Uncertainty Lingers",
-        "source": "WSJ",
-        "publishedAt": "2026-11-13T07:09:00Z"
-      },
-      {
-        "title": "Nvidia's stock may look cheaper now, but many unknowns remain: CIO",
-        "source": "CNBC",
-        "publishedAt": "2026-11-13T07:06:42Z"
       }
     ],
     "top": [
@@ -479,14 +410,14 @@
         "publishedAt": "2026-11-13T06:11:00Z"
       },
       {
+        "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+        "source": "BBC",
+        "publishedAt": "2026-11-13T03:57:01Z"
+      },
+      {
         "title": "D.C. gunman attributed attack to frustrations with building maintenance",
         "source": "The Washington Post",
         "publishedAt": "2026-11-13T03:57:00Z"
-      },
-      {
-        "title": "Hegseth awards medal to soldier who admonished him, his team at Tomb of the Unknowns",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-13T02:46:31Z"
       },
       {
         "title": "Trump bluntly tells JD Vance to shift focus from Iran to targeting 'corruption and crime' at home",
@@ -505,13 +436,6 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
       "publishedAt": "2026-11-03T15:10:05Z",
@@ -522,6 +446,13 @@
       "title": "Bayer Q3 2026 Earnings Call Is Live",
       "source": "TradingView",
       "publishedAt": "2026-11-03T12:57:04Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -579,6 +510,14 @@
       {
         "date": "2026-11-11",
         "close": 56.76
+      },
+      {
+        "date": "2026-11-12",
+        "close": 56.56
+      },
+      {
+        "date": "2026-11-13",
+        "close": 56.7
       }
     ],
     "bayry": [
@@ -699,6 +638,10 @@
       {
         "date": "2026-11-12",
         "close": 26771.8809
+      },
+      {
+        "date": "2026-11-13",
+        "close": 26704.5195
       }
     ]
   }
