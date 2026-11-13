@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-11-13T14:28:54Z",
+  "updatedAt": "2026-11-13T15:17:22Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1051",
+    "Nasdaq last sale 127.16 matched",
+    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1053",
     "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
@@ -14,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.58,
+      "price": 56.66,
       "previousClose": 56.56,
-      "change": 0.02,
-      "changePct": 0.0354,
-      "asOf": "2026-11-13T14:13:03Z",
+      "change": 0.1,
+      "changePct": 0.1768,
+      "asOf": "2026-11-13T15:01:36Z",
       "digits": 2,
       "sparkline": [
         56.56,
@@ -35,7 +36,6 @@
         56.68,
         56.66,
         56.7,
-        56.68,
         56.74,
         56.78,
         56.78,
@@ -49,7 +49,6 @@
         56.86,
         56.84,
         56.82,
-        56.82,
         56.84,
         56.86,
         56.9,
@@ -62,7 +61,6 @@
         56.82,
         56.76,
         56.78,
-        56.72,
         56.72,
         56.74,
         56.78,
@@ -78,7 +76,6 @@
         56.76,
         56.78,
         56.76,
-        56.78,
         56.82,
         56.86,
         56.82,
@@ -92,11 +89,20 @@
         56.88,
         56.78,
         56.78,
-        56.78,
         56.74,
         56.74,
+        56.58,
         56.6,
-        56.58
+        56.58,
+        56.58,
+        56.58,
+        56.62,
+        56.68,
+        56.72,
+        56.7,
+        56.76,
+        56.74,
+        56.66
       ],
       "sessionDate": "2026-11-13"
     },
@@ -107,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.67,
-      "previousClose": 15.94,
-      "change": -0.27,
-      "changePct": -1.6939,
-      "asOf": "2026-11-13T13:01:35Z",
+      "price": 15.68,
+      "previousClose": 15.67,
+      "change": 0.01,
+      "changePct": 0.0638,
+      "asOf": "2026-11-13T15:01:36Z",
       "digits": 2,
       "sparkline": [
         15.68,
@@ -175,94 +181,26 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.19,
-      "previousClose": 125.67,
-      "change": 0.52,
-      "changePct": 0.4138,
-      "asOf": "2026-11-12T21:00:00Z",
+      "price": 127.12,
+      "previousClose": 126.19,
+      "change": 0.93,
+      "changePct": 0.737,
+      "asOf": "2026-11-13T15:17:07Z",
       "digits": 2,
       "sparkline": [
-        126.765,
-        125.835,
-        125.86,
-        126.21,
-        126.04,
-        125.725,
-        126.2,
-        126.375,
-        126.66,
-        126.375,
-        126.08,
-        126.295,
-        126.47,
-        126.54,
-        126.39,
-        126.375,
-        126.17,
-        125.975,
-        126.01,
-        125.785,
-        125.825,
-        125.8201,
-        125.89,
-        125.71,
-        125.74,
-        125.7816,
-        125.83,
-        125.9116,
-        125.84,
-        125.77,
-        125.8381,
-        126.05,
-        126.06,
-        126.1884,
-        126.33,
-        126.395,
-        126.37,
-        126.27,
-        125.97,
-        126.01,
-        126.02,
-        126.07,
-        125.834,
-        125.86,
-        125.845,
-        126.0,
-        125.97,
-        125.94,
-        125.93,
-        125.82,
-        125.75,
-        125.8099,
-        125.78,
-        125.81,
-        125.8301,
-        125.87,
-        125.86,
-        125.97,
-        125.905,
-        125.82,
-        125.76,
-        125.82,
-        125.78,
-        125.725,
-        125.66,
-        125.6661,
-        125.72,
-        125.73,
-        125.81,
-        125.89,
-        125.985,
-        125.98,
-        126.1,
-        126.08,
-        126.2,
-        126.24,
-        126.18,
-        126.16,
-        126.19
+        126.9825,
+        126.9981,
+        127.675,
+        128.14,
+        127.715,
+        127.81,
+        127.69,
+        127.47,
+        127.37,
+        127.19,
+        127.1199
       ],
-      "sessionDate": "2026-11-12"
+      "sessionDate": "2026-11-13"
     },
     "nvda": {
       "symbol": "NVDA",
@@ -271,132 +209,64 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 166.19,
-      "previousClose": 173.73,
-      "change": -7.54,
-      "changePct": -4.3401,
-      "asOf": "2026-11-12T21:00:01Z",
+      "price": 160.93,
+      "previousClose": 166.19,
+      "change": -5.26,
+      "changePct": -3.1651,
+      "asOf": "2026-11-13T15:17:09Z",
       "digits": 2,
       "sparkline": [
-        156.258,
-        159.55,
-        159.93,
-        159.5586,
-        161.494,
-        162.66,
-        161.0827,
-        160.24,
-        161.965,
-        163.6793,
-        164.9001,
-        165.0699,
-        163.23,
-        164.62,
-        164.78,
-        163.88,
-        165.03,
-        165.735,
-        164.985,
-        166.85,
-        166.05,
-        166.095,
-        165.66,
-        165.4949,
-        165.71,
-        164.94,
-        164.2,
-        164.76,
-        165.08,
-        165.21,
-        164.95,
-        164.3847,
-        164.925,
-        164.762,
-        163.7786,
-        163.967,
-        164.62,
-        165.06,
-        165.57,
-        165.46,
-        165.12,
-        164.9075,
-        165.32,
-        165.4001,
-        165.495,
-        165.59,
-        165.66,
-        165.88,
-        166.395,
-        165.92,
-        165.01,
-        164.6901,
-        164.7517,
-        164.76,
-        163.936,
-        164.1045,
-        164.5801,
-        164.71,
-        164.505,
-        164.575,
-        163.8813,
-        163.295,
-        164.0145,
-        163.66,
-        164.2626,
-        164.268,
-        164.17,
-        164.08,
-        163.6779,
-        164.6401,
-        164.675,
-        164.02,
-        163.2,
-        164.11,
-        164.355,
-        164.87,
-        165.45,
-        166.04,
-        166.19
+        165.44,
+        164.01,
+        162.52,
+        162.285,
+        162.73,
+        162.51,
+        162.1,
+        161.73,
+        160.27,
+        160.6,
+        160.93
       ],
-      "sessionDate": "2026-11-12"
+      "sessionDate": "2026-11-13"
     }
   },
   "ticker": {
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7592.4,
-      "change": -26.98,
-      "changePct": -0.3541,
+      "price": 7514.45,
+      "change": -77.95,
+      "changePct": -1.0267,
       "digits": 2,
-      "asOf": "2026-11-12T21:58:23Z"
+      "asOf": "2026-11-13T15:17:09Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52297.09,
-      "change": -189.41,
-      "changePct": -0.3609,
+      "price": 52057.8,
+      "change": -239.29,
+      "changePct": -0.4576,
       "digits": 2,
-      "asOf": "2026-11-12T21:58:18Z"
+      "asOf": "2026-11-13T15:17:10Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26729.61,
-      "change": -42.27,
-      "changePct": -0.1579,
+      "price": 26745.18,
+      "change": -26.7,
+      "changePct": -0.0997,
       "digits": 2,
-      "asOf": "2026-11-13T14:13:42Z"
+      "asOf": "2026-11-13T15:02:08Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1051,
-      "change": -0.0008,
-      "changePct": -0.0723,
+      "price": 1.1053,
+      "change": -0.0006,
+      "changePct": -0.0543,
       "digits": 4,
-      "asOf": "2026-11-13T14:28:33Z"
+      "asOf": "2026-11-13T15:16:34Z"
     }
   },
   "headlines": {
@@ -434,58 +304,58 @@
         "publishedAt": "2026-11-09T16:40:00Z"
       },
       {
-        "title": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million",
-        "source": "Reuters",
-        "publishedAt": "2026-08-28T07:00:00Z"
-      },
-      {
         "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC",
         "publishedAt": "2026-08-20T07:00:00Z"
+      },
+      {
+        "title": "Inside Bernstein\u2019s Latest Call on Walmart Inc (WMT) Stock",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-06-19T07:00:00Z"
       }
     ],
     "nvidia": [
       {
+        "title": "Lutnick Agrees To Testify Before Congress\u2014As He Faces Bipartisan Blowback Over Nvidia\u2019s Huang Fallout",
+        "source": "Forbes",
+        "publishedAt": "2026-11-13T14:52:00Z"
+      },
+      {
+        "title": "Opinion: The Nvidia honeytrap story is awfully convenient",
+        "source": "Fierce Network",
+        "publishedAt": "2026-11-13T14:43:21Z"
+      },
+      {
         "title": "Nvidia CEO Huang\u2019s Fall Threatens US-China Diplomacy",
         "source": "Bloomberg",
-        "publishedAt": "2026-11-13T14:26:28Z"
+        "publishedAt": "2026-11-13T14:29:21Z"
       },
       {
-        "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
-        "source": "Reuters",
-        "publishedAt": "2026-11-13T14:04:12Z"
-      },
-      {
-        "title": "Dyania Health, Nvidia team up to bring clinical reasoning AI inside hospital networks",
-        "source": "Fierce Healthcare",
-        "publishedAt": "2026-11-13T13:30:00Z"
-      },
-      {
-        "title": "Alice Huang-Linked Firm Procured Banned Nvidia Chips in China",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-13T13:09:00Z"
+        "title": "Jensen Huang is being skewered by AI memes, courtesy of Nvidia chips",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-13T14:15:00Z"
       }
     ],
     "top": [
       {
         "title": "Movement to end electoral college gets boost after Democratic wins",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-13T13:44:29Z"
+        "publishedAt": "2026-11-13T14:32:07Z"
       },
       {
-        "title": "Burgers, Boycotts and the Ad That Divided an Ohio Community",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-13T13:17:17Z"
+        "title": "Bessent blames Lutnick\u2019s commerce department for failure to blacklist Megaspeed",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-13T13:48:56Z"
+      },
+      {
+        "title": "Van Hollen to challenge Schumer for Senate Democratic leader",
+        "source": "AP News",
+        "publishedAt": "2026-11-13T12:42:00Z"
       },
       {
         "title": "UN watchdog 'increasingly concerned' over Iran nuclear site",
         "source": "BBC",
         "publishedAt": "2026-11-13T12:28:28Z"
-      },
-      {
-        "title": "Republicans dazed by midterm election defeats grapple with what went wrong",
-        "source": "AP News",
-        "publishedAt": "2026-11-13T12:17:00Z"
       }
     ]
   },
@@ -513,8 +383,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer : Quarterly Statement Q3 2026",
-      "source": "www.marketscreener",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     }
@@ -580,14 +450,10 @@
       },
       {
         "date": "2026-11-13",
-        "close": 56.58
+        "close": 56.62
       }
     ],
     "bayry": [
-      {
-        "date": "2026-10-23",
-        "close": 12.3
-      },
       {
         "date": "2026-10-26",
         "close": 12.69
@@ -646,7 +512,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 15.67
+        "close": 15.68
       }
     ],
     "dax": [
@@ -708,7 +574,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 26727.3906
+        "close": 26740.3691
       }
     ]
   }
