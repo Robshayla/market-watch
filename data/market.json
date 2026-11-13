@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-11-12T22:47:09Z",
+  "updatedAt": "2026-11-13T08:13:01Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1058",
+    "Nasdaq last sale 126.19 matched",
+    "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1066",
     "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
@@ -15,9 +16,9 @@
       "currency": "EUR",
       "session": "xetra",
       "price": 56.56,
-      "previousClose": 56.76,
-      "change": -0.2,
-      "changePct": -0.3524,
+      "previousClose": 56.56,
+      "change": 0.0,
+      "changePct": 0.0,
       "asOf": "2026-11-12T16:38:38Z",
       "digits": 2,
       "sparkline": [
@@ -113,10 +114,10 @@
       "currency": "USD",
       "session": "us",
       "price": 15.67,
-      "previousClose": 15.92,
-      "change": -0.25,
-      "changePct": -1.5704,
-      "asOf": "2026-11-12T20:59:46Z",
+      "previousClose": 15.94,
+      "change": -0.27,
+      "changePct": -1.6939,
+      "asOf": "2026-11-12T21:00:00Z",
       "digits": 2,
       "sparkline": [
         15.68,
@@ -180,18 +181,18 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.02,
+      "price": 126.19,
       "previousClose": 125.67,
-      "change": 0.35,
-      "changePct": 0.2785,
-      "asOf": "2026-11-12T20:29:26Z",
+      "change": 0.52,
+      "changePct": 0.4138,
+      "asOf": "2026-11-12T21:00:00Z",
       "digits": 2,
       "sparkline": [
         126.765,
         125.835,
         125.86,
         126.21,
-        126.05,
+        126.04,
         125.725,
         126.2,
         126.375,
@@ -258,8 +259,14 @@
         125.81,
         125.89,
         125.985,
-        126.005,
-        126.02
+        125.98,
+        126.1,
+        126.08,
+        126.2,
+        126.24,
+        126.18,
+        126.16,
+        126.19
       ],
       "sessionDate": "2026-11-12"
     },
@@ -368,34 +375,34 @@
       "change": -26.98,
       "changePct": -0.3541,
       "digits": 2,
-      "asOf": "2026-11-12T21:58:23Z"
+      "asOf": "2026-11-12T21:00:00Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52297.09,
+      "price": 52297.1,
       "change": -189.4,
       "changePct": -0.3609,
       "digits": 2,
-      "asOf": "2026-11-12T21:58:18Z"
+      "asOf": "2026-11-12T21:00:00Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26771.88,
-      "change": 109.11,
+      "price": 26771.9,
+      "change": 109.1,
       "changePct": 0.4092,
       "digits": 2,
-      "asOf": "2026-11-12T17:00:00Z"
+      "asOf": "2026-11-12T16:30:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1058,
-      "change": -0.0032,
-      "changePct": -0.2885,
+      "price": 1.1066,
+      "change": 0.0007,
+      "changePct": 0.0633,
       "digits": 4,
-      "asOf": "2026-11-12T22:46:29Z"
+      "asOf": "2026-11-13T08:12:30Z"
     }
   },
   "headlines": {
@@ -438,53 +445,53 @@
         "publishedAt": "2026-06-19T07:00:00Z"
       },
       {
-        "title": "All the deals actually worth shopping during the Walmart early Black Friday sale",
-        "source": "NBC News",
-        "publishedAt": "2026-11-12T20:58:01Z"
+        "title": "Lawyers in Walmart lawsuit admit AI 'hallucinated' case citations",
+        "source": "Reuters",
+        "publishedAt": "2025-02-10T08:00:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "White House weighs Commerce Secretary Lutnick's ouster amid Nvidia export concerns, sources say",
-        "source": "Reuters",
-        "publishedAt": "2026-11-12T22:26:27Z"
+        "title": "Nvidia without Jensen Huang. What lies ahead for Asian chipmakers?",
+        "source": "CNBC",
+        "publishedAt": "2026-11-13T07:29:15Z"
       },
       {
-        "title": "Jensen Huang steps down and Nvidia shares drop",
-        "source": "AP News",
-        "publishedAt": "2026-11-12T22:15:00Z"
+        "title": "Nvidia\u2019s Huang Ousted by Board After Reports of Three Affairs",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-13T07:26:00Z"
       },
       {
-        "title": "Wall Street shakes with swings for Nvidia and oil prices but recovers most of its early losses",
-        "source": "AP News",
-        "publishedAt": "2026-11-12T22:03:00Z"
+        "title": "Asia\u2019s Stock Rebound Fades as Nvidia Uncertainty Lingers",
+        "source": "WSJ",
+        "publishedAt": "2026-11-13T07:09:00Z"
       },
       {
-        "title": "COMMENTARY: TRADING DAY Weathering the Nvidia storm",
-        "source": "Reuters",
-        "publishedAt": "2026-11-12T22:02:38Z"
+        "title": "Nvidia's stock may look cheaper now, but many unknowns remain: CIO",
+        "source": "CNBC",
+        "publishedAt": "2026-11-13T07:06:42Z"
       }
     ],
     "top": [
       {
+        "title": "California Could Face 50-Foot Waves as Storms Slam Its Coast",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-13T06:11:00Z"
+      },
+      {
+        "title": "D.C. gunman attributed attack to frustrations with building maintenance",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-13T03:57:00Z"
+      },
+      {
         "title": "Hegseth awards medal to soldier who admonished him, his team at Tomb of the Unknowns",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-12T22:41:36Z"
+        "publishedAt": "2026-11-13T02:46:31Z"
       },
       {
-        "title": "Trump reverts to an old theme, warns of immigrant caravans",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-12T22:31:39Z"
-      },
-      {
-        "title": "Exclusive | U.S. Army Officer Identified After U.K. Sting for Alleged Russian Spying",
-        "source": "WSJ",
-        "publishedAt": "2026-11-12T20:38:00Z"
-      },
-      {
-        "title": "U.S. Collected $12 Billion in Venezuelan Oil Sales, Returning Nearly All of It",
-        "source": "WSJ",
-        "publishedAt": "2026-11-12T20:14:00Z"
+        "title": "Trump bluntly tells JD Vance to shift focus from Iran to targeting 'corruption and crime' at home",
+        "source": "AP News",
+        "publishedAt": "2026-11-13T02:07:00Z"
       }
     ]
   },
@@ -521,10 +528,6 @@
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-10-23",
-        "close": 43.98
-      },
       {
         "date": "2026-10-26",
         "close": 45.56
@@ -576,10 +579,6 @@
       {
         "date": "2026-11-11",
         "close": 56.76
-      },
-      {
-        "date": "2026-11-12",
-        "close": 56.56
       }
     ],
     "bayry": [
@@ -645,10 +644,6 @@
       }
     ],
     "dax": [
-      {
-        "date": "2026-10-23",
-        "close": 25181.6504
-      },
       {
         "date": "2026-10-26",
         "close": 25410.8398
