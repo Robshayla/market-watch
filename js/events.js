@@ -134,12 +134,17 @@
     return true;
   }
 
-  function rotationScreens(event, filled, preview, inWindow) {
-    if (preview === "results") return ["results"];
-    if (preview === "reaction") return ["reaction"];
-    if (preview === "consumer") return ["consumer"];
-    if (preview === "mirafiber") return ["mirafiber"];
-    if (preview === "rotation") return ["board", "mirafiber", "consumer", "reaction"];
+  function atLeastTwo(screens) {
+    var list = screens.slice();
+    if (list.indexOf("board") < 0) list.push("board");
+    if (list.length < 2) {
+      if (list.indexOf("mirafiber") < 0) list.unshift("mirafiber");
+      else list.push("board");
+    }
+    return list;
+  }
+
+  function liveScreens(event, filled, inWindow) {
     var screens = [];
     /* earnings:false is the live switch. showResults stays in the file so the
        screen can be turned back on, but a cached older script only reads
@@ -149,8 +154,24 @@
     else screens.push("mirafiber");
     screens.push("board");
     if (inWindow && event && event.showReaction === true) screens.push("reaction");
-    screens.push("consumer");
-    return screens;
+    if (event && event.showConsumer === true) screens.push("consumer");
+    return atLeastTwo(screens);
+  }
+
+  function rotationScreens(event, filled, preview, inWindow) {
+    if (preview === "results") return ["results"];
+    if (preview === "reaction") return ["reaction"];
+    if (preview === "consumer") return ["consumer"];
+    if (preview === "mirafiber") return ["mirafiber"];
+    if (preview === "rotation") {
+      var rotation = [];
+      liveScreens(event, filled, inWindow).forEach(function (name) {
+        var next = name === "results" ? "mirafiber" : name;
+        if (rotation.indexOf(next) < 0) rotation.push(next);
+      });
+      return atLeastTwo(rotation);
+    }
+    return liveScreens(event, filled, inWindow);
   }
 
   root.Events = {

@@ -758,6 +758,17 @@
     if (preview !== "results" && !resultsLive) {
       screens = screens.filter(function (name) { return name !== "results"; });
     }
+    var consumerOn = event && event.showConsumer === true;
+    if (preview !== "consumer" && !consumerOn) {
+      screens = screens.filter(function (name) { return name !== "consumer"; });
+    }
+    if (preview !== "results" && preview !== "reaction" && preview !== "consumer" && preview !== "mirafiber") {
+      if (screens.indexOf("board") < 0) screens.push("board");
+      if (screens.length < 2) {
+        if (screens.indexOf("mirafiber") < 0) screens.unshift("mirafiber");
+        else screens.push("board");
+      }
+    }
     return screens;
   }
 
@@ -767,7 +778,9 @@
     var event = primaryEvent();
     var previewNow = readPreview();
     var allowResults = previewNow === "results" || (event && event.earnings === true && event.showResults === true);
-    if (name === "results" && !allowResults) name = "mirafiber";
+    if (name === "results" && !allowResults) name = screens.indexOf("mirafiber") >= 0 ? "mirafiber" : (screens[0] || "board");
+    var allowConsumer = previewNow === "consumer" || (event && event.showConsumer === true);
+    if (name === "consumer" && !allowConsumer) name = screens.indexOf("board") >= 0 ? "board" : (screens[0] || "board");
     stage.classList.toggle("show-results", name === "results");
     stage.classList.toggle("show-reaction", name === "reaction");
     stage.classList.toggle("show-consumer", name === "consumer");

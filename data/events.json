@@ -11,6 +11,7 @@
       "showResults": false,
       "earnings": false,
       "showReaction": false,
+      "showConsumer": false,
       "resultsFile": "data/earnings_q3_2026.json",
       "referenceDate": "2026-11-02",
       "rotateMs": 20000,
