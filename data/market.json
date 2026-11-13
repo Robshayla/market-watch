@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-13T17:18:13Z",
+  "updatedAt": "2026-11-13T17:20:57Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 128.16 matched",
+    "Nasdaq last sale 128.17 matched",
     "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1036",
     "Bayer ADR ratio check 3.99 ordinary shares"
   ],
@@ -150,7 +150,7 @@
       "previousClose": 126.19,
       "change": 1.97,
       "changePct": 1.5611,
-      "asOf": "2026-11-13T17:17:53Z",
+      "asOf": "2026-11-13T17:20:39Z",
       "digits": 2,
       "sparkline": [
         126.9825,
@@ -186,7 +186,7 @@
         127.785,
         128.1,
         128.13,
-        128.16,
+        128.225,
         128.155
       ],
       "sessionDate": "2026-11-13"
@@ -198,11 +198,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 160.63,
+      "price": 160.72,
       "previousClose": 166.19,
-      "change": -5.56,
-      "changePct": -3.3456,
-      "asOf": "2026-11-13T17:18:00Z",
+      "change": -5.47,
+      "changePct": -3.2914,
+      "asOf": "2026-11-13T17:20:43Z",
       "digits": 2,
       "sparkline": [
         165.44,
@@ -238,8 +238,8 @@
         160.395,
         160.61,
         160.46,
-        160.645,
-        160.635
+        160.785,
+        160.715
       ],
       "sessionDate": "2026-11-13"
     }
@@ -248,20 +248,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7530.48,
-      "change": -61.92,
-      "changePct": -0.8156,
+      "price": 7530.84,
+      "change": -61.56,
+      "changePct": -0.8108,
       "digits": 2,
-      "asOf": "2026-11-13T17:17:59Z"
+      "asOf": "2026-11-13T17:20:43Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52199.62,
-      "change": -97.47,
-      "changePct": -0.1864,
+      "price": 52191.55,
+      "change": -105.54,
+      "changePct": -0.2018,
       "digits": 2,
-      "asOf": "2026-11-13T17:18:01Z"
+      "asOf": "2026-11-13T17:20:44Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -279,7 +279,7 @@
       "change": -0.0023,
       "changePct": -0.208,
       "digits": 4,
-      "asOf": "2026-11-13T17:17:32Z"
+      "asOf": "2026-11-13T17:20:32Z"
     }
   },
   "headlines": {
@@ -351,6 +351,11 @@
     ],
     "top": [
       {
+        "title": "Democrats target DHS prison purchase as part of broad immigration probes",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-13T17:14:17Z"
+      },
+      {
         "title": "Trump\u2019s top economic advisers clash over Lutnick\u2019s handling of Nvidia",
         "source": "The Washington Post",
         "publishedAt": "2026-11-13T17:09:01Z"
@@ -359,11 +364,6 @@
         "title": "Movement to end electoral college gets boost after Democratic wins",
         "source": "The Washington Post",
         "publishedAt": "2026-11-13T16:48:45Z"
-      },
-      {
-        "title": "Democrats target DHS prison purchase as part of broad immigration probes",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-13T16:02:30Z"
       },
       {
         "title": "Democrats are weighing impeachment of RFK Jr. while courting his supporters",
