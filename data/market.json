@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-13T20:07:56Z",
+  "updatedAt": "2026-11-13T20:59:23Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.47 matched",
+    "Nasdaq last sale 128.01 matched",
     "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1027",
     "Bayer ADR ratio check 3.98 ordinary shares"
   ],
@@ -117,7 +117,7 @@
       "previousClose": 15.67,
       "change": 0.0,
       "changePct": 0.0,
-      "asOf": "2026-11-13T19:49:58Z",
+      "asOf": "2026-11-13T20:43:48Z",
       "digits": 2,
       "sparkline": [
         15.63,
@@ -146,7 +146,8 @@
         15.66,
         15.66,
         15.66,
-        15.68,
+        15.67,
+        15.67,
         15.67
       ],
       "sessionDate": "2026-11-13"
@@ -158,11 +159,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.47,
+      "price": 128.0,
       "previousClose": 126.19,
-      "change": 1.28,
-      "changePct": 1.0143,
-      "asOf": "2026-11-13T20:07:41Z",
+      "change": 1.81,
+      "changePct": 1.4343,
+      "asOf": "2026-11-13T20:59:08Z",
       "digits": 2,
       "sparkline": [
         126.9825,
@@ -233,7 +234,17 @@
         127.43,
         127.39,
         127.44,
-        127.47
+        127.385,
+        127.55,
+        127.54,
+        127.67,
+        127.81,
+        127.84,
+        127.91,
+        127.835,
+        127.92,
+        127.955,
+        128.0
       ],
       "sessionDate": "2026-11-13"
     },
@@ -244,11 +255,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 162.72,
+      "price": 162.64,
       "previousClose": 166.19,
-      "change": -3.47,
-      "changePct": -2.088,
-      "asOf": "2026-11-13T20:07:44Z",
+      "change": -3.55,
+      "changePct": -2.1361,
+      "asOf": "2026-11-13T20:59:11Z",
       "digits": 2,
       "sparkline": [
         165.44,
@@ -318,8 +329,18 @@
         162.215,
         163.175,
         162.69,
-        162.7199,
-        162.72
+        162.9101,
+        162.9629,
+        162.585,
+        162.445,
+        162.1651,
+        161.615,
+        161.894,
+        161.82,
+        162.475,
+        163.12,
+        163.005,
+        162.64
       ],
       "sessionDate": "2026-11-13"
     }
@@ -328,20 +349,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7555.64,
-      "change": -36.76,
-      "changePct": -0.4842,
+      "price": 7557.91,
+      "change": -34.49,
+      "changePct": -0.4543,
       "digits": 2,
-      "asOf": "2026-11-13T20:07:44Z"
+      "asOf": "2026-11-13T20:59:10Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52337.74,
-      "change": 40.65,
-      "changePct": 0.0777,
+      "price": 52325.15,
+      "change": 28.06,
+      "changePct": 0.0537,
       "digits": 2,
-      "asOf": "2026-11-13T20:07:44Z"
+      "asOf": "2026-11-13T20:59:10Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -359,7 +380,7 @@
       "change": -0.0032,
       "changePct": -0.2894,
       "digits": 4,
-      "asOf": "2026-11-13T20:07:30Z"
+      "asOf": "2026-11-13T20:58:31Z"
     }
   },
   "headlines": {
@@ -409,31 +430,36 @@
     ],
     "nvidia": [
       {
-        "title": "Wall Street Loses a Powerful Dealmaker After Nvidia\u2019s CEO Is Ousted",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-13T19:52:01Z"
+        "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
+        "source": "Reuters",
+        "publishedAt": "2026-11-13T20:25:08Z"
+      },
+      {
+        "title": "Wall St slides as Nvidia uncertainty drags tech shares lower",
+        "source": "Reuters",
+        "publishedAt": "2026-11-13T19:57:23Z"
+      },
+      {
+        "title": "Bessent blames Lutnick over Nvidia chip exports to China",
+        "source": "The Business Journal",
+        "publishedAt": "2026-11-13T19:38:46Z"
       },
       {
         "title": "Deepwater\u2019s Gene Munster: Nvidia stock will likely outperform rest of AI trade in the next year",
         "source": "CNBC",
         "publishedAt": "2026-11-13T19:38:40Z"
-      },
-      {
-        "title": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
-        "source": "CNBC",
-        "publishedAt": "2026-11-13T19:30:36Z"
-      },
-      {
-        "title": "The uncertainty around Nvidia stock provides an opportunity for options traders",
-        "source": "CNBC",
-        "publishedAt": "2026-11-13T19:29:13Z"
       }
     ],
     "top": [
       {
+        "title": "D.C. gunman attributed attack to frustrations with building maintenance",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-13T20:42:33Z"
+      },
+      {
         "title": "Democrats target DHS prison purchase as part of broad immigration probes",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-13T19:02:30Z"
+        "publishedAt": "2026-11-13T20:32:30Z"
       },
       {
         "title": "Trump\u2019s top economic advisers clash over Lutnick\u2019s handling of Nvidia",
@@ -441,12 +467,7 @@
         "publishedAt": "2026-11-13T18:39:01Z"
       },
       {
-        "title": "A Restaurant Hosted Ramaswamy After His Attack Ad. It\u2019s Paying a Price.",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-13T18:31:25Z"
-      },
-      {
-        "title": "JD Vance still likely to run for president as GOP rivals circle",
+        "title": "Movement to end electoral college gets boost after Democratic wins",
         "source": "The Washington Post",
         "publishedAt": "2026-11-13T18:00:00Z"
       }
