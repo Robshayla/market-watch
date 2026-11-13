@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-13T19:14:48Z",
+  "updatedAt": "2026-11-13T20:07:56Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.49 matched",
-    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1030",
+    "Nasdaq last sale 127.47 matched",
+    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1027",
     "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.66,
+      "price": 15.67,
       "previousClose": 15.67,
-      "change": -0.01,
-      "changePct": -0.0638,
-      "asOf": "2026-11-13T18:49:07Z",
+      "change": 0.0,
+      "changePct": 0.0,
+      "asOf": "2026-11-13T19:49:58Z",
       "digits": 2,
       "sparkline": [
         15.63,
@@ -144,7 +144,10 @@
         15.65,
         15.66,
         15.66,
-        15.66
+        15.66,
+        15.66,
+        15.68,
+        15.67
       ],
       "sessionDate": "2026-11-13"
     },
@@ -155,11 +158,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.48,
+      "price": 127.47,
       "previousClose": 126.19,
-      "change": 1.29,
-      "changePct": 1.0223,
-      "asOf": "2026-11-13T19:14:31Z",
+      "change": 1.28,
+      "changePct": 1.0143,
+      "asOf": "2026-11-13T20:07:41Z",
       "digits": 2,
       "sparkline": [
         126.9825,
@@ -218,8 +221,19 @@
         127.52,
         127.72,
         127.71,
-        127.585,
-        127.48
+        127.52,
+        127.44,
+        127.42,
+        127.425,
+        127.39,
+        127.43,
+        127.52,
+        127.43,
+        127.4102,
+        127.43,
+        127.39,
+        127.44,
+        127.47
       ],
       "sessionDate": "2026-11-13"
     },
@@ -230,11 +244,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 162.48,
+      "price": 162.72,
       "previousClose": 166.19,
-      "change": -3.71,
-      "changePct": -2.2324,
-      "asOf": "2026-11-13T19:14:33Z",
+      "change": -3.47,
+      "changePct": -2.088,
+      "asOf": "2026-11-13T20:07:44Z",
       "digits": 2,
       "sparkline": [
         165.44,
@@ -293,8 +307,19 @@
         162.64,
         162.525,
         162.62,
-        162.34,
-        162.48
+        162.5,
+        162.785,
+        162.52,
+        162.6701,
+        162.4751,
+        162.46,
+        162.255,
+        162.06,
+        162.215,
+        163.175,
+        162.69,
+        162.7199,
+        162.72
       ],
       "sessionDate": "2026-11-13"
     }
@@ -303,20 +328,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7552.25,
-      "change": -40.15,
-      "changePct": -0.5288,
+      "price": 7555.64,
+      "change": -36.76,
+      "changePct": -0.4842,
       "digits": 2,
-      "asOf": "2026-11-13T19:14:34Z"
+      "asOf": "2026-11-13T20:07:44Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52286.59,
-      "change": -10.5,
-      "changePct": -0.0201,
+      "price": 52337.74,
+      "change": 40.65,
+      "changePct": 0.0777,
       "digits": 2,
-      "asOf": "2026-11-13T19:14:33Z"
+      "asOf": "2026-11-13T20:07:44Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -330,11 +355,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.103,
-      "change": -0.0029,
-      "changePct": -0.2622,
+      "price": 1.1027,
+      "change": -0.0032,
+      "changePct": -0.2894,
       "digits": 4,
-      "asOf": "2026-11-13T19:14:34Z"
+      "asOf": "2026-11-13T20:07:30Z"
     }
   },
   "headlines": {
@@ -364,7 +389,7 @@
       {
         "title": "The setup on retail earnings next week: Home Depot and Walmart",
         "source": "CNBC",
-        "publishedAt": "2026-11-13T18:04:10Z"
+        "publishedAt": "2026-11-13T17:42:48Z"
       },
       {
         "title": "Walmart Inc. (WMT) is Attracting Investor Attention: Here is What You Should Know",
@@ -384,46 +409,46 @@
     ],
     "nvidia": [
       {
-        "title": "Nvidia approached Arm CEO Haas to succeed Huang, FT reports",
-        "source": "Reuters",
-        "publishedAt": "2026-11-13T18:41:13Z"
+        "title": "Wall Street Loses a Powerful Dealmaker After Nvidia\u2019s CEO Is Ousted",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-13T19:52:01Z"
       },
       {
-        "title": "Lutnick faces questions over Nvidia spy scandal. His sons\u2019 firm has deep ties to the chipmaker",
+        "title": "Deepwater\u2019s Gene Munster: Nvidia stock will likely outperform rest of AI trade in the next year",
         "source": "CNBC",
-        "publishedAt": "2026-11-13T18:32:47Z"
+        "publishedAt": "2026-11-13T19:38:40Z"
       },
       {
-        "title": "U.S. Stocks Fall as Nvidia Shares Slide Again",
-        "source": "WSJ",
-        "publishedAt": "2026-11-13T18:22:30Z"
+        "title": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
+        "source": "CNBC",
+        "publishedAt": "2026-11-13T19:30:36Z"
       },
       {
-        "title": "NVIDIA\u2019s New CEO Kress Must Do What AI Can\u2019t: Lead From Self-Trust",
-        "source": "Forbes",
-        "publishedAt": "2026-11-13T18:01:58Z"
+        "title": "The uncertainty around Nvidia stock provides an opportunity for options traders",
+        "source": "CNBC",
+        "publishedAt": "2026-11-13T19:29:13Z"
       }
     ],
     "top": [
       {
-        "title": "Movement to end electoral college gets boost after Democratic wins",
+        "title": "Democrats target DHS prison purchase as part of broad immigration probes",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-13T18:00:00Z"
+        "publishedAt": "2026-11-13T19:02:30Z"
       },
       {
-        "title": "D.C. gunman attributed attack to frustrations with building maintenance",
+        "title": "Trump\u2019s top economic advisers clash over Lutnick\u2019s handling of Nvidia",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-13T17:42:33Z"
+        "publishedAt": "2026-11-13T18:39:01Z"
       },
       {
         "title": "A Restaurant Hosted Ramaswamy After His Attack Ad. It\u2019s Paying a Price.",
         "source": "The New York Times",
-        "publishedAt": "2026-11-13T16:46:17Z"
+        "publishedAt": "2026-11-13T18:31:25Z"
       },
       {
-        "title": "Democrats are weighing impeachment of RFK Jr. while courting his supporters",
-        "source": "AP News",
-        "publishedAt": "2026-11-13T15:50:00Z"
+        "title": "JD Vance still likely to run for president as GOP rivals circle",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-13T18:00:00Z"
       }
     ]
   },
@@ -580,7 +605,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 15.66
+        "close": 15.67
       }
     ],
     "dax": [
