@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-13T15:17:22Z",
+  "updatedAt": "2026-11-13T15:32:22Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.16 matched",
-    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1053",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "Nasdaq last sale 127.70 matched",
+    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1042",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.66,
+      "price": 56.72,
       "previousClose": 56.56,
-      "change": 0.1,
-      "changePct": 0.1768,
-      "asOf": "2026-11-13T15:01:36Z",
+      "change": 0.16,
+      "changePct": 0.2829,
+      "asOf": "2026-11-13T15:17:04Z",
       "digits": 2,
       "sparkline": [
         56.56,
@@ -31,16 +31,15 @@
         56.62,
         56.64,
         56.7,
-        56.7,
         56.72,
         56.68,
         56.66,
         56.7,
+        56.68,
         56.74,
         56.78,
         56.78,
         56.82,
-        56.82,
         56.86,
         56.86,
         56.86,
@@ -49,7 +48,7 @@
         56.86,
         56.84,
         56.82,
-        56.84,
+        56.82,
         56.86,
         56.9,
         56.82,
@@ -59,8 +58,8 @@
         56.82,
         56.84,
         56.82,
-        56.76,
         56.78,
+        56.72,
         56.72,
         56.74,
         56.78,
@@ -68,7 +67,6 @@
         56.92,
         56.88,
         56.86,
-        56.82,
         56.84,
         56.84,
         56.84,
@@ -76,8 +74,8 @@
         56.76,
         56.78,
         56.76,
+        56.78,
         56.82,
-        56.86,
         56.82,
         56.8,
         56.78,
@@ -96,13 +94,15 @@
         56.58,
         56.58,
         56.58,
-        56.62,
         56.68,
         56.72,
         56.7,
         56.76,
-        56.74,
-        56.66
+        56.62,
+        56.72,
+        56.78,
+        56.76,
+        56.72
       ],
       "sessionDate": "2026-11-13"
     },
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.68,
+      "price": 15.67,
       "previousClose": 15.67,
-      "change": 0.01,
-      "changePct": 0.0638,
-      "asOf": "2026-11-13T15:01:36Z",
+      "change": 0.0,
+      "changePct": 0.0,
+      "asOf": "2026-11-13T15:04:34Z",
       "digits": 2,
       "sparkline": [
         15.68,
@@ -181,11 +181,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.12,
+      "price": 127.69,
       "previousClose": 126.19,
-      "change": 0.93,
-      "changePct": 0.737,
-      "asOf": "2026-11-13T15:17:07Z",
+      "change": 1.5,
+      "changePct": 1.1887,
+      "asOf": "2026-11-13T15:32:05Z",
       "digits": 2,
       "sparkline": [
         126.9825,
@@ -197,8 +197,11 @@
         127.69,
         127.47,
         127.37,
-        127.19,
-        127.1199
+        127.335,
+        127.44,
+        127.42,
+        127.65,
+        127.695
       ],
       "sessionDate": "2026-11-13"
     },
@@ -209,11 +212,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 160.93,
+      "price": 160.25,
       "previousClose": 166.19,
-      "change": -5.26,
-      "changePct": -3.1651,
-      "asOf": "2026-11-13T15:17:09Z",
+      "change": -5.94,
+      "changePct": -3.5742,
+      "asOf": "2026-11-13T15:32:10Z",
       "digits": 2,
       "sparkline": [
         165.44,
@@ -225,8 +228,11 @@
         162.1,
         161.73,
         160.27,
-        160.6,
-        160.93
+        160.41,
+        160.2163,
+        160.275,
+        160.085,
+        160.25
       ],
       "sessionDate": "2026-11-13"
     }
@@ -235,38 +241,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7514.45,
-      "change": -77.95,
-      "changePct": -1.0267,
+      "price": 7521.08,
+      "change": -71.32,
+      "changePct": -0.9394,
       "digits": 2,
-      "asOf": "2026-11-13T15:17:09Z"
+      "asOf": "2026-11-13T15:32:10Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52057.8,
-      "change": -239.29,
-      "changePct": -0.4576,
+      "price": 52162.02,
+      "change": -135.07,
+      "changePct": -0.2583,
       "digits": 2,
-      "asOf": "2026-11-13T15:17:10Z"
+      "asOf": "2026-11-13T15:32:10Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26745.18,
-      "change": -26.7,
-      "changePct": -0.0997,
+      "price": 26730.49,
+      "change": -41.39,
+      "changePct": -0.1546,
       "digits": 2,
-      "asOf": "2026-11-13T15:02:08Z"
+      "asOf": "2026-11-13T15:17:10Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1053,
-      "change": -0.0006,
-      "changePct": -0.0543,
+      "price": 1.1042,
+      "change": -0.0017,
+      "changePct": -0.1537,
       "digits": 4,
-      "asOf": "2026-11-13T15:16:34Z"
+      "asOf": "2026-11-13T15:31:29Z"
     }
   },
   "headlines": {
@@ -304,31 +310,31 @@
         "publishedAt": "2026-11-09T16:40:00Z"
       },
       {
+        "title": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million",
+        "source": "Reuters",
+        "publishedAt": "2026-08-28T07:00:00Z"
+      },
+      {
         "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC",
         "publishedAt": "2026-08-20T07:00:00Z"
-      },
-      {
-        "title": "Inside Bernstein\u2019s Latest Call on Walmart Inc (WMT) Stock",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-06-19T07:00:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Lutnick Agrees To Testify Before Congress\u2014As He Faces Bipartisan Blowback Over Nvidia\u2019s Huang Fallout",
-        "source": "Forbes",
-        "publishedAt": "2026-11-13T14:52:00Z"
+        "title": "U.S. Stocks Fall as Nvidia Shares Drop Again",
+        "source": "WSJ",
+        "publishedAt": "2026-11-13T15:17:00Z"
+      },
+      {
+        "title": "Nvidia-Backed Nscale Says It Needs Additional Financing Ahead of Planned IPO",
+        "source": "WSJ",
+        "publishedAt": "2026-11-13T15:10:00Z"
       },
       {
         "title": "Opinion: The Nvidia honeytrap story is awfully convenient",
         "source": "Fierce Network",
         "publishedAt": "2026-11-13T14:43:21Z"
-      },
-      {
-        "title": "Nvidia CEO Huang\u2019s Fall Threatens US-China Diplomacy",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-13T14:29:21Z"
       },
       {
         "title": "Jensen Huang is being skewered by AI memes, courtesy of Nvidia chips",
@@ -450,7 +456,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 56.62
+        "close": 56.72
       }
     ],
     "bayry": [
@@ -512,7 +518,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 15.68
+        "close": 15.67
       }
     ],
     "dax": [
@@ -574,7 +580,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 26740.3691
+        "close": 26730.5293
       }
     ]
   }
