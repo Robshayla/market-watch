@@ -139,7 +139,7 @@
     if (preview === "reaction") return ["reaction"];
     if (preview === "consumer") return ["consumer"];
     if (preview === "mirafiber") return ["mirafiber"];
-    if (preview === "rotation") return ["board", "results", "mirafiber", "consumer", "reaction"];
+    if (preview === "rotation") return ["board", "mirafiber", "consumer", "reaction"];
     var screens = [];
     /* earnings:false is the live switch. showResults stays in the file so the
        screen can be turned back on, but a cached older script only reads
