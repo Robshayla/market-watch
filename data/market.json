@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-13T11:13:56Z",
+  "updatedAt": "2026-11-13T12:07:39Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
     "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1055",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.82,
+      "price": 56.94,
       "previousClose": 56.56,
-      "change": 0.26,
-      "changePct": 0.4597,
-      "asOf": "2026-11-13T10:58:34Z",
+      "change": 0.38,
+      "changePct": 0.6719,
+      "asOf": "2026-11-13T11:51:43Z",
       "digits": 2,
       "sparkline": [
         56.56,
@@ -57,7 +57,17 @@
         56.92,
         56.86,
         56.86,
-        56.82
+        56.82,
+        56.84,
+        56.82,
+        56.76,
+        56.78,
+        56.72,
+        56.72,
+        56.74,
+        56.78,
+        56.94,
+        56.94
       ],
       "sessionDate": "2026-11-13"
     },
@@ -248,9 +258,9 @@
         161.0827,
         160.24,
         161.965,
-        163.6793,
+        163.68,
         164.9001,
-        165.0699,
+        165.07,
         163.23,
         164.62,
         164.78,
@@ -269,7 +279,7 @@
         164.76,
         165.08,
         165.21,
-        164.95,
+        164.945,
         164.3847,
         164.925,
         164.762,
@@ -314,7 +324,7 @@
         163.2,
         164.11,
         164.355,
-        164.87,
+        164.8501,
         165.45,
         166.04,
         166.19
@@ -344,11 +354,11 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26812.31,
-      "change": 40.43,
-      "changePct": 0.151,
+      "price": 26800.41,
+      "change": 28.53,
+      "changePct": 0.1066,
       "digits": 2,
-      "asOf": "2026-11-13T10:58:41Z"
+      "asOf": "2026-11-13T11:52:26Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
@@ -357,7 +367,7 @@
       "change": -0.0004,
       "changePct": -0.0362,
       "digits": 4,
-      "asOf": "2026-11-13T11:13:34Z"
+      "asOf": "2026-11-13T12:06:30Z"
     }
   },
   "headlines": {
@@ -385,11 +395,6 @@
     ],
     "walmart": [
       {
-        "title": "Meet the 23-year-old college dropout already making six figures as Walmart\u2019s youngest U.S. store manager",
-        "source": "Fortune",
-        "publishedAt": "2026-11-09T16:40:00Z"
-      },
-      {
         "title": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million",
         "source": "Reuters",
         "publishedAt": "2026-08-28T07:00:00Z"
@@ -403,28 +408,33 @@
         "title": "Inside Bernstein\u2019s Latest Call on Walmart Inc (WMT) Stock",
         "source": "Yahoo Finance",
         "publishedAt": "2026-06-19T07:00:00Z"
+      },
+      {
+        "title": "Lawyers in Walmart lawsuit admit AI 'hallucinated' case citations",
+        "source": "Reuters",
+        "publishedAt": "2025-02-10T08:00:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
+        "title": "COMMENTARY: Nvidia shock, shifting Fed bets and Europe's electric gamble: The financial week in five charts",
         "source": "Reuters",
-        "publishedAt": "2026-11-13T11:07:24Z"
+        "publishedAt": "2026-11-13T12:02:50Z"
       },
       {
         "title": "EXCLUSIVE: Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia",
         "source": "Reuters",
-        "publishedAt": "2026-11-13T10:57:07Z"
-      },
-      {
-        "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
-        "source": "CNBC",
-        "publishedAt": "2026-11-13T10:54:40Z"
+        "publishedAt": "2026-11-13T11:39:41Z"
       },
       {
         "title": "Nasdaq futures dip as Nvidia tumult keeps investors on edge",
         "source": "Reuters",
-        "publishedAt": "2026-11-13T10:39:45Z"
+        "publishedAt": "2026-11-13T11:33:16Z"
+      },
+      {
+        "title": "Watch Nvidia\u2019s AI Chip Share Set to Shrink: Akarca",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-13T11:23:16Z"
       }
     ],
     "top": [
@@ -439,14 +449,14 @@
         "publishedAt": "2026-11-13T03:57:00Z"
       },
       {
-        "title": "Trump bluntly tells JD Vance to shift focus from Iran to targeting 'corruption and crime' at home",
+        "title": "Navy has quietly fired some commanders and other officials, drawing congressional pushback",
         "source": "AP News",
-        "publishedAt": "2026-11-13T02:07:00Z"
+        "publishedAt": "2026-11-13T02:52:00Z"
       },
       {
-        "title": "Cargo ship strikes bridge between New Jersey and Philadelphia, causing traffic backup",
-        "source": "AP News",
-        "publishedAt": "2026-11-13T02:05:00Z"
+        "title": "Hegseth awards medal to soldier who admonished him, his team at Tomb of the Unknowns",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-13T02:46:31Z"
       }
     ]
   },
@@ -456,13 +466,6 @@
       "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
       "source": "Yahoo Finance UK",
       "publishedAt": "2026-11-03T21:05:37Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     },
     {
@@ -477,6 +480,13 @@
       "title": "Bayer Q3 2026 Earnings Call Is Live",
       "source": "TradingView",
       "publishedAt": "2026-11-03T12:57:04Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -541,7 +551,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 56.86
+        "close": 56.92
       }
     ],
     "bayry": [
@@ -665,7 +675,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 26814.9004
+        "close": 26801.7891
       }
     ]
   }
