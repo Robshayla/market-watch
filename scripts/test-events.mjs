@@ -82,7 +82,21 @@ check(JSON.stringify(Events.rotationScreens(off, false, "results", false)) === J
 check(JSON.stringify(Events.rotationScreens(off, false, "reaction", false)) === JSON.stringify(["reaction"]), "preview reaction");
 check(JSON.stringify(Events.rotationScreens(off, false, "consumer", false)) === JSON.stringify(["consumer"]), "preview consumer");
 check(JSON.stringify(Events.rotationScreens(off, false, "mirafiber", false)) === JSON.stringify(["mirafiber"]), "preview mirafiber");
-check(JSON.stringify(Events.rotationScreens(off, false, "rotation", false)) === JSON.stringify(["board", "results", "mirafiber", "consumer", "reaction"]), "preview rotation");
+check(JSON.stringify(Events.rotationScreens(off, false, "rotation", false)) === JSON.stringify(["board", "mirafiber", "consumer", "reaction"]), "preview rotation does not open results");
+check(JSON.stringify(Events.rotationScreens({ showResults: true, earnings: true, showReaction: true }, true, "rotation", true)) === JSON.stringify(["board", "mirafiber", "consumer", "reaction"]), "preview rotation stays off results even when earnings is on");
+
+function legacyNov3Rotation(item, filled, preview, inWindow) {
+  if (preview === "results") return ["results"];
+  if (preview === "rotation") return ["board", "results", "reaction"];
+  if (!inWindow || !item) return ["board"];
+  var screens = [];
+  if (item.showResults === true && filled) screens.push("results");
+  screens.push("board");
+  if (item.showReaction === true) screens.push("reaction");
+  return screens;
+}
+check(legacyNov3Rotation(event, true, "", true).indexOf("results") < 0, "cached Nov 3 events.js cannot show Q3 when showResults is false");
+check(legacyNov3Rotation({ showResults: true, showReaction: false }, true, "", false).indexOf("results") < 0, "cached Nov 3 events.js stays on the board after the window");
 
 if (failed) {
   console.error(failed + " failed");

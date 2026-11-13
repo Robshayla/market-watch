@@ -754,7 +754,8 @@
     var event = model ? model.event : primaryEvent();
     var inWindow = !!(model && model.phase !== "hidden");
     var screens = Events.rotationScreens(event, Events.earningsFilled(earningsDoc), preview, inWindow);
-    if (event && event.earnings !== true && preview !== "results" && preview !== "rotation") {
+    var resultsLive = event && event.earnings === true && event.showResults === true;
+    if (preview !== "results" && !resultsLive) {
       screens = screens.filter(function (name) { return name !== "results"; });
     }
     return screens;
@@ -763,19 +764,22 @@
   function showScreen(name) {
     var screens = screenList();
     if (screens.indexOf(name) < 0) name = screens[0] || "board";
+    var event = primaryEvent();
+    var previewNow = readPreview();
+    var allowResults = previewNow === "results" || (event && event.earnings === true && event.showResults === true);
+    if (name === "results" && !allowResults) name = "mirafiber";
     stage.classList.toggle("show-results", name === "results");
     stage.classList.toggle("show-reaction", name === "reaction");
     stage.classList.toggle("show-consumer", name === "consumer");
     stage.classList.toggle("show-mirafiber", name === "mirafiber");
-    var event = primaryEvent();
     var reaction = reactionView(event);
     if (name === "results") {
       var preview = readPreview();
       var q3Sales = earningsDoc && earningsDoc.group && String(earningsDoc.group.sales || "").trim();
-      var doc = preview === "results" || preview === "rotation"
+      var doc = preview === "results"
         ? (q3Sales && earningsDoc.badge ? earningsDoc : MarketScreens.sampleQ2)
         : earningsDoc;
-      if (!Events.earningsFilled(doc) && preview !== "results" && preview !== "rotation") {
+      if (!Events.earningsFilled(doc) && preview !== "results") {
         stage.classList.remove("show-results");
         return;
       }
