@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-13T10:14:15Z",
+  "updatedAt": "2026-11-13T11:13:56Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1058",
+    "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1055",
     "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.86,
+      "price": 56.82,
       "previousClose": 56.56,
-      "change": 0.3,
-      "changePct": 0.5304,
-      "asOf": "2026-11-13T09:58:09Z",
+      "change": 0.26,
+      "changePct": 0.4597,
+      "asOf": "2026-11-13T10:58:34Z",
       "digits": 2,
       "sparkline": [
         56.56,
@@ -44,7 +44,20 @@
         56.86,
         56.86,
         56.86,
-        56.86
+        56.86,
+        56.84,
+        56.86,
+        56.84,
+        56.82,
+        56.82,
+        56.84,
+        56.86,
+        56.9,
+        56.82,
+        56.92,
+        56.86,
+        56.86,
+        56.82
       ],
       "sessionDate": "2026-11-13"
     },
@@ -331,20 +344,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26786.65,
-      "change": 14.77,
-      "changePct": 0.0552,
+      "price": 26812.31,
+      "change": 40.43,
+      "changePct": 0.151,
       "digits": 2,
-      "asOf": "2026-11-13T09:59:02Z"
+      "asOf": "2026-11-13T10:58:41Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1058,
-      "change": -0.0001,
-      "changePct": -0.009,
+      "price": 1.1055,
+      "change": -0.0004,
+      "changePct": -0.0362,
       "digits": 4,
-      "asOf": "2026-11-13T10:13:33Z"
+      "asOf": "2026-11-13T11:13:34Z"
     }
   },
   "headlines": {
@@ -394,24 +407,24 @@
     ],
     "nvidia": [
       {
+        "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
+        "source": "Reuters",
+        "publishedAt": "2026-11-13T11:07:24Z"
+      },
+      {
         "title": "EXCLUSIVE: Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia",
         "source": "Reuters",
-        "publishedAt": "2026-11-13T09:57:30Z"
+        "publishedAt": "2026-11-13T10:57:07Z"
       },
       {
-        "title": "European shares retreat from record highs after Nvidia CEO's exit",
-        "source": "Reuters",
-        "publishedAt": "2026-11-13T09:21:38Z"
-      },
-      {
-        "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang\u2019s departure",
+        "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
         "source": "CNBC",
-        "publishedAt": "2026-11-13T09:06:38Z"
+        "publishedAt": "2026-11-13T10:54:40Z"
       },
       {
-        "title": "Chinese AI sell-off deepens over fears of tougher Nvidia chip restrictions",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-13T08:53:56Z"
+        "title": "Nasdaq futures dip as Nvidia tumult keeps investors on edge",
+        "source": "Reuters",
+        "publishedAt": "2026-11-13T10:39:45Z"
       }
     ],
     "top": [
@@ -421,19 +434,19 @@
         "publishedAt": "2026-11-13T06:11:00Z"
       },
       {
-        "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-        "source": "BBC",
-        "publishedAt": "2026-11-13T03:57:01Z"
-      },
-      {
         "title": "D.C. gunman attributed attack to frustrations with building maintenance",
         "source": "The Washington Post",
         "publishedAt": "2026-11-13T03:57:00Z"
       },
       {
-        "title": "Hegseth awards medal to soldier who admonished him, his team at Tomb of the Unknowns",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-13T02:46:31Z"
+        "title": "Trump bluntly tells JD Vance to shift focus from Iran to targeting 'corruption and crime' at home",
+        "source": "AP News",
+        "publishedAt": "2026-11-13T02:07:00Z"
+      },
+      {
+        "title": "Cargo ship strikes bridge between New Jersey and Philadelphia, causing traffic backup",
+        "source": "AP News",
+        "publishedAt": "2026-11-13T02:05:00Z"
       }
     ]
   },
@@ -443,6 +456,13 @@
       "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
       "source": "Yahoo Finance UK",
       "publishedAt": "2026-11-03T21:05:37Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T15:20:05Z",
       "release": true
     },
     {
@@ -457,13 +477,6 @@
       "title": "Bayer Q3 2026 Earnings Call Is Live",
       "source": "TradingView",
       "publishedAt": "2026-11-03T12:57:04Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T10:54:24Z",
       "release": true
     }
   ],
@@ -652,7 +665,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 26791.8906
+        "close": 26814.9004
       }
     ]
   }
