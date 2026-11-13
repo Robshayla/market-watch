@@ -69,21 +69,24 @@ check(Events.earningsFilled({
   divisions: [1, 2, 3].map(() => ({ name: "D", sales: "€1", salesCpa: "+1%", ebitda: "€1", ebitdaChange: "+1%", bullets: ["one"] })),
 }) === true, "complete earnings file is ready");
 
-const off = { showResults: false, showReaction: false };
-check(JSON.stringify(Events.rotationScreens(off, true, "", true)) === JSON.stringify(["mirafiber", "board", "consumer"]), "earnings off, mirafiber takes the slot");
-check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true, earnings: false }, true, "", true)) === JSON.stringify(["mirafiber", "board", "reaction", "consumer"]), "earnings flag suspends results");
-check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, false, "", true)) === JSON.stringify(["mirafiber", "board", "reaction", "consumer"]), "empty results stay hidden");
-check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true, earnings: true }, true, "", true)) === JSON.stringify(["results", "board", "reaction", "consumer"]), "results lead when earnings is on");
-check(event.earnings === false && event.showResults === false, "live file keeps Q3 off for new and cached scripts");
+const off = { showResults: false, showReaction: false, showConsumer: false };
+check(JSON.stringify(Events.rotationScreens(off, true, "", true)) === JSON.stringify(["mirafiber", "board"]), "earnings off, mirafiber takes the slot");
+check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true, earnings: false, showConsumer: false }, true, "", true)) === JSON.stringify(["mirafiber", "board", "reaction"]), "earnings flag suspends results");
+check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true, showConsumer: false }, false, "", true)) === JSON.stringify(["mirafiber", "board", "reaction"]), "empty results stay hidden");
+check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true, earnings: true, showConsumer: true }, true, "", true)) === JSON.stringify(["results", "board", "reaction", "consumer"]), "results lead when earnings is on and consumer is on");
+check(JSON.stringify(Events.rotationScreens({ showResults: false, showReaction: false, showConsumer: true }, true, "", false)) === JSON.stringify(["mirafiber", "board", "consumer"]), "showConsumer true puts the spotlight back");
+check(event.earnings === false && event.showResults === false && event.showConsumer === false, "live file keeps Q3 and the consumer spotlight off");
 check(Events.phase(event, new Date("2026-11-13T17:00:00Z")) === "hidden", "Q3 window is closed on Nov 13");
-check(JSON.stringify(Events.rotationScreens(event, true, "", true)) === JSON.stringify(["mirafiber", "board", "consumer"]), "live event cannot rotate to results");
-check(JSON.stringify(Events.rotationScreens(off, false, "", false)) === JSON.stringify(["mirafiber", "board", "consumer"]), "mirafiber stays outside the earnings window");
+check(JSON.stringify(Events.rotationScreens(event, true, "", true)) === JSON.stringify(["mirafiber", "board"]), "live rotation is mirafiber and the board");
+check(Events.rotationScreens(event, true, "", true).length >= 2, "live rotation is never a single screen");
+check(JSON.stringify(Events.rotationScreens(null, false, "", false)) === JSON.stringify(["mirafiber", "board"]), "missing event still rotates two screens");
+check(JSON.stringify(Events.rotationScreens(off, false, "", false)) === JSON.stringify(["mirafiber", "board"]), "mirafiber stays outside the earnings window");
 check(JSON.stringify(Events.rotationScreens(off, false, "results", false)) === JSON.stringify(["results"]), "preview results");
 check(JSON.stringify(Events.rotationScreens(off, false, "reaction", false)) === JSON.stringify(["reaction"]), "preview reaction");
 check(JSON.stringify(Events.rotationScreens(off, false, "consumer", false)) === JSON.stringify(["consumer"]), "preview consumer");
 check(JSON.stringify(Events.rotationScreens(off, false, "mirafiber", false)) === JSON.stringify(["mirafiber"]), "preview mirafiber");
-check(JSON.stringify(Events.rotationScreens(off, false, "rotation", false)) === JSON.stringify(["board", "mirafiber", "consumer", "reaction"]), "preview rotation does not open results");
-check(JSON.stringify(Events.rotationScreens({ showResults: true, earnings: true, showReaction: true }, true, "rotation", true)) === JSON.stringify(["board", "mirafiber", "consumer", "reaction"]), "preview rotation stays off results even when earnings is on");
+check(JSON.stringify(Events.rotationScreens(off, false, "rotation", false)) === JSON.stringify(["mirafiber", "board"]), "preview rotation matches the live pair");
+check(JSON.stringify(Events.rotationScreens({ showResults: true, earnings: true, showReaction: true, showConsumer: true }, true, "rotation", true)) === JSON.stringify(["mirafiber", "board", "reaction", "consumer"]), "preview rotation stays off results even when earnings is on");
 
 function legacyNov3Rotation(item, filled, preview, inWindow) {
   if (preview === "results") return ["results"];
