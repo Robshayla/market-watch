@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-13T13:18:07Z",
+  "updatedAt": "2026-11-13T14:28:54Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1055",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "ECB reference 1.1081 on 2026-11-12 vs Yahoo spot 1.1051",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.84,
+      "price": 56.58,
       "previousClose": 56.56,
-      "change": 0.28,
-      "changePct": 0.495,
-      "asOf": "2026-11-13T13:01:29Z",
+      "change": 0.02,
+      "changePct": 0.0354,
+      "asOf": "2026-11-13T14:13:03Z",
       "digits": 2,
       "sparkline": [
         56.56,
@@ -81,8 +81,22 @@
         56.78,
         56.82,
         56.86,
+        56.82,
+        56.8,
+        56.78,
+        56.78,
         56.84,
-        56.84
+        56.84,
+        56.88,
+        56.88,
+        56.88,
+        56.78,
+        56.78,
+        56.78,
+        56.74,
+        56.74,
+        56.6,
+        56.58
       ],
       "sessionDate": "2026-11-13"
     },
@@ -369,20 +383,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26746.93,
-      "change": -24.95,
-      "changePct": -0.0932,
+      "price": 26729.61,
+      "change": -42.27,
+      "changePct": -0.1579,
       "digits": 2,
-      "asOf": "2026-11-13T13:02:56Z"
+      "asOf": "2026-11-13T14:13:42Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1055,
-      "change": -0.0004,
-      "changePct": -0.0362,
+      "price": 1.1051,
+      "change": -0.0008,
+      "changePct": -0.0723,
       "digits": 4,
-      "asOf": "2026-11-13T13:17:31Z"
+      "asOf": "2026-11-13T14:28:33Z"
     }
   },
   "headlines": {
@@ -410,6 +424,16 @@
     ],
     "walmart": [
       {
+        "title": "Walmart Inc. (WMT) is Attracting Investor Attention: Here is What You Should Know",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-13T13:00:05Z"
+      },
+      {
+        "title": "Meet the 23-year-old college dropout already making six figures as Walmart\u2019s youngest U.S. store manager",
+        "source": "Fortune",
+        "publishedAt": "2026-11-09T16:40:00Z"
+      },
+      {
         "title": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million",
         "source": "Reuters",
         "publishedAt": "2026-08-28T07:00:00Z"
@@ -418,60 +442,50 @@
         "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC",
         "publishedAt": "2026-08-20T07:00:00Z"
-      },
-      {
-        "title": "Lawyers in Walmart lawsuit admit AI 'hallucinated' case citations",
-        "source": "Reuters",
-        "publishedAt": "2025-02-10T08:00:00Z"
-      },
-      {
-        "title": "Walmart (WMT) Faces Child Labor Settlement As Valuation Questions Return",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-13T12:11:26Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Nvidia fallout throws spotlight on Southeast Asia's AI boom",
+        "title": "Nvidia CEO Huang\u2019s Fall Threatens US-China Diplomacy",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-13T14:26:28Z"
+      },
+      {
+        "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
         "source": "Reuters",
-        "publishedAt": "2026-11-13T13:12:14Z"
+        "publishedAt": "2026-11-13T14:04:12Z"
+      },
+      {
+        "title": "Dyania Health, Nvidia team up to bring clinical reasoning AI inside hospital networks",
+        "source": "Fierce Healthcare",
+        "publishedAt": "2026-11-13T13:30:00Z"
       },
       {
         "title": "Alice Huang-Linked Firm Procured Banned Nvidia Chips in China",
         "source": "Bloomberg",
         "publishedAt": "2026-11-13T13:09:00Z"
-      },
-      {
-        "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
-        "source": "CNBC",
-        "publishedAt": "2026-11-13T12:54:43Z"
-      },
-      {
-        "title": "Billionaires Back Jensen Huang\u2014KoGuan Cuts Nvidia Investment Plans, Musk Pays Tribute",
-        "source": "Forbes",
-        "publishedAt": "2026-11-13T12:09:09Z"
       }
     ],
     "top": [
       {
         "title": "Movement to end electoral college gets boost after Democratic wins",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-13T13:02:07Z"
+        "publishedAt": "2026-11-13T13:44:29Z"
       },
       {
         "title": "Burgers, Boycotts and the Ad That Divided an Ohio Community",
         "source": "The New York Times",
-        "publishedAt": "2026-11-13T13:01:11Z"
+        "publishedAt": "2026-11-13T13:17:17Z"
       },
       {
-        "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
-        "source": "CNBC",
-        "publishedAt": "2026-11-13T10:54:40Z"
+        "title": "UN watchdog 'increasingly concerned' over Iran nuclear site",
+        "source": "BBC",
+        "publishedAt": "2026-11-13T12:28:28Z"
       },
       {
-        "title": "Navy has quietly fired some commanders and other officials, drawing congressional pushback",
+        "title": "Republicans dazed by midterm election defeats grapple with what went wrong",
         "source": "AP News",
-        "publishedAt": "2026-11-13T02:52:00Z"
+        "publishedAt": "2026-11-13T12:17:00Z"
       }
     ]
   },
@@ -485,23 +499,23 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T15:20:05Z",
+      "title": "Bayer Q3 2026 Earnings Call Is Live",
+      "source": "TradingView",
+      "publishedAt": "2026-11-03T12:57:04Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
-      "publishedAt": "2026-11-03T15:10:05Z",
+      "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 Earnings Call Is Live",
-      "source": "TradingView",
-      "publishedAt": "2026-11-03T12:57:04Z",
+      "title": "Bayer : Quarterly Statement Q3 2026",
+      "source": "www.marketscreener",
+      "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     }
   ],
@@ -566,7 +580,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 56.84
+        "close": 56.58
       }
     ],
     "bayry": [
@@ -694,7 +708,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 26748.0898
+        "close": 26727.3906
       }
     ]
   }
