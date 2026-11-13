@@ -488,11 +488,83 @@
     host.appendChild(el("p", "slide-source", model.source || ""));
   }
 
+  function renderMirafiber(host, offer) {
+    var deal = offer && offer.products && offer.products.length ? offer : {
+      priceLabel: "Walmart.com price as of Nov 13, 2026",
+      url: "https://www.walmart.com/browse/health-and-medicine/all-fiber-supplements/miralax/976760_1396434_2586366_3328070/YnJhbmQ6TWlyYUxBWAieie",
+      products: [
+        { name: "MiraFIBER Gummies", detail: "Prebiotic fiber, 8g, mixed fruit, 72 ct", price: "$15.97", unit: "22.2¢ each" },
+        { name: "MiraFIBER Metabolism", detail: "Prebiotic fiber + metabolism support, 8g, 72 ct", price: "$15.97", unit: "22.2¢ each" }
+      ]
+    };
+    host.replaceChildren();
+    var header = el("div", "slide-head");
+    var brand = el("div", "slide-brand");
+    var mark = el("img", "slide-mark");
+    mark.src = "assets/bayer-cross.svg";
+    mark.alt = "";
+    brand.appendChild(mark);
+    brand.appendChild(el("h2", "", "MiraFIBER"));
+    header.appendChild(brand);
+    header.appendChild(el("div", "slide-badge", "CONSUMER HEALTH"));
+    host.appendChild(header);
+
+    var body = el("div", "mf-body");
+    var visual = el("div", "mf-visual");
+    var photo = el("img", "mf-photo");
+    photo.src = "assets/mirafiber-hero.jpg";
+    photo.alt = "MiraFIBER gummies and MiraLAX. From the gut experts at MiraLAX.";
+    visual.appendChild(photo);
+    body.appendChild(visual);
+
+    var copy = el("div", "mf-copy");
+    copy.appendChild(el("h3", "mf-headline", "The “Fiber Gap” is real."));
+    var stats = el("div", "mf-stats");
+    [["~20%", "of people worldwide meet daily fiber targets"], ["7%", "of Americans get the daily minimum"]].forEach(function (pair) {
+      var cell = el("div", "mf-stat");
+      cell.appendChild(el("b", "", pair[0]));
+      cell.appendChild(el("span", "", pair[1]));
+      stats.appendChild(cell);
+    });
+    copy.appendChild(stats);
+    copy.appendChild(el("p", "mf-line", "#TeamBayer developed MiraFIBER Daily Prebiotic Fiber Gummies and MiraFIBER Metabolism Support Gummies so adding fiber is easier."));
+    copy.appendChild(el("p", "mf-line mf-glp", "With GLP-1 medications changing eating habits, fiber matters more than ever."));
+
+    var buy = el("section", "mf-buy");
+    buy.appendChild(el("h3", "mf-buy-title", "Buy it at Walmart"));
+    var row = el("div", "mf-row");
+    var products = el("div", "mf-products");
+    for (var i = 0; i < deal.products.length && i < 2; i++) {
+      var item = deal.products[i];
+      var card = el("article", "mf-product");
+      card.appendChild(el("div", "mf-product-name", item.name || ""));
+      card.appendChild(el("div", "mf-product-detail", item.detail || ""));
+      card.appendChild(el("div", "mf-price", item.price || ""));
+      if (item.unit) card.appendChild(el("div", "mf-unit", item.unit));
+      products.appendChild(card);
+    }
+    row.appendChild(products);
+    var qrWrap = el("div", "mf-qr-wrap");
+    var qr = el("img", "mf-qr");
+    qr.src = "assets/mirafiber-walmart-qr.svg";
+    qr.alt = "QR code linking to MiraFIBER at Walmart";
+    qrWrap.appendChild(qr);
+    qrWrap.appendChild(el("div", "mf-qr-label", "Scan to shop"));
+    row.appendChild(qrWrap);
+    buy.appendChild(row);
+    buy.appendChild(el("p", "mf-price-note", deal.priceLabel || "Walmart.com price as of Nov 13, 2026"));
+    copy.appendChild(buy);
+    body.appendChild(copy);
+    host.appendChild(body);
+    host.appendChild(el("p", "slide-source", "Source: Bayer Consumer Health on LinkedIn"));
+  }
+
   root.MarketScreens = {
     sampleQ2: SAMPLE_Q2,
     consumerSpotlight: CONSUMER_SPOTLIGHT,
     renderResults: renderResults,
     renderReaction: renderReaction,
     renderConsumer: renderConsumer,
+    renderMirafiber: renderMirafiber,
   };
 })(typeof globalThis !== "undefined" ? globalThis : this);

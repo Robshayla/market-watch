@@ -1,0 +1,20 @@
+{
+  "priceLive": false,
+  "checked": "2026-11-13",
+  "priceLabel": "Walmart.com price as of Nov 13, 2026",
+  "url": "https://www.walmart.com/browse/health-and-medicine/all-fiber-supplements/miralax/976760_1396434_2586366_3328070/YnJhbmQ6TWlyYUxBWAieie",
+  "products": [
+    {
+      "name": "MiraFIBER Gummies",
+      "detail": "Prebiotic fiber, 8g, mixed fruit, 72 ct",
+      "price": "$15.97",
+      "unit": "22.2¢ each"
+    },
+    {
+      "name": "MiraFIBER Metabolism",
+      "detail": "Prebiotic fiber + metabolism support, 8g, 72 ct",
+      "price": "$15.97",
+      "unit": "22.2¢ each"
+    }
+  ]
+}

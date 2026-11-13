@@ -70,14 +70,16 @@ check(Events.earningsFilled({
 }) === true, "complete earnings file is ready");
 
 const off = { showResults: false, showReaction: false };
-check(JSON.stringify(Events.rotationScreens(off, true, "", true)) === JSON.stringify(["board", "consumer"]), "results and reaction stay off");
-check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, false, "", true)) === JSON.stringify(["board", "reaction", "consumer"]), "empty results stay hidden");
-check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, true, "", true)) === JSON.stringify(["results", "board", "reaction", "consumer"]), "results lead when switched on");
-check(JSON.stringify(Events.rotationScreens(off, false, "", false)) === JSON.stringify(["board", "consumer"]), "spotlight stays in the rotation outside the window");
+check(JSON.stringify(Events.rotationScreens(off, true, "", true)) === JSON.stringify(["mirafiber", "board", "consumer"]), "earnings off, mirafiber takes the slot");
+check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true, earnings: false }, true, "", true)) === JSON.stringify(["mirafiber", "board", "reaction", "consumer"]), "earnings flag suspends results");
+check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, false, "", true)) === JSON.stringify(["mirafiber", "board", "reaction", "consumer"]), "empty results stay hidden");
+check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true, earnings: true }, true, "", true)) === JSON.stringify(["results", "board", "reaction", "consumer"]), "results lead when earnings is on");
+check(JSON.stringify(Events.rotationScreens(off, false, "", false)) === JSON.stringify(["mirafiber", "board", "consumer"]), "mirafiber stays outside the earnings window");
 check(JSON.stringify(Events.rotationScreens(off, false, "results", false)) === JSON.stringify(["results"]), "preview results");
 check(JSON.stringify(Events.rotationScreens(off, false, "reaction", false)) === JSON.stringify(["reaction"]), "preview reaction");
 check(JSON.stringify(Events.rotationScreens(off, false, "consumer", false)) === JSON.stringify(["consumer"]), "preview consumer");
-check(JSON.stringify(Events.rotationScreens(off, false, "rotation", false)) === JSON.stringify(["board", "results", "consumer", "reaction"]), "preview rotation");
+check(JSON.stringify(Events.rotationScreens(off, false, "mirafiber", false)) === JSON.stringify(["mirafiber"]), "preview mirafiber");
+check(JSON.stringify(Events.rotationScreens(off, false, "rotation", false)) === JSON.stringify(["board", "results", "mirafiber", "consumer", "reaction"]), "preview rotation");
 
 if (failed) {
   console.error(failed + " failed");
