@@ -16,5 +16,29 @@
       "price": "$15.97",
       "unit": "22.2¢ each"
     }
+  ],
+  "moreTitle": "More from MiraLAX at Walmart",
+  "more": [
+    {
+      "name": "MiraLAX Powder",
+      "detail": "45 doses",
+      "price": "$29.97",
+      "priceLabel": "Walmart.com price as of Nov 13, 2026",
+      "url": "https://www.walmart.com/ip/197347253"
+    },
+    {
+      "name": "MiraLAX Powder",
+      "detail": "30 doses",
+      "price": "$22.97",
+      "priceLabel": "Walmart.com price as of Nov 13, 2026",
+      "url": "https://www.walmart.com/ip/MiraLAX-Laxative-Powder-for-Gentle-Constipation-Relief-No-Sudden-Urgency-30-Dose/10419759"
+    },
+    {
+      "name": "MiraLAX Mix-in Pax",
+      "detail": "10 single doses",
+      "price": "$13.98",
+      "priceLabel": "Walmart.com price as of Nov 13, 2026",
+      "url": "https://www.walmart.com/browse/health-and-medicine/stomach-medicine/miralax/976760_1396434_6831399/YnJhbmQ6TWlyYUxBWAieie"
+    }
   ]
 }

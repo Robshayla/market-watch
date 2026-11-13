@@ -753,7 +753,11 @@
     }
     var event = model ? model.event : primaryEvent();
     var inWindow = !!(model && model.phase !== "hidden");
-    return Events.rotationScreens(event, Events.earningsFilled(earningsDoc), preview, inWindow);
+    var screens = Events.rotationScreens(event, Events.earningsFilled(earningsDoc), preview, inWindow);
+    if (event && event.earnings !== true && preview !== "results" && preview !== "rotation") {
+      screens = screens.filter(function (name) { return name !== "results"; });
+    }
+    return screens;
   }
 
   function showScreen(name) {

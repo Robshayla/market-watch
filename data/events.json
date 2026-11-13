@@ -8,7 +8,7 @@
       "hideAfter": "2026-11-04T23:00:00Z",
       "timezone": "Europe/Berlin",
       "highlightSymbols": ["bayn", "bayry"],
-      "showResults": true,
+      "showResults": false,
       "earnings": false,
       "showReaction": false,
       "resultsFile": "data/earnings_q3_2026.json",

@@ -495,6 +495,12 @@
       products: [
         { name: "MiraFIBER Gummies", detail: "Prebiotic fiber, 8g, mixed fruit, 72 ct", price: "$15.97", unit: "22.2¢ each" },
         { name: "MiraFIBER Metabolism", detail: "Prebiotic fiber + metabolism support, 8g, 72 ct", price: "$15.97", unit: "22.2¢ each" }
+      ],
+      moreTitle: "More from MiraLAX at Walmart",
+      more: [
+        { name: "MiraLAX Powder", detail: "45 doses", price: "$29.97", priceLabel: "Walmart.com price as of Nov 13, 2026" },
+        { name: "MiraLAX Powder", detail: "30 doses", price: "$22.97", priceLabel: "Walmart.com price as of Nov 13, 2026" },
+        { name: "MiraLAX Mix-in Pax", detail: "10 single doses", price: "$13.98", priceLabel: "Walmart.com price as of Nov 13, 2026" }
       ]
     };
     host.replaceChildren();
@@ -518,7 +524,8 @@
     body.appendChild(visual);
 
     var copy = el("div", "mf-copy");
-    copy.appendChild(el("h3", "mf-headline", "The “Fiber Gap” is real."));
+    var top = el("div", "mf-top");
+    top.appendChild(el("h3", "mf-headline", "The “Fiber Gap” is real."));
     var stats = el("div", "mf-stats");
     [["~20%", "of people worldwide meet daily fiber targets"], ["7%", "of Americans get the daily minimum"]].forEach(function (pair) {
       var cell = el("div", "mf-stat");
@@ -526,9 +533,29 @@
       cell.appendChild(el("span", "", pair[1]));
       stats.appendChild(cell);
     });
-    copy.appendChild(stats);
-    copy.appendChild(el("p", "mf-line", "#TeamBayer developed MiraFIBER Daily Prebiotic Fiber Gummies and MiraFIBER Metabolism Support Gummies so adding fiber is easier."));
-    copy.appendChild(el("p", "mf-line mf-glp", "With GLP-1 medications changing eating habits, fiber matters more than ever."));
+    top.appendChild(stats);
+    top.appendChild(el("p", "mf-line", "#TeamBayer developed MiraFIBER Daily Prebiotic Fiber Gummies and MiraFIBER Metabolism Support Gummies so adding fiber is easier."));
+    top.appendChild(el("p", "mf-line mf-glp", "With GLP-1 medications changing eating habits, fiber matters more than ever."));
+    copy.appendChild(top);
+
+    var moreItems = deal.more || [];
+    if (moreItems.length) {
+      var more = el("section", "mf-more");
+      more.appendChild(el("h3", "mf-buy-title", deal.moreTitle || "More from MiraLAX at Walmart"));
+      var grid = el("div", "mf-more-grid");
+      for (var m = 0; m < moreItems.length && m < 4; m++) {
+        var extra = moreItems[m];
+        if (!extra || !extra.name || !extra.price) continue;
+        var tile = el("article", "mf-tile");
+        tile.appendChild(el("div", "mf-tile-name", extra.name));
+        tile.appendChild(el("div", "mf-tile-detail", extra.detail || ""));
+        tile.appendChild(el("div", "mf-tile-price", extra.price));
+        tile.appendChild(el("p", "mf-tile-note", extra.priceLabel || deal.priceLabel || ""));
+        grid.appendChild(tile);
+      }
+      more.appendChild(grid);
+      copy.appendChild(more);
+    }
 
     var buy = el("section", "mf-buy");
     buy.appendChild(el("h3", "mf-buy-title", "Buy it at Walmart"));
