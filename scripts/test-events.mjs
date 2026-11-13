@@ -74,6 +74,9 @@ check(JSON.stringify(Events.rotationScreens(off, true, "", true)) === JSON.strin
 check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true, earnings: false }, true, "", true)) === JSON.stringify(["mirafiber", "board", "reaction", "consumer"]), "earnings flag suspends results");
 check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true }, false, "", true)) === JSON.stringify(["mirafiber", "board", "reaction", "consumer"]), "empty results stay hidden");
 check(JSON.stringify(Events.rotationScreens({ showResults: true, showReaction: true, earnings: true }, true, "", true)) === JSON.stringify(["results", "board", "reaction", "consumer"]), "results lead when earnings is on");
+check(event.earnings === false && event.showResults === false, "live file keeps Q3 off for new and cached scripts");
+check(Events.phase(event, new Date("2026-11-13T17:00:00Z")) === "hidden", "Q3 window is closed on Nov 13");
+check(JSON.stringify(Events.rotationScreens(event, true, "", true)) === JSON.stringify(["mirafiber", "board", "consumer"]), "live event cannot rotate to results");
 check(JSON.stringify(Events.rotationScreens(off, false, "", false)) === JSON.stringify(["mirafiber", "board", "consumer"]), "mirafiber stays outside the earnings window");
 check(JSON.stringify(Events.rotationScreens(off, false, "results", false)) === JSON.stringify(["results"]), "preview results");
 check(JSON.stringify(Events.rotationScreens(off, false, "reaction", false)) === JSON.stringify(["reaction"]), "preview reaction");

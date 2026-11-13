@@ -141,7 +141,10 @@
     if (preview === "mirafiber") return ["mirafiber"];
     if (preview === "rotation") return ["board", "results", "mirafiber", "consumer", "reaction"];
     var screens = [];
-    var earningsOn = inWindow && event && event.earnings !== false && event.showResults === true && filled;
+    /* earnings:false is the live switch. showResults stays in the file so the
+       screen can be turned back on, but a cached older script only reads
+       showResults, so both must be true before results rejoin the rotation. */
+    var earningsOn = inWindow && event && event.earnings === true && event.showResults === true && filled;
     if (earningsOn) screens.push("results");
     else screens.push("mirafiber");
     screens.push("board");
