@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-13T16:20:26Z",
+  "updatedAt": "2026-11-13T17:18:13Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.84 matched",
-    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1035",
-    "Bayer ADR ratio check 4.00 ordinary shares"
+    "Nasdaq last sale 128.16 matched",
+    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1036",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,29 +15,28 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.64,
+      "price": 56.52,
       "previousClose": 56.56,
-      "change": 0.08,
-      "changePct": 0.1414,
-      "asOf": "2026-11-13T16:04:54Z",
+      "change": -0.04,
+      "changePct": -0.0707,
+      "asOf": "2026-11-13T16:36:18Z",
       "digits": 2,
       "sparkline": [
         56.56,
         56.62,
         56.76,
         56.64,
-        56.56,
+        56.62,
         56.62,
         56.64,
         56.7,
-        56.7,
+        56.72,
         56.68,
         56.66,
-        56.7,
         56.68,
         56.74,
         56.78,
-        56.82,
+        56.78,
         56.82,
         56.86,
         56.86,
@@ -53,25 +52,24 @@
         56.86,
         56.86,
         56.82,
-        56.84,
+        56.82,
         56.76,
         56.78,
         56.72,
-        56.72,
+        56.74,
         56.78,
         56.94,
-        56.92,
         56.88,
+        56.86,
         56.82,
-        56.84,
         56.84,
         56.84,
         56.86,
-        56.78,
+        56.76,
         56.76,
         56.78,
         56.82,
-        56.82,
+        56.86,
         56.8,
         56.78,
         56.78,
@@ -83,26 +81,28 @@
         56.78,
         56.74,
         56.74,
-        56.58,
         56.6,
         56.58,
         56.58,
         56.62,
         56.68,
+        56.72,
         56.7,
-        56.76,
         56.62,
         56.72,
         56.78,
-        56.62,
+        56.74,
         56.58,
         56.68,
         56.68,
         56.6,
         56.54,
         56.58,
+        56.64,
+        56.64,
         56.58,
-        56.64
+        56.6,
+        56.52
       ],
       "sessionDate": "2026-11-13"
     },
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.62,
+      "price": 15.63,
       "previousClose": 15.67,
-      "change": -0.05,
-      "changePct": -0.3191,
-      "asOf": "2026-11-13T15:52:19Z",
+      "change": -0.04,
+      "changePct": -0.2553,
+      "asOf": "2026-11-13T16:58:20Z",
       "digits": 2,
       "sparkline": [
         15.63,
@@ -128,7 +128,14 @@
         15.67,
         15.63,
         15.65,
-        15.62
+        15.62,
+        15.65,
+        15.62,
+        15.63,
+        15.63,
+        15.66,
+        15.66,
+        15.63
       ],
       "sessionDate": "2026-11-13"
     },
@@ -139,11 +146,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.84,
+      "price": 128.16,
       "previousClose": 126.19,
-      "change": 1.65,
-      "changePct": 1.3076,
-      "asOf": "2026-11-13T16:20:09Z",
+      "change": 1.97,
+      "changePct": 1.5611,
+      "asOf": "2026-11-13T17:17:53Z",
       "digits": 2,
       "sparkline": [
         126.9825,
@@ -168,7 +175,19 @@
         127.925,
         127.87,
         127.9,
-        127.84
+        127.8,
+        127.865,
+        127.669,
+        127.67,
+        127.69,
+        127.715,
+        127.6599,
+        127.82,
+        127.785,
+        128.1,
+        128.13,
+        128.16,
+        128.155
       ],
       "sessionDate": "2026-11-13"
     },
@@ -179,11 +198,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 159.1,
+      "price": 160.63,
       "previousClose": 166.19,
-      "change": -7.09,
-      "changePct": -4.2662,
-      "asOf": "2026-11-13T16:20:13Z",
+      "change": -5.56,
+      "changePct": -3.3456,
+      "asOf": "2026-11-13T17:18:00Z",
       "digits": 2,
       "sparkline": [
         165.44,
@@ -208,7 +227,19 @@
         159.6699,
         158.985,
         159.135,
-        159.1
+        159.785,
+        160.24,
+        160.34,
+        159.8119,
+        159.795,
+        159.815,
+        160.0889,
+        160.24,
+        160.395,
+        160.61,
+        160.46,
+        160.645,
+        160.635
       ],
       "sessionDate": "2026-11-13"
     }
@@ -217,38 +248,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7514.29,
-      "change": -78.11,
-      "changePct": -1.0288,
+      "price": 7530.48,
+      "change": -61.92,
+      "changePct": -0.8156,
       "digits": 2,
-      "asOf": "2026-11-13T16:20:12Z"
+      "asOf": "2026-11-13T17:17:59Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52174.17,
-      "change": -122.92,
-      "changePct": -0.235,
+      "price": 52199.62,
+      "change": -97.47,
+      "changePct": -0.1864,
       "digits": 2,
-      "asOf": "2026-11-13T16:20:12Z"
+      "asOf": "2026-11-13T17:18:01Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26720.92,
-      "change": -50.96,
-      "changePct": -0.1903,
+      "price": 26749.95,
+      "change": -21.93,
+      "changePct": -0.0819,
       "digits": 2,
-      "asOf": "2026-11-13T16:05:13Z"
+      "asOf": "2026-11-13T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1035,
-      "change": -0.0024,
-      "changePct": -0.217,
+      "price": 1.1036,
+      "change": -0.0023,
+      "changePct": -0.208,
       "digits": 4,
-      "asOf": "2026-11-13T16:19:30Z"
+      "asOf": "2026-11-13T17:17:32Z"
     }
   },
   "headlines": {
@@ -308,36 +339,36 @@
         "publishedAt": "2026-11-13T15:45:36Z"
       },
       {
-        "title": "U.S. Stocks Fall as Nvidia Shares Drop Again",
-        "source": "WSJ",
-        "publishedAt": "2026-11-13T15:17:00Z"
+        "title": "Wall St reverses early gains as Nvidia fallout rattles tech stocks",
+        "source": "Reuters",
+        "publishedAt": "2026-11-13T15:43:14Z"
       },
       {
-        "title": "Nvidia-Backed Nscale Says It Needs Additional Financing Ahead of Planned IPO",
-        "source": "WSJ",
-        "publishedAt": "2026-11-13T15:10:00Z"
+        "title": "Nvidia Lost Its Founding C.E.O. Can It Keep Its Momentum?",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-13T15:31:05Z"
       }
     ],
     "top": [
       {
-        "title": "Movement to end electoral college gets boost after Democratic wins",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-13T16:02:07Z"
-      },
-      {
         "title": "Trump\u2019s top economic advisers clash over Lutnick\u2019s handling of Nvidia",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-13T15:39:01Z"
+        "publishedAt": "2026-11-13T17:09:01Z"
       },
       {
-        "title": "Republicans acknowledge voters rejected them but show little appetite for breaking with Trump",
+        "title": "Movement to end electoral college gets boost after Democratic wins",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-13T16:48:45Z"
+      },
+      {
+        "title": "Democrats target DHS prison purchase as part of broad immigration probes",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-13T16:02:30Z"
+      },
+      {
+        "title": "Democrats are weighing impeachment of RFK Jr. while courting his supporters",
         "source": "AP News",
-        "publishedAt": "2026-11-13T14:22:00Z"
-      },
-      {
-        "title": "A Restaurant Hosted Ramaswamy After His Attack Ad. It\u2019s Paying a Price.",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-13T13:17:17Z"
+        "publishedAt": "2026-11-13T15:50:00Z"
       }
     ]
   },
@@ -432,7 +463,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 56.64
+        "close": 56.52
       }
     ],
     "bayry": [
@@ -494,7 +525,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 15.62
+        "close": 15.63
       }
     ],
     "dax": [
@@ -556,7 +587,7 @@
       },
       {
         "date": "2026-11-13",
-        "close": 26720.9609
+        "close": 26749.9492
       }
     ]
   }
