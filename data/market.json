@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T13:47:40Z",
+  "updatedAt": "2026-11-14T18:38:25Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -433,46 +433,46 @@
     ],
     "nvidia": [
       {
+        "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+        "source": "CNBC",
+        "publishedAt": "2026-11-14T17:35:51Z"
+      },
+      {
+        "title": "A petition to reinstate Jensen Huang as Nvidia CEO has over 100,000 signatures, including some big names",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-14T17:28:00Z"
+      },
+      {
+        "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+        "source": "CNBC",
+        "publishedAt": "2026-11-14T15:50:43Z"
+      },
+      {
         "title": "Nvidia\u2019s Stock Drop Made a Tempting Case to \u2018Buy the Dip\u2019",
         "source": "Bloomberg",
         "publishedAt": "2026-11-14T13:01:01Z"
-      },
-      {
-        "title": "The case of Nvidia and the growing risk of AI and corruption",
-        "source": "Fortune",
-        "publishedAt": "2026-11-14T12:00:00Z"
-      },
-      {
-        "title": "Nvidia approaches Arm CEO Haas as employees seek Huang's return, reports say",
-        "source": "Reuters",
-        "publishedAt": "2026-11-13T23:11:55Z"
-      },
-      {
-        "title": "Jensen Huang will forfeit $108 million in Nvidia stock awards \u2014 a minuscule 0.08% of his $138.4 billion fortune",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-13T23:00:00Z"
       }
     ],
     "top": [
       {
-        "title": "Thousands of flights canceled as airlines work to dig out from nationwide ground stop",
-        "source": "AP News",
-        "publishedAt": "2026-11-14T12:43:00Z"
+        "title": "Thousands of Flights Are Canceled After Friday\u2019s Nationwide Ground Stop: Live Updates",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-14T18:27:00Z"
       },
       {
-        "title": "Democrat Jonathan Kreiss-Tomkins wins Alaska governor\u2019s race",
+        "title": "Duffy\u2019s briefing on ground stop disrupted by tech difficulties: \u2018This is not operational?\u2019",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-14T12:39:21Z"
+        "publishedAt": "2026-11-14T17:48:54Z"
+      },
+      {
+        "title": "Carney says U.S. and Canada \u2018making progress\u2019 towards possible trade deal",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-14T16:48:54Z"
       },
       {
         "title": "As Congress Plans Investigations, White House Prepares Ferocious Response",
         "source": "The New York Times",
         "publishedAt": "2026-11-14T10:02:21Z"
-      },
-      {
-        "title": "FBI arrests son of former CIA director John Brennan on child pornography charges",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-14T07:07:45Z"
       }
     ]
   },
