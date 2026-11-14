@@ -1,8 +1,9 @@
 {
-  "updatedAt": "2026-11-13T22:44:33Z",
+  "updatedAt": "2026-11-14T08:45:54Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
+    "Nasdaq last sale 128.09 matched",
     "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1028",
     "Bayer ADR ratio check 3.98 ordinary shares"
   ],
@@ -116,7 +117,7 @@
       "previousClose": 15.67,
       "change": -0.01,
       "changePct": -0.0638,
-      "asOf": "2026-11-13T20:59:07Z",
+      "asOf": "2026-11-13T21:00:00Z",
       "digits": 2,
       "sparkline": [
         15.63,
@@ -161,11 +162,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 128.0,
+      "price": 128.09,
       "previousClose": 126.19,
-      "change": 1.81,
-      "changePct": 1.4343,
-      "asOf": "2026-11-13T20:59:08Z",
+      "change": 1.9,
+      "changePct": 1.5057,
+      "asOf": "2026-11-13T21:00:00Z",
       "digits": 2,
       "sparkline": [
         126.9825,
@@ -245,8 +246,8 @@
         127.91,
         127.835,
         127.92,
-        127.955,
-        128.0
+        128.13,
+        128.09
       ],
       "sessionDate": "2026-11-13"
     },
@@ -355,23 +356,23 @@
       "change": -30.73,
       "changePct": -0.4047,
       "digits": 2,
-      "asOf": "2026-11-13T21:43:19Z"
+      "asOf": "2026-11-13T21:00:00Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52347.55,
-      "change": 50.46,
-      "changePct": 0.0965,
+      "price": 52347.6,
+      "change": 50.5,
+      "changePct": 0.0966,
       "digits": 2,
-      "asOf": "2026-11-13T21:43:26Z"
+      "asOf": "2026-11-13T21:00:00Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
       "price": 26749.95,
-      "change": -21.93,
-      "changePct": -0.0819,
+      "change": -21.95,
+      "changePct": -0.082,
       "digits": 2,
       "asOf": "2026-11-13T17:00:00Z"
     },
@@ -403,16 +404,16 @@
         "publishedAt": "2026-11-09T22:27:43Z"
       },
       {
-        "title": "Bayer says Crop Science unit makes progress on product launches",
-        "source": "Reuters",
-        "publishedAt": "2026-09-02T07:00:00Z"
+        "title": "'Better every quarter': Bayer CEO stays course on turnaround plan as pharma sales underwhelm in Q2",
+        "source": "Fierce Pharma",
+        "publishedAt": "2026-08-04T07:00:00Z"
       }
     ],
     "walmart": [
       {
         "title": "The setup on retail earnings next week: Home Depot and Walmart",
         "source": "CNBC",
-        "publishedAt": "2026-11-13T17:42:50Z"
+        "publishedAt": "2026-11-13T18:03:00Z"
       },
       {
         "title": "Walmart Inc. (WMT) is Attracting Investor Attention: Here is What You Should Know",
@@ -425,53 +426,53 @@
         "publishedAt": "2026-11-09T16:40:00Z"
       },
       {
-        "title": "Walmart settles US government's opioid lawsuit, which sought billions, for $50 million",
-        "source": "Reuters",
-        "publishedAt": "2026-08-28T07:00:00Z"
+        "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
+        "source": "CNBC",
+        "publishedAt": "2026-08-20T07:00:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-13T21:41:04Z"
+        "title": "Nvidia Scandal Prompts Questions of What It Means to Be a Spy",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-14T01:22:56Z"
       },
       {
-        "title": "Wall St Week Ahead: Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+        "title": "Despite Nvidia\u2019s Drop, Stocks Push Ahead",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-14T00:40:29Z"
+      },
+      {
+        "title": "Nvidia approaches Arm CEO Haas as employees seek Huang's return, reports say",
         "source": "Reuters",
-        "publishedAt": "2026-11-13T21:39:06Z"
+        "publishedAt": "2026-11-13T23:11:55Z"
       },
       {
-        "title": "AI Stocks Close Lower Friday As Markets Absorb Jensen Huang\u2019s Exit From Nvidia",
-        "source": "Forbes",
-        "publishedAt": "2026-11-13T21:36:20Z"
-      },
-      {
-        "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
-        "source": "Reuters",
-        "publishedAt": "2026-11-13T21:34:31Z"
+        "title": "Nvidia: How the Jensen Huang scandal exposed a headache for business-friendly Singapore",
+        "source": "BBC",
+        "publishedAt": "2026-11-13T23:00:31Z"
       }
     ],
     "top": [
       {
+        "title": "FBI arrests son of former CIA director John Brennan on child pornography charges",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-14T07:07:45Z"
+      },
+      {
+        "title": "Mary Peltola\u2019s Lead Widens as Alaska Senate Vote Count Continues",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-14T05:31:12Z"
+      },
+      {
+        "title": "Did the Redistricting Wars Backfire on Republicans? In a Word, No.",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-14T05:14:00Z"
+      },
+      {
         "title": "Biden defends his 2024 run and reckons with Trump in his new memoir",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-13T22:38:18Z"
-      },
-      {
-        "title": "Search and Rescue Underway in New Orleans After Cargo Ship Crashes Into Riverboat",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-13T21:48:48Z"
-      },
-      {
-        "title": "Trump\u2019s top economic advisers clash over Lutnick\u2019s handling of Nvidia",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-13T21:39:01Z"
-      },
-      {
-        "title": "Two horses briefly board public bus in Detroit",
-        "source": "BBC",
-        "publishedAt": "2026-11-13T19:50:22Z"
+        "publishedAt": "2026-11-14T03:36:04Z"
       }
     ]
   },
