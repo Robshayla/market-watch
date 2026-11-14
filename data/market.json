@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T08:45:54Z",
+  "updatedAt": "2026-11-14T13:47:40Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -356,16 +356,16 @@
       "change": -30.73,
       "changePct": -0.4047,
       "digits": 2,
-      "asOf": "2026-11-13T21:00:00Z"
+      "asOf": "2026-11-13T21:43:19Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52347.6,
-      "change": 50.5,
-      "changePct": 0.0966,
+      "price": 52347.55,
+      "change": 50.45,
+      "changePct": 0.0965,
       "digits": 2,
-      "asOf": "2026-11-13T21:00:00Z"
+      "asOf": "2026-11-13T21:43:26Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -383,7 +383,7 @@
       "change": -0.0031,
       "changePct": -0.2803,
       "digits": 4,
-      "asOf": "2026-11-13T22:29:33Z"
+      "asOf": "2026-11-13T22:29:46Z"
     }
   },
   "headlines": {
@@ -404,9 +404,9 @@
         "publishedAt": "2026-11-09T22:27:43Z"
       },
       {
-        "title": "'Better every quarter': Bayer CEO stays course on turnaround plan as pharma sales underwhelm in Q2",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-08-04T07:00:00Z"
+        "title": "Bayer's pharmaceutical unit plans more managerial cuts in Europe, Asia",
+        "source": "Reuters",
+        "publishedAt": "2024-06-26T07:00:00Z"
       }
     ],
     "walmart": [
@@ -433,14 +433,14 @@
     ],
     "nvidia": [
       {
-        "title": "Nvidia Scandal Prompts Questions of What It Means to Be a Spy",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-14T01:22:56Z"
+        "title": "Nvidia\u2019s Stock Drop Made a Tempting Case to \u2018Buy the Dip\u2019",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-14T13:01:01Z"
       },
       {
-        "title": "Despite Nvidia\u2019s Drop, Stocks Push Ahead",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-14T00:40:29Z"
+        "title": "The case of Nvidia and the growing risk of AI and corruption",
+        "source": "Fortune",
+        "publishedAt": "2026-11-14T12:00:00Z"
       },
       {
         "title": "Nvidia approaches Arm CEO Haas as employees seek Huang's return, reports say",
@@ -448,31 +448,31 @@
         "publishedAt": "2026-11-13T23:11:55Z"
       },
       {
-        "title": "Nvidia: How the Jensen Huang scandal exposed a headache for business-friendly Singapore",
-        "source": "BBC",
-        "publishedAt": "2026-11-13T23:00:31Z"
+        "title": "Jensen Huang will forfeit $108 million in Nvidia stock awards \u2014 a minuscule 0.08% of his $138.4 billion fortune",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-13T23:00:00Z"
       }
     ],
     "top": [
       {
+        "title": "Thousands of flights canceled as airlines work to dig out from nationwide ground stop",
+        "source": "AP News",
+        "publishedAt": "2026-11-14T12:43:00Z"
+      },
+      {
+        "title": "Democrat Jonathan Kreiss-Tomkins wins Alaska governor\u2019s race",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-14T12:39:21Z"
+      },
+      {
+        "title": "As Congress Plans Investigations, White House Prepares Ferocious Response",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-14T10:02:21Z"
+      },
+      {
         "title": "FBI arrests son of former CIA director John Brennan on child pornography charges",
         "source": "The Washington Post",
         "publishedAt": "2026-11-14T07:07:45Z"
-      },
-      {
-        "title": "Mary Peltola\u2019s Lead Widens as Alaska Senate Vote Count Continues",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-14T05:31:12Z"
-      },
-      {
-        "title": "Did the Redistricting Wars Backfire on Republicans? In a Word, No.",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-14T05:14:00Z"
-      },
-      {
-        "title": "Biden defends his 2024 run and reckons with Trump in his new memoir",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-14T03:36:04Z"
       }
     ]
   },
@@ -488,7 +488,7 @@
       "eventId": "bayer-q3-2026",
       "title": "Bayer Q3 2026 Earnings Call Is Live",
       "source": "TradingView",
-      "publishedAt": "2026-11-03T12:57:04Z",
+      "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
     {
