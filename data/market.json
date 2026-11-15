@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-15T08:48:36Z",
+  "updatedAt": "2026-11-15T13:49:19Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "nasdaq check skipped",
+    "Nasdaq last sale 128.09 matched",
     "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1028",
     "Bayer ADR ratio check 3.98 ordinary shares"
   ],
@@ -426,53 +426,53 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "The Week Ahead: Blockbuster Nvidia Q3 Earnings Arrive as US October Retail Sales, FOMC Minutes and Walmart Earnings Follow",
-        "source": "TradingKey",
-        "publishedAt": "2026-11-15T04:08:07Z"
+        "title": "Should Investors Buy Costco Stock Instead of Walmart Stock?",
+        "source": "The Globe and Mail",
+        "publishedAt": "2026-11-15T11:20:49Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Investing Expert On Nvidia: \u2018People Will Wish They Bought\u2019",
+        "title": "Nvidia CEO\u2019s affair exposes loophole Chinese firms use to access high-end chips",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-15T13:44:19Z"
+      },
+      {
+        "title": "Will Nvidia earnings steady the AI sell-off?",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-15T12:00:05Z"
+      },
+      {
+        "title": "Is Nvidia cooked without Jensen Huang?",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-15T11:41:00Z"
+      },
+      {
+        "title": "NVIDIA Without Jensen Huang And What Investors Should Watch Now",
         "source": "Forbes",
-        "publishedAt": "2026-11-15T00:43:35Z"
-      },
-      {
-        "title": "A petition to reinstate Jensen Huang as Nvidia CEO has over 100,000 signatures, including some big names",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-14T20:35:00Z"
-      },
-      {
-        "title": "The Chinese spy allegation that toppled Nvidia's CEO is starting to look shaky",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-14T20:00:00Z"
-      },
-      {
-        "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
-        "source": "CNBC",
-        "publishedAt": "2026-11-14T18:48:39Z"
+        "publishedAt": "2026-11-15T11:19:54Z"
       }
     ],
     "top": [
       {
-        "title": "Iran Attacks Bahrain as Conflict Escalates",
+        "title": "Ground Stop Ripples Into Third Day of Scrapped Flights",
         "source": "WSJ",
-        "publishedAt": "2026-11-15T08:03:00Z"
+        "publishedAt": "2026-11-15T10:38:00Z"
       },
       {
-        "title": "FAA was warned for years about repair risks leading to nationwide ground stop",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-15T04:37:00Z"
-      },
-      {
-        "title": "Democrat Kreiss-Tomkins says his successful gubernatorial campaign 'covered every corner' of Alaska",
-        "source": "AP News",
-        "publishedAt": "2026-11-15T04:08:00Z"
-      },
-      {
-        "title": "After Her Baby Was Buried Alive, a Mother\u2019s Painful Question: Why?",
+        "title": "Lutnick Pushed to Weaken Chip Rules That Overlap With His Family Business",
         "source": "The New York Times",
-        "publishedAt": "2026-11-15T02:59:46Z"
+        "publishedAt": "2026-11-15T10:02:05Z"
+      },
+      {
+        "title": "After Midterms Triumph, Democrats Look Quickly and Eagerly Ahead to 2028",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-15T10:01:00Z"
+      },
+      {
+        "title": "Embattled Federal Employees Look to a Democratic Congress for a Lifeline",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-15T10:00:59Z"
       }
     ]
   },
