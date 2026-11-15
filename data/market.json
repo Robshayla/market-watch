@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T13:49:19Z",
+  "updatedAt": "2026-11-15T18:40:03Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -416,74 +416,67 @@
         "publishedAt": "2026-11-13T18:03:00Z"
       },
       {
-        "title": "Meet the 23-year-old college dropout already making six figures as Walmart\u2019s youngest U.S. store manager",
-        "source": "Fortune",
-        "publishedAt": "2026-11-09T16:40:00Z"
-      },
-      {
         "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC",
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "Should Investors Buy Costco Stock Instead of Walmart Stock?",
-        "source": "The Globe and Mail",
-        "publishedAt": "2026-11-15T11:20:49Z"
+        "title": "Walmart Q3FY26 Results: Revenue seen up 5.3% as valuation worries linger",
+        "source": "scanx.trade",
+        "publishedAt": "2026-11-15T17:17:27Z"
+      },
+      {
+        "title": "Walmart (NASDAQ:WMT) Stock Faces Major Earnings Test as US Consumer Spending Comes Into Focus",
+        "source": "Stocks Down Under",
+        "publishedAt": "2026-11-15T16:37:26Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Nvidia CEO\u2019s affair exposes loophole Chinese firms use to access high-end chips",
+        "title": "It\u2019s not just an affair. Nvidia\u2019s bigger issue could be chip smuggling.",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-15T13:44:19Z"
+        "publishedAt": "2026-11-15T17:33:09Z"
       },
       {
-        "title": "Will Nvidia earnings steady the AI sell-off?",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-15T12:00:05Z"
+        "title": "Bessent Says Nvidia Needs \u2018Dramatic Shakeup\u2019 With Huang Out",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-15T17:23:56Z"
       },
       {
-        "title": "Is Nvidia cooked without Jensen Huang?",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-15T11:41:00Z"
+        "title": "Bessent calls for \u2018dramatic shakeup\u2019 at Nvidia, urges outside CEO",
+        "source": "CNBC",
+        "publishedAt": "2026-11-15T16:49:11Z"
       },
       {
-        "title": "NVIDIA Without Jensen Huang And What Investors Should Watch Now",
-        "source": "Forbes",
-        "publishedAt": "2026-11-15T11:19:54Z"
+        "title": "Bessent says Nvidia must 'go outside the company' to find new CEO",
+        "source": "Reuters",
+        "publishedAt": "2026-11-15T16:25:13Z"
       }
     ],
     "top": [
       {
-        "title": "Ground Stop Ripples Into Third Day of Scrapped Flights",
-        "source": "WSJ",
-        "publishedAt": "2026-11-15T10:38:00Z"
+        "title": "How immigration policy plays out after Democrats sweep elections",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-15T18:32:33Z"
       },
       {
-        "title": "Lutnick Pushed to Weaken Chip Rules That Overlap With His Family Business",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-15T10:02:05Z"
+        "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+        "source": "BBC",
+        "publishedAt": "2026-11-15T17:57:09Z"
       },
       {
-        "title": "After Midterms Triumph, Democrats Look Quickly and Eagerly Ahead to 2028",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-15T10:01:00Z"
+        "title": "Their son died fighting a fire. They may never understand why.",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-15T17:33:10Z"
       },
       {
         "title": "Embattled Federal Employees Look to a Democratic Congress for a Lifeline",
         "source": "The New York Times",
-        "publishedAt": "2026-11-15T10:00:59Z"
+        "publishedAt": "2026-11-15T17:09:23Z"
       }
     ]
   },
   "releases": [
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer AG (BAYRY) (Q3 2026) Earnings Call Highlights: Raised Full-Year Outlook on Pharma ...",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
     {
       "eventId": "bayer-q3-2026",
       "title": "Bayer Q3 2026 Earnings Call Is Live",
@@ -502,6 +495,13 @@
       "eventId": "bayer-q3-2026",
       "title": "Bayer : Quarterly Statement Q3 2026",
       "source": "www.marketscreener",
+      "publishedAt": "2026-11-03T08:00:00Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     }
