@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-16T09:32:04Z",
+  "updatedAt": "2026-11-16T11:01:55Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1018",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1008",
+    "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.96,
+      "price": 57.14,
       "previousClose": 56.52,
-      "change": 0.44,
-      "changePct": 0.7785,
-      "asOf": "2026-11-16T09:16:39Z",
+      "change": 0.62,
+      "changePct": 1.097,
+      "asOf": "2026-11-16T10:42:33Z",
       "digits": 2,
       "sparkline": [
         56.84,
@@ -36,8 +36,25 @@
         56.98,
         57.0,
         56.98,
-        56.96,
-        56.96
+        56.98,
+        57.04,
+        57.04,
+        57.06,
+        57.04,
+        57.02,
+        57.04,
+        57.1,
+        57.12,
+        57.12,
+        57.16,
+        57.18,
+        57.18,
+        57.14,
+        57.16,
+        57.12,
+        57.12,
+        57.16,
+        57.14
       ],
       "sessionDate": "2026-11-16"
     },
@@ -305,20 +322,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26763.04,
-      "change": 13.09,
-      "changePct": 0.0489,
+      "price": 26714.38,
+      "change": -35.57,
+      "changePct": -0.133,
       "digits": 2,
-      "asOf": "2026-11-16T09:16:52Z"
+      "asOf": "2026-11-16T10:46:42Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1018,
-      "change": -0.001,
-      "changePct": -0.0907,
+      "price": 1.1008,
+      "change": -0.002,
+      "changePct": -0.1814,
       "digits": 4,
-      "asOf": "2026-11-16T09:31:47Z"
+      "asOf": "2026-11-16T11:00:44Z"
     }
   },
   "headlines": {
@@ -368,31 +385,31 @@
     ],
     "nvidia": [
       {
-        "title": "Nvidia Fallout, Anthropic Listing Squeeze Asian Chip Stocks Anew",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-16T08:17:23Z"
+        "title": "Nvidia earnings and Anthropic's IPO put Wall Street's AI boom in a pressure cooker this week",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-16T10:50:00Z"
       },
       {
-        "title": "Jensen Huang's return would boost Nvidia stock: Analyst",
-        "source": "CNBC",
-        "publishedAt": "2026-11-16T08:05:26Z"
+        "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
+        "source": "Reuters",
+        "publishedAt": "2026-11-16T10:44:08Z"
       },
       {
-        "title": "Pressure Mounts on Nvidia Ahead of Earnings",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-16T07:39:32Z"
+        "title": "Stocks decline on tech sell-off as concerns over the Nvidia fallout persist",
+        "source": "AP News",
+        "publishedAt": "2026-11-16T10:32:00Z"
       },
       {
-        "title": "Scandal-Hit Nvidia Among Trump's Planned AI \u2018National Champions,\u2019 Report Says",
-        "source": "Forbes",
-        "publishedAt": "2026-11-16T07:24:23Z"
+        "title": "Trump\u2019s stake in Nvidia grew to as much as $62 million before scandal broke out",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-16T10:12:28Z"
       }
     ],
     "top": [
       {
-        "title": "Fewer students are traveling from abroad to study at US universities, report shows",
+        "title": "Questions swirl around FAA's new SMART AI system, though officials say no link to ground stop",
         "source": "AP News",
-        "publishedAt": "2026-11-16T07:29:00Z"
+        "publishedAt": "2026-11-16T07:27:00Z"
       },
       {
         "title": "After Florida voted to slash property taxes, towns looking to fill budget holes may end up relying on the state: \u2018The bailout comes with a leash\u2019",
@@ -400,18 +417,25 @@
         "publishedAt": "2026-11-16T07:00:00Z"
       },
       {
-        "title": "US Flight Cancellations Top 17,000 in Worst Tech-Related Outage",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-16T04:29:00Z"
-      },
-      {
         "title": "Isaac, a cat missing since the Brooklyn building collapse, has been reunited with his young owner",
         "source": "AP News",
         "publishedAt": "2026-11-16T03:55:00Z"
+      },
+      {
+        "title": "Carney says Canada could turn to Chinese automakers if Trump trade talks fail",
+        "source": "AP News",
+        "publishedAt": "2026-11-16T02:59:00Z"
       }
     ]
   },
   "releases": [
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Bayer : Quarterly Statement Q3 2026",
+      "source": "www.marketscreener",
+      "publishedAt": "2026-11-03T08:00:00Z",
+      "release": true
+    },
     {
       "eventId": "bayer-q3-2026",
       "title": "Bayer Q3 2026 Earnings Call Is Live",
@@ -423,13 +447,6 @@
       "eventId": "bayer-q3-2026",
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer : Quarterly Statement Q3 2026",
-      "source": "www.marketscreener",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -502,7 +519,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 56.96
+        "close": 57.14
       }
     ],
     "bayry": [
@@ -626,7 +643,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 26762.8301
+        "close": 26715.3809
       }
     ]
   }
