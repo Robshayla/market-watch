@@ -1,8 +1,9 @@
 {
-  "updatedAt": "2026-11-16T22:28:40Z",
+  "updatedAt": "2026-11-16T22:48:13Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
+    "Nasdaq last sale 128.37 matched",
     "ECB reference 1.1014 on 2026-11-16 vs Yahoo spot 1.0999",
     "Bayer ADR ratio check 4.02 ordinary shares"
   ],
@@ -389,7 +390,7 @@
       "change": -0.0029,
       "changePct": -0.263,
       "digits": 4,
-      "asOf": "2026-11-16T22:27:48Z"
+      "asOf": "2026-11-16T22:47:43Z"
     }
   },
   "headlines": {
@@ -439,14 +440,14 @@
     ],
     "nvidia": [
       {
+        "title": "US Moves to Curb Remote Access to Nvidia\u2019s Advanced AI Chips",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-16T22:17:40Z"
+      },
+      {
         "title": "Trump administration orders Commerce to close chip loophole at heart of Nvidia scandal",
         "source": "The Washington Post",
         "publishedAt": "2026-11-16T22:09:42Z"
-      },
-      {
-        "title": "Jensen Huang drops off Nvidia's GTC DC schedule following resignation",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-16T22:03:00Z"
       },
       {
         "title": "Nvidia Short Sellers Reap $24 Billion as Stock Extends Slide",
@@ -461,11 +462,6 @@
     ],
     "top": [
       {
-        "title": "Mamdani disbands NYPD unit criticized for aggressive tactics at protests",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-16T22:19:17Z"
-      },
-      {
         "title": "Student accepted to Va. law school after sex assault finding is no longer enrolled",
         "source": "The Washington Post",
         "publishedAt": "2026-11-16T21:34:33Z"
@@ -476,9 +472,14 @@
         "publishedAt": "2026-11-16T21:01:40Z"
       },
       {
-        "title": "Colonial Williamsburg unveils $600 million upgrade for its 100th birthday",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-16T18:00:00Z"
+        "title": "Lindsay Clancy to face retrial for deaths of her three children in March 2027",
+        "source": "BBC",
+        "publishedAt": "2026-11-16T19:30:30Z"
+      },
+      {
+        "title": "Peoria mayor says suspect in custody related to Illinois ethanol plant bomb",
+        "source": "AP News",
+        "publishedAt": "2026-11-16T18:51:00Z"
       }
     ]
   },
