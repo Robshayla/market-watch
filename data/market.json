@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-16T11:01:55Z",
+  "updatedAt": "2026-11-16T12:22:14Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1008",
+    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1018",
     "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 57.14,
+      "price": 57.18,
       "previousClose": 56.52,
-      "change": 0.62,
-      "changePct": 1.097,
-      "asOf": "2026-11-16T10:42:33Z",
+      "change": 0.66,
+      "changePct": 1.1677,
+      "asOf": "2026-11-16T12:05:59Z",
       "digits": 2,
       "sparkline": [
         56.84,
@@ -53,8 +53,23 @@
         57.16,
         57.12,
         57.12,
-        57.16,
-        57.14
+        57.14,
+        57.12,
+        57.06,
+        57.1,
+        57.06,
+        57.04,
+        57.04,
+        57.06,
+        57.08,
+        57.04,
+        57.02,
+        57.08,
+        57.06,
+        57.12,
+        57.18,
+        57.2,
+        57.18
       ],
       "sessionDate": "2026-11-16"
     },
@@ -322,20 +337,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26714.38,
-      "change": -35.57,
-      "changePct": -0.133,
+      "price": 26720.82,
+      "change": -29.13,
+      "changePct": -0.1089,
       "digits": 2,
-      "asOf": "2026-11-16T10:46:42Z"
+      "asOf": "2026-11-16T12:07:02Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1008,
-      "change": -0.002,
-      "changePct": -0.1814,
+      "price": 1.1018,
+      "change": -0.001,
+      "changePct": -0.0907,
       "digits": 4,
-      "asOf": "2026-11-16T11:00:44Z"
+      "asOf": "2026-11-16T12:21:45Z"
     }
   },
   "headlines": {
@@ -373,69 +388,62 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
+        "title": "Walmart (WMT) vs. Target (TGT): Which Stock Has More Upside Ahead of Earnings, According to Analysts?",
+        "source": "TipRanks",
+        "publishedAt": "2026-11-16T11:01:10Z"
+      },
+      {
         "title": "Forex Signals Nov 16: Nvidia, Walmart, PANW, Baidu, Alibaba Earnings Preview",
         "source": "FXLeaders",
         "publishedAt": "2026-11-16T01:07:59Z"
-      },
-      {
-        "title": "Nvidia, Anthropic, Walmart, Home Depot, the Fed, Home Sales, and More to Watch This Week",
-        "source": "Barron's",
-        "publishedAt": "2026-11-15T19:00:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Nvidia earnings and Anthropic's IPO put Wall Street's AI boom in a pressure cooker this week",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-16T10:50:00Z"
+        "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang\u2019s exit",
+        "source": "CNBC",
+        "publishedAt": "2026-11-16T12:00:01Z"
       },
       {
-        "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
+        "title": "Nvidia set to deliver first life-after-Huang briefing",
         "source": "Reuters",
-        "publishedAt": "2026-11-16T10:44:08Z"
-      },
-      {
-        "title": "Stocks decline on tech sell-off as concerns over the Nvidia fallout persist",
-        "source": "AP News",
-        "publishedAt": "2026-11-16T10:32:00Z"
+        "publishedAt": "2026-11-16T11:54:49Z"
       },
       {
         "title": "Trump\u2019s stake in Nvidia grew to as much as $62 million before scandal broke out",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-16T10:12:28Z"
+        "publishedAt": "2026-11-16T11:54:43Z"
+      },
+      {
+        "title": "Jensen Huang Has Spoken to Allies About Nvidia Return, Report Says",
+        "source": "Forbes",
+        "publishedAt": "2026-11-16T11:45:20Z"
       }
     ],
     "top": [
+      {
+        "title": "Carney says Canada could turn to Chinese automakers if Trump trade talks fail",
+        "source": "AP News",
+        "publishedAt": "2026-11-16T11:03:00Z"
+      },
       {
         "title": "Questions swirl around FAA's new SMART AI system, though officials say no link to ground stop",
         "source": "AP News",
         "publishedAt": "2026-11-16T07:27:00Z"
       },
       {
+        "title": "US basketball player Greene Da'monte Khiree arrested in Nigeria with cannabis haul",
+        "source": "BBC",
+        "publishedAt": "2026-11-16T07:24:45Z"
+      },
+      {
         "title": "After Florida voted to slash property taxes, towns looking to fill budget holes may end up relying on the state: \u2018The bailout comes with a leash\u2019",
         "source": "Fortune",
         "publishedAt": "2026-11-16T07:00:00Z"
-      },
-      {
-        "title": "Isaac, a cat missing since the Brooklyn building collapse, has been reunited with his young owner",
-        "source": "AP News",
-        "publishedAt": "2026-11-16T03:55:00Z"
-      },
-      {
-        "title": "Carney says Canada could turn to Chinese automakers if Trump trade talks fail",
-        "source": "AP News",
-        "publishedAt": "2026-11-16T02:59:00Z"
       }
     ]
   },
   "releases": [
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer : Quarterly Statement Q3 2026",
-      "source": "www.marketscreener",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
     {
       "eventId": "bayer-q3-2026",
       "title": "Bayer Q3 2026 Earnings Call Is Live",
@@ -447,6 +455,13 @@
       "eventId": "bayer-q3-2026",
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
+      "publishedAt": "2026-11-03T08:00:00Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Bayer : Quarterly Statement Q3 2026",
+      "source": "www.marketscreener",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -519,7 +534,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 57.14
+        "close": 57.18
       }
     ],
     "bayry": [
@@ -643,7 +658,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 26715.3809
+        "close": 26719.2207
       }
     ]
   }
