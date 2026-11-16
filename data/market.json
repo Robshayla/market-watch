@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-16T15:33:49Z",
+  "updatedAt": "2026-11-16T16:59:50Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 128.59 matched",
+    "Nasdaq last sale 128.21 matched",
     "ECB reference 1.1014 on 2026-11-16 vs Yahoo spot 1.1008",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
@@ -15,48 +15,43 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 57.14,
+      "price": 57.0,
       "previousClose": 56.52,
-      "change": 0.62,
-      "changePct": 1.097,
-      "asOf": "2026-11-16T15:18:05Z",
+      "change": 0.48,
+      "changePct": 0.8493,
+      "asOf": "2026-11-16T16:38:19Z",
       "digits": 2,
       "sparkline": [
         56.84,
         56.88,
         56.82,
         56.86,
-        56.78,
         56.76,
         56.86,
         56.9,
         56.84,
-        56.8,
+        56.78,
         56.84,
         56.98,
         57.0,
         56.98,
-        56.98,
         57.04,
         57.04,
         57.06,
-        57.04,
         57.02,
-        57.1,
-        57.12,
-        57.12,
-        57.16,
-        57.18,
-        57.18,
-        57.14,
-        57.16,
-        57.12,
-        57.12,
-        57.12,
-        57.06,
-        57.1,
-        57.06,
         57.04,
+        57.1,
+        57.12,
+        57.16,
+        57.18,
+        57.18,
+        57.16,
+        57.12,
+        57.12,
+        57.14,
+        57.06,
+        57.1,
+        57.06,
         57.04,
         57.06,
         57.08,
@@ -68,27 +63,23 @@
         57.2,
         57.16,
         57.16,
-        57.16,
-        57.14,
         57.14,
         57.12,
+        57.14,
         57.16,
-        57.1,
         57.1,
         57.08,
         57.08,
         57.1,
         57.12,
-        57.22,
         57.18,
         57.18,
+        57.26,
         57.12,
-        57.16,
         57.14,
         57.1,
         57.02,
         57.14,
-        57.16,
         57.18,
         57.22,
         57.16,
@@ -96,13 +87,22 @@
         57.2,
         57.26,
         57.26,
-        57.24,
         57.26,
         57.18,
         57.22,
         57.16,
-        57.12,
-        57.14
+        57.14,
+        57.16,
+        57.2,
+        57.34,
+        57.24,
+        57.26,
+        57.22,
+        57.2,
+        57.14,
+        57.1,
+        57.02,
+        57.0
       ],
       "sessionDate": "2026-11-16"
     },
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.72,
+      "price": 15.7,
       "previousClose": 15.66,
-      "change": 0.06,
-      "changePct": 0.3831,
-      "asOf": "2026-11-16T15:17:02Z",
+      "change": 0.04,
+      "changePct": 0.2554,
+      "asOf": "2026-11-16T16:37:35Z",
       "digits": 2,
       "sparkline": [
         15.76,
@@ -127,7 +127,19 @@
         15.78,
         15.75,
         15.73,
-        15.72
+        15.72,
+        15.75,
+        15.79,
+        15.76,
+        15.76,
+        15.77,
+        15.75,
+        15.74,
+        15.73,
+        15.73,
+        15.73,
+        15.7,
+        15.7
       ],
       "sessionDate": "2026-11-16"
     },
@@ -138,11 +150,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 128.59,
+      "price": 128.21,
       "previousClose": 128.09,
-      "change": 0.5,
-      "changePct": 0.3904,
-      "asOf": "2026-11-16T15:33:31Z",
+      "change": 0.12,
+      "changePct": 0.0937,
+      "asOf": "2026-11-16T16:56:51Z",
       "digits": 2,
       "sparkline": [
         129.66,
@@ -157,8 +169,25 @@
         128.75,
         128.695,
         128.9,
-        128.63,
-        128.585
+        128.605,
+        128.48,
+        128.05,
+        128.2,
+        128.3458,
+        128.235,
+        128.22,
+        128.29,
+        128.315,
+        128.29,
+        128.08,
+        128.21,
+        128.27,
+        128.2,
+        128.17,
+        128.17,
+        128.14,
+        128.17,
+        128.205
       ],
       "sessionDate": "2026-11-16"
     },
@@ -169,11 +198,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 159.46,
+      "price": 159.12,
       "previousClose": 162.85,
-      "change": -3.39,
-      "changePct": -2.0817,
-      "asOf": "2026-11-16T15:33:37Z",
+      "change": -3.73,
+      "changePct": -2.2905,
+      "asOf": "2026-11-16T16:56:58Z",
       "digits": 2,
       "sparkline": [
         158.76,
@@ -188,8 +217,25 @@
         159.8201,
         159.7699,
         159.57,
-        159.4,
-        159.46
+        159.205,
+        158.67,
+        158.97,
+        159.17,
+        159.3299,
+        158.99,
+        159.04,
+        159.18,
+        158.6702,
+        159.23,
+        159.8,
+        159.76,
+        159.91,
+        159.54,
+        159.41,
+        159.04,
+        158.91,
+        159.09,
+        159.115
       ],
       "sessionDate": "2026-11-16"
     }
@@ -198,29 +244,29 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7467.65,
-      "change": -94.02,
-      "changePct": -1.2434,
+      "price": 7472.63,
+      "change": -89.04,
+      "changePct": -1.1775,
       "digits": 2,
-      "asOf": "2026-11-16T15:33:36Z"
+      "asOf": "2026-11-16T16:56:59Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 52027.85,
-      "change": -319.7,
-      "changePct": -0.6107,
+      "price": 51953.97,
+      "change": -393.58,
+      "changePct": -0.7519,
       "digits": 2,
-      "asOf": "2026-11-16T15:33:37Z"
+      "asOf": "2026-11-16T16:56:59Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26649.89,
-      "change": -100.06,
-      "changePct": -0.3741,
+      "price": 26598.64,
+      "change": -151.31,
+      "changePct": -0.5656,
       "digits": 2,
-      "asOf": "2026-11-16T15:18:37Z"
+      "asOf": "2026-11-16T16:30:14Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
@@ -229,129 +275,100 @@
       "change": -0.002,
       "changePct": -0.1814,
       "digits": 4,
-      "asOf": "2026-11-16T15:32:44Z"
+      "asOf": "2026-11-16T16:56:46Z"
     }
   },
   "headlines": {
     "bayer": [
       {
-        "title": "Bayer Wins US Approval for Potential Blockbuster Stroke Drug",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-10T08:11:03Z"
+        "title": "Kinzey Capital Management: Pharma Lifts Bayer's 2026 Outlook",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-13T09:20:00Z"
       },
       {
-        "title": "Bayer brings factor XIa to US stroke prevention with FDA nod for 1st-in-class asundexian",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-11-10T02:10:00Z"
+        "title": "Bayer Wins FDA Approval for Sunharbo for Secondary Stroke Risk Reduction",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-10T18:39:00Z"
       },
       {
-        "title": "US FDA approves Bayer's blood thinner to prevent repeat strokes",
-        "source": "Reuters",
-        "publishedAt": "2026-11-09T22:27:43Z"
+        "title": "Bayer\u2019s SUNHARBO\u00ae (asundexian), 50 mg tablets, the First and Only Factor XIa Inhibitor, Approved by the U.S. FDA to Reduce the Risk of Stroke in Adults With Recent Non-Cardioembolic Ischemic Stroke or High-Risk Transient Ischemic Attack...",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-10T01:11:00Z"
       },
       {
-        "title": "'Better every quarter': Bayer CEO stays course on turnaround plan as pharma sales underwhelm in Q2",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-08-04T07:00:00Z"
+        "title": "Global Hemophilia B Gene Therapy Market Report 2026 | Capitalize on 29.8% CAGR as Pfizer, CSL Behring, Bayer, and REGENXBIO Accelerate AAV Innovation",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-06T14:27:00Z"
       }
     ],
     "walmart": [
       {
-        "title": "Form 8K Walmart Inc For: 16 November By Investing.com",
-        "source": "Investing.com Canada",
-        "publishedAt": "2026-11-16T13:13:21Z"
+        "title": "Fayetteville Sits in the Ozarks Near Walmart\u2019s Hometown. What It Takes to Retire There at 65 on $750,000",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T15:39:16Z"
       },
       {
-        "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
-        "source": "CNBC",
-        "publishedAt": "2026-08-20T07:00:00Z"
+        "title": "From Nvidia\u2019s C-Suite Turmoil to Walmart vs. Target: What to Watch in This Week\u2019s Earnings",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T15:26:27Z"
       },
       {
-        "title": "Walmart names Caterpillar CEO Joe Creed to its board",
-        "source": "Mass Market Retailers",
-        "publishedAt": "2026-11-16T15:02:46Z"
+        "title": "Seeking Clues to Walmart (WMT) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T13:15:04Z"
       },
       {
-        "title": "Walmart stock weekly forecast: Buyers sustain control while support holds at $123.7",
-        "source": "Traders Union",
-        "publishedAt": "2026-11-16T14:29:35Z"
+        "title": "Walmart Names Joe Creed to Board of Directors",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T13:00:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Silicon Valley leaders back call for Jensen Huang's return to Nvidia",
-        "source": "Reuters",
-        "publishedAt": "2026-11-16T15:12:40Z"
+        "title": "Scott Bessent Presses Nvidia on Its Next CEO and Who Gets Its Chips",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T16:50:32Z"
       },
       {
-        "title": "US Moves to Curb Remote Access to Nvidia\u2019s Advanced AI Chips",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-16T14:45:42Z"
+        "title": "$150 Billion of Anthropic\u2019s Nvidia-Tied Compute \u201cCan Be Ended on Short Notice\u201d",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T16:33:49Z"
       },
       {
-        "title": "Nvidia set to deliver first life-after-Huang briefing",
-        "source": "Reuters",
-        "publishedAt": "2026-11-16T14:44:41Z"
+        "title": "Nvidia Earnings to Test AI Boom as Hike Looms",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T16:32:32Z"
       },
       {
-        "title": "The Campaign to Bring Back Jensen Huang as Nvidia CEO",
-        "source": "WSJ",
-        "publishedAt": "2026-11-16T14:44:00Z"
+        "title": "Nvidia's CEO Search Draws Fire With Bessent's Shakeup Call",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T16:32:29Z"
       }
     ],
     "top": [
       {
-        "title": "After one last Sunday, a beloved D.C. golf course is closed. For now.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-16T14:34:04Z"
+        "title": "FAA ground stop still affecting thousands of flights. And, Trump meets Xi, Putin in Asia",
+        "source": "NPR",
+        "publishedAt": "2026-11-16T12:08:14Z"
       },
       {
-        "title": "Colonial Williamsburg unveils $600 million upgrade for its 100th birthday",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-16T14:32:58Z"
+        "title": "Chris Van Hollen says he can beat Chuck Schumer. Here's his case",
+        "source": "NPR",
+        "publishedAt": "2026-11-16T11:39:14Z"
       },
       {
-        "title": "International Students Are Turning Away From U.S. Universities",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-16T14:10:11Z"
+        "title": "These birds fly 17,000 miles every year. Climate change could make it harder",
+        "source": "NPR",
+        "publishedAt": "2026-11-16T10:00:00Z"
       },
       {
-        "title": "What Nithya Raman Plans to Do First as L.A. Mayor",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-16T14:08:12Z"
+        "title": "NPR's Student Podcast Challenge is back for 2027",
+        "source": "NPR",
+        "publishedAt": "2026-11-16T10:00:00Z"
       }
     ]
   },
-  "releases": [
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 Earnings Call Is Live",
-      "source": "TradingView",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer : Quarterly Statement Q3 2026",
-      "source": "www.marketscreener",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    }
-  ],
+  "releases": [],
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
@@ -413,7 +430,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 57.14
+        "close": 57.0
       }
     ],
     "bayry": [
@@ -475,7 +492,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 15.72
+        "close": 15.7
       }
     ],
     "dax": [
@@ -537,7 +554,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 26649.9102
+        "close": 26598.6406
       }
     ]
   }
