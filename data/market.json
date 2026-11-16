@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-16T19:48:46Z",
+  "updatedAt": "2026-11-16T20:44:04Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.98 matched",
-    "ECB reference 1.1014 on 2026-11-16 vs Yahoo spot 1.1011",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "Nasdaq last sale 128.22 matched",
+    "ECB reference 1.1014 on 2026-11-16 vs Yahoo spot 1.1002",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.65,
+      "price": 15.67,
       "previousClose": 15.66,
-      "change": -0.01,
-      "changePct": -0.0639,
-      "asOf": "2026-11-16T19:32:53Z",
+      "change": 0.01,
+      "changePct": 0.0639,
+      "asOf": "2026-11-16T20:25:52Z",
       "digits": 2,
       "sparkline": [
         15.76,
@@ -146,7 +146,14 @@
         15.68,
         15.68,
         15.66,
-        15.65
+        15.65,
+        15.67,
+        15.66,
+        15.65,
+        15.65,
+        15.65,
+        15.66,
+        15.67
       ],
       "sessionDate": "2026-11-16"
     },
@@ -157,11 +164,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.97,
+      "price": 128.19,
       "previousClose": 128.09,
-      "change": -0.12,
-      "changePct": -0.0937,
-      "asOf": "2026-11-16T19:48:25Z",
+      "change": 0.1,
+      "changePct": 0.0781,
+      "asOf": "2026-11-16T20:42:08Z",
       "digits": 2,
       "sparkline": [
         129.66,
@@ -227,8 +234,19 @@
         128.06,
         128.06,
         127.99,
-        127.97,
-        127.975
+        128.09,
+        128.18,
+        128.285,
+        128.27,
+        128.2,
+        128.0299,
+        128.07,
+        128.22,
+        128.22,
+        128.2722,
+        128.305,
+        128.21,
+        128.19
       ],
       "sessionDate": "2026-11-16"
     },
@@ -239,11 +257,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 155.43,
+      "price": 155.53,
       "previousClose": 162.85,
-      "change": -7.42,
-      "changePct": -4.5563,
-      "asOf": "2026-11-16T19:48:31Z",
+      "change": -7.32,
+      "changePct": -4.4949,
+      "asOf": "2026-11-16T20:42:10Z",
       "digits": 2,
       "sparkline": [
         158.76,
@@ -309,8 +327,19 @@
         155.93,
         155.7,
         155.485,
-        155.48,
-        155.43
+        155.5751,
+        156.444,
+        156.31,
+        155.985,
+        155.98,
+        155.63,
+        155.485,
+        155.28,
+        155.5198,
+        155.605,
+        155.39,
+        155.555,
+        155.53
       ],
       "sessionDate": "2026-11-16"
     }
@@ -319,20 +348,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7402.05,
-      "change": -159.62,
-      "changePct": -2.1109,
+      "price": 7408.21,
+      "change": -153.46,
+      "changePct": -2.0294,
       "digits": 2,
-      "asOf": "2026-11-16T19:48:31Z"
+      "asOf": "2026-11-16T20:42:09Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51521.51,
-      "change": -826.04,
-      "changePct": -1.578,
+      "price": 51534.77,
+      "change": -812.78,
+      "changePct": -1.5527,
       "digits": 2,
-      "asOf": "2026-11-16T19:48:31Z"
+      "asOf": "2026-11-16T20:42:10Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -346,133 +375,104 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1011,
-      "change": -0.0017,
-      "changePct": -0.1542,
+      "price": 1.1002,
+      "change": -0.0026,
+      "changePct": -0.2358,
       "digits": 4,
-      "asOf": "2026-11-16T19:47:45Z"
+      "asOf": "2026-11-16T20:41:46Z"
     }
   },
   "headlines": {
     "bayer": [
       {
-        "title": "Bayer Wins US Approval for Potential Blockbuster Stroke Drug",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-10T08:11:03Z"
+        "title": "Kinzey Capital Management: Pharma Lifts Bayer's 2026 Outlook",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-13T09:20:00Z"
       },
       {
-        "title": "Bayer brings factor XIa to US stroke prevention with FDA nod for 1st-in-class asundexian",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-11-10T02:10:00Z"
+        "title": "Bayer Wins FDA Approval for Sunharbo for Secondary Stroke Risk Reduction",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-10T18:39:00Z"
       },
       {
-        "title": "'Better every quarter': Bayer CEO stays course on turnaround plan as pharma sales underwhelm in Q2",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-08-04T07:00:00Z"
+        "title": "Bayer\u2019s SUNHARBO\u00ae (asundexian), 50 mg tablets, the First and Only Factor XIa Inhibitor, Approved by the U.S. FDA to Reduce the Risk of Stroke in Adults With Recent Non-Cardioembolic Ischemic Stroke or High-Risk Transient Ischemic Attack...",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-10T01:11:00Z"
       },
       {
-        "title": "Bayer Foundation Scientific Fellowships 2027 (up to \u20ac10,000)",
-        "source": "Opportunity Desk",
-        "publishedAt": "2026-11-13T19:29:38Z"
+        "title": "Global Hemophilia B Gene Therapy Market Report 2026 | Capitalize on 29.8% CAGR as Pfizer, CSL Behring, Bayer, and REGENXBIO Accelerate AAV Innovation",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-06T14:27:00Z"
       }
     ],
     "walmart": [
       {
-        "title": "Form 8K Walmart Inc For: 16 November By Investing.com",
-        "source": "Investing.com India",
-        "publishedAt": "2026-11-16T13:07:35Z"
-      },
-      {
-        "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
-        "source": "CNBC",
-        "publishedAt": "2026-08-20T07:00:00Z"
-      },
-      {
-        "title": "Walmart adds Caterpillar CEO to its board",
-        "source": "Talk Business & Politics",
-        "publishedAt": "2026-11-16T19:22:01Z"
+        "title": "Walmart CEO Is Launching AI Agent Profiles as United Airlines Blocks Third-Party Agents",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T19:40:59Z"
       },
       {
         "title": "Is There A Risk Hiding In Walmart Stock's Latest Quarter?",
         "source": "Yahoo Finance",
         "publishedAt": "2026-11-16T19:11:32Z"
+      },
+      {
+        "title": "Target vs. Walmart Stock:  Which is the Better Buy Ahead of Q3 Earnings?",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T18:50:00Z"
+      },
+      {
+        "title": "Walmart and Other Retailers to Benefit as Lower-Income Consumers Are Feeling the Holiday Spirit\u2014So Far",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T18:25:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "US Moves to Curb Remote Access to Nvidia\u2019s Advanced AI Chips",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-16T19:33:04Z"
+        "title": "Tom Lee Blames Nvidia and Anthropic IPO for Ethereum Plunge as Bitmine Buys the Dip",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T20:36:03Z"
       },
       {
-        "title": "A struggling AI trade is dragging stocks lower ahead of Anthropic's mega-IPO and Nvidia earnings",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-16T18:42:00Z"
+        "title": "TSMC Slumps Nearly 6% as Jensen Huang\u2019s Exit and AI Debt Fears Rattle Investors Ahead of Nvidia Earnings",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T20:30:09Z"
       },
       {
-        "title": "Trump\u2019s stake in Nvidia grew to as much as $62 million before scandal broke out",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-16T18:00:00Z"
+        "title": "Evercore Calls Arista \u201cthe Clearest Beneficiary\u201d of NVIDIA\u2019s CEO Ouster. Here\u2019s the Gap to Close",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T20:23:36Z"
       },
       {
-        "title": "Major U.S. Stock Indexes Slide as Nvidia Fallout Continues to Ripple Through Markets",
-        "source": "WSJ",
-        "publishedAt": "2026-11-16T17:55:00Z"
+        "title": "Stock Market Today: Dow Dives As Nvidia Makes Huang Decision; These AI Plays Plunge (Live Coverage)",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-16T20:06:29Z"
       }
     ],
     "top": [
       {
-        "title": "After one last Sunday, a beloved D.C. golf course is closed. For now.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-16T19:04:04Z"
+        "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
+        "source": "NPR",
+        "publishedAt": "2026-11-16T18:49:26Z"
       },
       {
-        "title": "Person Detained in Illinois Bomb Case, Official Says",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-16T18:22:47Z"
+        "title": "U.N. talks seek to rein in 'killer robots' as fears over AI weapons grow",
+        "source": "NPR",
+        "publishedAt": "2026-11-16T18:04:50Z"
       },
       {
-        "title": "Mamdani Disbands Controversial NYPD Protest Unit",
-        "source": "WSJ",
-        "publishedAt": "2026-11-16T18:07:00Z"
+        "title": "Nearly two million people are behind bars in the US. How did we get here?",
+        "source": "NPR",
+        "publishedAt": "2026-11-16T17:34:07Z"
       },
       {
-        "title": "Colonial Williamsburg unveils $600 million upgrade for its 100th birthday",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-16T18:00:00Z"
+        "title": "FAA ground stop still affecting thousands of flights. And, Trump meets Xi, Putin in Asia",
+        "source": "NPR",
+        "publishedAt": "2026-11-16T12:08:14Z"
       }
     ]
   },
-  "releases": [
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 Earnings Call Is Live",
-      "source": "TradingView",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer : Quarterly Statement Q3 2026",
-      "source": "www.marketscreener",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    }
-  ],
+  "releases": [],
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
@@ -596,7 +596,7 @@
       },
       {
         "date": "2026-11-16",
-        "close": 15.65
+        "close": 15.67
       }
     ],
     "dax": [
