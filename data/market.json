@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-15T18:40:03Z",
+  "updatedAt": "2026-11-16T09:32:04Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 128.09 matched",
-    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1028",
-    "Bayer ADR ratio check 3.98 ordinary shares"
+    "ECB reference 1.1052 on 2026-11-13 vs Yahoo spot 1.1018",
+    "Bayer ADR ratio check 4.01 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,96 +14,32 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.52,
-      "previousClose": 56.56,
-      "change": -0.04,
-      "changePct": -0.0707,
-      "asOf": "2026-11-13T16:36:18Z",
+      "price": 56.96,
+      "previousClose": 56.52,
+      "change": 0.44,
+      "changePct": 0.7785,
+      "asOf": "2026-11-16T09:16:39Z",
       "digits": 2,
       "sparkline": [
-        56.56,
-        56.62,
+        56.84,
+        56.88,
+        56.82,
+        56.86,
+        56.78,
         56.76,
-        56.64,
-        56.62,
-        56.62,
-        56.64,
-        56.7,
-        56.72,
-        56.68,
-        56.66,
-        56.68,
-        56.74,
-        56.78,
-        56.78,
-        56.82,
-        56.86,
-        56.86,
-        56.86,
-        56.84,
-        56.86,
-        56.84,
-        56.82,
-        56.84,
         56.86,
         56.9,
-        56.92,
-        56.86,
-        56.86,
-        56.82,
-        56.82,
-        56.76,
-        56.78,
-        56.72,
-        56.74,
-        56.78,
-        56.94,
-        56.88,
-        56.86,
-        56.82,
         56.84,
-        56.84,
-        56.86,
-        56.76,
-        56.76,
-        56.78,
-        56.82,
-        56.86,
         56.8,
         56.78,
-        56.78,
         56.84,
-        56.88,
-        56.88,
-        56.88,
-        56.78,
-        56.78,
-        56.74,
-        56.74,
-        56.6,
-        56.58,
-        56.58,
-        56.62,
-        56.68,
-        56.72,
-        56.7,
-        56.62,
-        56.72,
-        56.78,
-        56.74,
-        56.58,
-        56.68,
-        56.68,
-        56.6,
-        56.54,
-        56.58,
-        56.64,
-        56.64,
-        56.58,
-        56.6,
-        56.52
+        56.98,
+        57.0,
+        56.98,
+        56.96,
+        56.96
       ],
-      "sessionDate": "2026-11-13"
+      "sessionDate": "2026-11-16"
     },
     "bayry": {
       "symbol": "BAYRY",
@@ -370,20 +305,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26749.95,
-      "change": -21.95,
-      "changePct": -0.082,
+      "price": 26763.04,
+      "change": 13.09,
+      "changePct": 0.0489,
       "digits": 2,
-      "asOf": "2026-11-13T17:00:00Z"
+      "asOf": "2026-11-16T09:16:52Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1028,
-      "change": -0.0031,
-      "changePct": -0.2803,
+      "price": 1.1018,
+      "change": -0.001,
+      "changePct": -0.0907,
       "digits": 4,
-      "asOf": "2026-11-13T22:29:46Z"
+      "asOf": "2026-11-16T09:31:47Z"
     }
   },
   "headlines": {
@@ -421,58 +356,58 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "Walmart Q3FY26 Results: Revenue seen up 5.3% as valuation worries linger",
-        "source": "scanx.trade",
-        "publishedAt": "2026-11-15T17:17:27Z"
+        "title": "Forex Signals Nov 16: Nvidia, Walmart, PANW, Baidu, Alibaba Earnings Preview",
+        "source": "FXLeaders",
+        "publishedAt": "2026-11-16T01:07:59Z"
       },
       {
-        "title": "Walmart (NASDAQ:WMT) Stock Faces Major Earnings Test as US Consumer Spending Comes Into Focus",
-        "source": "Stocks Down Under",
-        "publishedAt": "2026-11-15T16:37:26Z"
+        "title": "Nvidia, Anthropic, Walmart, Home Depot, the Fed, Home Sales, and More to Watch This Week",
+        "source": "Barron's",
+        "publishedAt": "2026-11-15T19:00:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "It\u2019s not just an affair. Nvidia\u2019s bigger issue could be chip smuggling.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-15T17:33:09Z"
-      },
-      {
-        "title": "Bessent Says Nvidia Needs \u2018Dramatic Shakeup\u2019 With Huang Out",
+        "title": "Nvidia Fallout, Anthropic Listing Squeeze Asian Chip Stocks Anew",
         "source": "Bloomberg",
-        "publishedAt": "2026-11-15T17:23:56Z"
+        "publishedAt": "2026-11-16T08:17:23Z"
       },
       {
-        "title": "Bessent calls for \u2018dramatic shakeup\u2019 at Nvidia, urges outside CEO",
+        "title": "Jensen Huang's return would boost Nvidia stock: Analyst",
         "source": "CNBC",
-        "publishedAt": "2026-11-15T16:49:11Z"
+        "publishedAt": "2026-11-16T08:05:26Z"
       },
       {
-        "title": "Bessent says Nvidia must 'go outside the company' to find new CEO",
-        "source": "Reuters",
-        "publishedAt": "2026-11-15T16:25:13Z"
+        "title": "Pressure Mounts on Nvidia Ahead of Earnings",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-16T07:39:32Z"
+      },
+      {
+        "title": "Scandal-Hit Nvidia Among Trump's Planned AI \u2018National Champions,\u2019 Report Says",
+        "source": "Forbes",
+        "publishedAt": "2026-11-16T07:24:23Z"
       }
     ],
     "top": [
       {
-        "title": "How immigration policy plays out after Democrats sweep elections",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-15T18:32:33Z"
+        "title": "Fewer students are traveling from abroad to study at US universities, report shows",
+        "source": "AP News",
+        "publishedAt": "2026-11-16T07:29:00Z"
       },
       {
-        "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-        "source": "BBC",
-        "publishedAt": "2026-11-15T17:57:09Z"
+        "title": "After Florida voted to slash property taxes, towns looking to fill budget holes may end up relying on the state: \u2018The bailout comes with a leash\u2019",
+        "source": "Fortune",
+        "publishedAt": "2026-11-16T07:00:00Z"
       },
       {
-        "title": "Their son died fighting a fire. They may never understand why.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-15T17:33:10Z"
+        "title": "US Flight Cancellations Top 17,000 in Worst Tech-Related Outage",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-16T04:29:00Z"
       },
       {
-        "title": "Embattled Federal Employees Look to a Democratic Congress for a Lifeline",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-15T17:09:23Z"
+        "title": "Isaac, a cat missing since the Brooklyn building collapse, has been reunited with his young owner",
+        "source": "AP News",
+        "publishedAt": "2026-11-16T03:55:00Z"
       }
     ]
   },
@@ -509,10 +444,6 @@
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-10-26",
-        "close": 45.56
-      },
       {
         "date": "2026-10-27",
         "close": 46.15
@@ -568,6 +499,10 @@
       {
         "date": "2026-11-13",
         "close": 56.52
+      },
+      {
+        "date": "2026-11-16",
+        "close": 56.96
       }
     ],
     "bayry": [
@@ -634,10 +569,6 @@
     ],
     "dax": [
       {
-        "date": "2026-10-26",
-        "close": 25410.8398
-      },
-      {
         "date": "2026-10-27",
         "close": 25590.7695
       },
@@ -692,6 +623,10 @@
       {
         "date": "2026-11-13",
         "close": 26749.9492
+      },
+      {
+        "date": "2026-11-16",
+        "close": 26762.8301
       }
     ]
   }
