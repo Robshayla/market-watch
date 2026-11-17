@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-17T11:23:39Z",
+  "updatedAt": "2026-11-17T12:17:45Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.1014 on 2026-11-16 vs Yahoo spot 1.0994",
-    "Bayer ADR ratio check 3.98 ordinary shares"
+    "ECB reference 1.1014 on 2026-11-16 vs Yahoo spot 1.0995",
+    "Bayer ADR ratio check 3.96 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.48,
+      "price": 56.22,
       "previousClose": 57.0,
-      "change": -0.52,
-      "changePct": -0.9123,
-      "asOf": "2026-11-17T11:05:29Z",
+      "change": -0.78,
+      "changePct": -1.3684,
+      "asOf": "2026-11-17T12:02:27Z",
       "digits": 2,
       "sparkline": [
         56.6,
@@ -58,7 +58,18 @@
         56.52,
         56.5,
         56.44,
-        56.48
+        56.46,
+        56.52,
+        56.46,
+        56.48,
+        56.4,
+        56.42,
+        56.34,
+        56.34,
+        56.34,
+        56.36,
+        56.22,
+        56.22
       ],
       "sessionDate": "2026-11-17"
     },
@@ -333,29 +344,24 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26402.12,
-      "change": -196.52,
-      "changePct": -0.7388,
+      "price": 26421.27,
+      "change": -177.37,
+      "changePct": -0.6668,
       "digits": 2,
-      "asOf": "2026-11-17T11:08:27Z"
+      "asOf": "2026-11-17T12:02:32Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0994,
-      "change": -0.0003,
-      "changePct": -0.0273,
+      "price": 1.0995,
+      "change": -0.0002,
+      "changePct": -0.0182,
       "digits": 4,
-      "asOf": "2026-11-17T11:22:44Z"
+      "asOf": "2026-11-17T12:16:45Z"
     }
   },
   "headlines": {
     "bayer": [
-      {
-        "title": "Bayer Wins US Approval for Potential Blockbuster Stroke Drug",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-10T08:11:03Z"
-      },
       {
         "title": "Bayer brings factor XIa to US stroke prevention with FDA nod for 1st-in-class asundexian",
         "source": "Fierce Pharma",
@@ -370,6 +376,11 @@
         "title": "Shivam Pathak joins Bayer as Public Affairs Lead for India Crop Science",
         "source": "Exchange4Media",
         "publishedAt": "2026-11-17T06:05:02Z"
+      },
+      {
+        "title": "Kinzey Capital Management: Pharma Lifts Bayer's 2026 Outlook",
+        "source": "ACCESS Newswire",
+        "publishedAt": "2026-11-13T09:20:00Z"
       }
     ],
     "walmart": [
@@ -396,27 +407,32 @@
     ],
     "nvidia": [
       {
+        "title": "Nvidia turmoil marks the end of easy money for the AI trade",
+        "source": "Reuters",
+        "publishedAt": "2026-11-17T11:42:39Z"
+      },
+      {
+        "title": "Nvidia has lost $2 trillion in value. Here's what options traders expect from earnings",
+        "source": "CNBC",
+        "publishedAt": "2026-11-17T11:42:28Z"
+      },
+      {
         "title": "Nvidia shares set for $335 billion swing after earnings, options show",
         "source": "Reuters",
-        "publishedAt": "2026-11-17T11:13:12Z"
+        "publishedAt": "2026-11-17T11:20:54Z"
       },
       {
-        "title": "US stock futures slip ahead of Nvidia results; Fed speakers in focus",
-        "source": "Reuters",
-        "publishedAt": "2026-11-17T10:53:43Z"
-      },
-      {
-        "title": "Nvidia warns chip buyers of legal risks tied to China AI access, CNBC reports",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-17T10:01:04Z"
-      },
-      {
-        "title": "Nasdaq Futures Slip as Investors Look to Nvidia Earnings",
-        "source": "WSJ",
-        "publishedAt": "2026-11-17T09:34:00Z"
+        "title": "Tech Stocks Extend Selloff as Nvidia Results Near: Markets Wrap",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-17T11:16:53Z"
       }
     ],
     "top": [
+      {
+        "title": "El Ni\u00f1o Draws Sea Turtles to California\u2019s Coast for the First Time",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-17T08:06:00Z"
+      },
       {
         "title": "China and Canada expand tariff relief while Ottawa-Washington relations are strained",
         "source": "AP News",
@@ -431,11 +447,6 @@
         "title": "Iran escalates threats as third U.S. carrier arrives in Middle East, tanker struck in Hormuz",
         "source": "CNBC",
         "publishedAt": "2026-11-17T04:34:00Z"
-      },
-      {
-        "title": "Trump Administration Divide on China Policy Breaks Into Public View",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-17T00:51:40Z"
       }
     ]
   },
@@ -530,7 +541,7 @@
       },
       {
         "date": "2026-11-17",
-        "close": 56.48
+        "close": 56.22
       }
     ],
     "bayry": [
@@ -654,7 +665,7 @@
       },
       {
         "date": "2026-11-17",
-        "close": 26399.4102
+        "close": 26417.0801
       }
     ]
   }
