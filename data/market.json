@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-17T15:34:04Z",
+  "updatedAt": "2026-11-17T16:42:44Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.1000",
-    "Bayer ADR ratio check 4.00 ordinary shares"
+    "Nasdaq last sale 127.47 matched",
+    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.1017",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.92,
+      "price": 56.02,
       "previousClose": 57.0,
-      "change": -1.08,
-      "changePct": -1.8947,
-      "asOf": "2026-11-17T15:18:46Z",
+      "change": -0.98,
+      "changePct": -1.7193,
+      "asOf": "2026-11-17T16:27:20Z",
       "digits": 2,
       "sparkline": [
         56.6,
@@ -26,60 +27,52 @@
         56.68,
         56.62,
         56.72,
-        56.72,
         56.6,
         56.54,
         56.56,
         56.6,
         56.6,
         56.5,
-        56.5,
         56.48,
         56.46,
         56.44,
         56.5,
-        56.42,
+        56.46,
         56.42,
         56.36,
         56.32,
         56.32,
-        56.32,
         56.48,
         56.54,
-        56.52,
         56.48,
+        56.52,
         56.52,
         56.56,
-        56.58,
         56.54,
         56.52,
         56.5,
         56.44,
-        56.46,
         56.52,
+        56.46,
         56.48,
-        56.4,
         56.42,
         56.34,
         56.34,
         56.34,
-        56.36,
         56.22,
         56.2,
-        56.18,
+        56.24,
         56.18,
         56.24,
         56.2,
         56.22,
-        56.2,
         56.16,
         56.16,
         56.18,
-        56.12,
+        56.18,
         56.12,
         56.18,
         56.14,
-        56.02,
         55.92,
         55.92,
         55.92,
@@ -88,20 +81,27 @@
         55.96,
         55.96,
         55.92,
-        55.94,
         55.96,
         55.94,
         55.94,
-        56.0,
+        56.14,
         56.06,
         56.14,
         56.12,
-        56.1,
         56.04,
         56.04,
         56.04,
+        55.86,
+        56.14,
+        56.26,
+        56.28,
+        56.06,
         55.96,
-        55.92
+        56.14,
+        56.0,
+        56.0,
+        56.02,
+        56.02
       ],
       "sessionDate": "2026-11-17"
     },
@@ -112,11 +112,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.37,
+      "price": 15.45,
       "previousClose": 15.6,
-      "change": -0.23,
-      "changePct": -1.4744,
-      "asOf": "2026-11-17T15:18:34Z",
+      "change": -0.15,
+      "changePct": -0.9615,
+      "asOf": "2026-11-17T16:24:37Z",
       "digits": 2,
       "sparkline": [
         15.4,
@@ -127,7 +127,17 @@
         15.44,
         15.42,
         15.42,
-        15.37
+        15.37,
+        15.39,
+        15.42,
+        15.49,
+        15.5,
+        15.49,
+        15.45,
+        15.46,
+        15.42,
+        15.44,
+        15.45
       ],
       "sessionDate": "2026-11-17"
     },
@@ -138,94 +148,43 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 128.56,
+      "price": 127.47,
       "previousClose": 128.41,
-      "change": 0.15,
-      "changePct": 0.1168,
-      "asOf": "2026-11-17T14:39:41Z",
+      "change": -0.94,
+      "changePct": -0.732,
+      "asOf": "2026-11-17T16:42:25Z",
       "digits": 2,
       "sparkline": [
-        129.66,
-        129.145,
-        129.21,
-        128.79,
-        128.87,
-        128.55,
-        128.895,
-        128.76,
-        128.655,
-        128.75,
-        128.695,
-        128.9,
-        128.605,
-        128.48,
-        128.05,
-        128.2,
-        128.3458,
-        128.235,
-        128.22,
-        128.29,
-        128.315,
-        128.29,
-        128.08,
-        128.21,
-        128.27,
-        128.2,
-        128.17,
-        128.17,
-        128.14,
-        128.21,
-        128.2229,
-        128.2,
-        128.23,
-        128.245,
-        128.265,
-        128.25,
-        128.19,
-        128.35,
-        128.265,
-        128.15,
-        128.17,
-        128.3,
-        128.31,
-        128.3684,
-        128.4399,
-        128.4,
-        128.48,
-        128.445,
-        128.16,
-        128.25,
-        128.25,
-        128.155,
-        128.275,
-        128.5,
         128.41,
-        128.3464,
-        128.295,
-        128.24,
-        128.2374,
-        128.16,
-        128.06,
-        128.06,
-        127.99,
-        128.09,
-        128.18,
-        128.285,
-        128.27,
-        128.2,
-        128.0299,
-        128.07,
-        128.22,
-        128.22,
-        128.2722,
-        128.305,
-        128.295,
-        128.335,
+        128.62,
+        128.31,
+        128.38,
+        128.95,
+        128.3,
         128.315,
-        128.44,
-        128.56
+        128.51,
+        128.56,
+        128.56,
+        128.1209,
+        128.51,
+        128.155,
+        128.2,
+        127.99,
+        127.805,
+        127.51,
+        127.5,
+        127.39,
+        127.38,
+        127.385,
+        127.4,
+        127.58,
+        127.59,
+        127.5,
+        127.38,
+        127.495,
+        127.475
       ],
-      "sessionDate": "2026-11-16"
+      "sessionDate": "2026-11-17"
     },
     "nvda": {
       "symbol": "NVDA",
@@ -234,11 +193,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 152.58,
+      "price": 153.47,
       "previousClose": 156.14,
-      "change": -3.56,
-      "changePct": -2.28,
-      "asOf": "2026-11-17T15:33:51Z",
+      "change": -2.67,
+      "changePct": -1.71,
+      "asOf": "2026-11-17T16:42:30Z",
       "digits": 2,
       "sparkline": [
         155.62,
@@ -253,8 +212,22 @@
         153.85,
         154.1201,
         153.655,
-        152.7005,
-        152.58
+        152.32,
+        152.09,
+        151.2901,
+        150.82,
+        150.58,
+        153.69,
+        154.3581,
+        154.7965,
+        155.33,
+        155.35,
+        154.725,
+        154.6,
+        153.61,
+        153.83,
+        153.6201,
+        153.47
       ],
       "sessionDate": "2026-11-17"
     }
@@ -263,38 +236,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7367.22,
-      "change": -49.37,
-      "changePct": -0.6657,
+      "price": 7317.08,
+      "change": -99.51,
+      "changePct": -1.3417,
       "digits": 2,
-      "asOf": "2026-11-17T15:33:50Z"
+      "asOf": "2026-11-17T16:42:29Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 51173.17,
-      "change": -435.0,
-      "changePct": -0.8429,
+      "price": 50759.7,
+      "change": -848.47,
+      "changePct": -1.6441,
       "digits": 2,
-      "asOf": "2026-11-17T15:33:50Z"
+      "asOf": "2026-11-17T16:42:30Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26187.87,
-      "change": -410.77,
-      "changePct": -1.5443,
+      "price": 26066.21,
+      "change": -532.43,
+      "changePct": -2.0017,
       "digits": 2,
-      "asOf": "2026-11-17T15:18:50Z"
+      "asOf": "2026-11-17T16:27:30Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1,
-      "change": 0.0003,
-      "changePct": 0.0273,
+      "price": 1.1017,
+      "change": 0.002,
+      "changePct": 0.1819,
       "digits": 4,
-      "asOf": "2026-11-17T15:33:45Z"
+      "asOf": "2026-11-17T16:41:47Z"
     }
   },
   "headlines": {
@@ -337,53 +310,53 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "Walmart (WMT) Needs Spectacular Q3 Earnings to Justify Further Upside",
-        "source": "TipRanks",
-        "publishedAt": "2026-11-17T14:25:51Z"
+        "title": "Walmart Q3 Earnings Preview: What To Expect From Upcoming Report",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-17T16:34:01Z"
       }
     ],
     "nvidia": [
       {
+        "title": "Nvidia's Huang signals willingness to return as CEO; board creates national security panel",
+        "source": "Reuters",
+        "publishedAt": "2026-11-17T16:22:16Z"
+      },
+      {
+        "title": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
+        "source": "WSJ",
+        "publishedAt": "2026-11-17T16:11:00Z"
+      },
+      {
         "title": "Nvidia\u2019s Earnings Come at a Time of Mounting Tech Turmoil",
         "source": "Bloomberg",
-        "publishedAt": "2026-11-17T15:20:15Z"
+        "publishedAt": "2026-11-17T15:57:03Z"
       },
       {
-        "title": "Michael Burry Shorted Nvidia Stock. Is He About to Make Another Fortune?",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-17T14:50:02Z"
-      },
-      {
-        "title": "Nvidia forms export-control panel as Huang affair puts China ties in focus",
-        "source": "Reuters",
-        "publishedAt": "2026-11-17T14:36:17Z"
-      },
-      {
-        "title": "Nasdaq set for higher open as tech steadies ahead of Nvidia results, Anthropic IPO",
-        "source": "Reuters",
-        "publishedAt": "2026-11-17T14:05:55Z"
+        "title": "Dow Lower Ahead of Nvidia Earnings",
+        "source": "WSJ",
+        "publishedAt": "2026-11-17T15:10:00Z"
       }
     ],
     "top": [
+      {
+        "title": "Jensen Huang to appear before House panels Dec. 1; Nvidia lawyer slated to testify Dec. 2",
+        "source": "CNBC",
+        "publishedAt": "2026-11-17T15:10:05Z"
+      },
+      {
+        "title": "A 2-month lull ends with Iran\u2019s third strike on US targets in Bahrain",
+        "source": "AP News",
+        "publishedAt": "2026-11-17T14:57:00Z"
+      },
       {
         "title": "Protesters at Rutgers Disrupt Speech by Former Trump Border Official",
         "source": "The New York Times",
         "publishedAt": "2026-11-17T14:09:00Z"
       },
       {
-        "title": "Nvidia turmoil exposes growing rift inside Trump\u2019s White House",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-17T14:07:17Z"
-      },
-      {
-        "title": "A 2-month lull ends with Iran\u2019s third strike on US targets in Bahrain",
-        "source": "AP News",
-        "publishedAt": "2026-11-17T12:23:00Z"
-      },
-      {
-        "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+        "title": "As Trump Goes to China, A.I. Tensions Surge Amid Spying and Safety Fears",
         "source": "The New York Times",
-        "publishedAt": "2026-11-17T10:04:03Z"
+        "publishedAt": "2026-11-17T10:22:54Z"
       }
     ]
   },
@@ -478,7 +451,7 @@
       },
       {
         "date": "2026-11-17",
-        "close": 55.92
+        "close": 56.02
       }
     ],
     "bayry": [
@@ -540,7 +513,7 @@
       },
       {
         "date": "2026-11-17",
-        "close": 15.37
+        "close": 15.45
       }
     ],
     "dax": [
@@ -602,7 +575,7 @@
       },
       {
         "date": "2026-11-17",
-        "close": 26188.1504
+        "close": 26070.5996
       }
     ]
   }
