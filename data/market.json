@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-17T16:42:44Z",
+  "updatedAt": "2026-11-17T17:44:52Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.47 matched",
-    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.1017",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "Nasdaq last sale 127.55 matched",
+    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.1019",
+    "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.02,
+      "price": 56.14,
       "previousClose": 57.0,
-      "change": -0.98,
-      "changePct": -1.7193,
-      "asOf": "2026-11-17T16:27:20Z",
+      "change": -0.86,
+      "changePct": -1.5088,
+      "asOf": "2026-11-17T16:35:17Z",
       "digits": 2,
       "sparkline": [
         56.6,
@@ -101,7 +101,8 @@
         56.0,
         56.0,
         56.02,
-        56.02
+        56.02,
+        56.14
       ],
       "sessionDate": "2026-11-17"
     },
@@ -112,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.45,
+      "price": 15.53,
       "previousClose": 15.6,
-      "change": -0.15,
-      "changePct": -0.9615,
-      "asOf": "2026-11-17T16:24:37Z",
+      "change": -0.07,
+      "changePct": -0.4487,
+      "asOf": "2026-11-17T17:25:14Z",
       "digits": 2,
       "sparkline": [
         15.4,
@@ -136,8 +137,13 @@
         15.45,
         15.46,
         15.42,
-        15.44,
-        15.45
+        15.45,
+        15.48,
+        15.46,
+        15.48,
+        15.49,
+        15.52,
+        15.53
       ],
       "sessionDate": "2026-11-17"
     },
@@ -148,11 +154,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.47,
+      "price": 127.55,
       "previousClose": 128.41,
-      "change": -0.94,
-      "changePct": -0.732,
-      "asOf": "2026-11-17T16:42:25Z",
+      "change": -0.86,
+      "changePct": -0.6697,
+      "asOf": "2026-11-17T17:44:37Z",
       "digits": 2,
       "sparkline": [
         128.41,
@@ -181,8 +187,20 @@
         127.59,
         127.5,
         127.38,
-        127.495,
-        127.475
+        127.38,
+        127.3733,
+        127.572,
+        127.66,
+        127.66,
+        127.75,
+        127.47,
+        127.5,
+        127.69,
+        127.79,
+        127.66,
+        127.555,
+        127.5576,
+        127.55
       ],
       "sessionDate": "2026-11-17"
     },
@@ -193,11 +211,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 153.47,
+      "price": 153.76,
       "previousClose": 156.14,
-      "change": -2.67,
-      "changePct": -1.71,
-      "asOf": "2026-11-17T16:42:30Z",
+      "change": -2.38,
+      "changePct": -1.5243,
+      "asOf": "2026-11-17T17:44:39Z",
       "digits": 2,
       "sparkline": [
         155.62,
@@ -226,8 +244,20 @@
         154.6,
         153.61,
         153.83,
-        153.6201,
-        153.47
+        153.9789,
+        153.763,
+        152.86,
+        153.755,
+        153.145,
+        153.925,
+        153.95,
+        154.88,
+        154.5711,
+        154.38,
+        154.16,
+        153.685,
+        153.675,
+        153.76
       ],
       "sessionDate": "2026-11-17"
     }
@@ -236,38 +266,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7317.08,
-      "change": -99.51,
-      "changePct": -1.3417,
+      "price": 7341.41,
+      "change": -75.18,
+      "changePct": -1.0137,
       "digits": 2,
-      "asOf": "2026-11-17T16:42:29Z"
+      "asOf": "2026-11-17T17:44:40Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50759.7,
-      "change": -848.47,
-      "changePct": -1.6441,
+      "price": 50918.96,
+      "change": -689.21,
+      "changePct": -1.3355,
       "digits": 2,
-      "asOf": "2026-11-17T16:42:30Z"
+      "asOf": "2026-11-17T17:44:40Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26066.21,
-      "change": -532.43,
-      "changePct": -2.0017,
+      "price": 26045.37,
+      "change": -553.27,
+      "changePct": -2.0801,
       "digits": 2,
-      "asOf": "2026-11-17T16:27:30Z"
+      "asOf": "2026-11-17T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1017,
-      "change": 0.002,
-      "changePct": 0.1819,
+      "price": 1.1019,
+      "change": 0.0022,
+      "changePct": 0.2001,
       "digits": 4,
-      "asOf": "2026-11-17T16:41:47Z"
+      "asOf": "2026-11-17T17:43:43Z"
     }
   },
   "headlines": {
@@ -283,14 +313,14 @@
         "publishedAt": "2026-08-04T07:00:00Z"
       },
       {
+        "title": "Shivam Pathak joins Bayer as public affairs lead for Crop Science in India",
+        "source": "MediaBrief",
+        "publishedAt": "2026-11-17T11:06:39Z"
+      },
+      {
         "title": "Shivam Pathak joins Bayer as Public Affairs Lead for India Crop Science",
         "source": "Exchange4Media",
         "publishedAt": "2026-11-17T06:05:02Z"
-      },
-      {
-        "title": "Kinzey Capital Management: Pharma Lifts Bayer's 2026 Outlook",
-        "source": "ACCESS Newswire",
-        "publishedAt": "2026-11-13T09:20:00Z"
       }
     ],
     "walmart": [
@@ -310,12 +340,22 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "Walmart Q3 Earnings Preview: What To Expect From Upcoming Report",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-17T16:34:01Z"
+        "title": "Caterpillar CEO Joseph Creed joins Walmart board of directors",
+        "source": "Northwest Arkansas Democrat-Gazette",
+        "publishedAt": "2026-11-17T17:29:00Z"
       }
     ],
     "nvidia": [
+      {
+        "title": "Nvidia\u2019s Earnings Come at a Time of Mounting Tech Turmoil",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-17T17:27:03Z"
+      },
+      {
+        "title": "Nvidia Earnings Are Sideshow as Huang\u2019s Ouster Looms Over Market",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-17T16:42:15Z"
+      },
       {
         "title": "Nvidia's Huang signals willingness to return as CEO; board creates national security panel",
         "source": "Reuters",
@@ -325,28 +365,13 @@
         "title": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
         "source": "WSJ",
         "publishedAt": "2026-11-17T16:11:00Z"
-      },
-      {
-        "title": "Nvidia\u2019s Earnings Come at a Time of Mounting Tech Turmoil",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-17T15:57:03Z"
-      },
-      {
-        "title": "Dow Lower Ahead of Nvidia Earnings",
-        "source": "WSJ",
-        "publishedAt": "2026-11-17T15:10:00Z"
       }
     ],
     "top": [
       {
-        "title": "Jensen Huang to appear before House panels Dec. 1; Nvidia lawyer slated to testify Dec. 2",
-        "source": "CNBC",
-        "publishedAt": "2026-11-17T15:10:05Z"
-      },
-      {
-        "title": "A 2-month lull ends with Iran\u2019s third strike on US targets in Bahrain",
-        "source": "AP News",
-        "publishedAt": "2026-11-17T14:57:00Z"
+        "title": "Nvidia turmoil exposes growing rift inside Trump\u2019s White House",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-17T17:18:52Z"
       },
       {
         "title": "Protesters at Rutgers Disrupt Speech by Former Trump Border Official",
@@ -354,9 +379,14 @@
         "publishedAt": "2026-11-17T14:09:00Z"
       },
       {
-        "title": "As Trump Goes to China, A.I. Tensions Surge Amid Spying and Safety Fears",
+        "title": "A 2-month lull ends with Iran\u2019s third strike on US targets in Bahrain",
+        "source": "AP News",
+        "publishedAt": "2026-11-17T12:23:00Z"
+      },
+      {
+        "title": "El Ni\u00f1o Draws Sea Turtles to California\u2019s Coast for the First Time",
         "source": "The New York Times",
-        "publishedAt": "2026-11-17T10:22:54Z"
+        "publishedAt": "2026-11-17T08:06:00Z"
       }
     ]
   },
@@ -451,7 +481,7 @@
       },
       {
         "date": "2026-11-17",
-        "close": 56.02
+        "close": 56.14
       }
     ],
     "bayry": [
@@ -513,7 +543,7 @@
       },
       {
         "date": "2026-11-17",
-        "close": 15.45
+        "close": 15.53
       }
     ],
     "dax": [
@@ -575,7 +605,7 @@
       },
       {
         "date": "2026-11-17",
-        "close": 26070.5996
+        "close": 26045.3691
       }
     ]
   }
