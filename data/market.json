@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-17T19:45:50Z",
+  "updatedAt": "2026-11-17T20:45:27Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.57 matched",
-    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.1014",
+    "Nasdaq last sale 127.42 matched",
+    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.1011",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.46,
+      "price": 15.44,
       "previousClose": 15.6,
-      "change": -0.14,
-      "changePct": -0.8974,
-      "asOf": "2026-11-17T19:29:59Z",
+      "change": -0.16,
+      "changePct": -1.0256,
+      "asOf": "2026-11-17T20:28:23Z",
       "digits": 2,
       "sparkline": [
         15.4,
@@ -157,7 +157,15 @@
         15.46,
         15.46,
         15.46,
-        15.46
+        15.47,
+        15.46,
+        15.45,
+        15.45,
+        15.45,
+        15.42,
+        15.43,
+        15.45,
+        15.44
       ],
       "sessionDate": "2026-11-17"
     },
@@ -168,11 +176,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.57,
+      "price": 127.42,
       "previousClose": 128.41,
-      "change": -0.84,
-      "changePct": -0.6542,
-      "asOf": "2026-11-17T19:45:31Z",
+      "change": -0.99,
+      "changePct": -0.771,
+      "asOf": "2026-11-17T20:45:09Z",
       "digits": 2,
       "sparkline": [
         128.41,
@@ -238,7 +246,19 @@
         127.49,
         127.61,
         127.525,
-        127.57
+        127.5888,
+        127.595,
+        127.47,
+        127.61,
+        127.6,
+        127.49,
+        127.44,
+        127.375,
+        127.41,
+        127.52,
+        127.46,
+        127.44,
+        127.42
       ],
       "sessionDate": "2026-11-17"
     },
@@ -249,11 +269,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 153.61,
+      "price": 153.77,
       "previousClose": 156.14,
-      "change": -2.53,
-      "changePct": -1.6203,
-      "asOf": "2026-11-17T19:45:36Z",
+      "change": -2.37,
+      "changePct": -1.5179,
+      "asOf": "2026-11-17T20:45:14Z",
       "digits": 2,
       "sparkline": [
         155.62,
@@ -319,7 +339,19 @@
         153.685,
         153.475,
         153.535,
-        153.61
+        152.6,
+        152.88,
+        152.88,
+        152.3001,
+        152.72,
+        153.05,
+        153.295,
+        153.515,
+        153.48,
+        153.5024,
+        153.75,
+        153.82,
+        153.77
       ],
       "sessionDate": "2026-11-17"
     }
@@ -328,20 +360,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7324.72,
-      "change": -91.87,
-      "changePct": -1.2387,
+      "price": 7328.54,
+      "change": -88.05,
+      "changePct": -1.1872,
       "digits": 2,
-      "asOf": "2026-11-17T19:45:36Z"
+      "asOf": "2026-11-17T20:45:13Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50735.86,
-      "change": -872.31,
-      "changePct": -1.6903,
+      "price": 50736.41,
+      "change": -871.76,
+      "changePct": -1.6892,
       "digits": 2,
-      "asOf": "2026-11-17T19:45:36Z"
+      "asOf": "2026-11-17T20:45:14Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -355,11 +387,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1014,
-      "change": 0.0017,
-      "changePct": 0.1546,
+      "price": 1.1011,
+      "change": 0.0014,
+      "changePct": 0.1273,
       "digits": 4,
-      "asOf": "2026-11-17T19:44:45Z"
+      "asOf": "2026-11-17T20:44:47Z"
     }
   },
   "headlines": {
@@ -402,57 +434,64 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "Dow Jones Discount Retail Giant Walmart Poised To Hit Buy Point With Earnings Due",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-17T19:26:17Z"
+        "title": "Walmart vs. Target Stock: 1 Is Worth 14x the Other. Here\u2019s Which Stock to Buy Before Earnings.",
+        "source": "Barchart",
+        "publishedAt": "2026-11-17T19:54:01Z"
       }
     ],
     "nvidia": [
+      {
+        "title": "Wall Street falters ahead of Nvidia earnings, Anthropic debut",
+        "source": "Reuters",
+        "publishedAt": "2026-11-17T19:29:30Z"
+      },
+      {
+        "title": "Huang open to Nvidia return as scandal-hit chipmaker heads into results",
+        "source": "Reuters",
+        "publishedAt": "2026-11-17T19:27:36Z"
+      },
       {
         "title": "Stocks Dip Ahead of Nvidia Earnings",
         "source": "WSJ",
         "publishedAt": "2026-11-17T19:27:00Z"
       },
       {
-        "title": "Nvidia tells robotics startups they have its support as questions swirl about its investment strategy",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-17T19:03:00Z"
-      },
-      {
-        "title": "Nvidia Hired a Headhunter and Is Talking to Arm\u2019s CEO, WSJ Reports. Rene Haas Ran One of Nvidia\u2019s Biggest Businesses Until 2013",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-17T18:09:03Z"
-      },
-      {
-        "title": "Huang would 'be honored' to return as Nvidia CEO after affair scandal forced him out",
-        "source": "Reuters",
-        "publishedAt": "2026-11-17T17:44:23Z"
+        "title": "Nvidia Earnings Are Sideshow as Huang\u2019s Ouster Looms Over Market",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-17T19:11:04Z"
       }
     ],
     "top": [
+      {
+        "title": "Nvidia turmoil exposes growing rift inside Trump\u2019s White House",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-17T20:30:14Z"
+      },
+      {
+        "title": "As string of tech outages raises alarms, Trump says everything is \"fine\"",
+        "source": "Reuters",
+        "publishedAt": "2026-11-17T19:41:46Z"
+      },
       {
         "title": "Sea turtles laid eggs on a California beach, a first. Now they\u2019ve hatched.",
         "source": "The Washington Post",
         "publishedAt": "2026-11-17T19:17:20Z"
       },
       {
-        "title": "Nvidia turmoil exposes growing rift inside Trump\u2019s White House",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-17T18:20:30Z"
-      },
-      {
         "title": "Trump\u2019s pick for Navy secretary acknowledges the Iran war is straining military resources",
         "source": "AP News",
         "publishedAt": "2026-11-17T17:53:00Z"
-      },
-      {
-        "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
-        "source": "BBC",
-        "publishedAt": "2026-11-17T17:37:04Z"
       }
     ]
   },
   "releases": [
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Bayer Q3 2026 Earnings Call Is Live",
+      "source": "TradingView",
+      "publishedAt": "2026-11-03T08:00:00Z",
+      "release": true
+    },
     {
       "eventId": "bayer-q3-2026",
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
@@ -470,13 +509,6 @@
     {
       "eventId": "bayer-q3-2026",
       "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
       "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
@@ -605,7 +637,7 @@
       },
       {
         "date": "2026-11-17",
-        "close": 15.46
+        "close": 15.44
       }
     ],
     "dax": [
