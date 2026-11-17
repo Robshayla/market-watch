@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-17T18:37:33Z",
+  "updatedAt": "2026-11-17T19:45:50Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.76 matched",
-    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.1016",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "Nasdaq last sale 127.57 matched",
+    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.1014",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -79,7 +79,7 @@
         55.96,
         55.9,
         55.96,
-        55.94,
+        55.96,
         55.92,
         55.96,
         55.94,
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.49,
+      "price": 15.46,
       "previousClose": 15.6,
-      "change": -0.11,
-      "changePct": -0.7051,
-      "asOf": "2026-11-17T18:15:01Z",
+      "change": -0.14,
+      "changePct": -0.8974,
+      "asOf": "2026-11-17T19:29:59Z",
       "digits": 2,
       "sparkline": [
         15.4,
@@ -147,7 +147,17 @@
         15.55,
         15.53,
         15.5,
-        15.49
+        15.49,
+        15.51,
+        15.5,
+        15.5,
+        15.49,
+        15.47,
+        15.46,
+        15.46,
+        15.46,
+        15.46,
+        15.46
       ],
       "sessionDate": "2026-11-17"
     },
@@ -158,11 +168,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.76,
+      "price": 127.57,
       "previousClose": 128.41,
-      "change": -0.65,
-      "changePct": -0.5062,
-      "asOf": "2026-11-17T18:37:16Z",
+      "change": -0.84,
+      "changePct": -0.6542,
+      "asOf": "2026-11-17T19:45:31Z",
       "digits": 2,
       "sparkline": [
         128.41,
@@ -214,8 +224,21 @@
         127.71,
         127.875,
         127.79,
-        127.71,
-        127.76
+        127.6901,
+        127.805,
+        127.8048,
+        127.645,
+        127.59,
+        127.61,
+        127.49,
+        127.45,
+        127.58,
+        127.56,
+        127.57,
+        127.49,
+        127.61,
+        127.525,
+        127.57
       ],
       "sessionDate": "2026-11-17"
     },
@@ -226,11 +249,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 153.78,
+      "price": 153.61,
       "previousClose": 156.14,
-      "change": -2.36,
-      "changePct": -1.5115,
-      "asOf": "2026-11-17T18:37:17Z",
+      "change": -2.53,
+      "changePct": -1.6203,
+      "asOf": "2026-11-17T19:45:36Z",
       "digits": 2,
       "sparkline": [
         155.62,
@@ -282,8 +305,21 @@
         153.955,
         154.0999,
         154.03,
-        153.8,
-        153.78
+        153.565,
+        153.2999,
+        153.17,
+        153.02,
+        153.605,
+        153.65,
+        153.745,
+        154.6699,
+        154.17,
+        153.9701,
+        153.615,
+        153.685,
+        153.475,
+        153.535,
+        153.61
       ],
       "sessionDate": "2026-11-17"
     }
@@ -292,20 +328,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7342.83,
-      "change": -73.76,
-      "changePct": -0.9945,
+      "price": 7324.72,
+      "change": -91.87,
+      "changePct": -1.2387,
       "digits": 2,
-      "asOf": "2026-11-17T18:37:17Z"
+      "asOf": "2026-11-17T19:45:36Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50905.09,
-      "change": -703.08,
-      "changePct": -1.3623,
+      "price": 50735.86,
+      "change": -872.31,
+      "changePct": -1.6903,
       "digits": 2,
-      "asOf": "2026-11-17T18:37:19Z"
+      "asOf": "2026-11-17T19:45:36Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -319,11 +355,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1016,
-      "change": 0.0019,
-      "changePct": 0.1728,
+      "price": 1.1014,
+      "change": 0.0017,
+      "changePct": 0.1546,
       "digits": 4,
-      "asOf": "2026-11-17T18:36:44Z"
+      "asOf": "2026-11-17T19:44:45Z"
     }
   },
   "headlines": {
@@ -366,26 +402,26 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "Walmart's Black Friday deals start early. Here's when",
-        "source": "Treasure Coast News",
-        "publishedAt": "2026-11-17T18:23:00Z"
+        "title": "Dow Jones Discount Retail Giant Walmart Poised To Hit Buy Point With Earnings Due",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-17T19:26:17Z"
       }
     ],
     "nvidia": [
       {
+        "title": "Stocks Dip Ahead of Nvidia Earnings",
+        "source": "WSJ",
+        "publishedAt": "2026-11-17T19:27:00Z"
+      },
+      {
+        "title": "Nvidia tells robotics startups they have its support as questions swirl about its investment strategy",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-17T19:03:00Z"
+      },
+      {
         "title": "Nvidia Hired a Headhunter and Is Talking to Arm\u2019s CEO, WSJ Reports. Rene Haas Ran One of Nvidia\u2019s Biggest Businesses Until 2013",
         "source": "Yahoo Finance",
         "publishedAt": "2026-11-17T18:09:03Z"
-      },
-      {
-        "title": "Dow Slides Ahead of Nvidia Earnings",
-        "source": "WSJ",
-        "publishedAt": "2026-11-17T17:49:00Z"
-      },
-      {
-        "title": "Why Nvidia earnings and the Anthropic IPO could mean new trouble for bitcoin",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-17T17:49:00Z"
       },
       {
         "title": "Huang would 'be honored' to return as Nvidia CEO after affair scandal forced him out",
@@ -394,6 +430,11 @@
       }
     ],
     "top": [
+      {
+        "title": "Sea turtles laid eggs on a California beach, a first. Now they\u2019ve hatched.",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-17T19:17:20Z"
+      },
       {
         "title": "Nvidia turmoil exposes growing rift inside Trump\u2019s White House",
         "source": "The Washington Post",
@@ -405,14 +446,9 @@
         "publishedAt": "2026-11-17T17:53:00Z"
       },
       {
-        "title": "A 2-month lull ends with Iran\u2019s third strike on US targets in Bahrain",
-        "source": "AP News",
-        "publishedAt": "2026-11-17T14:57:00Z"
-      },
-      {
-        "title": "Enrollment in N.Y.C. Schools Falls by 23,000, Continuing a Long Slide",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-17T14:18:00Z"
+        "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+        "source": "BBC",
+        "publishedAt": "2026-11-17T17:37:04Z"
       }
     ]
   },
@@ -569,7 +605,7 @@
       },
       {
         "date": "2026-11-17",
-        "close": 15.49
+        "close": 15.46
       }
     ],
     "dax": [
