@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-18T13:45:46Z",
+  "updatedAt": "2026-11-18T14:45:39Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.0976",
-    "Bayer ADR ratio check 4.03 ordinary shares"
+    "Nasdaq last sale 125.67 matched",
+    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.0981",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.6,
+      "price": 56.44,
       "previousClose": 56.14,
-      "change": 0.46,
-      "changePct": 0.8194,
-      "asOf": "2026-11-18T13:30:15Z",
+      "change": 0.3,
+      "changePct": 0.5344,
+      "asOf": "2026-11-18T14:30:14Z",
       "digits": 2,
       "sparkline": [
         56.86,
@@ -87,7 +88,19 @@
         56.56,
         56.6,
         56.6,
-        56.6
+        56.56,
+        56.56,
+        56.58,
+        56.6,
+        56.58,
+        56.68,
+        56.62,
+        56.6,
+        56.62,
+        56.6,
+        56.5,
+        56.5,
+        56.44
       ],
       "sessionDate": "2026-11-18"
     },
@@ -98,11 +111,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.43,
-      "previousClose": 15.6,
-      "change": -0.17,
-      "changePct": -1.0897,
-      "asOf": "2026-11-18T13:24:44Z",
+      "price": 15.5,
+      "previousClose": 15.44,
+      "change": 0.06,
+      "changePct": 0.3886,
+      "asOf": "2026-11-18T14:30:00Z",
       "digits": 2,
       "sparkline": [
         15.4,
@@ -153,7 +166,8 @@
         15.44,
         15.44,
         15.44,
-        15.44
+        15.44,
+        15.5
       ],
       "sessionDate": "2026-11-17"
     },
@@ -164,11 +178,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.42,
-      "previousClose": 128.41,
-      "change": -0.99,
-      "changePct": -0.771,
-      "asOf": "2026-11-17T20:45:09Z",
+      "price": 125.71,
+      "previousClose": 127.52,
+      "change": -1.81,
+      "changePct": -1.4194,
+      "asOf": "2026-11-18T14:45:21Z",
       "digits": 2,
       "sparkline": [
         128.41,
@@ -246,7 +260,10 @@
         127.52,
         127.46,
         127.44,
-        127.42
+        127.54,
+        127.63,
+        127.47,
+        125.71
       ],
       "sessionDate": "2026-11-17"
     },
@@ -257,11 +274,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 155.46,
-      "previousClose": 156.14,
-      "change": -0.68,
-      "changePct": -0.4355,
-      "asOf": "2026-11-17T21:00:00Z",
+      "price": 154.32,
+      "previousClose": 155.46,
+      "change": -1.14,
+      "changePct": -0.7333,
+      "asOf": "2026-11-18T14:45:24Z",
       "digits": 2,
       "sparkline": [
         155.62,
@@ -341,7 +358,8 @@
         153.82,
         153.435,
         153.93,
-        155.455
+        155.455,
+        154.32
       ],
       "sessionDate": "2026-11-17"
     }
@@ -350,38 +368,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7340.53,
-      "change": -76.06,
-      "changePct": -1.0255,
+      "price": 7322.19,
+      "change": -18.34,
+      "changePct": -0.2498,
       "digits": 2,
-      "asOf": "2026-11-17T21:42:12Z"
+      "asOf": "2026-11-18T14:45:24Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50759.42,
-      "change": -848.78,
-      "changePct": -1.6447,
+      "price": 50425.48,
+      "change": -333.94,
+      "changePct": -0.6579,
       "digits": 2,
-      "asOf": "2026-11-17T21:42:18Z"
+      "asOf": "2026-11-18T14:45:25Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25947.62,
-      "change": -97.75,
-      "changePct": -0.3753,
+      "price": 25932.81,
+      "change": -112.56,
+      "changePct": -0.4322,
       "digits": 2,
-      "asOf": "2026-11-18T13:30:34Z"
+      "asOf": "2026-11-18T14:30:15Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0976,
-      "change": -0.0026,
-      "changePct": -0.2363,
+      "price": 1.0981,
+      "change": -0.0021,
+      "changePct": -0.1909,
       "digits": 4,
-      "asOf": "2026-11-18T13:44:48Z"
+      "asOf": "2026-11-18T14:44:44Z"
     }
   },
   "headlines": {
@@ -424,43 +442,43 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "Walmart Earnings Could Deliver a Surprise for 3 Consumer Staples ETFs",
-        "source": "TradingView",
-        "publishedAt": "2026-11-18T11:21:44Z"
+        "title": "Dear Walmart Stock Fans, Mark Your Calendars for November 19",
+        "source": "Barchart",
+        "publishedAt": "2026-11-18T14:30:03Z"
       }
     ],
     "nvidia": [
       {
-        "title": "US Stocks Rise as Nvidia Outlook Tempers AI Fears: Markets Wrap",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-18T13:02:38Z"
+        "title": "Nvidia\u2019s earnings boom meets a governance test",
+        "source": "Fortune",
+        "publishedAt": "2026-11-18T14:02:00Z"
       },
       {
-        "title": "The Bank of Nvidia Under New Management",
+        "title": "Watch Stocks Rise After Nvidia Earnings; Xi Welcomes Trump",
         "source": "Bloomberg",
-        "publishedAt": "2026-11-18T13:00:50Z"
+        "publishedAt": "2026-11-18T13:37:54Z"
+      },
+      {
+        "title": "Nasdaq Futures Rise as Nvidia Earnings Calm AI Fears, Attention Turns to Anthropic",
+        "source": "WSJ",
+        "publishedAt": "2026-11-18T13:22:00Z"
       },
       {
         "title": "Nvidia Raises Outlook, Says It Can Thrive Without Huang",
         "source": "Bloomberg",
         "publishedAt": "2026-11-18T12:38:49Z"
-      },
-      {
-        "title": "Kress Takes Point on Nvidia Results as Chip Maker Beats Expectations",
-        "source": "WSJ",
-        "publishedAt": "2026-11-18T12:29:00Z"
       }
     ],
     "top": [
       {
-        "title": "Iran widens Gulf attacks by targeting a US air base in Kuwait and sites in Bahrain",
-        "source": "AP News",
-        "publishedAt": "2026-11-18T12:44:00Z"
-      },
-      {
         "title": "Hegseth survives impeachment fight, but more political threats await",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-18T12:32:54Z"
+        "publishedAt": "2026-11-18T14:02:54Z"
+      },
+      {
+        "title": "Mary Peltola flips Alaska seat, giving Democrats a 56-44 edge in Senate",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-18T13:52:34Z"
       },
       {
         "title": "Mullin heads to Congress to face questions over flight disruptions, football trip and immigration",
@@ -565,14 +583,10 @@
       },
       {
         "date": "2026-11-18",
-        "close": 56.6
+        "close": 56.46
       }
     ],
     "bayry": [
-      {
-        "date": "2026-10-28",
-        "close": 12.8
-      },
       {
         "date": "2026-10-29",
         "close": 13.37
@@ -631,7 +645,7 @@
       },
       {
         "date": "2026-11-18",
-        "close": 15.43
+        "close": 15.49
       }
     ],
     "dax": [
@@ -693,7 +707,7 @@
       },
       {
         "date": "2026-11-18",
-        "close": 25946.0801
+        "close": 25929.9902
       }
     ]
   }
