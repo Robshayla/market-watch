@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-18T22:34:24Z",
+  "updatedAt": "2026-11-18T22:53:40Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0978",
+    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0977",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -280,7 +280,7 @@
         154.755,
         154.305,
         153.03,
-        153.805,
+        153.79,
         153.85,
         152.6298,
         152.384,
@@ -383,11 +383,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0978,
-      "change": -0.0024,
-      "changePct": -0.2181,
+      "price": 1.0977,
+      "change": -0.0025,
+      "changePct": -0.2272,
       "digits": 4,
-      "asOf": "2026-11-18T22:33:44Z"
+      "asOf": "2026-11-18T22:52:45Z"
     }
   },
   "headlines": {
@@ -403,14 +403,14 @@
         "publishedAt": "2026-08-04T07:00:00Z"
       },
       {
-        "title": "Bayer looking at another year of 'resilience' before growth kicks in behind Nubeqa, Kerendia",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-03-04T08:00:00Z"
-      },
-      {
         "title": "A warrant for 3,333,000 shares counts toward Bayer entities\u2019 reported stake in Senti Biosciences (SNTI).",
         "source": "Stock Titan",
         "publishedAt": "2026-11-18T21:50:43Z"
+      },
+      {
+        "title": "Kinzey Capital Management: Pharma Lifts Bayer's 2026 Outlook",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-13T09:20:00Z"
       }
     ],
     "walmart": [
@@ -437,11 +437,6 @@
     ],
     "nvidia": [
       {
-        "title": "Jensen Huang is gone, but his signature 'T5T' email ritual will live on, per Nvidia all-hands recording",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-18T22:00:00Z"
-      },
-      {
         "title": "Inside Nvidia's all-hands meeting, executives confront the elephant in the room: Jensen Huang",
         "source": "Business Insider",
         "publishedAt": "2026-11-18T21:52:00Z"
@@ -449,12 +444,17 @@
       {
         "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes",
         "source": "Reuters",
-        "publishedAt": "2026-11-18T21:02:15Z"
+        "publishedAt": "2026-11-18T21:46:43Z"
       },
       {
-        "title": "Nvidia Tells Employees That Company Is Moving On From Huang Era",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-18T21:00:03Z"
+        "title": "Billionaire investor Bill Ackman bashes Nvidia\u2019s board for not bringing back Jensen Huang",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-18T20:20:00Z"
+      },
+      {
+        "title": "'Business as usual': Nvidia's Kress passes first test as board slams door on Huang",
+        "source": "Reuters",
+        "publishedAt": "2026-11-18T20:13:46Z"
       }
     ],
     "top": [
@@ -464,19 +464,19 @@
         "publishedAt": "2026-11-18T22:11:51Z"
       },
       {
-        "title": "Nike to gift sneakers to all high school valedictorians at Scott Colom\u2019s suggestion",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-18T22:11:29Z"
-      },
-      {
-        "title": "Senate panel vote on National Science Foundation nominee is abruptly pulled",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-18T22:00:49Z"
-      },
-      {
         "title": "Democrat Hakeem Jeffries nominated to be first Black speaker of House next year",
         "source": "The Washington Post",
         "publishedAt": "2026-11-18T21:59:29Z"
+      },
+      {
+        "title": "When kids lock up cellphones in class, the achievement gap narrows, study finds",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-18T21:32:04Z"
+      },
+      {
+        "title": "Man destroyed $60 million U.S. military plane at Irish airport, DOJ says",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-18T21:30:00Z"
       }
     ]
   },
@@ -491,7 +491,7 @@
     {
       "eventId": "bayer-q3-2026",
       "title": "Bayer : Quarterly Statement Q3 2026",
-      "source": "marketscreener",
+      "source": "www.marketscreener",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
