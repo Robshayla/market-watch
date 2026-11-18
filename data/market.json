@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-18T18:45:20Z",
+  "updatedAt": "2026-11-18T19:44:47Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.50 matched",
-    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0982",
+    "Nasdaq last sale 127.25 matched",
+    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0966",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.37,
+      "price": 15.35,
       "previousClose": 15.44,
-      "change": -0.07,
-      "changePct": -0.4534,
-      "asOf": "2026-11-18T18:19:11Z",
+      "change": -0.09,
+      "changePct": -0.5829,
+      "asOf": "2026-11-18T19:02:15Z",
       "digits": 2,
       "sparkline": [
         15.51,
@@ -147,7 +147,11 @@
         15.38,
         15.37,
         15.37,
-        15.37
+        15.39,
+        15.37,
+        15.37,
+        15.35,
+        15.35
       ],
       "sessionDate": "2026-11-18"
     },
@@ -158,11 +162,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.5,
+      "price": 127.27,
       "previousClose": 127.52,
-      "change": -0.02,
-      "changePct": -0.0157,
-      "asOf": "2026-11-18T18:45:00Z",
+      "change": -0.25,
+      "changePct": -0.196,
+      "asOf": "2026-11-18T19:44:30Z",
       "digits": 2,
       "sparkline": [
         126.535,
@@ -216,7 +220,19 @@
         127.305,
         127.32,
         127.495,
-        127.495
+        127.615,
+        127.405,
+        127.33,
+        127.495,
+        127.24,
+        127.28,
+        127.2,
+        127.345,
+        127.3,
+        127.5,
+        127.4,
+        127.2,
+        127.265
       ],
       "sessionDate": "2026-11-18"
     },
@@ -227,11 +243,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 152.24,
+      "price": 150.96,
       "previousClose": 155.46,
-      "change": -3.22,
-      "changePct": -2.0713,
-      "asOf": "2026-11-18T18:45:04Z",
+      "change": -4.5,
+      "changePct": -2.8946,
+      "asOf": "2026-11-18T19:44:33Z",
       "digits": 2,
       "sparkline": [
         158.15,
@@ -245,7 +261,7 @@
         154.755,
         154.305,
         153.03,
-        153.805,
+        153.79,
         153.85,
         152.6298,
         152.384,
@@ -285,7 +301,19 @@
         152.18,
         152.1599,
         152.26,
-        152.24
+        152.19,
+        152.21,
+        152.3876,
+        151.82,
+        151.53,
+        151.645,
+        151.58,
+        151.84,
+        151.75,
+        151.259,
+        150.82,
+        151.045,
+        150.9643
       ],
       "sessionDate": "2026-11-18"
     }
@@ -294,20 +322,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7355.01,
-      "change": 14.48,
-      "changePct": 0.1973,
+      "price": 7320.99,
+      "change": -19.54,
+      "changePct": -0.2662,
       "digits": 2,
-      "asOf": "2026-11-18T18:45:05Z"
+      "asOf": "2026-11-18T19:44:33Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50419.89,
-      "change": -339.53,
-      "changePct": -0.6689,
+      "price": 50160.82,
+      "change": -598.6,
+      "changePct": -1.1793,
       "digits": 2,
-      "asOf": "2026-11-18T18:45:05Z"
+      "asOf": "2026-11-18T19:44:33Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -321,11 +349,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0982,
-      "change": -0.002,
-      "changePct": -0.1818,
+      "price": 1.0966,
+      "change": -0.0036,
+      "changePct": -0.3272,
       "digits": 4,
-      "asOf": "2026-11-18T18:44:45Z"
+      "asOf": "2026-11-18T19:43:46Z"
     }
   },
   "headlines": {
@@ -333,7 +361,12 @@
       {
         "title": "Bayer brings factor XIa to US stroke prevention with FDA nod for 1st-in-class asundexian",
         "source": "Fierce Pharma",
-        "publishedAt": "2026-11-10T02:10:00Z"
+        "publishedAt": "2026-11-09T08:00:00Z"
+      },
+      {
+        "title": "'Better every quarter': Bayer CEO stays course on turnaround plan as pharma sales underwhelm in Q2",
+        "source": "Fierce Pharma",
+        "publishedAt": "2026-08-04T07:00:00Z"
       },
       {
         "title": "Kinzey Capital Management: Pharma Lifts Bayer's 2026 Outlook",
@@ -344,11 +377,6 @@
         "title": "Bayer Wins FDA Approval for Sunharbo for Secondary Stroke Risk Reduction",
         "source": "Yahoo Finance",
         "publishedAt": "2026-11-10T18:39:00Z"
-      },
-      {
-        "title": "Bayer\u2019s SUNHARBO\u00ae (asundexian), 50 mg tablets, the First and Only Factor XIa Inhibitor, Approved by the U.S. FDA to Reduce the Risk of Stroke in Adults With Recent Non-Cardioembolic Ischemic Stroke or High-Risk Transient Ischemic Attack...",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-10T01:11:00Z"
       }
     ],
     "walmart": [
@@ -358,63 +386,63 @@
         "publishedAt": "2026-11-17T10:50:00Z"
       },
       {
-        "title": "Form 8K Walmart Inc For: 16 November By Investing.com",
-        "source": "Investing.com India",
-        "publishedAt": "2026-11-16T13:07:35Z"
-      },
-      {
         "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
         "source": "CNBC",
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "TikTok Shop takes on Amazon and Walmart with new strategy",
+        "title": "Ahead of Walmart Earnings, Here's What Barchart Data Says Comes Next for WMT Stock",
+        "source": "Barchart",
+        "publishedAt": "2026-11-18T19:24:47Z"
+      },
+      {
+        "title": "Dow Jones Discount Retail Giant Walmart Poised To Hit Buy Point With Earnings Due",
         "source": "Yahoo Finance",
-        "publishedAt": "2026-11-18T18:07:00Z"
+        "publishedAt": "2026-11-18T19:14:17Z"
       }
     ],
     "nvidia": [
       {
+        "title": "Nvidia interim CEO Kress tells employees \u2018let\u2019s move forward\u2019 at first all-hands meeting since Jensen Huang exit",
+        "source": "CNBC",
+        "publishedAt": "2026-11-18T19:09:18Z"
+      },
+      {
+        "title": "Stocks Fall as Nvidia\u2019s Earnings Rally Sputters: Markets Wrap",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-18T19:04:28Z"
+      },
+      {
+        "title": "I'm a veteran hedge fund investor. Here's why Jensen Huang's resignation hasn't scared me away from Nvidia stock.",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-18T18:49:00Z"
+      },
+      {
         "title": "U.S. Stocks Slip After Nvidia Earnings Fail to Soothe Nerves",
         "source": "WSJ",
         "publishedAt": "2026-11-18T17:16:00Z"
-      },
-      {
-        "title": "Strong Nvidia earnings are being clouded by China risks and succession questions",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-18T16:12:00Z"
-      },
-      {
-        "title": "Nvidia Raises Outlook, Says It Can Thrive Without Huang",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-18T15:49:28Z"
-      },
-      {
-        "title": "Colette Kress on first Nvidia earnings call without Jensen Huang: \u2018We\u2019ve got this\u2019",
-        "source": "Fortune",
-        "publishedAt": "2026-11-18T14:25:00Z"
       }
     ],
     "top": [
       {
-        "title": "Schools Are Closing Nationwide as Enrollment Drops. Parents Are Livid.",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-18T17:38:00Z"
+        "title": "Nike to gift sneakers to all high school valedictorians at Scott Colom\u2019s suggestion",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-18T19:08:05Z"
       },
       {
-        "title": "Cornyn blocks top Justice Department official nominated for judicial vacancy in Texas",
-        "source": "AP News",
-        "publishedAt": "2026-11-18T17:33:00Z"
+        "title": "Republican Senator Cornyn blocks Trump judicial nominee in Texas",
+        "source": "Reuters",
+        "publishedAt": "2026-11-18T17:49:24Z"
+      },
+      {
+        "title": "A Massachusetts Town Revolts Against Amazon\u2019s Delivery Drones",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-18T17:48:49Z"
       },
       {
         "title": "Carney and Trump Hold Unscheduled Trade Meeting at Asia Summit",
         "source": "The New York Times",
         "publishedAt": "2026-11-18T17:23:46Z"
-      },
-      {
-        "title": "Mary Peltola flips Alaska seat, giving Democrats a 56-44 edge in Senate",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-18T16:56:47Z"
       }
     ]
   },
@@ -571,7 +599,7 @@
       },
       {
         "date": "2026-11-18",
-        "close": 15.37
+        "close": 15.35
       }
     ],
     "dax": [
