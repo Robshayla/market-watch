@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-18T16:55:08Z",
+  "updatedAt": "2026-11-18T17:51:15Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 126.59 matched",
-    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0969",
-    "Bayer ADR ratio check 4.00 ordinary shares"
+    "Nasdaq last sale 127.22 matched",
+    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0976",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.34,
+      "price": 15.39,
       "previousClose": 15.44,
-      "change": -0.1,
-      "changePct": -0.6477,
-      "asOf": "2026-11-18T16:36:21Z",
+      "change": -0.05,
+      "changePct": -0.3238,
+      "asOf": "2026-11-18T17:23:40Z",
       "digits": 2,
       "sparkline": [
         15.51,
@@ -137,7 +137,13 @@
         15.39,
         15.37,
         15.36,
-        15.34
+        15.34,
+        15.34,
+        15.34,
+        15.35,
+        15.38,
+        15.38,
+        15.39
       ],
       "sessionDate": "2026-11-18"
     },
@@ -148,11 +154,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.61,
+      "price": 127.2,
       "previousClose": 127.52,
-      "change": -0.91,
-      "changePct": -0.7136,
-      "asOf": "2026-11-18T16:54:53Z",
+      "change": -0.32,
+      "changePct": -0.2509,
+      "asOf": "2026-11-18T17:50:59Z",
       "digits": 2,
       "sparkline": [
         126.535,
@@ -183,8 +189,19 @@
         126.23,
         126.09,
         126.34,
-        126.515,
-        126.605
+        126.6,
+        126.345,
+        126.54,
+        126.58,
+        126.55,
+        126.805,
+        126.87,
+        126.795,
+        126.95,
+        126.94,
+        127.125,
+        127.195,
+        127.2002
       ],
       "sessionDate": "2026-11-18"
     },
@@ -195,11 +212,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 151.05,
+      "price": 151.81,
       "previousClose": 155.46,
-      "change": -4.41,
-      "changePct": -2.8367,
-      "asOf": "2026-11-18T16:54:55Z",
+      "change": -3.65,
+      "changePct": -2.3479,
+      "asOf": "2026-11-18T17:51:01Z",
       "digits": 2,
       "sparkline": [
         158.15,
@@ -213,7 +230,7 @@
         154.755,
         154.305,
         153.03,
-        153.805,
+        153.79,
         153.85,
         152.6298,
         152.384,
@@ -230,8 +247,20 @@
         151.67,
         151.5701,
         151.85,
-        151.02,
-        151.05
+        151.0305,
+        151.67,
+        152.24,
+        151.88,
+        151.39,
+        152.19,
+        152.569,
+        152.85,
+        152.73,
+        152.0617,
+        152.07,
+        151.87,
+        151.795,
+        151.815
       ],
       "sessionDate": "2026-11-18"
     }
@@ -240,20 +269,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7291.95,
-      "change": -48.58,
-      "changePct": -0.6618,
+      "price": 7329.75,
+      "change": -10.78,
+      "changePct": -0.1469,
       "digits": 2,
-      "asOf": "2026-11-18T16:54:55Z"
+      "asOf": "2026-11-18T17:51:01Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50134.96,
-      "change": -624.46,
-      "changePct": -1.2302,
+      "price": 50307.78,
+      "change": -451.64,
+      "changePct": -0.8898,
       "digits": 2,
-      "asOf": "2026-11-18T16:54:55Z"
+      "asOf": "2026-11-18T17:51:02Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -262,16 +291,16 @@
       "change": -309.13,
       "changePct": -1.1869,
       "digits": 2,
-      "asOf": "2026-11-18T16:30:14Z"
+      "asOf": "2026-11-18T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0969,
-      "change": -0.0033,
-      "changePct": -0.2999,
+      "price": 1.0976,
+      "change": -0.0026,
+      "changePct": -0.2363,
       "digits": 4,
-      "asOf": "2026-11-18T16:54:47Z"
+      "asOf": "2026-11-18T17:50:44Z"
     }
   },
   "headlines": {
@@ -314,53 +343,53 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "Dow Jones Discount Retail Giant Walmart Poised To Hit Buy Point With Earnings Due",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-18T16:14:30Z"
+        "title": "Walmart (WMT) Prepares to Report Q3 Earnings Amid Modest Overval",
+        "source": "GuruFocus",
+        "publishedAt": "2026-11-18T17:23:05Z"
       }
     ],
     "nvidia": [
-      {
-        "title": "Stocks Fall as Nvidia\u2019s Earnings Rally Sputters: Markets Wrap",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-18T16:22:47Z"
-      },
       {
         "title": "Strong Nvidia earnings are being clouded by China risks and succession questions",
         "source": "Business Insider",
         "publishedAt": "2026-11-18T16:12:00Z"
       },
       {
-        "title": "The Bank of Nvidia Under New Management",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-18T16:00:51Z"
-      },
-      {
         "title": "Nvidia Raises Outlook, Says It Can Thrive Without Huang",
         "source": "Bloomberg",
         "publishedAt": "2026-11-18T15:49:28Z"
+      },
+      {
+        "title": "Tech Stocks Fail to Benefit From Nvidia Earnings",
+        "source": "WSJ",
+        "publishedAt": "2026-11-18T15:36:28Z"
+      },
+      {
+        "title": "Colette Kress on first Nvidia earnings call without Jensen Huang: \u2018We\u2019ve got this\u2019",
+        "source": "Fortune",
+        "publishedAt": "2026-11-18T14:25:00Z"
       }
     ],
     "top": [
       {
-        "title": "Man sentenced to 27 years in prison over foiled plot to kill Trump",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-18T16:04:29Z"
+        "title": "Schools Are Closing Nationwide as Enrollment Drops. Parents Are Livid.",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-18T17:38:00Z"
       },
       {
-        "title": "Leading House Democrat targets Trump\u2019s inner circle for first investigations",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-18T16:01:54Z"
+        "title": "Carney and Trump Hold Unscheduled Trade Meeting at Asia Summit",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-18T17:23:46Z"
       },
       {
-        "title": "Hegseth survives impeachment fight, but more political threats await",
+        "title": "Mary Peltola flips Alaska seat, giving Democrats a 56-44 edge in Senate",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-18T15:32:54Z"
+        "publishedAt": "2026-11-18T16:52:34Z"
       },
       {
-        "title": "AP Exclusive: Bernie Sanders unveils how he\u2019ll push for Medicare for All when Democrats take power",
-        "source": "AP News",
-        "publishedAt": "2026-11-18T14:58:00Z"
+        "title": "Senate majority leader fight intensifies as Schumer, Van Hollen dig in",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-18T16:36:44Z"
       }
     ]
   },
@@ -517,7 +546,7 @@
       },
       {
         "date": "2026-11-18",
-        "close": 15.34
+        "close": 15.39
       }
     ],
     "dax": [
