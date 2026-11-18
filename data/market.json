@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-18T12:23:29Z",
+  "updatedAt": "2026-11-18T13:45:46Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.0967",
-    "Bayer ADR ratio check 4.02 ordinary shares"
+    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.0976",
+    "Bayer ADR ratio check 4.03 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.56,
+      "price": 56.6,
       "previousClose": 56.14,
-      "change": 0.42,
-      "changePct": 0.7481,
-      "asOf": "2026-11-18T12:06:43Z",
+      "change": 0.46,
+      "changePct": 0.8194,
+      "asOf": "2026-11-18T13:30:15Z",
       "digits": 2,
       "sparkline": [
         56.86,
@@ -70,7 +70,24 @@
         56.7,
         56.56,
         56.56,
-        56.56
+        56.58,
+        56.7,
+        56.74,
+        56.6,
+        56.6,
+        56.58,
+        56.58,
+        56.56,
+        56.52,
+        56.52,
+        56.5,
+        56.5,
+        56.5,
+        56.56,
+        56.56,
+        56.6,
+        56.6,
+        56.6
       ],
       "sessionDate": "2026-11-18"
     },
@@ -85,7 +102,7 @@
       "previousClose": 15.6,
       "change": -0.17,
       "changePct": -1.0897,
-      "asOf": "2026-11-17T21:00:00Z",
+      "asOf": "2026-11-18T13:24:44Z",
       "digits": 2,
       "sparkline": [
         15.4,
@@ -351,20 +368,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26025.29,
-      "change": -20.08,
-      "changePct": -0.0771,
+      "price": 25947.62,
+      "change": -97.75,
+      "changePct": -0.3753,
       "digits": 2,
-      "asOf": "2026-11-18T12:08:18Z"
+      "asOf": "2026-11-18T13:30:34Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0967,
-      "change": -0.0035,
-      "changePct": -0.3181,
+      "price": 1.0976,
+      "change": -0.0026,
+      "changePct": -0.2363,
       "digits": 4,
-      "asOf": "2026-11-18T12:22:46Z"
+      "asOf": "2026-11-18T13:44:48Z"
     }
   },
   "headlines": {
@@ -375,19 +392,19 @@
         "publishedAt": "2026-11-10T02:10:00Z"
       },
       {
-        "title": "Shivam Pathak joins Bayer as public affairs lead for Crop Science in India",
-        "source": "MediaBrief",
-        "publishedAt": "2026-11-17T11:06:39Z"
-      },
-      {
         "title": "Kinzey Capital Management: Pharma Lifts Bayer's 2026 Outlook",
-        "source": "ACCESS Newswire",
+        "source": "Yahoo Finance",
         "publishedAt": "2026-11-13T09:20:00Z"
       },
       {
         "title": "\u20ac56 Bln Bayer Eyes Pharmaceutical Manufacturing in Ethiopia",
         "source": "Birr Metrics",
         "publishedAt": "2026-11-12T09:23:08Z"
+      },
+      {
+        "title": "Bayer Wins FDA Approval for Sunharbo for Secondary Stroke Risk Reduction",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-10T18:39:00Z"
       }
     ],
     "walmart": [
@@ -414,46 +431,46 @@
     ],
     "nvidia": [
       {
-        "title": "Stocks Bounce as Nvidia Outlook Tempers AI Fears: Markets Wrap",
+        "title": "US Stocks Rise as Nvidia Outlook Tempers AI Fears: Markets Wrap",
         "source": "Bloomberg",
-        "publishedAt": "2026-11-18T11:50:39Z"
+        "publishedAt": "2026-11-18T13:02:38Z"
       },
       {
         "title": "The Bank of Nvidia Under New Management",
         "source": "Bloomberg",
-        "publishedAt": "2026-11-18T11:42:57Z"
+        "publishedAt": "2026-11-18T13:00:50Z"
       },
       {
-        "title": "Stock Futures Rally as Nvidia Earnings Calm AI Trade Fears",
+        "title": "Nvidia Raises Outlook, Says It Can Thrive Without Huang",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-18T12:38:49Z"
+      },
+      {
+        "title": "Kress Takes Point on Nvidia Results as Chip Maker Beats Expectations",
         "source": "WSJ",
-        "publishedAt": "2026-11-18T09:37:00Z"
-      },
-      {
-        "title": "Nvidia stock up nearly 4% as earnings beat expectations. Neoclouds surge",
-        "source": "CNBC",
-        "publishedAt": "2026-11-18T09:19:26Z"
+        "publishedAt": "2026-11-18T12:29:00Z"
       }
     ],
     "top": [
       {
+        "title": "Iran widens Gulf attacks by targeting a US air base in Kuwait and sites in Bahrain",
+        "source": "AP News",
+        "publishedAt": "2026-11-18T12:44:00Z"
+      },
+      {
+        "title": "Hegseth survives impeachment fight, but more political threats await",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-18T12:32:54Z"
+      },
+      {
+        "title": "Mullin heads to Congress to face questions over flight disruptions, football trip and immigration",
+        "source": "AP News",
+        "publishedAt": "2026-11-18T12:19:00Z"
+      },
+      {
         "title": "Another Storm Is Bearing Down on California",
         "source": "The New York Times",
         "publishedAt": "2026-11-18T10:58:00Z"
-      },
-      {
-        "title": "Mary Peltola flips Alaska seat, giving Democrats a 56-44 edge in Senate",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-18T10:52:34Z"
-      },
-      {
-        "title": "Trump Administration Presses Ahead in Legal Battle Over U.S. Attorneys",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-18T08:21:49Z"
-      },
-      {
-        "title": "Senators press acting U.S. Navy Secretary on Iran war costs, sailor health in confirmation hearing",
-        "source": "CNBC",
-        "publishedAt": "2026-11-18T07:24:06Z"
       }
     ]
   },
@@ -548,7 +565,7 @@
       },
       {
         "date": "2026-11-18",
-        "close": 56.56
+        "close": 56.6
       }
     ],
     "bayry": [
@@ -611,6 +628,10 @@
       {
         "date": "2026-11-17",
         "close": 15.43
+      },
+      {
+        "date": "2026-11-18",
+        "close": 15.43
       }
     ],
     "dax": [
@@ -672,7 +693,7 @@
       },
       {
         "date": "2026-11-18",
-        "close": 26027.1504
+        "close": 25946.0801
       }
     ]
   }
