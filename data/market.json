@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-18T17:51:15Z",
+  "updatedAt": "2026-11-18T18:45:20Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.22 matched",
-    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0976",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "Nasdaq last sale 127.50 matched",
+    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0982",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.39,
+      "price": 15.37,
       "previousClose": 15.44,
-      "change": -0.05,
-      "changePct": -0.3238,
-      "asOf": "2026-11-18T17:23:40Z",
+      "change": -0.07,
+      "changePct": -0.4534,
+      "asOf": "2026-11-18T18:19:11Z",
       "digits": 2,
       "sparkline": [
         15.51,
@@ -143,7 +143,11 @@
         15.35,
         15.38,
         15.38,
-        15.39
+        15.39,
+        15.38,
+        15.37,
+        15.37,
+        15.37
       ],
       "sessionDate": "2026-11-18"
     },
@@ -154,11 +158,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.2,
+      "price": 127.5,
       "previousClose": 127.52,
-      "change": -0.32,
-      "changePct": -0.2509,
-      "asOf": "2026-11-18T17:50:59Z",
+      "change": -0.02,
+      "changePct": -0.0157,
+      "asOf": "2026-11-18T18:45:00Z",
       "digits": 2,
       "sparkline": [
         126.535,
@@ -201,7 +205,18 @@
         126.94,
         127.125,
         127.195,
-        127.2002
+        127.1901,
+        127.185,
+        127.33,
+        127.25,
+        127.12,
+        127.105,
+        127.21,
+        127.2393,
+        127.305,
+        127.32,
+        127.495,
+        127.495
       ],
       "sessionDate": "2026-11-18"
     },
@@ -212,11 +227,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 151.81,
+      "price": 152.24,
       "previousClose": 155.46,
-      "change": -3.65,
-      "changePct": -2.3479,
-      "asOf": "2026-11-18T17:51:01Z",
+      "change": -3.22,
+      "changePct": -2.0713,
+      "asOf": "2026-11-18T18:45:04Z",
       "digits": 2,
       "sparkline": [
         158.15,
@@ -230,7 +245,7 @@
         154.755,
         154.305,
         153.03,
-        153.79,
+        153.805,
         153.85,
         152.6298,
         152.384,
@@ -259,8 +274,18 @@
         152.0617,
         152.07,
         151.87,
-        151.795,
-        151.815
+        151.935,
+        151.7899,
+        151.715,
+        151.3365,
+        151.4,
+        151.79,
+        152.16,
+        152.13,
+        152.18,
+        152.1599,
+        152.26,
+        152.24
       ],
       "sessionDate": "2026-11-18"
     }
@@ -269,20 +294,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7329.75,
-      "change": -10.78,
-      "changePct": -0.1469,
+      "price": 7355.01,
+      "change": 14.48,
+      "changePct": 0.1973,
       "digits": 2,
-      "asOf": "2026-11-18T17:51:01Z"
+      "asOf": "2026-11-18T18:45:05Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50307.78,
-      "change": -451.64,
-      "changePct": -0.8898,
+      "price": 50419.89,
+      "change": -339.53,
+      "changePct": -0.6689,
       "digits": 2,
-      "asOf": "2026-11-18T17:51:02Z"
+      "asOf": "2026-11-18T18:45:05Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -296,11 +321,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0976,
-      "change": -0.0026,
-      "changePct": -0.2363,
+      "price": 1.0982,
+      "change": -0.002,
+      "changePct": -0.1818,
       "digits": 4,
-      "asOf": "2026-11-18T17:50:44Z"
+      "asOf": "2026-11-18T18:44:45Z"
     }
   },
   "headlines": {
@@ -343,12 +368,17 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "Walmart (WMT) Prepares to Report Q3 Earnings Amid Modest Overval",
-        "source": "GuruFocus",
-        "publishedAt": "2026-11-18T17:23:05Z"
+        "title": "TikTok Shop takes on Amazon and Walmart with new strategy",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-18T18:07:00Z"
       }
     ],
     "nvidia": [
+      {
+        "title": "U.S. Stocks Slip After Nvidia Earnings Fail to Soothe Nerves",
+        "source": "WSJ",
+        "publishedAt": "2026-11-18T17:16:00Z"
+      },
       {
         "title": "Strong Nvidia earnings are being clouded by China risks and succession questions",
         "source": "Business Insider",
@@ -358,11 +388,6 @@
         "title": "Nvidia Raises Outlook, Says It Can Thrive Without Huang",
         "source": "Bloomberg",
         "publishedAt": "2026-11-18T15:49:28Z"
-      },
-      {
-        "title": "Tech Stocks Fail to Benefit From Nvidia Earnings",
-        "source": "WSJ",
-        "publishedAt": "2026-11-18T15:36:28Z"
       },
       {
         "title": "Colette Kress on first Nvidia earnings call without Jensen Huang: \u2018We\u2019ve got this\u2019",
@@ -377,6 +402,11 @@
         "publishedAt": "2026-11-18T17:38:00Z"
       },
       {
+        "title": "Cornyn blocks top Justice Department official nominated for judicial vacancy in Texas",
+        "source": "AP News",
+        "publishedAt": "2026-11-18T17:33:00Z"
+      },
+      {
         "title": "Carney and Trump Hold Unscheduled Trade Meeting at Asia Summit",
         "source": "The New York Times",
         "publishedAt": "2026-11-18T17:23:46Z"
@@ -384,12 +414,7 @@
       {
         "title": "Mary Peltola flips Alaska seat, giving Democrats a 56-44 edge in Senate",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-18T16:52:34Z"
-      },
-      {
-        "title": "Senate majority leader fight intensifies as Schumer, Van Hollen dig in",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-18T16:36:44Z"
+        "publishedAt": "2026-11-18T16:56:47Z"
       }
     ]
   },
@@ -404,7 +429,7 @@
     {
       "eventId": "bayer-q3-2026",
       "title": "Bayer : Quarterly Statement Q3 2026",
-      "source": "marketscreener",
+      "source": "www.marketscreener",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -546,7 +571,7 @@
       },
       {
         "date": "2026-11-18",
-        "close": 15.39
+        "close": 15.37
       }
     ],
     "dax": [
