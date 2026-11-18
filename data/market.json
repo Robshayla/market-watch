@@ -1,10 +1,9 @@
 {
-  "updatedAt": "2026-11-18T20:38:06Z",
+  "updatedAt": "2026-11-18T21:35:58Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 127.18 matched",
-    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0978",
+    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0976",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +112,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.34,
+      "price": 15.36,
       "previousClose": 15.44,
-      "change": -0.1,
-      "changePct": -0.6477,
-      "asOf": "2026-11-18T20:19:42Z",
+      "change": -0.08,
+      "changePct": -0.5181,
+      "asOf": "2026-11-18T20:59:52Z",
       "digits": 2,
       "sparkline": [
         15.51,
@@ -155,8 +154,12 @@
         15.28,
         15.28,
         15.29,
-        15.33,
-        15.34
+        15.34,
+        15.34,
+        15.34,
+        15.35,
+        15.35,
+        15.36
       ],
       "sessionDate": "2026-11-18"
     },
@@ -259,11 +262,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 151.08,
+      "price": 150.96,
       "previousClose": 155.46,
-      "change": -4.38,
-      "changePct": -2.8174,
-      "asOf": "2026-11-18T20:37:52Z",
+      "change": -4.5,
+      "changePct": -2.8946,
+      "asOf": "2026-11-18T21:00:00Z",
       "digits": 2,
       "sparkline": [
         158.15,
@@ -339,8 +342,12 @@
         150.57,
         150.5939,
         150.85,
-        151.0189,
-        151.08
+        151.09,
+        151.125,
+        150.92,
+        150.9,
+        150.87,
+        150.96
       ],
       "sessionDate": "2026-11-18"
     }
@@ -349,20 +356,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7322.34,
-      "change": -18.19,
-      "changePct": -0.2478,
+      "price": 7323.63,
+      "change": -16.9,
+      "changePct": -0.2302,
       "digits": 2,
-      "asOf": "2026-11-18T20:37:52Z"
+      "asOf": "2026-11-18T21:20:01Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50191.11,
-      "change": -568.31,
-      "changePct": -1.1196,
+      "price": 50198.17,
+      "change": -561.25,
+      "changePct": -1.1057,
       "digits": 2,
-      "asOf": "2026-11-18T20:37:52Z"
+      "asOf": "2026-11-18T21:20:00Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -376,11 +383,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0978,
-      "change": -0.0024,
-      "changePct": -0.2181,
+      "price": 1.0976,
+      "change": -0.0026,
+      "changePct": -0.2363,
       "digits": 4,
-      "asOf": "2026-11-18T20:37:47Z"
+      "asOf": "2026-11-18T21:35:43Z"
     }
   },
   "headlines": {
@@ -423,9 +430,9 @@
         "publishedAt": "2026-08-20T07:00:00Z"
       },
       {
-        "title": "Pricey Walmart Stock Falls More Often, Not Harder",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-18T19:55:56Z"
+        "title": "Walmart Earnings Could Add to Its Winning Streak",
+        "source": "Barron's",
+        "publishedAt": "2026-11-18T21:15:00Z"
       }
     ],
     "nvidia": [
@@ -435,41 +442,41 @@
         "publishedAt": "2026-11-18T20:20:00Z"
       },
       {
+        "title": "'Business as usual': Nvidia's Kress passes first test as board slams door on Huang",
+        "source": "Reuters",
+        "publishedAt": "2026-11-18T20:13:46Z"
+      },
+      {
+        "title": "Stocks Fall as Nvidia\u2019s Earnings Rally Sputters: Markets Wrap",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-18T20:00:02Z"
+      },
+      {
         "title": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves",
         "source": "WSJ",
         "publishedAt": "2026-11-18T19:59:00Z"
-      },
-      {
-        "title": "Wall Street mixed after Nvidia earnings, Fed minutes",
-        "source": "Reuters",
-        "publishedAt": "2026-11-18T19:40:52Z"
-      },
-      {
-        "title": "Nvidia interim CEO Kress tells employees \u2018let\u2019s move forward\u2019 at first all-hands meeting since Jensen Huang exit",
-        "source": "CNBC",
-        "publishedAt": "2026-11-18T19:09:18Z"
       }
     ],
     "top": [
       {
-        "title": "Leading House Democrat targets Trump\u2019s inner circle for first investigations",
+        "title": "Nike to gift sneakers to all high school valedictorians at Scott Colom\u2019s suggestion",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-18T20:31:54Z"
+        "publishedAt": "2026-11-18T21:30:54Z"
+      },
+      {
+        "title": "Man sentenced to 27 years in prison over foiled plot to kill Trump",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-18T21:21:58Z"
+      },
+      {
+        "title": "Man destroyed $60 million U.S. military plane at Irish airport, DOJ says",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-18T21:02:22Z"
       },
       {
         "title": "When kids lock up cellphones in class, the achievement gap narrows, study finds",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-18T20:02:04Z"
-      },
-      {
-        "title": "Nike to gift sneakers to all high school valedictorians at Scott Colom\u2019s suggestion",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-18T20:00:54Z"
-      },
-      {
-        "title": "Senate panel vote on National Science Foundation nominee is abruptly pulled",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-18T19:00:49Z"
+        "publishedAt": "2026-11-18T20:45:21Z"
       }
     ]
   },
@@ -626,7 +633,7 @@
       },
       {
         "date": "2026-11-18",
-        "close": 15.34
+        "close": 15.36
       }
     ],
     "dax": [
