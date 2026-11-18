@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-18T10:28:22Z",
+  "updatedAt": "2026-11-18T11:26:42Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.0973",
-    "Bayer ADR ratio check 4.06 ordinary shares"
+    "ECB reference 1.0989 on 2026-11-17 vs Yahoo spot 1.0972",
+    "Bayer ADR ratio check 4.04 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 57.12,
+      "price": 56.76,
       "previousClose": 56.14,
-      "change": 0.98,
-      "changePct": 1.7456,
-      "asOf": "2026-11-18T10:13:01Z",
+      "change": 0.62,
+      "changePct": 1.1044,
+      "asOf": "2026-11-18T11:10:11Z",
       "digits": 2,
       "sparkline": [
         56.86,
@@ -47,8 +47,19 @@
         56.9,
         56.98,
         57.08,
-        57.1,
-        57.12
+        57.04,
+        57.04,
+        57.02,
+        57.02,
+        57.04,
+        56.92,
+        56.96,
+        56.94,
+        56.96,
+        56.84,
+        56.8,
+        56.78,
+        56.76
       ],
       "sessionDate": "2026-11-18"
     },
@@ -302,7 +313,7 @@
         153.82,
         153.435,
         153.93,
-        155.455
+        155.47
       ],
       "sessionDate": "2026-11-17"
     }
@@ -329,20 +340,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 26093.67,
-      "change": 48.3,
-      "changePct": 0.1854,
+      "price": 26042.77,
+      "change": -2.6,
+      "changePct": -0.01,
       "digits": 2,
-      "asOf": "2026-11-18T10:13:10Z"
+      "asOf": "2026-11-18T11:11:30Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0973,
-      "change": -0.0029,
-      "changePct": -0.2636,
+      "price": 1.0972,
+      "change": -0.003,
+      "changePct": -0.2727,
       "digits": 4,
-      "asOf": "2026-11-18T10:27:43Z"
+      "asOf": "2026-11-18T11:25:45Z"
     }
   },
   "headlines": {
@@ -392,11 +403,6 @@
     ],
     "nvidia": [
       {
-        "title": "Nvidia\u2019s Days as an Open Checkbook for the AI Economy Are Numbered",
-        "source": "WSJ",
-        "publishedAt": "2026-11-18T09:52:49Z"
-      },
-      {
         "title": "Asian Stocks to Fall, Nvidia Sales Outlook Beats: Markets Wrap",
         "source": "Bloomberg",
         "publishedAt": "2026-11-18T09:41:27Z"
@@ -407,16 +413,21 @@
         "publishedAt": "2026-11-18T09:37:00Z"
       },
       {
-        "title": "Nvidia stock up 3% as earnings beat expectations. Neoclouds surge",
+        "title": "Nvidia stock up nearly 4% as earnings beat expectations. Neoclouds surge",
         "source": "CNBC",
         "publishedAt": "2026-11-18T09:19:26Z"
+      },
+      {
+        "title": "Nvidia stops shipping US-approved AI chips to China",
+        "source": "Reuters",
+        "publishedAt": "2026-11-18T09:17:54Z"
       }
     ],
     "top": [
       {
         "title": "Mary Peltola flips Alaska seat, giving Democrats a 56-44 edge in Senate",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-18T09:31:34Z"
+        "publishedAt": "2026-11-18T10:52:34Z"
       },
       {
         "title": "Trump Administration Presses Ahead in Legal Battle Over U.S. Attorneys",
@@ -429,9 +440,9 @@
         "publishedAt": "2026-11-18T07:24:06Z"
       },
       {
-        "title": "White House pulls FDA nominee Heidi Overton after wavering support from Senate Republicans",
-        "source": "AP News",
-        "publishedAt": "2026-11-18T05:49:00Z"
+        "title": "New lawmakers play a Capitol Hill game, with prime office space as the prize",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-18T03:41:22Z"
       }
     ]
   },
@@ -526,7 +537,7 @@
       },
       {
         "date": "2026-11-18",
-        "close": 57.12
+        "close": 56.76
       }
     ],
     "bayry": [
@@ -650,7 +661,7 @@
       },
       {
         "date": "2026-11-18",
-        "close": 26090.8809
+        "close": 26043.8906
       }
     ]
   }
