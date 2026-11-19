@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-19T18:50:08Z",
+  "updatedAt": "2026-11-19T19:55:20Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 126.26 matched",
-    "ECB reference 1.0992 on 2026-11-19 vs Yahoo spot 1.0985",
+    "Nasdaq last sale 125.99 matched",
+    "ECB reference 1.0992 on 2026-11-19 vs Yahoo spot 1.0976",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.02,
+      "price": 15.0,
       "previousClose": 15.36,
-      "change": -0.34,
-      "changePct": -2.2135,
-      "asOf": "2026-11-19T18:29:07Z",
+      "change": -0.36,
+      "changePct": -2.3437,
+      "asOf": "2026-11-19T19:39:39Z",
       "digits": 2,
       "sparkline": [
         15.35,
@@ -146,8 +146,17 @@
         15.04,
         15.02,
         15.01,
-        15.01,
-        15.02
+        15.02,
+        15.03,
+        15.03,
+        15.0,
+        15.0,
+        14.97,
+        14.97,
+        14.99,
+        15.0,
+        14.98,
+        15.0
       ],
       "sessionDate": "2026-11-19"
     },
@@ -158,11 +167,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.26,
+      "price": 125.98,
       "previousClose": 127.36,
-      "change": -1.1,
-      "changePct": -0.8637,
-      "asOf": "2026-11-19T18:49:50Z",
+      "change": -1.38,
+      "changePct": -1.0835,
+      "asOf": "2026-11-19T19:55:06Z",
       "digits": 2,
       "sparkline": [
         124.44,
@@ -216,8 +225,21 @@
         126.44,
         126.31,
         126.13,
-        126.22,
-        126.26
+        126.31,
+        126.34,
+        126.39,
+        126.36,
+        126.4,
+        126.3088,
+        126.275,
+        126.32,
+        126.3,
+        126.54,
+        126.415,
+        126.34,
+        126.18,
+        125.99,
+        125.98
       ],
       "sessionDate": "2026-11-19"
     },
@@ -228,11 +250,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 148.55,
+      "price": 147.63,
       "previousClose": 150.96,
-      "change": -2.41,
-      "changePct": -1.5964,
-      "asOf": "2026-11-19T18:49:54Z",
+      "change": -3.33,
+      "changePct": -2.2059,
+      "asOf": "2026-11-19T19:55:08Z",
       "digits": 2,
       "sparkline": [
         156.91,
@@ -245,7 +267,7 @@
         155.56,
         155.03,
         154.53,
-        153.94,
+        153.944,
         153.515,
         152.53,
         151.8344,
@@ -270,7 +292,7 @@
         148.7284,
         148.3416,
         149.8942,
-        150.22,
+        150.25,
         150.49,
         149.5801,
         148.98,
@@ -286,8 +308,21 @@
         149.305,
         149.105,
         148.7993,
+        148.5275,
+        148.5,
         148.44,
-        148.55
+        148.21,
+        148.41,
+        148.43,
+        148.3399,
+        148.47,
+        148.82,
+        148.66,
+        147.99,
+        148.38,
+        147.88,
+        147.615,
+        147.635
       ],
       "sessionDate": "2026-11-19"
     }
@@ -296,20 +331,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7218.08,
-      "change": -105.55,
-      "changePct": -1.4412,
+      "price": 7204.91,
+      "change": -118.72,
+      "changePct": -1.6211,
       "digits": 2,
-      "asOf": "2026-11-19T18:49:53Z"
+      "asOf": "2026-11-19T19:55:07Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49343.22,
-      "change": -854.95,
-      "changePct": -1.7031,
+      "price": 49261.31,
+      "change": -936.86,
+      "changePct": -1.8663,
       "digits": 2,
-      "asOf": "2026-11-19T18:49:53Z"
+      "asOf": "2026-11-19T19:55:07Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -323,11 +358,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0985,
-      "change": 0.0007,
-      "changePct": 0.0638,
+      "price": 1.0976,
+      "change": -0.0002,
+      "changePct": -0.0182,
       "digits": 4,
-      "asOf": "2026-11-19T18:49:45Z"
+      "asOf": "2026-11-19T19:54:47Z"
     }
   },
   "headlines": {
@@ -357,7 +392,7 @@
       {
         "title": "Walmart warns of fuel cost pressure, lifts annual targets ahead of holidays",
         "source": "Reuters",
-        "publishedAt": "2026-11-19T16:32:11Z"
+        "publishedAt": "2026-11-19T18:38:53Z"
       },
       {
         "title": "Walmart shares slip after a third-quarter beat and a higher full-year outlook",
@@ -377,9 +412,9 @@
     ],
     "nvidia": [
       {
-        "title": "Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
-        "source": "WSJ",
-        "publishedAt": "2026-11-19T18:39:18Z"
+        "title": "Trump bought up to $265,000 of Nvidia stock in September, disclosure shows",
+        "source": "Reuters",
+        "publishedAt": "2026-11-19T18:37:35Z"
       },
       {
         "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
@@ -399,9 +434,14 @@
     ],
     "top": [
       {
-        "title": "A paramedic responded to a deadly accident. She discovered the victim was her son.",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-19T18:31:41Z"
+        "title": "Musk backs away from MAGA after Republicans' midterm losses, but Trump says he's still a friend",
+        "source": "AP News",
+        "publishedAt": "2026-11-19T18:13:00Z"
+      },
+      {
+        "title": "Florida set to carry out its record-breaking 20th execution same day as a Texas lethal injection",
+        "source": "AP News",
+        "publishedAt": "2026-11-19T18:05:00Z"
       },
       {
         "title": "FCC gives state prisons the go-ahead to jam signals from contraband cellphones",
@@ -409,14 +449,9 @@
         "publishedAt": "2026-11-19T17:40:00Z"
       },
       {
-        "title": "Ericka Lomick\u2019s Texas House Win Faces Challenge in State Supreme Court",
+        "title": "At Gloria Steinem Memorial, Michelle Obama, Hillary Clinton and More Big Names Gather",
         "source": "The New York Times",
-        "publishedAt": "2026-11-19T16:46:00Z"
-      },
-      {
-        "title": "Susan Smith seeks parole again 32 years after drowning her two sons",
-        "source": "BBC",
-        "publishedAt": "2026-11-19T15:59:30Z"
+        "publishedAt": "2026-11-19T17:00:00Z"
       }
     ]
   },
@@ -566,7 +601,7 @@
       },
       {
         "date": "2026-11-19",
-        "close": 15.02
+        "close": 15.0
       }
     ],
     "dax": [
