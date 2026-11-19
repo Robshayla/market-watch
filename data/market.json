@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-18T22:53:40Z",
+  "updatedAt": "2026-11-19T08:17:28Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0977",
-    "Bayer ADR ratio check 4.00 ordinary shares"
+    "Nasdaq last sale 127.36 matched",
+    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0988",
+    "Bayer ADR ratio check 4.03 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.94,
-      "previousClose": 56.14,
-      "change": -0.2,
-      "changePct": -0.3563,
-      "asOf": "2026-11-18T16:39:13Z",
+      "price": 56.36,
+      "previousClose": 55.94,
+      "change": 0.42,
+      "changePct": 0.7508,
+      "asOf": "2026-11-19T08:02:13Z",
       "digits": 2,
       "sparkline": [
         56.86,
@@ -101,7 +102,7 @@
         55.88,
         55.88,
         55.9,
-        55.94
+        56.36
       ],
       "sessionDate": "2026-11-18"
     },
@@ -112,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.36,
-      "previousClose": 15.44,
+      "price": 15.35,
+      "previousClose": 15.43,
       "change": -0.08,
-      "changePct": -0.5181,
-      "asOf": "2026-11-18T20:59:52Z",
+      "changePct": -0.5185,
+      "asOf": "2026-11-18T21:00:00Z",
       "digits": 2,
       "sparkline": [
         15.51,
@@ -170,11 +171,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 127.17,
+      "price": 127.36,
       "previousClose": 127.52,
-      "change": -0.35,
-      "changePct": -0.2745,
-      "asOf": "2026-11-18T20:37:48Z",
+      "change": -0.16,
+      "changePct": -0.1255,
+      "asOf": "2026-11-18T21:00:00Z",
       "digits": 2,
       "sparkline": [
         126.535,
@@ -250,8 +251,12 @@
         127.03,
         126.94,
         127.03,
-        127.15,
-        127.17
+        127.18,
+        126.95,
+        126.965,
+        127.41,
+        127.3,
+        127.36
       ],
       "sessionDate": "2026-11-18"
     },
@@ -280,7 +285,7 @@
         154.755,
         154.305,
         153.03,
-        153.79,
+        153.805,
         153.85,
         152.6298,
         152.384,
@@ -360,34 +365,34 @@
       "change": -16.9,
       "changePct": -0.2302,
       "digits": 2,
-      "asOf": "2026-11-18T21:57:25Z"
+      "asOf": "2026-11-18T21:00:00Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50198.17,
-      "change": -561.25,
-      "changePct": -1.1057,
+      "price": 50198.2,
+      "change": -561.2,
+      "changePct": -1.1056,
       "digits": 2,
-      "asOf": "2026-11-18T21:57:27Z"
+      "asOf": "2026-11-18T21:00:00Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
       "price": 25736.24,
-      "change": -309.13,
-      "changePct": -1.1869,
+      "change": 0.0,
+      "changePct": 0.0,
       "digits": 2,
       "asOf": "2026-11-18T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0977,
-      "change": -0.0025,
-      "changePct": -0.2272,
+      "price": 1.0988,
+      "change": 0.001,
+      "changePct": 0.0911,
       "digits": 4,
-      "asOf": "2026-11-18T22:52:45Z"
+      "asOf": "2026-11-19T08:16:46Z"
     }
   },
   "headlines": {
@@ -398,22 +403,27 @@
         "publishedAt": "2026-11-09T08:00:00Z"
       },
       {
+        "title": "Bayer to invest $2.2 billion in new US pharma site",
+        "source": "Reuters",
+        "publishedAt": "2026-10-02T07:00:00Z"
+      },
+      {
+        "title": "Bayer says Crop Science unit makes progress on product launches",
+        "source": "Reuters",
+        "publishedAt": "2026-09-02T07:00:00Z"
+      },
+      {
         "title": "'Better every quarter': Bayer CEO stays course on turnaround plan as pharma sales underwhelm in Q2",
         "source": "Fierce Pharma",
         "publishedAt": "2026-08-04T07:00:00Z"
-      },
-      {
-        "title": "A warrant for 3,333,000 shares counts toward Bayer entities\u2019 reported stake in Senti Biosciences (SNTI).",
-        "source": "Stock Titan",
-        "publishedAt": "2026-11-18T21:50:43Z"
-      },
-      {
-        "title": "Kinzey Capital Management: Pharma Lifts Bayer's 2026 Outlook",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-13T09:20:00Z"
       }
     ],
     "walmart": [
+      {
+        "title": "Walmart is set to report earnings before the bell. Here's what to expect",
+        "source": "CNBC",
+        "publishedAt": "2026-11-19T05:01:01Z"
+      },
       {
         "title": "In 2008, The \u201cWalmart Recession Signal\u201d Neared A Record As The Market Collapsed. One Economist Says It Is Starting To Rise Again",
         "source": "Yahoo Finance",
@@ -425,58 +435,53 @@
         "publishedAt": "2026-11-17T10:50:00Z"
       },
       {
-        "title": "Form 8K Walmart Inc For: 16 November By Investing.com",
-        "source": "Investing.com India",
-        "publishedAt": "2026-11-16T13:07:35Z"
-      },
-      {
-        "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
+        "title": "Walmart to cover some GLP-1s, inhalers and insulin for employees at no cost as it expands benefits",
         "source": "CNBC",
-        "publishedAt": "2026-08-20T07:00:00Z"
+        "publishedAt": "2026-10-13T07:00:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Inside Nvidia's all-hands meeting, executives confront the elephant in the room: Jensen Huang",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-18T21:52:00Z"
+        "title": "What Nvidia\u2019s Interim CEO, Colette Kress, Said to Employees After Jensen Huang\u2019s Resignation",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-19T05:11:00Z"
       },
       {
-        "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes",
+        "title": "Uber Co-Founder Kalanick Teases Protest at Nvidia as Calls for Huang\u2019s Return Continue",
+        "source": "WSJ",
+        "publishedAt": "2026-11-19T02:58:23Z"
+      },
+      {
+        "title": "Exclusive | Wall Street Pledged to Mobilize $500 Billion for Nvidia\u2014But Hasn\u2019t Put Up a Dime",
+        "source": "WSJ",
+        "publishedAt": "2026-11-19T02:00:00Z"
+      },
+      {
+        "title": "Trump says he referred to ex-Nvidia boss Huang's situation 'briefly' in talk with Xi",
         "source": "Reuters",
-        "publishedAt": "2026-11-18T21:46:43Z"
-      },
-      {
-        "title": "Billionaire investor Bill Ackman bashes Nvidia\u2019s board for not bringing back Jensen Huang",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-18T20:20:00Z"
-      },
-      {
-        "title": "'Business as usual': Nvidia's Kress passes first test as board slams door on Huang",
-        "source": "Reuters",
-        "publishedAt": "2026-11-18T20:13:46Z"
+        "publishedAt": "2026-11-19T01:46:00Z"
       }
     ],
     "top": [
       {
-        "title": "Man sentenced to 27 years in prison over foiled plot to kill Trump",
+        "title": "Soldiers sign up to play \u2018Grand Theft Auto VI\u2019 in exchange for reenlisting",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-18T22:11:51Z"
+        "publishedAt": "2026-11-19T07:00:00Z"
       },
       {
-        "title": "Democrat Hakeem Jeffries nominated to be first Black speaker of House next year",
+        "title": "These are the Senate Democrats backing Schumer and Van Hollen for majority leader",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-18T21:59:29Z"
+        "publishedAt": "2026-11-19T05:08:22Z"
       },
       {
-        "title": "When kids lock up cellphones in class, the achievement gap narrows, study finds",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-18T21:32:04Z"
+        "title": "Rainfall supercharged by El Ni\u00f1o floods roads and collapses a south Florida synagogue's roof",
+        "source": "AP News",
+        "publishedAt": "2026-11-19T04:51:00Z"
       },
       {
-        "title": "Man destroyed $60 million U.S. military plane at Irish airport, DOJ says",
+        "title": "\u2018Put on your seat belt\u2019: Bernie Sanders unveils wish list for new Congress",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-18T21:30:00Z"
+        "publishedAt": "2026-11-19T04:09:33Z"
       }
     ]
   },
@@ -485,13 +490,6 @@
       "eventId": "bayer-q3-2026",
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
       "source": "Investing",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer : Quarterly Statement Q3 2026",
-      "source": "www.marketscreener",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -513,10 +511,6 @@
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-10-29",
-        "close": 47.96
-      },
       {
         "date": "2026-10-30",
         "close": 50.58
@@ -570,8 +564,8 @@
         "close": 56.14
       },
       {
-        "date": "2026-11-18",
-        "close": 55.94
+        "date": "2026-11-19",
+        "close": 56.36
       }
     ],
     "bayry": [
@@ -633,14 +627,10 @@
       },
       {
         "date": "2026-11-18",
-        "close": 15.36
+        "close": 15.35
       }
     ],
     "dax": [
-      {
-        "date": "2026-10-29",
-        "close": 26039.6797
-      },
       {
         "date": "2026-10-30",
         "close": 25818.2109
