@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-19T15:50:51Z",
+  "updatedAt": "2026-11-19T16:56:06Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 125.14 matched",
-    "ECB reference 1.0992 on 2026-11-19 vs Yahoo spot 1.0989",
-    "Bayer ADR ratio check 4.00 ordinary shares"
+    "ECB reference 1.0992 on 2026-11-19 vs Yahoo spot 1.0984",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,93 +14,94 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.26,
+      "price": 54.68,
       "previousClose": 55.94,
-      "change": -0.68,
-      "changePct": -1.2156,
-      "asOf": "2026-11-19T15:34:33Z",
+      "change": -1.26,
+      "changePct": -2.2524,
+      "asOf": "2026-11-19T16:37:10Z",
       "digits": 2,
       "sparkline": [
         56.32,
         56.26,
         56.18,
         56.28,
-        56.28,
         56.16,
         56.28,
         56.4,
-        56.5,
+        56.4,
         56.58,
         56.6,
         56.56,
-        56.34,
         56.3,
+        56.36,
         56.34,
         56.34,
-        56.4,
         56.42,
         56.4,
         56.42,
-        56.42,
+        56.36,
         56.42,
         56.4,
         56.38,
-        56.36,
         56.32,
         56.34,
-        56.3,
         56.34,
+        56.3,
         56.2,
         56.16,
         56.12,
         56.02,
+        56.02,
         55.98,
         55.98,
-        55.98,
-        56.0,
         56.02,
         55.98,
         55.96,
-        55.86,
+        55.98,
         55.86,
         55.88,
         55.84,
-        55.82,
+        55.72,
         55.72,
         55.72,
         55.7,
-        55.64,
         55.58,
         55.56,
         55.56,
         55.48,
-        55.46,
+        55.48,
         55.46,
         55.42,
-        55.46,
         55.48,
         55.5,
         55.48,
-        55.76,
+        55.56,
         55.76,
         55.7,
         55.6,
         55.54,
-        55.56,
         55.54,
         55.6,
-        55.84,
+        55.6,
         55.6,
         55.44,
         55.38,
         55.44,
-        55.46,
+        55.52,
         55.54,
         55.58,
         55.56,
-        55.4,
         55.56,
-        55.26
+        55.26,
+        55.1,
+        54.88,
+        54.96,
+        54.86,
+        55.04,
+        54.94,
+        55.02,
+        55.0,
+        54.68
       ],
       "sessionDate": "2026-11-19"
     },
@@ -112,11 +112,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.2,
+      "price": 15.04,
       "previousClose": 15.36,
-      "change": -0.16,
-      "changePct": -1.0417,
-      "asOf": "2026-11-19T15:33:49Z",
+      "change": -0.32,
+      "changePct": -2.0833,
+      "asOf": "2026-11-19T16:35:09Z",
       "digits": 2,
       "sparkline": [
         15.35,
@@ -127,8 +127,17 @@
         15.26,
         15.3,
         15.23,
-        15.21,
-        15.2
+        15.2,
+        15.15,
+        15.09,
+        15.12,
+        15.07,
+        15.11,
+        15.11,
+        15.13,
+        15.12,
+        15.06,
+        15.04
       ],
       "sessionDate": "2026-11-19"
     },
@@ -173,11 +182,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 152.1,
+      "price": 151.11,
       "previousClose": 150.96,
-      "change": 1.14,
-      "changePct": 0.7552,
-      "asOf": "2026-11-19T15:50:40Z",
+      "change": 0.15,
+      "changePct": 0.0994,
+      "asOf": "2026-11-19T16:55:51Z",
       "digits": 2,
       "sparkline": [
         156.91,
@@ -196,7 +205,20 @@
         151.8344,
         152.63,
         151.98,
-        152.1051
+        152.215,
+        153.42,
+        153.3201,
+        152.655,
+        153.2644,
+        152.9,
+        153.1239,
+        153.2399,
+        152.86,
+        153.46,
+        152.72,
+        152.44,
+        151.28,
+        151.11
       ],
       "sessionDate": "2026-11-19"
     }
@@ -205,38 +227,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7287.36,
-      "change": -36.27,
-      "changePct": -0.4952,
+      "price": 7282.85,
+      "change": -40.78,
+      "changePct": -0.5568,
       "digits": 2,
-      "asOf": "2026-11-19T15:50:40Z"
+      "asOf": "2026-11-19T16:55:50Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49673.34,
-      "change": -524.83,
-      "changePct": -1.0455,
+      "price": 49610.38,
+      "change": -587.79,
+      "changePct": -1.1709,
       "digits": 2,
-      "asOf": "2026-11-19T15:50:40Z"
+      "asOf": "2026-11-19T16:55:51Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25590.48,
-      "change": -145.76,
-      "changePct": -0.5664,
+      "price": 25463.81,
+      "change": -272.43,
+      "changePct": -1.0585,
       "digits": 2,
-      "asOf": "2026-11-19T15:35:39Z"
+      "asOf": "2026-11-19T16:30:14Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0989,
-      "change": 0.0011,
-      "changePct": 0.1002,
+      "price": 1.0984,
+      "change": 0.0006,
+      "changePct": 0.0547,
       "digits": 4,
-      "asOf": "2026-11-19T15:49:46Z"
+      "asOf": "2026-11-19T16:55:47Z"
     }
   },
   "headlines": {
@@ -264,53 +286,58 @@
     ],
     "walmart": [
       {
-        "title": "Walmart\u2019s Digital Sales Are Now Driving Its Growth, Not Stores",
-        "source": "WSJ",
-        "publishedAt": "2026-11-19T15:33:45Z"
+        "title": "Walmart warns of fuel cost pressure, lifts annual targets ahead of holidays",
+        "source": "Reuters",
+        "publishedAt": "2026-11-19T16:32:11Z"
+      },
+      {
+        "title": "Walmart shares slip after a third-quarter beat and a higher full-year outlook",
+        "source": "Startup Fortune",
+        "publishedAt": "2026-11-19T16:31:28Z"
       },
       {
         "title": "Walmart raises forecasts ahead of holidays, warns of rising fuel costs",
         "source": "Reuters",
-        "publishedAt": "2026-11-19T13:41:14Z"
+        "publishedAt": "2026-11-19T16:07:30Z"
       },
       {
-        "title": "Walmart nudges up annual forecasts ahead of crucial holiday season",
-        "source": "Reuters",
-        "publishedAt": "2026-11-19T13:22:23Z"
-      },
-      {
-        "title": "Walmart Inc. reports results for the quarter ended October 31 - Earnings Summary",
-        "source": "TradingView",
-        "publishedAt": "2026-11-19T13:01:19Z"
+        "title": "Transcript : Walmart Inc., Q3 2027 Earnings Call, Nov 19, 2026",
+        "source": "www.marketscreener",
+        "publishedAt": "2026-11-19T15:56:47Z"
       }
     ],
     "nvidia": [
       {
+        "title": "Nvidia can run without Jensen Huang. Can the AI boom?",
+        "source": "Fortune",
+        "publishedAt": "2026-11-19T16:29:00Z"
+      },
+      {
+        "title": "AMD's Lisa Su Speaks Out on Her Cousin Jensen Huang's Nvidia Exit",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-19T15:50:00Z"
+      },
+      {
+        "title": "Trump bought up to $265,000 of Nvidia stock in September, disclosure shows",
+        "source": "Reuters",
+        "publishedAt": "2026-11-19T15:46:11Z"
+      },
+      {
         "title": "Trump\u2019s Financial Disclosure Reveals SpaceX, Tesla, Nvidia Trades",
         "source": "Forbes",
         "publishedAt": "2026-11-19T15:12:35Z"
-      },
-      {
-        "title": "Nvidia\u2019s Strong Fundamentals Give New CEO a Much-Needed Tailwind",
-        "source": "WSJ",
-        "publishedAt": "2026-11-19T15:09:50Z"
-      },
-      {
-        "title": "Nvidia\u2019s Colette Kress Takes Reins in Crisis",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-19T14:13:40Z"
-      },
-      {
-        "title": "Nvidia Reports Faster Growth, Says Jensen Huang Won\u2019t Return as CEO",
-        "source": "WSJ",
-        "publishedAt": "2026-11-19T13:57:54Z"
       }
     ],
     "top": [
       {
-        "title": "Denmark approves security deal with US and Greenland, seeking to finally ease tensions with Trump",
+        "title": "Mississippi saw a spike in \u2018inactive\u2019 voters for the midterms. Democrats want answers",
         "source": "AP News",
-        "publishedAt": "2026-11-19T14:42:00Z"
+        "publishedAt": "2026-11-19T15:28:00Z"
+      },
+      {
+        "title": "In Bending to Trump, Law Firm Did $11.8 Million of Free Work for Administration",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-19T14:38:55Z"
       },
       {
         "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
@@ -321,11 +348,6 @@
         "title": "At Gloria Steinem Memorial, Michelle Obama, Hillary Clinton and More Big Names Gather",
         "source": "The New York Times",
         "publishedAt": "2026-11-19T12:20:00Z"
-      },
-      {
-        "title": "In Bending to Trump, Law Firm Did $11.8 Million of Free Work for Administration",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-19T11:46:56Z"
       }
     ]
   },
@@ -413,7 +435,7 @@
       },
       {
         "date": "2026-11-19",
-        "close": 55.26
+        "close": 54.68
       }
     ],
     "bayry": [
@@ -475,7 +497,7 @@
       },
       {
         "date": "2026-11-19",
-        "close": 15.2
+        "close": 15.04
       }
     ],
     "dax": [
@@ -537,7 +559,7 @@
       },
       {
         "date": "2026-11-19",
-        "close": 25586.1309
+        "close": 25463.8105
       }
     ]
   }
