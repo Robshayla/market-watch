@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-19T09:34:12Z",
+  "updatedAt": "2026-11-19T10:37:27Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.1000",
+    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.1007",
     "Bayer ADR ratio check 4.04 ordinary shares"
   ],
   "quotes": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 56.36,
+      "price": 56.34,
       "previousClose": 55.94,
-      "change": 0.42,
-      "changePct": 0.7508,
-      "asOf": "2026-11-19T09:18:20Z",
+      "change": 0.4,
+      "changePct": 0.7151,
+      "asOf": "2026-11-19T10:20:29Z",
       "digits": 2,
       "sparkline": [
         56.32,
@@ -36,8 +36,20 @@
         56.56,
         56.34,
         56.3,
+        56.36,
         56.34,
-        56.36
+        56.34,
+        56.4,
+        56.42,
+        56.4,
+        56.42,
+        56.36,
+        56.42,
+        56.42,
+        56.4,
+        56.38,
+        56.36,
+        56.34
       ],
       "sessionDate": "2026-11-19"
     },
@@ -220,7 +232,7 @@
         154.755,
         154.305,
         153.03,
-        153.79,
+        153.805,
         153.85,
         152.6298,
         152.384,
@@ -314,20 +326,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25842.0,
-      "change": 105.76,
-      "changePct": 0.4109,
+      "price": 25821.42,
+      "change": 85.18,
+      "changePct": 0.331,
       "digits": 2,
-      "asOf": "2026-11-19T09:18:58Z"
+      "asOf": "2026-11-19T10:22:14Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1,
-      "change": 0.0022,
-      "changePct": 0.2004,
+      "price": 1.1007,
+      "change": 0.0029,
+      "changePct": 0.2642,
       "digits": 4,
-      "asOf": "2026-11-19T09:33:48Z"
+      "asOf": "2026-11-19T10:36:44Z"
     }
   },
   "headlines": {
@@ -355,6 +367,11 @@
     ],
     "walmart": [
       {
+        "title": "Walmart Inc. Q3 Earnings Preview: Shares dip 0.7% before results",
+        "source": "scanx.trade",
+        "publishedAt": "2026-11-19T10:16:41Z"
+      },
+      {
         "title": "Walmart is set to report earnings before the bell. Here's what to expect",
         "source": "CNBC",
         "publishedAt": "2026-11-19T05:01:01Z"
@@ -368,19 +385,9 @@
         "title": "US consumer faces a stress test as retail sales, Target, Lowe's, TJX, and Walmart report this week",
         "source": "Business Insider",
         "publishedAt": "2026-11-17T10:50:00Z"
-      },
-      {
-        "title": "Walmart to cover some GLP-1s, inhalers and insulin for employees at no cost as it expands benefits",
-        "source": "CNBC",
-        "publishedAt": "2026-10-13T07:00:00Z"
       }
     ],
     "nvidia": [
-      {
-        "title": "How Everyday Investors Are Playing the Nvidia Drama",
-        "source": "WSJ",
-        "publishedAt": "2026-11-19T08:43:39Z"
-      },
       {
         "title": "A tech fund manager sold Nvidia before the drama. Here\u2019s why it won\u2019t buy the dip.",
         "source": "Business Insider",
@@ -392,9 +399,14 @@
         "publishedAt": "2026-11-19T05:11:00Z"
       },
       {
-        "title": "Exclusive | Wall Street Pledged to Mobilize $500 Billion for Nvidia\u2014but Hasn\u2019t Put Up a Dime",
-        "source": "WSJ",
-        "publishedAt": "2026-11-19T02:00:00Z"
+        "title": "How Nvidia Chips Ended Up Within Reach of China\u2019s Military",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-19T04:13:05Z"
+      },
+      {
+        "title": "Nvidia Has No Plans to Bring Back Jensen Huang",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-19T03:27:00Z"
       }
     ],
     "top": [
@@ -409,14 +421,14 @@
         "publishedAt": "2026-11-19T05:08:22Z"
       },
       {
-        "title": "\u2018Put on your seat belt\u2019: Bernie Sanders unveils wish list for new Congress",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-19T04:09:33Z"
+        "title": "FCC expected to allow state prisons to jam contraband cellphone signals with Thursday vote",
+        "source": "AP News",
+        "publishedAt": "2026-11-19T05:03:00Z"
       },
       {
-        "title": "Elon Musk says he regrets midterm spending",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-19T03:42:00Z"
+        "title": "Mississippi saw a spike in \u2018inactive\u2019 voters for the midterms. Democrats want answers",
+        "source": "AP News",
+        "publishedAt": "2026-11-19T05:01:00Z"
       }
     ]
   },
@@ -504,7 +516,7 @@
       },
       {
         "date": "2026-11-19",
-        "close": 56.36
+        "close": 56.34
       }
     ],
     "bayry": [
@@ -628,7 +640,7 @@
       },
       {
         "date": "2026-11-19",
-        "close": 25841.9297
+        "close": 25821.2305
       }
     ]
   }
