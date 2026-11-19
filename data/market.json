@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-19T13:59:44Z",
+  "updatedAt": "2026-11-19T14:53:13Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.1002",
-    "Bayer ADR ratio check 3.98 ordinary shares"
+    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0994",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.56,
+      "price": 55.62,
       "previousClose": 55.94,
-      "change": -0.38,
-      "changePct": -0.6793,
-      "asOf": "2026-11-19T13:42:50Z",
+      "change": -0.32,
+      "changePct": -0.572,
+      "asOf": "2026-11-19T14:37:56Z",
       "digits": 2,
       "sparkline": [
         56.32,
@@ -89,8 +89,19 @@
         55.48,
         55.5,
         55.48,
-        55.48,
-        55.56
+        55.56,
+        55.76,
+        55.76,
+        55.7,
+        55.6,
+        55.54,
+        55.56,
+        55.54,
+        55.6,
+        55.6,
+        55.84,
+        55.68,
+        55.62
       ],
       "sessionDate": "2026-11-19"
     },
@@ -101,11 +112,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.35,
-      "previousClose": 15.43,
-      "change": -0.08,
-      "changePct": -0.5185,
-      "asOf": "2026-11-18T21:00:00Z",
+      "price": 15.33,
+      "previousClose": 15.36,
+      "change": -0.03,
+      "changePct": -0.1953,
+      "asOf": "2026-11-19T14:36:58Z",
       "digits": 2,
       "sparkline": [
         15.51,
@@ -148,7 +159,8 @@
         15.34,
         15.35,
         15.35,
-        15.36
+        15.36,
+        15.33
       ],
       "sessionDate": "2026-11-18"
     },
@@ -255,11 +267,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 150.96,
-      "previousClose": 155.46,
-      "change": -4.5,
-      "changePct": -2.8946,
-      "asOf": "2026-11-18T21:00:00Z",
+      "price": 156.79,
+      "previousClose": 150.96,
+      "change": 5.83,
+      "changePct": 3.862,
+      "asOf": "2026-11-19T14:52:57Z",
       "digits": 2,
       "sparkline": [
         158.15,
@@ -273,7 +285,7 @@
         154.755,
         154.305,
         153.03,
-        153.805,
+        153.79,
         153.85,
         152.6298,
         152.384,
@@ -340,7 +352,7 @@
         150.92,
         150.9,
         150.87,
-        150.96
+        156.79
       ],
       "sessionDate": "2026-11-18"
     }
@@ -349,38 +361,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7323.63,
-      "change": -16.9,
-      "changePct": -0.2302,
+      "price": 7398.12,
+      "change": 74.49,
+      "changePct": 1.0171,
       "digits": 2,
-      "asOf": "2026-11-18T21:57:25Z"
+      "asOf": "2026-11-19T14:52:59Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50198.17,
-      "change": -561.23,
-      "changePct": -1.1057,
+      "price": 50267.08,
+      "change": 68.91,
+      "changePct": 0.1373,
       "digits": 2,
-      "asOf": "2026-11-18T21:57:27Z"
+      "asOf": "2026-11-19T14:53:00Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25699.98,
-      "change": -36.26,
-      "changePct": -0.1409,
+      "price": 25688.6,
+      "change": -47.64,
+      "changePct": -0.1851,
       "digits": 2,
-      "asOf": "2026-11-19T13:44:32Z"
+      "asOf": "2026-11-19T14:38:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1002,
-      "change": 0.0024,
-      "changePct": 0.2186,
+      "price": 1.0994,
+      "change": 0.0016,
+      "changePct": 0.1457,
       "digits": 4,
-      "asOf": "2026-11-19T13:58:43Z"
+      "asOf": "2026-11-19T14:52:44Z"
     }
   },
   "headlines": {
@@ -430,46 +442,46 @@
     ],
     "nvidia": [
       {
-        "title": "Nvidia Is the Central Bank to AI\u2019s Circular Economy. See Where the Money Goes.",
+        "title": "Nvidia\u2019s $500 Billion Financing Plan Has Yet to Put a Dollar to Work, WSJ Reports",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-19T14:41:34Z"
+      },
+      {
+        "title": "Nvidia\u2019s Colette Kress Takes Reins in Crisis",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-19T14:13:40Z"
+      },
+      {
+        "title": "Nvidia Reports Faster Growth, Says Jensen Huang Won\u2019t Return as CEO",
         "source": "WSJ",
-        "publishedAt": "2026-11-19T11:45:16Z"
+        "publishedAt": "2026-11-19T13:57:54Z"
       },
       {
         "title": "Wall Street Pledged $500 Billion for Nvidia. Not a Dollar Has Been Deployed.",
         "source": "WSJ",
         "publishedAt": "2026-11-19T11:03:00Z"
-      },
-      {
-        "title": "$500 billion Nvidia funding deal turned out to be Scotch mist: \u2018Capital ... is going to disappear",
-        "source": "Fortune",
-        "publishedAt": "2026-11-19T10:26:00Z"
-      },
-      {
-        "title": "A tech fund manager sold Nvidia before the drama. Here\u2019s why it won\u2019t buy the dip.",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-19T08:19:00Z"
       }
     ],
     "top": [
       {
-        "title": "Danish lawmakers approve a security deal with Greenland and the US, hoping to finally end tensions",
-        "source": "AP News",
-        "publishedAt": "2026-11-19T12:11:00Z"
-      },
-      {
-        "title": "In Bending to Trump, Law Firm Did $11.8 Million of Free Work for Administration",
+        "title": "Van Gogh Soars to $190.4 Million at Sotheby\u2019s After an 11th-Hour Settlement",
         "source": "The New York Times",
-        "publishedAt": "2026-11-19T11:46:56Z"
+        "publishedAt": "2026-11-19T14:31:00Z"
       },
       {
         "title": "Three MAGA Women Who Defined an Era in Congress Are Exiting",
         "source": "The New York Times",
-        "publishedAt": "2026-11-19T10:02:53Z"
+        "publishedAt": "2026-11-19T13:27:13Z"
       },
       {
-        "title": "Soldiers sign up to play \u2018Grand Theft Auto VI\u2019 in exchange for reenlisting",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-19T06:30:00Z"
+        "title": "At Gloria Steinem\u2019s Memorial, Big Names, Resistance and Celebration",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-19T12:20:00Z"
+      },
+      {
+        "title": "Danish lawmakers approve a security deal with Greenland and the US, hoping to finally end tensions",
+        "source": "AP News",
+        "publishedAt": "2026-11-19T12:11:00Z"
       }
     ]
   },
@@ -557,14 +569,10 @@
       },
       {
         "date": "2026-11-19",
-        "close": 55.56
+        "close": 55.62
       }
     ],
     "bayry": [
-      {
-        "date": "2026-10-29",
-        "close": 13.37
-      },
       {
         "date": "2026-10-30",
         "close": 13.99
@@ -620,6 +628,10 @@
       {
         "date": "2026-11-18",
         "close": 15.35
+      },
+      {
+        "date": "2026-11-19",
+        "close": 15.33
       }
     ],
     "dax": [
@@ -681,7 +693,7 @@
       },
       {
         "date": "2026-11-19",
-        "close": 25701.3105
+        "close": 25684.0801
       }
     ]
   }
