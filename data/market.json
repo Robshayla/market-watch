@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T22:32:29Z",
+  "updatedAt": "2026-11-19T22:51:42Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
@@ -393,7 +393,7 @@
       "change": -0.0007,
       "changePct": -0.0638,
       "digits": 4,
-      "asOf": "2026-11-19T22:31:45Z"
+      "asOf": "2026-11-19T22:50:45Z"
     }
   },
   "headlines": {
@@ -431,14 +431,14 @@
         "publishedAt": "2026-11-19T21:00:48Z"
       },
       {
-        "title": "Walmart raises its outlook for the year for the 3rd time after a solid quarter, fuled by e-commerce",
-        "source": "AP News",
-        "publishedAt": "2026-11-19T19:58:00Z"
-      },
-      {
         "title": "5 Economic Realities Hidden Inside Walmart\u2019s Recent Earnings",
         "source": "Forbes",
         "publishedAt": "2026-11-19T19:53:56Z"
+      },
+      {
+        "title": "Walmart warns of fuel cost pressure, lifts annual targets ahead of holidays",
+        "source": "Reuters",
+        "publishedAt": "2026-11-19T18:38:53Z"
       }
     ],
     "nvidia": [
@@ -465,24 +465,24 @@
     ],
     "top": [
       {
+        "title": "Arts panel asks Trump administration to rethink East Potomac golf course\u2019s scope",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-19T22:45:52Z"
+      },
+      {
+        "title": "Democrats renew push for records from law firms that struck deals with Trump",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-19T22:26:54Z"
+      },
+      {
         "title": "Florida set to carry out its record-breaking 20th execution same day as a Texas lethal injection",
         "source": "AP News",
         "publishedAt": "2026-11-19T21:42:00Z"
       },
       {
-        "title": "Top Massachusetts Court to Weigh Lindsay Clancy\u2019s Motion to Dismiss",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-19T21:20:41Z"
-      },
-      {
-        "title": "Senate rejects resolution to block Trump from striking Iran",
+        "title": "Virginia school district shuts after finding 500 staff weren\u2019t properly screened",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-19T21:19:10Z"
-      },
-      {
-        "title": "Arts panel asks Trump administration to rethink East Potomac golf course\u2019s scope",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-19T21:15:52Z"
+        "publishedAt": "2026-11-19T21:15:00Z"
       }
     ]
   },
