@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-19T17:49:52Z",
+  "updatedAt": "2026-11-19T18:50:08Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 126.00 matched",
+    "Nasdaq last sale 126.26 matched",
     "ECB reference 1.0992 on 2026-11-19 vs Yahoo spot 1.0985",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.05,
+      "price": 15.02,
       "previousClose": 15.36,
-      "change": -0.31,
-      "changePct": -2.0182,
-      "asOf": "2026-11-19T17:05:39Z",
+      "change": -0.34,
+      "changePct": -2.2135,
+      "asOf": "2026-11-19T18:29:07Z",
       "digits": 2,
       "sparkline": [
         15.35,
@@ -142,7 +142,12 @@
         15.08,
         15.04,
         15.05,
-        15.05
+        15.04,
+        15.04,
+        15.02,
+        15.01,
+        15.01,
+        15.02
       ],
       "sessionDate": "2026-11-19"
     },
@@ -153,11 +158,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.03,
+      "price": 126.26,
       "previousClose": 127.36,
-      "change": -1.33,
-      "changePct": -1.0443,
-      "asOf": "2026-11-19T17:49:35Z",
+      "change": -1.1,
+      "changePct": -0.8637,
+      "asOf": "2026-11-19T18:49:50Z",
       "digits": 2,
       "sparkline": [
         124.44,
@@ -199,8 +204,20 @@
         126.64,
         126.12,
         125.89,
+        126.09,
+        126.15,
         126.0,
-        126.03
+        126.2,
+        126.12,
+        126.0,
+        126.015,
+        126.205,
+        126.235,
+        126.44,
+        126.31,
+        126.13,
+        126.22,
+        126.26
       ],
       "sessionDate": "2026-11-19"
     },
@@ -211,11 +228,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 149.38,
+      "price": 148.55,
       "previousClose": 150.96,
-      "change": -1.58,
-      "changePct": -1.0466,
-      "asOf": "2026-11-19T17:49:38Z",
+      "change": -2.41,
+      "changePct": -1.5964,
+      "asOf": "2026-11-19T18:49:54Z",
       "digits": 2,
       "sparkline": [
         156.91,
@@ -228,7 +245,7 @@
         155.56,
         155.03,
         154.53,
-        153.944,
+        153.94,
         153.515,
         152.53,
         151.8344,
@@ -253,12 +270,24 @@
         148.7284,
         148.3416,
         149.8942,
-        150.25,
+        150.22,
         150.49,
         149.5801,
         148.98,
-        149.55,
-        149.375
+        149.54,
+        149.74,
+        149.15,
+        149.055,
+        148.645,
+        148.37,
+        148.67,
+        149.065,
+        149.425,
+        149.305,
+        149.105,
+        148.7993,
+        148.44,
+        148.55
       ],
       "sessionDate": "2026-11-19"
     }
@@ -267,20 +296,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7247.22,
-      "change": -76.41,
-      "changePct": -1.0433,
+      "price": 7218.08,
+      "change": -105.55,
+      "changePct": -1.4412,
       "digits": 2,
-      "asOf": "2026-11-19T17:49:39Z"
+      "asOf": "2026-11-19T18:49:53Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49454.8,
-      "change": -743.37,
-      "changePct": -1.4809,
+      "price": 49343.22,
+      "change": -854.95,
+      "changePct": -1.7031,
       "digits": 2,
-      "asOf": "2026-11-19T17:49:39Z"
+      "asOf": "2026-11-19T18:49:53Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -298,7 +327,7 @@
       "change": 0.0007,
       "changePct": 0.0638,
       "digits": 4,
-      "asOf": "2026-11-19T17:48:44Z"
+      "asOf": "2026-11-19T18:49:45Z"
     }
   },
   "headlines": {
@@ -336,9 +365,9 @@
         "publishedAt": "2026-11-19T16:31:28Z"
       },
       {
-        "title": "Walmart raises forecasts ahead of holidays, warns of rising fuel costs",
-        "source": "Reuters",
-        "publishedAt": "2026-11-19T16:07:30Z"
+        "title": "Walmart raises its outlook for the year for the 3rd time after a solid quarter, fuled by e-commerce",
+        "source": "AP News",
+        "publishedAt": "2026-11-19T16:03:55Z"
       },
       {
         "title": "Transcript : Walmart Inc., Q3 2027 Earnings Call, Nov 19, 2026",
@@ -348,46 +377,46 @@
     ],
     "nvidia": [
       {
+        "title": "Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
+        "source": "WSJ",
+        "publishedAt": "2026-11-19T18:39:18Z"
+      },
+      {
+        "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+        "source": "CNBC",
+        "publishedAt": "2026-11-19T17:59:04Z"
+      },
+      {
+        "title": "Congress Warns Nvidia Scandal Exposes A Bigger AI Threat",
+        "source": "Forbes",
+        "publishedAt": "2026-11-19T17:53:39Z"
+      },
+      {
         "title": "Jensen Huang's \u2014 and Nvidia's \u2014 legal exposure balloons",
         "source": "CNBC",
         "publishedAt": "2026-11-19T17:30:25Z"
-      },
-      {
-        "title": "Trump bought up to $265,000 of Nvidia stock in September, disclosure shows",
-        "source": "Reuters",
-        "publishedAt": "2026-11-19T17:20:46Z"
-      },
-      {
-        "title": "Nvidia can run without Jensen Huang. Can the AI boom?",
-        "source": "Fortune",
-        "publishedAt": "2026-11-19T16:29:00Z"
-      },
-      {
-        "title": "AMD's Lisa Su Speaks Out on Her Cousin Jensen Huang's Nvidia Exit",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-19T15:50:00Z"
       }
     ],
     "top": [
       {
+        "title": "A paramedic responded to a deadly accident. She discovered the victim was her son.",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-19T18:31:41Z"
+      },
+      {
         "title": "FCC gives state prisons the go-ahead to jam signals from contraband cellphones",
         "source": "AP News",
-        "publishedAt": "2026-11-19T16:42:00Z"
+        "publishedAt": "2026-11-19T17:40:00Z"
       },
       {
-        "title": "Elon Musk backs away from Trump's MAGA brand after Republicans' midterm election washout",
-        "source": "AP News",
-        "publishedAt": "2026-11-19T15:58:00Z"
-      },
-      {
-        "title": "Mississippi saw a spike in \u2018inactive\u2019 voters for the midterms. Democrats want answers",
-        "source": "AP News",
-        "publishedAt": "2026-11-19T15:28:00Z"
-      },
-      {
-        "title": "In Bending to Trump, Law Firm Did $11.8 Million of Free Work for Administration",
+        "title": "Ericka Lomick\u2019s Texas House Win Faces Challenge in State Supreme Court",
         "source": "The New York Times",
-        "publishedAt": "2026-11-19T14:38:55Z"
+        "publishedAt": "2026-11-19T16:46:00Z"
+      },
+      {
+        "title": "Susan Smith seeks parole again 32 years after drowning her two sons",
+        "source": "BBC",
+        "publishedAt": "2026-11-19T15:59:30Z"
       }
     ]
   },
@@ -537,7 +566,7 @@
       },
       {
         "date": "2026-11-19",
-        "close": 15.05
+        "close": 15.02
       }
     ],
     "dax": [
