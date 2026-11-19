@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-19T20:45:43Z",
+  "updatedAt": "2026-11-19T21:41:36Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 126.12 matched",
-    "ECB reference 1.0992 on 2026-11-19 vs Yahoo spot 1.0978",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "Nasdaq last sale 126.06 matched",
+    "ECB reference 1.0992 on 2026-11-19 vs Yahoo spot 1.0972",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.98,
+      "price": 15.02,
       "previousClose": 15.36,
-      "change": -0.38,
-      "changePct": -2.474,
-      "asOf": "2026-11-19T20:25:18Z",
+      "change": -0.34,
+      "changePct": -2.2135,
+      "asOf": "2026-11-19T20:59:59Z",
       "digits": 2,
       "sparkline": [
         15.35,
@@ -159,7 +159,11 @@
         14.98,
         14.98,
         14.98,
-        14.98
+        14.98,
+        14.98,
+        14.99,
+        15.02,
+        15.02
       ],
       "sessionDate": "2026-11-19"
     },
@@ -170,11 +174,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 126.12,
+      "price": 126.04,
       "previousClose": 127.36,
-      "change": -1.24,
-      "changePct": -0.9736,
-      "asOf": "2026-11-19T20:45:26Z",
+      "change": -1.32,
+      "changePct": -1.0364,
+      "asOf": "2026-11-19T21:00:01Z",
       "digits": 2,
       "sparkline": [
         124.44,
@@ -252,7 +256,9 @@
         126.22,
         126.205,
         126.1099,
-        126.12
+        126.43,
+        126.3,
+        126.05
       ],
       "sessionDate": "2026-11-19"
     },
@@ -263,11 +269,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 147.41,
+      "price": 145.98,
       "previousClose": 150.96,
-      "change": -3.55,
-      "changePct": -2.3516,
-      "asOf": "2026-11-19T20:45:29Z",
+      "change": -4.98,
+      "changePct": -3.2989,
+      "asOf": "2026-11-19T21:00:01Z",
       "digits": 2,
       "sparkline": [
         156.91,
@@ -345,7 +351,10 @@
         147.0077,
         147.3308,
         147.51,
-        147.415
+        147.28,
+        146.9801,
+        146.0,
+        145.98
       ],
       "sessionDate": "2026-11-19"
     }
@@ -354,20 +363,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7186.96,
-      "change": -136.67,
-      "changePct": -1.8662,
+      "price": 7175.83,
+      "change": -147.8,
+      "changePct": -2.0181,
       "digits": 2,
-      "asOf": "2026-11-19T20:45:30Z"
+      "asOf": "2026-11-19T21:20:01Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49150.67,
-      "change": -1047.5,
-      "changePct": -2.0867,
+      "price": 49097.06,
+      "change": -1101.11,
+      "changePct": -2.1935,
       "digits": 2,
-      "asOf": "2026-11-19T20:45:29Z"
+      "asOf": "2026-11-19T21:20:01Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -381,11 +390,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0978,
-      "change": 0.0,
-      "changePct": 0.0,
+      "price": 1.0972,
+      "change": -0.0006,
+      "changePct": -0.0547,
       "digits": 4,
-      "asOf": "2026-11-19T20:44:48Z"
+      "asOf": "2026-11-19T21:40:44Z"
     }
   },
   "headlines": {
@@ -413,6 +422,16 @@
     ],
     "walmart": [
       {
+        "title": "Walmart Inc (WMT) (Q3 2027) Earnings Call Highlights: Raised Guidance, 23% US E-Commerce Growth ...",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-19T21:00:48Z"
+      },
+      {
+        "title": "Walmart raises its outlook for the year for the 3rd time after a solid quarter, fuled by e-commerce",
+        "source": "AP News",
+        "publishedAt": "2026-11-19T19:58:00Z"
+      },
+      {
         "title": "5 Economic Realities Hidden Inside Walmart\u2019s Recent Earnings",
         "source": "Forbes",
         "publishedAt": "2026-11-19T19:53:56Z"
@@ -421,19 +440,14 @@
         "title": "Walmart warns of fuel cost pressure, lifts annual targets ahead of holidays",
         "source": "Reuters",
         "publishedAt": "2026-11-19T18:38:53Z"
-      },
-      {
-        "title": "Walmart shares slip after a third-quarter beat and a higher full-year outlook",
-        "source": "Startup Fortune",
-        "publishedAt": "2026-11-19T16:31:28Z"
-      },
-      {
-        "title": "Transcript : Walmart Inc., Q3 2027 Earnings Call, Nov 19, 2026",
-        "source": "www.marketscreener",
-        "publishedAt": "2026-11-19T15:56:47Z"
       }
     ],
     "nvidia": [
+      {
+        "title": "Nvidia's Fallout Is a Gift to Billionaires Ambani and Adani",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-19T19:01:20Z"
+      },
       {
         "title": "Trump bought up to $265,000 of Nvidia stock in September, disclosure shows",
         "source": "Reuters",
@@ -445,36 +459,31 @@
         "publishedAt": "2026-11-19T17:59:04Z"
       },
       {
-        "title": "Congress Warns Nvidia Scandal Exposes A Bigger AI Threat",
+        "title": "US Lawmakers Warn Nvidia Scandal Exposes A Bigger AI Threat",
         "source": "Forbes",
         "publishedAt": "2026-11-19T17:53:39Z"
-      },
-      {
-        "title": "Jensen Huang's \u2014 and Nvidia's \u2014 legal exposure balloons",
-        "source": "CNBC",
-        "publishedAt": "2026-11-19T17:30:25Z"
       }
     ],
     "top": [
       {
+        "title": "Arts panel asks Trump administration to rethink East Potomac golf course\u2019s scope",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-19T21:15:52Z"
+      },
+      {
         "title": "Virginia school district shuts after finding 500 staff weren\u2019t properly screened",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-19T20:20:01Z"
+        "publishedAt": "2026-11-19T20:47:39Z"
       },
       {
-        "title": "Army Warns Iowa of Toxic Cloud as It Prepares to Blow Up Old Ammo",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-19T19:43:30Z"
+        "title": "Judge lets Trump\u2019s libel lawsuit against New York Times reporters proceed",
+        "source": "Politico",
+        "publishedAt": "2026-11-19T20:14:00Z"
       },
       {
-        "title": "Musk backs away from MAGA after Republicans' midterm losses, but Trump says he's still a friend",
-        "source": "AP News",
-        "publishedAt": "2026-11-19T18:13:00Z"
-      },
-      {
-        "title": "Florida set to carry out its record-breaking 20th execution same day as a Texas lethal injection",
-        "source": "AP News",
-        "publishedAt": "2026-11-19T18:05:00Z"
+        "title": "Democrats renew push for records from law firms that struck deals with Trump",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-19T19:50:41Z"
       }
     ]
   },
@@ -624,7 +633,7 @@
       },
       {
         "date": "2026-11-19",
-        "close": 14.98
+        "close": 15.02
       }
     ],
     "dax": [
