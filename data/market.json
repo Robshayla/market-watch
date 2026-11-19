@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-19T11:36:06Z",
+  "updatedAt": "2026-11-19T12:43:24Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.1002",
-    "Bayer ADR ratio check 4.01 ordinary shares"
+    "ECB reference 1.0968 on 2026-11-18 vs Yahoo spot 1.0989",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 55.96,
+      "price": 55.78,
       "previousClose": 55.94,
-      "change": 0.02,
-      "changePct": 0.0358,
-      "asOf": "2026-11-19T11:20:42Z",
+      "change": -0.16,
+      "changePct": -0.286,
+      "asOf": "2026-11-19T12:27:53Z",
       "digits": 2,
       "sparkline": [
         56.32,
@@ -61,7 +61,21 @@
         55.98,
         56.02,
         55.98,
-        55.96
+        55.98,
+        56.0,
+        56.02,
+        55.98,
+        55.96,
+        55.98,
+        55.86,
+        55.86,
+        55.88,
+        55.84,
+        55.82,
+        55.72,
+        55.72,
+        55.78,
+        55.78
       ],
       "sessionDate": "2026-11-19"
     },
@@ -338,29 +352,24 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25804.46,
-      "change": 68.22,
-      "changePct": 0.2651,
+      "price": 25746.73,
+      "change": 10.49,
+      "changePct": 0.0408,
       "digits": 2,
-      "asOf": "2026-11-19T11:20:53Z"
+      "asOf": "2026-11-19T12:28:12Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.1002,
-      "change": 0.0024,
-      "changePct": 0.2186,
+      "price": 1.0989,
+      "change": 0.0011,
+      "changePct": 0.1002,
       "digits": 4,
-      "asOf": "2026-11-19T11:35:45Z"
+      "asOf": "2026-11-19T12:42:46Z"
     }
   },
   "headlines": {
     "bayer": [
-      {
-        "title": "Bayer brings factor XIa to US stroke prevention with FDA nod for 1st-in-class asundexian",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-11-09T08:00:00Z"
-      },
       {
         "title": "Bayer to invest $2.2 billion in new US pharma site",
         "source": "Reuters",
@@ -375,45 +384,50 @@
         "title": "'Better every quarter': Bayer CEO stays course on turnaround plan as pharma sales underwhelm in Q2",
         "source": "Fierce Pharma",
         "publishedAt": "2026-08-04T07:00:00Z"
+      },
+      {
+        "title": "Bayer Weighs U.S. Pharma Expansion as Turnaround Picks Up Speed",
+        "source": "WSJ",
+        "publishedAt": "2026-04-01T07:00:00Z"
       }
     ],
     "walmart": [
       {
-        "title": "Walmart Inc. Q3 Earnings Preview: Shares dip 0.7% before results",
-        "source": "scanx.trade",
-        "publishedAt": "2026-11-19T10:16:41Z"
-      },
-      {
-        "title": "Walmart is set to report earnings before the bell. Here's what to expect",
+        "title": "Walmart CEO John Furner on Q3 results: Customers continue to look for value",
         "source": "CNBC",
-        "publishedAt": "2026-11-19T05:01:01Z"
+        "publishedAt": "2026-11-19T12:36:15Z"
       },
       {
-        "title": "In 2008, The \u201cWalmart Recession Signal\u201d Neared A Record As The Market Collapsed. One Economist Says It Is Starting To Rise Again",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-18T19:52:47Z"
+        "title": "Walmart raises sales and earnings outlook as e-commerce sales jump again",
+        "source": "CNBC",
+        "publishedAt": "2026-11-19T12:14:57Z"
       },
       {
-        "title": "US consumer faces a stress test as retail sales, Target, Lowe's, TJX, and Walmart report this week",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-17T10:50:00Z"
+        "title": "Walmart nudges up annual forecasts ahead of crucial holiday season",
+        "source": "Reuters",
+        "publishedAt": "2026-11-19T12:11:42Z"
+      },
+      {
+        "title": "Earnings Flash (WMT) Walmart Inc. Reports Q3 Revenue $188.8B",
+        "source": "www.marketscreener",
+        "publishedAt": "2026-11-19T12:09:30Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Nvidia\u2019s Strong Fundamentals Give New CEO a Much-Needed Tailwind",
+        "title": "Nvidia Is the Central Bank to AI\u2019s Circular Economy. See Where the Money Goes.",
         "source": "WSJ",
-        "publishedAt": "2026-11-19T11:10:47Z"
+        "publishedAt": "2026-11-19T11:45:16Z"
+      },
+      {
+        "title": "Wall Street Pledged $500 Billion for Nvidia. Not a Dollar Has Been Deployed.",
+        "source": "WSJ",
+        "publishedAt": "2026-11-19T11:03:00Z"
       },
       {
         "title": "Nvidia\u2019s Scandals Make the Case for Chip Controls",
         "source": "Bloomberg",
         "publishedAt": "2026-11-19T11:00:04Z"
-      },
-      {
-        "title": "Nvidia Is the Central Bank to AI\u2019s Circular Economy. See Where the Money Goes.",
-        "source": "WSJ",
-        "publishedAt": "2026-11-19T10:30:00Z"
       },
       {
         "title": "$500 billion Nvidia funding deal turned out to be Scotch mist: \u2018Capital ... is going to disappear",
@@ -423,24 +437,24 @@
     ],
     "top": [
       {
+        "title": "In Bending to Trump, Law Firm Did $11.8 Million of Free Work for Administration",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-19T11:46:56Z"
+      },
+      {
+        "title": "Cincinnati Zoo hopes a little shake will help Fiona the hippo pass a swallowed hat",
+        "source": "AP News",
+        "publishedAt": "2026-11-19T11:12:00Z"
+      },
+      {
+        "title": "Elon Musk says he feels \u2018foolish\u2019 for donating nearly $500mn to Republicans",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-19T08:03:19Z"
+      },
+      {
         "title": "Soldiers sign up to play \u2018Grand Theft Auto VI\u2019 in exchange for reenlisting",
         "source": "The Washington Post",
         "publishedAt": "2026-11-19T07:00:00Z"
-      },
-      {
-        "title": "These are the Senate Democrats backing Schumer and Van Hollen for majority leader",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-19T05:08:22Z"
-      },
-      {
-        "title": "FCC expected to allow state prisons to jam contraband cellphone signals with Thursday vote",
-        "source": "AP News",
-        "publishedAt": "2026-11-19T05:03:00Z"
-      },
-      {
-        "title": "Mississippi saw a spike in \u2018inactive\u2019 voters for the midterms. Democrats want answers",
-        "source": "AP News",
-        "publishedAt": "2026-11-19T05:01:00Z"
       }
     ]
   },
@@ -528,7 +542,7 @@
       },
       {
         "date": "2026-11-19",
-        "close": 55.96
+        "close": 55.78
       }
     ],
     "bayry": [
@@ -652,7 +666,7 @@
       },
       {
         "date": "2026-11-19",
-        "close": 25800.7598
+        "close": 25747.5195
       }
     ]
   }
