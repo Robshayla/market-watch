@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T22:15:04Z",
+  "updatedAt": "2026-11-20T22:48:33Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
@@ -392,7 +392,7 @@
       "change": 0.0002,
       "changePct": 0.0182,
       "digits": 4,
-      "asOf": "2026-11-20T22:14:46Z"
+      "asOf": "2026-11-20T22:29:46Z"
     }
   },
   "headlines": {
@@ -447,6 +447,11 @@
         "publishedAt": "2026-11-20T21:38:00Z"
       },
       {
+        "title": "EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say",
+        "source": "Reuters",
+        "publishedAt": "2026-11-20T21:37:28Z"
+      },
+      {
         "title": "Nvidia's $1 trillion plunge crystalizes the extraordinary power of a tech founder CEO",
         "source": "Business Insider",
         "publishedAt": "2026-11-20T21:20:00Z"
@@ -455,33 +460,28 @@
         "title": "Wall Street Regulator Probing Nvidia\u2019s Accounting, Report Says",
         "source": "Bloomberg",
         "publishedAt": "2026-11-20T21:16:03Z"
-      },
-      {
-        "title": "Closing Bell panel assesses sharp selloff as Nvidia, AI stocks tumble",
-        "source": "CNBC",
-        "publishedAt": "2026-11-20T20:55:36Z"
       }
     ],
     "top": [
       {
-        "title": "Top White House Cybersecurity Official Is Replaced",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-20T21:59:00Z"
-      },
-      {
-        "title": "Mamdani proposes five-year extension to shutter notorious Rikers Island prison",
+        "title": "Reporter says lengthy Texas execution was \u2018like no other\u2019 he\u2019d seen",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-20T21:02:12Z"
+        "publishedAt": "2026-11-20T22:02:18Z"
       },
       {
-        "title": "Trump considering new Iran strikes as US military warns of strain on forces",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-20T20:19:49Z"
+        "title": "Trump defends calling Putin a friend but says he \u2018can\u2019t speak\u2019 to whether he's a friend to the US",
+        "source": "AP News",
+        "publishedAt": "2026-11-20T21:47:00Z"
       },
       {
-        "title": "Texas Prisoner Moaned as Drugs Flowed During Execution, Witnesses Say",
+        "title": "Agriculture secretary\u2019s \u2018proselytizing\u2019 emails are unconstitutional, judge rules",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-20T21:38:11Z"
+      },
+      {
+        "title": "On the Carpet of Melania Trump\u2019s Amazon Premiere in New York",
         "source": "The New York Times",
-        "publishedAt": "2026-11-20T20:17:01Z"
+        "publishedAt": "2026-11-20T20:42:00Z"
       }
     ]
   },
