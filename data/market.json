@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-11-19T22:51:42Z",
+  "updatedAt": "2026-11-20T08:14:36Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.0992 on 2026-11-19 vs Yahoo spot 1.0971",
+    "Nasdaq last sale 126.04 matched",
+    "ECB reference 1.0992 on 2026-11-19 vs Yahoo spot 1.0979",
     "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
@@ -15,9 +16,9 @@
       "currency": "EUR",
       "session": "xetra",
       "price": 54.68,
-      "previousClose": 55.94,
-      "change": -1.26,
-      "changePct": -2.2524,
+      "previousClose": 54.68,
+      "change": 0.0,
+      "changePct": 0.0,
       "asOf": "2026-11-19T16:37:10Z",
       "digits": 2,
       "sparkline": [
@@ -112,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.02,
-      "previousClose": 15.36,
-      "change": -0.34,
-      "changePct": -2.2135,
-      "asOf": "2026-11-19T20:59:59Z",
+      "price": 15.03,
+      "previousClose": 15.35,
+      "change": -0.32,
+      "changePct": -2.0847,
+      "asOf": "2026-11-19T21:00:00Z",
       "digits": 2,
       "sparkline": [
         15.35,
@@ -285,7 +286,7 @@
         155.56,
         155.03,
         154.53,
-        153.94,
+        153.944,
         153.515,
         152.53,
         151.8344,
@@ -310,7 +311,7 @@
         148.7284,
         148.3416,
         149.8942,
-        150.22,
+        150.25,
         150.49,
         149.5801,
         148.98,
@@ -366,34 +367,34 @@
       "change": -147.8,
       "changePct": -2.0181,
       "digits": 2,
-      "asOf": "2026-11-19T21:59:18Z"
+      "asOf": "2026-11-19T21:00:00Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49097.06,
-      "change": -1101.11,
+      "price": 49097.1,
+      "change": -1101.1,
       "changePct": -2.1935,
       "digits": 2,
-      "asOf": "2026-11-19T21:59:13Z"
+      "asOf": "2026-11-19T21:00:00Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
       "price": 25463.81,
-      "change": -272.43,
-      "changePct": -1.0585,
+      "change": 0.0,
+      "changePct": 0.0,
       "digits": 2,
       "asOf": "2026-11-19T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0971,
-      "change": -0.0007,
-      "changePct": -0.0638,
+      "price": 1.0979,
+      "change": 0.0006,
+      "changePct": 0.0547,
       "digits": 4,
-      "asOf": "2026-11-19T22:50:45Z"
+      "asOf": "2026-11-20T08:13:47Z"
     }
   },
   "headlines": {
@@ -443,46 +444,46 @@
     ],
     "nvidia": [
       {
-        "title": "Nvidia's Fallout Is a Gift to Billionaires Ambani and Adani",
+        "title": "Nvidia Scandal Fallout Creates Opening for India\u2019s AI Contenders",
         "source": "Bloomberg",
-        "publishedAt": "2026-11-19T19:01:20Z"
+        "publishedAt": "2026-11-20T06:38:00Z"
       },
       {
-        "title": "Trump bought up to $265,000 of Nvidia stock in September, disclosure shows",
-        "source": "Reuters",
-        "publishedAt": "2026-11-19T18:37:35Z"
-      },
-      {
-        "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
-        "source": "CNBC",
-        "publishedAt": "2026-11-19T17:59:04Z"
-      },
-      {
-        "title": "US Lawmakers Warn Nvidia Scandal Exposes A Bigger AI Threat",
+        "title": "California AG Subpoenas Nvidia Over Jensen Huang\u2019s Alleged Chinese Spy Affair",
         "source": "Forbes",
-        "publishedAt": "2026-11-19T17:53:39Z"
+        "publishedAt": "2026-11-20T06:25:14Z"
+      },
+      {
+        "title": "Can Nvidia learn from AIG\u2019s mistakes?",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-20T05:00:17Z"
+      },
+      {
+        "title": "China\u2019s AI Firms Are Addicted to Nvidia Chips. Now They Are Facing Withdrawal.",
+        "source": "WSJ",
+        "publishedAt": "2026-11-20T03:00:00Z"
       }
     ],
     "top": [
       {
-        "title": "Arts panel asks Trump administration to rethink East Potomac golf course\u2019s scope",
+        "title": "Senate rejects resolution to block Trump from striking Iran",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-19T22:45:52Z"
+        "publishedAt": "2026-11-20T06:28:54Z"
       },
       {
-        "title": "Democrats renew push for records from law firms that struck deals with Trump",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-19T22:26:54Z"
-      },
-      {
-        "title": "Florida set to carry out its record-breaking 20th execution same day as a Texas lethal injection",
+        "title": "Judge says agriculture secretary\u2019s religious emails were unconstitutional",
         "source": "AP News",
-        "publishedAt": "2026-11-19T21:42:00Z"
+        "publishedAt": "2026-11-20T04:48:00Z"
       },
       {
-        "title": "Virginia school district shuts after finding 500 staff weren\u2019t properly screened",
+        "title": "Justice Dept. drops appeal in bid to delay certification of Alaska Senate win",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-19T21:15:00Z"
+        "publishedAt": "2026-11-20T04:30:00Z"
+      },
+      {
+        "title": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
+        "source": "AP News",
+        "publishedAt": "2026-11-20T03:59:00Z"
       }
     ]
   },
@@ -512,10 +513,6 @@
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-10-30",
-        "close": 50.58
-      },
       {
         "date": "2026-11-02",
         "close": 50.02
@@ -567,10 +564,6 @@
       {
         "date": "2026-11-18",
         "close": 55.94
-      },
-      {
-        "date": "2026-11-19",
-        "close": 54.68
       }
     ],
     "bayry": [
@@ -632,14 +625,10 @@
       },
       {
         "date": "2026-11-19",
-        "close": 15.02
+        "close": 15.03
       }
     ],
     "dax": [
-      {
-        "date": "2026-10-30",
-        "close": 25818.2109
-      },
       {
         "date": "2026-11-02",
         "close": 25981.0898
