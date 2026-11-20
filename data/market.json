@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-20T16:39:59Z",
+  "updatedAt": "2026-11-20T17:39:12Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 129.79 matched",
-    "ECB reference 1.0990 on 2026-11-20 vs Yahoo spot 1.0987",
-    "Bayer ADR ratio check 4.00 ordinary shares"
+    "Nasdaq last sale 129.46 matched",
+    "ECB reference 1.0990 on 2026-11-20 vs Yahoo spot 1.0982",
+    "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 53.82,
+      "price": 53.36,
       "previousClose": 54.68,
-      "change": -0.86,
-      "changePct": -1.5728,
-      "asOf": "2026-11-20T16:24:38Z",
+      "change": -1.32,
+      "changePct": -2.414,
+      "asOf": "2026-11-20T16:37:27Z",
       "digits": 2,
       "sparkline": [
         54.34,
@@ -33,7 +33,7 @@
         53.92,
         54.06,
         53.88,
-        53.92,
+        54.14,
         54.2,
         54.14,
         54.2,
@@ -41,68 +41,68 @@
         54.26,
         54.12,
         54.06,
-        54.02,
+        54.2,
         54.18,
         54.3,
-        54.34,
+        54.42,
         54.42,
         54.38,
         54.4,
-        54.44,
+        54.38,
         54.36,
         54.4,
         54.4,
-        54.36,
+        54.4,
         54.36,
         54.32,
-        54.3,
         54.28,
-        54.2,
+        54.22,
         54.2,
         54.2,
         54.22,
-        54.26,
         54.24,
+        54.26,
         54.22,
+        54.12,
         54.04,
         54.0,
-        54.0,
         53.92,
-        54.2,
-        54.2,
-        54.0,
-        53.98,
-        53.94,
         53.88,
+        54.2,
+        54.2,
+        53.98,
+        54.0,
+        53.94,
         53.94,
         53.92,
+        54.04,
         54.1,
-        54.26,
         54.22,
         54.18,
-        54.32,
+        54.3,
         54.32,
         54.34,
+        54.44,
         54.42,
-        54.56,
         54.54,
         54.48,
+        54.46,
         54.38,
-        54.42,
         54.56,
         54.52,
+        54.34,
         54.14,
-        54.06,
         54.16,
         54.2,
-        54.18,
+        54.32,
         54.26,
         54.16,
         54.12,
-        53.92,
+        53.94,
         53.94,
         53.88,
-        53.82
+        53.8,
+        53.36
       ],
       "sessionDate": "2026-11-20"
     },
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.8,
+      "price": 14.59,
       "previousClose": 15.02,
-      "change": -0.22,
-      "changePct": -1.4647,
-      "asOf": "2026-11-20T16:23:50Z",
+      "change": -0.43,
+      "changePct": -2.8628,
+      "asOf": "2026-11-20T17:18:09Z",
       "digits": 2,
       "sparkline": [
         14.98,
@@ -133,7 +133,18 @@
         14.84,
         14.83,
         14.82,
-        14.8
+        14.8,
+        14.78,
+        14.68,
+        14.62,
+        14.61,
+        14.62,
+        14.62,
+        14.65,
+        14.63,
+        14.63,
+        14.6,
+        14.59
       ],
       "sessionDate": "2026-11-20"
     },
@@ -144,11 +155,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 129.79,
+      "price": 129.42,
       "previousClose": 126.04,
-      "change": 3.75,
-      "changePct": 2.9752,
-      "asOf": "2026-11-20T16:39:45Z",
+      "change": 3.38,
+      "changePct": 2.6817,
+      "asOf": "2026-11-20T17:38:54Z",
       "digits": 2,
       "sparkline": [
         129.39,
@@ -176,8 +187,20 @@
         129.827,
         130.045,
         129.93,
-        129.725,
-        129.7886
+        129.775,
+        129.37,
+        129.55,
+        129.625,
+        129.67,
+        129.69,
+        129.705,
+        129.76,
+        129.65,
+        129.685,
+        129.762,
+        129.465,
+        129.405,
+        129.42
       ],
       "sessionDate": "2026-11-20"
     },
@@ -188,11 +211,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 136.22,
+      "price": 135.01,
       "previousClose": 145.98,
-      "change": -9.76,
-      "changePct": -6.6858,
-      "asOf": "2026-11-20T16:39:43Z",
+      "change": -10.97,
+      "changePct": -7.5147,
+      "asOf": "2026-11-20T17:38:59Z",
       "digits": 2,
       "sparkline": [
         140.82,
@@ -220,8 +243,20 @@
         136.8,
         136.66,
         136.345,
-        136.22,
-        136.215
+        136.11,
+        135.82,
+        135.95,
+        135.96,
+        136.6301,
+        135.14,
+        136.0513,
+        135.2901,
+        135.27,
+        135.3001,
+        135.415,
+        135.9099,
+        135.46,
+        135.01
       ],
       "sessionDate": "2026-11-20"
     }
@@ -230,38 +265,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7053.48,
-      "change": -122.35,
-      "changePct": -1.705,
+      "price": 7008.4,
+      "change": -167.43,
+      "changePct": -2.3332,
       "digits": 2,
-      "asOf": "2026-11-20T16:39:47Z"
+      "asOf": "2026-11-20T17:38:59Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 48945.32,
-      "change": -151.74,
-      "changePct": -0.3091,
+      "price": 48700.31,
+      "change": -396.75,
+      "changePct": -0.8081,
       "digits": 2,
-      "asOf": "2026-11-20T16:39:47Z"
+      "asOf": "2026-11-20T17:38:58Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 24857.4,
-      "change": -606.41,
-      "changePct": -2.3815,
+      "price": 24802.78,
+      "change": -661.03,
+      "changePct": -2.596,
       "digits": 2,
-      "asOf": "2026-11-20T16:24:47Z"
+      "asOf": "2026-11-20T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0987,
-      "change": 0.0014,
-      "changePct": 0.1276,
+      "price": 1.0982,
+      "change": 0.0009,
+      "changePct": 0.082,
       "digits": 4,
-      "asOf": "2026-11-20T16:39:44Z"
+      "asOf": "2026-11-20T17:38:45Z"
     }
   },
   "headlines": {
@@ -311,6 +346,11 @@
     ],
     "nvidia": [
       {
+        "title": "Jensen Huang Loses A Quarter Of His Wealth After Scandal\u2014As Google Passes Nvidia In Market Cap",
+        "source": "Forbes",
+        "publishedAt": "2026-11-20T17:31:24Z"
+      },
+      {
         "title": "Nvidia's share slide knocks it below Alphabet in valuation",
         "source": "Reuters",
         "publishedAt": "2026-11-20T15:31:27Z"
@@ -324,28 +364,23 @@
         "title": "'Big Short' Michael Burry says he 'tried to warn' about Nvidia, CoreWeave, Nebius stocks",
         "source": "Business Insider",
         "publishedAt": "2026-11-20T14:59:00Z"
-      },
-      {
-        "title": "Nvidia Turmoil Leaves Few Stock Market Winners in Sea of Losers",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-20T14:42:04Z"
       }
     ],
     "top": [
+      {
+        "title": "Agriculture Secretary\u2019s Christian Messages to Staff Went \u2018Too Far,\u2019 Judge Says",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-20T15:56:00Z"
+      },
       {
         "title": "2 Earthquakes Strike Los Angeles Area and Central California",
         "source": "The New York Times",
         "publishedAt": "2026-11-20T15:20:39Z"
       },
       {
-        "title": "U.S. Auctions 31.5 Million Acres of Pacific Ocean to Deep Sea Mining Company",
+        "title": "A Dairy Farmer Ran for Office to Prove a Point. He Accidentally Won.",
         "source": "The New York Times",
-        "publishedAt": "2026-11-20T14:16:00Z"
-      },
-      {
-        "title": "Justice Department Gives Up on Alaska Senate Lawsuit",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-20T12:54:00Z"
+        "publishedAt": "2026-11-20T13:56:23Z"
       },
       {
         "title": "Texas death-row inmate screams as execution takes more than one hour",
@@ -438,7 +473,7 @@
       },
       {
         "date": "2026-11-20",
-        "close": 53.8
+        "close": 53.36
       }
     ],
     "bayry": [
@@ -500,7 +535,7 @@
       },
       {
         "date": "2026-11-20",
-        "close": 14.8
+        "close": 14.59
       }
     ],
     "dax": [
@@ -562,7 +597,7 @@
       },
       {
         "date": "2026-11-20",
-        "close": 24853.5605
+        "close": 24802.7793
       }
     ]
   }
