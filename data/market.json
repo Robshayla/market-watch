@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-20T12:25:03Z",
+  "updatedAt": "2026-11-20T13:44:35Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0992 on 2026-11-19 vs Yahoo spot 1.0971",
-    "Bayer ADR ratio check 3.96 ordinary shares"
+    "ECB reference 1.0992 on 2026-11-19 vs Yahoo spot 1.0995",
+    "Bayer ADR ratio check 3.95 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 54.22,
+      "price": 53.96,
       "previousClose": 54.68,
-      "change": -0.46,
-      "changePct": -0.8413,
-      "asOf": "2026-11-20T12:09:32Z",
+      "change": -0.72,
+      "changePct": -1.3168,
+      "asOf": "2026-11-20T13:28:42Z",
       "digits": 2,
       "sparkline": [
         54.34,
@@ -70,8 +70,24 @@
         54.2,
         54.22,
         54.24,
-        54.16,
-        54.22
+        54.26,
+        54.24,
+        54.22,
+        54.12,
+        54.04,
+        54.0,
+        54.0,
+        53.92,
+        53.88,
+        54.2,
+        54.2,
+        54.0,
+        53.98,
+        54.0,
+        53.94,
+        53.88,
+        53.9,
+        53.96
       ],
       "sessionDate": "2026-11-20"
     },
@@ -350,20 +366,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 24936.53,
-      "change": -527.28,
-      "changePct": -2.0707,
+      "price": 24854.58,
+      "change": -609.23,
+      "changePct": -2.3925,
       "digits": 2,
-      "asOf": "2026-11-20T12:09:50Z"
+      "asOf": "2026-11-20T13:29:22Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0971,
-      "change": -0.0002,
-      "changePct": -0.0182,
+      "price": 1.0995,
+      "change": 0.0022,
+      "changePct": 0.2005,
       "digits": 4,
-      "asOf": "2026-11-20T12:24:48Z"
+      "asOf": "2026-11-20T13:43:44Z"
     }
   },
   "headlines": {
@@ -396,11 +412,6 @@
         "publishedAt": "2026-11-19T22:12:23Z"
       },
       {
-        "title": "Walmart Inc (WMT) (Q3 2027) Earnings Call Highlights: Raised Guidance, 23% US E-Commerce Growth ...",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-19T21:00:48Z"
-      },
-      {
         "title": "5 Economic Realities Hidden Inside Walmart\u2019s Recent Earnings",
         "source": "Forbes",
         "publishedAt": "2026-11-19T19:53:56Z"
@@ -409,31 +420,41 @@
         "title": "Walmart warns of fuel cost pressure, lifts annual targets ahead of holidays",
         "source": "Reuters",
         "publishedAt": "2026-11-19T18:38:53Z"
+      },
+      {
+        "title": "Walmart shares slip after a third-quarter beat and a higher full-year outlook",
+        "source": "Startup Fortune",
+        "publishedAt": "2026-11-19T16:31:28Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Stocks Often Prosper After an Abrupt C.E.O. Exit. Is Nvidia Different?",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-20T10:02:23Z"
+        "title": "The Morning Risk Report: China\u2019s AI Firms Are Hooked on Nvidia Chips. Now Comes the Withdrawal.",
+        "source": "WSJ",
+        "publishedAt": "2026-11-20T12:59:06Z"
       },
       {
-        "title": "Anthropic shares fall 8% in premarket amid AI selloff as Nvidia, AMD shares drop",
+        "title": "Rep. John Moolenaar: Nvidia, AMD chip sales to China need scrutiny",
         "source": "CNBC",
-        "publishedAt": "2026-11-20T09:06:36Z"
+        "publishedAt": "2026-11-20T12:54:46Z"
       },
       {
-        "title": "Nvidia Scandal Fallout Creates Opening for India AI Hopefuls",
+        "title": "Nvidia Turmoil Leaves Few Stock Market Winners in Sea of Losers",
         "source": "Bloomberg",
-        "publishedAt": "2026-11-20T07:50:00Z"
+        "publishedAt": "2026-11-20T12:21:00Z"
       },
       {
-        "title": "California AG Subpoenas Nvidia Over Jensen Huang\u2019s Alleged Chinese Spy Affair",
-        "source": "Forbes",
-        "publishedAt": "2026-11-20T06:25:14Z"
+        "title": "COMMENTARY: Anthropic's super-sized debut, Nvidia China crisis and a GTA heist: The financial week in five charts",
+        "source": "Reuters",
+        "publishedAt": "2026-11-20T12:01:09Z"
       }
     ],
     "top": [
+      {
+        "title": "Justice Department Gives Up on Alaska Senate Lawsuit",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-20T12:54:00Z"
+      },
       {
         "title": "White House replaces cyber director Sean Cairncross amid widespread tech outages",
         "source": "CNBC",
@@ -445,14 +466,9 @@
         "publishedAt": "2026-11-20T10:02:31Z"
       },
       {
-        "title": "Trump's \u2018Golden Dome\u2019 in Greenland risks being \u2018absolutely devastating\u2019 for U.S.-European relations",
-        "source": "Fortune",
-        "publishedAt": "2026-11-20T08:00:00Z"
-      },
-      {
-        "title": "Court to hear appeal that could lead to dismissal of Lindsay Clancy case",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-20T07:07:47Z"
+        "title": "Jimmy Kimmel Recaps Trump\u2019s \u2018Big Dim Summit\u2019",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-20T08:14:43Z"
       }
     ]
   },
@@ -540,7 +556,7 @@
       },
       {
         "date": "2026-11-20",
-        "close": 54.22
+        "close": 53.98
       }
     ],
     "bayry": [
@@ -664,7 +680,7 @@
       },
       {
         "date": "2026-11-20",
-        "close": 24937.0391
+        "close": 24852.0801
       }
     ]
   }
