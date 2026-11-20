@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-20T18:38:00Z",
+  "updatedAt": "2026-11-20T19:42:56Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 129.76 matched",
-    "ECB reference 1.0990 on 2026-11-20 vs Yahoo spot 1.0973",
+    "Nasdaq last sale 129.12 matched",
+    "ECB reference 1.0990 on 2026-11-20 vs Yahoo spot 1.0976",
     "Bayer ADR ratio check 4.02 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.58,
+      "price": 14.57,
       "previousClose": 15.02,
-      "change": -0.44,
-      "changePct": -2.9294,
-      "asOf": "2026-11-20T18:12:38Z",
+      "change": -0.45,
+      "changePct": -2.996,
+      "asOf": "2026-11-20T19:22:00Z",
       "digits": 2,
       "sparkline": [
         14.98,
@@ -147,7 +147,10 @@
         14.59,
         14.6,
         14.58,
-        14.58
+        14.58,
+        14.61,
+        14.59,
+        14.57
       ],
       "sessionDate": "2026-11-20"
     },
@@ -158,11 +161,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 129.78,
+      "price": 129.12,
       "previousClose": 126.04,
-      "change": 3.74,
-      "changePct": 2.9673,
-      "asOf": "2026-11-20T18:37:44Z",
+      "change": 3.08,
+      "changePct": 2.4437,
+      "asOf": "2026-11-20T19:42:40Z",
       "digits": 2,
       "sparkline": [
         129.39,
@@ -214,8 +217,21 @@
         129.75,
         129.6,
         129.84,
-        129.82,
-        129.78
+        129.79,
+        129.62,
+        129.79,
+        129.785,
+        129.634,
+        129.17,
+        129.12,
+        128.955,
+        129.075,
+        128.785,
+        128.6,
+        128.615,
+        128.79,
+        129.035,
+        129.115
       ],
       "sessionDate": "2026-11-20"
     },
@@ -226,11 +242,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 136.06,
+      "price": 130.1,
       "previousClose": 145.98,
-      "change": -9.92,
-      "changePct": -6.7955,
-      "asOf": "2026-11-20T18:37:47Z",
+      "change": -15.88,
+      "changePct": -10.8782,
+      "asOf": "2026-11-20T19:42:42Z",
       "digits": 2,
       "sparkline": [
         140.82,
@@ -282,8 +298,21 @@
         136.34,
         135.788,
         135.98,
-        136.06,
-        136.06
+        136.0301,
+        135.45,
+        135.45,
+        136.03,
+        135.83,
+        135.5599,
+        134.24,
+        133.0,
+        131.6,
+        130.995,
+        130.5401,
+        128.895,
+        130.425,
+        130.05,
+        130.1009
       ],
       "sessionDate": "2026-11-20"
     }
@@ -292,20 +321,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7033.22,
-      "change": -142.61,
-      "changePct": -1.9874,
+      "price": 6974.45,
+      "change": -201.38,
+      "changePct": -2.8064,
       "digits": 2,
-      "asOf": "2026-11-20T18:37:46Z"
+      "asOf": "2026-11-20T19:42:43Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 48828.85,
-      "change": -268.21,
-      "changePct": -0.5463,
+      "price": 48549.59,
+      "change": -547.47,
+      "changePct": -1.1151,
       "digits": 2,
-      "asOf": "2026-11-20T18:37:48Z"
+      "asOf": "2026-11-20T19:42:43Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -319,20 +348,15 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0973,
-      "change": 0.0,
-      "changePct": 0.0,
+      "price": 1.0976,
+      "change": 0.0003,
+      "changePct": 0.0273,
       "digits": 4,
-      "asOf": "2026-11-20T18:37:46Z"
+      "asOf": "2026-11-20T19:41:43Z"
     }
   },
   "headlines": {
     "bayer": [
-      {
-        "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-11-03T08:00:00Z"
-      },
       {
         "title": "Bayer to invest $2.2 billion in new US pharma site",
         "source": "Reuters",
@@ -347,72 +371,77 @@
         "title": "'Better every quarter': Bayer CEO stays course on turnaround plan as pharma sales underwhelm in Q2",
         "source": "Fierce Pharma",
         "publishedAt": "2026-08-04T07:00:00Z"
+      },
+      {
+        "title": "Bayer Weighs U.S. Pharma Expansion as Turnaround Picks Up Speed",
+        "source": "WSJ",
+        "publishedAt": "2026-04-01T07:00:00Z"
       }
     ],
     "walmart": [
+      {
+        "title": "California investor tied to acquisition of World Golf Village Walmart still under construction",
+        "source": "The Business Journals",
+        "publishedAt": "2026-11-20T19:02:00Z"
+      },
       {
         "title": "Walmart Inc Stock (WMT) Moved Up by 3.05% on Nov 20: What Signal Does It Send?",
         "source": "TradingKey",
         "publishedAt": "2026-11-20T15:15:27Z"
       },
       {
-        "title": "Walmart, Target Highlight Groceries Heading Into the Holidays",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-20T14:01:49Z"
+        "title": "Walmart\u2019s Digital Sales Are Now Driving Its Growth, Not Stores",
+        "source": "WSJ",
+        "publishedAt": "2026-11-20T13:37:05Z"
       },
       {
         "title": "Walmart Inc. Q3 2027 Earnings Call Summary",
         "source": "Yahoo Finance",
         "publishedAt": "2026-11-19T22:12:23Z"
-      },
-      {
-        "title": "5 Economic Realities Hidden Inside Walmart\u2019s Recent Earnings",
-        "source": "Forbes",
-        "publishedAt": "2026-11-19T19:53:56Z"
       }
     ],
     "nvidia": [
       {
+        "title": "EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say",
+        "source": "Reuters",
+        "publishedAt": "2026-11-20T19:28:52Z"
+      },
+      {
+        "title": "Nvidia's 7-week losing streak is longest since 2008 financial crisis",
+        "source": "CNBC",
+        "publishedAt": "2026-11-20T19:26:29Z"
+      },
+      {
+        "title": "Former Nvidia CEO Huang agreed to testify at public US Senate hearing, senator's aide says",
+        "source": "Reuters",
+        "publishedAt": "2026-11-20T19:21:45Z"
+      },
+      {
         "title": "Nvidia's share slide knocks it below Alphabet in valuation",
         "source": "Reuters",
         "publishedAt": "2026-11-20T15:31:27Z"
-      },
-      {
-        "title": "'Big Short' Michael Burry says he 'tried to warn' about Nvidia, CoreWeave, Nebius stocks",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-20T14:59:00Z"
-      },
-      {
-        "title": "How Jensen Huang Made Humiliation Routine at Nvidia",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-20T14:43:10Z"
-      },
-      {
-        "title": "Nvidia Turmoil Leaves Few Stock Market Winners in Sea of Losers",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-20T14:42:04Z"
       }
     ],
     "top": [
+      {
+        "title": "White House removes cyber-security chief after series of tech outages",
+        "source": "BBC",
+        "publishedAt": "2026-11-20T19:03:56Z"
+      },
       {
         "title": "Agriculture Secretary\u2019s religious emails are unconstitutional, judge rules",
         "source": "The Washington Post",
         "publishedAt": "2026-11-20T18:10:31Z"
       },
       {
-        "title": "As He Leaves Office, Ken Paxton Drops Suits Against Political Opponents",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-20T15:56:17Z"
+        "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+        "source": "CNBC",
+        "publishedAt": "2026-11-20T17:45:38Z"
       },
       {
-        "title": "2 Earthquakes Rattle California",
+        "title": "Texas Prisoner Moaned as Drugs Flowed During Execution, Witnesses Say",
         "source": "The New York Times",
-        "publishedAt": "2026-11-20T15:20:39Z"
-      },
-      {
-        "title": "Who Turned Out for Melania Trump in New York?",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-20T14:30:44Z"
+        "publishedAt": "2026-11-20T17:31:55Z"
       }
     ]
   },
@@ -562,7 +591,7 @@
       },
       {
         "date": "2026-11-20",
-        "close": 14.58
+        "close": 14.57
       }
     ],
     "dax": [
