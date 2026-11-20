@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-20T15:37:58Z",
+  "updatedAt": "2026-11-20T16:39:59Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 130.24 matched",
-    "ECB reference 1.0990 on 2026-11-20 vs Yahoo spot 1.0991",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "Nasdaq last sale 129.79 matched",
+    "ECB reference 1.0990 on 2026-11-20 vs Yahoo spot 1.0987",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,65 +15,59 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 54.1,
+      "price": 53.82,
       "previousClose": 54.68,
-      "change": -0.58,
-      "changePct": -1.0607,
-      "asOf": "2026-11-20T15:22:31Z",
+      "change": -0.86,
+      "changePct": -1.5728,
+      "asOf": "2026-11-20T16:24:38Z",
       "digits": 2,
       "sparkline": [
         54.34,
         54.26,
         54.52,
         54.38,
-        54.34,
         54.22,
         54.1,
         54.12,
-        53.86,
+        53.94,
         53.92,
         54.06,
         53.88,
         53.92,
-        54.14,
         54.2,
         54.14,
-        54.18,
+        54.2,
         54.18,
         54.26,
         54.12,
         54.06,
         54.02,
-        54.2,
         54.18,
+        54.3,
         54.34,
-        54.42,
         54.42,
         54.38,
         54.4,
         54.44,
-        54.38,
         54.36,
         54.4,
-        54.36,
         54.4,
+        54.36,
         54.36,
         54.32,
         54.3,
         54.28,
-        54.22,
         54.2,
         54.2,
+        54.2,
         54.22,
-        54.24,
         54.26,
         54.24,
         54.22,
-        54.12,
+        54.04,
         54.0,
         54.0,
         53.92,
-        53.88,
         54.2,
         54.2,
         54.0,
@@ -82,27 +76,33 @@
         53.88,
         53.94,
         53.92,
-        54.04,
         54.1,
         54.26,
         54.22,
-        54.3,
+        54.18,
         54.32,
         54.32,
         54.34,
-        54.44,
         54.42,
         54.56,
         54.54,
-        54.46,
+        54.48,
         54.38,
         54.42,
-        54.54,
+        54.56,
         54.52,
-        54.34,
         54.14,
-        54.14,
-        54.1
+        54.06,
+        54.16,
+        54.2,
+        54.18,
+        54.26,
+        54.16,
+        54.12,
+        53.92,
+        53.94,
+        53.88,
+        53.82
       ],
       "sessionDate": "2026-11-20"
     },
@@ -113,60 +113,29 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.89,
+      "price": 14.8,
       "previousClose": 15.02,
-      "change": -0.13,
-      "changePct": -0.8655,
-      "asOf": "2026-11-20T15:21:47Z",
+      "change": -0.22,
+      "changePct": -1.4647,
+      "asOf": "2026-11-20T16:23:50Z",
       "digits": 2,
       "sparkline": [
-        15.35,
-        15.33,
-        15.28,
-        15.23,
-        15.28,
-        15.26,
-        15.3,
-        15.23,
-        15.2,
-        15.15,
-        15.09,
-        15.12,
-        15.07,
-        15.11,
-        15.11,
-        15.13,
-        15.12,
-        15.06,
-        15.04,
-        15.08,
-        15.04,
-        15.05,
-        15.04,
-        15.04,
-        15.02,
+        14.98,
         15.01,
-        15.02,
-        15.03,
-        15.03,
-        15.0,
-        15.0,
         14.97,
-        14.97,
-        14.99,
-        15.0,
-        15.0,
         14.98,
-        14.98,
-        14.98,
-        14.98,
-        14.98,
-        14.99,
-        15.02,
-        15.02,
-        14.89
+        14.89,
+        14.87,
+        14.9,
+        14.92,
+        14.9,
+        14.86,
+        14.84,
+        14.83,
+        14.82,
+        14.8
       ],
-      "sessionDate": "2026-11-19"
+      "sessionDate": "2026-11-20"
     },
     "wmt": {
       "symbol": "WMT",
@@ -175,11 +144,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 130.23,
+      "price": 129.79,
       "previousClose": 126.04,
-      "change": 4.19,
-      "changePct": 3.3243,
-      "asOf": "2026-11-20T15:37:42Z",
+      "change": 3.75,
+      "changePct": 2.9752,
+      "asOf": "2026-11-20T16:39:45Z",
       "digits": 2,
       "sparkline": [
         129.39,
@@ -195,8 +164,20 @@
         129.97,
         130.0747,
         130.2,
-        130.225,
-        130.23
+        130.22,
+        130.14,
+        130.48,
+        130.34,
+        130.21,
+        130.335,
+        130.095,
+        130.16,
+        129.96,
+        129.827,
+        130.045,
+        129.93,
+        129.725,
+        129.7886
       ],
       "sessionDate": "2026-11-20"
     },
@@ -207,11 +188,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 137.07,
+      "price": 136.22,
       "previousClose": 145.98,
-      "change": -8.91,
-      "changePct": -6.1036,
-      "asOf": "2026-11-20T15:37:44Z",
+      "change": -9.76,
+      "changePct": -6.6858,
+      "asOf": "2026-11-20T16:39:43Z",
       "digits": 2,
       "sparkline": [
         140.82,
@@ -227,8 +208,20 @@
         138.385,
         138.72,
         137.68,
-        137.69,
-        137.07
+        137.4778,
+        136.56,
+        136.86,
+        136.915,
+        137.375,
+        136.2103,
+        137.2951,
+        137.7499,
+        137.07,
+        136.8,
+        136.66,
+        136.345,
+        136.22,
+        136.215
       ],
       "sessionDate": "2026-11-20"
     }
@@ -237,38 +230,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7106.71,
-      "change": -69.12,
-      "changePct": -0.9632,
+      "price": 7053.48,
+      "change": -122.35,
+      "changePct": -1.705,
       "digits": 2,
-      "asOf": "2026-11-20T15:37:43Z"
+      "asOf": "2026-11-20T16:39:47Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49212.41,
-      "change": 115.35,
-      "changePct": 0.2349,
+      "price": 48945.32,
+      "change": -151.74,
+      "changePct": -0.3091,
       "digits": 2,
-      "asOf": "2026-11-20T15:37:45Z"
+      "asOf": "2026-11-20T16:39:47Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 24890.86,
-      "change": -572.95,
-      "changePct": -2.2501,
+      "price": 24857.4,
+      "change": -606.41,
+      "changePct": -2.3815,
       "digits": 2,
-      "asOf": "2026-11-20T15:22:45Z"
+      "asOf": "2026-11-20T16:24:47Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0991,
-      "change": 0.0018,
-      "changePct": 0.164,
+      "price": 1.0987,
+      "change": 0.0014,
+      "changePct": 0.1276,
       "digits": 4,
-      "asOf": "2026-11-20T15:36:47Z"
+      "asOf": "2026-11-20T16:39:44Z"
     }
   },
   "headlines": {
@@ -306,58 +299,58 @@
         "publishedAt": "2026-11-20T14:01:49Z"
       },
       {
+        "title": "Walmart\u2019s Digital Sales Are Now Driving Its Growth, Not Stores",
+        "source": "WSJ",
+        "publishedAt": "2026-11-20T10:37:03Z"
+      },
+      {
         "title": "Walmart Inc. Q3 2027 Earnings Call Summary",
         "source": "Yahoo Finance",
         "publishedAt": "2026-11-19T22:12:23Z"
-      },
-      {
-        "title": "5 Economic Realities Hidden Inside Walmart\u2019s Recent Earnings",
-        "source": "Forbes",
-        "publishedAt": "2026-11-19T19:53:56Z"
       }
     ],
     "nvidia": [
+      {
+        "title": "Nvidia's share slide knocks it below Alphabet in valuation",
+        "source": "Reuters",
+        "publishedAt": "2026-11-20T15:31:27Z"
+      },
+      {
+        "title": "Ex-Super Micro exec married to Nvidia\u2019s former sales chief says she took CEO job days before smuggling scandal broke",
+        "source": "Fortune",
+        "publishedAt": "2026-11-20T15:20:00Z"
+      },
       {
         "title": "'Big Short' Michael Burry says he 'tried to warn' about Nvidia, CoreWeave, Nebius stocks",
         "source": "Business Insider",
         "publishedAt": "2026-11-20T14:59:00Z"
       },
       {
-        "title": "The Morning Risk Report: China\u2019s AI Firms Are Hooked on Nvidia Chips. Now Comes the Withdrawal.",
-        "source": "WSJ",
-        "publishedAt": "2026-11-20T12:57:00Z"
-      },
-      {
-        "title": "Rep. John Moolenaar: Nvidia, AMD chip sales to China need scrutiny",
-        "source": "CNBC",
-        "publishedAt": "2026-11-20T12:54:46Z"
-      },
-      {
         "title": "Nvidia Turmoil Leaves Few Stock Market Winners in Sea of Losers",
         "source": "Bloomberg",
-        "publishedAt": "2026-11-20T12:21:00Z"
+        "publishedAt": "2026-11-20T14:42:04Z"
       }
     ],
     "top": [
+      {
+        "title": "2 Earthquakes Strike Los Angeles Area and Central California",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-20T15:20:39Z"
+      },
       {
         "title": "U.S. Auctions 31.5 Million Acres of Pacific Ocean to Deep Sea Mining Company",
         "source": "The New York Times",
         "publishedAt": "2026-11-20T14:16:00Z"
       },
       {
-        "title": "These Underdogs Were Just Elected. No One Is More Surprised Than They Are.",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-20T13:56:23Z"
-      },
-      {
-        "title": "2 Earthquakes Strike Los Angeles Area and Central California",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-20T13:54:50Z"
-      },
-      {
         "title": "Justice Department Gives Up on Alaska Senate Lawsuit",
         "source": "The New York Times",
         "publishedAt": "2026-11-20T12:54:00Z"
+      },
+      {
+        "title": "Texas death-row inmate screams as execution takes more than one hour",
+        "source": "BBC",
+        "publishedAt": "2026-11-20T12:42:37Z"
       }
     ]
   },
@@ -371,14 +364,14 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
       "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
       "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
@@ -445,7 +438,7 @@
       },
       {
         "date": "2026-11-20",
-        "close": 54.14
+        "close": 53.8
       }
     ],
     "bayry": [
@@ -507,7 +500,7 @@
       },
       {
         "date": "2026-11-20",
-        "close": 14.89
+        "close": 14.8
       }
     ],
     "dax": [
@@ -569,7 +562,7 @@
       },
       {
         "date": "2026-11-20",
-        "close": 24894.0391
+        "close": 24853.5605
       }
     ]
   }
