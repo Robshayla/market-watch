@@ -1,8 +1,9 @@
 {
-  "updatedAt": "2026-11-21T13:56:03Z",
+  "updatedAt": "2026-11-21T18:41:16Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
+    "Nasdaq last sale 127.95 matched",
     "ECB reference 1.0990 on 2026-11-20 vs Yahoo spot 1.0975",
     "Bayer ADR ratio check 3.90 ordinary shares"
   ],
@@ -87,7 +88,7 @@
         54.48,
         54.46,
         54.38,
-        54.54,
+        54.56,
         54.52,
         54.34,
         54.14,
@@ -177,11 +178,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 128.75,
+      "price": 127.95,
       "previousClose": 126.04,
-      "change": 2.71,
-      "changePct": 2.1501,
-      "asOf": "2026-11-20T20:29:19Z",
+      "change": 1.91,
+      "changePct": 1.5154,
+      "asOf": "2026-11-20T21:00:00Z",
       "digits": 2,
       "sparkline": [
         129.39,
@@ -255,8 +256,14 @@
         128.88,
         128.86,
         128.77,
-        128.775,
-        128.75
+        128.815,
+        128.42,
+        128.48,
+        128.01,
+        128.32,
+        127.9987,
+        128.01,
+        127.95
       ],
       "sessionDate": "2026-11-20"
     },
@@ -311,7 +318,7 @@
         135.3001,
         135.415,
         135.9099,
-        135.3,
+        135.32,
         135.3097,
         135.4816,
         135.345,
@@ -330,7 +337,7 @@
         135.83,
         135.5599,
         134.24,
-        132.995,
+        133.0,
         131.6,
         130.995,
         130.5401,
@@ -338,9 +345,9 @@
         130.425,
         130.425,
         129.2899,
-        128.66,
+        128.67,
         129.0,
-        128.07,
+        128.06,
         128.2691,
         126.78,
         127.13,
@@ -420,14 +427,14 @@
     ],
     "walmart": [
       {
-        "title": "California investor tied to acquisition of World Golf Village Walmart still under construction",
-        "source": "The Business Journals",
-        "publishedAt": "2026-11-20T19:02:00Z"
-      },
-      {
         "title": "Walmart Inc. Q3 2027 Earnings Call Summary",
         "source": "Yahoo Finance",
         "publishedAt": "2026-11-19T22:12:23Z"
+      },
+      {
+        "title": "Walmart Inc (WMT) (Q3 2027) Earnings Call Highlights: Raised Guidance, 23% US E-Commerce Growth ...",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-19T21:00:48Z"
       },
       {
         "title": "Walmart warns of fuel cost pressure, lifts annual targets ahead of holidays",
@@ -442,46 +449,46 @@
     ],
     "nvidia": [
       {
-        "title": "The Danger of Jensen Huang\u2019s Handshake Deals at Nvidia",
-        "source": "WSJ",
-        "publishedAt": "2026-11-21T10:30:00Z"
-      },
-      {
-        "title": "I was a director at Nvidia under Jensen Huang. He had a genuinely warm, human side behind his intensity.",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-21T10:05:00Z"
-      },
-      {
-        "title": "Nvidia's neocloud empire lost its biggest champion. Washington may have dealt a bigger blow.",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-21T10:00:00Z"
+        "title": "California Nvidia Probe Covers Potential Criminal Law Violations",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-21T17:11:23Z"
       },
       {
         "title": "Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices",
         "source": "The New York Times",
-        "publishedAt": "2026-11-21T01:06:52Z"
+        "publishedAt": "2026-11-21T16:06:00Z"
+      },
+      {
+        "title": "How Jensen Huang Made Humiliation Routine at Nvidia",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-21T15:55:00Z"
+      },
+      {
+        "title": "The Danger of Jensen Huang\u2019s Handshake Deals at Nvidia",
+        "source": "WSJ",
+        "publishedAt": "2026-11-21T10:30:00Z"
       }
     ],
     "top": [
       {
-        "title": "Christian nationalists see Republicans' midterm losses as an opportunity to supplant Trump's MAGA",
-        "source": "AP News",
-        "publishedAt": "2026-11-21T12:54:00Z"
+        "title": "GOP set to block Trump Pentagon picks as other military moves face headwinds",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-21T18:33:24Z"
       },
       {
-        "title": "Chinese-Born Neuroscientist Is Detained by ICE While Traveling From Conference",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-21T12:53:00Z"
+        "title": "In secret memo, Hegseth restricts U.S.-Canada defense relationship",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-21T18:29:19Z"
       },
       {
-        "title": "Hakeem Jeffries Thinks He\u2019s the Man for This Moment",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-21T10:15:08Z"
+        "title": "Princeton student detained by ICE at D.C. airport is being held in Virginia",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-21T18:16:11Z"
       },
       {
-        "title": "Sarah McBride, Barred From Capitol Bathrooms, Wins Top Post",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-21T10:02:28Z"
+        "title": "Mexico captures top drug lord 'El Chapo Isidro,' latest in string of arrests",
+        "source": "Reuters",
+        "publishedAt": "2026-11-21T16:43:35Z"
       }
     ]
   },
@@ -495,14 +502,14 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
       "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
       "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
