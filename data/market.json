@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T22:48:33Z",
+  "updatedAt": "2026-11-21T08:48:35Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
@@ -112,11 +112,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 15.02,
-      "previousClose": 15.02,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-20T20:59:53Z",
+      "price": 15.01,
+      "previousClose": 15.03,
+      "change": -0.02,
+      "changePct": -0.1331,
+      "asOf": "2026-11-20T21:00:00Z",
       "digits": 2,
       "sparkline": [
         14.98,
@@ -371,8 +371,8 @@
       "symbol": "^DJI",
       "name": "DOW",
       "price": 48147.33,
-      "change": -949.73,
-      "changePct": -1.9344,
+      "change": -949.77,
+      "changePct": -1.9345,
       "digits": 2,
       "asOf": "2026-11-20T21:35:59Z"
     },
@@ -380,8 +380,8 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "price": 24802.78,
-      "change": -661.03,
-      "changePct": -2.596,
+      "change": -661.02,
+      "changePct": -2.5959,
       "digits": 2,
       "asOf": "2026-11-20T17:00:00Z"
     },
@@ -435,64 +435,57 @@
         "publishedAt": "2026-11-19T22:12:23Z"
       },
       {
-        "title": "5 Economic Realities Hidden Inside Walmart\u2019s Recent Earnings",
-        "source": "Forbes",
-        "publishedAt": "2026-11-19T19:53:56Z"
+        "title": "Walmart warns of fuel cost pressure, lifts annual targets ahead of holidays",
+        "source": "Reuters",
+        "publishedAt": "2026-11-19T18:38:53Z"
       }
     ],
     "nvidia": [
       {
-        "title": "SEC Is Investigating Nvidia\u2019s Accounting Practices, According To Report",
-        "source": "Forbes",
-        "publishedAt": "2026-11-20T21:38:00Z"
+        "title": "Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-21T01:06:52Z"
       },
       {
-        "title": "EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say",
-        "source": "Reuters",
-        "publishedAt": "2026-11-20T21:37:28Z"
+        "title": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
+        "source": "AP News",
+        "publishedAt": "2026-11-20T22:36:00Z"
       },
       {
-        "title": "Nvidia's $1 trillion plunge crystalizes the extraordinary power of a tech founder CEO",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-20T21:20:00Z"
-      },
-      {
-        "title": "Wall Street Regulator Probing Nvidia\u2019s Accounting, Report Says",
+        "title": "Watch Nvidia Plunges as SEC Probe Deepens AI Market Selloff | Closing Bell",
         "source": "Bloomberg",
-        "publishedAt": "2026-11-20T21:16:03Z"
+        "publishedAt": "2026-11-20T22:12:21Z"
+      },
+      {
+        "title": "Nvidia faces US regulator\u2019s probe into its accounting",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-20T21:58:08Z"
       }
     ],
     "top": [
       {
-        "title": "Reporter says lengthy Texas execution was \u2018like no other\u2019 he\u2019d seen",
+        "title": "In secret memo, Hegseth restricts U.S.-Canada defense relationship",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-20T22:02:18Z"
+        "publishedAt": "2026-11-21T06:57:39Z"
       },
       {
-        "title": "Trump defends calling Putin a friend but says he \u2018can\u2019t speak\u2019 to whether he's a friend to the US",
+        "title": "L.A. train heists net thieves more than $22 million in goods, feds say",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-21T06:11:54Z"
+      },
+      {
+        "title": "Princeton student detained by ICE at D.C. airport is being held in Virginia",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-21T05:47:00Z"
+      },
+      {
+        "title": "Storms deluging Florida with historic flooding shift further north",
         "source": "AP News",
-        "publishedAt": "2026-11-20T21:47:00Z"
-      },
-      {
-        "title": "Agriculture secretary\u2019s \u2018proselytizing\u2019 emails are unconstitutional, judge rules",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-20T21:38:11Z"
-      },
-      {
-        "title": "On the Carpet of Melania Trump\u2019s Amazon Premiere in New York",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-20T20:42:00Z"
+        "publishedAt": "2026-11-21T05:37:00Z"
       }
     ]
   },
   "releases": [
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
     {
       "eventId": "bayer-q3-2026",
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
@@ -503,6 +496,13 @@
     {
       "eventId": "bayer-q3-2026",
       "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T08:00:00Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
       "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
@@ -631,7 +631,7 @@
       },
       {
         "date": "2026-11-20",
-        "close": 15.02
+        "close": 15.01
       }
     ],
     "dax": [
