@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T08:48:35Z",
+  "updatedAt": "2026-11-21T13:56:03Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
@@ -87,7 +87,7 @@
         54.48,
         54.46,
         54.38,
-        54.56,
+        54.54,
         54.52,
         54.34,
         54.14,
@@ -311,7 +311,7 @@
         135.3001,
         135.415,
         135.9099,
-        135.32,
+        135.3,
         135.3097,
         135.4816,
         135.345,
@@ -330,7 +330,7 @@
         135.83,
         135.5599,
         134.24,
-        133.0,
+        132.995,
         131.6,
         130.995,
         130.5401,
@@ -338,9 +338,9 @@
         130.425,
         130.425,
         129.2899,
-        128.67,
+        128.66,
         129.0,
-        128.06,
+        128.07,
         128.2691,
         126.78,
         127.13,
@@ -425,11 +425,6 @@
         "publishedAt": "2026-11-20T19:02:00Z"
       },
       {
-        "title": "Walmart Inc Stock (WMT) Moved Up by 3.05% on Nov 20: What Signal Does It Send?",
-        "source": "TradingKey",
-        "publishedAt": "2026-11-20T15:15:27Z"
-      },
-      {
         "title": "Walmart Inc. Q3 2027 Earnings Call Summary",
         "source": "Yahoo Finance",
         "publishedAt": "2026-11-19T22:12:23Z"
@@ -438,50 +433,55 @@
         "title": "Walmart warns of fuel cost pressure, lifts annual targets ahead of holidays",
         "source": "Reuters",
         "publishedAt": "2026-11-19T18:38:53Z"
+      },
+      {
+        "title": "Walmart shares slip after a third-quarter beat and a higher full-year outlook",
+        "source": "Startup Fortune",
+        "publishedAt": "2026-11-19T16:31:28Z"
       }
     ],
     "nvidia": [
       {
+        "title": "The Danger of Jensen Huang\u2019s Handshake Deals at Nvidia",
+        "source": "WSJ",
+        "publishedAt": "2026-11-21T10:30:00Z"
+      },
+      {
+        "title": "I was a director at Nvidia under Jensen Huang. He had a genuinely warm, human side behind his intensity.",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-21T10:05:00Z"
+      },
+      {
+        "title": "Nvidia's neocloud empire lost its biggest champion. Washington may have dealt a bigger blow.",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-21T10:00:00Z"
+      },
+      {
         "title": "Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices",
         "source": "The New York Times",
         "publishedAt": "2026-11-21T01:06:52Z"
-      },
-      {
-        "title": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
-        "source": "AP News",
-        "publishedAt": "2026-11-20T22:36:00Z"
-      },
-      {
-        "title": "Watch Nvidia Plunges as SEC Probe Deepens AI Market Selloff | Closing Bell",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-20T22:12:21Z"
-      },
-      {
-        "title": "Nvidia faces US regulator\u2019s probe into its accounting",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-20T21:58:08Z"
       }
     ],
     "top": [
       {
-        "title": "In secret memo, Hegseth restricts U.S.-Canada defense relationship",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-21T06:57:39Z"
-      },
-      {
-        "title": "L.A. train heists net thieves more than $22 million in goods, feds say",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-21T06:11:54Z"
-      },
-      {
-        "title": "Princeton student detained by ICE at D.C. airport is being held in Virginia",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-21T05:47:00Z"
-      },
-      {
-        "title": "Storms deluging Florida with historic flooding shift further north",
+        "title": "Christian nationalists see Republicans' midterm losses as an opportunity to supplant Trump's MAGA",
         "source": "AP News",
-        "publishedAt": "2026-11-21T05:37:00Z"
+        "publishedAt": "2026-11-21T12:54:00Z"
+      },
+      {
+        "title": "Chinese-Born Neuroscientist Is Detained by ICE While Traveling From Conference",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-21T12:53:00Z"
+      },
+      {
+        "title": "Hakeem Jeffries Thinks He\u2019s the Man for This Moment",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-21T10:15:08Z"
+      },
+      {
+        "title": "Sarah McBride, Barred From Capitol Bathrooms, Wins Top Post",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-21T10:02:28Z"
       }
     ]
   },
@@ -495,14 +495,14 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
       "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "title": "Earnings call transcript: Bayer Q3 2026 misses EPS but lifts outlook",
       "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
