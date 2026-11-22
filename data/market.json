@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-22T13:55:15Z",
+  "updatedAt": "2026-11-22T18:42:16Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 127.95 matched",
+    "nasdaq check skipped",
     "ECB reference 1.0990 on 2026-11-20 vs Yahoo spot 1.0975",
     "Bayer ADR ratio check 3.90 ordinary shares"
   ],
@@ -449,46 +449,46 @@
     ],
     "nvidia": [
       {
-        "title": "Nvidia's next CEO must tackle the 'complete reorganization of the AI equilibrium,' investor says",
-        "source": "Fortune",
-        "publishedAt": "2026-11-22T12:30:00Z"
-      },
-      {
-        "title": "China\u2019s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-22T11:03:00Z"
-      },
-      {
-        "title": "Exclusive | The Alice Huang Associate Accused of Funneling Nvidia Chips to China",
+        "title": "Nvidia Reports Faster Growth, Says Jensen Huang Won\u2019t Return as CEO",
         "source": "WSJ",
-        "publishedAt": "2026-11-22T02:00:00Z"
+        "publishedAt": "2026-11-22T18:11:51Z"
       },
       {
-        "title": "California Nvidia Probe Covers Potential Criminal Law Violations",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-21T17:11:23Z"
+        "title": "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-22T17:55:31Z"
+      },
+      {
+        "title": "US seeks answers on Nvidia's sale of chips to China, Bessent says",
+        "source": "Reuters",
+        "publishedAt": "2026-11-22T17:53:07Z"
+      },
+      {
+        "title": "Nvidia Stock Has A Cockroach Problem. What Comes Next Could Be Worse",
+        "source": "Forbes",
+        "publishedAt": "2026-11-22T17:37:43Z"
       }
     ],
     "top": [
       {
-        "title": "How a Crash Into a Cruise Ship in New Orleans Became a \u2018Miracle on the Mississippi\u2019",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-22T13:02:42Z"
-      },
-      {
         "title": "Trump keeps losing in court. Here\u2019s how he gets what he wants anyway.",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-22T12:32:33Z"
+        "publishedAt": "2026-11-22T18:32:33Z"
       },
       {
-        "title": "Fact-Checking Stephen Miller, the New White House Chief of Staff",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-22T10:02:17Z"
+        "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+        "source": "CNBC",
+        "publishedAt": "2026-11-22T16:17:53Z"
       },
       {
-        "title": "See How Much Democrats Gained, From Congress to State Races",
+        "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+        "source": "BBC",
+        "publishedAt": "2026-11-22T15:50:28Z"
+      },
+      {
+        "title": "\u2018I Said a Little Prayer\u2019: A Riverboat Captain Recalls a Crash on the Mississippi",
         "source": "The New York Times",
-        "publishedAt": "2026-11-22T10:00:00Z"
+        "publishedAt": "2026-11-22T14:02:55Z"
       }
     ]
   },
