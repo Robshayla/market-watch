@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T08:48:49Z",
+  "updatedAt": "2026-11-22T13:55:15Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -449,9 +449,14 @@
     ],
     "nvidia": [
       {
+        "title": "Nvidia's next CEO must tackle the 'complete reorganization of the AI equilibrium,' investor says",
+        "source": "Fortune",
+        "publishedAt": "2026-11-22T12:30:00Z"
+      },
+      {
         "title": "China\u2019s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal",
         "source": "The New York Times",
-        "publishedAt": "2026-11-22T04:28:43Z"
+        "publishedAt": "2026-11-22T11:03:00Z"
       },
       {
         "title": "Exclusive | The Alice Huang Associate Accused of Funneling Nvidia Chips to China",
@@ -462,33 +467,28 @@
         "title": "California Nvidia Probe Covers Potential Criminal Law Violations",
         "source": "Bloomberg",
         "publishedAt": "2026-11-21T17:11:23Z"
-      },
-      {
-        "title": "How Jensen Huang Made Humiliation Routine at Nvidia",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-21T15:55:00Z"
       }
     ],
     "top": [
       {
-        "title": "Trump says Cornyn blocked judicial pick because his \u2018feelings were hurt\u2019",
+        "title": "How a Crash Into a Cruise Ship in New Orleans Became a \u2018Miracle on the Mississippi\u2019",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-22T13:02:42Z"
+      },
+      {
+        "title": "Trump keeps losing in court. Here\u2019s how he gets what he wants anyway.",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-22T06:00:00Z"
+        "publishedAt": "2026-11-22T12:32:33Z"
       },
       {
-        "title": "ICE Officers Arrest 2 Passengers Boarding a Flight at Seattle Airport",
+        "title": "Fact-Checking Stephen Miller, the New White House Chief of Staff",
         "source": "The New York Times",
-        "publishedAt": "2026-11-22T05:08:34Z"
+        "publishedAt": "2026-11-22T10:02:17Z"
       },
       {
-        "title": "Judge Blocks Trump Administration\u2019s Effort to Transform Homelessness Policy",
+        "title": "See How Much Democrats Gained, From Congress to State Races",
         "source": "The New York Times",
-        "publishedAt": "2026-11-22T00:03:40Z"
-      },
-      {
-        "title": "US senator says Pentagon restrictions on Canada focus on think tanks and social events",
-        "source": "AP News",
-        "publishedAt": "2026-11-21T23:19:00Z"
+        "publishedAt": "2026-11-22T10:00:00Z"
       }
     ]
   },
