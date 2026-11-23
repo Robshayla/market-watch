@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-23T10:57:15Z",
+  "updatedAt": "2026-11-23T11:50:49Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0990 on 2026-11-20 vs Yahoo spot 1.0970",
-    "Bayer ADR ratio check 3.83 ordinary shares"
+    "ECB reference 1.0990 on 2026-11-20 vs Yahoo spot 1.0963",
+    "Bayer ADR ratio check 3.84 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.44,
+      "price": 52.56,
       "previousClose": 53.36,
-      "change": -0.92,
-      "changePct": -1.7241,
-      "asOf": "2026-11-23T10:41:55Z",
+      "change": -0.8,
+      "changePct": -1.4993,
+      "asOf": "2026-11-23T11:35:30Z",
       "digits": 2,
       "sparkline": [
         53.96,
@@ -53,8 +53,18 @@
         52.04,
         52.06,
         52.26,
-        52.4,
-        52.44
+        52.48,
+        52.3,
+        52.14,
+        52.26,
+        52.18,
+        52.22,
+        52.32,
+        52.44,
+        52.54,
+        52.5,
+        52.54,
+        52.56
       ],
       "sessionDate": "2026-11-23"
     },
@@ -338,20 +348,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25023.45,
-      "change": 220.67,
-      "changePct": 0.8897,
+      "price": 25029.77,
+      "change": 226.99,
+      "changePct": 0.9152,
       "digits": 2,
-      "asOf": "2026-11-23T10:42:03Z"
+      "asOf": "2026-11-23T11:35:37Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.097,
-      "change": -0.0005,
-      "changePct": -0.0456,
+      "price": 1.0963,
+      "change": -0.0012,
+      "changePct": -0.1093,
       "digits": 4,
-      "asOf": "2026-11-23T10:56:43Z"
+      "asOf": "2026-11-23T11:49:44Z"
     }
   },
   "headlines": {
@@ -403,25 +413,30 @@
       {
         "title": "How Nvidia fought for years in Washington to sell its prized chips to China",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-23T10:25:11Z"
+        "publishedAt": "2026-11-23T11:33:12Z"
+      },
+      {
+        "title": "Exclusive | The Alice Huang Associate Accused of Funneling Nvidia Chips to China",
+        "source": "WSJ",
+        "publishedAt": "2026-11-23T11:28:57Z"
+      },
+      {
+        "title": "Nvidia rebounds nearly 10% premarket after shedding $1 trillion in value",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-23T11:21:00Z"
       },
       {
         "title": "Anthropic, Nvidia shares rise in premarket trading after major tech selloff",
         "source": "CNBC",
         "publishedAt": "2026-11-23T09:17:42Z"
-      },
-      {
-        "title": "Nvidia-Backed AI Company Firmus Mulls $1.5 Billion Bond Offering",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-23T08:49:27Z"
-      },
-      {
-        "title": "Trump Urges Nvidia Board To Bring Back Jensen Huang Amid New Chinese Spy Agency Revelations",
-        "source": "Forbes",
-        "publishedAt": "2026-11-23T06:02:45Z"
       }
     ],
     "top": [
+      {
+        "title": "Is Mexico Stepping Up in the War on Drugs?",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-23T11:14:00Z"
+      },
       {
         "title": "How a Crash Into a Cruise Ship in New Orleans Became a \u2018Miracle on the Mississippi\u2019",
         "source": "The New York Times",
@@ -433,14 +448,9 @@
         "publishedAt": "2026-11-23T01:58:56Z"
       },
       {
-        "title": "Carney enlists fake Trump for laughs at Canada\u2019s annual press gallery dinner",
-        "source": "AP News",
-        "publishedAt": "2026-11-23T01:41:00Z"
-      },
-      {
-        "title": "Why Democrat Abdul El-Sayed is Talking Up \u2018TrumpCare\u2019",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-23T00:27:25Z"
+        "title": "Exclusive | Abdul El-Sayed Is Already Shaking Up the Senate",
+        "source": "WSJ",
+        "publishedAt": "2026-11-23T00:02:03Z"
       }
     ]
   },
@@ -461,8 +471,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com Nigeria",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     }
@@ -528,7 +538,7 @@
       },
       {
         "date": "2026-11-23",
-        "close": 52.38
+        "close": 52.56
       }
     ],
     "bayry": [
@@ -652,7 +662,7 @@
       },
       {
         "date": "2026-11-23",
-        "close": 25020.2891
+        "close": 25030.2402
       }
     ]
   }
