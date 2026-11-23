@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-23T16:35:13Z",
+  "updatedAt": "2026-11-23T17:38:30Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 128.82 matched",
-    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0903",
+    "Nasdaq last sale 128.54 matched",
+    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0890",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 53.44,
+      "price": 52.98,
       "previousClose": 53.36,
-      "change": 0.08,
-      "changePct": 0.1499,
-      "asOf": "2026-11-23T16:19:56Z",
+      "change": -0.38,
+      "changePct": -0.7121,
+      "asOf": "2026-11-23T16:39:41Z",
       "digits": 2,
       "sparkline": [
         53.96,
@@ -33,44 +33,43 @@
         52.24,
         52.48,
         52.34,
-        52.08,
+        52.26,
         52.4,
         52.32,
         52.3,
-        52.16,
+        52.2,
         52.1,
         51.74,
         51.96,
-        52.04,
+        51.94,
         51.94,
         52.02,
-        52.1,
         52.26,
+        52.04,
         52.06,
         52.26,
-        52.48,
         52.3,
+        52.14,
         52.26,
         52.18,
-        52.22,
         52.32,
+        52.44,
         52.54,
-        52.5,
         52.54,
         52.56,
+        52.52,
         52.26,
-        52.32,
         52.36,
         52.26,
-        52.0,
+        52.06,
         52.0,
         52.2,
         52.18,
-        52.42,
+        52.26,
         52.52,
         52.4,
         52.24,
-        52.64,
+        52.44,
         52.76,
         52.48,
         52.64,
@@ -85,23 +84,25 @@
         52.92,
         52.82,
         52.7,
-        52.68,
+        52.72,
         52.92,
         53.22,
         53.24,
-        53.32,
+        53.46,
         53.38,
         53.58,
         53.52,
-        53.66,
+        53.78,
         53.9,
         53.74,
         53.58,
-        53.58,
+        53.46,
         53.6,
         53.58,
-        53.56,
-        53.46
+        53.46,
+        53.44,
+        53.32,
+        52.98
       ],
       "sessionDate": "2026-11-23"
     },
@@ -112,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.55,
+      "price": 14.44,
       "previousClose": 15.02,
-      "change": -0.47,
-      "changePct": -3.1292,
-      "asOf": "2026-11-23T16:19:26Z",
+      "change": -0.58,
+      "changePct": -3.8615,
+      "asOf": "2026-11-23T17:14:17Z",
       "digits": 2,
       "sparkline": [
         14.42,
@@ -138,8 +139,17 @@
         14.62,
         14.59,
         14.57,
-        14.56,
-        14.55
+        14.55,
+        14.53,
+        14.52,
+        14.5,
+        14.44,
+        14.45,
+        14.44,
+        14.45,
+        14.44,
+        14.44,
+        14.44
       ],
       "sessionDate": "2026-11-23"
     },
@@ -150,11 +160,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 128.82,
+      "price": 128.54,
       "previousClose": 127.95,
-      "change": 0.87,
-      "changePct": 0.68,
-      "asOf": "2026-11-23T16:34:58Z",
+      "change": 0.59,
+      "changePct": 0.4611,
+      "asOf": "2026-11-23T17:38:13Z",
       "digits": 2,
       "sparkline": [
         126.995,
@@ -181,8 +191,21 @@
         128.79,
         128.81,
         128.805,
-        128.78,
-        128.8226
+        128.8226,
+        128.81,
+        128.62,
+        128.62,
+        128.49,
+        128.575,
+        128.445,
+        128.59,
+        128.715,
+        128.59,
+        128.54,
+        128.45,
+        128.59,
+        128.58,
+        128.5401
       ],
       "sessionDate": "2026-11-23"
     },
@@ -193,11 +216,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 165.75,
+      "price": 165.94,
       "previousClose": 125.53,
-      "change": 40.22,
-      "changePct": 32.0401,
-      "asOf": "2026-11-23T16:35:00Z",
+      "change": 40.41,
+      "changePct": 32.1915,
+      "asOf": "2026-11-23T17:38:16Z",
       "digits": 2,
       "sparkline": [
         159.79,
@@ -225,7 +248,20 @@
         166.63,
         166.72,
         165.77,
-        165.75
+        164.15,
+        164.5042,
+        164.6699,
+        165.145,
+        166.645,
+        166.2626,
+        166.02,
+        166.815,
+        166.08,
+        166.045,
+        166.08,
+        166.56,
+        166.41,
+        165.9421
       ],
       "sessionDate": "2026-11-23"
     }
@@ -234,38 +270,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7256.89,
-      "change": 346.5,
-      "changePct": 5.0142,
+      "price": 7247.61,
+      "change": 337.22,
+      "changePct": 4.8799,
       "digits": 2,
-      "asOf": "2026-11-23T16:35:00Z"
+      "asOf": "2026-11-23T17:38:16Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49701.3,
-      "change": 1553.97,
-      "changePct": 3.2275,
+      "price": 49664.85,
+      "change": 1517.52,
+      "changePct": 3.1518,
       "digits": 2,
-      "asOf": "2026-11-23T16:35:00Z"
+      "asOf": "2026-11-23T17:38:17Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25377.56,
-      "change": 574.78,
-      "changePct": 2.3174,
+      "price": 25337.27,
+      "change": 534.49,
+      "changePct": 2.155,
       "digits": 2,
-      "asOf": "2026-11-23T16:20:00Z"
+      "asOf": "2026-11-23T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0903,
-      "change": -0.0072,
-      "changePct": -0.656,
+      "price": 1.089,
+      "change": -0.0085,
+      "changePct": -0.7745,
       "digits": 4,
-      "asOf": "2026-11-23T16:34:46Z"
+      "asOf": "2026-11-23T17:37:48Z"
     }
   },
   "headlines": {
@@ -308,53 +344,53 @@
         "publishedAt": "2026-11-20T15:15:27Z"
       },
       {
-        "title": "Walmart raises its outlook for the year for the 3rd time after a solid quarter, fuled by e-commerce",
-        "source": "AP News",
-        "publishedAt": "2026-11-19T19:58:00Z"
+        "title": "Walmart warns of fuel cost pressure, lifts annual targets ahead of holidays",
+        "source": "Reuters",
+        "publishedAt": "2026-11-19T18:38:53Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Nvidia reinstates Jensen Huang as CEO amid pressure from President Trump, investors",
+        "title": "Nvidia reinstates Jensen Huang as CEO amid pressure from Trump, investors",
         "source": "Reuters",
-        "publishedAt": "2026-11-23T16:13:20Z"
+        "publishedAt": "2026-11-23T17:19:23Z"
       },
       {
-        "title": "VIEW Nvidia reinstates Jensen Huang as CEO, igniting tech surge",
-        "source": "Reuters",
-        "publishedAt": "2026-11-23T16:12:34Z"
-      },
-      {
-        "title": "Stocks Surge After Jensen Huang Is Reinstated as Nvidia CEO",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-23T16:02:00Z"
-      },
-      {
-        "title": "Jim Cramer: Jensen Huang\u2019s return is 'so huge' for Nvidia and the AI trade",
+        "title": "Jim Cramer shares what's next for The Club after Nvidia's reinstatement of Jensen Huang",
         "source": "CNBC",
-        "publishedAt": "2026-11-23T15:53:47Z"
+        "publishedAt": "2026-11-23T17:12:52Z"
+      },
+      {
+        "title": "Read the memo: Nvidia's board chair tells employees Huang is back 'after careful consideration'",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-23T17:07:00Z"
+      },
+      {
+        "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO",
+        "source": "Reuters",
+        "publishedAt": "2026-11-23T16:53:11Z"
       }
     ],
     "top": [
       {
         "title": "Senate GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-23T15:33:07Z"
+        "publishedAt": "2026-11-23T17:03:07Z"
       },
       {
         "title": "'Chapo Isidro': Mexican soldiers attacked in wake of drug lord's arrest",
         "source": "BBC",
-        "publishedAt": "2026-11-23T13:26:36Z"
+        "publishedAt": "2026-11-23T14:54:03Z"
+      },
+      {
+        "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+        "source": "BBC",
+        "publishedAt": "2026-11-23T13:02:05Z"
       },
       {
         "title": "Medicare for All was once a long shot. Now, steps toward it are part of the Democratic agenda",
         "source": "AP News",
         "publishedAt": "2026-11-23T12:09:00Z"
-      },
-      {
-        "title": "NATO believes Russia is ready to launch nuclear-armed satellite, German media say",
-        "source": "Reuters",
-        "publishedAt": "2026-11-23T09:10:32Z"
       }
     ]
   },
@@ -442,7 +478,7 @@
       },
       {
         "date": "2026-11-23",
-        "close": 53.44
+        "close": 52.98
       }
     ],
     "bayry": [
@@ -504,7 +540,7 @@
       },
       {
         "date": "2026-11-23",
-        "close": 14.55
+        "close": 14.44
       }
     ],
     "dax": [
@@ -566,7 +602,7 @@
       },
       {
         "date": "2026-11-23",
-        "close": 25379.3809
+        "close": 25337.2695
       }
     ]
   }
