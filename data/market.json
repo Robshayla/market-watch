@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-23T18:34:53Z",
+  "updatedAt": "2026-11-23T19:46:01Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 129.31 matched",
-    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0892",
+    "Nasdaq last sale 129.21 matched",
+    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0900",
     "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.45,
+      "price": 14.47,
       "previousClose": 15.02,
-      "change": -0.57,
-      "changePct": -3.7949,
-      "asOf": "2026-11-23T18:18:03Z",
+      "change": -0.55,
+      "changePct": -3.6618,
+      "asOf": "2026-11-23T19:26:13Z",
       "digits": 2,
       "sparkline": [
         14.42,
@@ -154,7 +154,18 @@
         14.44,
         14.45,
         14.45,
-        14.45
+        14.45,
+        14.45,
+        14.46,
+        14.45,
+        14.46,
+        14.46,
+        14.46,
+        14.45,
+        14.45,
+        14.45,
+        14.46,
+        14.47
       ],
       "sessionDate": "2026-11-23"
     },
@@ -165,11 +176,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 129.31,
+      "price": 129.21,
       "previousClose": 127.95,
-      "change": 1.36,
-      "changePct": 1.0629,
-      "asOf": "2026-11-23T18:34:34Z",
+      "change": 1.26,
+      "changePct": 0.9848,
+      "asOf": "2026-11-23T19:45:41Z",
       "digits": 2,
       "sparkline": [
         126.995,
@@ -177,7 +188,7 @@
         127.555,
         127.6624,
         127.495,
-        127.03,
+        127.02,
         127.4,
         127.33,
         127.38,
@@ -220,8 +231,22 @@
         129.17,
         129.275,
         129.27,
+        129.3,
+        129.07,
+        129.125,
+        129.195,
+        129.15,
+        129.065,
+        129.21,
+        129.0736,
+        129.25,
+        129.28,
         129.31,
-        129.305
+        129.175,
+        129.38,
+        129.27,
+        129.2179,
+        129.21
       ],
       "sessionDate": "2026-11-23"
     },
@@ -232,11 +257,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 165.34,
+      "price": 164.21,
       "previousClose": 125.53,
-      "change": 39.81,
-      "changePct": 31.7135,
-      "asOf": "2026-11-23T18:34:39Z",
+      "change": 38.68,
+      "changePct": 30.8134,
+      "asOf": "2026-11-23T19:45:48Z",
       "digits": 2,
       "sparkline": [
         159.79,
@@ -244,7 +269,7 @@
         161.42,
         164.38,
         164.95,
-        168.555,
+        168.5533,
         166.48,
         164.945,
         166.505,
@@ -287,8 +312,22 @@
         165.43,
         165.735,
         165.1301,
-        165.33,
-        165.34
+        165.4,
+        164.4269,
+        164.38,
+        164.64,
+        164.345,
+        163.94,
+        165.235,
+        164.58,
+        164.43,
+        165.015,
+        165.0637,
+        165.165,
+        165.0499,
+        164.3,
+        164.245,
+        164.21
       ],
       "sessionDate": "2026-11-23"
     }
@@ -297,20 +336,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7255.15,
-      "change": 344.76,
-      "changePct": 4.989,
+      "price": 7228.88,
+      "change": 318.49,
+      "changePct": 4.6089,
       "digits": 2,
-      "asOf": "2026-11-23T18:34:38Z"
+      "asOf": "2026-11-23T19:45:48Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49714.89,
-      "change": 1567.56,
-      "changePct": 3.2558,
+      "price": 49586.23,
+      "change": 1438.9,
+      "changePct": 2.9885,
       "digits": 2,
-      "asOf": "2026-11-23T18:34:39Z"
+      "asOf": "2026-11-23T19:45:47Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -324,11 +363,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0892,
-      "change": -0.0083,
-      "changePct": -0.7563,
+      "price": 1.09,
+      "change": -0.0075,
+      "changePct": -0.6834,
       "digits": 4,
-      "asOf": "2026-11-23T18:33:44Z"
+      "asOf": "2026-11-23T19:45:45Z"
     }
   },
   "headlines": {
@@ -349,9 +388,9 @@
         "publishedAt": "2026-11-20T21:12:00Z"
       },
       {
-        "title": "As Bayer spots pharma recovery, questions resurface over potential crop science split",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-11-03T08:00:00Z"
+        "title": "Why Bayer chose Ohio for its $2.2B U.S. pharmaceutical manufacturing investment",
+        "source": "The Business Journals",
+        "publishedAt": "2026-11-04T08:00:00Z"
       }
     ],
     "walmart": [
@@ -378,41 +417,41 @@
     ],
     "nvidia": [
       {
-        "title": "Jensen Huang's Nvidia return puts him on US Inc's 'Boomerang' CEO list",
+        "title": "Trump saw Nvidia's Huang as protector of open-weight AI models, sources say",
         "source": "Reuters",
-        "publishedAt": "2026-11-23T18:22:09Z"
+        "publishedAt": "2026-11-23T19:23:26Z"
       },
       {
-        "title": "Trump says he assured Nvidia that Jensen Huang posed no national security threat",
-        "source": "Reuters",
-        "publishedAt": "2026-11-23T18:14:17Z"
+        "title": "The New York Times. . Nvidia\u2019s board brought back Jensen Huang 11 days after he resigned. Huang\u2019s return is the latest disruption confronting Nvidia\u2019s executive staff, a team of more than two dozen top leaders. Over the past week, those lea",
+        "source": "Facebook",
+        "publishedAt": "2026-11-23T19:20:45Z"
       },
       {
-        "title": "Jensen Huang's return to Nvidia is bad news for Anthropic. Here's why.",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-23T18:10:00Z"
+        "title": "Donald Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
+        "source": "BBC",
+        "publishedAt": "2026-11-23T19:14:44Z"
       },
       {
         "title": "Nvidia reinstates Jensen Huang as CEO amid pressure from Trump, investors",
         "source": "Reuters",
-        "publishedAt": "2026-11-23T18:00:18Z"
+        "publishedAt": "2026-11-23T19:10:50Z"
       }
     ],
     "top": [
       {
+        "title": "How a Crash Into a Cruise Ship in New Orleans Became a \u2018Miracle on the Mississippi\u2019",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-23T19:07:50Z"
+      },
+      {
         "title": "Senate GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-23T17:47:19Z"
+        "publishedAt": "2026-11-23T18:33:07Z"
       },
       {
         "title": "Canada\u2019s prime minister roasts Trump with help from a Trump impersonator",
         "source": "AP News",
         "publishedAt": "2026-11-23T17:18:00Z"
-      },
-      {
-        "title": "How a Crash Into a Cruise Ship in New Orleans Became a \u2018Miracle on the Mississippi\u2019",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-23T17:07:00Z"
       },
       {
         "title": "'Chapo Isidro': Mexican soldiers attacked in wake of drug lord's arrest",
@@ -567,7 +606,7 @@
       },
       {
         "date": "2026-11-23",
-        "close": 14.45
+        "close": 14.47
       }
     ],
     "dax": [
