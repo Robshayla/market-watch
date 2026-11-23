@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-23T22:33:39Z",
+  "updatedAt": "2026-11-23T22:55:17Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0905",
+    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0906",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -401,11 +401,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0905,
-      "change": -0.007,
-      "changePct": -0.6378,
+      "price": 1.0906,
+      "change": -0.0069,
+      "changePct": -0.6287,
       "digits": 4,
-      "asOf": "2026-11-23T22:32:43Z"
+      "asOf": "2026-11-23T22:54:44Z"
     }
   },
   "headlines": {
@@ -455,9 +455,9 @@
     ],
     "nvidia": [
       {
-        "title": "US stocks surge and recover half of last week\u2019s plunge after Jensen Huang returns as Nvidia\u2019s CEO",
-        "source": "AP News",
-        "publishedAt": "2026-11-23T22:20:00Z"
+        "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO",
+        "source": "Reuters",
+        "publishedAt": "2026-11-23T22:30:50Z"
       },
       {
         "title": "COMMENTARY: TRADING DAY Market euphoria as Huang returns to Nvidia",
