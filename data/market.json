@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-23T21:35:16Z",
+  "updatedAt": "2026-11-23T22:33:39Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0906",
+    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0905",
     "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
@@ -292,7 +292,7 @@
         161.42,
         164.38,
         164.95,
-        168.555,
+        168.5533,
         166.48,
         164.945,
         166.505,
@@ -378,7 +378,7 @@
       "change": 326.78,
       "changePct": 4.7288,
       "digits": 2,
-      "asOf": "2026-11-23T21:20:01Z"
+      "asOf": "2026-11-23T21:42:33Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -387,7 +387,7 @@
       "change": 1447.98,
       "changePct": 3.0074,
       "digits": 2,
-      "asOf": "2026-11-23T21:20:01Z"
+      "asOf": "2026-11-23T21:42:39Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -401,15 +401,20 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0906,
-      "change": -0.0069,
-      "changePct": -0.6287,
+      "price": 1.0905,
+      "change": -0.007,
+      "changePct": -0.6378,
       "digits": 4,
-      "asOf": "2026-11-23T21:34:47Z"
+      "asOf": "2026-11-23T22:32:43Z"
     }
   },
   "headlines": {
     "bayer": [
+      {
+        "title": "Lawyers score big with $600 million fee award in Bayer Roundup settlement",
+        "source": "Reuters",
+        "publishedAt": "2026-11-23T22:01:48Z"
+      },
       {
         "title": "Bayer shares slip despite Roundup settlement approval",
         "source": "Reuters",
@@ -424,11 +429,6 @@
         "title": "St. Louis judge approves $7.25B Roundup settlement as Bayer seeks to resolve tens of thousands of claims",
         "source": "The Business Journals",
         "publishedAt": "2026-11-20T21:12:00Z"
-      },
-      {
-        "title": "Why Bayer chose Ohio for its $2.2B U.S. pharmaceutical manufacturing investment",
-        "source": "The Business Journals",
-        "publishedAt": "2026-11-04T08:00:00Z"
       }
     ],
     "walmart": [
@@ -455,46 +455,46 @@
     ],
     "nvidia": [
       {
+        "title": "US stocks surge and recover half of last week\u2019s plunge after Jensen Huang returns as Nvidia\u2019s CEO",
+        "source": "AP News",
+        "publishedAt": "2026-11-23T22:20:00Z"
+      },
+      {
+        "title": "COMMENTARY: TRADING DAY Market euphoria as Huang returns to Nvidia",
+        "source": "Reuters",
+        "publishedAt": "2026-11-23T22:07:16Z"
+      },
+      {
+        "title": "What Jensen Huang\u2019s return means for Nvidia\u2019s Colette Kress",
+        "source": "CNBC",
+        "publishedAt": "2026-11-23T22:05:36Z"
+      },
+      {
         "title": "Nvidia reinstates Jensen Huang after Trump speaks \u2018directly\u2019 to board",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-23T21:28:51Z"
-      },
-      {
-        "title": "Jensen Huang Ends Monday $34 Billion Richer After Being Reinstated As Nvidia CEO (Live Updates)",
-        "source": "Forbes",
-        "publishedAt": "2026-11-23T21:17:00Z"
-      },
-      {
-        "title": "Nvidia just posted its biggest single-day stock rally since 2003 after Jensen Huang's comeback",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-23T21:03:00Z"
-      },
-      {
-        "title": "Political and corporate leaders react to Huang's return as Nvidia CEO",
-        "source": "Reuters",
-        "publishedAt": "2026-11-23T20:52:01Z"
+        "publishedAt": "2026-11-23T21:54:23Z"
       }
     ],
     "top": [
+      {
+        "title": "Trump orders the Army not to detonate bomb-making chemicals in Iowa without court approval",
+        "source": "AP News",
+        "publishedAt": "2026-11-23T21:50:00Z"
+      },
       {
         "title": "How a Crash Into a Cruise Ship in New Orleans Became a \u2018Miracle on the Mississippi\u2019",
         "source": "The New York Times",
         "publishedAt": "2026-11-23T21:03:46Z"
       },
       {
-        "title": "Trump orders the Army not to detonate bomb-making chemicals in Iowa without court approval",
+        "title": "Chinese neuroscientist at Princeton is held by ICE after detention at Washington airport",
         "source": "AP News",
-        "publishedAt": "2026-11-23T20:08:00Z"
+        "publishedAt": "2026-11-23T20:56:00Z"
       },
       {
         "title": "Senate GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer",
         "source": "The Washington Post",
         "publishedAt": "2026-11-23T19:00:01Z"
-      },
-      {
-        "title": "Rain Storms Overwhelm San Francisco\u2019s Sewers, Sending Wastewater Into the Streets",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-23T18:25:16Z"
       }
     ]
   },
