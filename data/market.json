@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-24T18:16:06Z",
+  "updatedAt": "2026-11-24T19:28:45Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 131.88 matched",
-    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0973",
+    "Nasdaq last sale 132.16 matched",
+    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0970",
     "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
@@ -47,7 +47,7 @@
         52.2,
         52.2,
         52.14,
-        52.08,
+        52.1,
         51.88,
         51.84,
         51.86,
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.34,
+      "price": 14.36,
       "previousClose": 14.44,
-      "change": -0.1,
-      "changePct": -0.6925,
-      "asOf": "2026-11-24T17:58:47Z",
+      "change": -0.08,
+      "changePct": -0.554,
+      "asOf": "2026-11-24T19:09:43Z",
       "digits": 2,
       "sparkline": [
         14.38,
@@ -150,7 +150,17 @@
         14.31,
         14.33,
         14.34,
-        14.34
+        14.34,
+        14.34,
+        14.34,
+        14.34,
+        14.34,
+        14.33,
+        14.35,
+        14.34,
+        14.35,
+        14.36,
+        14.36
       ],
       "sessionDate": "2026-11-24"
     },
@@ -161,11 +171,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 131.87,
+      "price": 132.17,
       "previousClose": 129.58,
-      "change": 2.29,
-      "changePct": 1.7672,
-      "asOf": "2026-11-24T18:15:48Z",
+      "change": 2.59,
+      "changePct": 1.9988,
+      "asOf": "2026-11-24T19:28:26Z",
       "digits": 2,
       "sparkline": [
         130.9899,
@@ -213,7 +223,22 @@
         131.9191,
         131.85,
         131.88,
-        131.87
+        131.89,
+        131.875,
+        131.965,
+        131.95,
+        131.89,
+        131.875,
+        131.95,
+        131.7414,
+        131.8836,
+        132.02,
+        131.9699,
+        131.97,
+        131.99,
+        132.145,
+        132.2,
+        132.1699
       ],
       "sessionDate": "2026-11-24"
     },
@@ -224,11 +249,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 153.05,
+      "price": 153.28,
       "previousClose": 165.05,
-      "change": -12.0,
-      "changePct": -7.2705,
-      "asOf": "2026-11-24T18:15:52Z",
+      "change": -11.77,
+      "changePct": -7.1312,
+      "asOf": "2026-11-24T19:28:30Z",
       "digits": 2,
       "sparkline": [
         155.785,
@@ -236,7 +261,7 @@
         154.86,
         155.42,
         155.965,
-        156.24,
+        156.22,
         155.005,
         154.24,
         155.37,
@@ -276,7 +301,22 @@
         152.95,
         152.8045,
         153.065,
-        153.05
+        153.02,
+        153.34,
+        153.475,
+        153.805,
+        154.02,
+        153.89,
+        153.76,
+        153.575,
+        153.31,
+        152.9801,
+        152.935,
+        152.92,
+        153.48,
+        153.4169,
+        153.31,
+        153.275
       ],
       "sessionDate": "2026-11-24"
     }
@@ -285,20 +325,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7198.16,
-      "change": -39.01,
-      "changePct": -0.539,
+      "price": 7203.31,
+      "change": -33.86,
+      "changePct": -0.4679,
       "digits": 2,
-      "asOf": "2026-11-24T18:15:53Z"
+      "asOf": "2026-11-24T19:28:30Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49970.4,
-      "change": 375.09,
-      "changePct": 0.7563,
+      "price": 50022.82,
+      "change": 427.51,
+      "changePct": 0.862,
       "digits": 2,
-      "asOf": "2026-11-24T18:15:54Z"
+      "asOf": "2026-11-24T19:28:31Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -312,11 +352,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0973,
-      "change": 0.0067,
-      "changePct": 0.6143,
+      "price": 1.097,
+      "change": 0.0064,
+      "changePct": 0.5868,
       "digits": 4,
-      "asOf": "2026-11-24T18:15:43Z"
+      "asOf": "2026-11-24T19:27:44Z"
     }
   },
   "headlines": {
@@ -344,11 +384,6 @@
     ],
     "walmart": [
       {
-        "title": "The 25+ Best Walmart Black Friday Deals We\u2019ve Already Found",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-24T15:30:42Z"
-      },
-      {
         "title": "Walmart Inc. (WMT) Is a Trending Stock: Facts to Know Before Betting on It",
         "source": "Yahoo Finance",
         "publishedAt": "2026-11-24T13:00:05Z"
@@ -360,52 +395,57 @@
       },
       {
         "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 20 November",
-        "source": "Investing.com Canada",
-        "publishedAt": "2026-11-24T10:31:24Z"
+        "source": "Investing.com UK",
+        "publishedAt": "2026-11-24T09:50:00Z"
+      },
+      {
+        "title": "Walmart, Berkshire, and other defensive stocks are winning from the AI rout",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-23T12:32:00Z"
       }
     ],
     "nvidia": [
       {
         "title": "Opinion | Nvidia proves nobody knows anything about the stock market",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-24T17:46:50Z"
+        "publishedAt": "2026-11-24T19:16:50Z"
       },
       {
-        "title": "Trump\u2019s Nvidia intervention rewrites the rules of American business",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-24T17:39:52Z"
+        "title": "Jensen Huang\u2019s Return Sent Nvidia Stock Soaring. A Day Later, the Rally Is Unraveling",
+        "source": "Inc",
+        "publishedAt": "2026-11-24T19:03:14Z"
       },
       {
-        "title": "Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
-        "source": "WSJ",
-        "publishedAt": "2026-11-24T17:34:00Z"
+        "title": "Schumer accuses Nvidia CEO of violating US export control law",
+        "source": "Reuters",
+        "publishedAt": "2026-11-24T18:52:19Z"
       },
       {
-        "title": "Nvidia stock is as disconnected from reality as Dutch tulips and Bored Ape NFTs, tech guru says",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-24T17:16:00Z"
+        "title": "T. Rowe Price\u2019s Tony Wang on the risks surrounding Nvidia stock",
+        "source": "CNBC",
+        "publishedAt": "2026-11-24T18:49:29Z"
       }
     ],
     "top": [
       {
-        "title": "AP investigation: The DEA allowed 1.4 million fentanyl pills to go unseized in major probe",
-        "source": "AP News",
-        "publishedAt": "2026-11-24T16:37:00Z"
-      },
-      {
-        "title": "Pentagon sharply rebukes Canada over defense spending and the F-35 fighter jet review",
-        "source": "AP News",
-        "publishedAt": "2026-11-24T14:13:00Z"
-      },
-      {
-        "title": "Some Haitian Families Fleeing the U.S. for Canada Are Being Separated at the Border",
+        "title": "Broderick Wins Tennessee House Race, Giving Democrats Largest Majority in 30 Years",
         "source": "The New York Times",
-        "publishedAt": "2026-11-24T13:50:17Z"
+        "publishedAt": "2026-11-24T18:34:05Z"
       },
       {
-        "title": "House Democrat expands investigation into Donald Trump Jr.'s investment firm",
-        "source": "AP News",
-        "publishedAt": "2026-11-24T13:32:00Z"
+        "title": "Army Schedules Detonation Of Toxic Bomb-Making Materials In Iowa For Wednesday",
+        "source": "Forbes",
+        "publishedAt": "2026-11-24T17:30:00Z"
+      },
+      {
+        "title": "MAGA Attacked Harvard. So Harvard Taught a Class About It.",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-24T17:28:24Z"
+      },
+      {
+        "title": "Writers Frustrated Over PEN America\u2019s Israel Stance Form Alternate Group",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-24T17:06:00Z"
       }
     ]
   },
@@ -426,8 +466,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com Nigeria",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -562,7 +602,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 14.34
+        "close": 14.36
       }
     ],
     "dax": [
