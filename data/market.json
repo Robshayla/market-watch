@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-24T08:23:21Z",
+  "updatedAt": "2026-11-24T09:41:18Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0912",
+    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0921",
     "Bayer ADR ratio check 3.95 ordinary shares"
   ],
   "quotes": {
@@ -14,96 +14,33 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.3,
+      "price": 52.32,
       "previousClose": 52.98,
-      "change": -0.68,
-      "changePct": -1.2835,
-      "asOf": "2026-11-24T08:08:02Z",
+      "change": -0.66,
+      "changePct": -1.2458,
+      "asOf": "2026-11-24T09:25:43Z",
       "digits": 2,
       "sparkline": [
-        53.96,
-        53.02,
-        52.92,
-        52.4,
-        52.32,
-        51.82,
-        51.86,
-        51.98,
-        52.24,
-        52.48,
-        52.34,
-        52.26,
-        52.4,
-        52.32,
-        52.3,
-        52.2,
-        52.1,
-        51.74,
-        51.96,
-        51.94,
-        51.94,
-        52.02,
-        52.26,
-        52.04,
-        52.06,
-        52.26,
-        52.3,
+        52.38,
+        52.38,
+        52.18,
+        52.12,
         52.14,
-        52.26,
+        51.98,
         52.18,
-        52.32,
-        52.44,
-        52.54,
-        52.54,
-        52.56,
-        52.52,
-        52.26,
-        52.36,
-        52.26,
-        52.06,
-        52.0,
-        52.2,
-        52.18,
-        52.26,
-        52.52,
-        52.4,
-        52.24,
-        52.44,
-        52.76,
+        52.28,
         52.48,
+        52.54,
         52.64,
-        52.84,
-        52.86,
-        52.72,
-        52.52,
-        52.84,
-        52.92,
-        53.0,
-        52.9,
-        52.92,
         52.82,
-        52.7,
         52.72,
-        52.92,
-        53.22,
-        53.24,
-        53.46,
-        53.38,
-        53.58,
-        53.52,
-        53.78,
-        53.9,
-        53.74,
-        53.58,
-        53.46,
-        53.6,
-        53.58,
-        53.46,
-        53.44,
-        53.32,
-        52.3
+        52.82,
+        52.8,
+        52.52,
+        52.22,
+        52.32
       ],
-      "sessionDate": "2026-11-23"
+      "sessionDate": "2026-11-24"
     },
     "bayry": {
       "symbol": "BAYRY",
@@ -292,7 +229,7 @@
         161.42,
         164.38,
         164.95,
-        168.555,
+        168.5533,
         166.48,
         164.945,
         166.505,
@@ -383,29 +320,29 @@
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49595.3,
-      "change": 1448.0,
-      "changePct": 3.0074,
+      "price": 49595.31,
+      "change": 1448.01,
+      "changePct": 3.0075,
       "digits": 2,
-      "asOf": "2026-11-23T21:00:00Z"
+      "asOf": "2026-11-23T21:42:39Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25286.82,
-      "change": -50.45,
-      "changePct": -0.1991,
+      "price": 25212.8,
+      "change": -124.47,
+      "changePct": -0.4913,
       "digits": 2,
-      "asOf": "2026-11-24T08:08:08Z"
+      "asOf": "2026-11-24T09:26:06Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0912,
-      "change": 0.0006,
-      "changePct": 0.055,
+      "price": 1.0921,
+      "change": 0.0015,
+      "changePct": 0.1375,
       "digits": 4,
-      "asOf": "2026-11-24T08:22:45Z"
+      "asOf": "2026-11-24T09:40:47Z"
     }
   },
   "headlines": {
@@ -455,6 +392,16 @@
     ],
     "nvidia": [
       {
+        "title": "Nvidia shares fall over 3% in premarket after Huang comeback rally",
+        "source": "CNBC",
+        "publishedAt": "2026-11-24T09:12:05Z"
+      },
+      {
+        "title": "What's Next for Huang, Nvidia and the AI Trade?",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-24T08:13:18Z"
+      },
+      {
         "title": "Nvidia reinstates Jensen Huang after Trump speaks \u2018directly\u2019 to board",
         "source": "The Washington Post",
         "publishedAt": "2026-11-24T06:06:12Z"
@@ -463,23 +410,13 @@
         "title": "Markets soar as Huang returns as Nvidia CEO",
         "source": "The Washington Post",
         "publishedAt": "2026-11-24T05:43:55Z"
-      },
-      {
-        "title": "Live Updates: Huang\u2019s Return to Nvidia Sparks Stock Rally and Lawmaker Skepticism",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-24T05:39:00Z"
-      },
-      {
-        "title": "Stocks Surge After Jensen Huang Is Reinstated as Nvidia CEO",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-24T04:58:00Z"
       }
     ],
     "top": [
       {
         "title": "Deputy FBI director plans to retire in latest departure from bureau",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-24T07:18:36Z"
+        "publishedAt": "2026-11-24T07:46:24Z"
       },
       {
         "title": "Texas\u2019s outgoing GOP attorney general drops multiple culture war lawsuits",
@@ -515,15 +452,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Q3 2026 Bayer AG Earnings Call Transcript",
-      "source": "GuruFocus",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com Nigeria",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     }
@@ -584,8 +514,12 @@
         "close": 53.36
       },
       {
+        "date": "2026-11-23",
+        "close": 52.98
+      },
+      {
         "date": "2026-11-24",
-        "close": 52.3
+        "close": 52.32
       }
     ],
     "bayry": [
@@ -709,7 +643,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 25285.4199
+        "close": 25214.6191
       }
     ]
   }
