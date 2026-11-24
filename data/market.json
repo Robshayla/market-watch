@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-24T09:41:18Z",
+  "updatedAt": "2026-11-24T10:38:02Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0921",
-    "Bayer ADR ratio check 3.95 ordinary shares"
+    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0931",
+    "Bayer ADR ratio check 3.96 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.32,
+      "price": 52.3,
       "previousClose": 52.98,
-      "change": -0.66,
-      "changePct": -1.2458,
-      "asOf": "2026-11-24T09:25:43Z",
+      "change": -0.68,
+      "changePct": -1.2835,
+      "asOf": "2026-11-24T10:22:44Z",
       "digits": 2,
       "sparkline": [
         52.38,
@@ -38,7 +38,19 @@
         52.8,
         52.52,
         52.22,
-        52.32
+        52.34,
+        52.3,
+        52.28,
+        52.34,
+        52.04,
+        52.06,
+        52.12,
+        52.1,
+        52.24,
+        52.34,
+        52.24,
+        52.36,
+        52.3
       ],
       "sessionDate": "2026-11-24"
     },
@@ -229,7 +241,7 @@
         161.42,
         164.38,
         164.95,
-        168.5533,
+        168.555,
         166.48,
         164.945,
         166.505,
@@ -329,20 +341,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25212.8,
-      "change": -124.47,
-      "changePct": -0.4913,
+      "price": 25208.87,
+      "change": -128.4,
+      "changePct": -0.5068,
       "digits": 2,
-      "asOf": "2026-11-24T09:26:06Z"
+      "asOf": "2026-11-24T10:22:49Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0921,
-      "change": 0.0015,
-      "changePct": 0.1375,
+      "price": 1.0931,
+      "change": 0.0025,
+      "changePct": 0.2292,
       "digits": 4,
-      "asOf": "2026-11-24T09:40:47Z"
+      "asOf": "2026-11-24T10:37:43Z"
     }
   },
   "headlines": {
@@ -370,6 +382,11 @@
     ],
     "walmart": [
       {
+        "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 20 November",
+        "source": "Investing.com UK",
+        "publishedAt": "2026-11-24T09:50:00Z"
+      },
+      {
         "title": "The 25+ Best Walmart Black Friday Deals We\u2019ve Already Found",
         "source": "The New York Times",
         "publishedAt": "2026-11-23T17:57:42Z"
@@ -383,33 +400,28 @@
         "title": "Walmart\u2019s turkey dinner deal draws a rush of orders",
         "source": "Business Insider",
         "publishedAt": "2026-11-23T10:45:00Z"
-      },
-      {
-        "title": "California investor tied to acquisition of World Golf Village Walmart still under construction",
-        "source": "The Business Journals",
-        "publishedAt": "2026-11-20T19:02:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Nvidia shares fall over 3% in premarket after Huang comeback rally",
+        "title": "The AI hardware loop that threatens Nvidia's future, even with Jensen Huang back",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-24T10:00:00Z"
+      },
+      {
+        "title": "Nvidia shares fall 4% in premarket after Huang comeback rally",
         "source": "CNBC",
         "publishedAt": "2026-11-24T09:12:05Z"
       },
       {
-        "title": "What's Next for Huang, Nvidia and the AI Trade?",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-24T08:13:18Z"
+        "title": "Asian stocks roar back as Jensen Huang's Nvidia return reignites the AI trade",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-24T08:25:00Z"
       },
       {
         "title": "Nvidia reinstates Jensen Huang after Trump speaks \u2018directly\u2019 to board",
         "source": "The Washington Post",
         "publishedAt": "2026-11-24T06:06:12Z"
-      },
-      {
-        "title": "Markets soar as Huang returns as Nvidia CEO",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-24T05:43:55Z"
       }
     ],
     "top": [
@@ -452,8 +464,15 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com Nigeria",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
+      "publishedAt": "2026-11-03T08:00:00Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Q3 2026 Bayer AG Earnings Call Transcript",
+      "source": "GuruFocus",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     }
@@ -519,7 +538,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 52.32
+        "close": 52.3
       }
     ],
     "bayry": [
@@ -643,7 +662,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 25214.6191
+        "close": 25208.1797
       }
     ]
   }
