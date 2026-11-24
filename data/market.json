@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-24T15:13:01Z",
+  "updatedAt": "2026-11-24T16:26:08Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 132.05 matched",
-    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0970",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "Nasdaq last sale 132.10 matched",
+    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0975",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.78,
+      "price": 52.24,
       "previousClose": 52.98,
-      "change": -0.2,
-      "changePct": -0.3775,
-      "asOf": "2026-11-24T14:57:39Z",
+      "change": -0.74,
+      "changePct": -1.3968,
+      "asOf": "2026-11-24T16:10:31Z",
       "digits": 2,
       "sparkline": [
         52.38,
@@ -27,61 +27,52 @@
         52.18,
         52.12,
         52.14,
-        51.98,
         52.18,
         52.28,
         52.48,
         52.54,
-        52.64,
         52.82,
         52.72,
         52.82,
         52.8,
-        52.52,
+        52.22,
         52.34,
         52.3,
         52.28,
-        52.34,
         52.04,
         52.06,
         52.12,
         52.1,
         52.24,
-        52.34,
         52.24,
         52.2,
         52.2,
         52.14,
-        52.1,
         52.0,
+        51.88,
         51.84,
         51.86,
-        52.04,
         52.04,
         52.02,
         51.88,
         51.92,
-        51.96,
         51.94,
         51.98,
         52.02,
         52.1,
-        52.26,
         52.24,
         52.36,
         52.38,
+        52.28,
         52.34,
-        52.36,
         52.4,
         52.34,
         52.38,
-        52.44,
         52.44,
         52.46,
         52.44,
         52.46,
         52.48,
-        52.44,
         52.42,
         52.48,
         52.46,
@@ -90,19 +81,28 @@
         52.56,
         52.44,
         52.46,
-        52.54,
         52.46,
         52.28,
         52.34,
         52.24,
         52.08,
-        52.46,
         52.56,
         52.7,
         52.86,
         52.9,
-        52.98,
-        52.78
+        52.88,
+        52.82,
+        52.87,
+        52.9,
+        52.92,
+        52.74,
+        52.74,
+        52.76,
+        52.64,
+        52.9,
+        52.68,
+        52.3,
+        52.24
       ],
       "sessionDate": "2026-11-24"
     },
@@ -113,74 +113,32 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.52,
+      "price": 14.34,
       "previousClose": 14.44,
-      "change": 0.08,
-      "changePct": 0.554,
-      "asOf": "2026-11-24T14:56:37Z",
+      "change": -0.1,
+      "changePct": -0.6925,
+      "asOf": "2026-11-24T16:09:39Z",
       "digits": 2,
       "sparkline": [
-        14.42,
-        14.43,
-        14.46,
-        14.52,
-        14.56,
-        14.6,
-        14.63,
-        14.62,
-        14.62,
-        14.67,
-        14.72,
-        14.69,
-        14.62,
-        14.6,
-        14.57,
-        14.59,
-        14.62,
-        14.59,
-        14.57,
+        14.38,
+        14.41,
+        14.47,
         14.55,
-        14.53,
         14.52,
-        14.5,
-        14.44,
-        14.45,
-        14.44,
-        14.45,
-        14.44,
-        14.44,
-        14.45,
-        14.45,
-        14.44,
-        14.45,
-        14.45,
-        14.45,
-        14.45,
-        14.46,
-        14.45,
-        14.46,
-        14.46,
-        14.46,
-        14.45,
-        14.45,
-        14.45,
-        14.47,
-        14.47,
-        14.47,
-        14.46,
-        14.46,
-        14.47,
-        14.47,
+        14.49,
         14.48,
+        14.51,
+        14.51,
+        14.53,
         14.46,
-        14.46,
-        14.46,
-        14.44,
-        14.44,
-        14.44,
-        14.52
+        14.47,
+        14.43,
+        14.5,
+        14.45,
+        14.33,
+        14.34
       ],
-      "sessionDate": "2026-11-23"
+      "sessionDate": "2026-11-24"
     },
     "wmt": {
       "symbol": "WMT",
@@ -189,11 +147,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 132.02,
+      "price": 132.1,
       "previousClose": 129.58,
-      "change": 2.44,
-      "changePct": 1.883,
-      "asOf": "2026-11-24T15:12:45Z",
+      "change": 2.52,
+      "changePct": 1.9447,
+      "asOf": "2026-11-24T16:25:47Z",
       "digits": 2,
       "sparkline": [
         130.9899,
@@ -204,8 +162,22 @@
         131.27,
         131.85,
         131.875,
-        131.86,
-        132.02
+        132.29,
+        132.025,
+        132.18,
+        131.765,
+        131.84,
+        131.91,
+        131.9,
+        131.74,
+        132.105,
+        132.245,
+        132.365,
+        132.39,
+        132.22,
+        132.055,
+        132.2,
+        132.1
       ],
       "sessionDate": "2026-11-24"
     },
@@ -216,11 +188,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 153.9,
+      "price": 152.22,
       "previousClose": 165.05,
-      "change": -11.15,
-      "changePct": -6.7555,
-      "asOf": "2026-11-24T15:12:49Z",
+      "change": -12.83,
+      "changePct": -7.7734,
+      "asOf": "2026-11-24T16:25:53Z",
       "digits": 2,
       "sparkline": [
         155.785,
@@ -231,8 +203,22 @@
         156.22,
         155.005,
         154.24,
-        153.715,
-        153.9
+        155.37,
+        153.305,
+        153.035,
+        152.455,
+        153.07,
+        153.3688,
+        151.65,
+        152.1566,
+        152.23,
+        152.16,
+        151.615,
+        151.905,
+        151.21,
+        151.54,
+        152.435,
+        152.2216
       ],
       "sessionDate": "2026-11-24"
     }
@@ -241,38 +227,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7198.45,
-      "change": -38.72,
-      "changePct": -0.535,
+      "price": 7174.31,
+      "change": -62.86,
+      "changePct": -0.8686,
       "digits": 2,
-      "asOf": "2026-11-24T15:12:49Z"
+      "asOf": "2026-11-24T16:25:53Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49831.98,
-      "change": 236.67,
-      "changePct": 0.4772,
+      "price": 49740.89,
+      "change": 145.58,
+      "changePct": 0.2935,
       "digits": 2,
-      "asOf": "2026-11-24T15:12:48Z"
+      "asOf": "2026-11-24T16:25:53Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25173.67,
-      "change": -163.6,
-      "changePct": -0.6457,
+      "price": 24998.18,
+      "change": -339.09,
+      "changePct": -1.3383,
       "digits": 2,
-      "asOf": "2026-11-24T14:57:49Z"
+      "asOf": "2026-11-24T16:10:54Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.097,
-      "change": 0.0064,
-      "changePct": 0.5868,
+      "price": 1.0975,
+      "change": 0.0069,
+      "changePct": 0.6327,
       "digits": 4,
-      "asOf": "2026-11-24T15:12:44Z"
+      "asOf": "2026-11-24T16:25:46Z"
     }
   },
   "headlines": {
@@ -300,6 +286,11 @@
     ],
     "walmart": [
       {
+        "title": "The 25+ Best Walmart Black Friday Deals We\u2019ve Already Found",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-24T15:30:42Z"
+      },
+      {
         "title": "Walmart Inc. (WMT) Is a Trending Stock: Facts to Know Before Betting on It",
         "source": "Yahoo Finance",
         "publishedAt": "2026-11-24T13:00:05Z"
@@ -313,36 +304,36 @@
         "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 20 November",
         "source": "Investing.com UK",
         "publishedAt": "2026-11-24T09:50:00Z"
-      },
-      {
-        "title": "The 25+ Best Walmart Black Friday Deals We\u2019ve Already Found",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-23T17:57:42Z"
       }
     ],
     "nvidia": [
       {
         "title": "Opinion | Nvidia proves nobody knows anything about the stock market",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-24T14:46:50Z"
-      },
-      {
-        "title": "Wall St opens lower as Nvidia-fueled AI rally fades",
-        "source": "Reuters",
-        "publishedAt": "2026-11-24T14:43:44Z"
+        "publishedAt": "2026-11-24T16:16:50Z"
       },
       {
         "title": "Trump\u2019s Nvidia intervention rewrites the rules of American business",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-24T14:39:52Z"
+        "publishedAt": "2026-11-24T16:09:52Z"
       },
       {
-        "title": "COMMENTARY: Trump's Nvidia intervention rips up Wall Street playbook",
-        "source": "Reuters",
-        "publishedAt": "2026-11-24T14:18:48Z"
+        "title": "The Retail Investors Who Believed Nvidia\u2019s Board\u2014and Got Burned by Its U-Turn",
+        "source": "WSJ",
+        "publishedAt": "2026-11-24T16:01:00Z"
+      },
+      {
+        "title": "Jensen Huang\u2019s Net Worth Drops $10 Billion As Nvidia Stock Falls 8%",
+        "source": "Forbes",
+        "publishedAt": "2026-11-24T15:59:25Z"
       }
     ],
     "top": [
+      {
+        "title": "Pentagon sharply rebukes Canada over defense spending and the F-35 fighter jet review",
+        "source": "AP News",
+        "publishedAt": "2026-11-24T14:13:00Z"
+      },
       {
         "title": "\u2018Extreme\u2019 Flooding Is Feared in California as King Tides Near Records",
         "source": "The New York Times",
@@ -357,11 +348,6 @@
         "title": "House Democrat expands investigation into Donald Trump Jr.'s investment firm",
         "source": "AP News",
         "publishedAt": "2026-11-24T13:32:00Z"
-      },
-      {
-        "title": "Thanksgiving travel forecast: Storms to batter US coasts with heavy rain and flooding",
-        "source": "BBC",
-        "publishedAt": "2026-11-24T11:38:49Z"
       }
     ]
   },
@@ -382,8 +368,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com Nigeria",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -456,7 +442,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 52.78
+        "close": 52.22
       }
     ],
     "bayry": [
@@ -518,7 +504,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 14.48
+        "close": 14.34
       }
     ],
     "dax": [
@@ -580,7 +566,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 25180.0391
+        "close": 24990.9707
       }
     ]
   }
