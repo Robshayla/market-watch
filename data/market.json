@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-24T17:25:58Z",
+  "updatedAt": "2026-11-24T18:16:06Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 132.14 matched",
-    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0971",
-    "Bayer ADR ratio check 3.99 ordinary shares"
+    "Nasdaq last sale 131.88 matched",
+    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0973",
+    "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.32,
+      "price": 14.34,
       "previousClose": 14.44,
-      "change": -0.12,
-      "changePct": -0.831,
-      "asOf": "2026-11-24T17:07:53Z",
+      "change": -0.1,
+      "changePct": -0.6925,
+      "asOf": "2026-11-24T17:58:47Z",
       "digits": 2,
       "sparkline": [
         14.38,
@@ -145,7 +145,12 @@
         14.28,
         14.28,
         14.29,
-        14.32
+        14.32,
+        14.31,
+        14.31,
+        14.33,
+        14.34,
+        14.34
       ],
       "sessionDate": "2026-11-24"
     },
@@ -156,11 +161,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 132.14,
+      "price": 131.87,
       "previousClose": 129.58,
-      "change": 2.56,
-      "changePct": 1.9756,
-      "asOf": "2026-11-24T17:25:43Z",
+      "change": 2.29,
+      "changePct": 1.7672,
+      "asOf": "2026-11-24T18:15:48Z",
       "digits": 2,
       "sparkline": [
         130.9899,
@@ -198,7 +203,17 @@
         132.0098,
         132.24,
         132.19,
-        132.14
+        132.045,
+        132.22,
+        132.115,
+        132.09,
+        132.055,
+        131.98,
+        131.9635,
+        131.9191,
+        131.85,
+        131.88,
+        131.87
       ],
       "sessionDate": "2026-11-24"
     },
@@ -209,11 +224,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 152.91,
+      "price": 153.05,
       "previousClose": 165.05,
-      "change": -12.14,
-      "changePct": -7.3553,
-      "asOf": "2026-11-24T17:25:45Z",
+      "change": -12.0,
+      "changePct": -7.2705,
+      "asOf": "2026-11-24T18:15:52Z",
       "digits": 2,
       "sparkline": [
         155.785,
@@ -251,7 +266,17 @@
         153.11,
         152.985,
         152.74,
-        152.905
+        153.83,
+        153.69,
+        153.33,
+        153.81,
+        153.1116,
+        152.89,
+        153.475,
+        152.95,
+        152.8045,
+        153.065,
+        153.05
       ],
       "sessionDate": "2026-11-24"
     }
@@ -260,20 +285,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7198.67,
-      "change": -38.5,
-      "changePct": -0.532,
+      "price": 7198.16,
+      "change": -39.01,
+      "changePct": -0.539,
       "digits": 2,
-      "asOf": "2026-11-24T17:25:45Z"
+      "asOf": "2026-11-24T18:15:53Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49947.4,
-      "change": 352.09,
-      "changePct": 0.7099,
+      "price": 49970.4,
+      "change": 375.09,
+      "changePct": 0.7563,
       "digits": 2,
-      "asOf": "2026-11-24T17:25:45Z"
+      "asOf": "2026-11-24T18:15:54Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -287,11 +312,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0971,
-      "change": 0.0065,
-      "changePct": 0.596,
+      "price": 1.0973,
+      "change": 0.0067,
+      "changePct": 0.6143,
       "digits": 4,
-      "asOf": "2026-11-24T17:24:47Z"
+      "asOf": "2026-11-24T18:15:43Z"
     }
   },
   "headlines": {
@@ -341,24 +366,24 @@
     ],
     "nvidia": [
       {
-        "title": "Huang\u2019s Return to Nvidia Amplifies the Allure and Danger of All-or-Nothing ETFs",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-24T16:42:25Z"
-      },
-      {
-        "title": "Nvidia, Anthropic and other AI stocks get back to tumbling and drag the US market lower",
-        "source": "AP News",
-        "publishedAt": "2026-11-24T16:27:00Z"
-      },
-      {
-        "title": "Live Updates: Huang\u2019s Return to Nvidia Sparks Stock Rally and Lawmaker Skepticism",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-24T16:25:00Z"
-      },
-      {
         "title": "Opinion | Nvidia proves nobody knows anything about the stock market",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-24T16:16:50Z"
+        "publishedAt": "2026-11-24T17:46:50Z"
+      },
+      {
+        "title": "Trump\u2019s Nvidia intervention rewrites the rules of American business",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-24T17:39:52Z"
+      },
+      {
+        "title": "Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
+        "source": "WSJ",
+        "publishedAt": "2026-11-24T17:34:00Z"
+      },
+      {
+        "title": "Nvidia stock is as disconnected from reality as Dutch tulips and Bored Ape NFTs, tech guru says",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-24T17:16:00Z"
       }
     ],
     "top": [
@@ -537,7 +562,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 14.32
+        "close": 14.34
       }
     ],
     "dax": [
