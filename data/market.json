@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-11-24T12:45:08Z",
+  "updatedAt": "2026-11-24T14:02:38Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0963",
-    "Bayer ADR ratio check 3.98 ordinary shares"
+    "Nasdaq last sale 129.58 matched",
+    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0969",
+    "Bayer ADR ratio check 3.99 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.4,
+      "price": 52.54,
       "previousClose": 52.98,
-      "change": -0.58,
-      "changePct": -1.0948,
-      "asOf": "2026-11-24T12:29:40Z",
+      "change": -0.44,
+      "changePct": -0.8305,
+      "asOf": "2026-11-24T13:45:52Z",
       "digits": 2,
       "sparkline": [
         52.38,
@@ -52,7 +53,7 @@
         52.2,
         52.2,
         52.14,
-        52.08,
+        52.1,
         52.0,
         51.88,
         51.84,
@@ -75,7 +76,22 @@
         52.34,
         52.36,
         52.4,
-        52.4
+        52.34,
+        52.38,
+        52.44,
+        52.44,
+        52.46,
+        52.44,
+        52.46,
+        52.48,
+        52.44,
+        52.42,
+        52.48,
+        52.46,
+        52.38,
+        52.44,
+        52.52,
+        52.54
       ],
       "sessionDate": "2026-11-24"
     },
@@ -161,11 +177,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 129.62,
+      "price": 129.58,
       "previousClose": 127.95,
-      "change": 1.67,
-      "changePct": 1.3052,
-      "asOf": "2026-11-23T20:43:28Z",
+      "change": 1.63,
+      "changePct": 1.2739,
+      "asOf": "2026-11-23T21:00:01Z",
       "digits": 2,
       "sparkline": [
         126.995,
@@ -173,7 +189,7 @@
         127.555,
         127.6624,
         127.495,
-        127.02,
+        127.03,
         127.4,
         127.33,
         127.38,
@@ -242,8 +258,10 @@
         129.5202,
         129.19,
         129.44,
-        129.65,
-        129.62
+        129.665,
+        129.6,
+        129.835,
+        129.57
       ],
       "sessionDate": "2026-11-23"
     },
@@ -266,7 +284,7 @@
         161.42,
         164.38,
         164.95,
-        168.5533,
+        168.555,
         166.48,
         164.945,
         166.505,
@@ -366,20 +384,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25130.28,
-      "change": -206.99,
-      "changePct": -0.8169,
+      "price": 25075.54,
+      "change": -261.73,
+      "changePct": -1.033,
       "digits": 2,
-      "asOf": "2026-11-24T12:29:53Z"
+      "asOf": "2026-11-24T13:47:27Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0963,
-      "change": 0.0057,
-      "changePct": 0.5226,
+      "price": 1.0969,
+      "change": 0.0063,
+      "changePct": 0.5777,
       "digits": 4,
-      "asOf": "2026-11-24T12:44:46Z"
+      "asOf": "2026-11-24T14:01:48Z"
     }
   },
   "headlines": {
@@ -412,9 +430,9 @@
         "publishedAt": "2026-11-24T11:03:06Z"
       },
       {
-        "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 20 November By Investing.com",
-        "source": "Investing.com India",
-        "publishedAt": "2026-11-24T09:52:40Z"
+        "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 20 November",
+        "source": "Investing.com UK",
+        "publishedAt": "2026-11-24T09:50:00Z"
       },
       {
         "title": "The 25+ Best Walmart Black Friday Deals We\u2019ve Already Found",
@@ -429,31 +447,31 @@
     ],
     "nvidia": [
       {
-        "title": "Opinion | Nvidia proves nobody knows anything about the stock market",
+        "title": "Stock Markets Slip as Nvidia and A.I. Stocks Erase Some of Monday\u2019s Rally",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-24T13:14:53Z"
+      },
+      {
+        "title": "Trump\u2019s Nvidia intervention rewrites the rules of American business",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-24T12:30:05Z"
+        "publishedAt": "2026-11-24T13:09:52Z"
       },
       {
-        "title": "Live Updates: Huang\u2019s Return to Nvidia Sparks Stock Rally and Lawmaker Skepticism",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-24T12:27:00Z"
+        "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
+        "source": "Reuters",
+        "publishedAt": "2026-11-24T12:56:41Z"
       },
       {
-        "title": "Does the Nvidia-led rip mark the market bottom? Maybe not",
+        "title": "Morning Call Sheet: Nvidia uncertainty, AI trade fragility and Fed rate hikes",
         "source": "CNBC",
-        "publishedAt": "2026-11-24T12:10:59Z"
-      },
-      {
-        "title": "Stocks Slide as Tech Stocks Partly Reverse Nvidia-Sparked Rally",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-24T12:05:46Z"
+        "publishedAt": "2026-11-24T12:41:14Z"
       }
     ],
     "top": [
       {
-        "title": "Major League Soccer: FC Cincinnati to honour city zoo's deceased hippo Fiona",
-        "source": "BBC",
-        "publishedAt": "2026-11-24T09:43:38Z"
+        "title": "Democrats Begin Looking Into Companies With Ties to Donald Trump Jr.",
+        "source": "WSJ",
+        "publishedAt": "2026-11-24T09:45:25Z"
       },
       {
         "title": "Deputy FBI director plans to retire in latest departure from bureau",
@@ -461,14 +479,14 @@
         "publishedAt": "2026-11-24T07:46:24Z"
       },
       {
-        "title": "Texas\u2019s outgoing GOP attorney general drops multiple culture war lawsuits",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-24T07:18:29Z"
-      },
-      {
         "title": "Judge demanded safeguards before search of Rep. Omar\u2019s home, records show",
         "source": "The Washington Post",
         "publishedAt": "2026-11-24T06:04:00Z"
+      },
+      {
+        "title": "Texas\u2019s outgoing GOP attorney general drops multiple culture war lawsuits",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-24T06:00:00Z"
       }
     ]
   },
@@ -491,13 +509,6 @@
       "eventId": "bayer-q3-2026",
       "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
       "source": "Investing.com Nigeria",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Q3 2026 Bayer AG Earnings Call Transcript",
-      "source": "GuruFocus",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     }
@@ -563,7 +574,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 52.4
+        "close": 52.52
       }
     ],
     "bayry": [
@@ -687,7 +698,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 25124.6992
+        "close": 25075.75
       }
     ]
   }
