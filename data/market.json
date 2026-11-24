@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-24T19:28:45Z",
+  "updatedAt": "2026-11-24T20:23:25Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 132.16 matched",
-    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0970",
+    "Nasdaq last sale 131.82 matched",
+    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0971",
     "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
@@ -47,7 +47,7 @@
         52.2,
         52.2,
         52.14,
-        52.1,
+        52.08,
         51.88,
         51.84,
         51.86,
@@ -117,7 +117,7 @@
       "previousClose": 14.44,
       "change": -0.08,
       "changePct": -0.554,
-      "asOf": "2026-11-24T19:09:43Z",
+      "asOf": "2026-11-24T20:06:21Z",
       "digits": 2,
       "sparkline": [
         14.38,
@@ -160,6 +160,13 @@
         14.34,
         14.35,
         14.36,
+        14.37,
+        14.35,
+        14.35,
+        14.37,
+        14.36,
+        14.35,
+        14.36,
         14.36
       ],
       "sessionDate": "2026-11-24"
@@ -171,11 +178,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 132.17,
+      "price": 131.82,
       "previousClose": 129.58,
-      "change": 2.59,
-      "changePct": 1.9988,
-      "asOf": "2026-11-24T19:28:26Z",
+      "change": 2.24,
+      "changePct": 1.7287,
+      "asOf": "2026-11-24T20:23:10Z",
       "digits": 2,
       "sparkline": [
         130.9899,
@@ -237,8 +244,19 @@
         131.97,
         131.99,
         132.145,
-        132.2,
-        132.1699
+        132.16,
+        132.05,
+        131.98,
+        131.925,
+        131.6878,
+        131.69,
+        131.67,
+        131.54,
+        131.76,
+        131.96,
+        131.85,
+        131.8251,
+        131.82
       ],
       "sessionDate": "2026-11-24"
     },
@@ -249,11 +267,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 153.28,
+      "price": 153.02,
       "previousClose": 165.05,
-      "change": -11.77,
-      "changePct": -7.1312,
-      "asOf": "2026-11-24T19:28:30Z",
+      "change": -12.03,
+      "changePct": -7.2887,
+      "asOf": "2026-11-24T20:23:13Z",
       "digits": 2,
       "sparkline": [
         155.785,
@@ -261,7 +279,7 @@
         154.86,
         155.42,
         155.965,
-        156.22,
+        156.24,
         155.005,
         154.24,
         155.37,
@@ -315,8 +333,19 @@
         152.92,
         153.48,
         153.4169,
-        153.31,
-        153.275
+        153.225,
+        152.615,
+        152.37,
+        152.717,
+        153.0,
+        152.81,
+        152.6,
+        152.17,
+        152.0299,
+        152.9702,
+        153.0695,
+        152.83,
+        153.02
       ],
       "sessionDate": "2026-11-24"
     }
@@ -325,20 +354,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7203.31,
-      "change": -33.86,
-      "changePct": -0.4679,
+      "price": 7178.55,
+      "change": -58.62,
+      "changePct": -0.81,
       "digits": 2,
-      "asOf": "2026-11-24T19:28:30Z"
+      "asOf": "2026-11-24T20:23:13Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50022.82,
-      "change": 427.51,
-      "changePct": 0.862,
+      "price": 49897.01,
+      "change": 301.7,
+      "changePct": 0.6083,
       "digits": 2,
-      "asOf": "2026-11-24T19:28:31Z"
+      "asOf": "2026-11-24T20:23:13Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -352,11 +381,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.097,
-      "change": 0.0064,
-      "changePct": 0.5868,
+      "price": 1.0971,
+      "change": 0.0065,
+      "changePct": 0.596,
       "digits": 4,
-      "asOf": "2026-11-24T19:27:44Z"
+      "asOf": "2026-11-24T20:22:45Z"
     }
   },
   "headlines": {
@@ -374,7 +403,7 @@
       {
         "title": "Exclusive | Bayer Signals Next Pharma Deals Might Target More Midstage Assets",
         "source": "WSJ",
-        "publishedAt": "2026-11-24T07:26:00Z"
+        "publishedAt": "2026-11-24T07:27:14Z"
       },
       {
         "title": "Lawyers score big with $600 million fee award in Bayer Roundup settlement",
@@ -395,8 +424,8 @@
       },
       {
         "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 20 November",
-        "source": "Investing.com UK",
-        "publishedAt": "2026-11-24T09:50:00Z"
+        "source": "Investing.com Canada",
+        "publishedAt": "2026-11-24T10:31:24Z"
       },
       {
         "title": "Walmart, Berkshire, and other defensive stocks are winning from the AI rout",
@@ -406,46 +435,46 @@
     ],
     "nvidia": [
       {
+        "title": "Jensen Huang tells Nvidia employees he's in therapy in first all-hands since his comeback",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-24T19:46:00Z"
+      },
+      {
+        "title": "Huang Tells Staff He Is in Therapy, Apologizes in Nvidia Town Hall",
+        "source": "WSJ",
+        "publishedAt": "2026-11-24T19:40:00Z"
+      },
+      {
         "title": "Opinion | Nvidia proves nobody knows anything about the stock market",
         "source": "The Washington Post",
         "publishedAt": "2026-11-24T19:16:50Z"
       },
       {
-        "title": "Jensen Huang\u2019s Return Sent Nvidia Stock Soaring. A Day Later, the Rally Is Unraveling",
-        "source": "Inc",
-        "publishedAt": "2026-11-24T19:03:14Z"
-      },
-      {
-        "title": "Schumer accuses Nvidia CEO of violating US export control law",
-        "source": "Reuters",
-        "publishedAt": "2026-11-24T18:52:19Z"
-      },
-      {
-        "title": "T. Rowe Price\u2019s Tony Wang on the risks surrounding Nvidia stock",
-        "source": "CNBC",
-        "publishedAt": "2026-11-24T18:49:29Z"
+        "title": "Nvidia, Anthropic and other AI stocks get back to tumbling and drag the US market lower",
+        "source": "AP News",
+        "publishedAt": "2026-11-24T19:14:00Z"
       }
     ],
     "top": [
+      {
+        "title": "Lead azide must be detonated in Iowa, Army says; some residents urged to evacuate",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-24T19:37:38Z"
+      },
       {
         "title": "Broderick Wins Tennessee House Race, Giving Democrats Largest Majority in 30 Years",
         "source": "The New York Times",
         "publishedAt": "2026-11-24T18:34:05Z"
       },
       {
-        "title": "Army Schedules Detonation Of Toxic Bomb-Making Materials In Iowa For Wednesday",
-        "source": "Forbes",
-        "publishedAt": "2026-11-24T17:30:00Z"
+        "title": "Trump gives the Medal of Freedom to Giuliani, a fierce political ally who led New York through 9/11",
+        "source": "AP News",
+        "publishedAt": "2026-11-24T18:29:00Z"
       },
       {
         "title": "MAGA Attacked Harvard. So Harvard Taught a Class About It.",
         "source": "The New York Times",
         "publishedAt": "2026-11-24T17:28:24Z"
-      },
-      {
-        "title": "Writers Frustrated Over PEN America\u2019s Israel Stance Form Alternate Group",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-24T17:06:00Z"
       }
     ]
   },
@@ -466,8 +495,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com Nigeria",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
