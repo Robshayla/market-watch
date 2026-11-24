@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-11-24T22:25:41Z",
+  "updatedAt": "2026-11-24T22:58:24Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
-    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0967",
+    "Nasdaq last sale 132.31 matched",
+    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0970",
     "Bayer ADR ratio check 3.97 ordinary shares"
   ],
   "quotes": {
@@ -46,7 +47,7 @@
         52.2,
         52.2,
         52.14,
-        52.1,
+        52.08,
         51.88,
         51.84,
         51.86,
@@ -184,11 +185,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 131.82,
+      "price": 132.31,
       "previousClose": 129.58,
-      "change": 2.24,
-      "changePct": 1.7287,
-      "asOf": "2026-11-24T20:23:10Z",
+      "change": 2.73,
+      "changePct": 2.1068,
+      "asOf": "2026-11-24T21:00:01Z",
       "digits": 2,
       "sparkline": [
         130.9899,
@@ -261,8 +262,14 @@
         131.76,
         131.96,
         131.85,
-        131.8251,
-        131.82
+        131.865,
+        131.795,
+        131.55,
+        131.6699,
+        131.6599,
+        131.94,
+        131.92,
+        132.3
       ],
       "sessionDate": "2026-11-24"
     },
@@ -285,7 +292,7 @@
         154.86,
         155.42,
         155.965,
-        156.22,
+        156.24,
         155.005,
         154.24,
         155.37,
@@ -357,7 +364,7 @@
         152.95,
         153.765,
         155.11,
-        155.47,
+        155.48,
         155.38
       ],
       "sessionDate": "2026-11-24"
@@ -394,11 +401,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0967,
-      "change": 0.0061,
-      "changePct": 0.5593,
+      "price": 1.097,
+      "change": 0.0064,
+      "changePct": 0.5868,
       "digits": 4,
-      "asOf": "2026-11-24T22:24:48Z"
+      "asOf": "2026-11-24T22:57:43Z"
     }
   },
   "headlines": {
@@ -431,11 +438,6 @@
         "publishedAt": "2026-11-24T13:00:05Z"
       },
       {
-        "title": "Walmart Inc. 2027 Q3 - Results - Earnings Call Presentation (NASDAQ:WMT) 2026-11-24",
-        "source": "Seeking Alpha",
-        "publishedAt": "2026-11-24T11:03:06Z"
-      },
-      {
         "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 20 November",
         "source": "Investing.com Canada",
         "publishedAt": "2026-11-24T10:31:24Z"
@@ -444,35 +446,45 @@
         "title": "Walmart, Berkshire, and other defensive stocks are winning from the AI rout",
         "source": "Business Insider",
         "publishedAt": "2026-11-23T12:32:00Z"
+      },
+      {
+        "title": "Walmart\u2019s turkey dinner deal draws a rush of orders",
+        "source": "Business Insider",
+        "publishedAt": "2026-11-23T10:45:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "The Retail Investors Who Believed Nvidia\u2019s Board\u2014and Got Burned by Its U-Turn",
-        "source": "WSJ",
-        "publishedAt": "2026-11-24T21:53:00Z"
+        "title": "Jensen Huang 'euphoria' wanes as Nvidia's stock slides | Market Talk",
+        "source": "Reuters",
+        "publishedAt": "2026-11-24T22:41:47Z"
       },
       {
-        "title": "AI debt markets shudder as Nvidia's top \"banker\" returns",
+        "title": "'Fast Money' traders react to Nvidia shares retreating from Monday rally",
         "source": "CNBC",
-        "publishedAt": "2026-11-24T21:38:03Z"
+        "publishedAt": "2026-11-24T22:36:06Z"
       },
       {
-        "title": "Nvidia\u2019s Relief Rally Stalls",
+        "title": "Jensen Huang Apologized to Nvidia Staff in Company Meeting",
         "source": "WSJ",
-        "publishedAt": "2026-11-24T21:23:00Z"
+        "publishedAt": "2026-11-24T22:32:00Z"
       },
       {
         "title": "See all of Trump\u2019s Nvidia stock trades since January",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-24T21:15:46Z"
+        "publishedAt": "2026-11-24T22:27:05Z"
       }
     ],
     "top": [
       {
+        "title": "Trump awards Rudy Giuliani the Presidential Medal of Freedom",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-24T22:49:05Z"
+      },
+      {
         "title": "Lead azide must be detonated in Iowa, Army says; some residents urged to evacuate",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-24T21:45:05Z"
+        "publishedAt": "2026-11-24T22:37:38Z"
       },
       {
         "title": "Writers Frustrated Over PEN America\u2019s Israel Stance Form Alternate Group",
@@ -480,14 +492,9 @@
         "publishedAt": "2026-11-24T21:10:00Z"
       },
       {
-        "title": "Democrat Victoria Broderick wins Tennessee House seat, ousting Rep. Scott DesJarlais",
-        "source": "AP News",
-        "publishedAt": "2026-11-24T18:48:00Z"
-      },
-      {
-        "title": "AP investigation: The DEA allowed 1.4 million fentanyl pills to go unseized in major probe",
-        "source": "AP News",
-        "publishedAt": "2026-11-24T16:37:00Z"
+        "title": "The Mississippi Senate Race Wasn\u2019t Even This Year\u2019s Biggest Upset",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-24T20:19:49Z"
       }
     ]
   },
