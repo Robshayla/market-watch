@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-24T11:38:09Z",
+  "updatedAt": "2026-11-24T12:45:08Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0952",
-    "Bayer ADR ratio check 3.94 ordinary shares"
+    "ECB reference 1.0939 on 2026-11-23 vs Yahoo spot 1.0963",
+    "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 51.92,
+      "price": 52.4,
       "previousClose": 52.98,
-      "change": -1.06,
-      "changePct": -2.0008,
-      "asOf": "2026-11-24T11:22:50Z",
+      "change": -0.58,
+      "changePct": -1.0948,
+      "asOf": "2026-11-24T12:29:40Z",
       "digits": 2,
       "sparkline": [
         52.38,
@@ -52,7 +52,7 @@
         52.2,
         52.2,
         52.14,
-        52.1,
+        52.08,
         52.0,
         51.88,
         51.84,
@@ -61,7 +61,21 @@
         52.04,
         52.02,
         51.88,
-        51.92
+        51.92,
+        51.96,
+        51.94,
+        51.98,
+        52.02,
+        52.1,
+        52.26,
+        52.24,
+        52.36,
+        52.38,
+        52.28,
+        52.34,
+        52.36,
+        52.4,
+        52.4
       ],
       "sessionDate": "2026-11-24"
     },
@@ -252,7 +266,7 @@
         161.42,
         164.38,
         164.95,
-        168.555,
+        168.5533,
         166.48,
         164.945,
         166.505,
@@ -352,20 +366,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25124.04,
-      "change": -213.23,
-      "changePct": -0.8416,
+      "price": 25130.28,
+      "change": -206.99,
+      "changePct": -0.8169,
       "digits": 2,
-      "asOf": "2026-11-24T11:22:57Z"
+      "asOf": "2026-11-24T12:29:53Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0952,
-      "change": 0.0046,
-      "changePct": 0.4218,
+      "price": 1.0963,
+      "change": 0.0057,
+      "changePct": 0.5226,
       "digits": 4,
-      "asOf": "2026-11-24T11:37:44Z"
+      "asOf": "2026-11-24T12:44:46Z"
     }
   },
   "headlines": {
@@ -383,7 +397,7 @@
       {
         "title": "Exclusive | Bayer Signals Next Pharma Deals Might Target More Midstage Assets",
         "source": "WSJ",
-        "publishedAt": "2026-11-24T07:27:14Z"
+        "publishedAt": "2026-11-24T07:26:00Z"
       },
       {
         "title": "Lawyers score big with $600 million fee award in Bayer Roundup settlement",
@@ -398,9 +412,9 @@
         "publishedAt": "2026-11-24T11:03:06Z"
       },
       {
-        "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 20 November",
-        "source": "Investing.com UK",
-        "publishedAt": "2026-11-24T09:50:00Z"
+        "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 20 November By Investing.com",
+        "source": "Investing.com India",
+        "publishedAt": "2026-11-24T09:52:40Z"
       },
       {
         "title": "The 25+ Best Walmart Black Friday Deals We\u2019ve Already Found",
@@ -415,27 +429,37 @@
     ],
     "nvidia": [
       {
-        "title": "Wall St futures dip as chip stocks cool after Nvidia-fueled rally",
-        "source": "Reuters",
-        "publishedAt": "2026-11-24T11:04:34Z"
+        "title": "Opinion | Nvidia proves nobody knows anything about the stock market",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-24T12:30:05Z"
       },
       {
-        "title": "At AI speed, Nvidia's Jensen Huang finds exoneration",
-        "source": "Reuters",
-        "publishedAt": "2026-11-24T11:01:43Z"
+        "title": "Live Updates: Huang\u2019s Return to Nvidia Sparks Stock Rally and Lawmaker Skepticism",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-24T12:27:00Z"
       },
       {
-        "title": "For Better or Worse, the Fate of the AI Boom Is in Nvidia\u2019s Hands",
-        "source": "WSJ",
-        "publishedAt": "2026-11-24T10:31:41Z"
+        "title": "Does the Nvidia-led rip mark the market bottom? Maybe not",
+        "source": "CNBC",
+        "publishedAt": "2026-11-24T12:10:59Z"
       },
       {
-        "title": "The AI hardware loop that threatens Nvidia's future, even with Jensen Huang back",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-24T10:00:00Z"
+        "title": "Stocks Slide as Tech Stocks Partly Reverse Nvidia-Sparked Rally",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-24T12:05:46Z"
       }
     ],
     "top": [
+      {
+        "title": "Major League Soccer: FC Cincinnati to honour city zoo's deceased hippo Fiona",
+        "source": "BBC",
+        "publishedAt": "2026-11-24T09:43:38Z"
+      },
+      {
+        "title": "Deputy FBI director plans to retire in latest departure from bureau",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-24T07:46:24Z"
+      },
       {
         "title": "Texas\u2019s outgoing GOP attorney general drops multiple culture war lawsuits",
         "source": "The Washington Post",
@@ -445,16 +469,6 @@
         "title": "Judge demanded safeguards before search of Rep. Omar\u2019s home, records show",
         "source": "The Washington Post",
         "publishedAt": "2026-11-24T06:04:00Z"
-      },
-      {
-        "title": "Pentagon sharply rebukes Canada over defense spending and the F-35 fighter jet review",
-        "source": "AP News",
-        "publishedAt": "2026-11-24T04:46:00Z"
-      },
-      {
-        "title": "Exclusive | U.S. Eyes Iran as Possible Culprit in Dozens of New Cyberattacks Against Ships",
-        "source": "WSJ",
-        "publishedAt": "2026-11-24T00:06:01Z"
       }
     ]
   },
@@ -475,8 +489,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com Nigeria",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -549,7 +563,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 51.92
+        "close": 52.4
       }
     ],
     "bayry": [
@@ -673,7 +687,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 25125.25
+        "close": 25124.6992
       }
     ]
   }
