@@ -1,11 +1,10 @@
 {
-  "updatedAt": "2026-11-24T22:58:24Z",
+  "updatedAt": "2026-11-25T08:27:50Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 132.31 matched",
-    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0970",
-    "Bayer ADR ratio check 3.97 ordinary shares"
+    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0941",
+    "Bayer ADR ratio check 3.93 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.04,
-      "previousClose": 52.98,
-      "change": -0.94,
-      "changePct": -1.7743,
-      "asOf": "2026-11-24T16:39:16Z",
+      "price": 51.7,
+      "previousClose": 52.04,
+      "change": -0.34,
+      "changePct": -0.6533,
+      "asOf": "2026-11-25T08:12:24Z",
       "digits": 2,
       "sparkline": [
         52.38,
@@ -47,7 +46,7 @@
         52.2,
         52.2,
         52.14,
-        52.08,
+        52.1,
         51.88,
         51.84,
         51.86,
@@ -102,7 +101,7 @@
         52.2,
         52.32,
         52.24,
-        52.04
+        51.7
       ],
       "sessionDate": "2026-11-24"
     },
@@ -113,11 +112,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.38,
-      "previousClose": 14.44,
+      "price": 14.39,
+      "previousClose": 14.45,
       "change": -0.06,
-      "changePct": -0.4155,
-      "asOf": "2026-11-24T20:59:29Z",
+      "changePct": -0.4152,
+      "asOf": "2026-11-24T21:00:00Z",
       "digits": 2,
       "sparkline": [
         14.38,
@@ -292,7 +291,7 @@
         154.86,
         155.42,
         155.965,
-        156.24,
+        156.22,
         155.005,
         154.24,
         155.37,
@@ -364,7 +363,7 @@
         152.95,
         153.765,
         155.11,
-        155.48,
+        155.47,
         155.38
       ],
       "sessionDate": "2026-11-24"
@@ -378,34 +377,34 @@
       "change": -36.08,
       "changePct": -0.4985,
       "digits": 2,
-      "asOf": "2026-11-24T21:54:10Z"
+      "asOf": "2026-11-24T21:00:00Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
       "price": 50018.7,
-      "change": 423.39,
+      "change": 423.4,
       "changePct": 0.8537,
       "digits": 2,
-      "asOf": "2026-11-24T21:54:25Z"
+      "asOf": "2026-11-24T21:00:00Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25017.81,
-      "change": -319.46,
-      "changePct": -1.2608,
+      "price": 25043.4,
+      "change": 25.59,
+      "changePct": 0.1023,
       "digits": 2,
-      "asOf": "2026-11-24T17:00:00Z"
+      "asOf": "2026-11-25T08:12:37Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.097,
-      "change": 0.0064,
-      "changePct": 0.5868,
+      "price": 1.0941,
+      "change": -0.0026,
+      "changePct": -0.2371,
       "digits": 4,
-      "asOf": "2026-11-24T22:57:43Z"
+      "asOf": "2026-11-25T08:26:45Z"
     }
   },
   "headlines": {
@@ -433,68 +432,68 @@
     ],
     "walmart": [
       {
+        "title": "Walmart-owned Flipkart\u2019s Kalyan Krishnamurthy steps down as CEO",
+        "source": "Reuters",
+        "publishedAt": "2026-11-25T08:17:07Z"
+      },
+      {
+        "title": "Flipkart CEO to Exit After Transforming Walmart\u2019s India Play",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-25T07:32:00Z"
+      },
+      {
+        "title": "The 30+ Best Walmart Black Friday Deals We\u2019ve Already Found",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-24T15:30:42Z"
+      },
+      {
         "title": "Walmart Inc. (WMT) Is a Trending Stock: Facts to Know Before Betting on It",
         "source": "Yahoo Finance",
         "publishedAt": "2026-11-24T13:00:05Z"
-      },
-      {
-        "title": "Form 4 Walmart Inc: John R. Furner (Director, President & CEO) For: 20 November",
-        "source": "Investing.com Canada",
-        "publishedAt": "2026-11-24T10:31:24Z"
-      },
-      {
-        "title": "Walmart, Berkshire, and other defensive stocks are winning from the AI rout",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-23T12:32:00Z"
-      },
-      {
-        "title": "Walmart\u2019s turkey dinner deal draws a rush of orders",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-23T10:45:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "Jensen Huang 'euphoria' wanes as Nvidia's stock slides | Market Talk",
-        "source": "Reuters",
-        "publishedAt": "2026-11-24T22:41:47Z"
-      },
-      {
-        "title": "'Fast Money' traders react to Nvidia shares retreating from Monday rally",
-        "source": "CNBC",
-        "publishedAt": "2026-11-24T22:36:06Z"
-      },
-      {
-        "title": "Jensen Huang Apologized to Nvidia Staff in Company Meeting",
-        "source": "WSJ",
-        "publishedAt": "2026-11-24T22:32:00Z"
-      },
-      {
         "title": "See all of Trump\u2019s Nvidia stock trades since January",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-24T22:27:05Z"
+        "publishedAt": "2026-11-25T07:00:00Z"
+      },
+      {
+        "title": "COMMENTARY: Icarus stock Nvidia sends chill to US savers",
+        "source": "Reuters",
+        "publishedAt": "2026-11-25T07:00:00Z"
+      },
+      {
+        "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+        "source": "CNBC",
+        "publishedAt": "2026-11-25T06:29:46Z"
+      },
+      {
+        "title": "Nvidia Brought Jensen Huang Back In 11 Days. Every Board Should Worry",
+        "source": "Forbes",
+        "publishedAt": "2026-11-25T04:55:20Z"
       }
     ],
     "top": [
       {
-        "title": "Trump awards Rudy Giuliani the Presidential Medal of Freedom",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-24T22:49:05Z"
+        "title": "Nasdaq futures slide amid reports of fresh U.S. tariffs as tech sell-off intensifies: Live updates",
+        "source": "CNBC",
+        "publishedAt": "2026-11-25T08:15:00Z"
       },
       {
-        "title": "Lead azide must be detonated in Iowa, Army says; some residents urged to evacuate",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-24T22:37:38Z"
+        "title": "Crews search for 6 aboard a small plane that crashed into the Gulf of Mexico, Coast Guard says",
+        "source": "AP News",
+        "publishedAt": "2026-11-25T06:43:00Z"
       },
       {
-        "title": "Writers Frustrated Over PEN America\u2019s Israel Stance Form Alternate Group",
+        "title": "Abrego Garcia Voluntarily Leaves U.S., Ending 20-Month Legal Fight",
         "source": "The New York Times",
-        "publishedAt": "2026-11-24T21:10:00Z"
+        "publishedAt": "2026-11-25T06:43:00Z"
       },
       {
-        "title": "The Mississippi Senate Race Wasn\u2019t Even This Year\u2019s Biggest Upset",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-24T20:19:49Z"
+        "title": "Felony charge in North Carolina dropped against incoming Democratic lawmaker",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-25T05:48:06Z"
       }
     ]
   },
@@ -531,10 +530,6 @@
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-11-04",
-        "close": 54.24
-      },
       {
         "date": "2026-11-05",
         "close": 56.22
@@ -588,8 +583,8 @@
         "close": 52.98
       },
       {
-        "date": "2026-11-24",
-        "close": 52.04
+        "date": "2026-11-25",
+        "close": 51.64
       }
     ],
     "bayry": [
@@ -651,14 +646,10 @@
       },
       {
         "date": "2026-11-24",
-        "close": 14.38
+        "close": 14.39
       }
     ],
     "dax": [
-      {
-        "date": "2026-11-04",
-        "close": 26437.6699
-      },
       {
         "date": "2026-11-05",
         "close": 26325.0098
@@ -714,6 +705,10 @@
       {
         "date": "2026-11-24",
         "close": 25017.8105
+      },
+      {
+        "date": "2026-11-25",
+        "close": 25051.0508
       }
     ]
   }
