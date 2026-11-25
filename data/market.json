@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-25T17:33:04Z",
+  "updatedAt": "2026-11-25T18:30:21Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 131.93 matched",
+    "Nasdaq last sale 131.62 matched",
     "ECB reference 1.0935 on 2026-11-25 vs Yahoo spot 1.0988",
-    "Bayer ADR ratio check 3.97 ordinary shares"
+    "Bayer ADR ratio check 3.96 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.01,
+      "price": 14.05,
       "previousClose": 14.38,
-      "change": -0.37,
-      "changePct": -2.573,
-      "asOf": "2026-11-25T17:15:04Z",
+      "change": -0.33,
+      "changePct": -2.2949,
+      "asOf": "2026-11-25T18:07:32Z",
       "digits": 2,
       "sparkline": [
         13.69,
@@ -142,7 +142,16 @@
         13.98,
         14.01,
         14.01,
-        14.01
+        14.01,
+        14.02,
+        14.02,
+        14.02,
+        14.06,
+        14.04,
+        14.04,
+        14.04,
+        14.05,
+        14.05
       ],
       "sessionDate": "2026-11-25"
     },
@@ -153,11 +162,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 131.93,
+      "price": 131.63,
       "previousClose": 132.31,
-      "change": -0.38,
-      "changePct": -0.2872,
-      "asOf": "2026-11-25T17:32:46Z",
+      "change": -0.68,
+      "changePct": -0.5139,
+      "asOf": "2026-11-25T18:30:00Z",
       "digits": 2,
       "sparkline": [
         133.03,
@@ -196,8 +205,19 @@
         132.17,
         131.935,
         131.92,
-        131.92,
-        131.93
+        132.01,
+        132.145,
+        132.2127,
+        132.03,
+        131.77,
+        131.72,
+        131.515,
+        131.285,
+        131.245,
+        131.3062,
+        131.41,
+        131.6017,
+        131.635
       ],
       "sessionDate": "2026-11-25"
     },
@@ -208,11 +228,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 144.04,
+      "price": 147.28,
       "previousClose": 155.38,
-      "change": -11.34,
-      "changePct": -7.2982,
-      "asOf": "2026-11-25T17:32:49Z",
+      "change": -8.1,
+      "changePct": -5.213,
+      "asOf": "2026-11-25T18:30:04Z",
       "digits": 2,
       "sparkline": [
         142.13,
@@ -251,8 +271,19 @@
         145.24,
         144.0,
         143.7701,
-        144.41,
-        144.04
+        143.74,
+        144.095,
+        144.76,
+        144.79,
+        146.04,
+        145.65,
+        145.96,
+        146.34,
+        146.19,
+        147.48,
+        147.23,
+        147.465,
+        147.28
       ],
       "sessionDate": "2026-11-25"
     }
@@ -261,20 +292,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7093.55,
-      "change": -107.54,
-      "changePct": -1.4934,
+      "price": 7164.37,
+      "change": -36.72,
+      "changePct": -0.5099,
       "digits": 2,
-      "asOf": "2026-11-25T17:32:48Z"
+      "asOf": "2026-11-25T18:30:03Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 49810.05,
-      "change": -208.65,
-      "changePct": -0.4171,
+      "price": 50231.77,
+      "change": 213.07,
+      "changePct": 0.426,
       "digits": 2,
-      "asOf": "2026-11-25T17:32:48Z"
+      "asOf": "2026-11-25T18:30:03Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -292,7 +323,7 @@
       "change": 0.0021,
       "changePct": 0.1915,
       "digits": 4,
-      "asOf": "2026-11-25T17:32:48Z"
+      "asOf": "2026-11-25T18:29:44Z"
     }
   },
   "headlines": {
@@ -342,6 +373,16 @@
     ],
     "nvidia": [
       {
+        "title": "For Better or Worse, the Fate of the AI Boom Is in Nvidia\u2019s Hands",
+        "source": "WSJ",
+        "publishedAt": "2026-11-25T18:01:25Z"
+      },
+      {
+        "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC",
+        "source": "CNBC",
+        "publishedAt": "2026-11-25T17:28:24Z"
+      },
+      {
         "title": "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
         "source": "CNBC",
         "publishedAt": "2026-11-25T17:10:17Z"
@@ -350,28 +391,13 @@
         "title": "US finds no evidence China directed executive to spy on Nvidia CEO, WSJ reports",
         "source": "Reuters",
         "publishedAt": "2026-11-25T16:54:06Z"
-      },
-      {
-        "title": "Trump\u2019s accounts traded Nvidia shares 44 times this year, records show",
-        "source": "BBC",
-        "publishedAt": "2026-11-25T16:42:11Z"
-      },
-      {
-        "title": "\u2018Big Short\u2019 investor Michael Burry pinpoints the next time he\u2019ll be betting against Nvidia stock",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-25T16:37:00Z"
       }
     ],
     "top": [
       {
-        "title": "Middle seat near back of plane brings Kilmar Abrego Garc\u00eda to a new life",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-25T16:42:52Z"
-      },
-      {
-        "title": "California\u2019s Tides Are in \u2018Uncharted Territory\u2019 as Water Surges Higher",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-25T16:19:05Z"
+        "title": "Live updates: US Army detonates national stockpile of lead azide in Iowa",
+        "source": "AP News",
+        "publishedAt": "2026-11-25T17:16:00Z"
       },
       {
         "title": "Latino-Owned Coffee Shop Closes After Claims That Founder Works for ICE",
@@ -382,6 +408,11 @@
         "title": "Why Aren\u2019t the Midterms Over in Louisiana? Ask the Supreme Court.",
         "source": "The New York Times",
         "publishedAt": "2026-11-25T15:00:05Z"
+      },
+      {
+        "title": "As GLP-1 use grows, patients and doctors rethink Thanksgiving dinner",
+        "source": "AP News",
+        "publishedAt": "2026-11-25T12:39:00Z"
       }
     ]
   },
@@ -538,7 +569,7 @@
       },
       {
         "date": "2026-11-25",
-        "close": 14.01
+        "close": 14.05
       }
     ],
     "dax": [
