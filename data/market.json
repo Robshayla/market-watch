@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T21:27:18Z",
+  "updatedAt": "2026-11-25T22:26:21Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
@@ -170,7 +170,6 @@
         14.08,
         14.1,
         14.12,
-        14.1,
         14.08
       ],
       "sessionDate": "2026-11-25"
@@ -353,10 +352,9 @@
         147.7086,
         147.435,
         147.7205,
-        148.53,
+        148.52,
         149.01,
-        149.27,
-        149.3
+        149.29
       ],
       "sessionDate": "2026-11-25"
     }
@@ -369,7 +367,7 @@
       "change": -18.31,
       "changePct": -0.2543,
       "digits": 2,
-      "asOf": "2026-11-25T21:20:01Z"
+      "asOf": "2026-11-25T21:32:06Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -378,7 +376,7 @@
       "change": 164.25,
       "changePct": 0.3284,
       "digits": 2,
-      "asOf": "2026-11-25T21:20:01Z"
+      "asOf": "2026-11-25T21:32:17Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -396,7 +394,7 @@
       "change": 0.0011,
       "changePct": 0.1003,
       "digits": 4,
-      "asOf": "2026-11-25T21:26:47Z"
+      "asOf": "2026-11-25T22:25:43Z"
     }
   },
   "headlines": {
@@ -446,46 +444,46 @@
     ],
     "nvidia": [
       {
+        "title": "Nvidia whiplash shows how much investors\u2019 financial futures depend on tech as the AI boom falters",
+        "source": "Fortune",
+        "publishedAt": "2026-11-25T21:37:00Z"
+      },
+      {
+        "title": "U.S. Stocks Mixed as Nvidia, AI Rout Continues",
+        "source": "WSJ",
+        "publishedAt": "2026-11-25T21:31:00Z"
+      },
+      {
         "title": "S&P Global warns Nvidia\u2019s credit rating could be downgraded over governance risks",
         "source": "Business Insider",
         "publishedAt": "2026-11-25T20:53:00Z"
       },
       {
-        "title": "Rumor About Big Score on Nvidia Stock Surge Is Not Backed by Trading Records",
+        "title": "A Rumored $300 Million Score on Nvidia\u2019s Stock Surge Isn\u2019t Backed by Trading Records",
         "source": "The New York Times",
-        "publishedAt": "2026-11-25T20:27:35Z"
-      },
-      {
-        "title": "S&P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks",
-        "source": "Reuters",
-        "publishedAt": "2026-11-25T19:54:35Z"
-      },
-      {
-        "title": "There's a lot more uncertainties, overhang over Nvidia stock, says Blue Whale Capital's Stephen Yiu",
-        "source": "CNBC",
-        "publishedAt": "2026-11-25T19:00:08Z"
+        "publishedAt": "2026-11-25T20:27:36Z"
       }
     ],
     "top": [
       {
         "title": "Trump says he will meet El-Sayed to discuss \u2018TrumpCare\u2019",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-25T21:13:17Z"
+        "publishedAt": "2026-11-25T22:07:24Z"
+      },
+      {
+        "title": "Kilmar Abrego Garc\u00eda arrives in Spain to start a new life",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-25T21:59:14Z"
+      },
+      {
+        "title": "Mamdani Wins Against Landlords in Rent Freeze Lawsuit",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-25T21:16:58Z"
       },
       {
         "title": "Fort Hood shooter asks court to delay execution scheduled for next week",
         "source": "The Washington Post",
         "publishedAt": "2026-11-25T21:12:53Z"
-      },
-      {
-        "title": "Mamdani Wins Against Landlords in Rent Freeze Lawsuit",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-25T19:05:11Z"
-      },
-      {
-        "title": "California\u2019s Tides Are in \u2018Uncharted Territory\u2019 as Water Surges Higher",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-25T18:45:42Z"
       }
     ]
   },
