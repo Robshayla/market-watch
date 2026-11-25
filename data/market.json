@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-25T09:45:32Z",
+  "updatedAt": "2026-11-25T10:52:00Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0942",
+    "ECB reference 1.0963 on 2026-11-24 vs Yahoo spot 1.0949",
     "Bayer ADR ratio check 3.83 ordinary shares"
   ],
   "quotes": {
@@ -18,7 +18,7 @@
       "previousClose": 52.04,
       "change": -1.7,
       "changePct": -3.2667,
-      "asOf": "2026-11-25T09:30:14Z",
+      "asOf": "2026-11-25T10:36:11Z",
       "digits": 2,
       "sparkline": [
         51.94,
@@ -39,6 +39,20 @@
         50.18,
         50.08,
         50.36,
+        50.38,
+        50.28,
+        50.3,
+        50.22,
+        50.24,
+        50.34,
+        50.44,
+        50.42,
+        50.26,
+        50.32,
+        50.32,
+        50.22,
+        50.32,
+        50.3,
         50.34
       ],
       "sessionDate": "2026-11-25"
@@ -329,20 +343,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 24979.58,
-      "change": -38.23,
-      "changePct": -0.1528,
+      "price": 25042.31,
+      "change": 24.5,
+      "changePct": 0.0979,
       "digits": 2,
-      "asOf": "2026-11-25T09:30:20Z"
+      "asOf": "2026-11-25T10:36:46Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0942,
-      "change": -0.0025,
-      "changePct": -0.228,
+      "price": 1.0949,
+      "change": -0.0018,
+      "changePct": -0.1641,
       "digits": 4,
-      "asOf": "2026-11-25T09:44:47Z"
+      "asOf": "2026-11-25T10:51:43Z"
     }
   },
   "headlines": {
@@ -353,6 +367,11 @@
         "publishedAt": "2026-11-24T08:00:28Z"
       },
       {
+        "title": "Bayer signals next pharma deals might target more midstage assets - WSJ",
+        "source": "TradingView",
+        "publishedAt": "2026-11-24T07:52:00Z"
+      },
+      {
         "title": "Exclusive | Bayer Signals Next Pharma Deals Might Target More Midstage Assets",
         "source": "WSJ",
         "publishedAt": "2026-11-24T07:26:00Z"
@@ -361,18 +380,13 @@
         "title": "Lawyers score big with $600 million fee award in Bayer Roundup settlement",
         "source": "Reuters",
         "publishedAt": "2026-11-23T22:01:48Z"
-      },
-      {
-        "title": "Bayer Clears Major Roundup Hurdle, but a New Study Raises Cancer Link Again",
-        "source": "WSJ",
-        "publishedAt": "2026-11-23T20:48:00Z"
       }
     ],
     "walmart": [
       {
-        "title": "Walmart-owned Flipkart's Kalyan Krishnamurthy steps down as CEO",
+        "title": "Walmart-owned Flipkart\u2019s Kalyan Krishnamurthy steps down as CEO",
         "source": "Reuters",
-        "publishedAt": "2026-11-25T08:31:38Z"
+        "publishedAt": "2026-11-25T08:48:45Z"
       },
       {
         "title": "Flipkart CEO Kalyan Krishnamurthy is leaving Walmart's India unit after 11 years",
@@ -392,6 +406,11 @@
     ],
     "nvidia": [
       {
+        "title": "Nvidia\u2019s Power Is Distorting America\u2019s AI Strategy",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-25T10:00:00Z"
+      },
+      {
         "title": "See all of Trump\u2019s Nvidia stock trades since January",
         "source": "The Washington Post",
         "publishedAt": "2026-11-25T07:00:00Z"
@@ -405,18 +424,18 @@
         "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
         "source": "CNBC",
         "publishedAt": "2026-11-25T06:29:46Z"
-      },
-      {
-        "title": "Analysis | Trump\u2019s Nvidia gambit shows the stock market is the economy",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-25T04:53:37Z"
       }
     ],
     "top": [
       {
         "title": "Abrego Garcia Voluntarily Leaves U.S., Ending 20-Month Legal Fight",
         "source": "The New York Times",
-        "publishedAt": "2026-11-25T07:34:35Z"
+        "publishedAt": "2026-11-25T06:43:00Z"
+      },
+      {
+        "title": "Felony charge in North Carolina dropped against incoming Democratic lawmaker",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-25T05:48:06Z"
       },
       {
         "title": "300,000 legal immigrants told they\u2019re losing Medicare coverage",
@@ -424,14 +443,9 @@
         "publishedAt": "2026-11-25T05:25:46Z"
       },
       {
-        "title": "Trump awards Rudy Giuliani the Presidential Medal of Freedom",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-25T02:35:22Z"
-      },
-      {
-        "title": "Lead azide must be detonated in Iowa, Army says; some residents urged to evacuate",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-25T02:05:48Z"
+        "title": "US preparing to unveil plan for new tariffs on global trading partners",
+        "source": "BBC",
+        "publishedAt": "2026-11-25T00:38:01Z"
       }
     ]
   },
@@ -452,8 +466,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com Nigeria",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -526,7 +540,7 @@
       },
       {
         "date": "2026-11-25",
-        "close": 50.36
+        "close": 50.34
       }
     ],
     "bayry": [
@@ -650,7 +664,7 @@
       },
       {
         "date": "2026-11-25",
-        "close": 24977.9297
+        "close": 25040.4297
       }
     ]
   }
