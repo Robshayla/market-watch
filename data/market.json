@@ -1,8 +1,9 @@
 {
-  "updatedAt": "2026-11-25T22:26:21Z",
+  "updatedAt": "2026-11-25T22:57:07Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": true,
+  "degraded": false,
   "provenance": [
+    "Nasdaq last sale 131.90 matched",
     "ECB reference 1.0935 on 2026-11-25 vs Yahoo spot 1.0978",
     "Bayer ADR ratio check 3.95 ordinary shares"
   ],
@@ -181,11 +182,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 131.95,
+      "price": 131.94,
       "previousClose": 132.31,
-      "change": -0.36,
-      "changePct": -0.2721,
-      "asOf": "2026-11-25T20:25:38Z",
+      "change": -0.37,
+      "changePct": -0.2796,
+      "asOf": "2026-11-25T21:00:01Z",
       "digits": 2,
       "sparkline": [
         133.03,
@@ -224,7 +225,7 @@
         132.17,
         131.935,
         131.92,
-        132.02,
+        132.01,
         132.145,
         132.2127,
         132.03,
@@ -259,7 +260,14 @@
         131.94,
         131.865,
         131.97,
-        131.95
+        131.845,
+        131.92,
+        131.97,
+        132.18,
+        132.32,
+        132.31,
+        131.9,
+        131.94
       ],
       "sessionDate": "2026-11-25"
     },
@@ -394,7 +402,7 @@
       "change": 0.0011,
       "changePct": 0.1003,
       "digits": 4,
-      "asOf": "2026-11-25T22:25:43Z"
+      "asOf": "2026-11-25T22:56:44Z"
     }
   },
   "headlines": {
@@ -444,6 +452,16 @@
     ],
     "nvidia": [
       {
+        "title": "S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch",
+        "source": "Reuters",
+        "publishedAt": "2026-11-25T22:32:45Z"
+      },
+      {
+        "title": "Jensen Huang, Trump and the 11 Days That Rocked Nvidia",
+        "source": "WSJ",
+        "publishedAt": "2026-11-25T22:27:26Z"
+      },
+      {
         "title": "Nvidia whiplash shows how much investors\u2019 financial futures depend on tech as the AI boom falters",
         "source": "Fortune",
         "publishedAt": "2026-11-25T21:37:00Z"
@@ -452,38 +470,28 @@
         "title": "U.S. Stocks Mixed as Nvidia, AI Rout Continues",
         "source": "WSJ",
         "publishedAt": "2026-11-25T21:31:00Z"
-      },
-      {
-        "title": "S&P Global warns Nvidia\u2019s credit rating could be downgraded over governance risks",
-        "source": "Business Insider",
-        "publishedAt": "2026-11-25T20:53:00Z"
-      },
-      {
-        "title": "A Rumored $300 Million Score on Nvidia\u2019s Stock Surge Isn\u2019t Backed by Trading Records",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-25T20:27:36Z"
       }
     ],
     "top": [
       {
         "title": "Trump says he will meet El-Sayed to discuss \u2018TrumpCare\u2019",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-25T22:07:24Z"
+        "publishedAt": "2026-11-25T22:43:17Z"
+      },
+      {
+        "title": "Plane crash off the coast of Mississippi kills extended family of 6 on fishing trip",
+        "source": "AP News",
+        "publishedAt": "2026-11-25T22:43:00Z"
       },
       {
         "title": "Kilmar Abrego Garc\u00eda arrives in Spain to start a new life",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-25T21:59:14Z"
+        "publishedAt": "2026-11-25T22:42:52Z"
       },
       {
-        "title": "Mamdani Wins Against Landlords in Rent Freeze Lawsuit",
+        "title": "Thanksgiving Storm Is Expected to Hit East Coast With Heavy Rain and Flooding",
         "source": "The New York Times",
-        "publishedAt": "2026-11-25T21:16:58Z"
-      },
-      {
-        "title": "Fort Hood shooter asks court to delay execution scheduled for next week",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-25T21:12:53Z"
+        "publishedAt": "2026-11-25T21:53:45Z"
       }
     ]
   },
