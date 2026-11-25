@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-25T19:30:05Z",
+  "updatedAt": "2026-11-25T20:25:55Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 131.80 matched",
-    "ECB reference 1.0935 on 2026-11-25 vs Yahoo spot 1.0989",
-    "Bayer ADR ratio check 3.95 ordinary shares"
+    "Nasdaq last sale 131.95 matched",
+    "ECB reference 1.0935 on 2026-11-25 vs Yahoo spot 1.0982",
+    "Bayer ADR ratio check 3.96 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.09,
+      "price": 14.06,
       "previousClose": 14.38,
-      "change": -0.29,
-      "changePct": -2.0167,
-      "asOf": "2026-11-25T19:14:10Z",
+      "change": -0.32,
+      "changePct": -2.2253,
+      "asOf": "2026-11-25T20:09:32Z",
       "digits": 2,
       "sparkline": [
         13.69,
@@ -157,8 +157,16 @@
         14.08,
         14.09,
         14.09,
-        14.1,
-        14.09
+        14.09,
+        14.07,
+        14.07,
+        14.06,
+        14.06,
+        14.06,
+        14.06,
+        14.06,
+        14.06,
+        14.06
       ],
       "sessionDate": "2026-11-25"
     },
@@ -169,11 +177,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 131.8,
+      "price": 131.95,
       "previousClose": 132.31,
-      "change": -0.51,
-      "changePct": -0.3855,
-      "asOf": "2026-11-25T19:29:48Z",
+      "change": -0.36,
+      "changePct": -0.2721,
+      "asOf": "2026-11-25T20:25:38Z",
       "digits": 2,
       "sparkline": [
         133.03,
@@ -235,8 +243,19 @@
         131.64,
         131.64,
         131.76,
-        131.785,
-        131.8
+        131.8,
+        131.76,
+        131.88,
+        131.75,
+        131.78,
+        132.045,
+        131.86,
+        131.94,
+        131.835,
+        131.94,
+        131.865,
+        131.97,
+        131.95
       ],
       "sessionDate": "2026-11-25"
     },
@@ -247,11 +266,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 147.99,
+      "price": 148.19,
       "previousClose": 155.38,
-      "change": -7.39,
-      "changePct": -4.7561,
-      "asOf": "2026-11-25T19:29:49Z",
+      "change": -7.19,
+      "changePct": -4.6274,
+      "asOf": "2026-11-25T20:25:41Z",
       "digits": 2,
       "sparkline": [
         142.13,
@@ -313,8 +332,19 @@
         147.4,
         147.1,
         147.645,
-        147.64,
-        147.985
+        148.08,
+        148.2415,
+        148.32,
+        147.9729,
+        147.681,
+        148.457,
+        147.835,
+        147.9199,
+        147.87,
+        148.06,
+        147.99,
+        148.0803,
+        148.19
       ],
       "sessionDate": "2026-11-25"
     }
@@ -323,20 +353,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7192.06,
-      "change": -9.03,
-      "changePct": -0.1254,
+      "price": 7176.56,
+      "change": -24.53,
+      "changePct": -0.3406,
       "digits": 2,
-      "asOf": "2026-11-25T19:29:50Z"
+      "asOf": "2026-11-25T20:25:40Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50353.22,
-      "change": 334.52,
-      "changePct": 0.6688,
+      "price": 50206.85,
+      "change": 188.15,
+      "changePct": 0.3762,
       "digits": 2,
-      "asOf": "2026-11-25T19:29:51Z"
+      "asOf": "2026-11-25T20:25:40Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -350,20 +380,15 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0989,
-      "change": 0.0022,
-      "changePct": 0.2006,
+      "price": 1.0982,
+      "change": 0.0015,
+      "changePct": 0.1368,
       "digits": 4,
-      "asOf": "2026-11-25T19:29:45Z"
+      "asOf": "2026-11-25T20:24:46Z"
     }
   },
   "headlines": {
     "bayer": [
-      {
-        "title": "Exclusive | Bayer Signals Next Pharma Deals Might Target More Midstage Assets",
-        "source": "WSJ",
-        "publishedAt": "2026-11-25T17:58:12Z"
-      },
       {
         "title": "China's Hansoh Pharma strikes drug deal with Bayer unit worth nearly $3.3 billion",
         "source": "Reuters",
@@ -378,6 +403,11 @@
         "title": "Bayer Signs Cancer Drug Deal of Up to $3.25 Billion With Hansoh",
         "source": "Bloomberg",
         "publishedAt": "2026-11-25T14:37:25Z"
+      },
+      {
+        "title": "Bayer to pull kidney blockbuster Kerendia in Germany amid reimbursement dispute",
+        "source": "Fierce Pharma",
+        "publishedAt": "2026-11-25T14:11:42Z"
       }
     ],
     "walmart": [
@@ -385,11 +415,6 @@
         "title": "Walmart-owned Flipkart CEO Kalyan Krishnamurthy to step down",
         "source": "Reuters",
         "publishedAt": "2026-11-25T14:49:13Z"
-      },
-      {
-        "title": "The 30+ Best Walmart Black Friday Deals We\u2019ve Already Found",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-25T14:00:42Z"
       },
       {
         "title": "Flipkart CEO Kalyan Krishnamurthy is leaving Walmart's India unit after 11 years",
@@ -400,50 +425,55 @@
         "title": "Flipkart CEO to Exit After Transforming Walmart\u2019s India Play",
         "source": "Bloomberg",
         "publishedAt": "2026-11-25T07:32:00Z"
+      },
+      {
+        "title": "Walmart Inc. (WMT) Is a Trending Stock: Facts to Know Before Betting on It",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-24T13:00:05Z"
       }
     ],
     "nvidia": [
+      {
+        "title": "S&P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks",
+        "source": "Reuters",
+        "publishedAt": "2026-11-25T19:32:35Z"
+      },
       {
         "title": "There's a lot more uncertainties, overhang over Nvidia stock, says Blue Whale Capital's Stephen Yiu",
         "source": "CNBC",
         "publishedAt": "2026-11-25T19:00:08Z"
       },
       {
-        "title": "S&P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks",
-        "source": "Reuters",
-        "publishedAt": "2026-11-25T18:57:20Z"
+        "title": "Watch: Trump's portfolio traded Nvidia shares 44 times this year",
+        "source": "BBC",
+        "publishedAt": "2026-11-25T18:34:58Z"
       },
       {
         "title": "Jensen Huang's return to Nvidia fuels Washington fight over China's chip access",
         "source": "Reuters",
         "publishedAt": "2026-11-25T18:32:52Z"
-      },
-      {
-        "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC",
-        "source": "CNBC",
-        "publishedAt": "2026-11-25T17:28:24Z"
       }
     ],
     "top": [
       {
         "title": "Fort Hood shooter asks court to delay execution scheduled for next week",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-25T19:03:09Z"
+        "publishedAt": "2026-11-25T19:42:53Z"
       },
       {
-        "title": "Latino-Owned Coffee Shop Closes After Claims That Founder Works for ICE",
+        "title": "Mamdani Wins Against Landlords in Rent Freeze Lawsuit",
         "source": "The New York Times",
-        "publishedAt": "2026-11-25T15:37:00Z"
+        "publishedAt": "2026-11-25T19:05:11Z"
       },
       {
-        "title": "Why Aren\u2019t the Midterms Over in Louisiana? Ask the Supreme Court.",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-25T15:00:05Z"
-      },
-      {
-        "title": "As GLP-1 use grows, patients and doctors rethink Thanksgiving dinner",
+        "title": "All 5 tons of lead azide were successfully destroyed in Iowa detonation, US Army says",
         "source": "AP News",
-        "publishedAt": "2026-11-25T12:39:00Z"
+        "publishedAt": "2026-11-25T18:29:00Z"
+      },
+      {
+        "title": "After death of Fiona the hippo, online grieving quickly turned to blame",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-25T18:00:00Z"
       }
     ]
   },
@@ -464,8 +494,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com India",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -600,7 +630,7 @@
       },
       {
         "date": "2026-11-25",
-        "close": 14.09
+        "close": 14.06
       }
     ],
     "dax": [
