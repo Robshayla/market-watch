@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-26T17:35:42Z",
+  "updatedAt": "2026-11-26T18:33:13Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 131.94 matched",
-    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0972",
+    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0973",
     "Bayer ADR ratio check 4.12 ordinary shares"
   ],
   "quotes": {
@@ -32,7 +32,7 @@
         52.02,
         52.28,
         52.24,
-        52.52,
+        52.5,
         52.18,
         51.98,
         52.04,
@@ -225,7 +225,7 @@
         132.17,
         131.935,
         131.92,
-        132.02,
+        132.01,
         132.145,
         132.2127,
         132.03,
@@ -360,10 +360,9 @@
         147.7086,
         147.435,
         147.7205,
-        148.53,
+        148.52,
         149.01,
-        149.27,
-        149.3
+        149.29
       ],
       "sessionDate": "2026-11-25"
     }
@@ -399,11 +398,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0972,
-      "change": -0.001,
-      "changePct": -0.0911,
+      "price": 1.0973,
+      "change": -0.0009,
+      "changePct": -0.082,
       "digits": 4,
-      "asOf": "2026-11-26T17:34:47Z"
+      "asOf": "2026-11-26T18:32:48Z"
     }
   },
   "headlines": {
@@ -455,7 +454,7 @@
       {
         "title": "Nvidia Tells Partners to Pause Shipments to Southeast Asia",
         "source": "WSJ",
-        "publishedAt": "2026-11-26T16:04:00Z"
+        "publishedAt": "2026-11-26T17:06:00Z"
       },
       {
         "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
@@ -463,7 +462,7 @@
         "publishedAt": "2026-11-26T16:00:01Z"
       },
       {
-        "title": "Nvidia chip buyers told to rule out Chinese renters to buy GPUs, sources say",
+        "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
         "source": "CNBC",
         "publishedAt": "2026-11-26T15:34:08Z"
       },
@@ -485,14 +484,14 @@
         "publishedAt": "2026-11-26T16:50:00Z"
       },
       {
-        "title": "North Korea\u2019s Kim vows to build more nuclear weapons after ignoring Trump\u2019s overture",
-        "source": "AP News",
-        "publishedAt": "2026-11-26T09:16:00Z"
+        "title": "The Army Knew Much Earlier of the Explosive Risk in Iowa, Evidence Suggests",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-26T16:00:13Z"
       },
       {
-        "title": "The tribe who helped the Pilgrims survive their first Thanksgiving regretted it",
+        "title": "Schumer, Van Hollen add to tallies of supporters for majority leader",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-26T05:30:00Z"
+        "publishedAt": "2026-11-26T10:52:52Z"
       }
     ]
   },
