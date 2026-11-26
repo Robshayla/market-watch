@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-26T14:13:06Z",
+  "updatedAt": "2026-11-26T15:18:38Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 131.94 matched",
-    "ECB reference 1.0935 on 2026-11-25 vs Yahoo spot 1.0989",
-    "Bayer ADR ratio check 4.14 ordinary shares"
+    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0979",
+    "Bayer ADR ratio check 4.15 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 53.0,
+      "price": 53.18,
       "previousClose": 50.68,
-      "change": 2.32,
-      "changePct": 4.5777,
-      "asOf": "2026-11-26T13:57:24Z",
+      "change": 2.5,
+      "changePct": 4.9329,
+      "asOf": "2026-11-26T15:03:14Z",
       "digits": 2,
       "sparkline": [
         51.8,
@@ -34,9 +34,8 @@
         52.24,
         52.28,
         52.24,
-        52.52,
+        52.5,
         52.36,
-        52.18,
         51.98,
         52.04,
         52.1,
@@ -50,7 +49,6 @@
         52.18,
         52.18,
         52.16,
-        52.12,
         52.24,
         52.12,
         52.06,
@@ -64,7 +62,6 @@
         52.3,
         52.36,
         52.36,
-        52.38,
         52.32,
         52.38,
         52.4,
@@ -79,7 +76,6 @@
         52.82,
         52.72,
         52.68,
-        52.8,
         52.86,
         52.82,
         52.8,
@@ -93,8 +89,20 @@
         53.02,
         52.94,
         53.0,
-        52.98,
-        53.0
+        53.0,
+        52.96,
+        52.88,
+        52.94,
+        52.92,
+        52.94,
+        53.02,
+        53.08,
+        53.1,
+        53.16,
+        53.14,
+        53.2,
+        53.16,
+        53.18
       ],
       "sessionDate": "2026-11-26"
     },
@@ -217,7 +225,7 @@
         132.17,
         131.935,
         131.92,
-        132.02,
+        132.01,
         132.145,
         132.2127,
         132.03,
@@ -352,10 +360,9 @@
         147.7086,
         147.435,
         147.7205,
-        148.53,
+        148.52,
         149.01,
-        149.27,
-        149.3
+        149.29
       ],
       "sessionDate": "2026-11-25"
     }
@@ -382,20 +389,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25211.29,
-      "change": 509.16,
-      "changePct": 2.0612,
+      "price": 25243.72,
+      "change": 541.59,
+      "changePct": 2.1925,
       "digits": 2,
-      "asOf": "2026-11-26T13:57:54Z"
+      "asOf": "2026-11-26T15:03:24Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0989,
-      "change": 0.0007,
-      "changePct": 0.0637,
+      "price": 1.0979,
+      "change": -0.0003,
+      "changePct": -0.0273,
       "digits": 4,
-      "asOf": "2026-11-26T14:12:47Z"
+      "asOf": "2026-11-26T15:17:44Z"
     }
   },
   "headlines": {
@@ -505,8 +512,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com India",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -579,7 +586,7 @@
       },
       {
         "date": "2026-11-26",
-        "close": 53.0
+        "close": 53.18
       }
     ],
     "bayry": [
@@ -703,7 +710,7 @@
       },
       {
         "date": "2026-11-26",
-        "close": 25210.6992
+        "close": 25242.9004
       }
     ]
   }
