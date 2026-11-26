@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T19:46:41Z",
+  "updatedAt": "2026-11-26T20:46:02Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -32,7 +32,7 @@
         52.02,
         52.28,
         52.24,
-        52.5,
+        52.52,
         52.18,
         51.98,
         52.04,
@@ -225,7 +225,7 @@
         132.17,
         131.935,
         131.92,
-        132.01,
+        132.02,
         132.145,
         132.2127,
         132.03,
@@ -360,9 +360,10 @@
         147.7086,
         147.435,
         147.7205,
-        148.52,
+        148.53,
         149.01,
-        149.29
+        149.27,
+        149.3
       ],
       "sessionDate": "2026-11-25"
     }
@@ -402,7 +403,7 @@
       "change": -0.0009,
       "changePct": -0.082,
       "digits": 4,
-      "asOf": "2026-11-26T19:45:44Z"
+      "asOf": "2026-11-26T20:45:45Z"
     }
   },
   "headlines": {
@@ -430,6 +431,11 @@
     ],
     "walmart": [
       {
+        "title": "The 50+ Best Walmart Black Friday Deals We\u2019ve Already Found",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-26T11:36:33Z"
+      },
+      {
         "title": "Walmart-backed PhonePe restarts IPO process, eyes up to $15 billion valuation in market debut, source says",
         "source": "Reuters",
         "publishedAt": "2026-11-25T18:35:51Z"
@@ -443,11 +449,6 @@
         "title": "Farm Hands on the Potomac: Walmart promotes Phuong Ha, American Conservation Experience names Jeff Parker CEO, Cargill appoints Sara Herman as director of renewable fuel regulatory affairs",
         "source": "Agri-Pulse Communications, Inc.",
         "publishedAt": "2026-11-25T11:05:00Z"
-      },
-      {
-        "title": "Flipkart CEO to Exit After Transforming Walmart\u2019s India Play",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-25T07:32:00Z"
       }
     ],
     "nvidia": [
@@ -474,24 +475,24 @@
     ],
     "top": [
       {
-        "title": "Heavy rain, wind and flooding plague much of US on Thanksgiving holiday",
-        "source": "AP News",
-        "publishedAt": "2026-11-26T18:22:00Z"
+        "title": "Thanksgiving weather live: Hundreds of flights cancelled and thousands without power in US",
+        "source": "BBC",
+        "publishedAt": "2026-11-26T20:38:06Z"
       },
       {
-        "title": "The Army Knew Much Earlier of the Explosive Risk in Iowa, Evidence Suggests",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-26T16:50:50Z"
-      },
-      {
-        "title": "The tribe who helped the Pilgrims survive their first Thanksgiving regretted it",
+        "title": "Flight delays, flooding and outages grow as storm batters East Coast",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-26T05:30:00Z"
+        "publishedAt": "2026-11-26T20:32:55Z"
       },
       {
-        "title": "Along Each Coast, Weather Puts a Damper on Thanksgiving",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-26T04:48:50Z"
+        "title": "Trump uses Thanksgiving message to lash out at political foes, immigrants, federal government",
+        "source": "Reuters",
+        "publishedAt": "2026-11-26T18:25:33Z"
+      },
+      {
+        "title": "Anarchy Breaks Out at One of America\u2019s Most Beloved Public Golf Courses",
+        "source": "WSJ",
+        "publishedAt": "2026-11-26T10:30:00Z"
       }
     ]
   },
