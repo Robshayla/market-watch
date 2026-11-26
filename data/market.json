@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-26T16:31:24Z",
+  "updatedAt": "2026-11-26T17:35:42Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 131.94 matched",
-    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0977",
-    "Bayer ADR ratio check 4.13 ordinary shares"
+    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0972",
+    "Bayer ADR ratio check 4.12 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,44 +15,43 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.96,
+      "price": 52.82,
       "previousClose": 50.68,
-      "change": 2.28,
-      "changePct": 4.4988,
-      "asOf": "2026-11-26T16:15:44Z",
+      "change": 2.14,
+      "changePct": 4.2226,
+      "asOf": "2026-11-26T16:35:38Z",
       "digits": 2,
       "sparkline": [
         51.8,
         51.8,
         51.62,
         51.66,
-        51.64,
+        51.72,
         51.84,
         51.92,
         52.02,
+        52.28,
         52.24,
-        52.24,
-        52.5,
-        52.36,
+        52.52,
         52.18,
+        51.98,
         52.04,
         52.1,
-        52.12,
         52.18,
+        52.12,
         52.08,
         52.08,
-        52.16,
         52.14,
         52.18,
-        52.16,
+        52.18,
         52.12,
         52.24,
         52.12,
-        51.98,
+        52.06,
         52.06,
         52.18,
         52.16,
-        52.24,
+        52.22,
         52.24,
         52.3,
         52.36,
@@ -63,26 +62,25 @@
         52.38,
         52.66,
         52.78,
-        52.7,
         52.68,
+        52.7,
         52.74,
         52.82,
-        52.72,
         52.68,
+        52.8,
         52.86,
         52.82,
-        52.8,
         52.84,
         52.74,
-        52.7,
+        52.74,
         52.74,
         52.8,
+        53.04,
         53.02,
-        52.94,
+        53.0,
         53.0,
         53.0,
         52.96,
-        52.88,
         52.94,
         52.92,
         52.94,
@@ -97,11 +95,14 @@
         53.12,
         53.02,
         53.02,
-        52.96,
+        52.9,
         52.92,
         53.02,
         52.96,
-        52.98
+        52.94,
+        52.9,
+        52.9,
+        52.82
       ],
       "sessionDate": "2026-11-26"
     },
@@ -224,7 +225,7 @@
         132.17,
         131.935,
         131.92,
-        132.01,
+        132.02,
         132.145,
         132.2127,
         132.03,
@@ -359,9 +360,10 @@
         147.7086,
         147.435,
         147.7205,
-        148.52,
+        148.53,
         149.01,
-        149.29
+        149.27,
+        149.3
       ],
       "sessionDate": "2026-11-25"
     }
@@ -388,20 +390,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25268.4,
-      "change": 566.27,
-      "changePct": 2.2924,
+      "price": 25215.52,
+      "change": 513.39,
+      "changePct": 2.0783,
       "digits": 2,
-      "asOf": "2026-11-26T16:16:13Z"
+      "asOf": "2026-11-26T17:00:00Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0977,
-      "change": -0.0005,
-      "changePct": -0.0455,
+      "price": 1.0972,
+      "change": -0.001,
+      "changePct": -0.0911,
       "digits": 4,
-      "asOf": "2026-11-26T16:30:45Z"
+      "asOf": "2026-11-26T17:34:47Z"
     }
   },
   "headlines": {
@@ -429,11 +431,6 @@
     ],
     "walmart": [
       {
-        "title": "The 30+ Best Walmart Black Friday Deals We\u2019ve Already Found",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-26T11:36:33Z"
-      },
-      {
         "title": "Walmart-backed PhonePe restarts IPO process, eyes up to $15 billion valuation in market debut, source says",
         "source": "Reuters",
         "publishedAt": "2026-11-25T18:35:51Z"
@@ -447,6 +444,11 @@
         "title": "Farm Hands on the Potomac: Walmart promotes Phuong Ha, American Conservation Experience names Jeff Parker CEO, Cargill appoints Sara Herman as director of renewable fuel regulatory affairs",
         "source": "Agri-Pulse Communications, Inc.",
         "publishedAt": "2026-11-25T11:05:00Z"
+      },
+      {
+        "title": "Flipkart CEO to Exit After Transforming Walmart\u2019s India Play",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-25T07:32:00Z"
       }
     ],
     "nvidia": [
@@ -473,24 +475,24 @@
     ],
     "top": [
       {
+        "title": "ICE arrests man in Boston days after he won $1 million in lottery",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-26T16:50:14Z"
+      },
+      {
+        "title": "Heavy rain, wind and flooding plague much of US on Thanksgiving holiday",
+        "source": "AP News",
+        "publishedAt": "2026-11-26T16:50:00Z"
+      },
+      {
         "title": "North Korea\u2019s Kim vows to build more nuclear weapons after ignoring Trump\u2019s overture",
         "source": "AP News",
         "publishedAt": "2026-11-26T09:16:00Z"
       },
       {
-        "title": "King tides and strong waves destroy part of Pacifica pier as officials warn of coastal flooding",
-        "source": "AP News",
-        "publishedAt": "2026-11-26T05:38:00Z"
-      },
-      {
         "title": "The tribe who helped the Pilgrims survive their first Thanksgiving regretted it",
         "source": "The Washington Post",
         "publishedAt": "2026-11-26T05:30:00Z"
-      },
-      {
-        "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-        "source": "Reuters",
-        "publishedAt": "2026-11-26T04:20:00Z"
       }
     ]
   },
@@ -511,8 +513,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com India",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -585,7 +587,7 @@
       },
       {
         "date": "2026-11-26",
-        "close": 52.96
+        "close": 52.82
       }
     ],
     "bayry": [
@@ -709,7 +711,7 @@
       },
       {
         "date": "2026-11-26",
-        "close": 25260.7793
+        "close": 25215.5195
       }
     ]
   }
