@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-26T10:40:22Z",
+  "updatedAt": "2026-11-26T11:37:34Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 131.94 matched",
-    "ECB reference 1.0935 on 2026-11-25 vs Yahoo spot 1.0978",
-    "Bayer ADR ratio check 4.06 ordinary shares"
+    "ECB reference 1.0935 on 2026-11-25 vs Yahoo spot 1.0972",
+    "Bayer ADR ratio check 4.08 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.12,
+      "price": 52.4,
       "previousClose": 50.68,
-      "change": 1.44,
-      "changePct": 2.8414,
-      "asOf": "2026-11-26T10:24:19Z",
+      "change": 1.72,
+      "changePct": 3.3938,
+      "asOf": "2026-11-26T11:21:10Z",
       "digits": 2,
       "sparkline": [
         51.8,
@@ -34,7 +34,7 @@
         52.24,
         52.28,
         52.24,
-        52.5,
+        52.52,
         52.36,
         52.18,
         51.98,
@@ -50,8 +50,20 @@
         52.18,
         52.18,
         52.16,
-        52.14,
-        52.12
+        52.12,
+        52.24,
+        52.12,
+        52.06,
+        51.98,
+        52.06,
+        52.18,
+        52.16,
+        52.22,
+        52.24,
+        52.24,
+        52.3,
+        52.36,
+        52.4
       ],
       "sessionDate": "2026-11-26"
     },
@@ -174,7 +186,7 @@
         132.17,
         131.935,
         131.92,
-        132.01,
+        132.02,
         132.145,
         132.2127,
         132.03,
@@ -309,9 +321,10 @@
         147.7086,
         147.435,
         147.7205,
-        148.52,
+        148.53,
         149.01,
-        149.29
+        149.27,
+        149.3
       ],
       "sessionDate": "2026-11-25"
     }
@@ -338,20 +351,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25212.52,
-      "change": 510.39,
-      "changePct": 2.0662,
+      "price": 25177.85,
+      "change": 475.72,
+      "changePct": 1.9258,
       "digits": 2,
-      "asOf": "2026-11-26T10:25:11Z"
+      "asOf": "2026-11-26T11:22:23Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0978,
-      "change": -0.0004,
-      "changePct": -0.0364,
+      "price": 1.0972,
+      "change": -0.001,
+      "changePct": -0.0911,
       "digits": 4,
-      "asOf": "2026-11-26T10:39:48Z"
+      "asOf": "2026-11-26T11:36:44Z"
     }
   },
   "headlines": {
@@ -401,9 +414,9 @@
     ],
     "nvidia": [
       {
-        "title": "Nvidia halts chip shipments to south-east Asia",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-26T08:07:01Z"
+        "title": "Nvidia Halts Server Shipments To 4 Southeast Asian Countries Amid New U.S. Export Curbs, Report Says",
+        "source": "Forbes",
+        "publishedAt": "2026-11-26T11:17:43Z"
       },
       {
         "title": "Lori Huang's Nvidia-funded foundation gained about $2.3 billion in a day on Jensen Huang's return",
@@ -411,26 +424,26 @@
         "publishedAt": "2026-11-26T08:07:00Z"
       },
       {
+        "title": "Jensen Huang's Bank of Nvidia Dilemma Is Still Looming Large",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-26T07:00:00Z"
+      },
+      {
         "title": "Hegseth, Pentagon officials floated using wartime law to reappoint Nvidia CEO",
         "source": "The Washington Post",
         "publishedAt": "2026-11-26T06:32:48Z"
-      },
-      {
-        "title": "Nvidia halts server shipments to four Southeast Asian countries, FT reports",
-        "source": "Reuters",
-        "publishedAt": "2026-11-26T05:09:00Z"
       }
     ],
     "top": [
       {
+        "title": "North Korea\u2019s Kim vows to build more nuclear weapons after ignoring Trump\u2019s overture",
+        "source": "AP News",
+        "publishedAt": "2026-11-26T09:16:00Z"
+      },
+      {
         "title": "The tribe who helped the Pilgrims survive their first Thanksgiving regretted it",
         "source": "The Washington Post",
         "publishedAt": "2026-11-26T05:30:00Z"
-      },
-      {
-        "title": "Kilmar Abrego Garc\u00eda arrives in Spain to start a new life",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-26T05:00:08Z"
       },
       {
         "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
@@ -535,7 +548,7 @@
       },
       {
         "date": "2026-11-26",
-        "close": 52.12
+        "close": 52.4
       }
     ],
     "bayry": [
@@ -659,7 +672,7 @@
       },
       {
         "date": "2026-11-26",
-        "close": 25211.8691
+        "close": 25175.9492
       }
     ]
   }
