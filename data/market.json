@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T18:33:13Z",
+  "updatedAt": "2026-11-26T19:46:41Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -402,7 +402,7 @@
       "change": -0.0009,
       "changePct": -0.082,
       "digits": 4,
-      "asOf": "2026-11-26T18:32:48Z"
+      "asOf": "2026-11-26T19:45:44Z"
     }
   },
   "headlines": {
@@ -474,24 +474,24 @@
     ],
     "top": [
       {
-        "title": "ICE arrests man in Boston days after he won $1 million in lottery",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-26T16:50:14Z"
-      },
-      {
         "title": "Heavy rain, wind and flooding plague much of US on Thanksgiving holiday",
         "source": "AP News",
-        "publishedAt": "2026-11-26T16:50:00Z"
+        "publishedAt": "2026-11-26T18:22:00Z"
       },
       {
         "title": "The Army Knew Much Earlier of the Explosive Risk in Iowa, Evidence Suggests",
         "source": "The New York Times",
-        "publishedAt": "2026-11-26T16:00:13Z"
+        "publishedAt": "2026-11-26T16:50:50Z"
       },
       {
-        "title": "Schumer, Van Hollen add to tallies of supporters for majority leader",
+        "title": "The tribe who helped the Pilgrims survive their first Thanksgiving regretted it",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-26T10:52:52Z"
+        "publishedAt": "2026-11-26T05:30:00Z"
+      },
+      {
+        "title": "Along Each Coast, Weather Puts a Damper on Thanksgiving",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-26T04:48:50Z"
       }
     ]
   },
@@ -512,8 +512,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com India",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
