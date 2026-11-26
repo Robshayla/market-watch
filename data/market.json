@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-26T20:46:02Z",
+  "updatedAt": "2026-11-26T21:45:08Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 131.94 matched",
-    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0973",
+    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0972",
     "Bayer ADR ratio check 4.12 ordinary shares"
   ],
   "quotes": {
@@ -32,7 +32,7 @@
         52.02,
         52.28,
         52.24,
-        52.52,
+        52.5,
         52.18,
         51.98,
         52.04,
@@ -225,7 +225,7 @@
         132.17,
         131.935,
         131.92,
-        132.02,
+        132.01,
         132.145,
         132.2127,
         132.03,
@@ -360,10 +360,9 @@
         147.7086,
         147.435,
         147.7205,
-        148.53,
+        148.52,
         149.01,
-        149.27,
-        149.3
+        149.29
       ],
       "sessionDate": "2026-11-25"
     }
@@ -399,11 +398,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0973,
-      "change": -0.0009,
-      "changePct": -0.082,
+      "price": 1.0972,
+      "change": -0.001,
+      "changePct": -0.0911,
       "digits": 4,
-      "asOf": "2026-11-26T20:45:45Z"
+      "asOf": "2026-11-26T21:44:46Z"
     }
   },
   "headlines": {
@@ -475,24 +474,24 @@
     ],
     "top": [
       {
-        "title": "Thanksgiving weather live: Hundreds of flights cancelled and thousands without power in US",
-        "source": "BBC",
-        "publishedAt": "2026-11-26T20:38:06Z"
-      },
-      {
         "title": "Flight delays, flooding and outages grow as storm batters East Coast",
         "source": "The Washington Post",
         "publishedAt": "2026-11-26T20:32:55Z"
       },
       {
-        "title": "Trump uses Thanksgiving message to lash out at political foes, immigrants, federal government",
-        "source": "Reuters",
-        "publishedAt": "2026-11-26T18:25:33Z"
+        "title": "Schumer, Van Hollen add to tallies of supporters for majority leader",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-26T10:52:52Z"
       },
       {
         "title": "Anarchy Breaks Out at One of America\u2019s Most Beloved Public Golf Courses",
         "source": "WSJ",
         "publishedAt": "2026-11-26T10:30:00Z"
+      },
+      {
+        "title": "Trump Tried to Cripple Huawei. Now It Is Central to China\u2019s A.I. Push.",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-26T10:01:56Z"
       }
     ]
   },
