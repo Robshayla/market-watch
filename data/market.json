@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-25T22:57:07Z",
+  "updatedAt": "2026-11-26T08:25:48Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 131.90 matched",
-    "ECB reference 1.0935 on 2026-11-25 vs Yahoo spot 1.0978",
-    "Bayer ADR ratio check 3.95 ordinary shares"
+    "Nasdaq last sale 131.94 matched",
+    "ECB reference 1.0935 on 2026-11-25 vs Yahoo spot 1.0973",
+    "Bayer ADR ratio check 4.03 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 50.68,
-      "previousClose": 52.04,
-      "change": -1.36,
-      "changePct": -2.6134,
-      "asOf": "2026-11-25T16:36:30Z",
+      "price": 51.76,
+      "previousClose": 50.68,
+      "change": 1.08,
+      "changePct": 2.131,
+      "asOf": "2026-11-26T08:10:07Z",
       "digits": 2,
       "sparkline": [
         51.94,
@@ -102,7 +102,7 @@
         50.54,
         50.56,
         50.56,
-        50.68
+        51.76
       ],
       "sessionDate": "2026-11-25"
     },
@@ -114,10 +114,10 @@
       "currency": "USD",
       "session": "us",
       "price": 14.08,
-      "previousClose": 14.38,
-      "change": -0.3,
-      "changePct": -2.0862,
-      "asOf": "2026-11-25T20:59:59Z",
+      "previousClose": 14.39,
+      "change": -0.31,
+      "changePct": -2.1543,
+      "asOf": "2026-11-25T21:00:00Z",
       "digits": 2,
       "sparkline": [
         13.69,
@@ -375,34 +375,34 @@
       "change": -18.31,
       "changePct": -0.2543,
       "digits": 2,
-      "asOf": "2026-11-25T21:32:06Z"
+      "asOf": "2026-11-25T21:00:00Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50182.95,
-      "change": 164.25,
-      "changePct": 0.3284,
+      "price": 50182.9,
+      "change": 164.2,
+      "changePct": 0.3283,
       "digits": 2,
-      "asOf": "2026-11-25T21:32:17Z"
+      "asOf": "2026-11-25T21:00:00Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 24702.13,
-      "change": -315.68,
-      "changePct": -1.2618,
+      "price": 25168.99,
+      "change": 466.86,
+      "changePct": 1.89,
       "digits": 2,
-      "asOf": "2026-11-25T17:00:00Z"
+      "asOf": "2026-11-26T08:10:33Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0978,
-      "change": 0.0011,
-      "changePct": 0.1003,
+      "price": 1.0973,
+      "change": -0.0009,
+      "changePct": -0.082,
       "digits": 4,
-      "asOf": "2026-11-25T22:56:44Z"
+      "asOf": "2026-11-26T08:24:45Z"
     }
   },
   "headlines": {
@@ -430,68 +430,68 @@
     ],
     "walmart": [
       {
+        "title": "Walmart-backed PhonePe restarts IPO process, eyes up to $15 billion valuation in market debut, source says",
+        "source": "Reuters",
+        "publishedAt": "2026-11-25T18:35:51Z"
+      },
+      {
         "title": "Walmart-owned Flipkart CEO Kalyan Krishnamurthy to step down",
         "source": "Reuters",
         "publishedAt": "2026-11-25T14:49:13Z"
       },
       {
-        "title": "Flipkart CEO Kalyan Krishnamurthy is leaving Walmart's India unit after 11 years",
-        "source": "Startup Fortune",
-        "publishedAt": "2026-11-25T08:25:33Z"
+        "title": "The 30+ Best Walmart Black Friday Deals We\u2019ve Already Found",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-25T14:00:42Z"
       },
       {
-        "title": "Flipkart CEO to Exit After Transforming Walmart\u2019s India Play",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-25T07:32:00Z"
-      },
-      {
-        "title": "Walmart Inc. (WMT) Is a Trending Stock: Facts to Know Before Betting on It",
-        "source": "Yahoo Finance",
-        "publishedAt": "2026-11-24T13:00:05Z"
+        "title": "Farm Hands on the Potomac: Walmart promotes Phuong Ha, American Conservation Experience names Jeff Parker CEO, Cargill appoints Sara Herman as director of renewable fuel regulatory affairs",
+        "source": "Agri-Pulse Communications, Inc.",
+        "publishedAt": "2026-11-25T11:05:00Z"
       }
     ],
     "nvidia": [
       {
-        "title": "S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch",
-        "source": "Reuters",
-        "publishedAt": "2026-11-25T22:32:45Z"
+        "title": "Nvidia halts chip shipments to south-east Asia",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-26T08:07:01Z"
       },
       {
-        "title": "Jensen Huang, Trump and the 11 Days That Rocked Nvidia",
-        "source": "WSJ",
-        "publishedAt": "2026-11-25T22:27:26Z"
-      },
-      {
-        "title": "Nvidia whiplash shows how much investors\u2019 financial futures depend on tech as the AI boom falters",
+        "title": "Lori Huang's Nvidia-funded foundation gained about $2.3 billion in a day on Jensen Huang's return",
         "source": "Fortune",
-        "publishedAt": "2026-11-25T21:37:00Z"
+        "publishedAt": "2026-11-26T08:07:00Z"
       },
       {
-        "title": "U.S. Stocks Mixed as Nvidia, AI Rout Continues",
-        "source": "WSJ",
-        "publishedAt": "2026-11-25T21:31:00Z"
+        "title": "Jensen Huang's Bank of Nvidia Dilemma Is Still Looming Large",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-26T07:00:00Z"
+      },
+      {
+        "title": "Hegseth, Pentagon officials floated using wartime law to reappoint Nvidia CEO",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-26T06:32:48Z"
       }
     ],
     "top": [
       {
-        "title": "Trump says he will meet El-Sayed to discuss \u2018TrumpCare\u2019",
+        "title": "The tribe who helped the Pilgrims survive their first Thanksgiving regretted it",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-25T22:43:17Z"
-      },
-      {
-        "title": "Plane crash off the coast of Mississippi kills extended family of 6 on fishing trip",
-        "source": "AP News",
-        "publishedAt": "2026-11-25T22:43:00Z"
+        "publishedAt": "2026-11-26T05:30:00Z"
       },
       {
         "title": "Kilmar Abrego Garc\u00eda arrives in Spain to start a new life",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-25T22:42:52Z"
+        "publishedAt": "2026-11-26T05:00:08Z"
       },
       {
-        "title": "Thanksgiving Storm Is Expected to Hit East Coast With Heavy Rain and Flooding",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-25T21:53:45Z"
+        "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+        "source": "Reuters",
+        "publishedAt": "2026-11-26T04:20:00Z"
+      },
+      {
+        "title": "Mexico\u2019s most powerful cartels adapt as arrests and leadership battles reshape their ranks",
+        "source": "AP News",
+        "publishedAt": "2026-11-26T04:12:00Z"
       }
     ]
   },
@@ -528,10 +528,6 @@
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-11-05",
-        "close": 56.22
-      },
       {
         "date": "2026-11-06",
         "close": 55.58
@@ -585,8 +581,8 @@
         "close": 52.04
       },
       {
-        "date": "2026-11-25",
-        "close": 50.68
+        "date": "2026-11-26",
+        "close": 51.7
       }
     ],
     "bayry": [
@@ -653,10 +649,6 @@
     ],
     "dax": [
       {
-        "date": "2026-11-05",
-        "close": 26325.0098
-      },
-      {
         "date": "2026-11-06",
         "close": 25820.3594
       },
@@ -711,6 +703,10 @@
       {
         "date": "2026-11-25",
         "close": 24702.1309
+      },
+      {
+        "date": "2026-11-26",
+        "close": 25163.0605
       }
     ]
   }
