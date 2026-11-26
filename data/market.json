@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-26T22:40:17Z",
+  "updatedAt": "2026-11-26T22:58:54Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 131.94 matched",
-    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0976",
+    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0975",
     "Bayer ADR ratio check 4.12 ordinary shares"
   ],
   "quotes": {
@@ -398,11 +398,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0976,
-      "change": -0.0006,
-      "changePct": -0.0546,
+      "price": 1.0975,
+      "change": -0.0007,
+      "changePct": -0.0637,
       "digits": 4,
-      "asOf": "2026-11-26T22:39:47Z"
+      "asOf": "2026-11-26T22:57:47Z"
     }
   },
   "headlines": {
@@ -484,14 +484,14 @@
         "publishedAt": "2026-11-26T22:01:29Z"
       },
       {
+        "title": "Thanksgiving weather live: Hundreds of flights cancelled and thousands without power in US",
+        "source": "BBC",
+        "publishedAt": "2026-11-26T20:59:14Z"
+      },
+      {
         "title": "Strobe Talbott, Journalist Who Joined Clinton\u2019s State Department, Has Died",
         "source": "The New York Times",
         "publishedAt": "2026-11-26T19:53:46Z"
-      },
-      {
-        "title": "The Macy's Thanksgiving parade is postponed. What happens to its expansive roster of performers?",
-        "source": "AP News",
-        "publishedAt": "2026-11-26T18:59:00Z"
       }
     ]
   },
