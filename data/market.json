@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-26T12:45:54Z",
+  "updatedAt": "2026-11-26T14:13:06Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 131.94 matched",
-    "ECB reference 1.0935 on 2026-11-25 vs Yahoo spot 1.0979",
-    "Bayer ADR ratio check 4.12 ordinary shares"
+    "ECB reference 1.0935 on 2026-11-25 vs Yahoo spot 1.0989",
+    "Bayer ADR ratio check 4.14 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.78,
+      "price": 53.0,
       "previousClose": 50.68,
-      "change": 2.1,
-      "changePct": 4.1436,
-      "asOf": "2026-11-26T12:30:37Z",
+      "change": 2.32,
+      "changePct": 4.5777,
+      "asOf": "2026-11-26T13:57:24Z",
       "digits": 2,
       "sparkline": [
         51.8,
@@ -76,7 +76,25 @@
         52.68,
         52.7,
         52.74,
-        52.78
+        52.82,
+        52.72,
+        52.68,
+        52.8,
+        52.86,
+        52.82,
+        52.8,
+        52.84,
+        52.74,
+        52.74,
+        52.7,
+        52.74,
+        52.8,
+        53.04,
+        53.02,
+        52.94,
+        53.0,
+        52.98,
+        53.0
       ],
       "sessionDate": "2026-11-26"
     },
@@ -364,20 +382,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25157.03,
-      "change": 454.9,
-      "changePct": 1.8415,
+      "price": 25211.29,
+      "change": 509.16,
+      "changePct": 2.0612,
       "digits": 2,
-      "asOf": "2026-11-26T12:30:41Z"
+      "asOf": "2026-11-26T13:57:54Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0979,
-      "change": -0.0003,
-      "changePct": -0.0273,
+      "price": 1.0989,
+      "change": 0.0007,
+      "changePct": 0.0637,
       "digits": 4,
-      "asOf": "2026-11-26T12:44:45Z"
+      "asOf": "2026-11-26T14:12:47Z"
     }
   },
   "headlines": {
@@ -405,6 +423,11 @@
     ],
     "walmart": [
       {
+        "title": "The 30+ Best Walmart Black Friday Deals We\u2019ve Already Found",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-26T11:36:33Z"
+      },
+      {
         "title": "Walmart-backed PhonePe restarts IPO process, eyes up to $15 billion valuation in market debut, source says",
         "source": "Reuters",
         "publishedAt": "2026-11-25T18:35:51Z"
@@ -413,11 +436,6 @@
         "title": "Walmart-owned Flipkart CEO Kalyan Krishnamurthy to step down",
         "source": "Reuters",
         "publishedAt": "2026-11-25T14:49:13Z"
-      },
-      {
-        "title": "The 30+ Best Walmart Black Friday Deals We\u2019ve Already Found",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-25T14:00:42Z"
       },
       {
         "title": "Farm Hands on the Potomac: Walmart promotes Phuong Ha, American Conservation Experience names Jeff Parker CEO, Cargill appoints Sara Herman as director of renewable fuel regulatory affairs",
@@ -432,22 +450,27 @@
         "publishedAt": "2026-11-26T11:18:03Z"
       },
       {
-        "title": "Nvidia Halts Server Shipments To 4 Southeast Asian Countries Amid New U.S. Export Curbs, Report Says",
-        "source": "Forbes",
-        "publishedAt": "2026-11-26T11:17:43Z"
-      },
-      {
-        "title": "Nvidia halts chip shipments to south-east Asia",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-26T08:07:01Z"
-      },
-      {
         "title": "Lori Huang's Nvidia-funded foundation gained about $2.3 billion in a day on Jensen Huang's return",
         "source": "Fortune",
         "publishedAt": "2026-11-26T08:07:00Z"
+      },
+      {
+        "title": "Jensen Huang's Bank of Nvidia Dilemma Is Still Looming Large",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-26T07:00:00Z"
+      },
+      {
+        "title": "Hegseth, Pentagon officials floated using wartime law to reappoint Nvidia CEO",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-26T06:32:48Z"
       }
     ],
     "top": [
+      {
+        "title": "Judge blocks FCC from early license review for ABC, which network says has had a chilling effect",
+        "source": "AP News",
+        "publishedAt": "2026-11-26T13:30:00Z"
+      },
       {
         "title": "North Korea\u2019s Kim vows to build more nuclear weapons after ignoring Trump\u2019s overture",
         "source": "AP News",
@@ -462,11 +485,6 @@
         "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
         "source": "Reuters",
         "publishedAt": "2026-11-26T04:20:00Z"
-      },
-      {
-        "title": "Mexico\u2019s most powerful cartels adapt as arrests and leadership battles reshape their ranks",
-        "source": "AP News",
-        "publishedAt": "2026-11-26T04:12:00Z"
       }
     ]
   },
@@ -561,7 +579,7 @@
       },
       {
         "date": "2026-11-26",
-        "close": 52.78
+        "close": 53.0
       }
     ],
     "bayry": [
@@ -685,7 +703,7 @@
       },
       {
         "date": "2026-11-26",
-        "close": 25159.0801
+        "close": 25210.6992
       }
     ]
   }
