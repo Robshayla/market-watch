@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-27T14:01:55Z",
+  "updatedAt": "2026-11-27T15:07:40Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 131.90 matched",
-    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0954",
-    "Bayer ADR ratio check 4.08 ordinary shares"
+    "Nasdaq last sale 132.03 matched",
+    "ECB reference 1.0957 on 2026-11-27 vs Yahoo spot 1.0949",
+    "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.5,
+      "price": 52.38,
       "previousClose": 52.82,
-      "change": -0.32,
-      "changePct": -0.6058,
-      "asOf": "2026-11-27T13:46:30Z",
+      "change": -0.44,
+      "changePct": -0.833,
+      "asOf": "2026-11-27T14:51:55Z",
       "digits": 2,
       "sparkline": [
         52.72,
@@ -42,7 +42,6 @@
         52.74,
         52.78,
         52.7,
-        52.74,
         52.84,
         52.82,
         52.76,
@@ -63,7 +62,6 @@
         52.84,
         52.82,
         52.84,
-        52.9,
         52.92,
         52.84,
         52.88,
@@ -84,15 +82,27 @@
         52.62,
         52.66,
         52.58,
-        52.58,
         52.54,
         52.44,
         52.46,
         52.42,
         52.48,
         52.48,
+        52.5,
+        52.52,
+        52.54,
+        52.58,
+        52.54,
+        52.52,
+        52.52,
         52.44,
-        52.5
+        52.5,
+        52.58,
+        52.38,
+        52.38,
+        52.46,
+        52.41,
+        52.38
       ],
       "sessionDate": "2026-11-27"
     },
@@ -103,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.08,
-      "previousClose": 14.39,
-      "change": -0.31,
-      "changePct": -2.1543,
-      "asOf": "2026-11-25T21:00:00Z",
+      "price": 14.41,
+      "previousClose": 14.08,
+      "change": 0.33,
+      "changePct": 2.3438,
+      "asOf": "2026-11-27T14:32:41Z",
       "digits": 2,
       "sparkline": [
         13.69,
@@ -161,7 +171,8 @@
         14.08,
         14.1,
         14.12,
-        14.08
+        14.08,
+        14.41
       ],
       "sessionDate": "2026-11-25"
     },
@@ -172,94 +183,24 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 131.94,
-      "previousClose": 132.31,
-      "change": -0.37,
-      "changePct": -0.2796,
-      "asOf": "2026-11-25T21:00:01Z",
+      "price": 132.02,
+      "previousClose": 131.94,
+      "change": 0.08,
+      "changePct": 0.0606,
+      "asOf": "2026-11-27T15:07:22Z",
       "digits": 2,
       "sparkline": [
-        133.03,
-        132.46,
-        132.32,
-        131.97,
-        132.11,
-        132.3,
-        132.58,
-        132.725,
-        132.48,
-        131.67,
-        131.745,
-        131.83,
-        132.1,
-        131.68,
-        131.785,
-        131.645,
-        131.935,
-        131.762,
-        132.04,
-        132.015,
-        132.0785,
-        132.145,
-        132.26,
-        132.19,
-        132.04,
-        131.965,
-        132.175,
-        132.09,
-        132.035,
-        132.13,
-        132.19,
-        132.12,
-        131.99,
-        132.17,
-        131.935,
-        131.92,
-        132.02,
-        132.145,
-        132.2127,
         132.03,
-        131.77,
-        131.72,
-        131.515,
-        131.285,
-        131.245,
-        131.3062,
-        131.41,
-        131.6017,
-        131.48,
-        131.5391,
-        131.6501,
-        131.8001,
-        131.8,
-        131.58,
-        131.72,
-        131.545,
-        131.64,
-        131.64,
-        131.76,
-        131.8,
-        131.76,
-        131.88,
-        131.75,
-        131.78,
-        132.045,
-        131.86,
-        131.94,
-        131.835,
-        131.94,
-        131.865,
-        131.97,
-        131.845,
-        131.92,
-        131.97,
-        132.18,
-        132.32,
-        132.31,
-        131.9,
-        131.94
+        132.1,
+        132.11,
+        132.0501,
+        131.935,
+        131.85,
+        132.15,
+        132.07,
+        132.02
       ],
-      "sessionDate": "2026-11-25"
+      "sessionDate": "2026-11-27"
     },
     "nvda": {
       "symbol": "NVDA",
@@ -268,132 +209,62 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 149.3,
-      "previousClose": 155.38,
-      "change": -6.08,
-      "changePct": -3.913,
-      "asOf": "2026-11-25T21:00:01Z",
+      "price": 146.2,
+      "previousClose": 149.3,
+      "change": -3.1,
+      "changePct": -2.0764,
+      "asOf": "2026-11-27T15:07:27Z",
       "digits": 2,
       "sparkline": [
-        142.13,
-        142.4424,
-        141.655,
-        142.56,
-        143.77,
-        145.625,
-        145.44,
-        143.7,
-        144.5497,
-        144.11,
-        143.69,
-        143.28,
-        143.997,
-        142.99,
-        142.655,
-        142.76,
-        142.9,
-        142.475,
-        142.625,
-        141.915,
-        142.3788,
-        141.53,
-        142.04,
-        142.11,
-        142.03,
-        142.11,
-        141.5258,
-        141.68,
-        141.885,
-        142.14,
-        143.04,
-        143.94,
-        144.712,
-        145.24,
-        144.0,
-        143.7701,
-        143.74,
-        144.095,
-        144.76,
-        144.79,
-        146.04,
-        145.65,
-        145.96,
-        146.34,
-        146.19,
-        147.48,
-        147.23,
-        147.465,
-        147.25,
-        147.16,
-        147.7,
-        148.178,
-        148.32,
-        147.85,
-        148.115,
-        148.315,
-        147.4,
-        147.1,
-        147.645,
-        148.08,
-        148.2415,
-        148.32,
-        147.9729,
-        147.681,
-        148.457,
-        147.835,
-        147.9199,
-        147.87,
-        148.06,
-        147.99,
-        148.0803,
-        148.175,
-        147.7086,
-        147.435,
-        147.7205,
-        148.53,
-        149.01,
-        149.27,
-        149.3
+        147.72,
+        147.12,
+        147.575,
+        145.97,
+        146.66,
+        146.33,
+        145.988,
+        146.33,
+        146.2
       ],
-      "sessionDate": "2026-11-25"
+      "sessionDate": "2026-11-27"
     }
   },
   "ticker": {
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7182.78,
-      "change": -18.31,
-      "changePct": -0.2543,
+      "price": 7219.39,
+      "change": 36.61,
+      "changePct": 0.5097,
       "digits": 2,
-      "asOf": "2026-11-25T21:32:06Z"
+      "asOf": "2026-11-27T15:07:25Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50182.95,
-      "change": 164.25,
-      "changePct": 0.3284,
+      "price": 50457.8,
+      "change": 274.85,
+      "changePct": 0.5477,
       "digits": 2,
-      "asOf": "2026-11-25T21:32:17Z"
+      "asOf": "2026-11-27T15:07:27Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25382.16,
-      "change": 166.64,
-      "changePct": 0.6609,
+      "price": 25344.3,
+      "change": 128.78,
+      "changePct": 0.5107,
       "digits": 2,
-      "asOf": "2026-11-27T13:46:42Z"
+      "asOf": "2026-11-27T14:52:27Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0954,
-      "change": -0.0021,
-      "changePct": -0.1913,
+      "price": 1.0949,
+      "change": -0.0026,
+      "changePct": -0.2369,
       "digits": 4,
-      "asOf": "2026-11-27T14:00:46Z"
+      "asOf": "2026-11-27T15:06:47Z"
     }
   },
   "headlines": {
@@ -443,6 +314,11 @@
     ],
     "nvidia": [
       {
+        "title": "Trump Says He Was \u2018A Little Concerned\u2019 By Stock Selloff, Insists Nvidia CEO Huang Poses No Security Risk",
+        "source": "Forbes",
+        "publishedAt": "2026-11-27T14:00:41Z"
+      },
+      {
         "title": "Lead Edge Capital's Mitchell Green on Nvidia and the global AI ecosystem",
         "source": "CNBC",
         "publishedAt": "2026-11-27T13:01:54Z"
@@ -456,18 +332,13 @@
         "title": "U.S. Stock Futures Surge As Nvidia, Anthropic And Other AI Shares Rally In Premarket Trading",
         "source": "Forbes",
         "publishedAt": "2026-11-27T10:29:27Z"
-      },
-      {
-        "title": "Watch Nvidia, AI Fears Jolt Markets: Market Snapshot",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-27T08:29:12Z"
       }
     ],
     "top": [
       {
         "title": "An exuberant fashion subculture is flourishing in the mountains of Afghanistan",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-27T13:31:53Z"
+        "publishedAt": "2026-11-27T14:31:45Z"
       },
       {
         "title": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast",
@@ -577,14 +448,10 @@
       },
       {
         "date": "2026-11-27",
-        "close": 52.5
+        "close": 52.38
       }
     ],
     "bayry": [
-      {
-        "date": "2026-11-05",
-        "close": 15.52
-      },
       {
         "date": "2026-11-06",
         "close": 15.33
@@ -640,6 +507,10 @@
       {
         "date": "2026-11-25",
         "close": 14.08
+      },
+      {
+        "date": "2026-11-27",
+        "close": 14.41
       }
     ],
     "dax": [
@@ -701,7 +572,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 25380.8496
+        "close": 25347.8398
       }
     ]
   }
