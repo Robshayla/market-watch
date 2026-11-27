@@ -1,10 +1,9 @@
 {
-  "updatedAt": "2026-11-27T08:23:59Z",
+  "updatedAt": "2026-11-27T09:40:37Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 131.94 matched",
-    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0965",
+    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0964",
     "Bayer ADR ratio check 4.11 ordinary shares"
   ],
   "quotes": {
@@ -15,96 +14,33 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.84,
+      "price": 52.76,
       "previousClose": 52.82,
-      "change": 0.02,
-      "changePct": 0.0379,
-      "asOf": "2026-11-27T08:08:22Z",
+      "change": -0.06,
+      "changePct": -0.1136,
+      "asOf": "2026-11-27T09:23:31Z",
       "digits": 2,
       "sparkline": [
-        51.8,
-        51.8,
-        51.62,
-        51.66,
-        51.72,
-        51.84,
-        51.92,
-        52.02,
-        52.28,
-        52.24,
-        52.5,
-        52.18,
-        51.98,
-        52.04,
-        52.1,
-        52.18,
-        52.12,
-        52.08,
-        52.08,
-        52.14,
-        52.18,
-        52.18,
-        52.12,
-        52.24,
-        52.12,
-        52.06,
-        52.06,
-        52.18,
-        52.16,
-        52.22,
-        52.24,
-        52.3,
-        52.36,
-        52.38,
-        52.32,
-        52.38,
-        52.4,
-        52.38,
-        52.66,
-        52.78,
-        52.68,
-        52.7,
+        52.72,
+        52.76,
         52.74,
-        52.82,
-        52.68,
+        52.74,
+        52.76,
         52.8,
-        52.86,
-        52.82,
         52.84,
+        52.76,
+        52.72,
+        52.78,
         52.74,
-        52.74,
-        52.74,
+        52.78,
+        52.82,
+        52.88,
+        52.86,
         52.8,
-        53.04,
-        53.02,
-        53.0,
-        53.0,
-        53.0,
-        52.96,
-        52.94,
-        52.92,
-        52.94,
-        53.08,
-        53.1,
-        53.16,
-        53.14,
-        53.18,
-        53.18,
-        53.22,
-        53.14,
-        53.12,
-        53.02,
-        53.02,
-        52.9,
-        52.92,
-        53.02,
-        52.96,
-        52.94,
-        52.9,
-        52.9,
-        52.84
+        52.76,
+        52.76
       ],
-      "sessionDate": "2026-11-26"
+      "sessionDate": "2026-11-27"
     },
     "bayry": {
       "symbol": "BAYRY",
@@ -389,20 +325,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25413.61,
-      "change": 198.09,
-      "changePct": 0.7856,
+      "price": 25445.56,
+      "change": 230.04,
+      "changePct": 0.9123,
       "digits": 2,
-      "asOf": "2026-11-27T08:08:48Z"
+      "asOf": "2026-11-27T09:25:26Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0965,
-      "change": -0.001,
-      "changePct": -0.0911,
+      "price": 1.0964,
+      "change": -0.0011,
+      "changePct": -0.1002,
       "digits": 4,
-      "asOf": "2026-11-27T08:23:43Z"
+      "asOf": "2026-11-27T09:39:45Z"
     }
   },
   "headlines": {
@@ -452,6 +388,16 @@
     ],
     "nvidia": [
       {
+        "title": "Watch Nvidia, AI Fears Jolt Markets: Market Snapshot",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-27T08:29:12Z"
+      },
+      {
+        "title": "World in Brief: the ECB picks its next president; S&P puts Nvidia on downgrade watchlist",
+        "source": "The Economist",
+        "publishedAt": "2026-11-27T07:28:06Z"
+      },
+      {
         "title": "Trump Says He Was \u2018A Little Concerned\u2019 By Stock Selloff, Insists Nvidia CEO Huang Poses No Security Risk",
         "source": "Forbes",
         "publishedAt": "2026-11-27T06:55:08Z"
@@ -460,19 +406,14 @@
         "title": "Watch Will the Nvidia Saga Stunt Chinese AI?",
         "source": "Bloomberg",
         "publishedAt": "2026-11-27T06:23:27Z"
-      },
-      {
-        "title": "\u2018A changed man.\u2019 How will Jensen Huang lead Nvidia now?",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-27T05:02:05Z"
-      },
-      {
-        "title": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-27T02:45:41Z"
       }
     ],
     "top": [
+      {
+        "title": "Judge Blocks F.C.C. From Targeting Disney\u2019s Local ABC Licenses",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-27T08:31:21Z"
+      },
       {
         "title": "Strobe Talbott, who helped shape Clinton-era foreign policy, dies at 80",
         "source": "The Washington Post",
@@ -487,11 +428,6 @@
         "title": "Maryland residents urged to conserve water after storm disrupts power",
         "source": "The Washington Post",
         "publishedAt": "2026-11-27T03:22:00Z"
-      },
-      {
-        "title": "Trump uses Thanksgiving message to lash out at political foes, immigrants, federal government",
-        "source": "Reuters",
-        "publishedAt": "2026-11-26T22:57:41Z"
       }
     ]
   },
@@ -512,8 +448,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com India",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -581,8 +517,12 @@
         "close": 50.68
       },
       {
+        "date": "2026-11-26",
+        "close": 52.82
+      },
+      {
         "date": "2026-11-27",
-        "close": 52.86
+        "close": 52.76
       }
     ],
     "bayry": [
@@ -706,7 +646,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 25409.2695
+        "close": 25444.4199
       }
     ]
   }
