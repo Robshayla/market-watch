@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-27T17:25:03Z",
+  "updatedAt": "2026-11-27T18:14:09Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 132.71 matched",
-    "ECB reference 1.0957 on 2026-11-27 vs Yahoo spot 1.0942",
+    "Nasdaq last sale 133.13 matched",
+    "ECB reference 1.0957 on 2026-11-27 vs Yahoo spot 1.0937",
     "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
@@ -117,7 +117,7 @@
       "previousClose": 14.08,
       "change": 0.44,
       "changePct": 3.125,
-      "asOf": "2026-11-27T17:06:05Z",
+      "asOf": "2026-11-27T17:46:46Z",
       "digits": 2,
       "sparkline": [
         14.41,
@@ -134,6 +134,10 @@
         14.53,
         14.52,
         14.52,
+        14.52,
+        14.52,
+        14.53,
+        14.52,
         14.52
       ],
       "sessionDate": "2026-11-27"
@@ -145,11 +149,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 132.72,
+      "price": 133.13,
       "previousClose": 131.94,
-      "change": 0.78,
-      "changePct": 0.5912,
-      "asOf": "2026-11-27T17:24:45Z",
+      "change": 1.19,
+      "changePct": 0.9019,
+      "asOf": "2026-11-27T18:00:00Z",
       "digits": 2,
       "sparkline": [
         132.03,
@@ -186,8 +190,16 @@
         132.65,
         132.65,
         132.64,
-        132.71,
-        132.72
+        132.72,
+        132.72,
+        132.89,
+        132.955,
+        132.94,
+        132.945,
+        132.94,
+        133.14,
+        132.85,
+        133.13
       ],
       "sessionDate": "2026-11-27"
     },
@@ -198,11 +210,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 149.38,
+      "price": 150.49,
       "previousClose": 149.3,
-      "change": 0.08,
-      "changePct": 0.0536,
-      "asOf": "2026-11-27T17:24:49Z",
+      "change": 1.19,
+      "changePct": 0.7971,
+      "asOf": "2026-11-27T18:00:00Z",
       "digits": 2,
       "sparkline": [
         147.72,
@@ -239,8 +251,16 @@
         148.8699,
         148.91,
         149.2382,
-        149.47,
-        149.38
+        149.4495,
+        149.35,
+        149.165,
+        148.79,
+        149.12,
+        148.84,
+        149.24,
+        150.62,
+        149.85,
+        150.49
       ],
       "sessionDate": "2026-11-27"
     }
@@ -249,20 +269,20 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7284.68,
-      "change": 101.9,
-      "changePct": 1.4187,
+      "price": 7297.49,
+      "change": 114.71,
+      "changePct": 1.597,
       "digits": 2,
-      "asOf": "2026-11-27T17:24:48Z"
+      "asOf": "2026-11-27T18:13:58Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50769.12,
-      "change": 586.17,
-      "changePct": 1.1681,
+      "price": 50774.94,
+      "change": 591.99,
+      "changePct": 1.1797,
       "digits": 2,
-      "asOf": "2026-11-27T17:24:49Z"
+      "asOf": "2026-11-27T18:13:58Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -276,15 +296,20 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0942,
-      "change": -0.0033,
-      "changePct": -0.3007,
+      "price": 1.0937,
+      "change": -0.0038,
+      "changePct": -0.3462,
       "digits": 4,
-      "asOf": "2026-11-27T17:24:45Z"
+      "asOf": "2026-11-27T18:13:46Z"
     }
   },
   "headlines": {
     "bayer": [
+      {
+        "title": "Exclusive | Bayer Signals Next Pharma Deals Might Target More Midstage Assets",
+        "source": "WSJ",
+        "publishedAt": "2026-11-27T17:58:27Z"
+      },
       {
         "title": "China's Hansoh Pharma strikes drug deal with Bayer unit worth nearly $3.3 billion",
         "source": "Reuters",
@@ -299,11 +324,6 @@
         "title": "Bayer Signs Cancer Drug Deal of Up to $3.25 Billion With Hansoh",
         "source": "Bloomberg",
         "publishedAt": "2026-11-25T14:37:25Z"
-      },
-      {
-        "title": "Bayer to pull kidney blockbuster Kerendia in Germany amid reimbursement dispute",
-        "source": "Fierce Pharma",
-        "publishedAt": "2026-11-25T14:11:42Z"
       }
     ],
     "walmart": [
@@ -345,42 +365,35 @@
         "publishedAt": "2026-11-27T14:53:32Z"
       },
       {
-        "title": "Lead Edge Capital's Mitchell Green on Nvidia and the global AI ecosystem",
-        "source": "CNBC",
-        "publishedAt": "2026-11-27T13:01:54Z"
+        "title": "U.S. Stock Futures Surge As Nvidia, Anthropic And Other AI Shares Rally In Premarket Trading",
+        "source": "Forbes",
+        "publishedAt": "2026-11-27T10:29:27Z"
       }
     ],
     "top": [
       {
-        "title": "Trump defends Putin friendship that Zelensky calls \u2018strange\u2019",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-27T16:56:58Z"
-      },
-      {
         "title": "Water-conservation alert lifted in Maryland after storm disrupted power",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-27T16:20:22Z"
+        "publishedAt": "2026-11-27T17:50:22Z"
       },
       {
-        "title": "Why This Democrat Wants to Defeat Chuck Schumer",
-        "source": "WSJ",
-        "publishedAt": "2026-11-27T16:01:35Z"
+        "title": "Trump defends Putin friendship that Zelensky calls \u2018strange\u2019",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-27T17:27:06Z"
       },
       {
-        "title": "Marching bands scramble to cover costs after Thanksgiving parade rearranged",
-        "source": "BBC",
-        "publishedAt": "2026-11-27T15:15:19Z"
+        "title": "After the Iowa Detonation, a Family Gathered for an Unusual Thanksgiving",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-27T17:26:00Z"
+      },
+      {
+        "title": "Heavy rain winds down as power remains out for hundreds of thousands on the East Coast",
+        "source": "AP News",
+        "publishedAt": "2026-11-27T17:25:00Z"
       }
     ]
   },
   "releases": [
-    {
-      "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 Earnings Call Is Live",
-      "source": "TradingView",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "release": true
-    },
     {
       "eventId": "bayer-q3-2026",
       "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
@@ -397,8 +410,15 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com UK",
+      "publishedAt": "2026-11-03T08:00:00Z",
+      "release": true
+    },
+    {
+      "eventId": "bayer-q3-2026",
+      "title": "Q3 2026 Bayer AG Earnings Call Transcript",
+      "source": "GuruFocus",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     }
