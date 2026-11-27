@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T22:25:57Z",
+  "updatedAt": "2026-11-27T22:58:25Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -301,7 +301,7 @@
       "change": -0.0036,
       "changePct": -0.328,
       "digits": 4,
-      "asOf": "2026-11-27T22:24:46Z"
+      "asOf": "2026-11-27T22:29:46Z"
     }
   },
   "headlines": {
@@ -356,6 +356,11 @@
         "publishedAt": "2026-11-27T19:18:51Z"
       },
       {
+        "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+        "source": "The Decoder",
+        "publishedAt": "2026-11-27T18:27:02Z"
+      },
+      {
         "title": "Trump\u2019s Nvidia intervention has a cost for US stocks",
         "source": "Financial Times",
         "publishedAt": "2026-11-27T18:26:25Z"
@@ -364,33 +369,28 @@
         "title": "Jensen Huang's Nvidia comeback may herald an 'age of resentment,' top economist Steve Hanke says",
         "source": "Business Insider",
         "publishedAt": "2026-11-27T16:04:00Z"
-      },
-      {
-        "title": "U.S. Stock Futures Surge As Nvidia, Anthropic And Other AI Shares Rally In Premarket Trading",
-        "source": "Forbes",
-        "publishedAt": "2026-11-27T10:29:27Z"
       }
     ],
     "top": [
+      {
+        "title": "Trump officials to speed president\u2019s projects with special meeting before new Congress",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-27T22:39:08Z"
+      },
+      {
+        "title": "Water-conservation alert lifted in Maryland after storm disrupted power",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-27T22:20:22Z"
+      },
       {
         "title": "Hundreds of thousands on East Coast remain without power after Thanksgiving storm",
         "source": "The Washington Post",
         "publishedAt": "2026-11-27T21:38:49Z"
       },
       {
-        "title": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
-        "source": "BBC",
-        "publishedAt": "2026-11-27T20:06:31Z"
-      },
-      {
-        "title": "Andrea Stewart-Cousins, New York\u2019s First Female Senate Majority Leader, Dies",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-27T19:43:58Z"
-      },
-      {
-        "title": "Zelensky tells BBC US too focused on Middle East and not pushing Russia hard enough",
-        "source": "BBC",
-        "publishedAt": "2026-11-27T18:00:40Z"
+        "title": "Parts of the US clean up, power outages being restored after Thanksgiving storm soaks East Coast",
+        "source": "AP News",
+        "publishedAt": "2026-11-27T20:34:00Z"
       }
     ]
   },
