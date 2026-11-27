@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-27T10:37:12Z",
+  "updatedAt": "2026-11-27T11:35:26Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0965",
+    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0964",
     "Bayer ADR ratio check 4.11 ordinary shares"
   ],
   "quotes": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.72,
+      "price": 52.82,
       "previousClose": 52.82,
-      "change": -0.1,
-      "changePct": -0.1893,
-      "asOf": "2026-11-27T10:20:08Z",
+      "change": 0.0,
+      "changePct": 0.0,
+      "asOf": "2026-11-27T11:17:35Z",
       "digits": 2,
       "sparkline": [
         52.72,
@@ -49,7 +49,19 @@
         52.76,
         52.7,
         52.72,
-        52.72
+        52.72,
+        52.8,
+        52.78,
+        52.76,
+        52.78,
+        52.84,
+        52.88,
+        52.88,
+        52.9,
+        52.86,
+        52.84,
+        52.84,
+        52.82
       ],
       "sessionDate": "2026-11-27"
     },
@@ -307,10 +319,9 @@
         147.7086,
         147.435,
         147.7205,
-        148.53,
+        148.52,
         149.01,
-        149.27,
-        149.3
+        149.29
       ],
       "sessionDate": "2026-11-25"
     }
@@ -337,20 +348,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25421.48,
-      "change": 205.96,
-      "changePct": 0.8168,
+      "price": 25423.19,
+      "change": 207.67,
+      "changePct": 0.8236,
       "digits": 2,
-      "asOf": "2026-11-27T10:21:59Z"
+      "asOf": "2026-11-27T11:20:14Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0965,
-      "change": -0.001,
-      "changePct": -0.0911,
+      "price": 1.0964,
+      "change": -0.0011,
+      "changePct": -0.1002,
       "digits": 4,
-      "asOf": "2026-11-27T10:36:46Z"
+      "asOf": "2026-11-27T11:34:47Z"
     }
   },
   "headlines": {
@@ -378,11 +389,6 @@
     ],
     "walmart": [
       {
-        "title": "The 50+ Best Walmart Black Friday Deals We\u2019ve Already Found",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-26T11:36:33Z"
-      },
-      {
         "title": "Walmart-backed PhonePe restarts IPO process, eyes up to $15 billion valuation in market debut, source says",
         "source": "Reuters",
         "publishedAt": "2026-11-25T18:35:51Z"
@@ -396,6 +402,11 @@
         "title": "Farm Hands on the Potomac: Walmart promotes Phuong Ha, American Conservation Experience names Jeff Parker CEO, Cargill appoints Sara Herman as director of renewable fuel regulatory affairs",
         "source": "Agri-Pulse Communications, Inc.",
         "publishedAt": "2026-11-25T11:05:00Z"
+      },
+      {
+        "title": "Flipkart CEO to Exit After Transforming Walmart\u2019s India Play",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-25T07:32:00Z"
       }
     ],
     "nvidia": [
@@ -415,9 +426,9 @@
         "publishedAt": "2026-11-27T06:55:08Z"
       },
       {
-        "title": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-27T02:45:41Z"
+        "title": "Watch Will the Nvidia Saga Stunt Chinese AI?",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-27T06:23:27Z"
       }
     ],
     "top": [
@@ -427,19 +438,19 @@
         "publishedAt": "2026-11-27T10:01:21Z"
       },
       {
-        "title": "Anarchy Breaks Out at One of America\u2019s Most Beloved Public Golf Courses",
-        "source": "WSJ",
-        "publishedAt": "2026-11-27T07:13:13Z"
-      },
-      {
         "title": "Strobe Talbott, who helped shape Clinton-era foreign policy, dies at 80",
         "source": "The Washington Post",
         "publishedAt": "2026-11-27T05:28:12Z"
       },
       {
-        "title": "Heavy rain, wind and flooding hit much of the US on Thanksgiving",
-        "source": "AP News",
-        "publishedAt": "2026-11-27T04:50:00Z"
+        "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+        "source": "BBC",
+        "publishedAt": "2026-11-27T05:15:26Z"
+      },
+      {
+        "title": "Maryland residents urged to conserve water after storm disrupts power",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-27T03:22:00Z"
       }
     ]
   },
@@ -460,8 +471,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
-      "source": "Investing.com India",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
+      "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -534,7 +545,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 52.72
+        "close": 52.82
       }
     ],
     "bayry": [
@@ -658,7 +669,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 25423.2695
+        "close": 25422.6094
       }
     ]
   }
