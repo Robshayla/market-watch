@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-27T15:07:40Z",
+  "updatedAt": "2026-11-27T16:15:17Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 132.03 matched",
-    "ECB reference 1.0957 on 2026-11-27 vs Yahoo spot 1.0949",
-    "Bayer ADR ratio check 3.98 ordinary shares"
+    "Nasdaq last sale 132.05 matched",
+    "ECB reference 1.0957 on 2026-11-27 vs Yahoo spot 1.0941",
+    "Bayer ADR ratio check 4.00 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.38,
+      "price": 52.66,
       "previousClose": 52.82,
-      "change": -0.44,
-      "changePct": -0.833,
-      "asOf": "2026-11-27T14:51:55Z",
+      "change": -0.16,
+      "changePct": -0.3029,
+      "asOf": "2026-11-27T15:59:17Z",
       "digits": 2,
       "sparkline": [
         52.72,
@@ -27,57 +27,49 @@
         52.74,
         52.74,
         52.76,
-        52.8,
         52.84,
         52.76,
         52.72,
         52.78,
         52.74,
-        52.78,
         52.82,
         52.88,
         52.86,
         52.8,
         52.76,
-        52.74,
         52.78,
         52.7,
+        52.74,
         52.84,
-        52.82,
         52.76,
         52.74,
         52.76,
         52.7,
-        52.72,
         52.72,
         52.8,
         52.78,
         52.76,
         52.78,
         52.84,
-        52.88,
         52.88,
         52.9,
         52.86,
         52.84,
-        52.82,
         52.84,
+        52.9,
         52.92,
         52.84,
         52.88,
-        52.78,
         52.78,
         52.76,
         52.82,
         52.8,
         52.72,
-        52.66,
         52.66,
         52.66,
         52.32,
         52.34,
         52.42,
-        52.48,
         52.54,
         52.62,
         52.66,
@@ -87,22 +79,30 @@
         52.46,
         52.42,
         52.48,
-        52.48,
         52.5,
         52.52,
         52.54,
         52.58,
         52.54,
-        52.52,
         52.52,
         52.44,
         52.5,
         52.58,
         52.38,
-        52.38,
         52.46,
-        52.41,
-        52.38
+        52.42,
+        52.42,
+        52.48,
+        52.56,
+        52.52,
+        52.56,
+        52.58,
+        52.58,
+        52.58,
+        52.64,
+        52.6,
+        52.62,
+        52.66
       ],
       "sessionDate": "2026-11-27"
     },
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.41,
+      "price": 14.39,
       "previousClose": 14.08,
-      "change": 0.33,
-      "changePct": 2.3438,
-      "asOf": "2026-11-27T14:32:41Z",
+      "change": 0.31,
+      "changePct": 2.2017,
+      "asOf": "2026-11-27T15:56:52Z",
       "digits": 2,
       "sparkline": [
         13.69,
@@ -172,7 +172,7 @@
         14.1,
         14.12,
         14.08,
-        14.41
+        14.39
       ],
       "sessionDate": "2026-11-25"
     },
@@ -183,11 +183,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 132.02,
+      "price": 132.05,
       "previousClose": 131.94,
-      "change": 0.08,
-      "changePct": 0.0606,
-      "asOf": "2026-11-27T15:07:22Z",
+      "change": 0.11,
+      "changePct": 0.0834,
+      "asOf": "2026-11-27T16:15:03Z",
       "digits": 2,
       "sparkline": [
         132.03,
@@ -197,8 +197,21 @@
         131.935,
         131.85,
         132.15,
-        132.07,
-        132.02
+        132.16,
+        131.85,
+        131.885,
+        132.01,
+        132.005,
+        132.26,
+        132.24,
+        132.085,
+        132.08,
+        132.08,
+        131.96,
+        132.005,
+        131.95,
+        132.06,
+        132.05
       ],
       "sessionDate": "2026-11-27"
     },
@@ -209,11 +222,11 @@
       "venue": "NASDAQ",
       "currency": "USD",
       "session": "us",
-      "price": 146.2,
+      "price": 147.98,
       "previousClose": 149.3,
-      "change": -3.1,
-      "changePct": -2.0764,
-      "asOf": "2026-11-27T15:07:27Z",
+      "change": -1.32,
+      "changePct": -0.8841,
+      "asOf": "2026-11-27T16:15:06Z",
       "digits": 2,
       "sparkline": [
         147.72,
@@ -223,8 +236,21 @@
         146.66,
         146.33,
         145.988,
-        146.33,
-        146.2
+        146.265,
+        147.21,
+        146.96,
+        146.9401,
+        146.97,
+        146.7,
+        147.895,
+        147.95,
+        147.765,
+        147.29,
+        147.45,
+        148.0401,
+        148.2131,
+        148.0,
+        147.978
       ],
       "sessionDate": "2026-11-27"
     }
@@ -233,38 +259,38 @@
     "sp500": {
       "symbol": "^GSPC",
       "name": "S&P 500",
-      "price": 7219.39,
-      "change": 36.61,
-      "changePct": 0.5097,
+      "price": 7261.27,
+      "change": 78.49,
+      "changePct": 1.0928,
       "digits": 2,
-      "asOf": "2026-11-27T15:07:25Z"
+      "asOf": "2026-11-27T16:15:05Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50457.8,
-      "change": 274.85,
-      "changePct": 0.5477,
+      "price": 50644.27,
+      "change": 461.32,
+      "changePct": 0.9193,
       "digits": 2,
-      "asOf": "2026-11-27T15:07:27Z"
+      "asOf": "2026-11-27T16:15:06Z"
     },
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25344.3,
-      "change": 128.78,
-      "changePct": 0.5107,
+      "price": 25450.39,
+      "change": 234.87,
+      "changePct": 0.9315,
       "digits": 2,
-      "asOf": "2026-11-27T14:52:27Z"
+      "asOf": "2026-11-27T16:00:04Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0949,
-      "change": -0.0026,
-      "changePct": -0.2369,
+      "price": 1.0941,
+      "change": -0.0034,
+      "changePct": -0.3098,
       "digits": 4,
-      "asOf": "2026-11-27T15:06:47Z"
+      "asOf": "2026-11-27T16:14:44Z"
     }
   },
   "headlines": {
@@ -314,46 +340,46 @@
     ],
     "nvidia": [
       {
-        "title": "Trump Says He Was \u2018A Little Concerned\u2019 By Stock Selloff, Insists Nvidia CEO Huang Poses No Security Risk",
-        "source": "Forbes",
-        "publishedAt": "2026-11-27T14:00:41Z"
+        "title": "Jensen Huang Said Nvidia\u2019s Blackwell Chips Were Too Big to Smuggle. Bloomberg Just Found Them in China.",
+        "source": "Yahoo Finance",
+        "publishedAt": "2026-11-27T15:50:22Z"
+      },
+      {
+        "title": "D.A. Davidson\u2019s Gil Luria: There\u2019s no doubt that Nvidia\u2019s most advanced chip ended up in China",
+        "source": "CNBC",
+        "publishedAt": "2026-11-27T15:21:45Z"
+      },
+      {
+        "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-27T14:53:32Z"
       },
       {
         "title": "Lead Edge Capital's Mitchell Green on Nvidia and the global AI ecosystem",
         "source": "CNBC",
         "publishedAt": "2026-11-27T13:01:54Z"
-      },
-      {
-        "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-27T11:45:46Z"
-      },
-      {
-        "title": "U.S. Stock Futures Surge As Nvidia, Anthropic And Other AI Shares Rally In Premarket Trading",
-        "source": "Forbes",
-        "publishedAt": "2026-11-27T10:29:27Z"
       }
     ],
     "top": [
       {
         "title": "An exuberant fashion subculture is flourishing in the mountains of Afghanistan",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-27T14:31:45Z"
+        "publishedAt": "2026-11-27T16:01:45Z"
       },
       {
-        "title": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-27T10:31:04Z"
-      },
-      {
-        "title": "Judge Blocks F.C.C. From Targeting Disney\u2019s Local ABC Licenses",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-27T05:19:00Z"
-      },
-      {
-        "title": "Maryland residents urged to conserve water after storm disrupts power",
+        "title": "Water-conservation alert lifted in Maryland after storm disrupted power",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-27T03:22:00Z"
+        "publishedAt": "2026-11-27T15:50:14Z"
+      },
+      {
+        "title": "Republicans rethink tariffs, giving Democrats an opening to challenge Trump",
+        "source": "AP News",
+        "publishedAt": "2026-11-27T12:30:00Z"
+      },
+      {
+        "title": "Why This Democrat Wants to Defeat Chuck Schumer",
+        "source": "WSJ",
+        "publishedAt": "2026-11-27T08:01:35Z"
       }
     ]
   },
@@ -448,7 +474,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 52.38
+        "close": 52.66
       }
     ],
     "bayry": [
@@ -510,7 +536,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 14.41
+        "close": 14.39
       }
     ],
     "dax": [
@@ -572,7 +598,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 25347.8398
+        "close": 25451.0293
       }
     ]
   }
