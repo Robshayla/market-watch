@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-27T21:25:09Z",
+  "updatedAt": "2026-11-27T22:25:57Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
-    "Nasdaq last sale 133.17 matched",
-    "ECB reference 1.0957 on 2026-11-27 vs Yahoo spot 1.0937",
+    "Nasdaq last sale 133.13 matched",
+    "ECB reference 1.0957 on 2026-11-27 vs Yahoo spot 1.0939",
     "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
@@ -297,11 +297,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0937,
-      "change": -0.0038,
-      "changePct": -0.3462,
+      "price": 1.0939,
+      "change": -0.0036,
+      "changePct": -0.328,
       "digits": 4,
-      "asOf": "2026-11-27T21:24:45Z"
+      "asOf": "2026-11-27T22:24:46Z"
     }
   },
   "headlines": {
@@ -351,6 +351,11 @@
     ],
     "nvidia": [
       {
+        "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-27T19:18:51Z"
+      },
+      {
         "title": "Trump\u2019s Nvidia intervention has a cost for US stocks",
         "source": "Financial Times",
         "publishedAt": "2026-11-27T18:26:25Z"
@@ -361,11 +366,6 @@
         "publishedAt": "2026-11-27T16:04:00Z"
       },
       {
-        "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-27T11:45:46Z"
-      },
-      {
         "title": "U.S. Stock Futures Surge As Nvidia, Anthropic And Other AI Shares Rally In Premarket Trading",
         "source": "Forbes",
         "publishedAt": "2026-11-27T10:29:27Z"
@@ -373,19 +373,19 @@
     ],
     "top": [
       {
-        "title": "Water-conservation alert lifted in Maryland after storm disrupted power",
+        "title": "Hundreds of thousands on East Coast remain without power after Thanksgiving storm",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-27T20:50:22Z"
+        "publishedAt": "2026-11-27T21:38:49Z"
       },
       {
         "title": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
         "source": "BBC",
-        "publishedAt": "2026-11-27T18:52:33Z"
+        "publishedAt": "2026-11-27T20:06:31Z"
       },
       {
         "title": "Andrea Stewart-Cousins, New York\u2019s First Female Senate Majority Leader, Dies",
         "source": "The New York Times",
-        "publishedAt": "2026-11-27T18:51:08Z"
+        "publishedAt": "2026-11-27T19:43:58Z"
       },
       {
         "title": "Zelensky tells BBC US too focused on Middle East and not pushing Russia hard enough",
