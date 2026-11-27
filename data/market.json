@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-26T22:58:54Z",
+  "updatedAt": "2026-11-27T08:23:59Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
     "Nasdaq last sale 131.94 matched",
-    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0975",
-    "Bayer ADR ratio check 4.12 ordinary shares"
+    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0965",
+    "Bayer ADR ratio check 4.11 ordinary shares"
   ],
   "quotes": {
     "bayn": {
@@ -15,11 +15,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.82,
-      "previousClose": 50.68,
-      "change": 2.14,
-      "changePct": 4.2226,
-      "asOf": "2026-11-26T16:35:38Z",
+      "price": 52.84,
+      "previousClose": 52.82,
+      "change": 0.02,
+      "changePct": 0.0379,
+      "asOf": "2026-11-27T08:08:22Z",
       "digits": 2,
       "sparkline": [
         51.8,
@@ -102,7 +102,7 @@
         52.94,
         52.9,
         52.9,
-        52.82
+        52.84
       ],
       "sessionDate": "2026-11-26"
     },
@@ -389,20 +389,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25215.52,
-      "change": 513.39,
-      "changePct": 2.0783,
+      "price": 25413.61,
+      "change": 198.09,
+      "changePct": 0.7856,
       "digits": 2,
-      "asOf": "2026-11-26T17:00:00Z"
+      "asOf": "2026-11-27T08:08:48Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0975,
-      "change": -0.0007,
-      "changePct": -0.0637,
+      "price": 1.0965,
+      "change": -0.001,
+      "changePct": -0.0911,
       "digits": 4,
-      "asOf": "2026-11-26T22:57:47Z"
+      "asOf": "2026-11-27T08:23:43Z"
     }
   },
   "headlines": {
@@ -452,46 +452,46 @@
     ],
     "nvidia": [
       {
-        "title": "Nvidia Tells Partners to Pause Shipments to Southeast Asia",
-        "source": "WSJ",
-        "publishedAt": "2026-11-26T17:06:00Z"
-      },
-      {
-        "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
-        "source": "CNBC",
-        "publishedAt": "2026-11-26T16:00:01Z"
-      },
-      {
-        "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
-        "source": "CNBC",
-        "publishedAt": "2026-11-26T15:34:08Z"
-      },
-      {
-        "title": "Nvidia Halts Server Shipments To 4 Southeast Asian Countries Amid New U.S. Export Curbs, Report Says",
+        "title": "Trump Says He Was \u2018A Little Concerned\u2019 By Stock Selloff, Insists Nvidia CEO Huang Poses No Security Risk",
         "source": "Forbes",
-        "publishedAt": "2026-11-26T11:17:43Z"
+        "publishedAt": "2026-11-27T06:55:08Z"
+      },
+      {
+        "title": "Watch Will the Nvidia Saga Stunt Chinese AI?",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-27T06:23:27Z"
+      },
+      {
+        "title": "\u2018A changed man.\u2019 How will Jensen Huang lead Nvidia now?",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-27T05:02:05Z"
+      },
+      {
+        "title": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-27T02:45:41Z"
       }
     ],
     "top": [
       {
-        "title": "Flight delays, flooding and outages grow as storm batters East Coast",
+        "title": "Strobe Talbott, who helped shape Clinton-era foreign policy, dies at 80",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-26T22:02:55Z"
+        "publishedAt": "2026-11-27T05:28:12Z"
       },
       {
-        "title": "Anarchy Breaks Out at One of America\u2019s Most Beloved Public Golf Courses",
-        "source": "WSJ",
-        "publishedAt": "2026-11-26T22:01:29Z"
-      },
-      {
-        "title": "Thanksgiving weather live: Hundreds of flights cancelled and thousands without power in US",
+        "title": "Major Thanksgiving storm brings flooding, flight delays across US",
         "source": "BBC",
-        "publishedAt": "2026-11-26T20:59:14Z"
+        "publishedAt": "2026-11-27T05:15:26Z"
       },
       {
-        "title": "Strobe Talbott, Journalist Who Joined Clinton\u2019s State Department, Has Died",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-26T19:53:46Z"
+        "title": "Maryland residents urged to conserve water after storm disrupts power",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-27T03:22:00Z"
+      },
+      {
+        "title": "Trump uses Thanksgiving message to lash out at political foes, immigrants, federal government",
+        "source": "Reuters",
+        "publishedAt": "2026-11-26T22:57:41Z"
       }
     ]
   },
@@ -512,8 +512,8 @@
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade",
-      "source": "Investing",
+      "title": "Bayer Q3 2026 slides: pharma momentum drives outlook upgrade By Investing.com",
+      "source": "Investing.com India",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -528,10 +528,6 @@
   "releaseFigures": {},
   "dailyCloses": {
     "bayn": [
-      {
-        "date": "2026-11-06",
-        "close": 55.58
-      },
       {
         "date": "2026-11-09",
         "close": 56.62
@@ -585,8 +581,8 @@
         "close": 50.68
       },
       {
-        "date": "2026-11-26",
-        "close": 52.82
+        "date": "2026-11-27",
+        "close": 52.86
       }
     ],
     "bayry": [
@@ -653,10 +649,6 @@
     ],
     "dax": [
       {
-        "date": "2026-11-06",
-        "close": 25820.3594
-      },
-      {
         "date": "2026-11-09",
         "close": 26267.1895
       },
@@ -711,6 +703,10 @@
       {
         "date": "2026-11-26",
         "close": 25215.5195
+      },
+      {
+        "date": "2026-11-27",
+        "close": 25409.2695
       }
     ]
   }
