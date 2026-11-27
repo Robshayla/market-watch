@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-27T11:35:26Z",
+  "updatedAt": "2026-11-27T12:44:05Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": true,
   "provenance": [
-    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0964",
+    "ECB reference 1.0975 on 2026-11-26 vs Yahoo spot 1.0970",
     "Bayer ADR ratio check 4.11 ordinary shares"
   ],
   "quotes": {
@@ -14,11 +14,11 @@
       "venue": "Frankfurt",
       "currency": "EUR",
       "session": "xetra",
-      "price": 52.82,
+      "price": 52.7,
       "previousClose": 52.82,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-27T11:17:35Z",
+      "change": -0.12,
+      "changePct": -0.2272,
+      "asOf": "2026-11-27T12:26:43Z",
       "digits": 2,
       "sparkline": [
         52.72,
@@ -60,8 +60,21 @@
         52.9,
         52.86,
         52.84,
+        52.82,
         52.84,
-        52.82
+        52.9,
+        52.92,
+        52.84,
+        52.88,
+        52.78,
+        52.78,
+        52.76,
+        52.82,
+        52.8,
+        52.72,
+        52.66,
+        52.66,
+        52.7
       ],
       "sessionDate": "2026-11-27"
     },
@@ -319,9 +332,10 @@
         147.7086,
         147.435,
         147.7205,
-        148.52,
+        148.53,
         149.01,
-        149.29
+        149.27,
+        149.3
       ],
       "sessionDate": "2026-11-25"
     }
@@ -348,20 +362,20 @@
     "dax": {
       "symbol": "^GDAXI",
       "name": "DAX",
-      "price": 25423.19,
-      "change": 207.67,
-      "changePct": 0.8236,
+      "price": 25369.98,
+      "change": 154.46,
+      "changePct": 0.6126,
       "digits": 2,
-      "asOf": "2026-11-27T11:20:14Z"
+      "asOf": "2026-11-27T12:28:53Z"
     },
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0964,
-      "change": -0.0011,
-      "changePct": -0.1002,
+      "price": 1.097,
+      "change": -0.0005,
+      "changePct": -0.0456,
       "digits": 4,
-      "asOf": "2026-11-27T11:34:47Z"
+      "asOf": "2026-11-27T12:43:44Z"
     }
   },
   "headlines": {
@@ -389,6 +403,11 @@
     ],
     "walmart": [
       {
+        "title": "It's going to be a good holiday season for retail, says former Walmart CEO Bill Simon",
+        "source": "CNBC",
+        "publishedAt": "2026-11-27T12:17:28Z"
+      },
+      {
         "title": "Walmart-backed PhonePe restarts IPO process, eyes up to $15 billion valuation in market debut, source says",
         "source": "Reuters",
         "publishedAt": "2026-11-25T18:35:51Z"
@@ -399,17 +418,17 @@
         "publishedAt": "2026-11-25T14:49:13Z"
       },
       {
-        "title": "Farm Hands on the Potomac: Walmart promotes Phuong Ha, American Conservation Experience names Jeff Parker CEO, Cargill appoints Sara Herman as director of renewable fuel regulatory affairs",
-        "source": "Agri-Pulse Communications, Inc.",
-        "publishedAt": "2026-11-25T11:05:00Z"
-      },
-      {
         "title": "Flipkart CEO to Exit After Transforming Walmart\u2019s India Play",
         "source": "Bloomberg",
         "publishedAt": "2026-11-25T07:32:00Z"
       }
     ],
     "nvidia": [
+      {
+        "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-27T11:45:46Z"
+      },
       {
         "title": "U.S. Stock Futures Surge As Nvidia, Anthropic And Other AI Shares Rally In Premarket Trading",
         "source": "Forbes",
@@ -424,33 +443,28 @@
         "title": "Trump Says He Was \u2018A Little Concerned\u2019 By Stock Selloff, Insists Nvidia CEO Huang Poses No Security Risk",
         "source": "Forbes",
         "publishedAt": "2026-11-27T06:55:08Z"
-      },
-      {
-        "title": "Watch Will the Nvidia Saga Stunt Chinese AI?",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-27T06:23:27Z"
       }
     ],
     "top": [
       {
+        "title": "Denials soar for \u2018extraordinary ability\u2019 visa in program once used by Melania Trump",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-27T12:15:00Z"
+      },
+      {
+        "title": "Anarchy Breaks Out at One of America\u2019s Most Beloved Public Golf Courses",
+        "source": "WSJ",
+        "publishedAt": "2026-11-27T12:01:29Z"
+      },
+      {
         "title": "Judge Blocks F.C.C. From Targeting Disney\u2019s Local ABC Licenses",
         "source": "The New York Times",
-        "publishedAt": "2026-11-27T10:01:21Z"
+        "publishedAt": "2026-11-27T11:31:21Z"
       },
       {
-        "title": "Strobe Talbott, who helped shape Clinton-era foreign policy, dies at 80",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-27T05:28:12Z"
-      },
-      {
-        "title": "Major Thanksgiving storm brings flooding, flight delays across US",
-        "source": "BBC",
-        "publishedAt": "2026-11-27T05:15:26Z"
-      },
-      {
-        "title": "Maryland residents urged to conserve water after storm disrupts power",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-27T03:22:00Z"
+        "title": "Thanksgiving Storm Leaves Half a Million Without Power on the East Coast",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-27T10:31:04Z"
       }
     ]
   },
@@ -545,7 +559,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 52.82
+        "close": 52.7
       }
     ],
     "bayry": [
@@ -669,7 +683,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 25422.6094
+        "close": 25371.1992
       }
     ]
   }
