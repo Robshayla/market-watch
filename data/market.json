@@ -1,10 +1,9 @@
 {
-  "updatedAt": "2026-11-27T18:14:09Z",
+  "updatedAt": "2026-11-27T19:16:13Z",
   "delayNote": "Quotes delayed 15 min",
-  "degraded": false,
+  "degraded": true,
   "provenance": [
-    "Nasdaq last sale 133.13 matched",
-    "ECB reference 1.0957 on 2026-11-27 vs Yahoo spot 1.0937",
+    "ECB reference 1.0957 on 2026-11-27 vs Yahoo spot 1.0935",
     "Bayer ADR ratio check 3.98 ordinary shares"
   ],
   "quotes": {
@@ -117,7 +116,7 @@
       "previousClose": 14.08,
       "change": 0.44,
       "changePct": 3.125,
-      "asOf": "2026-11-27T17:46:46Z",
+      "asOf": "2026-11-27T17:59:59Z",
       "digits": 2,
       "sparkline": [
         14.41,
@@ -137,6 +136,7 @@
         14.52,
         14.52,
         14.53,
+        14.52,
         14.52,
         14.52
       ],
@@ -273,7 +273,7 @@
       "change": 114.71,
       "changePct": 1.597,
       "digits": 2,
-      "asOf": "2026-11-27T18:13:58Z"
+      "asOf": "2026-11-27T18:38:39Z"
     },
     "dow": {
       "symbol": "^DJI",
@@ -282,7 +282,7 @@
       "change": 591.99,
       "changePct": 1.1797,
       "digits": 2,
-      "asOf": "2026-11-27T18:13:58Z"
+      "asOf": "2026-11-27T18:38:45Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -296,11 +296,11 @@
     "eurusd": {
       "symbol": "EURUSD=X",
       "name": "EUR/USD",
-      "price": 1.0937,
-      "change": -0.0038,
-      "changePct": -0.3462,
+      "price": 1.0935,
+      "change": -0.004,
+      "changePct": -0.3645,
       "digits": 4,
-      "asOf": "2026-11-27T18:13:46Z"
+      "asOf": "2026-11-27T19:15:47Z"
     }
   },
   "headlines": {
@@ -338,14 +338,14 @@
         "publishedAt": "2026-11-27T12:17:00Z"
       },
       {
-        "title": "Walmart-owned Flipkart CEO Kalyan Krishnamurthy to step down",
-        "source": "Reuters",
-        "publishedAt": "2026-11-25T14:49:13Z"
-      },
-      {
         "title": "Flipkart CEO to Exit After Transforming Walmart\u2019s India Play",
         "source": "Bloomberg",
         "publishedAt": "2026-11-25T07:32:00Z"
+      },
+      {
+        "title": "Walmart CEO John Furner on Q3 results: Customers continue to look for value",
+        "source": "CNBC",
+        "publishedAt": "2026-11-19T12:36:00Z"
       }
     ],
     "nvidia": [
@@ -365,31 +365,31 @@
         "publishedAt": "2026-11-27T14:53:32Z"
       },
       {
-        "title": "U.S. Stock Futures Surge As Nvidia, Anthropic And Other AI Shares Rally In Premarket Trading",
-        "source": "Forbes",
-        "publishedAt": "2026-11-27T10:29:27Z"
+        "title": "Lead Edge Capital's Mitchell Green on Nvidia and the global AI ecosystem",
+        "source": "CNBC",
+        "publishedAt": "2026-11-27T13:01:54Z"
       }
     ],
     "top": [
       {
-        "title": "Water-conservation alert lifted in Maryland after storm disrupted power",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-27T17:50:22Z"
+        "title": "Why This Democrat Wants to Defeat Chuck Schumer",
+        "source": "WSJ",
+        "publishedAt": "2026-11-27T19:01:35Z"
       },
       {
-        "title": "Trump defends Putin friendship that Zelensky calls \u2018strange\u2019",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-27T17:27:06Z"
-      },
-      {
-        "title": "After the Iowa Detonation, a Family Gathered for an Unusual Thanksgiving",
-        "source": "The New York Times",
-        "publishedAt": "2026-11-27T17:26:00Z"
+        "title": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+        "source": "BBC",
+        "publishedAt": "2026-11-27T18:52:33Z"
       },
       {
         "title": "Heavy rain winds down as power remains out for hundreds of thousands on the East Coast",
         "source": "AP News",
-        "publishedAt": "2026-11-27T17:25:00Z"
+        "publishedAt": "2026-11-27T18:05:00Z"
+      },
+      {
+        "title": "Water-conservation alert lifted in Maryland after storm disrupted power",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-27T17:50:22Z"
       }
     ]
   },
