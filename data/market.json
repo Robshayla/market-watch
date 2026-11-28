@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T22:58:25Z",
+  "updatedAt": "2026-11-28T08:49:30Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -113,11 +113,11 @@
       "venue": "OTC",
       "currency": "USD",
       "session": "us",
-      "price": 14.52,
+      "price": 14.54,
       "previousClose": 14.08,
-      "change": 0.44,
-      "changePct": 3.125,
-      "asOf": "2026-11-27T17:59:59Z",
+      "change": 0.46,
+      "changePct": 3.267,
+      "asOf": "2026-11-27T21:00:00Z",
       "digits": 2,
       "sparkline": [
         14.41,
@@ -274,16 +274,16 @@
       "change": 114.71,
       "changePct": 1.597,
       "digits": 2,
-      "asOf": "2026-11-27T18:38:39Z"
+      "asOf": "2026-11-27T21:00:00Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50774.94,
-      "change": 591.99,
+      "price": 50774.9,
+      "change": 592.0,
       "changePct": 1.1797,
       "digits": 2,
-      "asOf": "2026-11-27T18:38:45Z"
+      "asOf": "2026-11-27T21:00:00Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -339,73 +339,73 @@
         "publishedAt": "2026-11-27T12:17:00Z"
       },
       {
-        "title": "Flipkart CEO to Exit After Transforming Walmart\u2019s India Play",
-        "source": "Bloomberg",
-        "publishedAt": "2026-11-25T07:32:00Z"
+        "title": "The 50+ Best Walmart Black Friday Deals",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-27T09:24:33Z"
       },
       {
-        "title": "Walmart CEO: We're trying to keep prices as low as possible",
-        "source": "CNBC",
-        "publishedAt": "2026-11-19T14:24:00Z"
+        "title": "Walmart-backed PhonePe restarts IPO process, eyes up to $15 billion valuation in market debut, source says",
+        "source": "Reuters",
+        "publishedAt": "2026-11-25T18:35:51Z"
       }
     ],
     "nvidia": [
+      {
+        "title": "Trump says he talked Nvidia\u2019s board into reinstating Jensen Huang. It\u2019s not the first company he\u2019s stepped into",
+        "source": "Fortune",
+        "publishedAt": "2026-11-28T08:32:00Z"
+      },
       {
         "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
         "source": "Bloomberg",
         "publishedAt": "2026-11-27T19:18:51Z"
       },
       {
-        "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
-        "source": "The Decoder",
-        "publishedAt": "2026-11-27T18:27:02Z"
-      },
-      {
-        "title": "Trump\u2019s Nvidia intervention has a cost for US stocks",
-        "source": "Financial Times",
-        "publishedAt": "2026-11-27T18:26:25Z"
-      },
-      {
         "title": "Jensen Huang's Nvidia comeback may herald an 'age of resentment,' top economist Steve Hanke says",
         "source": "Business Insider",
         "publishedAt": "2026-11-27T16:04:00Z"
+      },
+      {
+        "title": "Trump Says He Was \u2018A Little Concerned\u2019 By Stock Selloff, Insists Nvidia CEO Huang Poses No Security Risk",
+        "source": "Forbes",
+        "publishedAt": "2026-11-27T06:55:08Z"
       }
     ],
     "top": [
       {
+        "title": "Parts of the US clean up, power being restored after Thanksgiving storm soaks East Coast",
+        "source": "AP News",
+        "publishedAt": "2026-11-28T05:38:00Z"
+      },
+      {
+        "title": "Trump\u2019s Embrace of Xi and Huang Stuns China Critics in Washington",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-28T05:19:36Z"
+      },
+      {
+        "title": "Nebraska Sen. Deb Fischer\u2019s husband died by suicide, her office says",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-28T04:36:09Z"
+      },
+      {
         "title": "Trump officials to speed president\u2019s projects with special meeting before new Congress",
         "source": "The Washington Post",
-        "publishedAt": "2026-11-27T22:39:08Z"
-      },
-      {
-        "title": "Water-conservation alert lifted in Maryland after storm disrupted power",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-27T22:20:22Z"
-      },
-      {
-        "title": "Hundreds of thousands on East Coast remain without power after Thanksgiving storm",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-27T21:38:49Z"
-      },
-      {
-        "title": "Parts of the US clean up, power outages being restored after Thanksgiving storm soaks East Coast",
-        "source": "AP News",
-        "publishedAt": "2026-11-27T20:34:00Z"
+        "publishedAt": "2026-11-28T04:26:11Z"
       }
     ]
   },
   "releases": [
     {
       "eventId": "bayer-q3-2026",
-      "title": "Bayer Q3 2026 Earnings Call Is Live",
-      "source": "TradingView",
+      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
+      "source": "Investing",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
     {
       "eventId": "bayer-q3-2026",
-      "title": "Earnings call transcript: Bayer Q3 2026 beats outlook, shares jump 7%",
-      "source": "Investing",
+      "title": "Bayer Q3 2026 Earnings Call Is Live",
+      "source": "TradingView",
       "publishedAt": "2026-11-03T08:00:00Z",
       "release": true
     },
@@ -547,7 +547,7 @@
       },
       {
         "date": "2026-11-27",
-        "close": 14.52
+        "close": 14.54
       }
     ],
     "dax": [
