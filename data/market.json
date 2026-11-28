@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T08:49:30Z",
+  "updatedAt": "2026-11-28T14:00:03Z",
   "delayNote": "Quotes delayed 15 min",
   "degraded": false,
   "provenance": [
@@ -274,16 +274,16 @@
       "change": 114.71,
       "changePct": 1.597,
       "digits": 2,
-      "asOf": "2026-11-27T21:00:00Z"
+      "asOf": "2026-11-27T18:38:39Z"
     },
     "dow": {
       "symbol": "^DJI",
       "name": "DOW",
-      "price": 50774.9,
-      "change": 592.0,
-      "changePct": 1.1797,
+      "price": 50774.94,
+      "change": 592.04,
+      "changePct": 1.1798,
       "digits": 2,
-      "asOf": "2026-11-27T21:00:00Z"
+      "asOf": "2026-11-27T18:38:45Z"
     },
     "dax": {
       "symbol": "^GDAXI",
@@ -344,9 +344,9 @@
         "publishedAt": "2026-11-27T09:24:33Z"
       },
       {
-        "title": "Walmart-backed PhonePe restarts IPO process, eyes up to $15 billion valuation in market debut, source says",
-        "source": "Reuters",
-        "publishedAt": "2026-11-25T18:35:51Z"
+        "title": "Flipkart CEO to Exit After Transforming Walmart\u2019s India Play",
+        "source": "Bloomberg",
+        "publishedAt": "2026-11-25T07:32:00Z"
       }
     ],
     "nvidia": [
@@ -361,36 +361,36 @@
         "publishedAt": "2026-11-27T19:18:51Z"
       },
       {
+        "title": "Trump\u2019s Nvidia intervention has a cost for US stocks",
+        "source": "Financial Times",
+        "publishedAt": "2026-11-27T18:26:25Z"
+      },
+      {
         "title": "Jensen Huang's Nvidia comeback may herald an 'age of resentment,' top economist Steve Hanke says",
         "source": "Business Insider",
         "publishedAt": "2026-11-27T16:04:00Z"
-      },
-      {
-        "title": "Trump Says He Was \u2018A Little Concerned\u2019 By Stock Selloff, Insists Nvidia CEO Huang Poses No Security Risk",
-        "source": "Forbes",
-        "publishedAt": "2026-11-27T06:55:08Z"
       }
     ],
     "top": [
       {
-        "title": "Parts of the US clean up, power being restored after Thanksgiving storm soaks East Coast",
-        "source": "AP News",
-        "publishedAt": "2026-11-28T05:38:00Z"
+        "title": "The shrinking number of prosecutors bringing DOJ\u2019s high-profile cases",
+        "source": "The Washington Post",
+        "publishedAt": "2026-11-28T12:33:14Z"
+      },
+      {
+        "title": "Millions of Children Are Losing Food Stamps",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-28T10:02:17Z"
+      },
+      {
+        "title": "How One Woman\u2019s Quest for Clean Water Shook Up a Texas Town",
+        "source": "The New York Times",
+        "publishedAt": "2026-11-28T10:00:32Z"
       },
       {
         "title": "Trump\u2019s Embrace of Xi and Huang Stuns China Critics in Washington",
         "source": "The New York Times",
         "publishedAt": "2026-11-28T05:19:36Z"
-      },
-      {
-        "title": "Nebraska Sen. Deb Fischer\u2019s husband died by suicide, her office says",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-28T04:36:09Z"
-      },
-      {
-        "title": "Trump officials to speed president\u2019s projects with special meeting before new Congress",
-        "source": "The Washington Post",
-        "publishedAt": "2026-11-28T04:26:11Z"
       }
     ]
   },
